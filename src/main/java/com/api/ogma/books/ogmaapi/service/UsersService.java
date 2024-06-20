@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.UsersRequest;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.UsersRepository;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -38,7 +39,7 @@ public class UsersService {
      * @param id User ID
      */
     public UserResponse getUser(Long id) {
-        User user = usersRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
+        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
         return UserResponse.builder()
                            .id(user.getId())
                            .name(user.getName())
@@ -63,7 +64,7 @@ public class UsersService {
      * @param usersRequest User request
      */
     public void updateUser(Long id, UsersRequest usersRequest) {
-        User user = usersRepository.findById(id).orElseThrow(() -> new RuntimeException("User not found"));
+        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
         user.setName(usersRequest.getName());
         user.setLongName(usersRequest.getLongName());
         user.setUsername(usersRequest.getUsername());
