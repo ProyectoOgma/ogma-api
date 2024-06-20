@@ -17,11 +17,6 @@ public class UsersController {
 
     private final UsersService usersService;
 
-    @PostMapping("/create")
-    public ResponseEntity<String> createUser(@RequestBody UsersRequest usersRequest) {
-        usersService.createUser(usersRequest);
-        return new ResponseEntity<>("User created successfully", HttpStatus.CREATED);
-    }
 
     @GetMapping("/get/{id}")
     public ResponseEntity<UserResponse> getUser(@PathVariable Long id) {

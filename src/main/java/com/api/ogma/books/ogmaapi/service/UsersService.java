@@ -19,22 +19,6 @@ public class UsersService {
     private final UsersRepository usersRepository;
 
     /**
-     * Create a new user
-     * @param usersRequest User request
-     */
-    public void createUser(UsersRequest usersRequest) {
-        User user = User.builder()
-                        .name(usersRequest.getName())
-                        .longName(usersRequest.getLongName())
-                        .username(usersRequest.getUsername())
-                        .email(usersRequest.getEmail())
-                        .build();
-
-        usersRepository.save(user);
-        log.info("User created successfully");
-    }
-
-    /**
      * Update an existing user
      * @param id User ID
      */
@@ -43,7 +27,7 @@ public class UsersService {
         return UserResponse.builder()
                            .id(user.getId())
                            .name(user.getName())
-                           .longName(user.getLongName())
+                           .lastName(user.getLastName())
                            .username(user.getUsername())
                            .email(user.getEmail())
                            .build();
@@ -66,8 +50,7 @@ public class UsersService {
     public void updateUser(Long id, UsersRequest usersRequest) {
         User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
         user.setName(usersRequest.getName());
-        user.setLongName(usersRequest.getLongName());
-        user.setUsername(usersRequest.getUsername());
+        user.setLastName(usersRequest.getLastName());
         user.setEmail(usersRequest.getEmail());
 
         usersRepository.save(user);

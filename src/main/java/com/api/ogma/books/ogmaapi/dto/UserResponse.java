@@ -11,7 +11,7 @@ import java.util.List;
 public class UserResponse {
     private Long id;
     private String name;
-    private String longName;
+    private String lastName;
     private String username;
     private String email;
 
@@ -20,7 +20,7 @@ public class UserResponse {
                     .map(user -> UserResponse.builder()
                                               .id(user.getId())
                                               .name(user.getName())
-                                              .longName(user.getLongName())
+                                              .lastName(user.getLastName())
                                               .username(user.getUsername())
                                               .email(user.getEmail())
                                               .build())
