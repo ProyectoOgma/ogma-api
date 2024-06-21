@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.config;
 
+import com.api.ogma.books.ogmaapi.controller.filter.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

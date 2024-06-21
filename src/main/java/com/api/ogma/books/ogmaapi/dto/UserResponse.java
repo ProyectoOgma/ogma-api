@@ -1,13 +1,17 @@
 package com.api.ogma.books.ogmaapi.dto;
 
 import com.api.ogma.books.ogmaapi.model.User;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserResponse {
     private Long id;
     private String name;

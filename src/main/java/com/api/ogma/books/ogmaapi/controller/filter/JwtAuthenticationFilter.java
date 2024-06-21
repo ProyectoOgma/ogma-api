@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.config;
+package com.api.ogma.books.ogmaapi.controller.filter;
 
 import com.api.ogma.books.ogmaapi.service.JwtService;
 import jakarta.servlet.FilterChain;
