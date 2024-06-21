@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.dto;
+package com.api.ogma.books.ogmaapi.dto.response;
 
 import com.api.ogma.books.ogmaapi.model.User;
 import lombok.AllArgsConstructor;

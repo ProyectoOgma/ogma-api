@@ -1,15 +1,16 @@
-package com.api.ogma.books.ogmaapi.dto;
+package com.api.ogma.books.ogmaapi.dto.request;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UsersRequest {
-    private String name;
-    private String lastName;
-    private String username;
+public class AuthenticationRequest {
+
     private String email;
+    private String password;
 }

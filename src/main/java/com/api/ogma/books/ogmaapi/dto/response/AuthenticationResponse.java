@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.dto;
+package com.api.ogma.books.ogmaapi.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

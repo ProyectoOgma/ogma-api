@@ -1,8 +1,8 @@
 package com.api.ogma.books.ogmaapi.controller;
 
-import com.api.ogma.books.ogmaapi.dto.AuthenticationRequest;
-import com.api.ogma.books.ogmaapi.dto.AuthenticationResponse;
-import com.api.ogma.books.ogmaapi.dto.RegisterRequest;
+import com.api.ogma.books.ogmaapi.dto.request.AuthenticationRequest;
+import com.api.ogma.books.ogmaapi.dto.response.AuthenticationResponse;
+import com.api.ogma.books.ogmaapi.dto.request.RegisterRequest;
 import com.api.ogma.books.ogmaapi.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

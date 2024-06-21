@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.dto;
+package com.api.ogma.books.ogmaapi.dto.request;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

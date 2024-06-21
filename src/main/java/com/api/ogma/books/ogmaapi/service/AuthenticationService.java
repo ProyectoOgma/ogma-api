@@ -1,8 +1,8 @@
 package com.api.ogma.books.ogmaapi.service;
 
-import com.api.ogma.books.ogmaapi.dto.AuthenticationRequest;
-import com.api.ogma.books.ogmaapi.dto.AuthenticationResponse;
-import com.api.ogma.books.ogmaapi.dto.RegisterRequest;
+import com.api.ogma.books.ogmaapi.dto.request.AuthenticationRequest;
+import com.api.ogma.books.ogmaapi.dto.response.AuthenticationResponse;
+import com.api.ogma.books.ogmaapi.dto.request.RegisterRequest;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.UsersRepository;
 import com.api.ogma.books.ogmaapi.security.Role;
@@ -11,8 +11,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor

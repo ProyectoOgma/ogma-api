@@ -1,8 +1,8 @@
 package com.api.ogma.books.ogmaapi.controller;
 
-import com.api.ogma.books.ogmaapi.dto.UserResponse;
-import com.api.ogma.books.ogmaapi.dto.UsersRequest;
-import com.api.ogma.books.ogmaapi.service.UsersService;
+import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
+import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
+import com.api.ogma.books.ogmaapi.service.UserService;
 import com.api.ogma.books.ogmaapi.OgmaApiApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -26,13 +26,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest(classes = OgmaApiApplication.class)
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
-public class UsersControllerTest {
+public class UserControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
 
     @MockBean
-    private UsersService usersService;
+    private UserService userService;
 
     private static final String API_PATH = "/ogma/api";
 
@@ -40,7 +40,7 @@ public class UsersControllerTest {
     @WithMockUser(username = "user", roles = {"USER"})
     public void testGetUser() throws Exception {
         UserResponse userResponse = buildUserResponse(); // Configura tu respuesta mock
-        when(usersService.getUser(1L)).thenReturn(userResponse);
+        when(userService.getUser(1L)).thenReturn(userResponse);
 
         mockMvc.perform(get(API_PATH + "/users/get/1"))
                 .andExpect(status().isOk());
@@ -50,7 +50,7 @@ public class UsersControllerTest {
     @WithMockUser(username = "user", roles = {"USER"})
     public void testGetAllUsers() throws Exception {
         List<UserResponse> userResponses = Collections.singletonList(buildUserResponse()); // Configura tu respuesta mock
-        when(usersService.getAllUsers()).thenReturn(userResponses);
+        when(userService.getAllUsers()).thenReturn(userResponses);
 
         mockMvc.perform(get(API_PATH + "/users/getAll"))
                 .andExpect(status().isOk());
@@ -72,16 +72,16 @@ public class UsersControllerTest {
     @Test
     @WithMockUser(username = "admin", roles = {"ADMIN"})
     public void testUpdateUser() throws Exception {
-        UsersRequest usersRequest = new UsersRequest();
-        usersRequest.setName("John");
-        usersRequest.setLastName("Doe");
-        usersRequest.setUsername("johndoe");
-        usersRequest.setEmail("test@gmail.com");
+        UserRequest userRequest = new UserRequest();
+        userRequest.setName("John");
+        userRequest.setLastName("Doe");
+        userRequest.setUsername("johndoe");
+        userRequest.setEmail("test@gmail.com");
 
 
         mockMvc.perform(put(API_PATH + "/users/update/1")
                         .contentType("application/json")
-                        .content(new ObjectMapper().writeValueAsString(usersRequest)))
+                        .content(new ObjectMapper().writeValueAsString(userRequest)))
                 .andExpect(status().isOk())
                 .andExpect(content().string("User updated successfully"));
     }
