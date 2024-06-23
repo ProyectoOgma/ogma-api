@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.service.UserService;
 import com.api.ogma.books.ogmaapi.OgmaApiApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -57,18 +58,15 @@ public class UserControllerTest {
                 .andExpect(status().isOk());
     }
 
-    //TODO: Cuando este implementado el exception handler
-    /*
     @Test
     @WithMockUser(username = "user", roles = {"USER"})
     public void testGetUserThrowsException() throws Exception {
-        when(usersService.getUser(1L)).thenThrow(new RuntimeException("User not found"));
+        when(userService.getUser(1L)).thenThrow(new EntityNotFoundException("User not found"));
 
         mockMvc.perform(get(API_PATH + "/users/get/1"))
                 .andExpect(status().isInternalServerError());
     }
 
-     */
 
     @Test
     @WithMockUser(username = "admin", roles = {"ADMIN"})
