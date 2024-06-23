@@ -38,6 +38,7 @@ public class LibroHandler {
         try {
             libroResponse = libroMapper.fromLibroDTOToResponse(libroService.getLibroByIsbn(isbn));
         } catch (EntityNotFoundException e) {
+            //TODO: Implementar llamada a API externa
             //retrieve busqueda de libro en una API externa
             //Response response = libroApiClient.retrieveLibro(isbn);
             if (/*response == null*/true){
