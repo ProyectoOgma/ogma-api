@@ -1,7 +1,7 @@
 package com.api.ogma.books.ogmaapi.service;
 
-import com.api.ogma.books.ogmaapi.dto.UserResponse;
-import com.api.ogma.books.ogmaapi.dto.UsersRequest;
+import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
+import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.UsersRepository;
 import jakarta.persistence.EntityNotFoundException;
@@ -14,25 +14,9 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class UsersService {
+public class UserService {
 
     private final UsersRepository usersRepository;
-
-    /**
-     * Create a new user
-     * @param usersRequest User request
-     */
-    public void createUser(UsersRequest usersRequest) {
-        User user = User.builder()
-                        .name(usersRequest.getName())
-                        .longName(usersRequest.getLongName())
-                        .username(usersRequest.getUsername())
-                        .email(usersRequest.getEmail())
-                        .build();
-
-        usersRepository.save(user);
-        log.info("User created successfully");
-    }
 
     /**
      * Update an existing user
@@ -43,7 +27,7 @@ public class UsersService {
         return UserResponse.builder()
                            .id(user.getId())
                            .name(user.getName())
-                           .longName(user.getLongName())
+                           .lastName(user.getLastName())
                            .username(user.getUsername())
                            .email(user.getEmail())
                            .build();
@@ -61,14 +45,13 @@ public class UsersService {
     /**
      * Update an existing user
      * @param id User ID
-     * @param usersRequest User request
+     * @param userRequest User request
      */
-    public void updateUser(Long id, UsersRequest usersRequest) {
+    public void updateUser(Long id, UserRequest userRequest) {
         User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
-        user.setName(usersRequest.getName());
-        user.setLongName(usersRequest.getLongName());
-        user.setUsername(usersRequest.getUsername());
-        user.setEmail(usersRequest.getEmail());
+        user.setName(userRequest.getName());
+        user.setLastName(userRequest.getLastName());
+        user.setEmail(userRequest.getEmail());
 
         usersRepository.save(user);
         log.info("User {} updated successfully", user.getId());
