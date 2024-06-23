@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.service;
 
+import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.model.User;
@@ -45,13 +46,13 @@ public class UserService {
     /**
      * Update an existing user
      * @param id User ID
-     * @param userRequest User request
+     * @param userDTO User request
      */
-    public void updateUser(Long id, UserRequest userRequest) {
+    public void updateUser(Long id, UserDTO userDTO) {
         User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
-        user.setName(userRequest.getName());
-        user.setLastName(userRequest.getLastName());
-        user.setEmail(userRequest.getEmail());
+        user.setName(userDTO.getName());
+        user.setLastName(userDTO.getLastName());
+        user.setEmail(userDTO.getEmail());
 
         usersRepository.save(user);
         log.info("User {} updated successfully", user.getId());

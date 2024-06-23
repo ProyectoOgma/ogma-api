@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.controller.filter;
 
+import com.api.ogma.books.ogmaapi.adapter.filter.JwtAuthenticationFilter;
 import com.api.ogma.books.ogmaapi.service.JwtService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
