@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.controller.filter;
+package com.api.ogma.books.ogmaapi.adapter.filter;
 
 import com.api.ogma.books.ogmaapi.service.JwtService;
 import jakarta.servlet.FilterChain;
@@ -37,8 +37,13 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                                     @NonNull FilterChain filterChain) throws ServletException, IOException {
 
         final String authHeader = request.getHeader(AUTH_HEADER);
+        final boolean loginHeader = Boolean.parseBoolean(request.getHeader("login"));
         final String jwt;
         final String email;
+
+        if (loginHeader) {
+            filterChain.doFilter(request, response);
+        }
 
         if (authHeader == null || !authHeader.startsWith(BEARER)) {
             response.setStatus(HttpServletResponse.SC_FORBIDDEN);
