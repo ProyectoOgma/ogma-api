@@ -29,7 +29,7 @@ public class LibroService {
     public void crearLibro(LibroDTO libroDTO) {
         Optional<UserDetails> user = contextService.getUserDetails();
         if (user.isEmpty()) {
-            throw new EntityNotFoundException("Usuario no encontrado");
+            throw new RuntimeException("Usuario no encontrado");
         }
         String userName = user.get().getUsername();
         libroDTO.setUsuarioRegistro(userName);
@@ -53,6 +53,30 @@ public class LibroService {
             throw new  EntityNotFoundException("Libro with isbn: " + isbn + " not found");
         }
         return objectMapper.convertValue(libro.get(), LibroDTO.class);
+    }
+
+    /**
+     * Método que actualiza un libro por completo.
+     * Deben enviarse todos los campos del libro, por mas que no se modifiquen.
+     *
+     * @param id ID del libro
+     * @param libroDTO LibroDTO
+     */
+    public void updateLibro(String id, LibroDTO libroDTO) {
+        Libro libro = libroRepository.findById(Long.parseLong(id))
+                .orElseThrow(() ->
+                    new EntityNotFoundException("Libro with id: " + id + " not found"));
+
+        Optional<UserDetails> user = contextService.getUserDetails();
+        if (user.isEmpty()) {
+            throw new RuntimeException("Usuario no encontrado");
+        }
+        String userName = user.get().getUsername();
+        libroDTO.setUsuarioActualizacion(userName);
+        libroDTO.setFechaActualizacion(new Date(System.currentTimeMillis()));
+        libroDTO.setId(libro.getId());
+
+        libroRepository.save(objectMapper.convertValue(libroDTO, Libro.class));
     }
 
 

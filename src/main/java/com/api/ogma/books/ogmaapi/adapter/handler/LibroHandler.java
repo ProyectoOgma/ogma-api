@@ -47,4 +47,9 @@ public class LibroHandler {
         }
         return libroResponse;
     }
+
+    public void updateLibro(String id, LibroRequest libroRequest) {
+        LibroMapper libroMapper = new LibroMapper();
+        libroService.updateLibro(id, libroMapper.fromRequestToLibroDTO(libroRequest));
+    }
 }

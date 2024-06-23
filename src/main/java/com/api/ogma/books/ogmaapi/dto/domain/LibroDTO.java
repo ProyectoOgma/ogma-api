@@ -13,6 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 public class LibroDTO {
 
+    private Long id;
     private String titulo;
     private String autor;
     private String editorial;

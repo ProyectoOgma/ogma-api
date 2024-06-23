@@ -29,4 +29,10 @@ public class GlobalExceptionHandler {
         log.error("Libro not found exception: {}", e.getMessage());
         return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
+
+    @ExceptionHandler(RuntimeException.class)
+    public ResponseEntity<String> handleException(RuntimeException e) {
+        log.error("Runtime exception: {}", e.getMessage());
+        return new ResponseEntity<>("Error interno: " + e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    }
 }

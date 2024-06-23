@@ -16,11 +16,6 @@ public class LibroController {
 
     private final LibroHandler libroHandler;
 
-    /**
-     * Método que crea un libro
-     *
-     * @return ResponseEntity<String>
-     */
     @PostMapping("/crear")
     public ResponseEntity<String> crearLibro(@RequestBody LibroRequest libroRequest) {
         try {
@@ -34,5 +29,11 @@ public class LibroController {
     @GetMapping("/get/{isbn}")
     public ResponseEntity<LibroResponse> getLibro(@PathVariable String isbn) throws LibroNotFoundException {
         return new ResponseEntity<>(libroHandler.getLibroByIsbn(isbn), HttpStatus.OK);
+    }
+
+    @PutMapping("/update/{id}")
+    public ResponseEntity<String> updateLibro(@PathVariable String id, @RequestBody LibroRequest libroRequest) {
+        libroHandler.updateLibro(id, libroRequest);
+        return new ResponseEntity<>("Libro actualizado correctamente", HttpStatus.OK);
     }
 }
