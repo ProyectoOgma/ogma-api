@@ -6,7 +6,9 @@ import com.api.ogma.books.ogmaapi.dto.request.RegisterRequest;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.UsersRepository;
 import com.api.ogma.books.ogmaapi.security.Role;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -43,7 +45,8 @@ public class AuthenticationService {
                         request.getPassword()));
         // si pasamos a este punto es porque el usuario esta authenticado
         User user = userRepository.findByEmail(request.getEmail())
-                .orElseThrow();
+                .orElseThrow(() ->
+                        new EntityNotFoundException("User with email: " + request.getEmail() + " not found"));
         String token = jwtProvider.generateToken(user);
 
         return AuthenticationResponse.builder().token(token).build();

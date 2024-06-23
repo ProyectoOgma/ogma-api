@@ -24,7 +24,7 @@ public class UserService {
      * @param id User ID
      */
     public UserResponse getUser(Long id) {
-        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
+        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User with id: " + id + " not found"));
         return UserResponse.builder()
                            .id(user.getId())
                            .name(user.getName())
@@ -49,7 +49,7 @@ public class UserService {
      * @param userDTO User request
      */
     public void updateUser(Long id, UserDTO userDTO) {
-        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User not found"));
+        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User with id: " + id + " not found"));
         user.setName(userDTO.getName());
         user.setLastName(userDTO.getLastName());
         user.setEmail(userDTO.getEmail());
