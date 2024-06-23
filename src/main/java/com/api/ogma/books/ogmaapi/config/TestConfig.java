@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi;
+package com.api.ogma.books.ogmaapi.config;
 
 
 import org.springframework.context.annotation.Bean;
@@ -11,9 +11,9 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-@Profile("test")
 @EnableWebSecurity
-public class TestSecurityConfig {
+@Profile("test")
+public class TestConfig {
 
     @Bean
     public SecurityFilterChain testSecurityFilterChain(HttpSecurity http) throws Exception {
