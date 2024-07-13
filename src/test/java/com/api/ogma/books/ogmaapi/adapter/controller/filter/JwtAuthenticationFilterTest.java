@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.controller.filter;
+package com.api.ogma.books.ogmaapi.adapter.controller.filter;
 
 import com.api.ogma.books.ogmaapi.adapter.filter.JwtAuthenticationFilter;
 import com.api.ogma.books.ogmaapi.service.JwtService;

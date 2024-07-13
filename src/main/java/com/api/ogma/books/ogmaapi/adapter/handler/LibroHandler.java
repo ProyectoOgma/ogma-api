@@ -8,12 +8,14 @@ import com.api.ogma.books.ogmaapi.service.LibroService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
-@Component
+@Service
 public class LibroHandler {
 
     private final LibroService libroService;
+    private final LibroMapper libroMapper;
 
     /**
      * Método que crea un libro
@@ -21,7 +23,6 @@ public class LibroHandler {
      * @param libroRequest LibroRequest
      */
     public void crearLibro(LibroRequest libroRequest) {
-        LibroMapper libroMapper = new LibroMapper();
         libroService.crearLibro(libroMapper.fromRequestToLibroDTO(libroRequest));
     }
 
@@ -48,6 +49,13 @@ public class LibroHandler {
         return libroResponse;
     }
 
+    /**
+     * Método que actualiza un libro por completo.
+     * Deben enviarse todos los campos del libro, por mas que no se modifiquen.
+     *
+     * @param id           id del libro
+     * @param libroRequest LibroRequest
+     */
     public void updateLibro(String id, LibroRequest libroRequest) {
         LibroMapper libroMapper = new LibroMapper();
         libroService.updateLibro(id, libroMapper.fromRequestToLibroDTO(libroRequest));

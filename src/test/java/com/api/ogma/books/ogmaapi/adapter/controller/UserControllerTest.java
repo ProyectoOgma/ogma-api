@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.controller;
+package com.api.ogma.books.ogmaapi.adapter.controller;
 
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
