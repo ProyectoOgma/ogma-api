@@ -6,9 +6,11 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
+import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.lang.NonNull;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "libro")
@@ -20,17 +22,24 @@ import java.util.Date;
 public class Libro {
 
     @Id
+    @Column(name = "libro_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @NotNull
     private String titulo;
+
     @NotNull
-    private String autor;
+    @ManyToOne
+    @JoinColumn(name = "autor_id")
+    private Autor autor;
+
     @NotNull
     private String editorial;
-    @NotNull
-    private String genero; //Clase genero
+
+    @ManyToOne
+    @JoinColumn(name = "genero_id")
+    private Genero genero; //Clase genero
 
     private String idioma;
 
@@ -38,6 +47,9 @@ public class Libro {
     @NotEmpty
     @NotBlank
     private String isbn;
+
+    @OneToMany(mappedBy = "libro", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Review> reviews;
 
     private String sinopsis;
     private String portada;
@@ -50,7 +62,8 @@ public class Libro {
     @Enumerated(EnumType.STRING)
     private EstadoLibro estado; //Clase estado
 
-    private String usuarioRegistro;
+    @Column(name = "usuario_registro")
+    private String usuarioRegistro = "admin";
     private String usuarioActualizacion;
     private String usuarioEliminacion;
     private String motivoEliminacion;

@@ -20,18 +20,25 @@ public class UserService {
     private final UsersRepository usersRepository;
 
     /**
-     * Update an existing user
+     * Get a user by ID
      * @param id User ID
      */
-    public UserResponse getUser(Long id) {
-        User user = usersRepository.findById(id).orElseThrow(() -> new EntityNotFoundException("User with id: " + id + " not found"));
-        return UserResponse.builder()
-                           .id(user.getId())
-                           .name(user.getName())
-                           .lastName(user.getLastName())
-                           .username(user.getUsername())
-                           .email(user.getEmail())
-                           .build();
+    public User getUser(Long id) {
+        return usersRepository
+                .findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("User with id: " + id + " not found"));
+
+    }
+
+    /**
+     * Get a user by email
+     * @param email User email
+     */
+    public User getUserByEmail(String email) {
+        return usersRepository
+                .findByEmail(email)
+                .orElseThrow(() -> new EntityNotFoundException("User with email: " + email + " not found"));
+
     }
 
     /**
