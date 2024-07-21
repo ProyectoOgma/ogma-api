@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
 
+import com.api.ogma.books.ogmaapi.dto.domain.EstadoLibro;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
@@ -23,6 +24,8 @@ public class Publicacion extends AbstractAuditable<User, Long>{
     @ManyToOne
     @JoinColumn(name = "libro_id")
     private Libro libro;
+    @Enumerated(EnumType.STRING)
+    private EstadoLibro estadoLibro;
 
     @OneToMany(mappedBy = "publicacion", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comentario> comentarios;

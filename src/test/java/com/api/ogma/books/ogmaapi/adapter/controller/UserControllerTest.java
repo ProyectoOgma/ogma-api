@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
+import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.service.UserService;
 import com.api.ogma.books.ogmaapi.OgmaApiApplication;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -41,7 +42,7 @@ public class UserControllerTest {
     @Test
     @WithMockUser(username = "user", roles = {"USER"})
     public void testGetUser() throws Exception {
-        UserResponse userResponse = buildUserResponse(); // Configura tu respuesta mock
+        User userResponse = buildUser();
         when(userService.getUser(1L)).thenReturn(userResponse);
 
         mockMvc.perform(get(API_PATH + "/users/get/1"))
@@ -83,6 +84,16 @@ public class UserControllerTest {
                         .content(new ObjectMapper().writeValueAsString(userRequest)))
                 .andExpect(status().isOk())
                 .andExpect(content().string("User updated successfully"));
+    }
+
+
+    private static User buildUser() {
+        return User.builder()
+                .id(1L)
+                .name("John")
+                .lastName("Doe")
+                .email("test@gmail.com")
+                .build();
     }
 
     private static UserResponse buildUserResponse() {

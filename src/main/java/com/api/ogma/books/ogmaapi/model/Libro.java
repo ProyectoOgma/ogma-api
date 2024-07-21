@@ -33,6 +33,7 @@ public class Libro {
     @NotEmpty
     @NotBlank
     private String isbn;
+    //agregar el otro ISBN
     private String sinopsis;
     private String portada;
     private String url;
@@ -40,10 +41,8 @@ public class Libro {
     private Date fechaRegistro;
     private Date fechaActualizacion;
     private Date fechaEliminacion;
-    @Enumerated(EnumType.STRING)
-    private EstadoLibro estado;
     @Column(name = "usuario_registro")
-    private String usuarioRegistro = "admin";
+    private String usuarioRegistro;
     private String usuarioActualizacion;
     private String usuarioEliminacion;
     private String motivoEliminacion;
