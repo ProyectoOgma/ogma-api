@@ -35,6 +35,7 @@ public class Libro {
     private String isbn;
     //agregar el otro ISBN
     private String sinopsis;
+    private String imagen_url;
     private String portada;
     private String url;
     private Date fechaPublicacion;
