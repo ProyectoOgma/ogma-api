@@ -35,6 +35,11 @@ public class Libro {
     private String isbn;
     //agregar el otro ISBN
     private String sinopsis;
+    private String descripcion;
+    @Column(name = "anio")
+    private Integer fechaPublicacion;
+    @Column(name = "cantidad_paginas")
+    private Integer cantPaginas;
     private String imagen_url;
     private String portada;
     private String url;
