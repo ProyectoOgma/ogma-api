@@ -1,12 +1,10 @@
 package com.api.ogma.books.ogmaapi.model;
 
-import com.api.ogma.books.ogmaapi.dto.domain.EstadoLibro;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
-import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.lang.NonNull;
 
 import java.util.Date;
@@ -43,7 +41,6 @@ public class Libro {
     private String imagen_url;
     private String portada;
     private String url;
-    private Date fechaPublicacion;
     private Date fechaRegistro;
     private Date fechaActualizacion;
     private Date fechaEliminacion;
