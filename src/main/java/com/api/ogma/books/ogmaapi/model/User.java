@@ -9,6 +9,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -23,7 +24,6 @@ public class User implements UserDetails {
     @Column(name = "user_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
     private String lastName;
     private String email; // tambien hace de username
@@ -36,6 +36,9 @@ public class User implements UserDetails {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Review> reviews;
+
+    @OneToMany(mappedBy = "usuario")
+    private Set<RutaLiteraria> rutasLiterarias;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

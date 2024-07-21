@@ -11,6 +11,7 @@ import org.springframework.lang.NonNull;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "libro")
@@ -25,32 +26,13 @@ public class Libro {
     @Column(name = "libro_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     @NotNull
     private String titulo;
-
-    @NotNull
-    @ManyToOne
-    @JoinColumn(name = "autor_id")
-    private Autor autor;
-
-    @NotNull
-    private String editorial;
-
-    @ManyToOne
-    @JoinColumn(name = "genero_id")
-    private Genero genero; //Clase genero
-
     private String idioma;
-
     @NonNull
     @NotEmpty
     @NotBlank
     private String isbn;
-
-    @OneToMany(mappedBy = "libro", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Review> reviews;
-
     private String sinopsis;
     private String portada;
     private String url;
@@ -58,10 +40,8 @@ public class Libro {
     private Date fechaRegistro;
     private Date fechaActualizacion;
     private Date fechaEliminacion;
-
     @Enumerated(EnumType.STRING)
-    private EstadoLibro estado; //Clase estado
-
+    private EstadoLibro estado;
     @Column(name = "usuario_registro")
     private String usuarioRegistro = "admin";
     private String usuarioActualizacion;
@@ -72,5 +52,23 @@ public class Libro {
     private String ubicacion;
     private String precio;
 
+    @NotNull
+    @ManyToOne
+    @JoinColumn(name = "autor_id")
+    private Autor autor;
+
+    @ManyToOne
+    @JoinColumn(name = "genero_id")
+    private Genero genero;
+
+    @OneToMany(mappedBy = "libro", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Review> reviews;
+
+    @ManyToMany(mappedBy = "libros")
+    private Set<RutaLiteraria> rutasLiterarias;
+
+    @ManyToOne
+    @JoinColumn(name = "editorial_id")
+    private Editorial editorial;
 
 }
