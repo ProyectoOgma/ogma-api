@@ -20,7 +20,10 @@ public class RutaLiteraria extends AbstractAuditable<User, Long> {
     @Column(name = "ruta_literaria_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private Integer calificacion;
+
+    private String nombre;
 
     @ManyToOne
     @JoinColumn(name = "usuario_id")
