@@ -24,6 +24,7 @@ public class Publicacion extends AbstractAuditable<User, Long>{
     @ManyToOne
     @JoinColumn(name = "libro_id")
     private Libro libro;
+
     @Enumerated(EnumType.STRING)
     private EstadoLibro estadoLibro;
 
