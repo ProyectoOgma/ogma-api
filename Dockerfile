@@ -12,13 +12,17 @@ RUN chmod +x mvnw
 # Descargar las dependencias sin construir todavía
 RUN ./mvnw dependency:go-offline
 
-# Copiar el código fuente y construir la aplicación
-COPY src ./src
-RUN ./mvnw clean package -DskipTests
-
 # Usar una imagen base de OpenJDK 17 para correr la aplicación
 FROM openjdk:17-jdk-slim
 WORKDIR /app
-COPY --from=build /app/target/*.jar ogma-api.jar
+
+# Copiar solo las dependencias y herramientas necesarias desde la etapa de construcción
+COPY --from=build /root/.m2 /root/.m2
+COPY .mvn/ .mvn
+COPY mvnw ./
+
+# Exponer el puerto
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "ogma-api.jar"]
+
+# Comando de entrada
+CMD ["./mvnw", "spring-boot:run"]

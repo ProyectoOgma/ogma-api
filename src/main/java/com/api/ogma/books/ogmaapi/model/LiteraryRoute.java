@@ -14,7 +14,7 @@ import java.util.Set;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class LiteraryRoute extends AbstractAuditable<User, Long> {
+public class LiteraryRoute extends Auditable {
 
     @Id
     @Column(name = "id_literary_route")

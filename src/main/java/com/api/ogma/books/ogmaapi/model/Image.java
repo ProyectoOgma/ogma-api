@@ -3,30 +3,26 @@ package com.api.ogma.books.ogmaapi.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Date;
+import java.util.List;
 
 @Entity
-@Table(name = "review")
+@Table(name = "image")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Review extends Auditable{
+public class Image {
 
     @Id
+    @Column(name = "id_image")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    private String url;
+    private String alt;
 
     @ManyToOne
     @JoinColumn(name = "id_book")
     private Book book;
-
-    private String comment;
-    @ManyToOne
-    @JoinColumn(name = "id_user")
-    private User user;
-
-    @Column(name = "rating", nullable = false)
-    private Integer rating;
 }

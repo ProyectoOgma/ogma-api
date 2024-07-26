@@ -29,7 +29,7 @@ public class AuthenticationService {
                 .lastName(request.getLastName())
                 .email(request.getEmail())
                 .hashedPassword(passwordEncoder.encode(request.getPassword()))
-                .role(Role.USER)
+//                .role(Role.USER)
                 .build();
 
         userRepository.save(user);

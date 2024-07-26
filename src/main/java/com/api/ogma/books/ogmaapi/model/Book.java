@@ -15,7 +15,7 @@ import java.util.Set;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Book {
+public class Book extends Auditable{
 
     @Id
     @Column(name = "id_book")
@@ -23,7 +23,6 @@ public class Book {
     private Long id;
     @NotNull
     private String title;
-    private String lang;
 
     @Column(name = "isbn_10", unique = true)
     private String isbn10;
@@ -32,12 +31,15 @@ public class Book {
 
     @Column(name = "synopsis", columnDefinition = "TEXT")
     private String synopsis;
+
     @Column(name = "realease_date", columnDefinition = "DATE")
     private Date releaseDate;
 
     @Column(name = "pages")
     private Integer pages;
-    private String image; // TODO: Change to byte[] or Blob type, or add book_image table
+
+    @OneToMany(mappedBy = "book")
+    private List<Image> images;
 
     // Por que se usaría esto?
 //    @Column(name = "usuario_registro")
@@ -49,8 +51,12 @@ public class Book {
 //    private String tipo;
 //    private String ubicacion;
 
-
     private Float price;
+    private Float height;
+    private Float width;
+    private Float weight;
+    private Float depth;
+    private Integer rating;
 
     @NotNull
     @ManyToOne
@@ -82,5 +88,16 @@ public class Book {
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Post> posts;
+
+    @ManyToMany
+    @JoinTable(
+            name = "book_lang",
+            joinColumns = @JoinColumn(name = "id_book"),
+            inverseJoinColumns = @JoinColumn(name = "id_lang")
+    )
+    private List<Lang> langs;
+
+    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<StateHistory> stateHistory;
 
 }
