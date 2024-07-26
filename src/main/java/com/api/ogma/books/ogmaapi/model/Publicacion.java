@@ -22,16 +22,26 @@ public class Publicacion extends AbstractAuditable<User, Long>{
     private Long id;
 
     @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
+
+    private String price;
+
+    private String image;
+
+    private String description;
+
+    @ManyToOne
     @JoinColumn(name = "libro_id")
-    private Libro libro;
+    private Libro book;
 
     @Enumerated(EnumType.STRING)
-    private EstadoLibro estadoLibro;
+    private EstadoLibro bookState;
+
+    @OneToMany(mappedBy = "entityId", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<StateChange> stateChanges;
 
     @OneToMany(mappedBy = "publicacion", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Comentario> comentarios;
+    private List<Comentario> comments;
 
-//    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "transaccion_id")
-//    private Transaccion transaccion;
 }
