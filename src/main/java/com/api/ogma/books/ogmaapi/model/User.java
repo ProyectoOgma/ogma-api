@@ -21,24 +21,27 @@ import java.util.Set;
 public class User implements UserDetails {
 
     @Id
-    @Column(name = "user_id")
+    @Column(name = "id_user")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String name;
     private String lastName;
+    @Column(unique = true)
     private String email; // tambien hace de username
-    private String password;
+    @Column(name = "hashed_password")
+    private String hashedPassword;
     @Enumerated(EnumType.STRING)
     private Role role;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Comentario> comentarios;
+    private List<Comment> comments;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Review> reviews;
-
-    @OneToMany(mappedBy = "usuario")
-    private Set<RutaLiteraria> rutasLiterarias;
+//
+//    @OneToMany(mappedBy = "usuario")
+//    private Set<LiteraryRoute> literaryRoutes;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -48,6 +51,11 @@ public class User implements UserDetails {
     @Override
     public String getUsername() {
         return email;
+    }
+
+    @Override
+    public String getPassword() {
+        return hashedPassword;
     }
 
     @Override

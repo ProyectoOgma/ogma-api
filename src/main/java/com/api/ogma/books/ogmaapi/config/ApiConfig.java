@@ -1,6 +1,6 @@
 package com.api.ogma.books.ogmaapi.config;
 
-import com.api.ogma.books.ogmaapi.repository.UsersRepository;
+import com.api.ogma.books.ogmaapi.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -20,11 +20,11 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Profile({"test", "testsecurity", "prod", "local"})
 public class ApiConfig {
 
-    private final UsersRepository usersRepository;
+    private final UserRepository userRepository;
 
     @Bean
     public UserDetailsService userDetailsService() {
-        return username -> usersRepository.findByEmail(username)
+        return username -> userRepository.findByEmail(username)
                 .orElseThrow(() -> new UsernameNotFoundException("User not found"));
     }
 

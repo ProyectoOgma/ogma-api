@@ -4,22 +4,17 @@ import com.api.ogma.books.ogmaapi.dto.request.AuthenticationRequest;
 import com.api.ogma.books.ogmaapi.dto.request.RegisterRequest;
 import com.api.ogma.books.ogmaapi.dto.response.AuthenticationResponse;
 import com.api.ogma.books.ogmaapi.model.User;
-import com.api.ogma.books.ogmaapi.repository.UsersRepository;
+import com.api.ogma.books.ogmaapi.repository.UserRepository;
 import com.api.ogma.books.ogmaapi.security.Role;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Profile;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.context.WebApplicationContext;
 
 import java.util.Optional;
 
@@ -37,7 +32,7 @@ public class AuthenticationServiceTest {
     private JwtService jwtService;
 
     @MockBean
-    private UsersRepository userRepository;
+    private UserRepository userRepository;
 
     @Mock
     private PasswordEncoder passwordEncoder;
@@ -63,7 +58,7 @@ public class AuthenticationServiceTest {
                 .name(request.getName())
                 .lastName(request.getLastName())
                 .email(request.getEmail())
-                .password(passwordEncoder.encode(request.getPassword()))
+                .hashedPassword(passwordEncoder.encode(request.getPassword()))
                 .role(Role.USER)
                 .build();
 
@@ -85,7 +80,7 @@ public class AuthenticationServiceTest {
                 .name("testName")
                 .lastName("testLastName")
                 .email(request.getEmail())
-                .password(passwordEncoder.encode(request.getPassword()))
+                .hashedPassword(passwordEncoder.encode(request.getPassword()))
                 .role(Role.USER)
                 .build();
 

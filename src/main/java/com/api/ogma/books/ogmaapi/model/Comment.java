@@ -6,26 +6,27 @@ import lombok.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "comentario")
+@Table(name = "comment")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Comentario {
+public class Comment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String contenido;
-    @Temporal(TemporalType.DATE)
-    private Date fecha;
+
+    private String content;
 
     @ManyToOne
-    @JoinColumn(name = "publicacion_id")
-    private Publicacion publicacion;
+    @JoinColumn(name = "id_post")
+    private Post post;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "id_user")
     private User user;
+
+    private Integer likes;
 }

@@ -1,10 +1,7 @@
 package com.api.ogma.books.ogmaapi.service;
 
-import com.api.ogma.books.ogmaapi.dto.domain.EstadoLibro;
-import com.api.ogma.books.ogmaapi.dto.domain.LibroDTO;
-import com.api.ogma.books.ogmaapi.model.Libro;
-import com.api.ogma.books.ogmaapi.model.User;
-import com.api.ogma.books.ogmaapi.repository.LibroRepository;
+import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
+import com.api.ogma.books.ogmaapi.repository.BookRepository;
 import com.api.ogma.books.ogmaapi.utils.RepositoryMock;
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,30 +11,28 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.test.context.ActiveProfiles;
 
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 @SpringBootTest
 @ActiveProfiles("test")
-public class LibroServiceTest {
+public class BookServiceTest {
 
     @Autowired
     private RepositoryMock repositoryMock;
 
     @Mock
-    private LibroRepository libroRepository;
+    private BookRepository bookRepository;
 
     @Mock
     private ContextService contextService;
 
     @InjectMocks
-    private LibroService libroService;
+    private BookService libroService;
 
     @BeforeEach
     public void setup() {
@@ -47,20 +42,20 @@ public class LibroServiceTest {
     /*
     @Test
     public void testCrearLibro() {
-        LibroDTO libroDTO = new LibroDTO();
-        libroDTO.setIsbn("1234567890");
+        LibroDTO bookDTO = new LibroDTO();
+        bookDTO.setIsbn("1234567890");
 
         UserDetails userDetails = User.builder().email("testuser").build();
         when(contextService.getUserDetails()).thenReturn(Optional.of(userDetails));
-        doNothing().when(libroRepository).save(any());
+        doNothing().when(bookRepository).save(any());
 
         assertDoesNotThrow(() -> {
-            libroService.crearLibro(libroDTO);
+            libroService.crearLibro(bookDTO);
         });
 
-        assertNotNull(libroDTO.getUsuarioRegistro());
-        assertNotNull(libroDTO.getFechaRegistro());
-        assertEquals(EstadoLibro.USADO, libroDTO.getEstado());
+        assertNotNull(bookDTO.getUsuarioRegistro());
+        assertNotNull(bookDTO.getFechaRegistro());
+        assertEquals(EstadoLibro.USADO, bookDTO.getEstado());
     }
 
     @Test
@@ -73,7 +68,7 @@ public class LibroServiceTest {
         libro.setAutor("Test");
         libro.setEditorial("Test");
 
-        when(libroRepository.findByIsbn(isbn)).thenReturn(Optional.of(libro));
+        when(bookRepository.findByIsbn(isbn)).thenReturn(Optional.of(libro));
 
         assertDoesNotThrow(() -> {
             LibroDTO result = libroService.getLibroByIsbn(isbn);
@@ -88,10 +83,10 @@ public class LibroServiceTest {
     public void testGetLibroByIsbnNotFound() {
         String isbn = "1234567890";
 
-        when(libroRepository.findByIsbn(isbn)).thenReturn(Optional.empty());
+        when(bookRepository.findBookByIsbn10(isbn)).thenReturn(Optional.empty());
 
         assertThrows(EntityNotFoundException.class, () -> {
-            libroService.getLibroByIsbn(isbn);
+            libroService.getBookByISBN(isbn);
         });
     }
 
@@ -100,38 +95,38 @@ public class LibroServiceTest {
     public void testUpdateLibro() {
         String idString = "1";
         Long id = 1L;
-        LibroDTO libroDTO = new LibroDTO();
-        libroDTO.setId(id);
+        LibroDTO bookDTO = new LibroDTO();
+        bookDTO.setId(id);
 
         Libro existingLibro = new Libro();
         existingLibro.setId(id);
 
-        when(libroRepository.findById(any())).thenReturn(Optional.of(existingLibro));
-        when(libroRepository.save(any())).thenReturn(existingLibro);
+        when(bookRepository.findById(any())).thenReturn(Optional.of(existingLibro));
+        when(bookRepository.save(any())).thenReturn(existingLibro);
 
         UserDetails userDetails = User.builder().email("testuser").build();
         when(contextService.getUserDetails()).thenReturn(Optional.of(userDetails));
 
         assertDoesNotThrow(() -> {
-            libroService.updateLibro(idString, libroDTO);
+            libroService.updateLibro(idString, bookDTO);
         });
 
-        assertNotNull(libroDTO.getUsuarioActualizacion());
-        assertNotNull(libroDTO.getFechaActualizacion());
-        assertEquals((id), libroDTO.getId());
+        assertNotNull(bookDTO.getUsuarioActualizacion());
+        assertNotNull(bookDTO.getFechaActualizacion());
+        assertEquals((id), bookDTO.getId());
     }
 
      */
 
     @Test
-    public void testUpdateLibroNotFound() {
+    public void testUpdateBookNotFound() {
         String id = "1";
-        LibroDTO libroDTO = new LibroDTO();
+        BookDTO bookDTO = new BookDTO();
 
-        when(libroRepository.findById(Long.parseLong(id))).thenReturn(Optional.empty());
+        when(bookRepository.findById(Long.parseLong(id))).thenReturn(Optional.empty());
 
         assertThrows(EntityNotFoundException.class, () -> {
-            libroService.updateLibro(id, libroDTO);
+            libroService.updateBook(id, bookDTO);
         });
     }
 }

@@ -24,8 +24,8 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>("Error al deserializar la request", HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    @ExceptionHandler(LibroNotFoundException.class)
-    public ResponseEntity<String> handleException(LibroNotFoundException e) {
+    @ExceptionHandler(BookNotFoundException.class)
+    public ResponseEntity<String> handleException(BookNotFoundException e) {
         log.error("Libro not found exception: {}", e.getMessage());
         return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }

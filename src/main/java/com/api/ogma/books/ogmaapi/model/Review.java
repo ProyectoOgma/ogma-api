@@ -19,12 +19,12 @@ public class Review {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "libro_id")
-    private Libro libro;
+    @JoinColumn(name = "id_book")
+    private Book book;
 
     private String contenido;
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "id_user")
     private User user;
     private Integer valoracion;
 
