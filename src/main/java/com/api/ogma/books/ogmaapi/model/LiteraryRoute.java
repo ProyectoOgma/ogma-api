@@ -27,9 +27,9 @@ public class LiteraryRoute extends Auditable {
     @Column(columnDefinition = "TEXT", length = 1000)
     private String description;
 
-//    @ManyToOne
-//    @JoinColumn(name = "id_user")
-//    private User user;
+    @ManyToOne
+    @JoinColumn(name = "id_user")
+    private User user;
 
     @ManyToMany
     @JoinTable(

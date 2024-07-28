@@ -59,7 +59,7 @@ public class AuthenticationServiceTest {
                 .lastName(request.getLastName())
                 .email(request.getEmail())
                 .hashedPassword(passwordEncoder.encode(request.getPassword()))
-//                .role(Role.USER)
+                .role(Role.USER)
                 .build();
 
         when(userRepository.save(any(User.class))).thenReturn(user);
@@ -81,7 +81,7 @@ public class AuthenticationServiceTest {
                 .lastName("testLastName")
                 .email(request.getEmail())
                 .hashedPassword(passwordEncoder.encode(request.getPassword()))
-//                .role(Role.USER)
+                .role(Role.USER)
                 .build();
 
         when(userRepository.findByEmail(any(String.class))).thenReturn(Optional.of(user));

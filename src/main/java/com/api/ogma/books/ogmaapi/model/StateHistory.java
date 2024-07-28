@@ -30,10 +30,17 @@ public class StateHistory {
     @JoinColumn(name = "id_state", nullable = false)
     private State state;
 
-    @NotNull
     @ManyToOne
-    @JoinColumn(name = "id_book", nullable = false)
+    @JoinColumn(name = "id_book")
     private Book book;
+
+    @ManyToOne
+    @JoinColumn(name = "id_post")
+    private Post post;
+
+    @ManyToOne
+    @JoinColumn(name = "id_transaction")
+    private Transaction transaction;
 
     public boolean isActive() {
         return finalDate == null;

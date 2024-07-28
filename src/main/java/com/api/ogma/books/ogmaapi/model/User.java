@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.api.ogma.books.ogmaapi.security.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
@@ -37,20 +38,15 @@ public class User extends Auditable implements UserDetails {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Review> reviews;
 
-//    @OneToMany(mappedBy = "usuario")
-//    private Set<LiteraryRoute> literaryRoutes;
+    @OneToMany(mappedBy = "user")
+    private Set<LiteraryRoute> literaryRoutes;
 
-    @ManyToMany
-    @JoinTable(
-            name = "user_role",
-            joinColumns = @JoinColumn(name = "id_user"),
-            inverseJoinColumns = @JoinColumn(name = "id_role")
-    )
-    private Set<Role> roles;
+    @Enumerated(EnumType.STRING)
+    private Role role;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of(new SimpleGrantedAuthority(roles.toString()));
+        return List.of(new SimpleGrantedAuthority(role.name()));
     }
 
     @Override

@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
+import com.api.ogma.books.ogmaapi.model.Auditable;
 import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.repository.BookRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;

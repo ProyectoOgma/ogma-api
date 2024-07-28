@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
 import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.exception.BookNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Role;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

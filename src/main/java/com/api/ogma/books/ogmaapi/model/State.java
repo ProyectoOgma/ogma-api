@@ -22,12 +22,13 @@ public class State {
     private String nombre;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "ambito")
+    @Column(name = "scope")
     private Scope scope;
 
     public enum Scope {
         POST,
-        TRANSACTION
+        TRANSACTION,
+        BOOK
     }
 
 
