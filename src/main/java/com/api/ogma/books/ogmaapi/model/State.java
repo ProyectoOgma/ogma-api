@@ -1,7 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
 @Entity
@@ -24,11 +23,11 @@ public class State {
 
     @Enumerated(EnumType.STRING)
     @Column(name = "ambito")
-    private Ambito ambito;
+    private Scope scope;
 
-    public enum Ambito {
-        PUBLICACION,
-        TRANSACCION
+    public enum Scope {
+        POST,
+        TRANSACTION
     }
 
 
