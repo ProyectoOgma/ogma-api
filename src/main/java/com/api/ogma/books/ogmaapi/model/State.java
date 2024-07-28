@@ -18,8 +18,8 @@ public class State {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "nombre")
-    private String nombre;
+    @Column(name = "name")
+    private String name;
 
     @Enumerated(EnumType.STRING)
     @Column(name = "scope")

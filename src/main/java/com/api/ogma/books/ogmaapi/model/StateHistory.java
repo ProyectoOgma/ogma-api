@@ -38,9 +38,9 @@ public class StateHistory {
     @JoinColumn(name = "id_post")
     private Post post;
 
-    @ManyToOne
-    @JoinColumn(name = "id_transaction")
-    private Transaction transaction;
+//    @ManyToOne
+//    @JoinColumn(name = "id_transaction")
+//    private Transaction transaction;
 
     public boolean isActive() {
         return finalDate == null;
