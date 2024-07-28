@@ -6,21 +6,23 @@ import lombok.*;
 import java.util.List;
 
 @Entity
-@Table(name = "genero")
+@Table(name = "lang")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Genero {
+public class Lang {
 
     @Id
-    @Column(name = "genero_id")
+    @Column(name = "id_lang")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String nombre;
+    private String name;
+    private String abbr;
 
-    @OneToMany(mappedBy = "genero")
-    private List<Libro> libros;
+    @ManyToMany(mappedBy = "langs")
+    private List<Book> books;
+
 }

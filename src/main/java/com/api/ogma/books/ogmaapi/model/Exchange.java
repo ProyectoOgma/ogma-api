@@ -1,4 +1,4 @@
 package com.api.ogma.books.ogmaapi.model;
 
-public class Venta {
+public class Exchange {
 }

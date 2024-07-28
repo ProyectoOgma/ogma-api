@@ -7,6 +7,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class LibroNotFoundException extends Throwable {
+public class BookNotFoundException extends Throwable {
     private String message;
 }

@@ -4,7 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.model.User;
-import com.api.ogma.books.ogmaapi.repository.UsersRepository;
+import com.api.ogma.books.ogmaapi.repository.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +17,7 @@ import java.util.List;
 @Slf4j
 public class UserService {
 
-    private final UsersRepository usersRepository;
+    private final UserRepository usersRepository;
 
     /**
      * Get a user by ID

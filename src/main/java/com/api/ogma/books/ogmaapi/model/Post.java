@@ -9,15 +9,15 @@ import org.springframework.data.jpa.domain.AbstractAuditable;
 import java.util.List;
 
 @Entity
-@Table(name = "publicacion")
+@Table(name = "post")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Publicacion extends AbstractAuditable<User, Long>{
+public class Post extends AbstractAuditable<User, Long>{
     @Id
-    @Column(name = "publicacion_id")
+    @Column(name = "id_post")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -32,16 +32,19 @@ public class Publicacion extends AbstractAuditable<User, Long>{
     private String description;
 
     @ManyToOne
-    @JoinColumn(name = "libro_id")
-    private Libro book;
+    @JoinColumn(name = "id_book")
+    private Book book;
 
     @Enumerated(EnumType.STRING)
-    private EstadoLibro bookState;
+    private BookState bookState;
 
     @OneToMany(mappedBy = "entityId", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<StateChange> stateChanges;
 
-    @OneToMany(mappedBy = "publicacion", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Comentario> comments;
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Comment> comments;
 
+//    @OneToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "transaccion_id")
+//    private Transaccion transaccion;
 }

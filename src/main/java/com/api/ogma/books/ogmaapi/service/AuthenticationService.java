@@ -4,7 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.request.AuthenticationRequest;
 import com.api.ogma.books.ogmaapi.dto.response.AuthenticationResponse;
 import com.api.ogma.books.ogmaapi.dto.request.RegisterRequest;
 import com.api.ogma.books.ogmaapi.model.User;
-import com.api.ogma.books.ogmaapi.repository.UsersRepository;
+import com.api.ogma.books.ogmaapi.repository.UserRepository;
 import com.api.ogma.books.ogmaapi.security.Role;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 public class AuthenticationService {
 
     private final JwtService jwtProvider;
-    private final UsersRepository userRepository;
+    private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final AuthenticationManager authenticationManager;
 
@@ -28,8 +28,8 @@ public class AuthenticationService {
                 .name(request.getName())
                 .lastName(request.getLastName())
                 .email(request.getEmail())
-                .password(passwordEncoder.encode(request.getPassword()))
-                .role(Role.USER)
+                .hashedPassword(passwordEncoder.encode(request.getPassword()))
+//                .role(Role.USER)
                 .build();
 
         userRepository.save(user);

@@ -1,28 +1,28 @@
 package com.api.ogma.books.ogmaapi.model;
 
+
+import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.data.jpa.domain.AbstractAuditable;
 
 import java.util.List;
 
 @Entity
-@Table(name = "autor")
+@Table(name = "city")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Autor {
-
+public class City extends Auditable {
     @Id
-    @Column(name = "autor_id")
+    @Column(name = "id_city")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
     private String name;
 
-    @OneToMany(mappedBy = "autor")
-    private List<Libro> libros;
-
+    @ManyToOne
+    private Province province;
 }

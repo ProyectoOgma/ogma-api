@@ -1,6 +1,6 @@
 package com.api.ogma.books.ogmaapi.dto.domain;
 
-public enum EstadoLibro {
-    USADO,
-    NUEVO
+public enum BookState {
+    USED,
+    NEW
 }
