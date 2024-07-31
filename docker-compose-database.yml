@@ -3,6 +3,7 @@ services:
   postgres:
     container_name: 'postgres'
     image: 'postgres:12.1'
+    restart: on-failure
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
@@ -11,11 +12,14 @@ services:
       - '5432:5432'
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    network_mode: bridge
+      - ./data:/data
+    networks:
+      - ogma-network
 
   pgadmin:
     container_name: 'pgadmin'
     image: 'dpage/pgadmin4'
+    restart: on-failure
     environment:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
@@ -25,13 +29,13 @@ services:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
       - postgres
-    network_mode: bridge
+    networks:
+      - ogma-network
 
 volumes:
   postgres_data:
   pgadmin_data:
 
 networks:
-  default:
-    external:
-      name: bridge
+    ogma-network:
+        driver: bridge

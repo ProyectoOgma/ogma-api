@@ -32,7 +32,7 @@ public class Book extends Auditable{
     @Column(name = "synopsis", columnDefinition = "TEXT")
     private String synopsis;
 
-    @Column(name = "realease_date", columnDefinition = "DATE")
+    @Column(name = "release_date", columnDefinition = "DATE")
     private Date releaseDate;
 
     @Column(name = "pages")
@@ -59,9 +59,13 @@ public class Book extends Auditable{
     private Integer rating;
 
     @NotNull
-    @ManyToOne
-    @JoinColumn(name = "id_author")
-    private Author author;
+    @ManyToMany
+    @JoinTable(
+            name = "book_author",
+            joinColumns = @JoinColumn(name = "id_book"),
+            inverseJoinColumns = @JoinColumn(name = "id_author")
+    )
+    private Set<Author> authors;
 
     @ManyToMany
     @JoinTable(

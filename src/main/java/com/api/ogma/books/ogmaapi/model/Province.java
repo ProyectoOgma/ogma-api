@@ -9,7 +9,7 @@ import org.springframework.data.jpa.domain.AbstractAuditable;
 import java.util.List;
 
 @Entity
-@Table(name = "city")
+@Table(name = "province")
 @Getter
 @Setter
 @Builder
@@ -24,6 +24,7 @@ public class Province extends Auditable {
     private String name;
 
     @ManyToOne
+    @JoinColumn(name = "id_country")
     private Country country;
 
     @OneToMany(mappedBy = "province", cascade = CascadeType.ALL, fetch = FetchType.LAZY)

@@ -44,6 +44,9 @@ public class User extends Auditable implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    @OneToMany
+    private List<Post> posts;
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority(role.name()));

@@ -16,6 +16,7 @@ public class Review extends Auditable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_review")
     private Long id;
 
     @ManyToOne

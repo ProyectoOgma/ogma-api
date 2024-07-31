@@ -32,7 +32,7 @@ public class Post extends AbstractAuditable<User, Long>{
     private PostType type; // Si es venta o intercambio
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "id_user")
     private User user;
 
     @ManyToOne
