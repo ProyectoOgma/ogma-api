@@ -55,5 +55,6 @@ volumes:
     pgadmin_data:
 
 networks:
-    ogma_network:
-      driver: bridge
+  ogma_network:
+    name: ogma_network
+    driver: bridge

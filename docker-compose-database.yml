@@ -35,4 +35,5 @@ volumes:
 
 networks:
   ogma_network:
+    name: ogma_network
     driver: bridge
