@@ -2,13 +2,10 @@ package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.exception.PostStates;
-import com.api.ogma.books.ogmaapi.model.Post;
-import com.api.ogma.books.ogmaapi.model.State;
-import com.api.ogma.books.ogmaapi.model.StateHistory;
-import com.api.ogma.books.ogmaapi.repository.PostRepository;
-import com.api.ogma.books.ogmaapi.repository.StateHistoryRepository;
-import com.api.ogma.books.ogmaapi.repository.StateRepository;
+import com.api.ogma.books.ogmaapi.model.*;
+import com.api.ogma.books.ogmaapi.repository.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -21,13 +18,13 @@ public class PostService {
 
     private final PostRepository postRepository;
     private final StateRepository stateRepository;
+    private final BookRepository bookRepository;
+    private final UserRepository userRepository;
     private final StateHistoryRepository stateHistoryRepository;
-    private final ObjectMapper objectMapper;
 
     @Transactional
     public void createPost(PostDTO postDTO) {
-        Post post = objectMapper.convertValue(postDTO, Post.class);
-
+        Post post = mapPost(postDTO);
         post = postRepository.save(post);
 
         String stateName = PostStates.PUBLISHED.name();
@@ -41,5 +38,24 @@ public class PostService {
                 .build();
 
         stateHistoryRepository.save(stateHistory);
+    }
+
+    private Post mapPost(PostDTO postDTO) {
+        Book book = bookRepository
+                .findById(Long.parseLong(postDTO.getBookId()))
+                .orElseThrow(() ->
+                        new EntityNotFoundException("Book with id: " + postDTO.getBookId() + " not found"));
+        User user = userRepository.findById(Long.valueOf(postDTO.getUserId()))
+                .orElseThrow(() ->
+                        new EntityNotFoundException("User with id: " + postDTO.getUserId() + " not found"));;
+
+        return Post.builder()
+                .book(book)
+                .image(postDTO.getImage())
+                .user(user)
+                .description(postDTO.getDescription())
+                .type(postDTO.getPostType())
+                .bookState(postDTO.getBookState())
+                .build();
     }
 }

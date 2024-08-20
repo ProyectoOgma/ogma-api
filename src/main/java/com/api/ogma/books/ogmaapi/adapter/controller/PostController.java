@@ -17,7 +17,7 @@ public class PostController {
 
     private final PostHandler postHandler;
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity<String> createPost(@RequestBody PostRequest postRequest) {
         postHandler.createPost(postRequest);
         return new ResponseEntity<>("publicacion creada con exito", HttpStatus.CREATED);
