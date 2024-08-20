@@ -8,7 +8,7 @@ services:
       environment:
         POSTGRES_USER: ${POSTGRES_USER}
         POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-        SPRING_DATASOURCE_URL: jdbc:postgresql://172.17.0.2:5432/${POSTGRES_DB}
+        SPRING_DATASOURCE_URL: jdbc:postgresql://${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DB}
         SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER}
         SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
         SPRING_JPA_HIBERNATE_DDL_AUTO: update
@@ -18,7 +18,8 @@ services:
         - '8080:8080'
       depends_on:
         - postgres
-      network_mode: bridge
+      networks:
+        - ogma_network
 
     postgres:
       container_name: 'postgres'
@@ -31,7 +32,8 @@ services:
         - '5432:5432'
       volumes:
         - postgres_data:/var/lib/postgresql/data
-      network_mode: bridge
+      networks:
+        - ogma_network
 
     pgadmin:
         container_name: 'pgadmin'
@@ -45,13 +47,14 @@ services:
           - pgadmin_data:/var/lib/pgadmin
         depends_on:
           - postgres
-        network_mode: bridge
+        networks:
+          - ogma_network
 
 volumes:
     postgres_data:
     pgadmin_data:
 
 networks:
-    default:
-      external:
-        name: bridge
+  ogma_network:
+    name: ogma_network
+    driver: bridge
