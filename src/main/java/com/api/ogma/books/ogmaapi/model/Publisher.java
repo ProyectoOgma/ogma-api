@@ -12,7 +12,7 @@ import java.util.Set;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Publisher {
+public class Publisher extends Auditable {
 
     @Id
     @Column(name = "id_publisher")

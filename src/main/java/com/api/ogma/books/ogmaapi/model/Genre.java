@@ -12,7 +12,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Genre {
+public class Genre extends Auditable {
 
     @Id
     @Column(name = "id_genre")

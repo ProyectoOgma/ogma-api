@@ -22,7 +22,9 @@ public class City extends Auditable {
     private Long id;
 
     private String name;
+    private String cp;
 
     @ManyToOne
+    @JoinColumn(name = "id_province")
     private Province province;
 }
