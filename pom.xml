@@ -64,6 +64,12 @@
             <version>0.11.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>java-dotenv</artifactId>
+            <version>5.2.1</version>
+        </dependency>
+
 
         <!-- DB -->
         <dependency>

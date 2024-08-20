@@ -11,7 +11,8 @@ services:
       - '5432:5432'
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    network_mode: bridge
+    networks:
+      - ogma_network
 
   pgadmin:
     container_name: 'pgadmin'
@@ -25,13 +26,13 @@ services:
       - pgadmin_data:/var/lib/pgadmin
     depends_on:
       - postgres
-    network_mode: bridge
+    networks:
+      - ogma_network
 
 volumes:
   postgres_data:
   pgadmin_data:
 
 networks:
-  default:
-    external:
-      name: bridge
+  ogma_network:
+    driver: bridge

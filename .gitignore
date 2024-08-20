@@ -35,3 +35,6 @@ build/
 ### Env
 .env
 
+### seed
+/init-db/**
+
