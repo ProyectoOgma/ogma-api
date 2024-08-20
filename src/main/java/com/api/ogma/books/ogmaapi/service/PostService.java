@@ -11,6 +11,7 @@ import com.api.ogma.books.ogmaapi.repository.StateRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 
@@ -23,6 +24,7 @@ public class PostService {
     private final StateHistoryRepository stateHistoryRepository;
     private final ObjectMapper objectMapper;
 
+    @Transactional
     public void createPost(PostDTO postDTO) {
         Post post = objectMapper.convertValue(postDTO, Post.class);
 
