@@ -16,7 +16,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Post extends AbstractAuditable<User, Long>{
+public class Post extends Auditable{
     @Id
     @Column(name = "id_post")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
