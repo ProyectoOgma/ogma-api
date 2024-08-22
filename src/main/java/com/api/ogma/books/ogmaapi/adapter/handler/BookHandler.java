@@ -21,8 +21,9 @@ public class BookHandler {
      *
      * @param bookRequest BookRequest
      */
-    public BookDTO createBook(BookRequest bookRequest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      libroRequest) {
-        bookService.createBook(bookMapper.fromRequestToBookDTO(bookRequest));
+    public BookDTO createBook(BookRequest bookRequest) {
+        BookDTO book = bookService.createBook(bookMapper.fromRequestToBookDTO(bookRequest));
+        return book;
     }
 
     /**
