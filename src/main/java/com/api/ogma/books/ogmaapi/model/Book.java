@@ -41,16 +41,6 @@ public class Book extends Auditable{
     @OneToMany(mappedBy = "book")
     private List<Image> images;
 
-    // Por que se usaría esto?
-//    @Column(name = "usuario_registro")
-//    private String usuarioRegistro;
-//    private String usuarioActualizacion;
-//    private String usuarioEliminacion;
-//    private String motivoEliminacion;
-//    private String observaciones;
-//    private String tipo;
-//    private String ubicacion;
-
     private Float price;
     private Float height;
     private Float width;
