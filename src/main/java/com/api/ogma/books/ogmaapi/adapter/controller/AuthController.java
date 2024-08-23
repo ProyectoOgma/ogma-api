@@ -57,36 +57,4 @@ public class AuthController {
         }
     }
 
-//    @Operation(summary = "Refresh token")
-//    @ApiResponses(value = {
-//            @ApiResponse(responseCode = "200", description = "Token refreshed successfully"),
-//            @ApiResponse(responseCode = "500", description = "Error refreshing token, please try again")
-//    })
-//    @PostMapping("/refresh")
-//    public ResponseEntity<Response<AuthenticationResponse>> refresh(@RequestBody AuthenticationRequest request) {
-//        try {
-//            AuthenticationResponse response = authService.refresh(request);
-//            String message = response == null ? "Token not refreshed" : "Token refreshed successfully";
-//            return ResponseUtil.createSuccessResponse(response, message);
-//        } catch (Exception e) {
-//            return ResponseUtil.createErrorResponse("Error refreshing token, please try again", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
-//        }
-//    }
-
-//    @Operation(summary = "Validate new user registration")
-//    @ApiResponses(value = {
-//            @ApiResponse(responseCode = "200", description = "User registration validated successfully"),
-//            @ApiResponse(responseCode = "500", description = "Error validating user registration, please try again")
-//    })
-//    @PostMapping("/validate")
-//    public ResponseEntity<Response<AuthenticationResponse>> validate(@RequestBody AuthenticationRequest request) {
-//        try {
-//            AuthenticationResponse response = authService.validate(request);
-//            String message = response == null ? "User registration not validated" : "User registration validated successfully";
-//            return ResponseUtil.createSuccessResponse(response, message);
-//        } catch (Exception e) {
-//            return ResponseUtil.createErrorResponse("Error validating user registration, please try again", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
-//        }
-//    }
-
 }

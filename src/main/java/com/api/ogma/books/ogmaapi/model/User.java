@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
 import com.api.ogma.books.ogmaapi.security.Role;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
@@ -36,7 +37,8 @@ public class User extends Auditable implements UserDetails {
     private String username; //Solo figurativo, no es para ingreso
     @Column(name = "user_genre")
     private String userGenre;
-    @Column(name = "birth_date")
+    @Column(name = "birth_date", nullable = true)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date birthDate;
 
     @OneToOne(cascade = CascadeType.ALL)

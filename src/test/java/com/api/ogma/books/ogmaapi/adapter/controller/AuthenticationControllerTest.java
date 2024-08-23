@@ -41,7 +41,7 @@ public class AuthenticationControllerTest {
         request.setEmail("testUser");
         request.setPassword("testPassword");
 
-        AuthenticationResponse mockResponse = new AuthenticationResponse("mockJwtToken");
+        AuthenticationResponse mockResponse = buildMockAuthenticationResponse();
         when(authenticationService.register(any(RegisterRequest.class))).thenReturn(mockResponse);
 
         mockMvc.perform(post(API_PATH + "/v1/auth/register")
@@ -56,12 +56,17 @@ public class AuthenticationControllerTest {
         request.setEmail("testUser");
         request.setPassword("testPassword");
 
-        AuthenticationResponse mockResponse = new AuthenticationResponse("mockJwtToken");
+        AuthenticationResponse mockResponse = buildMockAuthenticationResponse();
         when(authenticationService.authenticate(any(AuthenticationRequest.class))).thenReturn(mockResponse);
 
         mockMvc.perform(post(API_PATH + "/v1/auth/authenticate")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isOk());
+    }
+
+
+    private AuthenticationResponse buildMockAuthenticationResponse() {
+        return AuthenticationResponse.builder().token("mockToken").build();
     }
 }
