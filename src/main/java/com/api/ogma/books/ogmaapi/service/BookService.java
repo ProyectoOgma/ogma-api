@@ -1,7 +1,6 @@
 package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
-import com.api.ogma.books.ogmaapi.model.Auditable;
 import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.repository.BookRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,10 +9,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.Optional;
-
-import static org.apache.logging.log4j.ThreadContext.isEmpty;
 
 @Service
 @RequiredArgsConstructor
@@ -27,15 +23,20 @@ public class BookService {
      * Method to create a book in the database
      *
      * @param bookDTO BookDTO
+     * @return
      */
-    public void createBook(BookDTO bookDTO) {
+    public BookDTO createBook(BookDTO bookDTO) {
         Optional<UserDetails> user = contextService.getUserDetails();
         if (user.isEmpty()) {
             throw new RuntimeException("User not found");
         }
         String userName = user.get().getUsername();
         //bookDTO.setUsuarioRegistro(userName);
-        bookRepository.save(objectMapper.convertValue(bookDTO, Book.class));
+        Book book = objectMapper.convertValue(bookDTO, Book.class);
+        Book savedBook = bookRepository.save(book);
+
+        // Convertir el libro guardado de vuelta a un DTO si es necesario
+        return objectMapper.convertValue(savedBook, BookDTO.class);
     }
 
     /**
@@ -50,7 +51,7 @@ public class BookService {
         if (ISBN13.isEmpty() && ISBN10.isEmpty()) {
             throw new  EntityNotFoundException("Libro with ISBN: " + isbn + " not found");
         }
-        return objectMapper.convertValue(ISBN10.orElse(ISBN13.get()), BookDTO.class);
+        return objectMapper.convertValue(ISBN10.orElse(ISBN13.orElse(null)), BookDTO.class);
     }
 
     /**

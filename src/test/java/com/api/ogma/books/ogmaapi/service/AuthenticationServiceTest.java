@@ -26,7 +26,7 @@ import static org.mockito.Mockito.when;
 @Profile("test")
 public class AuthenticationServiceTest {
 
-    private AuthenticationService authenticationService;
+    private AuthService authenticationService;
 
     @MockBean
     private JwtService jwtService;
@@ -42,7 +42,7 @@ public class AuthenticationServiceTest {
 
     @BeforeEach
     public void setUp() {
-        authenticationService = new AuthenticationService(jwtService, userRepository, passwordEncoder, authenticationManager);
+        authenticationService = new AuthService(jwtService, userRepository, passwordEncoder, authenticationManager);
         MockitoAnnotations.openMocks(this);
     }
 
