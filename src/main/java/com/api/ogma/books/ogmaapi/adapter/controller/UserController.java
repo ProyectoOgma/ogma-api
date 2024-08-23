@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 import com.api.ogma.books.ogmaapi.adapter.handler.UserHandler;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -49,7 +50,8 @@ public class UserController {
             @ApiResponse(responseCode = "404", description = "Usuario no encontrado")
     })
     @PatchMapping("/update/{id}/user_details")
-    public ResponseEntity<String> updateUser(@PathVariable Long id, @RequestBody UserRequest userRequest) {
+    public ResponseEntity<String> updateUser(@PathVariable Long id,
+                                             @RequestBody UserRequest userRequest)  {
         userHandler.updateUser(id, userRequest);
         return new ResponseEntity<>("User updated successfully", HttpStatus.OK);
     }

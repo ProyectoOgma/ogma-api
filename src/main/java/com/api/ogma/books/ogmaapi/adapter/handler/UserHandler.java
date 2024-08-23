@@ -43,7 +43,7 @@ public class UserHandler {
         return userService.getAllUsers();
     }
 
-    public void updateUser(Long id, UserRequest userRequest) throws JsonMappingException {
+    public void updateUser(Long id, UserRequest userRequest) {
         UserDTOMapper userDTOMapper = new UserDTOMapper();
         userService.updateUser(id, userDTOMapper.fromRequestToUserDTO(userRequest));
     }
