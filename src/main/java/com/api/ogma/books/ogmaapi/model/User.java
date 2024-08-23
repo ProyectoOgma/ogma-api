@@ -7,6 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.sql.Date;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
@@ -31,6 +32,16 @@ public class User extends Auditable implements UserDetails {
     private String email; // tambien hace de username
     @Column(name = "hashed_password")
     private String hashedPassword;
+    @Column(name = "user_name")
+    private String username; //Solo figurativo, no es para ingreso
+    @Column(name = "user_genre")
+    private String userGenre;
+    @Column(name = "birth_date")
+    private Date birthDate;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_location_id", referencedColumnName = "id_user_location")
+    private UserLocation userLocation;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
