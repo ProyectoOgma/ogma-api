@@ -3,7 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 import com.api.ogma.books.ogmaapi.dto.request.AuthenticationRequest;
 import com.api.ogma.books.ogmaapi.dto.response.AuthenticationResponse;
 import com.api.ogma.books.ogmaapi.dto.request.RegisterRequest;
-import com.api.ogma.books.ogmaapi.service.AuthenticationService;
+import com.api.ogma.books.ogmaapi.service.AuthService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,7 +33,7 @@ public class AuthenticationControllerTest {
     private ObjectMapper objectMapper;
 
     @MockBean
-    private AuthenticationService authenticationService;
+    private AuthService authenticationService;
 
     @Test
     public void registerUserOk() throws Exception {

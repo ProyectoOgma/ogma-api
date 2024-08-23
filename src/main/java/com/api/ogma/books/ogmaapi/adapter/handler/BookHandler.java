@@ -1,8 +1,8 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
 import com.api.ogma.books.ogmaapi.adapter.mapper.BookMapper;
+import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
-import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.exception.BookNotFoundException;
 import com.api.ogma.books.ogmaapi.service.BookService;
 import jakarta.persistence.EntityNotFoundException;
@@ -17,26 +17,26 @@ public class BookHandler {
     private final BookMapper bookMapper;
 
     /**
-     * Método que crea un libro
+     * Method that creates a book in the DB
      *
-     * @param libroRequest LibroRequest
+     * @param bookRequest BookRequest
      */
-    public void createBook(BookRequest libroRequest) {
-        bookService.createBook(bookMapper.fromRequestToBookDTO(libroRequest));
+    public BookDTO createBook(BookRequest bookRequest) {
+        BookDTO book = bookService.createBook(bookMapper.fromRequestToBookDTO(bookRequest));
+        return book;
     }
 
     /**
-     * Método que obtiene un libro por su ISBN de la BD o de una API externa
+     * Method to get a book by ISBN
      *
      * @param isbn ISBN del libro
      * @return LibroResponse
      * @throws BookNotFoundException si no se encuentra el libro
      */
-    public BookResponse getBookByISBN(String isbn) throws BookNotFoundException {
-        BookMapper bookMapper = new BookMapper();
-        BookResponse bookResponse = new BookResponse();
+    public BookDTO getBookByISBN(String isbn) throws BookNotFoundException {
         try {
-            bookResponse = bookMapper.fromBookDTOToResponse(bookService.getBookByISBN(isbn));
+            BookDTO book = bookService.getBookByISBN(isbn);
+            return book;
         } catch (EntityNotFoundException e) {
             //TODO: Implementar llamada a API externa
             //retrieve busqueda de libro en una API externa
@@ -45,15 +45,15 @@ public class BookHandler {
                 throw new BookNotFoundException("Libro with isbn: " + isbn + " not found");
             }
         }
-        return bookResponse;
+        return null;
     }
 
     /**
-     * Método que actualiza un libro por completo.
-     * Deben enviarse todos los campos del libro, por mas que no se modifiquen.
+     * Method that updates a book
+     * Must send all the fields of the book, even if they are not modified.
      *
-     * @param id           id del libro
-     * @param bookRequest BookRequest
+     * @param id String
+     * @param bookRequest
      */
     public void updateBook(String id, BookRequest bookRequest) {
         BookMapper libroMapper = new BookMapper();
