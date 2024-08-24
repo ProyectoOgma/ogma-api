@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class UserLocationRequest {
-    private String province;
-    private CityRequest city;
+public class CityRequest {
 
+    private String name;
+    private String postalCode;
 }

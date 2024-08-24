@@ -43,9 +43,6 @@ public class User extends Auditable implements UserDetails {
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date birthDate;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_location_id", referencedColumnName = "id_user_location")
-    private UserLocation userLocation;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserLocationDTO {
-    private String province;
-    private CityDTO city;
+public class CityDTO {
+    private String name;
+    private String postalCode;
 }

@@ -1,7 +1,9 @@
 package com.api.ogma.books.ogmaapi.adapter.mapper;
 
+import com.api.ogma.books.ogmaapi.dto.domain.CityDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.UserLocationDTO;
+import com.api.ogma.books.ogmaapi.dto.request.CityRequest;
 import com.api.ogma.books.ogmaapi.dto.request.UserLocationRequest;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 
@@ -21,9 +23,15 @@ public class UserDTOMapper {
 
     private UserLocationDTO mapUserLocation(UserLocationRequest userLocationRequest) {
         return UserLocationDTO.builder()
-                .city(userLocationRequest.getCity())
+                .city(mapCity(userLocationRequest.getCity()))
                 .province(userLocationRequest.getProvince())
-                .postalCode(userLocationRequest.getPostalCode())
+                .build();
+    }
+
+    private CityDTO mapCity(CityRequest cityRequest) {
+        return CityDTO.builder()
+                .name(cityRequest.getName())
+                .postalCode(cityRequest.getPostalCode())
                 .build();
     }
 
