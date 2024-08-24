@@ -27,4 +27,6 @@ public class City extends Auditable {
     @ManyToOne
     @JoinColumn(name = "id_province")
     private Province province;
+
+
 }
