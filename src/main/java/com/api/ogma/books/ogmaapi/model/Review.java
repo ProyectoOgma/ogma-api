@@ -23,7 +23,9 @@ public class Review extends Auditable{
     @JoinColumn(name = "id_book")
     private Book book;
 
+    @Column(name = "comment", nullable = true, length = 500)
     private String comment;
+
     @ManyToOne
     @JoinColumn(name = "id_user")
     private User user;

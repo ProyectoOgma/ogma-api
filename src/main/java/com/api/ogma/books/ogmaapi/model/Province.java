@@ -19,21 +19,28 @@ public class Province extends Auditable {
     private Long id;
 
     private String name;
-    @Column(name = "complete_name")
-    private String completeName;
+
+    @Column(name = "full_name")
+    private String fullName;
 
     @ManyToOne
     @JoinColumn(name = "id_country")
     private Country country;
 
     @OneToMany(mappedBy = "province", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<City> cities;
+    private List<Municipality> municipalities;
+
+    @OneToMany(mappedBy = "province", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Department> departments;
+
+    @OneToMany(mappedBy = "province", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Location> locations;
 
     private String category;
 
-    private Long latitude;
+    private Float latitude;
+    private Float longitude;
 
-    private Long longitude;
     private String source;
     @Column(name = "iso_id")
     private String isoId;

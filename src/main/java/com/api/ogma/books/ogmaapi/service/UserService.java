@@ -66,7 +66,7 @@ public class UserService {
         User user = usersRepository.findById(id)
                 .orElseThrow(() ->
                         new EntityNotFoundException("User with id: " + id + " not found"));
-        user.setUserGenre(userDTO.getGenre());
+        user.setGenre(userDTO.getGenre());
         if (userDTO.getBirthDate() != null) {
             user.setBirthDate(new Date(userDTO.getBirthDate().getTime()));
         }

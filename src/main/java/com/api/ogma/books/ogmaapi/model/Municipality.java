@@ -1,32 +1,32 @@
 package com.api.ogma.books.ogmaapi.model;
 
-
-import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.jpa.domain.AbstractAuditable;
-
-import java.util.List;
 
 @Entity
-@Table(name = "city")
+@Table(name= "municipality")
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class City extends Auditable {
+public class Municipality extends Auditable{
     @Id
-    @Column(name = "id_city")
+    @Column(name = "id_municipality")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
-    private String cp;
+
+    @Column(name = "full_name")
+    private String fullName;
 
     @ManyToOne
     @JoinColumn(name = "id_province")
     private Province province;
 
-
+    private String source;
+    private String category;
+    private Float latitude;
+    private Float longitude;
 }
