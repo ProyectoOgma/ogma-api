@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.adapter.controller.filter;
 
 import com.api.ogma.books.ogmaapi.adapter.filter.JwtAuthenticationFilter;
+import com.api.ogma.books.ogmaapi.config.WhitelistConfig;
 import com.api.ogma.books.ogmaapi.service.JwtService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -39,10 +40,11 @@ public class JwtAuthenticationFilterTest {
     @Autowired
     private WebApplicationContext webApplicationContext;
 
+    private WhitelistConfig whitelistConfig;
 
     @BeforeEach
     public void setup() {
-        JwtAuthenticationFilter jwtAuthenticationFilter = new JwtAuthenticationFilter(jwtService, userDetailsService);
+        JwtAuthenticationFilter jwtAuthenticationFilter = new JwtAuthenticationFilter(jwtService, userDetailsService, whitelistConfig);
         UsernamePasswordAuthenticationFilter usernamePasswordAuthenticationFilter = new UsernamePasswordAuthenticationFilter();
         mockMvc = MockMvcBuilders
                 .webAppContextSetup(webApplicationContext)

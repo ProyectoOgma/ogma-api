@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.adapter.filter;
 
+import com.api.ogma.books.ogmaapi.config.WhitelistConfig;
 import com.api.ogma.books.ogmaapi.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -17,6 +18,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * This class is used to filter all the requests and validate the JWT token
@@ -31,9 +33,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private final JwtService jwtService;
     private final UserDetailsService userDetailsService;
-
-    @Value("${api.path}")
-    private String apiPath;
+    private final WhitelistConfig whitelistConfig;
 
     @Override
     protected void doFilterInternal(@NonNull HttpServletRequest request,
@@ -90,11 +90,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         filterChain.doFilter(request, response);
     }
 
-    // Método para verificar si la ruta es pública
     private boolean isPublicPath(String path) {
-
-        return path.startsWith(apiPath + "/v1/auth")
-                || path.startsWith("/swagger-ui/")
-                || path.startsWith("/v3/api-docs");
+        return whitelistConfig.getWhitelistPaths().stream().anyMatch(path::startsWith);
     }
 }
