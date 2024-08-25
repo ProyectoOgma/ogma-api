@@ -12,9 +12,9 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Aplica a todos los endpoints
-                .allowedOriginPatterns("http://localhost:8080", "http://localhost:3000")
+                .allowedOriginPatterns("http://localhost:[*]")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS") // Métodos permitidos
-                .allowedHeaders("Content-Type", "Authorization", "X-Requested-With") // Permite todos los headers
+                .allowedHeaders("*") // Permite todos los headers
                 .allowCredentials(true) // Habilita el envío de credenciales (cookies, headers autorizados, etc.)
                 .maxAge(3600); // Tiempo en segundos que se cachea la configuración
     }
