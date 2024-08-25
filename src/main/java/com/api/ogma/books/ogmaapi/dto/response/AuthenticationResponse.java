@@ -13,4 +13,6 @@ public class AuthenticationResponse {
 
     //Token que devolveremos al cliente
     private String token;
+    private Long userId;
+    private String username;
 }

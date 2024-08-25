@@ -12,6 +12,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 @Service
 @RequiredArgsConstructor
@@ -26,15 +27,20 @@ public class AuthService {
         User user = User.builder()
                 .name(request.getName())
                 .lastName(request.getLastName())
+                .username(createUserName(request))
                 .email(request.getEmail())
                 .hashedPassword(passwordEncoder.encode(request.getPassword()))
                 .role(Role.USER)
                 .build();
 
-        userRepository.save(user);
+        User userSaved = userRepository.save(user);
         String token = jwtProvider.generateToken(user);
 
-        return AuthenticationResponse.builder().token(token).build();
+        return AuthenticationResponse.builder()
+                .token(token)
+                .userId(userSaved.getId())
+                .username(userSaved.getUsername())
+                .build();
     }
 
     public AuthenticationResponse authenticate(AuthenticationRequest request) {
@@ -48,7 +54,15 @@ public class AuthService {
                         new EntityNotFoundException("User with email: " + request.getEmail() + " not found"));
         String token = jwtProvider.generateToken(user);
 
-        return AuthenticationResponse.builder().token(token).build();
+        return AuthenticationResponse.builder()
+                .token(token)
+                .userId(user.getId())
+                .username(user.getUsername())
+                .build();
+    }
+
+    private String createUserName(RegisterRequest registerRequest) {
+        return registerRequest.getName() + StringUtils.capitalize(registerRequest.getLastName());
     }
 
 

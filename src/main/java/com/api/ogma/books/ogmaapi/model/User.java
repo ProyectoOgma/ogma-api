@@ -1,12 +1,15 @@
 package com.api.ogma.books.ogmaapi.model;
 
 import com.api.ogma.books.ogmaapi.security.Role;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import java.sql.Date;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
@@ -18,6 +21,7 @@ import java.util.Set;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class User extends Auditable implements UserDetails {
 
     @Id
@@ -31,6 +35,14 @@ public class User extends Auditable implements UserDetails {
     private String email; // tambien hace de username
     @Column(name = "hashed_password")
     private String hashedPassword;
+    @Column(name = "user_name")
+    private String username; //Solo figurativo, no es para ingreso
+    @Column(name = "user_genre")
+    private String userGenre;
+    @Column(name = "birth_date", nullable = true)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    private Date birthDate;
+
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
