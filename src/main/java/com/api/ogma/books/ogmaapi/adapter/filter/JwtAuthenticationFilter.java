@@ -1,11 +1,13 @@
 package com.api.ogma.books.ogmaapi.adapter.filter;
 
+import com.api.ogma.books.ogmaapi.config.WhitelistConfig;
 import com.api.ogma.books.ogmaapi.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -16,6 +18,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * This class is used to filter all the requests and validate the JWT token
@@ -30,19 +33,28 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private final JwtService jwtService;
     private final UserDetailsService userDetailsService;
+    private final WhitelistConfig whitelistConfig;
 
     @Override
     protected void doFilterInternal(@NonNull HttpServletRequest request,
                                     @NonNull HttpServletResponse response,
                                     @NonNull FilterChain filterChain) throws ServletException, IOException {
 
+        String path = request.getServletPath();
+        if (isPublicPath(path)) {
+            filterChain.doFilter(request, response);
+            return;
+        }
+
         final String authHeader = request.getHeader(AUTH_HEADER);
         final boolean loginHeader = Boolean.parseBoolean(request.getHeader("login"));
         final String jwt;
         final String email;
 
+        // Si la cabecera de login está presente, omitir el filtro de autenticación
         if (loginHeader) {
             filterChain.doFilter(request, response);
+            return;
         }
 
         if (authHeader == null || !authHeader.startsWith(BEARER)) {
@@ -51,15 +63,15 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         jwt = authHeader.substring(INDEX_BEARER);
-        email = jwtService.extractUserEmail(jwt); //extract from JWT token
+        email = jwtService.extractUserEmail(jwt); // Extraer el correo electrónico del token JWT
 
-        //Verificamos que exista el user y que no este ya autenticado, para no autenticar si no hace falta
+        // Verificamos que exista el usuario y que no esté ya autenticado, para no autenticar si no hace falta
         if (email == null || SecurityContextHolder.getContext().getAuthentication() != null) {
             response.setStatus(HttpServletResponse.SC_FORBIDDEN);
             return;
         }
 
-        //Como tenemos email y no esta autenticado, procedemos a autenticar
+        // Como tenemos email y no está autenticado, procedemos a autenticar
         UserDetails userDetails = this.userDetailsService.loadUserByUsername(email);
         if (!jwtService.isTokenValid(jwt, userDetails)) {
             response.setStatus(HttpServletResponse.SC_FORBIDDEN);
@@ -76,5 +88,9 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         SecurityContextHolder.getContext().setAuthentication(authToken);
 
         filterChain.doFilter(request, response);
+    }
+
+    private boolean isPublicPath(String path) {
+        return whitelistConfig.getWhitelistPaths().stream().anyMatch(path::startsWith);
     }
 }

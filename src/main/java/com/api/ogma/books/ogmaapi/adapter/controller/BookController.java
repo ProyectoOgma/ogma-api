@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("${api.path}/libros")
+@RequestMapping("${api.path}/books")
 @RequiredArgsConstructor
 public class BookController {
 

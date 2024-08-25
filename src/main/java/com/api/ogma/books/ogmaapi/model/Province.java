@@ -1,10 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
-
-import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.jpa.domain.AbstractAuditable;
 
 import java.util.List;
 
@@ -22,6 +19,8 @@ public class Province extends Auditable {
     private Long id;
 
     private String name;
+    @Column(name = "complete_name")
+    private String completeName;
 
     @ManyToOne
     @JoinColumn(name = "id_country")
@@ -29,5 +28,16 @@ public class Province extends Auditable {
 
     @OneToMany(mappedBy = "province", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<City> cities;
+
+    private String category;
+
+    private Long latitude;
+
+    private Long longitude;
+    private String source;
+    @Column(name = "iso_id")
+    private String isoId;
+    @Column(name = "iso_name")
+    private String isoName;
 
 }
