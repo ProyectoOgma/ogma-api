@@ -27,7 +27,7 @@ public class AuthService {
         User user = User.builder()
                 .name(request.getName())
                 .lastName(request.getLastName())
-                .username(createUserName(request))
+                .userSiteName(createUserSiteName(request))
                 .email(request.getEmail())
                 .hashedPassword(passwordEncoder.encode(request.getPassword()))
                 .role(Role.USER)
@@ -39,7 +39,7 @@ public class AuthService {
         return AuthenticationResponse.builder()
                 .token(token)
                 .userId(userSaved.getId())
-                .username(userSaved.getUsername())
+                .username(userSaved.getUserSiteName())
                 .build();
     }
 
@@ -57,11 +57,11 @@ public class AuthService {
         return AuthenticationResponse.builder()
                 .token(token)
                 .userId(user.getId())
-                .username(user.getUsername())
+                .username(user.getUserSiteName())
                 .build();
     }
 
-    private String createUserName(RegisterRequest registerRequest) {
+    private String createUserSiteName(RegisterRequest registerRequest) {
         return registerRequest.getName() + StringUtils.capitalize(registerRequest.getLastName());
     }
 

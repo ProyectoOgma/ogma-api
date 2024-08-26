@@ -37,7 +37,7 @@ public class User extends Auditable implements UserDetails {
     @Column(name = "hashed_password")
     private String hashedPassword;
     @Column(nullable = true)
-    private String username; //Solo figurativo, no es para ingreso
+    private String userSiteName; //Solo figurativo, no es para ingreso
 
     @Column(name = "genre")
     private String genre;

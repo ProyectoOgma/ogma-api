@@ -39,7 +39,7 @@ public class Seeder implements CommandLineRunner {
         User user = User.builder()
                 .name("test")
                 .lastName("test")
-                .username("test")
+                .userSiteName("test")
                 .email("admin@admin.com")
                 .hashedPassword(passwordEncoder.encode("password"))
                 .role(Role.USER)
