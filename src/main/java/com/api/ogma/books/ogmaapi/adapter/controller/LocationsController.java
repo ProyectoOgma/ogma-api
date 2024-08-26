@@ -1,5 +1,9 @@
 package com.api.ogma.books.ogmaapi.adapter.controller;
 
+import com.api.ogma.books.ogmaapi.adapter.handler.MunicipalityHandler;
+import com.api.ogma.books.ogmaapi.adapter.handler.ProvinceHandler;
+import com.api.ogma.books.ogmaapi.dto.domain.MunicipalityDTO;
+import com.api.ogma.books.ogmaapi.dto.domain.ProvinceDTO;
 import com.api.ogma.books.ogmaapi.model.Municipality;
 import com.api.ogma.books.ogmaapi.model.Province;
 import com.api.ogma.books.ogmaapi.service.MunicipalityService;
@@ -19,17 +23,17 @@ import java.util.List;
 @RequiredArgsConstructor
 public class LocationsController {
 
-    private final ProvinceService provinceService;
-    private final MunicipalityService municipalityService;
+    private final ProvinceHandler provinceHandler;
+    private final MunicipalityHandler municipalityHandler;
 
     @GetMapping("/provinces")
-    public ResponseEntity<List<Province>> getAllProvinces() {
-        return new ResponseEntity<>(provinceService.getAllProvinces(), HttpStatus.OK);
+    public ResponseEntity<List<ProvinceDTO>> getAllProvinces() {
+        return new ResponseEntity<>(provinceHandler.getProvincesForm(), HttpStatus.OK);
     }
 
     @GetMapping("/municipalities")
-    public ResponseEntity<List<Municipality>> getMunicipalitiesByProvince(@RequestParam Long provinceId) {
-        List<Municipality> municipalities = municipalityService.getMunicipalitiesByProvince(provinceId);
+    public ResponseEntity<List<MunicipalityDTO>> getMunicipalitiesByProvince(@RequestParam Long provinceId) {
+        List<MunicipalityDTO> municipalities = municipalityHandler.getMunicipalitiesForm(provinceId);
         return new ResponseEntity<>(municipalities, HttpStatus.OK);
     }
 }
