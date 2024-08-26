@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.model;
 
 
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
@@ -24,5 +25,6 @@ public class Country extends Auditable {
     private String name;
 
     @OneToMany(mappedBy = "country", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonManagedReference
     private List<Province> provinces;
 }

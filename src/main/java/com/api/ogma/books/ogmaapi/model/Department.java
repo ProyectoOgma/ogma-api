@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,6 +26,7 @@ public class Department extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_province")
+    @JsonBackReference
     private Province province;
 
     private String source;

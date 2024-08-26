@@ -1,7 +1,10 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
+
+import java.util.List;
 
 @Entity
 @Table(name= "municipality")
@@ -23,7 +26,12 @@ public class Municipality extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_province")
+    @JsonBackReference
     private Province province;
+
+    @OneToMany(mappedBy = "municipality", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<User> users;
+
 
     private String source;
     private String category;

@@ -11,7 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class UserLocationRequest {
-    private String province;
-    private CityRequest city;
-
+    private Long provinceId;
+    private Long municipalityId;
 }

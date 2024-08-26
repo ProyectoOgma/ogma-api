@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserLocationDTO {
-    private String province;
-    private CityDTO city;
+    private Long provinceId;
+    private Long municipalityId;
 }
