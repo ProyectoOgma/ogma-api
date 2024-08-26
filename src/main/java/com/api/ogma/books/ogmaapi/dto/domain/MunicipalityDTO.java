@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserLocationDTO {
-    private Long provinceId;
-    private Long municipalityId;
+public class MunicipalityDTO {
+    private Long id;
+    private String name;
 }

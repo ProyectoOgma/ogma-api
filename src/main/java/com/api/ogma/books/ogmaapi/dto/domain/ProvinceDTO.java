@@ -9,7 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CityDTO {
+public class ProvinceDTO {
+
+    private Long id;
     private String name;
-    private String postalCode;
 }

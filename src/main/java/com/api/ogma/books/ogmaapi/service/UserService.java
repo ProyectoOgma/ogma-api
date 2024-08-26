@@ -3,7 +3,11 @@ package com.api.ogma.books.ogmaapi.service;
 import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.UserLocationDTO;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
+import com.api.ogma.books.ogmaapi.model.Municipality;
+import com.api.ogma.books.ogmaapi.model.Province;
 import com.api.ogma.books.ogmaapi.model.User;
+import com.api.ogma.books.ogmaapi.repository.MunicipalityRepository;
+import com.api.ogma.books.ogmaapi.repository.ProvinceRepository;
 import com.api.ogma.books.ogmaapi.repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityNotFoundException;
@@ -13,6 +17,7 @@ import org.springframework.stereotype.Service;
 
 import java.sql.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -20,8 +25,8 @@ import java.util.List;
 public class UserService {
 
     private final UserRepository usersRepository;
-    private final ObjectMapper objectMapper;
-
+    private final MunicipalityRepository municipalityRepository;
+    private final ProvinceRepository provinceRepository;
     /**
      * Get a user by ID
      *
@@ -66,15 +71,28 @@ public class UserService {
         User user = usersRepository.findById(id)
                 .orElseThrow(() ->
                         new EntityNotFoundException("User with id: " + id + " not found"));
-        user.setUserGenre(userDTO.getGenre());
+        user.setGenre(userDTO.getGenre());
         if (userDTO.getBirthDate() != null) {
             user.setBirthDate(new Date(userDTO.getBirthDate().getTime()));
         }
 
-        //TODO: ACUTALIZAR LA LOCATION (crear relaciones con user)
+        fillLocationData(user, userDTO.getUserLocationDTO());
 
         usersRepository.save(user);
         log.info("User {} updated successfully", user.getId());
+    }
+
+    private void fillLocationData(User user, UserLocationDTO userLocationDTO) {
+        Province province = provinceRepository.findById(userLocationDTO.getProvinceId())
+                .orElseThrow(() ->
+                        new EntityNotFoundException("Province with id: " + userLocationDTO.getProvinceId() + " not found"));
+
+        Municipality municipality = municipalityRepository.findById(userLocationDTO.getMunicipalityId())
+                .orElseThrow(() ->
+                        new EntityNotFoundException("Municipality with id: " + userLocationDTO.getMunicipalityId() + " not found"));
+
+        user.setProvince(province);
+        user.setMunicipality(municipality);
     }
 
 }

@@ -33,16 +33,26 @@ public class User extends Auditable implements UserDetails {
     private String lastName;
     @Column(unique = true)
     private String email; // tambien hace de username
+
     @Column(name = "hashed_password")
     private String hashedPassword;
-    @Column(name = "user_name")
+    @Column(nullable = true)
     private String username; //Solo figurativo, no es para ingreso
-    @Column(name = "user_genre")
-    private String userGenre;
+
+    @Column(name = "genre")
+    private String genre;
+
     @Column(name = "birth_date", nullable = true)
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date birthDate;
 
+    @ManyToOne
+    @JoinColumn(name = "id_province")
+    private Province province;
+
+    @ManyToOne
+    @JoinColumn(name = "id_municipality")
+    private Municipality municipality;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
