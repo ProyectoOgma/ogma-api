@@ -22,8 +22,7 @@ public class BookHandler {
      * @param bookRequest BookRequest
      */
     public BookDTO createBook(BookRequest bookRequest) {
-        BookDTO book = bookService.createBook(bookMapper.fromRequestToBookDTO(bookRequest));
-        return book;
+        return bookService.createBook(bookMapper.fromRequestToBookDTO(bookRequest));
     }
 
     /**
@@ -35,8 +34,7 @@ public class BookHandler {
      */
     public BookDTO getBookByISBN(String isbn) throws BookNotFoundException {
         try {
-            BookDTO book = bookService.getBookByISBN(isbn);
-            return book;
+            return bookService.getBookByISBN(isbn);
         } catch (EntityNotFoundException e) {
             //TODO: Implementar llamada a API externa
             //retrieve busqueda de libro en una API externa
@@ -56,7 +54,7 @@ public class BookHandler {
      * @param bookRequest
      */
     public void updateBook(String id, BookRequest bookRequest) {
-        BookMapper libroMapper = new BookMapper();
-        bookService.updateBook(id, libroMapper.fromRequestToBookDTO(bookRequest));
+        BookMapper bookMapper = new BookMapper();
+        bookService.updateBook(id, bookMapper.fromRequestToBookDTO(bookRequest));
     }
 }
