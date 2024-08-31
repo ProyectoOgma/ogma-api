@@ -28,7 +28,7 @@ public class BookController {
             @ApiResponse(responseCode = "201", description = "Libro creado correctamente"),
             @ApiResponse(responseCode = "500", description = "Error al crear el libro, intentelo nuevamente")
     })
-    @PostMapping("/")
+    @PostMapping()
     public ResponseEntity<Response<BookDTO>> createBook(@RequestBody BookRequest bookRequest) {
         try {
             BookDTO bookCreated = bookHandler.createBook(bookRequest);
