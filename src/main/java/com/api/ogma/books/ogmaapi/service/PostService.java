@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -23,7 +24,7 @@ public class PostService {
     private final StateHistoryRepository stateHistoryRepository;
 
     @Transactional
-    public void createPost(PostDTO postDTO) {
+    public Post createPost(PostDTO postDTO) {
         Post post = mapPost(postDTO);
         post = postRepository.save(post);
 
@@ -38,6 +39,16 @@ public class PostService {
                 .build();
 
         stateHistoryRepository.save(stateHistory);
+        return post;
+    }
+
+    public Post getPost(Long id) {
+        return postRepository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Post with id: " + id + " not found"));
+    }
+
+    public List<Post> getAllPosts() {
+        return postRepository.findAll();
     }
 
     private Post mapPost(PostDTO postDTO) {

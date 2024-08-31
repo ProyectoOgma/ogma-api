@@ -21,5 +21,4 @@ public class PostRequest {
     private String description;
     private Boolean wasRead;
 
-
 }
