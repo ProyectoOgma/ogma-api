@@ -25,7 +25,7 @@ public class PostController {
             @ApiResponse(responseCode = "201", description = "Publicacion creada con exito"),
             @ApiResponse(responseCode = "400", description = "Error al crear la publicacion")
     })
-    @PostMapping("/")
+    @PostMapping()
     public ResponseEntity<String> createPost(@RequestBody PostRequest postRequest) {
         postHandler.createPost(postRequest);
         return new ResponseEntity<>("publicacion creada con exito", HttpStatus.CREATED);
