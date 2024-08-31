@@ -38,7 +38,7 @@ public class UserController {
             @ApiResponse(responseCode = "200", description = "Usuarios encontrados"),
             @ApiResponse(responseCode = "404", description = "Usuarios no encontrados")
     })
-    @GetMapping()
+    @GetMapping("/")
     public ResponseEntity<List<UserResponse>> getAllUsers() {
         List<UserResponse> userResponses = userHandler.getAllUsers();
         return new ResponseEntity<>(userResponses, HttpStatus.OK);
@@ -55,6 +55,5 @@ public class UserController {
         userHandler.updateUser(id, userRequest);
         return new ResponseEntity<>("User updated successfully", HttpStatus.OK);
     }
-
 
 }
