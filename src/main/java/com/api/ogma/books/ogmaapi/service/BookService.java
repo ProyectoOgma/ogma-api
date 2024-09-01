@@ -68,7 +68,7 @@ public class BookService {
 
         Optional<UserDetails> user = contextService.getUserDetails();
         if (user.isEmpty()) {
-            throw new RuntimeException("Usuario no encontrado");
+            throw new RuntimeException("Usuario no encontrado en el contexto");
         }
         String userName = user.get().getUsername();
         //libroDTO.setUsuarioActualizacion(userName);

@@ -27,7 +27,7 @@ public class PostController {
             @ApiResponse(responseCode = "201", description = "Publicacion creada con exito"),
             @ApiResponse(responseCode = "400", description = "Error al crear la publicacion")
     })
-    @PostMapping("/")
+    @PostMapping()
     public ResponseEntity<Response<PostDTO>> createPost(@RequestBody PostRequest postRequest) {
         try {
             PostDTO postCreated = postHandler.createPost(postRequest);
@@ -45,7 +45,7 @@ public class PostController {
             @ApiResponse(responseCode = "200", description = "Posts encontrados"),
             @ApiResponse(responseCode = "404", description = "Posts no encontrados")
     })
-    @GetMapping("/")
+    @GetMapping()
     public ResponseEntity<Response<List<PostDTO>>> getAllPosts() {
         try {
             List<PostDTO> posts = postHandler.getAllPosts();
