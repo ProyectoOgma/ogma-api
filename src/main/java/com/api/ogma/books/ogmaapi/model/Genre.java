@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -22,5 +23,6 @@ public class Genre extends Auditable {
     private String name;
 
     @ManyToMany(mappedBy = "genres")
+    @JsonBackReference
     private List<Book> books;
 }

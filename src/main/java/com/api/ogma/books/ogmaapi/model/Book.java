@@ -1,5 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
@@ -39,6 +41,7 @@ public class Book extends Auditable{
     private Integer pages;
 
     @OneToMany(mappedBy = "book")
+    @JsonManagedReference
     private List<Image> images;
 
     private Float price;
@@ -55,6 +58,7 @@ public class Book extends Auditable{
             joinColumns = @JoinColumn(name = "id_book"),
             inverseJoinColumns = @JoinColumn(name = "id_author")
     )
+    @JsonManagedReference
     private Set<Author> authors;
 
     @ManyToMany
@@ -63,9 +67,11 @@ public class Book extends Auditable{
             joinColumns = @JoinColumn(name = "id_book"),
             inverseJoinColumns = @JoinColumn(name = "id_genre")
     )
+    @JsonManagedReference
     private Set<Genre> genres;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Review> reviews;
 
     @ManyToMany
@@ -78,6 +84,7 @@ public class Book extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_publisher")
+    @JsonBackReference
     private Publisher publisher;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
@@ -89,6 +96,7 @@ public class Book extends Auditable{
             joinColumns = @JoinColumn(name = "id_book"),
             inverseJoinColumns = @JoinColumn(name = "id_lang")
     )
+    @JsonManagedReference
     private List<Lang> langs;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)

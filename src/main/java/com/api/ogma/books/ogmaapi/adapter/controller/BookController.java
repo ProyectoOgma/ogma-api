@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 import com.api.ogma.books.ogmaapi.adapter.handler.BookHandler;
 import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
+import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import com.api.ogma.books.ogmaapi.exception.BookNotFoundException;
@@ -46,9 +47,9 @@ public class BookController {
             @ApiResponse(responseCode = "404", description = "Libro no encontrado")
     })
     @GetMapping("/{isbn}")
-    public ResponseEntity<Response<BookDTO>> getBookByIsbn(@PathVariable String isbn) throws BookNotFoundException {
+    public ResponseEntity<Response<BookResponse>> getBookByIsbn(@PathVariable String isbn) throws BookNotFoundException {
         try {
-            BookDTO book = bookHandler.getBookByISBN(isbn);
+            BookResponse book = bookHandler.getBookByISBN(isbn);
             String message = book == null ? "Libro no encontrado" : "Libro encontrado";
 
             return ResponseUtil.createSuccessResponse(book, message);

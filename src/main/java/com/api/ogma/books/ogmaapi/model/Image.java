@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -24,5 +25,6 @@ public class Image {
 
     @ManyToOne
     @JoinColumn(name = "id_book")
+    @JsonBackReference
     private Book book;
 }
