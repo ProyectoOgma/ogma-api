@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 import com.api.ogma.books.ogmaapi.adapter.mapper.BookMapper;
 import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
+import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.exception.BookNotFoundException;
 import com.api.ogma.books.ogmaapi.service.BookService;
 import jakarta.persistence.EntityNotFoundException;
@@ -32,18 +33,13 @@ public class BookHandler {
      * @return LibroResponse
      * @throws BookNotFoundException si no se encuentra el libro
      */
-    public BookDTO getBookByISBN(String isbn) throws BookNotFoundException {
+    public BookResponse getBookByISBN(String isbn) throws BookNotFoundException {
         try {
-            return bookService.getBookByISBN(isbn);
+            return bookMapper.fromBookDTOToResponse(
+                    bookService.getBookByISBN(isbn));
         } catch (EntityNotFoundException e) {
-            //TODO: Implementar llamada a API externa
-            //retrieve busqueda de libro en una API externa
-            //Response response = libroApiClient.retrieveLibro(isbn);
-            if (/*response == null*/true){
-                throw new BookNotFoundException("Libro with isbn: " + isbn + " not found");
-            }
+            throw new BookNotFoundException("Libro with isbn: " + isbn + " not found");
         }
-        return null;
     }
 
     /**

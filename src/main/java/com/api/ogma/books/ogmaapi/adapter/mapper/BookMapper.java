@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Component("BookMapper")
@@ -64,16 +65,37 @@ public class BookMapper {
                 .collect(Collectors.toList());
     }
 
-    //TODO:
-    /*public BookResponse fromBookDTOToResponse(BookDTO bookDTO) {
+    public BookResponse fromBookDTOToResponse(BookDTO bookDTO) {
         return BookResponse.builder()
                 .title(bookDTO.getTitle())
-                .author(bookDTO.getAuthor())
-                .publisher(bookDTO.getPublisher())
-                .genre(bookDTO.getGenre())
-                .lang(bookDTO.getLang())
+                .authors(bookDTO.getAuthors())
+                .publisher(mapPublisher(bookDTO))
+                .genres(bookDTO.getGenres())
+                .langs(bookDTO.getLangs())
                 .synopsis(bookDTO.getSynopsis())
                 .cover(bookDTO.getCover())
+                .images(bookDTO.getImages())
+                .isbn(mapIsbn(bookDTO))
+                .depth(bookDTO.getDepth())
+                .height(bookDTO.getHeight())
+                .width(bookDTO.getWidth())
+                .weight(bookDTO.getWeight())
+                .pages(bookDTO.getPages())
+                .price(bookDTO.getPrice())
+                .rating(bookDTO.getRating())
+                .reviews(bookDTO.getReviews())
+                .releaseDate(bookDTO.getReleaseDate())
                 .build();
-    }*/
+    }
+
+    private String mapPublisher(BookDTO bookDTO) {
+        return Optional.ofNullable(bookDTO.getPublisher())
+                .map(PublisherDTO::getName)
+                .orElse("");
+    }
+
+    //Si o si va a tener un ISBN porque lo recuperamos antes
+    private String mapIsbn(BookDTO bookDTO) {
+        return Optional.ofNullable(bookDTO.getIsbn10()).orElse(bookDTO.getIsbn13());
+    }
 }
