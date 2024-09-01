@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -21,5 +22,6 @@ public class Publisher extends Auditable {
     private String name;
 
     @OneToMany(mappedBy = "publisher")
+    @JsonManagedReference
     private Set<Book> books;
 }

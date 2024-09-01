@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
@@ -27,6 +28,7 @@ public class Author extends Auditable {
     private String name;
 
     @ManyToMany(mappedBy = "authors")
+    @JsonBackReference
     private List<Book> books;
 
 }

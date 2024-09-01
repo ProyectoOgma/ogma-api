@@ -1,5 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -21,6 +23,7 @@ public class Review extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_book")
+    @JsonBackReference
     private Book book;
 
     @Column(name = "comment", nullable = true, length = 500)
@@ -28,6 +31,7 @@ public class Review extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_user")
+    @JsonManagedReference
     private User user;
 
     @Column(name = "rating", nullable = false)

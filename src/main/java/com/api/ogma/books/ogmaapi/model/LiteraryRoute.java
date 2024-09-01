@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
@@ -29,6 +30,7 @@ public class LiteraryRoute extends Auditable {
 
     @ManyToOne
     @JoinColumn(name = "id_user")
+    @JsonBackReference
     private User user;
 
     @ManyToMany

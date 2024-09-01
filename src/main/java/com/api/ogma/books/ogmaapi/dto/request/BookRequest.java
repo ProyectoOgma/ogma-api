@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Builder
@@ -14,10 +15,10 @@ import java.util.Date;
 public class BookRequest {
 
     private String title;
-    private String author;
-    private String genre;
-    private String publisher;
-    private String lang;
+    private List<Integer> authors;
+    private List<Integer> genres;
+    private Integer publisher;
+    private List<Integer> langs;
     private Date realeaseDate;
     private String isbn10;
     private String isbn13;

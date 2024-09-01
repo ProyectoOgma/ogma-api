@@ -1,8 +1,10 @@
 package com.api.ogma.books.ogmaapi.model;
 
 import com.api.ogma.books.ogmaapi.security.Role;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
@@ -58,9 +60,11 @@ public class User extends Auditable implements UserDetails {
     private List<Comment> comments;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonBackReference
     private List<Review> reviews;
 
     @OneToMany(mappedBy = "user")
+    @JsonManagedReference
     private Set<LiteraryRoute> literaryRoutes;
 
     @Enumerated(EnumType.STRING)

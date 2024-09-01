@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Collection;
 import java.util.Date;
 
 @Builder
@@ -15,18 +16,15 @@ public class BookDTO {
 
     private Long id;
     private String title;
-    private String author;
-    private String publisher;
-    private String genre; //Clase genero
-    private String lang;
+    private Collection<AuthorDTO> authors;
+    private PublisherDTO publisher;
+    private Collection<GenreDTO> genres;
+    private Collection<LangDTO> langs;
     private String isbn13;
     private String isbn10;
     private String synopsis;
     private String cover;
-    private Date realaseDate;
-    private Date createdAt;
-    private Date updatedAt;
-    private Date deletedAt;
+    private Date releaseDate;
     private BookState state; // state class
     // private String usuarioRegistro;
 //    private String usuarioActualizacion;
@@ -36,4 +34,5 @@ public class BookDTO {
 //    private String tipo;
 //    private String ubicacion;
     private Float price;
+    private Integer pages;
 }
