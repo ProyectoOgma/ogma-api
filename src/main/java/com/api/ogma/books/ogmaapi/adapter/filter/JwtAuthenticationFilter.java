@@ -2,12 +2,12 @@ package com.api.ogma.books.ogmaapi.adapter.filter;
 
 import com.api.ogma.books.ogmaapi.config.WhitelistConfig;
 import com.api.ogma.books.ogmaapi.service.JwtService;
+import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -18,7 +18,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
-import java.util.List;
 
 /**
  * This class is used to filter all the requests and validate the JWT token
@@ -63,29 +62,36 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         jwt = authHeader.substring(INDEX_BEARER);
-        email = jwtService.extractUserEmail(jwt); // Extraer el correo electrónico del token JWT
+        try {
+            email = jwtService.extractUserEmail(jwt); // Extraer el correo electrónico del token JWT
 
-        // Verificamos que exista el usuario y que no esté ya autenticado, para no autenticar si no hace falta
-        if (email == null || SecurityContextHolder.getContext().getAuthentication() != null) {
+            // Verificamos que exista el usuario y que no esté ya autenticado, para no autenticar si no hace falta
+            if (email == null || SecurityContextHolder.getContext().getAuthentication() != null) {
+                response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+                return;
+            }
+
+            // Como tenemos email y no está autenticado, procedemos a autenticar
+            UserDetails userDetails = this.userDetailsService.loadUserByUsername(email);
+            if (!jwtService.isTokenValid(jwt, userDetails)) {
+                response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+                return;
+            }
+
+            UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
+                    userDetails,
+                    null,
+                    userDetails.getAuthorities());
+            authToken.setDetails(
+                    new WebAuthenticationDetailsSource().buildDetails(request)
+            );
+            SecurityContextHolder.getContext().setAuthentication(authToken);
+        } catch (JwtException e) {
+            logger.error(e.getMessage());
             response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+            //throw new CustomAuthException(e.getMessage(), e);
             return;
         }
-
-        // Como tenemos email y no está autenticado, procedemos a autenticar
-        UserDetails userDetails = this.userDetailsService.loadUserByUsername(email);
-        if (!jwtService.isTokenValid(jwt, userDetails)) {
-            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
-            return;
-        }
-
-        UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
-                userDetails,
-                null,
-                userDetails.getAuthorities());
-        authToken.setDetails(
-                new WebAuthenticationDetailsSource().buildDetails(request)
-        );
-        SecurityContextHolder.getContext().setAuthentication(authToken);
 
         filterChain.doFilter(request, response);
     }

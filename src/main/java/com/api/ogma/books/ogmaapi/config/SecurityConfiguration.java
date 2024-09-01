@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.config;
 
 import com.api.ogma.books.ogmaapi.adapter.filter.JwtAuthenticationFilter;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -38,10 +39,22 @@ public class SecurityConfiguration {
      */
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http.csrf(AbstractHttpConfigurer::disable)
+        http.exceptionHandling(exceptionHandling ->
+                        exceptionHandling
+                                .authenticationEntryPoint((request, response, authException) -> {
+                                    // Este manejador se activa cuando la autenticación falla
+                                    response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "No está autenticado");
+                                })
+                                .accessDeniedHandler((request, response, accessDeniedException) -> {
+                                    // Este manejador se activa cuando hay un problema de autorización
+                                    response.sendError(HttpServletResponse.SC_FORBIDDEN, "Acceso denegado");
+                                })
+                )
+                .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers(apiPath + "/v1/auth/**").permitAll()
                         .requestMatchers("/swagger-ui/**", "/swagger-ui.html", "/v3/api-docs/**", "/swagger-resources/**").permitAll()
+                        .requestMatchers("/error").permitAll()
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session
