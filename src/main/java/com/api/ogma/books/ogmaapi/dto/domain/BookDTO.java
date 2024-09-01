@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 @Builder
 @Data
@@ -16,23 +17,26 @@ public class BookDTO {
 
     private Long id;
     private String title;
-    private Collection<AuthorDTO> authors;
-    private PublisherDTO publisher;
-    private Collection<GenreDTO> genres;
-    private Collection<LangDTO> langs;
     private String isbn13;
     private String isbn10;
     private String synopsis;
-    private String cover;
     private Date releaseDate;
-    private BookState state; // state class
-    // private String usuarioRegistro;
-//    private String usuarioActualizacion;
-//    private String usuarioEliminacion;
-//    private String motivoEliminacion;
-//    private String observaciones;
-//    private String tipo;
-//    private String ubicacion;
-    private Float price;
     private Integer pages;
+    private Float price;
+    private Float height;
+    private Float width;
+    private Float weight;
+    private Float depth;
+    private Integer rating;
+    private String cover;
+
+    private Collection<AuthorDTO> authors;
+    private Collection<GenreDTO> genres;
+    private Collection<LangDTO> langs;
+    private PublisherDTO publisher;
+    private Collection<ReviewDTO> reviews;
+    private Collection<LiteraryRouteDTO> literaryRoutes;
+    private List<StateHistoryDTO> stateHistory;
+    private List<ImageDTO> images;
+    private List<PostDTO> posts;
 }
