@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.model;
 
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
@@ -37,6 +38,7 @@ public class Post extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_book")
+    @JsonBackReference
     private Book book;
 
     @Enumerated(EnumType.STRING)
