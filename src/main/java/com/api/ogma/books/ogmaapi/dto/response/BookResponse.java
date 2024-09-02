@@ -16,6 +16,7 @@ import java.util.List;
 @NoArgsConstructor
 public class BookResponse {
 
+    private String id;
     private String title;
     private String publisher;
     private String synopsis;

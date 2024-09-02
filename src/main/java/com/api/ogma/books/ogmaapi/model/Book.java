@@ -84,7 +84,7 @@ public class Book extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_publisher")
-    @JsonBackReference
+    @JsonManagedReference
     private Publisher publisher;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)

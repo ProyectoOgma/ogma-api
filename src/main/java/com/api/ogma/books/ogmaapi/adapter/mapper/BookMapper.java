@@ -67,6 +67,7 @@ public class BookMapper {
 
     public BookResponse fromBookDTOToResponse(BookDTO bookDTO) {
         return BookResponse.builder()
+                .id(String.valueOf(bookDTO.getId()))
                 .title(bookDTO.getTitle())
                 .authors(bookDTO.getAuthors())
                 .publisher(mapPublisher(bookDTO))
