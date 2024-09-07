@@ -2,12 +2,10 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 
 import com.api.ogma.books.ogmaapi.adapter.mapper.BookMapper;
 import com.api.ogma.books.ogmaapi.dto.domain.BookDTO;
-import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
 import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.exception.BookNotFoundException;
 import com.api.ogma.books.ogmaapi.model.Book;
-import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.service.BookService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
@@ -17,8 +15,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -42,9 +38,9 @@ public class BookHandler {
      * @param pageable
      * @return
      */
-    public Page<Book> getAllBooks(Pageable pageable) {
+    public Page<Book> getAllBooks(String title, Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
-        return bookService.getAllBooks(pageable);
+        return bookService.getAllBooks(title, pageable);
     }
 
     /**

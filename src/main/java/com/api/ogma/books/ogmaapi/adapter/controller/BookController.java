@@ -54,6 +54,19 @@ public class BookController {
     })
     @GetMapping()
     public ResponseEntity<Response<Page<Book>>> getAllBooks(
+            @RequestParam(value = "title", required = false) String title,
+            @RequestParam(value = "author", required = false) String author,
+            @RequestParam(value = "isbn", required = false) String isbn,
+            @RequestParam(value = "genre", required = false) String genre,
+            @RequestParam(value = "publisher", required = false) String publisher,
+            @RequestParam(value = "minYear", required = false) Integer minYear,
+            @RequestParam(value = "maxYear", required = false) Integer maxYear,
+            @RequestParam(value = "minPages", required = false) Integer minPages,
+            @RequestParam(value = "maxPages", required = false) Integer maxPages,
+            @RequestParam(value = "minRating", required = false) Double minRating,
+            @RequestParam(value = "maxRating", required = false) Double maxRating,
+            @RequestParam(value = "minPrice", required = false) Double minPrice,
+            @RequestParam(value = "maxPrice", required = false) Double maxPrice,
             @RequestParam(value = "page", defaultValue = "0") int page,
             @RequestParam(value = "size", defaultValue = "10") int size,
             @RequestParam(value = "sort", defaultValue = "createdAt") String sort,
@@ -61,7 +74,7 @@ public class BookController {
     ) {
         try {
             Pageable pageable = PageRequest.of(page, size, Sort.by(Sort.Direction.fromString(direction), sort));
-            Page<Book> books = bookHandler.getAllBooks(pageable);
+            Page<Book> books = bookHandler.getAllBooks(title, pageable);
             String message = books.isEmpty() ? "Libros no encontrados" : "Libros encontrados";
 
             return ResponseUtil.createSuccessResponse(books, message);

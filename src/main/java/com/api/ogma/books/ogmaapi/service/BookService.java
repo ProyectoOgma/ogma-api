@@ -11,10 +11,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-
-import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
+
 
 @Service
 @RequiredArgsConstructor
@@ -50,8 +48,8 @@ public class BookService {
      * @param pageable
      * @return List<BookDTO>
      */
-    public Page<Book> getAllBooks(Pageable pageable) {
-        return bookRepository.findAllBooksPageable(pageable);
+    public Page<Book> getAllBooks(String title, Pageable pageable) {
+        return bookRepository.findAllBooksPageable(title, pageable);
     }
 
     /**

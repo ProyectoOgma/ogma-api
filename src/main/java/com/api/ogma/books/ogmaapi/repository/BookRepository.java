@@ -17,8 +17,6 @@ public interface BookRepository extends JpaRepository<Book, Long>, BookRepositor
 
     Optional<Book> findBookByIsbn10(String isbn10);
     Optional<Book> findBookByIsbn13(String isbn13);
-    @Query("SELECT b FROM Book b")
-    Page<Book> findAllBooksPageable(Pageable pageable);
-//    @Query("SELECT b FROM Book b WHERE b.deletedAt = 'null'")
-//    List<Book> findAllNotDeleted();
+    @Query("SELECT b FROM Book b WHERE b.title LIKE %:title%")
+    Page<Book> findAllBooksPageable(String title, Pageable pageable);
 }
