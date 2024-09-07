@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
+import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.api.ogma.books.ogmaapi.exception.PostStates;
 import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.*;
@@ -60,9 +61,20 @@ public class PostService {
                 .orElseThrow(() -> new EntityNotFoundException("Post with id: " + id + " not found"));
     }
 
-    public Page<Post> getAllPosts(Pageable pageable) {
+    public Page<Post> getAllPosts(PostType type, String bookTitle, String authorName, String genre, Double minPrice, Double maxPrice,
+                                  Integer minRating, Integer maxRating, Pageable pageable) {
         // Usa una consulta dinámica que filtre por los valores proporcionados.
-        return postRepository.findAllPostsPageable(pageable);
+        return postRepository.getAllPosts(
+                type,
+                bookTitle,
+                authorName,
+                genre,
+                minPrice,
+                maxPrice,
+                minRating,
+                maxRating,
+                pageable
+        );
     }
 
     /**

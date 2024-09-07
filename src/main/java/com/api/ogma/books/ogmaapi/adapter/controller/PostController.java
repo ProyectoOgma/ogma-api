@@ -55,11 +55,14 @@ public class PostController {
             @ApiResponse(responseCode = "404", description = "Posts no encontrados")
     })
     public ResponseEntity<Response<Page<PostResponse>>> getAllPosts(
-//            @RequestParam(value = "type", required = false) PostType type,
-//            @RequestParam(value = "minPrice", required = false) Double minPrice,
-//            @RequestParam(value = "maxPrice", required = false) Double maxPrice,
-//            @RequestParam(value = "minRating", required = false) Double minRating,
-//            @RequestParam(value = "maxRating", required = false) Double maxRating,
+            @RequestParam(value = "type", required = false) PostType type,
+            @RequestParam(value = "title", required = false) String title,
+            @RequestParam(value = "author", required = false) String author,
+            @RequestParam(value = "genre", required = false) String genre,
+            @RequestParam(value = "minPrice", required = false) Double minPrice,
+            @RequestParam(value = "maxPrice", required = false) Double maxPrice,
+            @RequestParam(value = "minRating", required = false) Integer minRating,
+            @RequestParam(value = "maxRating", required = false) Integer maxRating,
             @RequestParam(value = "page", defaultValue = "0") int page,
             @RequestParam(value = "size", defaultValue = "10") int size,
             @RequestParam(value = "sort", defaultValue = "createdAt") String sort,
@@ -67,7 +70,8 @@ public class PostController {
     {
 
         Pageable pageable = PageRequest.of(page, size, Sort.Direction.fromString(direction), sort);
-        Page<PostResponse> posts = postHandler.getAllPosts(pageable);
+        Page<PostResponse> posts = postHandler.getAllPosts(
+                type, title, author, genre, minPrice, maxPrice, minRating, maxRating, pageable);
 
         String message = posts.isEmpty() ? "Posts no encontrados" : "Posts encontrados";
         return ResponseUtil.createSuccessResponse(posts, message);

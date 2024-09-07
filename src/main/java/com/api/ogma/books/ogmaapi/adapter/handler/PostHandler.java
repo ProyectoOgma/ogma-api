@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 
 import com.api.ogma.books.ogmaapi.adapter.mapper.PostMapper;
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
+import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.api.ogma.books.ogmaapi.dto.request.PostRequest;
 import com.api.ogma.books.ogmaapi.dto.response.PostResponse;
 import com.api.ogma.books.ogmaapi.model.Post;
@@ -52,9 +53,10 @@ public class PostHandler {
      * @param pageable
      * @return Page<PostDTO>
      */
-    public Page<PostResponse> getAllPosts(Pageable pageable) {
+    public Page<PostResponse> getAllPosts(PostType type, String bookTitle, String authorName, String genre, Double minPrice, Double maxPrice,
+                                          Integer minRating, Integer maxRating, Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
-        Page<Post> posts = postService.getAllPosts(pageable);
+        Page<Post> posts = postService.getAllPosts(type, bookTitle, authorName, genre, minPrice, maxPrice, minRating, maxRating, pageable);
         return posts.map(postMapper::mapFromPostToPostResponse);
     }
 
