@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 import com.api.ogma.books.ogmaapi.adapter.handler.PostHandler;
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.request.PostRequest;
+import com.api.ogma.books.ogmaapi.dto.response.PostResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import io.swagger.v3.oas.annotations.Operation;
@@ -28,9 +29,9 @@ public class PostController {
             @ApiResponse(responseCode = "400", description = "Error al crear la publicacion")
     })
     @PostMapping()
-    public ResponseEntity<Response<PostDTO>> createPost(@RequestBody PostRequest postRequest) {
+    public ResponseEntity<Response<PostResponse>> createPost(@RequestBody PostRequest postRequest) {
         try {
-            PostDTO postCreated = postHandler.createPost(postRequest);
+            PostResponse postCreated = postHandler.createPost(postRequest);
             String message = postCreated == null ? "Error al crear la publicacion" : "publicacion creada con exito";
 
             return ResponseUtil.createSuccessResponse(postCreated, message);

@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
@@ -36,6 +37,7 @@ public class StateHistory {
 
     @ManyToOne
     @JoinColumn(name = "id_post")
+    @JsonBackReference
     private Post post;
 
 //    @ManyToOne

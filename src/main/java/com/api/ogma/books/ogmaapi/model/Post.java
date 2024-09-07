@@ -4,6 +4,7 @@ package com.api.ogma.books.ogmaapi.model;
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
@@ -41,10 +42,20 @@ public class Post extends Auditable{
     @JsonBackReference
     private Book book;
 
+    @ManyToMany
+    @JoinTable(
+            name = "post_desired_books",
+            joinColumns = @JoinColumn(name = "post_id"),
+            inverseJoinColumns = @JoinColumn(name = "book_id")
+    )
+    @JsonManagedReference
+    private List<Book> desiredBooks;
+
     @Enumerated(EnumType.STRING)
     private BookState bookState;
 
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<StateHistory> stateHistories;
 
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)

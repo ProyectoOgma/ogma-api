@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -23,6 +24,11 @@ public class PostService {
     private final UserRepository userRepository;
     private final StateHistoryRepository stateHistoryRepository;
 
+    /**
+     * Creates a new post
+     * @param postDTO PostDTO with the post information
+     * @return Post entity created
+     */
     @Transactional
     public Post createPost(PostDTO postDTO) {
         Post post = mapPost(postDTO);
@@ -42,15 +48,29 @@ public class PostService {
         return post;
     }
 
+    /**
+     * Gets a post by id
+     * @param id Post id
+     * @return Post entity
+     */
     public Post getPost(Long id) {
         return postRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Post with id: " + id + " not found"));
     }
 
+    /**
+     * Gets all posts
+     * @return List of Post entities
+     */
     public List<Post> getAllPosts() {
         return postRepository.findAll();
     }
 
+    /**
+     * Maps a PostDTO to a Post entity
+     * @param postDTO PostDTO to map
+     * @return Post entity
+     */
     private Post mapPost(PostDTO postDTO) {
         Book book = bookRepository
                 .findById(Long.parseLong(postDTO.getBookId()))
@@ -58,7 +78,11 @@ public class PostService {
                         new EntityNotFoundException("Book with id: " + postDTO.getBookId() + " not found"));
         User user = userRepository.findById(Long.valueOf(postDTO.getUserId()))
                 .orElseThrow(() ->
-                        new EntityNotFoundException("User with id: " + postDTO.getUserId() + " not found"));;
+                        new EntityNotFoundException("User with id: " + postDTO.getUserId() + " not found"));
+        List<Book> desiredBooks = List.of();
+        if (postDTO.getDesiredBooks() != null) {
+            desiredBooks = bookRepository.findAllById(transformToLongList(postDTO.getDesiredBooks()));
+        }
 
         return Post.builder()
                 .book(book)
@@ -67,6 +91,13 @@ public class PostService {
                 .description(postDTO.getDescription())
                 .type(postDTO.getPostType())
                 .bookState(postDTO.getBookState())
+                .desiredBooks(desiredBooks)
                 .build();
+    }
+
+    public List<Long> transformToLongList(List<String> desiredBooks) {
+        return desiredBooks.stream()
+                .map(Long::valueOf)
+                .collect(Collectors.toList());
     }
 }

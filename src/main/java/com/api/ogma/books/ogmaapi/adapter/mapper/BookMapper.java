@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.domain.*;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
 import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.model.Author;
+import com.api.ogma.books.ogmaapi.model.Book;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
