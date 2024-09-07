@@ -10,6 +10,9 @@ import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @RequiredArgsConstructor
 @Service
 public class BookHandler {
@@ -39,6 +42,22 @@ public class BookHandler {
                     bookService.getBookByISBN(isbn));
         } catch (EntityNotFoundException e) {
             throw new BookNotFoundException("Libro with isbn: " + isbn + " not found");
+        }
+    }
+
+    /**
+     * Method to get books by title
+     *
+     * @param title String
+     * @return List<BookResponse>
+     */
+    public List<BookResponse> getBooksByTitle(String title) throws BookNotFoundException {
+        try {
+            return bookService.getBooksByTitle(title).stream()
+                    .map(bookMapper::fromBookDTOToResponse)
+                    .collect(Collectors.toList());
+        } catch (EntityNotFoundException e) {
+            throw new BookNotFoundException("Libro with title: " + title + " not found");
         }
     }
 
