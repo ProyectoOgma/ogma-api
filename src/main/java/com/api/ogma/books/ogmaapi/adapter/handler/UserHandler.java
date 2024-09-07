@@ -20,34 +20,11 @@ import java.util.List;
 public class UserHandler {
 
     private final UserService userService;
+    private final UserDTOMapper userDTOMapper;
 
     public UserResponse getUser(Long id) {
         User user = userService.getUser(id);
-        return UserResponse.builder()
-                .id(user.getId())
-                .name(user.getName())
-                .lastName(user.getLastName())
-                .username(user.getUsername())
-                .email(user.getEmail())
-                .birthDate(user.getBirthDate())
-                .userLocationResponse(mapLocationResponse(user))
-                .build();
-    }
-
-    private UserLocationResponse mapLocationResponse(User user) {
-        ProvinceDTO provinceDTO = ProvinceDTO.builder()
-                .name(user.getProvince().getName())
-                .id(user.getProvince().getId())
-                .build();
-        MunicipalityDTO municipalityDTO = MunicipalityDTO.builder()
-                .name(user.getMunicipality().getName())
-                .id(user.getMunicipality().getId())
-                .build();
-
-        return UserLocationResponse.builder()
-                .provinceResponse(provinceDTO)
-                .municipalityResponse(municipalityDTO)
-                .build();
+        return userDTOMapper.fromUserToUserResponse(user);
     }
 
     public UserResponse getUserByEmail(String email) {

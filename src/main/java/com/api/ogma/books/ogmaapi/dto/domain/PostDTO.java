@@ -7,6 +7,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Builder
 @Data
 @NoArgsConstructor
@@ -21,4 +23,5 @@ public class PostDTO {
     private String image;
     private String description;
     private Boolean wasRead;
+    private List<String> desiredBooks;
 }

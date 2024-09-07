@@ -38,5 +38,5 @@ public class BookDTO {
     private Collection<LiteraryRouteDTO> literaryRoutes;
     private List<StateHistoryDTO> stateHistory;
     private List<ImageDTO> images;
-    private List<PostDTO> posts;
+    //private List<PostDTO> posts;
 }

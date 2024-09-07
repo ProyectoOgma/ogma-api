@@ -1,7 +1,9 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
+import com.api.ogma.books.ogmaapi.adapter.mapper.PostMapper;
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.request.PostRequest;
+import com.api.ogma.books.ogmaapi.dto.response.PostResponse;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.service.PostService;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,17 +22,18 @@ public class PostHandler {
 
     private final ObjectMapper objectMapper;
     private final PostService postService;
+    private final PostMapper postMapper;
 
     /**
      * Method that creates a post
      * @param postRequest
      * @return PostDTO
      */
-    public PostDTO createPost(PostRequest postRequest) {
+    public PostResponse createPost(PostRequest postRequest) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         PostDTO postDTO = objectMapper.convertValue(postRequest, PostDTO.class);
         Post post = postService.createPost(postDTO);
-        return objectMapper.convertValue(post, PostDTO.class);
+        return postMapper.mapFromPostToPostResponse(post);
     }
 
     /**
@@ -38,10 +41,10 @@ public class PostHandler {
      * @param id
      * @return PostDTO
      */
-    public PostDTO getPost(Long id) {
+    public PostResponse getPost(Long id) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         Post post = postService.getPost(id);
-        return objectMapper.convertValue(post, PostDTO.class);
+        return postMapper.mapFromPostToPostResponse(post);
     }
 
     /**
@@ -49,10 +52,10 @@ public class PostHandler {
      * @param pageable
      * @return Page<PostDTO>
      */
-    public Page<PostDTO> getAllPosts(Pageable pageable) {
+    public Page<PostResponse> getAllPosts(Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         Page<Post> posts = postService.getAllPosts(pageable);
-        return posts.map(post -> objectMapper.convertValue(post, PostDTO.class));
+        return posts.map(postMapper::mapFromPostToPostResponse);
     }
 
 }

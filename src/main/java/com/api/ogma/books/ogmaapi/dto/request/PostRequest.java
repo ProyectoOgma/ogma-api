@@ -8,6 +8,8 @@ import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.Data;
 
+import java.util.List;
+
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 @Data
 public class PostRequest {
@@ -20,5 +22,6 @@ public class PostRequest {
     private String image;
     private String description;
     private Boolean wasRead;
+    private List<String> desiredBooks;
 
 }

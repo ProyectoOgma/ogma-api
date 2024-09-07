@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.adapter.handler.PostHandler;
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.api.ogma.books.ogmaapi.dto.request.PostRequest;
+import com.api.ogma.books.ogmaapi.dto.response.PostResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -34,9 +35,9 @@ public class PostController {
             @ApiResponse(responseCode = "400", description = "Error al crear la publicacion")
     })
     @PostMapping()
-    public ResponseEntity<Response<PostDTO>> createPost(@RequestBody PostRequest postRequest) {
+    public ResponseEntity<Response<PostResponse>> createPost(@RequestBody PostRequest postRequest) {
         try {
-            PostDTO postCreated = postHandler.createPost(postRequest);
+            PostResponse postCreated = postHandler.createPost(postRequest);
             String message = postCreated == null ? "Error al crear la publicacion" : "publicacion creada con exito";
 
             return ResponseUtil.createSuccessResponse(postCreated, message);
@@ -53,7 +54,7 @@ public class PostController {
             @ApiResponse(responseCode = "400", description = "Parámetros inválidos"),
             @ApiResponse(responseCode = "404", description = "Posts no encontrados")
     })
-    public ResponseEntity<Response<Page<PostDTO>>> getAllPosts(
+    public ResponseEntity<Response<Page<PostResponse>>> getAllPosts(
 //            @RequestParam(value = "type", required = false) PostType type,
 //            @RequestParam(value = "minPrice", required = false) Double minPrice,
 //            @RequestParam(value = "maxPrice", required = false) Double maxPrice,
@@ -66,7 +67,7 @@ public class PostController {
     {
 
         Pageable pageable = PageRequest.of(page, size, Sort.Direction.fromString(direction), sort);
-        Page<PostDTO> posts = postHandler.getAllPosts(pageable);
+        Page<PostResponse> posts = postHandler.getAllPosts(pageable);
 
         String message = posts.isEmpty() ? "Posts no encontrados" : "Posts encontrados";
         return ResponseUtil.createSuccessResponse(posts, message);
@@ -78,9 +79,9 @@ public class PostController {
             @ApiResponse(responseCode = "404", description = "Post no encontrado")
     })
     @GetMapping("/{id}")
-    public ResponseEntity<Response<PostDTO>> getPost(@PathVariable Long id) {
+    public ResponseEntity<Response<PostResponse>> getPost(@PathVariable Long id) {
         try {
-            PostDTO post = postHandler.getPost(id);
+            PostResponse post = postHandler.getPost(id);
             String message = post == null ? "Post no encontrado" : "Post encontrado";
 
             return ResponseUtil.createSuccessResponse(post, message);
