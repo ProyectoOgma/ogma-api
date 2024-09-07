@@ -7,10 +7,15 @@ import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import com.api.ogma.books.ogmaapi.exception.BookNotFoundException;
+import com.api.ogma.books.ogmaapi.model.Book;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -38,6 +43,29 @@ public class BookController {
             return ResponseUtil.createSuccessResponse(bookCreated, message);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al crear el libro, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Get all books")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Libros encontrados"),
+            @ApiResponse(responseCode = "404", description = "Libros no encontrados")
+    })
+    @GetMapping()
+    public ResponseEntity<Response<Page<Book>>> getAllBooks(
+            @RequestParam(value = "page", defaultValue = "0") int page,
+            @RequestParam(value = "size", defaultValue = "10") int size,
+            @RequestParam(value = "sort", defaultValue = "createdAt") String sort,
+            @RequestParam(value = "direction", defaultValue = "DESC") String direction
+    ) {
+        try {
+            Pageable pageable = PageRequest.of(page, size, Sort.by(Sort.Direction.fromString(direction), sort));
+            Page<Book> books = bookHandler.getAllBooks(pageable);
+            String message = books.isEmpty() ? "Libros no encontrados" : "Libros encontrados";
+
+            return ResponseUtil.createSuccessResponse(books, message);
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al obtener los libros, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
 

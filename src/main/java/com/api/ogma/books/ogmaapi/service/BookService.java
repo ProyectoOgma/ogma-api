@@ -6,8 +6,11 @@ import com.api.ogma.books.ogmaapi.repository.BookRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
+
 
 import java.util.Optional;
 
@@ -37,6 +40,16 @@ public class BookService {
 
         // Convertir el libro guardado de vuelta a un DTO si es necesario
         return objectMapper.convertValue(savedBook, BookDTO.class);
+    }
+
+    /**
+     * Method that gets all the books
+     *
+     * @param pageable
+     * @return List<BookDTO>
+     */
+    public Page<Book> getAllBooks(Pageable pageable) {
+        return bookRepository.findAllBooksPageable(pageable);
     }
 
     /**

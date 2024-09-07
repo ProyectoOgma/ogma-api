@@ -12,4 +12,11 @@ import lombok.NoArgsConstructor;
 public class UserLocationDTO {
     private Long provinceId;
     private Long municipalityId;
+
+    public static UserLocationDTO from(Long provinceId, Long municipalityId) {
+        return UserLocationDTO.builder()
+                              .provinceId(provinceId)
+                              .municipalityId(municipalityId)
+                              .build();
+    }
 }

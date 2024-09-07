@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.domain.*;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
 import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.model.Author;
+import com.api.ogma.books.ogmaapi.model.Image;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -67,15 +68,15 @@ public class BookMapper {
 
     public BookResponse fromBookDTOToResponse(BookDTO bookDTO) {
         return BookResponse.builder()
-                .id(String.valueOf(bookDTO.getId()))
+                .id(bookDTO.getId())
                 .title(bookDTO.getTitle())
                 .authors(bookDTO.getAuthors())
-                .publisher(mapPublisher(bookDTO))
+                .publisher(bookDTO.getPublisher())
                 .genres(bookDTO.getGenres())
                 .langs(bookDTO.getLangs())
                 .synopsis(bookDTO.getSynopsis())
                 .cover(bookDTO.getCover())
-                .images(bookDTO.getImages())
+                .images(ImageDTO.from(bookDTO.getImages()))
                 .isbn(mapIsbn(bookDTO))
                 .depth(bookDTO.getDepth())
                 .height(bookDTO.getHeight())

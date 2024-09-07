@@ -1,4 +1,4 @@
 package com.api.ogma.books.ogmaapi.dto.response;
 
-public class PurchasePostResponse implements PostResponse{
+public class PurchasePostResponse extends PostResponse{
 }

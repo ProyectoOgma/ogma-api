@@ -7,6 +7,8 @@ import com.api.ogma.books.ogmaapi.repository.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -47,8 +49,9 @@ public class PostService {
                 .orElseThrow(() -> new EntityNotFoundException("Post with id: " + id + " not found"));
     }
 
-    public List<Post> getAllPosts() {
-        return postRepository.findAll();
+    public Page<Post> getAllPosts(Pageable pageable) {
+        // Usa una consulta dinámica que filtre por los valores proporcionados.
+        return postRepository.findAllPostsPageable(pageable);
     }
 
     private Post mapPost(PostDTO postDTO) {

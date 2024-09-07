@@ -7,6 +7,8 @@ import com.api.ogma.books.ogmaapi.service.PostService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,6 +21,11 @@ public class PostHandler {
     private final ObjectMapper objectMapper;
     private final PostService postService;
 
+    /**
+     * Method that creates a post
+     * @param postRequest
+     * @return PostDTO
+     */
     public PostDTO createPost(PostRequest postRequest) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         PostDTO postDTO = objectMapper.convertValue(postRequest, PostDTO.class);
@@ -26,18 +33,26 @@ public class PostHandler {
         return objectMapper.convertValue(post, PostDTO.class);
     }
 
+    /**
+     * Method that gets a post by id
+     * @param id
+     * @return PostDTO
+     */
     public PostDTO getPost(Long id) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         Post post = postService.getPost(id);
         return objectMapper.convertValue(post, PostDTO.class);
     }
 
-    public List<PostDTO> getAllPosts() {
+    /**
+     * Method that gets all the posts
+     * @param pageable
+     * @return Page<PostDTO>
+     */
+    public Page<PostDTO> getAllPosts(Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
-        List<Post> posts = postService.getAllPosts();
-        return posts.stream()
-                .map(post -> objectMapper.convertValue(post, PostDTO.class))
-                .collect(Collectors.toList());
+        Page<Post> posts = postService.getAllPosts(pageable);
+        return posts.map(post -> objectMapper.convertValue(post, PostDTO.class));
     }
 
 }
