@@ -70,24 +70,6 @@ public class BookService {
     }
 
     /**
-     * Método para obtener libros por título
-     *
-     * @param title Título del libro
-     * @return Lista de libros
-     */
-    public List<BookDTO> getBooksByTitle(String title) {
-        List<Book> books = bookRepository.findByTitleFlexible(title);
-
-        if (books.isEmpty()) {
-            throw new EntityNotFoundException("No se encontraron libros con el título proporcionado: " + title);
-        }
-
-        return books.stream()
-                .map(book -> objectMapper.convertValue(book, BookDTO.class))
-                .collect(Collectors.toList());
-    }
-
-    /**
      * Método que actualiza un libro por completo.
      * Deben enviarse todos los campos del libro, por mas que no se modifiquen.
      *

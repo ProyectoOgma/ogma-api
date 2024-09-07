@@ -64,22 +64,6 @@ public class BookHandler {
     }
 
     /**
-     * Method to get books by title
-     *
-     * @param title String
-     * @return List<BookResponse>
-     */
-    public List<BookResponse> getBooksByTitle(String title) throws BookNotFoundException {
-        try {
-            return bookService.getBooksByTitle(title).stream()
-                    .map(bookMapper::fromBookDTOToResponse)
-                    .collect(Collectors.toList());
-        } catch (EntityNotFoundException e) {
-            throw new BookNotFoundException("Libro with title: " + title + " not found");
-        }
-    }
-
-    /**
      * Method that updates a book
      * Must send all the fields of the book, even if they are not modified.
      *
