@@ -11,7 +11,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 
 @Service
@@ -50,6 +52,24 @@ public class BookService {
      */
     public Page<Book> getAllBooks(String title, Pageable pageable) {
         return bookRepository.findAllBooksPageable(title, pageable);
+    }
+
+    /**
+     * Método para obtener libros por título
+     *
+     * @param title Título del libro
+     * @return Lista de libros
+     */
+    public List<BookDTO> getBooksByTitle(String title) {
+        List<Book> books = bookRepository.findByTitleFlexible(title);
+
+        if (books.isEmpty()) {
+            throw new EntityNotFoundException("No se encontraron libros con el título proporcionado: " + title);
+        }
+
+        return books.stream()
+                .map(book -> objectMapper.convertValue(book, BookDTO.class))
+                .collect(Collectors.toList());
     }
 
     /**

@@ -55,18 +55,6 @@ public class BookController {
     @GetMapping()
     public ResponseEntity<Response<Page<Book>>> getAllBooks(
             @RequestParam(value = "title", required = false) String title,
-            @RequestParam(value = "author", required = false) String author,
-            @RequestParam(value = "isbn", required = false) String isbn,
-            @RequestParam(value = "genre", required = false) String genre,
-            @RequestParam(value = "publisher", required = false) String publisher,
-            @RequestParam(value = "minYear", required = false) Integer minYear,
-            @RequestParam(value = "maxYear", required = false) Integer maxYear,
-            @RequestParam(value = "minPages", required = false) Integer minPages,
-            @RequestParam(value = "maxPages", required = false) Integer maxPages,
-            @RequestParam(value = "minRating", required = false) Double minRating,
-            @RequestParam(value = "maxRating", required = false) Double maxRating,
-            @RequestParam(value = "minPrice", required = false) Double minPrice,
-            @RequestParam(value = "maxPrice", required = false) Double maxPrice,
             @RequestParam(value = "page", defaultValue = "0") int page,
             @RequestParam(value = "size", defaultValue = "10") int size,
             @RequestParam(value = "sort", defaultValue = "createdAt") String sort,
@@ -80,6 +68,26 @@ public class BookController {
             return ResponseUtil.createSuccessResponse(books, message);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al obtener los libros, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Get a book by title with filter")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Libros encontrados"),
+            @ApiResponse(responseCode = "404", description = "No existe ningun libro con ese titulo")
+    })
+    @GetMapping("/title")
+    public ResponseEntity<Response<List<BookResponse>>> getBookByTitle(@RequestParam String title) throws BookNotFoundException{
+        try {
+            List<BookResponse> books = bookHandler.getBooksByTitle(title);
+            String message = ObjectUtils.isEmpty(books) ? "No existe ningun libro con ese titulo" : "Libros encontrados";
+            return ResponseUtil.createSuccessResponse(books, message);
+        } catch (BookNotFoundException e) {
+            // Re-lanzar la excepción para que sea manejada por el GlobalExceptionHandler
+            throw e;
+        } catch (Exception e) {
+            // Capturar cualquier otra excepción
+            return ResponseUtil.createErrorResponse("Error al obtener el libro, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
 
