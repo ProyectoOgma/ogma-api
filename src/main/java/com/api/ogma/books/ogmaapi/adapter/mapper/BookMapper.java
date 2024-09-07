@@ -15,6 +15,7 @@ import java.util.stream.Collectors;
 @Component("BookMapper")
 public class BookMapper {
 
+    //Mapea de de un Body de una Request a un DTO
     public BookDTO fromRequestToBookDTO(BookRequest bookRequest) {
         return BookDTO.builder()
                 .title(bookRequest.getTitle())
@@ -66,6 +67,7 @@ public class BookMapper {
                 .collect(Collectors.toList());
     }
 
+    //Mapea de un DTO a un Response
     public BookResponse fromBookDTOToResponse(BookDTO bookDTO) {
         return BookResponse.builder()
                 .id(bookDTO.getId())

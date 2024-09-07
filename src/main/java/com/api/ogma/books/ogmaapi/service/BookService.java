@@ -12,7 +12,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -65,6 +67,24 @@ public class BookService {
             throw new  EntityNotFoundException("Libro with ISBN: " + isbn + " not found");
         }
         return objectMapper.convertValue(ISBN10.orElse(ISBN13.orElse(null)), BookDTO.class);
+    }
+
+    /**
+     * Método para obtener libros por título
+     *
+     * @param title Título del libro
+     * @return Lista de libros
+     */
+    public List<BookDTO> getBooksByTitle(String title) {
+        List<Book> books = bookRepository.findByTitleFlexible(title);
+
+        if (books.isEmpty()) {
+            throw new EntityNotFoundException("No se encontraron libros con el título proporcionado: " + title);
+        }
+
+        return books.stream()
+                .map(book -> objectMapper.convertValue(book, BookDTO.class))
+                .collect(Collectors.toList());
     }
 
     /**
