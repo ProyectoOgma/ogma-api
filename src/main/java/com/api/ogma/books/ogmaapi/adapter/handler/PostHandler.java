@@ -29,17 +29,17 @@ public class PostHandler {
         return postMapper.mapFromPostToPostResponse(post);
     }
 
-    public PostDTO getPost(Long id) {
+    public PostResponse getPost(Long id) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         Post post = postService.getPost(id);
-        return objectMapper.convertValue(post, PostDTO.class);
+        return postMapper.mapFromPostToPostResponse(post);
     }
 
-    public List<PostDTO> getAllPosts() {
+    public List<PostResponse> getAllPosts() {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
         List<Post> posts = postService.getAllPosts();
         return posts.stream()
-                .map(post -> objectMapper.convertValue(post, PostDTO.class))
+                .map(postMapper::mapFromPostToPostResponse)
                 .collect(Collectors.toList());
     }
 

@@ -47,9 +47,9 @@ public class PostController {
             @ApiResponse(responseCode = "404", description = "Posts no encontrados")
     })
     @GetMapping()
-    public ResponseEntity<Response<List<PostDTO>>> getAllPosts() {
+    public ResponseEntity<Response<List<PostResponse>>> getAllPosts() {
         try {
-            List<PostDTO> posts = postHandler.getAllPosts();
+            List<PostResponse> posts = postHandler.getAllPosts();
             String message = posts == null ? "Posts no encontrados" : "Posts encontrados";
 
             return ResponseUtil.createSuccessResponse(posts, message);
@@ -64,9 +64,9 @@ public class PostController {
             @ApiResponse(responseCode = "404", description = "Post no encontrado")
     })
     @GetMapping("/{id}")
-    public ResponseEntity<Response<PostDTO>> getPost(@PathVariable Long id) {
+    public ResponseEntity<Response<PostResponse>> getPost(@PathVariable Long id) {
         try {
-            PostDTO post = postHandler.getPost(id);
+            PostResponse post = postHandler.getPost(id);
             String message = post == null ? "Post no encontrado" : "Post encontrado";
 
             return ResponseUtil.createSuccessResponse(post, message);
