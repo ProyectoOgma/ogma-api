@@ -39,7 +39,8 @@ public class UserHandler {
     }
 
     public List<UserResponse> getAllUsers() {
-        return userService.getAllUsers();
+        List<User> users = userService.getAllUsers();
+        return UserResponse.from(users);
     }
 
     public void updateUser(Long id, UserRequest userRequest) {

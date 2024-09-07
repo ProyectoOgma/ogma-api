@@ -1,5 +1,7 @@
 package com.api.ogma.books.ogmaapi.exception;
 
+import com.api.ogma.books.ogmaapi.dto.response.Response;
+import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.coyote.BadRequestException;
@@ -7,37 +9,38 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.ErrorResponse;
-import org.springframework.web.bind.annotation.ControllerAdvice;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-@ControllerAdvice
+import java.util.List;
+
+@RestControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(EntityNotFoundException.class)
-    public ResponseEntity<String> handleException(EntityNotFoundException e) {
-        log.error("Entity not found exception: {}", e.getMessage());
-        return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    public ResponseEntity<Response<String>> handleException(EntityNotFoundException e) {
+        return ResponseUtil.createErrorResponse("Entidad no encontrada", HttpStatus.NOT_FOUND, List.of(e.getMessage()));
     }
 
     @ExceptionHandler(HttpMessageNotReadableException.class)
-    public ResponseEntity<String> handleException(HttpMessageNotReadableException e) {
-        log.error("Http message not readable exception: {}", e.getMessage());
-        return new ResponseEntity<>("Error al deserializar la request", HttpStatus.INTERNAL_SERVER_ERROR);
+    public ResponseEntity<Response<String>> handleException(HttpMessageNotReadableException e) {
+        return ResponseUtil.createErrorResponse("Error en la petición", HttpStatus.BAD_REQUEST, List.of(e.getMessage()));
     }
 
     @ExceptionHandler(UserUpdateException.class)
-    public ResponseEntity<String> handleException(UserUpdateException e) {
-        return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
+    public ResponseEntity<Response<String>> handleException(UserUpdateException e) {
+        return ResponseUtil.createErrorResponse("Error al actualizar el usuario", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
     }
 
     @ExceptionHandler(BookNotFoundException.class)
-    public ResponseEntity<String> handleException(BookNotFoundException e) {
-        log.error("Libro not found exception: {}", e.getMessage());
-        return new ResponseEntity<>(e.getMessage(), HttpStatus.NOT_FOUND);
+    public ResponseEntity<Response<String>> handleException(BookNotFoundException e) {
+        return ResponseUtil.createErrorResponse("Libro no encontrado", HttpStatus.NOT_FOUND, List.of(e.getMessage()));
+    }
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<Response<String>> handleIllegalArgumentException(IllegalArgumentException ex) {
+        return ResponseUtil.createErrorResponse("Parámetros inválidos", HttpStatus.BAD_REQUEST, List.of(ex.getMessage()));
     }
 
 }

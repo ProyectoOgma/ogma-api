@@ -38,7 +38,7 @@ public class UserController {
             @ApiResponse(responseCode = "200", description = "Usuarios encontrados"),
             @ApiResponse(responseCode = "404", description = "Usuarios no encontrados")
     })
-    @GetMapping("/")
+    @GetMapping("")
     public ResponseEntity<List<UserResponse>> getAllUsers() {
         List<UserResponse> userResponses = userHandler.getAllUsers();
         return new ResponseEntity<>(userResponses, HttpStatus.OK);
@@ -49,7 +49,7 @@ public class UserController {
             @ApiResponse(responseCode = "200", description = "Usuario creado correctamente"),
             @ApiResponse(responseCode = "404", description = "Usuario no encontrado")
     })
-    @PatchMapping("/update/{id}/user_details")
+    @PatchMapping("/{id}")
     public ResponseEntity<String> updateUser(@PathVariable Long id,
                                              @RequestBody UserRequest userRequest)  {
         userHandler.updateUser(id, userRequest);

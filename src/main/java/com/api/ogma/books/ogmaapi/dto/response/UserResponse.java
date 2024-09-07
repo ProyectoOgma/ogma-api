@@ -25,6 +25,18 @@ public class UserResponse {
     private Date birthDate;
     private UserLocationResponse userLocationResponse;
 
+    public static UserResponse from(User user) {
+        return UserResponse.builder()
+                           .id(user.getId())
+                           .name(user.getName())
+                           .lastName(user.getLastName())
+                           .username(user.getUsername())
+                           .email(user.getEmail())
+                           .birthDate(user.getBirthDate())
+                           .userLocationResponse(UserLocationResponse.from(user.getProvince(), user.getMunicipality()))
+                           .build();
+    }
+
     public static List<UserResponse> from(List<User> users) {
         return users.stream()
                     .map(user -> UserResponse.builder()

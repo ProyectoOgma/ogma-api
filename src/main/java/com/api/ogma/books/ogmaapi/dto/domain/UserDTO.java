@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.dto.domain;
 
+import com.api.ogma.books.ogmaapi.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
@@ -28,4 +29,16 @@ public class UserDTO {
         private Date birthDate;
         @JsonProperty("userLocation")
         private UserLocationDTO userLocationDTO;
+
+        public static UserDTO from(User user) {
+            return UserDTO.builder()
+                    .id(user.getId())
+                    .name(user.getName())
+                    .lastName(user.getLastName())
+                    .email(user.getEmail())
+                    .genre(user.getGenre())
+                    .birthDate(user.getBirthDate())
+                    .userLocationDTO(UserLocationDTO.from(user.getProvince().getId(), user.getMunicipality().getId()))
+                    .build();
+        }
 }

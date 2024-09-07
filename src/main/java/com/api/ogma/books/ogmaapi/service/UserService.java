@@ -56,9 +56,9 @@ public class UserService {
      *
      * @return List of users
      */
-    public List<UserResponse> getAllUsers() {
+    public List<User> getAllUsers() {
         List<User> users = usersRepository.findAll();
-        return UserResponse.from(users);
+        return users;
     }
 
     /**
