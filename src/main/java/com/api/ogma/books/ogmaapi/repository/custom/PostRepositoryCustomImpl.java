@@ -1,13 +1,15 @@
 package com.api.ogma.books.ogmaapi.repository.custom;
 
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
+import com.api.ogma.books.ogmaapi.model.Book;
+import com.api.ogma.books.ogmaapi.model.Genre;
 import com.api.ogma.books.ogmaapi.model.Post;
+import com.api.ogma.books.ogmaapi.model.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.CriteriaQuery;
-import jakarta.persistence.criteria.Predicate;
-import jakarta.persistence.criteria.Root;
+import jakarta.persistence.TypedQuery;
+import jakarta.persistence.criteria.*;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
@@ -17,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
+@Slf4j
 public class PostRepositoryCustomImpl implements PostRepositoryCustom {
 
     @PersistenceContext
@@ -24,24 +27,27 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
 
     @Override
     public Page<Post> getAllPosts(PostType type, String bookTitle, String authorName, String genre,
-                                  Double minPrice, Double maxPrice, Integer minRating, Integer maxRating, Pageable pageable) {
+                                  Double minPrice, Double maxPrice, Integer minRating, Integer maxRating, String userId, Pageable pageable) {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<Post> query = cb.createQuery(Post.class);
         Root<Post> post = query.from(Post.class);
+        Join<Post, Book> book = post.join("book", JoinType.INNER);
+        Join<Book, Genre> bookGenres = book.join("genres", JoinType.INNER);
+        Join<Post, User> user = post.join("user", JoinType.INNER);
 
         List<Predicate> predicates = new ArrayList<>();
 
         if (type != null) {
             predicates.add(cb.equal(post.get("type"), type));
         }
+        if (genre != null && !genre.isEmpty()) {
+            predicates.add(cb.like(cb.lower(bookGenres.get("name")), "%" + genre.toLowerCase() + "%"));
+        }
         if (bookTitle != null && !bookTitle.isEmpty()) {
-            predicates.add(cb.like(cb.lower(post.get("book").get("title")), "%" + bookTitle.toLowerCase() + "%"));
+            predicates.add(cb.like(cb.lower(book.get("title")), "%" + bookTitle.toLowerCase() + "%"));
         }
         if (authorName != null && !authorName.isEmpty()) {
-            predicates.add(cb.like(cb.lower(post.get("book").get("author").get("name")), "%" + authorName.toLowerCase() + "%"));
-        }
-        if (genre != null && !genre.isEmpty()) {
-            predicates.add(cb.like(cb.lower(post.get("book").get("genre")), "%" + genre.toLowerCase() + "%"));
+            predicates.add(cb.like(cb.lower(book.join("authors").get("name")), "%" + authorName.toLowerCase() + "%"));
         }
         if (minPrice != null) {
             predicates.add(cb.ge(post.get("price"), minPrice));
@@ -55,14 +61,29 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
         if (maxRating != null) {
             predicates.add(cb.le(post.get("rating"), maxRating));
         }
+        if (userId != null && !userId.isEmpty()) {
+            predicates.add(cb.equal(user.get("id"), Long.valueOf(userId)));
+        }
+        query.select(post).where(cb.and(predicates.toArray(new Predicate[0]))).distinct(true);
 
-        query.select(post).where(cb.and(predicates.toArray(new Predicate[0])));
+        TypedQuery<Post> typedQuery = entityManager.createQuery(query);
+        List<Post> resultList = typedQuery.getResultList();
 
-        List<Post> resultList = entityManager.createQuery(query)
+        long total = resultList.size();
+
+        if (pageable.getOffset() >= total) {
+            if (total == 0) {
+                total = 1;
+            }
+            Pageable newPageable = Pageable.ofSize((int) total);
+            return new PageImpl<>(resultList, newPageable, total);
+        }
+
+        List<Post> pagedResult = typedQuery
                 .setFirstResult((int) pageable.getOffset())
                 .setMaxResults(pageable.getPageSize())
                 .getResultList();
 
-        return new PageImpl<>(resultList, pageable, resultList.size());
+        return new PageImpl<>(pagedResult, pageable, total);
     }
 }

@@ -63,6 +63,7 @@ public class PostController {
             @RequestParam(value = "maxPrice", required = false) Double maxPrice,
             @RequestParam(value = "minRating", required = false) Integer minRating,
             @RequestParam(value = "maxRating", required = false) Integer maxRating,
+            @RequestParam(value = "userId", required = false) String userId,
             @RequestParam(value = "page", defaultValue = "0") int page,
             @RequestParam(value = "size", defaultValue = "10") int size,
             @RequestParam(value = "sort", defaultValue = "createdAt") String sort,
@@ -71,7 +72,7 @@ public class PostController {
 
         Pageable pageable = PageRequest.of(page, size, Sort.Direction.fromString(direction), sort);
         Page<PostResponse> posts = postHandler.getAllPosts(
-                type, title, author, genre, minPrice, maxPrice, minRating, maxRating, pageable);
+                type, title, author, genre, minPrice, maxPrice, minRating, maxRating, userId, pageable);
 
         String message = posts.isEmpty() ? "Posts no encontrados" : "Posts encontrados";
         return ResponseUtil.createSuccessResponse(posts, message);

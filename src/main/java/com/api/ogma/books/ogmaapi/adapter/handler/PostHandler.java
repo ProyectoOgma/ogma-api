@@ -54,9 +54,9 @@ public class PostHandler {
      * @return Page<PostDTO>
      */
     public Page<PostResponse> getAllPosts(PostType type, String bookTitle, String authorName, String genre, Double minPrice, Double maxPrice,
-                                          Integer minRating, Integer maxRating, Pageable pageable) {
+                                          Integer minRating, Integer maxRating, String userId, Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
-        Page<Post> posts = postService.getAllPosts(type, bookTitle, authorName, genre, minPrice, maxPrice, minRating, maxRating, pageable);
+        Page<Post> posts = postService.getAllPosts(type, bookTitle, authorName, genre, minPrice, maxPrice, minRating, maxRating, userId, pageable);
         return posts.map(postMapper::mapFromPostToPostResponse);
     }
 

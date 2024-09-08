@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface PostRepositoryCustom {
     Page<Post> getAllPosts(PostType type, String bookTitle, String authorName, String genre, Double minPrice, Double maxPrice,
-                           Integer minRating, Integer maxRating, Pageable pageable);
+                           Integer minRating, Integer maxRating, String userId, Pageable pageable);
 }

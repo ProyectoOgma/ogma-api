@@ -51,7 +51,7 @@ public class PostService {
     }
 
     public Page<Post> getAllPosts(PostType type, String bookTitle, String authorName, String genre, Double minPrice, Double maxPrice,
-                                  Integer minRating, Integer maxRating, Pageable pageable) {
+                                  Integer minRating, Integer maxRating, String userId, Pageable pageable) {
         // Usa una consulta dinámica que filtre por los valores proporcionados.
         return postRepository.getAllPosts(
                 type,
@@ -62,6 +62,7 @@ public class PostService {
                 maxPrice,
                 minRating,
                 maxRating,
+                userId,
                 pageable
         );
     }
