@@ -38,8 +38,8 @@ public class BookHandler {
 
     /**
      * Method that gets all the books
-     * @param pageable
-     * @return
+     * @param pageable paginacion
+     * @return Page<Book>
      */
     public Page<Book> getAllBooks(String title, Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);

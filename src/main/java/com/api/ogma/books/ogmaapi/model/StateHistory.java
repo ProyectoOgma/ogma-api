@@ -40,6 +40,11 @@ public class StateHistory {
     @JsonBackReference
     private Post post;
 
+    @ManyToOne
+    @JoinColumn(name = "id_exchange_offer")
+    @JsonBackReference
+    private ExchangeOffer exchangeOffer;
+
 //    @ManyToOne
 //    @JoinColumn(name = "id_transaction")
 //    private Transaction transaction;

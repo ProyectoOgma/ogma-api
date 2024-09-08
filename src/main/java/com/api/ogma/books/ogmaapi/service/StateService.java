@@ -1,0 +1,35 @@
+package com.api.ogma.books.ogmaapi.service;
+
+import com.api.ogma.books.ogmaapi.dto.States.StatefulEntity;
+import com.api.ogma.books.ogmaapi.model.State;
+import com.api.ogma.books.ogmaapi.model.StateHistory;
+import com.api.ogma.books.ogmaapi.repository.StateHistoryRepository;
+import com.api.ogma.books.ogmaapi.repository.StateRepository;
+import jakarta.persistence.EntityNotFoundException;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+import java.util.Date;
+
+@Service
+@RequiredArgsConstructor
+public class StateService {
+
+    private final StateRepository stateRepository;
+    private final StateHistoryRepository stateHistoryRepository;
+
+    public <T extends Enum<T>, E extends StatefulEntity<T>> void updateState(E entity, T newState, State.Scope scope) {
+        State state = stateRepository.findByNameAndScope(newState.name(), scope)
+                .orElseThrow(() -> new EntityNotFoundException("State not found"));
+
+        entity.getActualStateHistory().setFinalDate(new Date());
+
+        StateHistory stateHistory = StateHistory.builder()
+                .initialDate(new Date())
+                .state(state)
+                .build();
+        stateHistoryRepository.save(stateHistory);
+        entity.setEntityState();
+    }
+
+}
