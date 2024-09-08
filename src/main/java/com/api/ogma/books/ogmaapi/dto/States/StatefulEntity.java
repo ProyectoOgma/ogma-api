@@ -8,8 +8,8 @@ import java.util.Optional;
 
 public interface StatefulEntity<T extends Enum<T>> {
     List<StateHistory> getStateHistories();
-    StateHistory getActualStateHistory();
+    Optional<StateHistory> getActualStateHistory();
     Optional<State> getActualState();
-    void setEntityState();
+    void setEntityState(StateHistory stateHistory);
 }
 

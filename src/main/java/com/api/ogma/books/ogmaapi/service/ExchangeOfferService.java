@@ -24,7 +24,7 @@ public class ExchangeOfferService {
         Post post = postRepository.findById(offerRequest.getPostId())
                 .orElseThrow(() -> new RuntimeException("Post not found"));
 
-        Post offeredPost = postRepository.findById(offerRequest.getOfferId())
+        Post offeredPost = postRepository.findById(offerRequest.getOfferPost())
                 .orElseThrow(() -> new RuntimeException("Offered post not found"));
 
         ExchangeOffer offer = ExchangeOffer.builder()
@@ -35,7 +35,7 @@ public class ExchangeOfferService {
                 .build();
         exchangeOfferRepository.save(offer);
 
-        stateService.updateState(offer, ExchangeOfferStates.PENDIENTE, State.Scope.EXCHANGE_OFFER);
+        stateService.updateState(offer, ExchangeOfferStates.PENDIENTE, State.Scope.OFFER);
 
         return offer;
     }

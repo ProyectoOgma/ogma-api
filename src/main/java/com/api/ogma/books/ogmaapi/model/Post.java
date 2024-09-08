@@ -9,6 +9,7 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
+import org.apache.commons.lang3.ObjectUtils;
 
 import java.util.List;
 import java.util.Optional;
@@ -41,7 +42,7 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
 
     @ManyToOne
     @JoinColumn(name = "id_book")
-    @JsonBackReference
+    @JsonManagedReference
     private Book book;
 
     @ManyToMany
@@ -72,23 +73,29 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
 
 
     @Override
-    public StateHistory getActualStateHistory() {
+    public Optional<StateHistory> getActualStateHistory() {
+        if (ObjectUtils.isEmpty(this.stateHistories)) {
+            return Optional.empty();
+        }
         return this.stateHistories.stream()
                 .filter(StateHistory::isActive)
-                .findFirst()
-                .orElse(null);
+                .findFirst();
     }
 
     @Override
     public Optional<State> getActualState() {
-        if (this.getActualStateHistory() != null) {
-            return Optional.of(this.getActualStateHistory().getState());
+        if (this.getActualStateHistory().isPresent()) {
+            return Optional.of(this.getActualStateHistory().get().getState());
         }
         return Optional.empty();
     }
 
     @Override
-    public void setEntityState() {
-        this.getActualStateHistory().setPost(this);
+    public void setEntityState(StateHistory stateHistory) {
+        if (this.getActualStateHistory().isPresent()) {
+            this.getActualStateHistory().get().setPost(this);
+        }else {
+            stateHistory.setPost(this);
+        }
     }
 }

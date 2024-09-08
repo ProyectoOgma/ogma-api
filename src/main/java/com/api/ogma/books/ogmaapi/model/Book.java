@@ -88,7 +88,7 @@ public class Book extends Auditable{
     private Publisher publisher;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
-    @JsonManagedReference
+    @JsonBackReference
     private List<Post> posts;
 
     @ManyToMany

@@ -7,5 +7,10 @@ public enum PostStates {
     PAUSADA,
     CANCELADA,
     EN_INTERCAMBIO,
-    INTERCAMBIADA
+    INTERCAMBIADA;
+
+    @Override
+    public String toString() {
+        return this.name().replace('_', ' ');
+    }
 }

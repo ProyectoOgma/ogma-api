@@ -4,5 +4,10 @@ public enum ExchangeOfferStates {
     PENDIENTE,
     ACEPTADA,
     RECHAZADA,
-    CANCELADA
+    CANCELADA;
+
+    @Override
+    public String toString() {
+        return this.name().replace('_', ' ');
+    }
 }

@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.States.StatefulEntity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
+import org.apache.commons.lang3.ObjectUtils;
 
 import java.util.Date;
 import java.util.List;
@@ -43,23 +44,29 @@ public class ExchangeOffer implements StatefulEntity<ExchangeOfferStates> {
     private Date offerDate;
 
     @Override
-    public StateHistory getActualStateHistory() {
+    public Optional<StateHistory> getActualStateHistory() {
+        if (ObjectUtils.isEmpty(this.stateHistories)) {
+            return Optional.empty();
+        }
         return this.stateHistories.stream()
                 .filter(StateHistory::isActive)
-                .findFirst()
-                .orElse(null);
+                .findFirst();
     }
 
     @Override
     public Optional<State> getActualState() {
-        if (this.getActualStateHistory() != null) {
-            return Optional.of(this.getActualStateHistory().getState());
+        if (this.getActualStateHistory().isPresent()) {
+            return Optional.of(this.getActualStateHistory().get().getState());
         }
         return Optional.empty();
     }
 
     @Override
-    public void setEntityState() {
-        this.getActualStateHistory().setExchangeOffer(this);
+    public void setEntityState(StateHistory stateHistory) {
+        if (this.getActualStateHistory().isPresent()) {
+            this.getActualStateHistory().get().setExchangeOffer(this);
+        }else {
+            stateHistory.setExchangeOffer(this);
+        }
     }
 }

@@ -28,7 +28,7 @@ public class State {
     public enum Scope {
         POST,
         TRANSACTION,
-        EXCHANGE_OFFER,
+        OFFER,
         BOOK
     }
 
