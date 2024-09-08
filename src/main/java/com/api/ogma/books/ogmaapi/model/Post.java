@@ -1,15 +1,18 @@
 package com.api.ogma.books.ogmaapi.model;
 
 
+import com.api.ogma.books.ogmaapi.dto.States.PostStates;
+import com.api.ogma.books.ogmaapi.dto.States.StatefulEntity;
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.data.jpa.domain.AbstractAuditable;
+import org.apache.commons.lang3.ObjectUtils;
 
 import java.util.List;
+import java.util.Optional;
 
 @Entity
 @Table(name = "post")
@@ -18,7 +21,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Post extends Auditable{
+public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Id
     @Column(name = "id_post")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -39,7 +42,7 @@ public class Post extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_book")
-    @JsonBackReference
+    @JsonManagedReference
     private Book book;
 
     @ManyToMany
@@ -61,7 +64,38 @@ public class Post extends Auditable{
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
 
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<ExchangeOffer> exchangeOffers;
+
 //    @OneToOne(cascade = CascadeType.ALL)
 //    @JoinColumn(name = "transaccion_id")
 //    private Transaccion transaccion;
+
+
+    @Override
+    public Optional<StateHistory> getActualStateHistory() {
+        if (ObjectUtils.isEmpty(this.stateHistories)) {
+            return Optional.empty();
+        }
+        return this.stateHistories.stream()
+                .filter(StateHistory::isActive)
+                .findFirst();
+    }
+
+    @Override
+    public Optional<State> getActualState() {
+        if (this.getActualStateHistory().isPresent()) {
+            return Optional.of(this.getActualStateHistory().get().getState());
+        }
+        return Optional.empty();
+    }
+
+    @Override
+    public void setEntityState(StateHistory stateHistory) {
+        if (this.getActualStateHistory().isPresent()) {
+            this.getActualStateHistory().get().setPost(this);
+        }else {
+            stateHistory.setPost(this);
+        }
+    }
 }

@@ -2,10 +2,9 @@ package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
-import com.api.ogma.books.ogmaapi.exception.PostStates;
+import com.api.ogma.books.ogmaapi.dto.States.PostStates;
 import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.*;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -13,7 +12,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,10 +20,11 @@ import java.util.stream.Collectors;
 public class PostService {
 
     private final PostRepository postRepository;
-    private final StateRepository stateRepository;
     private final BookRepository bookRepository;
     private final UserRepository userRepository;
-    private final StateHistoryRepository stateHistoryRepository;
+    private final StateService stateService;
+
+    private static final State.Scope POST_SCOPE = State.Scope.POST;
 
     /**
      * Creates a new post
@@ -37,17 +36,7 @@ public class PostService {
         Post post = mapPost(postDTO);
         post = postRepository.save(post);
 
-        String stateName = PostStates.PUBLISHED.name();
-        State initialState = stateRepository.findByNameAndScope(stateName, State.Scope.POST)
-                .orElseThrow(() -> new RuntimeException("State " + stateName + " not found"));
-
-        StateHistory stateHistory = StateHistory.builder()
-                .initialDate(new Date())
-                .state(initialState)
-                .post(post)
-                .build();
-
-        stateHistoryRepository.save(stateHistory);
+        stateService.updateState(post, PostStates.PUBLICADA, POST_SCOPE);
         return post;
     }
 
@@ -75,6 +64,10 @@ public class PostService {
                 maxRating,
                 pageable
         );
+    }
+
+    public void updateState(Post post, PostStates newState) {
+        stateService.updateState(post, newState, POST_SCOPE);
     }
 
     /**
