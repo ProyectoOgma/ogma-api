@@ -34,6 +34,9 @@ public class ExchangeHandler {
         ExchangeOffer exchangeOffer = exchangeOfferService.createOffer(offerRequest);
         //llamar al service del post para actualizar su estado.
         postService.updateState(exchangeOffer.getPost(), PostStates.CON_OFERTA);
-        //notificar al usuario que se ha creado una oferta.
+
+        //TODO: notificar al usuario que se ha creado una oferta.
+        String mail = post.getUser().getUsername();
+
     }
 }
