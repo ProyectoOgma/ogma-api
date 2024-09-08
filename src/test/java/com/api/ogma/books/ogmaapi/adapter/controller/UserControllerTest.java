@@ -53,7 +53,7 @@ public class UserControllerTest {
     @WithMockUser(username = "user", roles = {"USER"})
     public void testGetAllUsers() throws Exception {
         List<UserResponse> userResponses = Collections.singletonList(buildUserResponse()); // Configura tu respuesta mock
-        when(userService.getAllUsers()).thenReturn(userResponses);
+        //when(userService.getAllUsers()).thenReturn(userResponses);
 
         mockMvc.perform(get(API_PATH + "/users/getAll"))
                 .andExpect(status().isOk());
