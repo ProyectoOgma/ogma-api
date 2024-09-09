@@ -2,19 +2,18 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 
 import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
-import com.api.ogma.books.ogmaapi.dto.response.PostResponse;
+import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.OfferedPostResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -44,4 +43,27 @@ public class ExchangeController {
             return ResponseUtil.createErrorResponse("Error al enviar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
+
+    /**
+     * Busca las ofertas de intercambio que tiene asociadas una publicacion.
+     * @param id id del post
+     * @return respuesta de la operacion
+     */
+    @Operation(summary = "Busca las ofertas de intercambio que tiene asociadas una publicacion")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Ofertas encontradas"),
+            @ApiResponse(responseCode = "404", description = "Ofertas no encontradas"),
+            @ApiResponse(responseCode = "500", description = "Error al buscar la oferta")
+    })
+    @GetMapping("/offer/{id}")
+    public ResponseEntity<Response<List<ExchangeOfferResponse>>> getOfferByPostId(@PathVariable Long id) {
+        try {
+            List<ExchangeOfferResponse> offers = exchangeHandler.getOfferByPostId(id);
+
+            return ResponseUtil.createSuccessResponse(offers, "Ofertas encontradas");
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al buscar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
 }

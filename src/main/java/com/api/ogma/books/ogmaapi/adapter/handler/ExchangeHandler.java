@@ -1,7 +1,10 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
+import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
 import com.api.ogma.books.ogmaapi.dto.States.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
+import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.OfferedPostResponse;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -11,7 +14,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -19,7 +24,12 @@ import java.util.Optional;
 public class ExchangeHandler {
     private final ExchangeOfferService exchangeOfferService;
     private final PostService postService;
+    private final ExchangeOfferMapper exchangeOfferMapper;
 
+    /**
+     * Crea una oferta de intercambio entre un post y otro.
+     * @param offerRequest datos de la oferta
+     */
     public void createOffer(OfferRequest offerRequest) {
         //valida que el post este en un estado valido para crear una oferta.
         Post post = postService.getPost(offerRequest.getPostId());
@@ -38,5 +48,15 @@ public class ExchangeHandler {
         //TODO: notificar al usuario que se ha creado una oferta.
         String mail = post.getUser().getUsername();
 
+    }
+
+    /**
+     * Busca las ofertas de intercambio que tiene asociadas una publicacion.
+     * @param id id del post
+     */
+    public List<ExchangeOfferResponse> getOfferByPostId(Long id) {
+        return exchangeOfferService.getOfferByPostId(id).stream()
+                .map(exchangeOfferMapper::mapOfferedPostResponse)
+                .collect(Collectors.toList());
     }
 }
