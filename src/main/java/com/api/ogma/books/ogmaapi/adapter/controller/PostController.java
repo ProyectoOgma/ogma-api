@@ -11,6 +11,7 @@ import com.api.ogma.books.ogmaapi.model.State;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -81,7 +82,8 @@ public class PostController {
     @Operation(summary = "Get post by id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Post encontrado"),
-            @ApiResponse(responseCode = "404", description = "Post no encontrado")
+            @ApiResponse(responseCode = "404", description = "Post no encontrado"),
+            @ApiResponse(responseCode = "500", description = "Error al obtener el post")
     })
     @GetMapping("/{id}")
     public ResponseEntity<Response<PostResponse>> getPost(@PathVariable Long id) {
@@ -90,6 +92,8 @@ public class PostController {
             String message = post == null ? "Post no encontrado" : "Post encontrado";
 
             return ResponseUtil.createSuccessResponse(post, message);
+        } catch (EntityNotFoundException e) {
+            throw e;
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al obtener el post", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
