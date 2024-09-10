@@ -39,7 +39,7 @@ public class UserDTOMapper {
                 .id(user.getId())
                 .name(user.getName())
                 .lastName(user.getLastName())
-                .username(user.getUsername())
+                .username(user.getUserSiteName())
                 .email(user.getEmail())
                 .birthDate(user.getBirthDate())
                 .userLocationResponse(mapLocationResponse(user))

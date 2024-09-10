@@ -11,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -20,6 +21,11 @@ public class ExchangeOfferService {
     private final PostRepository postRepository;
     private final StateService stateService;
 
+    /**
+     * Crea una oferta de intercambio entre un post y otro.
+     * @param offerRequest datos de la oferta
+     * @return oferta creada
+     */
     public ExchangeOffer createOffer(OfferRequest offerRequest) {
         Post post = postRepository.findById(offerRequest.getPostId())
                 .orElseThrow(() -> new RuntimeException("Post not found"));
@@ -38,6 +44,14 @@ public class ExchangeOfferService {
         stateService.updateState(offer, ExchangeOfferStates.PENDIENTE, State.Scope.OFFER);
 
         return offer;
+    }
+
+    /**
+     * Busca las ofertas de intercambio que tiene asociadas una publicacion.
+     * @param id id del post
+     */
+    public List<ExchangeOffer> getOfferByPostId(Long id) {
+        return exchangeOfferRepository.findByPostId(id);
     }
 
 }
