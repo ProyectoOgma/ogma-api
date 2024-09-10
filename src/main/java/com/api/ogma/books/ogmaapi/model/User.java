@@ -67,6 +67,10 @@ public class User extends Auditable implements UserDetails {
     @JsonManagedReference
     private Set<LiteraryRoute> literaryRoutes;
 
+    @OneToMany(mappedBy = "user")
+    @JsonManagedReference
+    private Set<Notification> notifications;
+
     @Enumerated(EnumType.STRING)
     private Role role;
 
