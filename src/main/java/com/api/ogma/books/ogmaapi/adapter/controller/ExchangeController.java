@@ -50,7 +50,6 @@ public class ExchangeController {
     @Operation(summary = "Busca las ofertas de intercambio que tiene asociadas una publicacion")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Ofertas encontradas"),
-            @ApiResponse(responseCode = "404", description = "Ofertas no encontradas"),
             @ApiResponse(responseCode = "500", description = "Error al buscar la oferta")
     })
     @GetMapping("/offer/{id}")
