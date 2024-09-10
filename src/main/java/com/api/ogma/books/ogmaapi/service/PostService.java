@@ -7,6 +7,7 @@ import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.*;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -85,7 +86,7 @@ public class PostService {
                 .orElseThrow(() ->
                         new EntityNotFoundException("User with id: " + postDTO.getUserId() + " not found"));
         List<Book> desiredBooks = List.of();
-        if (postDTO.getDesiredBooks() != null) {
+        if (!ObjectUtils.isEmpty(postDTO.getDesiredBooks())) {
             desiredBooks = bookRepository.findAllById(transformToLongList(postDTO.getDesiredBooks()));
         }
 

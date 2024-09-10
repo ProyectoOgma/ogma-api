@@ -4,7 +4,6 @@ import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
 import com.api.ogma.books.ogmaapi.dto.States.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
-import com.api.ogma.books.ogmaapi.dto.response.OfferedPostResponse;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
