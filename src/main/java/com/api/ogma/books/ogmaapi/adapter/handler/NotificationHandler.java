@@ -1,8 +1,8 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
 
-import com.api.ogma.books.ogmaapi.dto.domain.NotificationType;
-import com.api.ogma.books.ogmaapi.model.Notification;
+import com.api.ogma.books.ogmaapi.common.factory.NotificationFactory;
+import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.service.EmailService;
 import com.api.ogma.books.ogmaapi.service.NotificationService;
@@ -10,8 +10,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jmx.export.notification.UnableToSendNotificationException;
 import org.springframework.stereotype.Service;
-
-import static com.api.ogma.books.ogmaapi.common.NotificationConst.NOTIFICATION_POST_OFFER;
 
 @Service
 @RequiredArgsConstructor
@@ -32,14 +30,10 @@ public class NotificationHandler {
         notificationService.create(notification);
     }
 
+
     public void sendNewOfferNotification(Post post) {
+        NotificationDTO offerNotification = NotificationFactory.createOfferNotification(post);
         try {
-            Notification offerNotification = Notification.builder()
-                    .user(post.getUser())
-                    .message(NOTIFICATION_POST_OFFER + post.getBook().getTitle())
-                    .mailable(true)
-                    .type(NotificationType.INFO)
-                    .build();
             sendNotification(offerNotification);
         }catch (Exception e) {
             throw new UnableToSendNotificationException("Error sending new offer notification");
