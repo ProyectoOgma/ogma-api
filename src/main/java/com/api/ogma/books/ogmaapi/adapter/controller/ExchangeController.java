@@ -11,8 +11,11 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.jmx.export.notification.UnableToSendNotificationException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,6 +24,7 @@ import java.util.List;
 @RequestMapping("${api.path}/exchange")
 @RequiredArgsConstructor
 public class ExchangeController {
+    private static final Logger log = LoggerFactory.getLogger(ExchangeController.class);
     private final ExchangeHandler exchangeHandler;
     private final NotificationHandler notificationHandler;
 
@@ -38,9 +42,14 @@ public class ExchangeController {
     public ResponseEntity<Response<String>> createOffer(@RequestBody OfferRequest offerRequest) {
         try {
             Post post = exchangeHandler.createOffer(offerRequest);
-            notificationHandler.sendNewOfferNotification(post);
-
-            return ResponseUtil.createSuccessResponse(null, "Oferta de intercambio creada");
+            String message = "";
+            try {
+                notificationHandler.sendNewOfferNotification(post);
+            }catch (UnableToSendNotificationException e) {
+                log.error("Error sending notification: {}", e.getMessage());
+                message = ", pero no se pudo enviar la notificacion";
+            }
+            return ResponseUtil.createSuccessResponse(null, "Oferta de intercambio creada" + message);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al enviar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
