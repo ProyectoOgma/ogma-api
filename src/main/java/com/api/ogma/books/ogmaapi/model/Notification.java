@@ -22,14 +22,14 @@ public class Notification extends Auditable {
     @JoinColumn(name = "id_user")
     private User user;
 
+    @Column(nullable = false)
+    private Boolean read = false;
 
-    @Column(columnDefinition = "boolean default false")
-    private Boolean read;
+    @Column(nullable = false)
+    private Boolean sent = false;
 
-    @Column(columnDefinition = "boolean default false")
-    private Boolean sent;
-
-    private Boolean received;
+    @Column(nullable = false)
+    private Boolean received = false;
 
     private Boolean mailable; // Si se debe enviar por correo de notificacion
 

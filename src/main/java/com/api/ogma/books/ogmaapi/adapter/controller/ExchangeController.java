@@ -38,7 +38,12 @@ public class ExchangeController {
     public ResponseEntity<Response<String>> createOffer(@RequestBody OfferRequest offerRequest) {
         try {
             Post post = exchangeHandler.createOffer(offerRequest);
-            notificationHandler.sendNewOfferNotification(post);
+
+            try {
+                notificationHandler.sendNewOfferNotification(post);
+            } catch (Exception e) {
+                return ResponseUtil.createErrorResponse("Error al enviar la notificacion", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+            }
 
             return ResponseUtil.createSuccessResponse(null, "Oferta de intercambio creada");
         } catch (Exception e) {
