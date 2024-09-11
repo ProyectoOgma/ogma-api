@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.domain.NotificationFilterDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationType;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.model.Notification;
 import com.api.ogma.books.ogmaapi.service.NotificationService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -33,11 +34,11 @@ public class NotificationController {
     })
     @GetMapping()
     public ResponseEntity<Response<List<Notification>>> getAllNotifications(
-            @RequestParam(value = "userId", required = false) String userId,
-            @RequestParam(value = "unread", required = false) String unread
+            @RequestParam(value = "userId", required = false) Long userId,
+            @RequestParam(value = "unread", required = false) Boolean unread
     ) {
         try {
-            NotificationFilterDTO filter = NotificationFilterDTO.from(userId, unread);
+            NotificationFilterDTO filter = new NotificationFilterDTO(userId, unread);
             List<Notification> notifications = notificationService.getAllNotifications(filter);
             String message = notifications == null ? "Error al obtener las notificaciones, intentelo nuevamente" : "Notificaciones encontradas";
 

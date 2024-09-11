@@ -17,4 +17,8 @@ public class NotificationService {
     public List<Notification> getAllNotifications(NotificationFilterDTO filter) {
         return notificationRepository.findAllByFilter(filter);
     }
+
+    public void create(Notification notification) {
+        notificationRepository.save(notification);
+    }
 }

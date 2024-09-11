@@ -1,10 +1,12 @@
 package com.api.ogma.books.ogmaapi.adapter.controller;
 
 import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
+import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -20,6 +22,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ExchangeController {
     private final ExchangeHandler exchangeHandler;
+    private final NotificationHandler notificationHandler;
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -34,7 +37,8 @@ public class ExchangeController {
     @PostMapping("/offer")
     public ResponseEntity<Response<String>> createOffer(@RequestBody OfferRequest offerRequest) {
         try {
-            exchangeHandler.createOffer(offerRequest);
+            Post post = exchangeHandler.createOffer(offerRequest);
+            notificationHandler.sendNewOfferNotification(post);
 
             return ResponseUtil.createSuccessResponse(null, "Oferta de intercambio creada");
         } catch (Exception e) {

@@ -31,6 +31,8 @@ public class Notification extends Auditable {
 
     private Boolean received;
 
+    private Boolean mailable; // Si se debe enviar por correo de notificacion
+
     @Enumerated(EnumType.STRING)
     private NotificationType type;
 
