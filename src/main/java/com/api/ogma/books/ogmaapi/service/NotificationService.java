@@ -30,7 +30,7 @@ public class NotificationService {
     private Notification mapDTOToEntity(NotificationDTO dto) {
         Notification notification = new Notification();
         notification.setMessage(dto.getMessage());
-        notification.setType(NotificationType.valueOf(String.valueOf(dto.getType())));
+        notification.setType(dto.getType());
         notification.setUser(dto.getUser());
         notification.setMailable(dto.getMailable());
         return notification;

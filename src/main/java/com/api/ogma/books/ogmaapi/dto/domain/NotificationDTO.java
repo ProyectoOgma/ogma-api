@@ -29,13 +29,7 @@ public class NotificationDTO {
 
     private Boolean received = false;
 
-    public static NotificationDTO fromOffer(Post post) {
-        return NotificationDTO.builder()
-                .user(post.getUser())
-                .message(NOTIFICATION_POST_OFFER + post.getBook().getTitle())
-                .mailable(true)
-                .type(NotificationType.INFO)
-                .build();
-
+    public Boolean isMaileable() {
+        return mailable;
     }
 }
