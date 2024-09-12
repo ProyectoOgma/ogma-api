@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 
 import com.api.ogma.books.ogmaapi.common.factory.NotificationFactory;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
+import com.api.ogma.books.ogmaapi.model.Notification;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.service.EmailService;
 import com.api.ogma.books.ogmaapi.service.NotificationService;
@@ -19,7 +20,7 @@ public class NotificationHandler {
     private final NotificationService notificationService;
     private final EmailService emailService;
 
-    public void sendNotification(Notification notification) {
+    public void sendNotification(NotificationDTO notification) {
         if(notification.isMaileable() != null && notification.isMaileable()) {
             // TODO: send email
             log.info("Sending email notification: {}", notification.getMessage());
