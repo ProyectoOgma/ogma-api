@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationType;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -20,6 +21,7 @@ public class Notification extends Auditable {
 
     @ManyToOne
     @JoinColumn(name = "id_user")
+    @JsonBackReference
     private User user;
 
     @Column(nullable = false)
