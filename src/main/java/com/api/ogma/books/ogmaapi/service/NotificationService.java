@@ -28,11 +28,11 @@ public class NotificationService {
     }
 
     private Notification mapDTOToEntity(NotificationDTO dto) {
-        return Notification.builder()
-                .message(dto.getMessage())
-                .type(dto.getType())
-                .user(dto.getUser())
-                .mailable(dto.getMailable())
-                .build();
+        Notification notification = new Notification();
+        notification.setMessage(dto.getMessage());
+        notification.setType(NotificationType.valueOf(String.valueOf(dto.getType())));
+        notification.setUser(dto.getUser());
+        notification.setMailable(dto.getMailable());
+        return notification;
     }
 }
