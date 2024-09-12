@@ -38,8 +38,4 @@ public class Notification extends Auditable {
     @Enumerated(EnumType.STRING)
     private NotificationType type;
 
-    public Boolean isMaileable() {
-        return mailable;
-    }
-
 }
