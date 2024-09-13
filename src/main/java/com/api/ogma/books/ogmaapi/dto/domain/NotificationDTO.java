@@ -8,6 +8,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Map;
+
 import static com.api.ogma.books.ogmaapi.common.NotificationConst.NOTIFICATION_POST_OFFER;
 
 @Builder
@@ -28,6 +30,8 @@ public class NotificationDTO {
     private Boolean sent = false;
 
     private Boolean received = false;
+
+    private Map<String, Object> templateModel;
 
     public Boolean isMaileable() {
         return mailable;
