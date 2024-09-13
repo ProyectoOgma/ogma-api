@@ -29,7 +29,7 @@ public class ExchangeHandler {
      * Crea una oferta de intercambio entre un post y otro.
      * @param offerRequest datos de la oferta
      */
-    public void createOffer(OfferRequest offerRequest) {
+    public Post createOffer(OfferRequest offerRequest) {
         //valida que el post este en un estado valido para crear una oferta.
         Post post = postService.getPost(offerRequest.getPostId());
         Optional<State> actualState = post.getActualState();
@@ -42,11 +42,12 @@ public class ExchangeHandler {
         //Llamar a service para crear la oferta.
         ExchangeOffer exchangeOffer = exchangeOfferService.createOffer(offerRequest);
         //llamar al service del post para actualizar su estado.
-        postService.updateState(exchangeOffer.getPost(), PostStates.CON_OFERTA);
+        if ( actualState.isPresent() &&
+                !actualState.get().getName().equalsIgnoreCase(PostStates.CON_OFERTA.toString())) {
+            postService.updateState(exchangeOffer.getPost(), PostStates.CON_OFERTA);
+        }
 
-        //TODO: notificar al usuario que se ha creado una oferta.
-        String mail = post.getUser().getUsername();
-
+        return post;
     }
 
     /**
