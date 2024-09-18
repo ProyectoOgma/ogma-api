@@ -56,7 +56,7 @@ public class BookHandlerTest {
     public void testGetLibroByIsbn() throws BookNotFoundException, IOException {
         when(bookMapper.fromBookDTOToResponse(any())).thenReturn(new BookResponse());
         when(bookService.getBookByISBN(any())).thenReturn(new BookDTO());
-        bookHandler.getBookByISBN("1234567890");
+        bookHandler.getBook("1234567890", null);
         verify(bookService).getBookByISBN(any());
     }
 
@@ -68,7 +68,7 @@ public class BookHandlerTest {
         when(bookService.getBookByISBN(any())).thenThrow(new EntityNotFoundException("Libro not found"));
 
         assertThrows(BookNotFoundException.class, () -> {
-            bookHandler.getBookByISBN(isbn);
+            bookHandler.getBook(isbn, null);
         });
         verify(bookService).getBookByISBN(isbn);
     }
