@@ -31,4 +31,6 @@ public class Author extends Auditable {
     @JsonBackReference
     private List<Book> books;
 
+    public Author(String s) {
+    }
 }

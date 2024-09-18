@@ -27,4 +27,5 @@ public class Image {
     @JoinColumn(name = "id_book")
     @JsonBackReference
     private Book book;
+
 }

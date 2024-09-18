@@ -15,6 +15,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -46,35 +47,12 @@ public class BookHandler {
         return bookService.getAllBooks(title, pageable);
     }
 
-    /**
-     * Method to get books by title
-     *
-     * @param title String
-     * @return List<BookResponse>
-     */
-    public List<BookResponse> getBooksByTitle(String title) throws BookNotFoundException {
-        try {
-            return bookService.getBooksByTitle(title).stream()
-                    .map(bookMapper::fromBookDTOToResponse)
-                    .collect(Collectors.toList());
-        } catch (EntityNotFoundException e) {
-            throw new BookNotFoundException("Libro with title: " + title + " not found");
-        }
-    }
-
-    /**
-     * Method to get a book by ISBN
-     *
-     * @param isbn ISBN del libro
-     * @return LibroResponse
-     * @throws BookNotFoundException si no se encuentra el libro
-     */
-    public BookResponse getBookByISBN(String isbn) throws BookNotFoundException {
+    public BookResponse getBook(String isbn, Long id) throws BookNotFoundException {
         try {
             return bookMapper.fromBookDTOToResponse(
-                    bookService.getBookByISBN(isbn));
-        } catch (EntityNotFoundException e) {
-            throw new BookNotFoundException("Libro with isbn: " + isbn + " not found");
+                    bookService.getBook(isbn, id));
+        } catch (EntityNotFoundException | IOException e) {
+            throw new BookNotFoundException("Libro no encontrado");
         }
     }
 

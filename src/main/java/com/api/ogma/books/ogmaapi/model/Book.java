@@ -49,7 +49,7 @@ public class Book extends Auditable{
     private Float width;
     private Float weight;
     private Float depth;
-    private Integer rating;
+    private Float rating;
 
     @NotNull
     @ManyToMany
@@ -91,14 +91,10 @@ public class Book extends Auditable{
     @JsonBackReference
     private List<Post> posts;
 
-    @ManyToMany
-    @JoinTable(
-            name = "book_lang",
-            joinColumns = @JoinColumn(name = "id_book"),
-            inverseJoinColumns = @JoinColumn(name = "id_lang")
-    )
+    @ManyToOne
+    @JoinColumn(name = "id_lang")
     @JsonManagedReference
-    private List<Lang> langs;
+    private Lang lang;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<StateHistory> stateHistory;

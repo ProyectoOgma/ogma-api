@@ -25,7 +25,8 @@ public class BookResponse {
     private PublisherDTO publisher;
     private String synopsis;
     private String cover;
-    private String isbn;
+    private String isbn10;
+    private String isbn13;
     private Date releaseDate;
     private Integer pages;
     private Float price;
@@ -33,10 +34,10 @@ public class BookResponse {
     private Float width;
     private Float weight;
     private Float depth;
-    private Integer rating;
+    private Float rating;
     private Collection<AuthorDTO> authors;
     private Collection<GenreDTO> genres;
-    private Collection<LangDTO> langs;
+    private LangDTO lang;
     private List<Image> images;
     private Collection<ReviewDTO> reviews;
 
@@ -47,7 +48,8 @@ public class BookResponse {
                            .publisher(PublisherDTO.from(book.getPublisher()))
                            .synopsis(book.getSynopsis())
                            .cover(book.getImages().get(0).getUrl())
-                           .isbn(book.getIsbn10() + " / " + book.getIsbn13())
+                           .isbn10(book.getIsbn10())
+                            .isbn13(book.getIsbn13())
                            .releaseDate(book.getReleaseDate())
                            .pages(book.getPages())
                            .price(book.getPrice())
@@ -58,7 +60,7 @@ public class BookResponse {
                            .rating(book.getRating())
                            .authors(AuthorDTO.from(book.getAuthors()))
                            .genres(GenreDTO.from(book.getGenres()))
-                           .langs(LangDTO.from(book.getLangs()))
+                           .lang(LangDTO.from(book.getLang()))
                            .images(book.getImages())
                            .reviews(ReviewDTO.from(book.getReviews()))
                            .build();

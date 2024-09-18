@@ -47,12 +47,35 @@ public class BookController {
         }
     }
 
+    @Operation(summary = "Get a book by title or isbn or id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Libros encontrados"),
+            @ApiResponse(responseCode = "404", description = "No existe el libro")
+    })
+    @GetMapping()
+    public ResponseEntity<Response<BookResponse>> getBook(
+            @RequestParam(value = "isbn", required = false) String isbn,
+            @RequestParam(value = "id", required = false) Long id
+    ) throws BookNotFoundException{
+        try {
+            BookResponse books = bookHandler.getBook(isbn, id);
+            String message = ObjectUtils.isEmpty(books) ? "No existe el libro" : "Libro encontrado";
+            return ResponseUtil.createSuccessResponse(books, message);
+        } catch (BookNotFoundException e) {
+            throw e;
+        } catch (Exception e) {
+            // Capturar cualquier otra excepción
+            return ResponseUtil.createErrorResponse("Error al obtener el libro, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+
     @Operation(summary = "Get all books")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Libros encontrados"),
             @ApiResponse(responseCode = "404", description = "Libros no encontrados")
     })
-    @GetMapping()
+    @GetMapping("/all")
     public ResponseEntity<Response<Page<Book>>> getAllBooks(
             @RequestParam(value = "title", required = false) String title,
             @RequestParam(value = "page", defaultValue = "0") int page,
@@ -68,43 +91,6 @@ public class BookController {
             return ResponseUtil.createSuccessResponse(books, message);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al obtener los libros, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
-        }
-    }
-
-    @Operation(summary = "Get a book by title with filter")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Libros encontrados"),
-            @ApiResponse(responseCode = "404", description = "No existe ningun libro con ese titulo")
-    })
-    @GetMapping("/title")
-    public ResponseEntity<Response<List<BookResponse>>> getBookByTitle(@RequestParam String title) throws BookNotFoundException{
-        try {
-            List<BookResponse> books = bookHandler.getBooksByTitle(title);
-            String message = ObjectUtils.isEmpty(books) ? "No existe ningun libro con ese titulo" : "Libros encontrados";
-            return ResponseUtil.createSuccessResponse(books, message);
-        } catch (BookNotFoundException e) {
-            // Re-lanzar la excepción para que sea manejada por el GlobalExceptionHandler
-            throw e;
-        } catch (Exception e) {
-            // Capturar cualquier otra excepción
-            return ResponseUtil.createErrorResponse("Error al obtener el libro, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
-        }
-    }
-
-    @Operation(summary = "Get a book by ISBN (International Standard Book Number)")
-    @ApiResponses(value = {
-            @ApiResponse(responseCode = "200", description = "Libro encontrado"),
-            @ApiResponse(responseCode = "404", description = "Libro no encontrado")
-    })
-    @GetMapping("/{isbn}")
-    public ResponseEntity<Response<BookResponse>> getBookByIsbn(@PathVariable String isbn) throws BookNotFoundException {
-        try {
-            BookResponse book = bookHandler.getBookByISBN(isbn);
-            String message = book == null ? "Libro no encontrado" : "Libro encontrado";
-
-            return ResponseUtil.createSuccessResponse(book, message);
-        } catch (Exception e) {
-            return ResponseUtil.createErrorResponse("Error al obtener el libro, intentelo nuevamente", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
 

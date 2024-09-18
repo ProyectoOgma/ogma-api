@@ -11,6 +11,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -23,6 +24,7 @@ public class BookService {
     private final ObjectMapper objectMapper;
     private final BookRepository bookRepository;
     private final ContextService contextService;
+    private final GoogleService googleService;
 
     /**
      * Method to create a book in the database
@@ -54,35 +56,62 @@ public class BookService {
         return bookRepository.findAllBooksPageable(title, pageable);
     }
 
+//    /**
+//     * Método para obtener libros por título
+//     *
+//     * @param title Título del libro
+//     * @return Lista de libros
+//     */
+//    public List<BookDTO> getBooksByTitle(String title) throws IOException {
+//        List<Book> googleBooks = googleService.searchBooks(title, null, 0, 10);
+//        if (googleBooks.isEmpty()) {
+//            throw new EntityNotFoundException("No books found with title: " + title);
+//        }
+//        return googleBooks.stream()
+//                .map(book -> objectMapper.convertValue(book, BookDTO.class))
+//                .collect(Collectors.toList());
+//    }
+
     /**
-     * Método para obtener libros por título
+     * Método para obtener un libro por título, ISBN o ID
      *
-     * @param title Título del libro
-     * @return Lista de libros
+     * @param isbn ISBN del libro
+     * @param id ID del libro
+     * @return LibroDTO
      */
-    public List<BookDTO> getBooksByTitle(String title) {
-        List<Book> books = bookRepository.findByTitleFlexible(title);
-
-        if (books.isEmpty()) {
-            throw new EntityNotFoundException("No se encontraron libros con el título proporcionado: " + title);
+    public BookDTO getBook(String isbn, Long id) throws IOException {
+        if (isbn != null) {
+            return getBookByISBN(isbn);
         }
-
-        return books.stream()
-                .map(book -> objectMapper.convertValue(book, BookDTO.class))
-                .collect(Collectors.toList());
+        return getBookById(id);
     }
 
     /**
-     * Method to get a book by ISBN
+     * Método para obtener un libro por ID
      *
-     * @param isbn ISBN del libro
+     * @param id ID del libro
      * @return LibroDTO
      */
-    public BookDTO getBookByISBN(String isbn) throws EntityNotFoundException {
+    public BookDTO getBookById(Long id) {
+        return objectMapper.convertValue(bookRepository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Book with id: " + id + " not found")), BookDTO.class);
+    }
+
+    /**
+     * Method to get a book by ISBN (10 or 13) from the database or Google Books
+     * @param isbn ISBN number
+     * @return BookDTO
+     */
+    public BookDTO getBookByISBN(String isbn) throws EntityNotFoundException, IOException {
         Optional<Book> ISBN10 = bookRepository.findBookByIsbn10(isbn);
         Optional<Book> ISBN13 = bookRepository.findBookByIsbn13(isbn);
         if (ISBN13.isEmpty() && ISBN10.isEmpty()) {
-            throw new  EntityNotFoundException("Libro with ISBN: " + isbn + " not found");
+            // Buscar en Google Books si no se encuentra en la base de datos
+            List<Book> googleBook = googleService.searchBooks(null, isbn, 0, 1);
+            if (googleBook.isEmpty()) {
+                throw new EntityNotFoundException("No book found with ISBN: " + isbn);
+            }
+            return objectMapper.convertValue(googleBook.get(0), BookDTO.class);
         }
         return objectMapper.convertValue(ISBN10.orElse(ISBN13.orElse(null)), BookDTO.class);
     }

@@ -27,12 +27,12 @@ public class BookDTO {
     private Float width;
     private Float weight;
     private Float depth;
-    private Integer rating;
+    private Float rating;
     private String cover;
 
     private Collection<AuthorDTO> authors;
     private Collection<GenreDTO> genres;
-    private Collection<LangDTO> langs;
+    private LangDTO lang;
     private PublisherDTO publisher;
     private Collection<ReviewDTO> reviews;
     private Collection<LiteraryRouteDTO> literaryRoutes;

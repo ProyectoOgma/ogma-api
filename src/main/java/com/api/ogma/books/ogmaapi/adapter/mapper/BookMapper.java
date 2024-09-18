@@ -3,12 +3,8 @@ package com.api.ogma.books.ogmaapi.adapter.mapper;
 import com.api.ogma.books.ogmaapi.dto.domain.*;
 import com.api.ogma.books.ogmaapi.dto.request.BookRequest;
 import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
-import com.api.ogma.books.ogmaapi.model.Author;
-import com.api.ogma.books.ogmaapi.model.Image;
-import com.api.ogma.books.ogmaapi.model.Book;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -23,7 +19,7 @@ public class BookMapper {
                 .authors(mapAuthors(bookRequest.getAuthors()))
                 .publisher(mapPublisher(bookRequest.getPublisher()))
                 .genres(mapGenres(bookRequest.getGenres()))
-                .langs(mapLangs(bookRequest.getLangs()))
+                .lang(mapLang(bookRequest.getLang()))
                 .isbn10(bookRequest.getIsbn10())
                 .isbn13(bookRequest.getIsbn13())
                 .synopsis(bookRequest.getSynopsis())
@@ -48,22 +44,18 @@ public class BookMapper {
                 .build();
     }
 
+    private LangDTO mapLang(Integer id) {
+        return LangDTO.builder()
+                .id(id.longValue())
+                .build();
+    }
+
     private List<GenreDTO> mapGenres(List<Integer> genresIds) {
         return genresIds.stream()
                 .map(id -> {
                     GenreDTO genreDTO = new GenreDTO();
                     genreDTO.setId(Long.valueOf(id));
                     return genreDTO;
-                })
-                .collect(Collectors.toList());
-    }
-
-    private List<LangDTO> mapLangs(List<Integer> langsIds) {
-        return langsIds.stream()
-                .map(id -> {
-                    LangDTO langDTO = new LangDTO();
-                    langDTO.setId(Long.valueOf(id));
-                    return langDTO;
                 })
                 .collect(Collectors.toList());
     }
@@ -76,11 +68,12 @@ public class BookMapper {
                 .authors(bookDTO.getAuthors())
                 .publisher(bookDTO.getPublisher())
                 .genres(bookDTO.getGenres())
-                .langs(bookDTO.getLangs())
+                .lang(bookDTO.getLang())
                 .synopsis(bookDTO.getSynopsis())
                 .cover(bookDTO.getCover())
                 .images(ImageDTO.from(bookDTO.getImages()))
-                .isbn(mapIsbn(bookDTO))
+                .isbn10(bookDTO.getIsbn10())
+                .isbn13(bookDTO.getIsbn13())
                 .depth(bookDTO.getDepth())
                 .height(bookDTO.getHeight())
                 .width(bookDTO.getWidth())
@@ -93,14 +86,4 @@ public class BookMapper {
                 .build();
     }
 
-    private String mapPublisher(BookDTO bookDTO) {
-        return Optional.ofNullable(bookDTO.getPublisher())
-                .map(PublisherDTO::getName)
-                .orElse("");
-    }
-
-    //Si o si va a tener un ISBN porque lo recuperamos antes
-    private String mapIsbn(BookDTO bookDTO) {
-        return Optional.ofNullable(bookDTO.getIsbn10()).orElse(bookDTO.getIsbn13());
-    }
 }

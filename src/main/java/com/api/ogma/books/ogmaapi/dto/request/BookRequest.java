@@ -18,7 +18,7 @@ public class BookRequest {
     private List<Integer> authors;
     private List<Integer> genres;
     private Integer publisher;
-    private List<Integer> langs;
+    private Integer lang;
     private Date realeaseDate;
     private String isbn10;
     private String isbn13;

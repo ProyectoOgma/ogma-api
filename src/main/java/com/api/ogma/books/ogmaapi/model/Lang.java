@@ -23,7 +23,7 @@ public class Lang extends Auditable {
     private String name;
     private String abbr;
 
-    @ManyToMany(mappedBy = "langs")
+    @OneToMany(mappedBy = "lang")
     @JsonBackReference
     private List<Book> books;
 

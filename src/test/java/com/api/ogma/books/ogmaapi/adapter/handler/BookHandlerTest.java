@@ -16,6 +16,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 
+import java.io.IOException;
+
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
@@ -51,7 +53,7 @@ public class BookHandlerTest {
     }
 
     @Test
-    public void testGetLibroByIsbn() throws BookNotFoundException {
+    public void testGetLibroByIsbn() throws BookNotFoundException, IOException {
         when(bookMapper.fromBookDTOToResponse(any())).thenReturn(new BookResponse());
         when(bookService.getBookByISBN(any())).thenReturn(new BookDTO());
         bookHandler.getBookByISBN("1234567890");
@@ -59,7 +61,7 @@ public class BookHandlerTest {
     }
 
     @Test
-    public void testGetLibroByIsbnExceptionThrown() {
+    public void testGetLibroByIsbnExceptionThrown() throws IOException {
         String isbn = "1234567890";
 
         when(bookMapper.fromBookDTOToResponse(any())).thenReturn(new BookResponse());
