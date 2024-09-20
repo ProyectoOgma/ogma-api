@@ -10,7 +10,25 @@ services:
     ports:
       - '5432:5432'
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - ./local_postgres/00_init.sql:/docker-entrypoint-initdb.d/00_init.sql
+      - ./local_postgres/01_author.sql:/docker-entrypoint-initdb.d/01_authors_insert.sql
+      - ./local_postgres/02_publisher.sql:/docker-entrypoint-initdb.d/02_publishers_insert.sql
+      - ./local_postgres/03_genre.sql:/docker-entrypoint-initdb.d/03_categories_insert.sql
+      - ./local_postgres/04_books.sql:/docker-entrypoint-initdb.d/04_books_insert.sql
+      - ./local_postgres/05_authors_books.sql:/docker-entrypoint-initdb.d/05_authors_books_insert.sql
+      - ./local_postgres/06_genre_books.sql:/docker-entrypoint-initdb.d/06_categories_books_insert.sql
+      - ./local_postgres/07_image.sql:/docker-entrypoint-initdb.d/07_images_insert.sql
+      - ./local_postgres/08_lang.sql:/docker-entrypoint-initdb.d/08_languages_insert.sql
+      - ./local_postgres/09_books_lang.sql:/docker-entrypoint-initdb.d/09_books_languages_insert.sql
+      - ./local_postgres/10_country.sql:/docker-entrypoint-initdb.d/10_countries_insert.sql
+      - ./local_postgres/11_province.sql:/docker-entrypoint-initdb.d/11_provinces_insert.sql
+      - ./local_postgres/12_municipality.sql:/docker-entrypoint-initdb.d/12_municipalities_insert.sql
+      - ./local_postgres/13_department.sql:/docker-entrypoint-initdb.d/13_departments_insert.sql
+      - ./local_postgres/14_location.sql:/docker-entrypoint-initdb.d/14_locations_insert.sql
+      - ./local_postgres/15_user.sql:/docker-entrypoint-initdb.d/15_users_insert.sql
+      - ./local_postgres/16_post.sql:/docker-entrypoint-initdb.d/16_posts_insert.sql
+      - ./local_postgres/17_state.sql:/docker-entrypoint-initdb.d/17_states_insert.sql
+      - ./local_postgres/18_state_history.sql:/docker-entrypoint-initdb.d/18_states_history_insert.sql
     networks:
       - ogma_network
 
@@ -30,7 +48,6 @@ services:
       - ogma_network
 
 volumes:
-  postgres_data:
   pgadmin_data:
 
 networks:

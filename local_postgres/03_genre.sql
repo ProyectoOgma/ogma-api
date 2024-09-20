@@ -1,0 +1,13 @@
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Nature', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Fiction', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Travel', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Sin categoría', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Iran', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Literary Collections', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Ireland', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Juvenile Fiction', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Juvenile Nonfiction', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Biography & Autobiography', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Detective and mystery stories, Spanish', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Madrid (Spain)', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Education', NOW(), NOW());

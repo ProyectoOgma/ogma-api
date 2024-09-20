@@ -1,0 +1,12 @@
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Picador', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('St. Martin''s Griffin', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Hollywood Comics', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Obscure Press', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Espec Books', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('PLAZA & JANES', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Umbriel', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Ediciones Urano', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('National Geographic Books', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Batiscafo', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Siruela', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Anagrama', NOW(), NOW());
