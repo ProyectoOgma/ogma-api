@@ -29,6 +29,7 @@ services:
       - ./local_postgres/16_post.sql:/docker-entrypoint-initdb.d/16_posts_insert.sql
       - ./local_postgres/17_state.sql:/docker-entrypoint-initdb.d/17_states_insert.sql
       - ./local_postgres/18_state_history.sql:/docker-entrypoint-initdb.d/18_states_history_insert.sql
+      - postgres_data:/var/lib/postgresql/data
     networks:
       - ogma_network
 
@@ -49,6 +50,7 @@ services:
 
 volumes:
   pgadmin_data:
+  postgres_data:
 
 networks:
   ogma_network:

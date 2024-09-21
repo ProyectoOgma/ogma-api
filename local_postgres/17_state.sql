@@ -1,11 +1,11 @@
 INSERT INTO public.state (name, scope) VALUES
 -- Estados de la publicación
 ('PUBLICADA', 'POST'),
-('CON_OFERTA', 'POST'),
-('OFERTA_PARCIALMENTE_ACEPTADA', 'POST'),
+('CON OFERTA', 'POST'),
+('OFERTA PARCIALMENTE ACEPTADA', 'POST'),
 ('PAUSADA', 'POST'),
 ('CANCELADA', 'POST'),
-('EN_INTERCAMBIO', 'POST'),
+('EN INTERCAMBIO', 'POST'),
 ('INTERCAMBIADA', 'POST'),
 
 -- Estados de la oferta
