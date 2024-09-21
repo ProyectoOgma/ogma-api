@@ -29,6 +29,21 @@
             font-size: 16px;
             color: #333;
         }
+        .content p {
+            margin: 10px 0;
+        }
+        .book-info {
+            background-color: #e8f5e9;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .book-info span {
+            color: #2e7d32;
+        }
+        .book-title {
+            color: #000;
+        }
         .cta-button {
             display: inline-block;
             margin-top: 20px;
@@ -49,10 +64,14 @@
         <h1>¡Nueva oferta de intercambio!</h1>
     </div>
     <div class="content">
-        <p>Hola, <span th:text="${userName}">Usuario</span>,</p>
+        <p>Hola, <strong th:text="${userName}">Usuario</strong>,</p>
         <p>Has recibido una nueva oferta de intercambio en <strong>Ogma</strong>.</p>
-        <p>El usuario <span th:text="${offerUser}">Ofertante</span> quiere intercambiar contigo el libro <span th:text="${offeredBook}">Libro Ofrecido</span> por tu libro <span th:text="${requestedBook}">Libro Solicitado</span>.</p>
-        <p>Visita Ogma para ver más detalles de la oferta y decidir si la aceptas.</p>
+        <div class="book-info">
+            <p><strong th:text="${offerUser}">Ofertante</strong> quiere intercambiar contigo:</p>
+            <p><span>Libro Ofrecido:</span> <span class="book-title" th:utext="'&quot;' + ${offeredBook} + '&quot;'" style="color: black;">Libro Ofrecido</span></p>
+            <p><span>Por tu libro:</span> <span class="book-title" th:utext="'&quot;' + ${requestedBook} + '&quot;'" style="color: black;">Libro Solicitado</span></p>
+        </div>
+        <p>Visita Ogma para ver más detalles de la oferta y dar una respuesta al interesado.</p>
         <a href="#" class="cta-button" th:href="@{https://ogma.com/intercambios/${offerId}}">Ver Oferta</a>
     </div>
 </div>
