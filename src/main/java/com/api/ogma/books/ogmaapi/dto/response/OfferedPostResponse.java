@@ -11,7 +11,7 @@ public class OfferedPostResponse {
     private Long id;
     private String title;
     private List<String> author;
-    private String image;
+    private List<String> image;
     private String publisher;
     private String bookStatus;
 }
