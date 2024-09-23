@@ -63,7 +63,7 @@ public class NotificationHandler {
         try {
             //TODO: de momento dejamos un mail para pruebas, luego se deberá obtener el mail del usuario
             //notification.getUser().getUsername();
-            emailService.sendEmailTemplateMessage("ogmabook@gmail.com",
+            emailService.sendEmailTemplateMessage(notification.getUser().getUsername(),
                     OFFER_EMAIL_SUBJECT, notification.getTemplateModel());
         }catch (MessagingException e) {
             log.error("Error sending email notification: {}", e.getMessage());
