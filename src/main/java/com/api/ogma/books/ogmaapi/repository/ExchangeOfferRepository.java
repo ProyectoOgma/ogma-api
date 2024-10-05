@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface ExchangeOfferRepository extends JpaRepository<ExchangeOffer, Long> {
     List<ExchangeOffer> findByPostId(Long id);
+    List<ExchangeOffer> findByOfferedPostId(Long id);
 }

@@ -42,7 +42,7 @@ public class ExchangeHandler {
         //Llamar a service para crear la oferta.
         ExchangeOffer exchangeOffer = exchangeOfferService.createOffer(offerRequest);
         //llamar al service del post para actualizar su estado.
-        if ( actualState.isPresent() &&
+        if (actualState.isPresent() &&
                 !actualState.get().getName().equalsIgnoreCase(PostStates.CON_OFERTA.toString())) {
             postService.updateState(exchangeOffer.getPost(), PostStates.CON_OFERTA);
         }
@@ -54,9 +54,9 @@ public class ExchangeHandler {
      * Busca las ofertas de intercambio que tiene asociadas una publicacion.
      * @param id id del post
      */
-    public List<ExchangeOfferResponse> getOfferByPostId(Long id) {
-        return exchangeOfferService.getOfferByPostId(id).stream()
-                .map(exchangeOfferMapper::mapOfferedPostResponse)
-                .collect(Collectors.toList());
+    public ExchangeOfferResponse getOfferByPostId(Long id) {
+        List<ExchangeOffer> exchangeOffersPost = exchangeOfferService.getOfferByPostId(id);
+        List<ExchangeOffer> exchangeOffersOffered = exchangeOfferService.getOfferByOfferedPostId(id);
+        return exchangeOfferMapper.mapOfferedPostResponse(exchangeOffersPost, exchangeOffersOffered);
     }
 }

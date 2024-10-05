@@ -42,14 +42,14 @@ public class ExchangeController {
     public ResponseEntity<Response<String>> createOffer(@RequestBody OfferRequest offerRequest) {
         try {
             Post post = exchangeHandler.createOffer(offerRequest);
-            String message = "";
+            StringBuilder message = new StringBuilder("Oferta de intercambio creada");
             try {
                 notificationHandler.sendNewOfferNotification(post);
             }catch (UnableToSendNotificationException e) {
                 log.error("Error sending notification: {}", e.getMessage());
-                message = ", pero no se pudo enviar la notificacion";
+                message.append(", pero no se pudo enviar la notificacion");
             }
-            return ResponseUtil.createSuccessResponse(null, "Oferta de intercambio creada" + message);
+            return ResponseUtil.createSuccessResponse(null, message.toString());
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al enviar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
@@ -66,9 +66,9 @@ public class ExchangeController {
             @ApiResponse(responseCode = "500", description = "Error al buscar la oferta")
     })
     @GetMapping("/offer/{id}")
-    public ResponseEntity<Response<List<ExchangeOfferResponse>>> getOfferByPostId(@PathVariable Long id) {
+    public ResponseEntity<Response<ExchangeOfferResponse>> getOfferByPostId(@PathVariable Long id) {
         try {
-            List<ExchangeOfferResponse> offers = exchangeHandler.getOfferByPostId(id);
+            ExchangeOfferResponse offers = exchangeHandler.getOfferByPostId(id);
 
             return ResponseUtil.createSuccessResponse(offers, "Ofertas encontradas");
         } catch (Exception e) {

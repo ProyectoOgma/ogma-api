@@ -61,8 +61,6 @@ public class NotificationHandler {
 
     private void sendEmailNotification(NotificationDTO notification) {
         try {
-            //TODO: de momento dejamos un mail para pruebas, luego se deberá obtener el mail del usuario
-            //notification.getUser().getUsername();
             emailService.sendEmailTemplateMessage(notification.getUser().getUsername(),
                     OFFER_EMAIL_SUBJECT, notification.getTemplateModel());
         }catch (MessagingException e) {
