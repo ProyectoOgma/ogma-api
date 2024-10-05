@@ -54,4 +54,8 @@ public class ExchangeOfferService {
         return exchangeOfferRepository.findByPostId(id);
     }
 
+    public List<ExchangeOffer> getOfferByOfferedPostId(Long id) {
+        return exchangeOfferRepository.findByOfferedPostId(id);
+    }
+
 }
