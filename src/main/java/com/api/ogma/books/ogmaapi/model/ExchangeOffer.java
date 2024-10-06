@@ -1,7 +1,7 @@
 package com.api.ogma.books.ogmaapi.model;
 
-import com.api.ogma.books.ogmaapi.dto.States.ExchangeOfferStates;
-import com.api.ogma.books.ogmaapi.dto.States.StatefulEntity;
+import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
+import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;

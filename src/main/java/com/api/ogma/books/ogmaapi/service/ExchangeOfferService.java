@@ -1,6 +1,6 @@
 package com.api.ogma.books.ogmaapi.service;
 
-import com.api.ogma.books.ogmaapi.dto.States.ExchangeOfferStates;
+import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
@@ -54,8 +54,22 @@ public class ExchangeOfferService {
         return exchangeOfferRepository.findByPostId(id);
     }
 
+    /**
+     * Busca las ofertas de intercambio que tiene asociadas una publicacion ofrecida.
+     * @param id id del post
+     */
     public List<ExchangeOffer> getOfferByOfferedPostId(Long id) {
         return exchangeOfferRepository.findByOfferedPostId(id);
+    }
+
+    /**
+     * Busca una oferta de intercambio por su id.
+     * @param id id de la oferta
+     * @return oferta encontrada
+     */
+    public ExchangeOffer getOfferById(Long id) {
+        return exchangeOfferRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Offer not found"));
     }
 
 }

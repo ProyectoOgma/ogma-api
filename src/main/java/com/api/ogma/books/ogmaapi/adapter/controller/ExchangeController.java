@@ -76,4 +76,23 @@ public class ExchangeController {
         }
     }
 
+    /**
+     * Crea un intercambio una vez que la oferta fue aceptada
+     * @param offerId id de la oferta
+     */
+    @Operation(summary = "Crea un intercambio a partir de una oferta aceptada")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "201", description = "Intercambio creado"),
+            @ApiResponse(responseCode = "500", description = "Error al crear el intercambio")
+    })
+    @PostMapping("/exchange/{offerId}")
+    public ResponseEntity<Response<String>> createExchange(@PathVariable Long offerId) {
+        try {
+            exchangeHandler.createExchange(offerId);
+            return ResponseUtil.createCustomStatusCodeResponse(null, "Intercambio creado", HttpStatus.CREATED);
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al crear el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
 }
