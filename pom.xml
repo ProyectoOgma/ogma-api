@@ -157,12 +157,7 @@
                     <apiSources>
                         <apiSource>
                             <springmvc>true</springmvc>
-                            <locations>
-                                <location>com.api.ogma.books.ogmaapi.adapter.controller.AuthController</location>
-                                <location>com.api.ogma.books.ogmaapi.adapter.controller.BookController</location>
-                                <location>com.api.ogma.books.ogmaapi.adapter.controller.LocationsController</location>
-                                <location>com.api.ogma.books.ogmaapi.adapter.controller.PostController</location>
-                                <location>com.api.ogma.books.ogmaapi.adapter.controller.UserController</location>
+                            <locations>com.api.ogma.books.ogmaapi.adapter.controller.AuthController,com.api.ogma.books.ogmaapi.adapter.controller.BookController,com.api.ogma.books.ogmaapi.adapter.controller.LocationsController,com.api.ogma.books.ogmaapi.adapter.controller.PostController,com.api.ogma.books.ogmaapi.adapter.controller.UserController
                             </locations>
                             <basePath>/api</basePath>
                             <info>
