@@ -1,14 +1,13 @@
 on:
   pull_request:
   push:
-    branches: [dev]
+    branches: [develop]
 
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy
-        if: github.ref == 'refs/heads/develop'
         env:
           deploy_url: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
         run: |
