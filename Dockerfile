@@ -1,28 +1,28 @@
-# Usar una imagen base de Maven con OpenJDK 17 para construir la aplicación
+# Etapa 1: Construcción
 FROM maven:3.8.4-openjdk-17 AS build
 WORKDIR /app
 
-# Copiar el archivo de Maven Wrapper y configuraciones
-COPY .mvn/ .mvn
-COPY mvnw pom.xml ./
+# Copiar archivos necesarios para la construcción
+COPY pom.xml .
+COPY .mvn/ .mvn/
+COPY mvnw ./
+COPY src/ src/
 
 # Dar permisos de ejecución a mvnw
 RUN chmod +x mvnw
 
-# Descargar las dependencias sin construir todavía
-RUN ./mvnw dependency:go-offline
+# Descargar dependencias y empaquetar la aplicación
+RUN ./mvnw clean package -DskipTests
 
-# Usar una imagen base de OpenJDK 17 para correr la aplicación
+# Etapa 2: Runtime
 FROM openjdk:17-jdk-slim
 WORKDIR /app
 
-# Copiar solo las dependencias y herramientas necesarias desde la etapa de construcción
-COPY --from=build /root/.m2 /root/.m2
-COPY .mvn/ .mvn
-COPY mvnw ./
+# Copiar el JAR empaquetado desde la etapa de construcción
+COPY --from=build /app/target/*.jar app.jar
 
-# Exponer el puerto
+# Exponer el puerto de la aplicación
 EXPOSE 8080
 
-# Comando de entrada
-CMD ["./mvnw", "spring-boot:run"]
+# Comando para ejecutar la aplicación
+ENTRYPOINT ["java", "-jar", "app.jar"]
