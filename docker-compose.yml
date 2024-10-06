@@ -14,6 +14,15 @@ services:
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
     ports:
       - '8080:8080'
+    volumes:
+      - m2:/var/maven/.m2/repository
+      - "./.mvn:/app/.mvn:ro"
+      - "./src:/app/src:ro"
+      - "./mvnw:/app/mvnw:ro"
+      - "./pom.xml:/app/pom.xml:ro"
+
+volumes:
+  m2:
 #      depends_on:
 #        - postgres
 #      networks:
