@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
+import org.apache.commons.lang3.ObjectUtils;
 
 import java.util.Date;
 import java.util.List;
@@ -28,9 +29,13 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
     @JoinColumn(name = "exchange_offer_id")
     private ExchangeOffer exchangeOffer;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    @ManyToMany
+    @JoinTable(
+            name = "exchange_users",
+            joinColumns = @JoinColumn(name = "exchange_id"),
+            inverseJoinColumns = @JoinColumn(name = "user_id")
+    )
+    private List<User> users;
 
     @OneToMany(mappedBy = "exchange", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
@@ -44,23 +49,38 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
 
     private String shippingType; //por ahora es acuerdo con el vendededor unicamente
 
-    @Override
-    public List<StateHistory> getStateHistories() {
-        return List.of();
+    @PrePersist
+    @PreUpdate
+    private void validateUsers() {
+        if (users == null || users.size() != 2) {
+            throw new IllegalArgumentException("Exchange must have exactly two users.");
+        }
     }
 
     @Override
     public Optional<StateHistory> getActualStateHistory() {
-        return Optional.empty();
+        if (ObjectUtils.isEmpty(this.stateHistories)) {
+            return Optional.empty();
+        }
+        return this.stateHistories.stream()
+                .filter(StateHistory::isActive)
+                .findFirst();
     }
 
     @Override
     public Optional<State> getActualState() {
+        if (this.getActualStateHistory().isPresent()) {
+            return Optional.of(this.getActualStateHistory().get().getState());
+        }
         return Optional.empty();
     }
 
     @Override
     public void setEntityState(StateHistory stateHistory) {
-
+        if (this.getActualStateHistory().isPresent()) {
+            this.getActualStateHistory().get().setExchange(this);
+        }else {
+            stateHistory.setExchange(this);
+        }
     }
 }

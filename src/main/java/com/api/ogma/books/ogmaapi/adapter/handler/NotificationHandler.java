@@ -4,6 +4,7 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 import com.api.ogma.books.ogmaapi.common.factory.EmailTemplateFactory;
 import com.api.ogma.books.ogmaapi.common.factory.NotificationFactory;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
+import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Notification;
 import com.api.ogma.books.ogmaapi.model.Post;
@@ -48,7 +49,18 @@ public class NotificationHandler {
         }
     }
 
-    public void sendNotification(NotificationDTO notification) {
+    /*public void sendNewExchangeNotification(Exchange exchange) {
+        try {
+            NotificationDTO offerNotification = NotificationFactory.createOfferNotification(post);
+            offerNotification.setTemplateModel(EmailTemplateFactory.createOfferTemplate(exchangeOffer));
+            sendNotification(offerNotification);
+        }catch (Exception e) {
+            log.error("Error sending new offer notification: {}", e.getMessage());
+            throw new UnableToSendNotificationException("Error sending new offer notification");
+        }
+    }*/
+
+    private void sendNotification(NotificationDTO notification) {
         if(notification.isMaileable() != null && notification.isMaileable()) {
             long startTime = System.currentTimeMillis();
             sendEmailNotification(notification);

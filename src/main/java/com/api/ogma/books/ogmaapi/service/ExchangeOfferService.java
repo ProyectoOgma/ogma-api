@@ -47,6 +47,15 @@ public class ExchangeOfferService {
     }
 
     /**
+     * Acepta una oferta de intercambio.
+     * @param offer oferta a aceptar
+     */
+    public void acceptOffer(ExchangeOffer offer) {
+        //TODO: ver que mas acemos aca. Seguramente guardar o actualizar un dato para metricas
+        stateService.updateState(offer, ExchangeOfferStates.ACEPTADA, State.Scope.OFFER);
+    }
+
+    /**
      * Busca las ofertas de intercambio que tiene asociadas una publicacion.
      * @param id id del post
      */

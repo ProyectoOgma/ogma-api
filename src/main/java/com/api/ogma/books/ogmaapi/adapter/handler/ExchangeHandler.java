@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -70,7 +71,7 @@ public class ExchangeHandler {
      * Si los completa, pasar el intercambio a pendiente de envio.
      * @param id id de la oferta
      */
-    public void createExchange(Long id) {
+    public Exchange createExchange(Long id) {
         ExchangeOffer exchangeOffer = exchangeOfferService.getOfferById(id);
         //validar que la oferta este en estado pendiente de aceptacion
         if (!stateService.validateState(exchangeOffer.getActualState(), ExchangeOfferStates.PENDIENTE)) {
@@ -78,8 +79,11 @@ public class ExchangeHandler {
             throw new IllegalArgumentException("Offer not in valid state to create an exchange");
         }
         //llamar al service para crear el intercambio
-        //exchangeService.createExchange(exchangeOffer);
+        Exchange exchange = exchangeService.createExchange(exchangeOffer);
+        //llamar al service de oferta para marcarla como aceptada
+        exchangeOfferService.acceptOffer(exchangeOffer);
         //llamar al service del post para actualizar su estado
-        //postService.updateState(exchangeOffer.getPost(), PostStates.OFERTA_PARCIALMENTE_ACEPTADA);
+        postService.updateState(exchangeOffer.getPost(), PostStates.OFERTA_PARCIALMENTE_ACEPTADA);
+        return exchange;
     }
 }

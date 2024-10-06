@@ -6,6 +6,7 @@ import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -85,11 +86,17 @@ public class ExchangeController {
             @ApiResponse(responseCode = "201", description = "Intercambio creado"),
             @ApiResponse(responseCode = "500", description = "Error al crear el intercambio")
     })
-    @PostMapping("/exchange/{offerId}")
-    public ResponseEntity<Response<String>> createExchange(@PathVariable Long offerId) {
+    @PostMapping()
+    public ResponseEntity<Response<Exchange>> createExchange(@RequestParam(name = "offer_id") Long offerId) {
         try {
-            exchangeHandler.createExchange(offerId);
-            return ResponseUtil.createCustomStatusCodeResponse(null, "Intercambio creado", HttpStatus.CREATED);
+            Exchange exchange = exchangeHandler.createExchange(offerId);
+            /*try {
+                notificationHandler
+            }catch (UnableToSendNotificationException e) {
+                log.error("Error sending notification: {}", e.getMessage());
+                message.append(", pero no se pudo enviar la notificacion");
+            }*/
+            return ResponseUtil.createCustomStatusCodeResponse(exchange, "Intercambio creado", HttpStatus.CREATED);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al crear el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
