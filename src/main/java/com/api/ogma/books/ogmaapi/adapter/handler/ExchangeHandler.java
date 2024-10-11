@@ -1,6 +1,8 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
+import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
+import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
@@ -29,6 +31,7 @@ public class ExchangeHandler {
     private final PostService postService;
     private final ExchangeOfferMapper exchangeOfferMapper;
     private final StateService stateService;
+    private final ExchangeMapper exchangeMapper;
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -84,6 +87,7 @@ public class ExchangeHandler {
         exchangeOfferService.acceptOffer(exchangeOffer);
         //llamar al service del post para actualizar su estado
         postService.updateState(exchangeOffer.getPost(), PostStates.OFERTA_PARCIALMENTE_ACEPTADA);
+
         return exchange;
     }
 }

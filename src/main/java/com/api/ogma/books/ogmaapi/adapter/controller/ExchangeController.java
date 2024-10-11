@@ -2,8 +2,10 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 
 import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
 import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
+import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import com.api.ogma.books.ogmaapi.model.Exchange;
@@ -28,6 +30,7 @@ public class ExchangeController {
     private static final Logger log = LoggerFactory.getLogger(ExchangeController.class);
     private final ExchangeHandler exchangeHandler;
     private final NotificationHandler notificationHandler;
+    private final ExchangeMapper exchangeMapper;
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -87,16 +90,17 @@ public class ExchangeController {
             @ApiResponse(responseCode = "500", description = "Error al crear el intercambio")
     })
     @PostMapping()
-    public ResponseEntity<Response<Exchange>> createExchange(@RequestParam(name = "offer_id") Long offerId) {
+    public ResponseEntity<Response<ExchangeResponse>> createExchange(@RequestParam(name = "offer_id") Long offerId) {
         try {
             Exchange exchange = exchangeHandler.createExchange(offerId);
-            /*try {
-                notificationHandler
+            StringBuilder message = new StringBuilder("Intercambio creado");
+            try {
+                notificationHandler.sendNewExchangeNotification(exchange);
             }catch (UnableToSendNotificationException e) {
                 log.error("Error sending notification: {}", e.getMessage());
                 message.append(", pero no se pudo enviar la notificacion");
-            }*/
-            return ResponseUtil.createCustomStatusCodeResponse(exchange, "Intercambio creado", HttpStatus.CREATED);
+            }
+            return ResponseUtil.createCustomStatusCodeResponse(exchangeMapper.mapFromExchangeToExchangeResponse(exchange), message.toString(), HttpStatus.CREATED);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al crear el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
