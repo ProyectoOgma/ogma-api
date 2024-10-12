@@ -4,8 +4,10 @@ import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
 import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -56,6 +58,32 @@ public class ExchangeController {
     }
 
     /**
+     * Rechaza una oferta de intercambio
+     * @param id id de la oferta
+     * @return respuesta de la operacion
+     */
+    @Operation(summary = "Rechaza una oferta de intercambio")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Oferta rechazada"),
+            @ApiResponse(responseCode = "500", description = "Error al rechazar la oferta")
+    })
+    @PostMapping("/reject/{id}")
+    public ResponseEntity<Response<ReceivedOfferResponse>> rejectOffer(@PathVariable Long id) {
+        try {
+            ReceivedOfferResponse rejectedOffer = exchangeHandler.rejectOffer(id);
+            try {
+                // Crear notificacion en db para el usuario que hizo la oferta
+                notificationHandler.sendRejectedOfferNotification(rejectedOffer);
+            } catch (UnableToSendNotificationException e) {
+                log.error("Error sending notification: {}", e.getMessage());
+            }
+            return ResponseUtil.createSuccessResponse(rejectedOffer, "Oferta rechazada");
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al rechazar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    /**
      * Busca las ofertas de intercambio que tiene asociadas una publicacion.
      * @param id id del post
      * @return respuesta de la operacion
@@ -75,5 +103,6 @@ public class ExchangeController {
             return ResponseUtil.createErrorResponse("Error al buscar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
+
 
 }

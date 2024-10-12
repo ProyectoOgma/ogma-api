@@ -2,14 +2,12 @@ package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.UserLocationDTO;
-import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.model.Municipality;
 import com.api.ogma.books.ogmaapi.model.Province;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.MunicipalityRepository;
 import com.api.ogma.books.ogmaapi.repository.ProvinceRepository;
 import com.api.ogma.books.ogmaapi.repository.UserRepository;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +15,6 @@ import org.springframework.stereotype.Service;
 
 import java.sql.Date;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor

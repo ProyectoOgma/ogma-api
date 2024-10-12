@@ -8,7 +8,9 @@ import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.repository.ExchangeOfferRepository;
 import com.api.ogma.books.ogmaapi.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.ErrorResponseException;
 
 import java.util.Date;
 import java.util.List;
@@ -47,6 +49,25 @@ public class ExchangeOfferService {
     }
 
     /**
+     * Rechazar una oferta de intercambio
+     * @param offer oferta a rechazar
+     * @return oferta rechazada
+     * @throws RuntimeException si la oferta no existe
+     */
+    public ExchangeOffer rejectOffer(ExchangeOffer offer) {
+        State state = offer.getActualState()
+                .orElseThrow(() -> new RuntimeException("Offer not found"));
+
+        // Si la oferta ya ha sido rechazada, no se puede rechazar de nuevo
+        if (state.getName().equalsIgnoreCase(ExchangeOfferStates.RECHAZADA.toString())) {
+            throw new RuntimeException("La oferta ya ha sido rechazada", new ErrorResponseException(HttpStatus.BAD_REQUEST));
+        }
+
+        stateService.updateState(offer, ExchangeOfferStates.RECHAZADA, State.Scope.OFFER);
+        return this.getOfferById(offer.getId());
+    };
+
+    /**
      * Busca las ofertas de intercambio que tiene asociadas una publicacion.
      * @param id id del post
      */
@@ -56,6 +77,15 @@ public class ExchangeOfferService {
 
     public List<ExchangeOffer> getOfferByOfferedPostId(Long id) {
         return exchangeOfferRepository.findByOfferedPostId(id);
+    }
+
+    /**
+     * Buscar una oferta de intercambio por su id
+     * @param id id de la oferta
+     */
+    public ExchangeOffer getOfferById(Long id) {
+        return exchangeOfferRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Offer not found"));
     }
 
 }

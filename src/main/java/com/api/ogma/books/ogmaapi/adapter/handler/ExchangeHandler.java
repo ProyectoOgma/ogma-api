@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
 import com.api.ogma.books.ogmaapi.dto.States.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -15,7 +16,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -59,4 +59,15 @@ public class ExchangeHandler {
         List<ExchangeOffer> exchangeOffersOffered = exchangeOfferService.getOfferByOfferedPostId(id);
         return exchangeOfferMapper.mapOfferedPostResponse(exchangeOffersPost, exchangeOffersOffered);
     }
+
+    /**
+     * Rechaza una oferta de intercambio.
+     * @param id id de la oferta
+     */
+    public ReceivedOfferResponse rejectOffer(Long id) {
+        ExchangeOffer exchangeOffer = exchangeOfferService.getOfferById(id);
+        ExchangeOffer rejectedOffer = exchangeOfferService.rejectOffer(exchangeOffer);
+        return exchangeOfferMapper.mapReceivedOffer(rejectedOffer);
+    }
+
 }
