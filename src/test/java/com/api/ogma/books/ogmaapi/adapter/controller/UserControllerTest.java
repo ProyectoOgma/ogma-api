@@ -77,6 +77,9 @@ public class UserControllerTest {
         userRequest.setLastName("Doe");
         userRequest.setUsername("johndoe");
         userRequest.setEmail("test@gmail.com");
+        userRequest.setAddress("123 Main St");
+        userRequest.setPhoneNumber("1234567890");
+        userRequest.setInstagram("johndoe");
 
 
         mockMvc.perform(put(API_PATH + "/users/update/1")
@@ -93,6 +96,8 @@ public class UserControllerTest {
                 .name("John")
                 .lastName("Doe")
                 .email("test@gmail.com")
+                .address("123 Main St")
+                .phoneNumber("1234567890")
                 .build();
     }
 
@@ -103,6 +108,8 @@ public class UserControllerTest {
                 .lastName("Doe")
                 .username("johndoe")
                 .email("test@gmail.com")
+                .address("123 Main St")
+                .phoneNumber("1234567890")
                 .build();
     }
 }

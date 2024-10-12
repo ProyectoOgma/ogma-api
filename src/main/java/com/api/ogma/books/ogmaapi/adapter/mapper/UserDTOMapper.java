@@ -23,6 +23,9 @@ public class UserDTOMapper {
                 .genre(userRequest.getUserGenre())
                 .birthDate(userRequest.getBirthDate())
                 .userLocationDTO(mapUserLocation(userRequest.getUserLocationRequest()))
+                .address(userRequest.getAddress())
+                .phoneNumber(userRequest.getPhoneNumber())
+                .instagram(userRequest.getInstagram())
                 .build();
     }
 
@@ -43,6 +46,9 @@ public class UserDTOMapper {
                 .email(user.getEmail())
                 .birthDate(user.getBirthDate())
                 .userLocationResponse(mapLocationResponse(user))
+                .address(user.getAddress())
+                .phoneNumber(user.getPhoneNumber())
+                .instagram(user.getInstagram())
                 .build();
     }
 
