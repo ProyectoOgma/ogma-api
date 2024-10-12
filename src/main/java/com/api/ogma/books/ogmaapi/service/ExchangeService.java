@@ -6,6 +6,7 @@ import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.ExchangeRepository;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -33,6 +34,16 @@ public class ExchangeService {
 
     private List<User> getUsers(ExchangeOffer exchangeOffer) {
         return List.of(exchangeOffer.getPost().getUser(), exchangeOffer.getOfferedPost().getUser());
+    }
+
+    public Exchange getExchangeById(Long exchangeId) {
+        return exchangeRepository.findById(exchangeId)
+                .orElseThrow(() -> new EntityNotFoundException("Exchange not found"));
+    }
+
+    public void confirmExchange(Exchange exchange) {
+        //TODO: ver que otra logica tenemos que hacer
+        stateService.updateState(exchange, ExchangeStates.PENDIENTE_DE_ENVIO, State.Scope.EXCHANGE);
     }
 
 }

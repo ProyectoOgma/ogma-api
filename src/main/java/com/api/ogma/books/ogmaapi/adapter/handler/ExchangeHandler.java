@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
+import com.api.ogma.books.ogmaapi.dto.states.ExchangeStates;
 import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
@@ -31,7 +32,6 @@ public class ExchangeHandler {
     private final PostService postService;
     private final ExchangeOfferMapper exchangeOfferMapper;
     private final StateService stateService;
-    private final ExchangeMapper exchangeMapper;
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -87,6 +87,23 @@ public class ExchangeHandler {
         exchangeOfferService.acceptOffer(exchangeOffer);
         //llamar al service del post para actualizar su estado
         postService.updateState(exchangeOffer.getPost(), PostStates.OFERTA_PARCIALMENTE_ACEPTADA);
+
+        return exchange;
+    }
+
+    public Exchange startExchange(Long exchangeId) {
+        Exchange exchange = exchangeService.getExchangeById(exchangeId);
+        //validar que el intercambio este en estado pendiente de envio
+        if (!stateService.validateState(exchange.getActualState(), ExchangeStates.NOTIFICADO)) {
+            log.error("Exchange not in valid state to start exchange");
+            throw new IllegalArgumentException("Exchange not in valid state to confirm exchange");
+        }
+        exchangeService.confirmExchange(exchange);
+        //llamar al service del post para actualizar su estado
+        postService.updateState(exchange.getExchangeOffer().getPost(), PostStates.EN_INTERCAMBIO);
+        postService.updateState(exchange.getExchangeOffer().getOfferedPost(), PostStates.EN_INTERCAMBIO);
+        //Pausar todas las ofertas asociadas a esos posts
+        exchangeOfferService.pauseOffersByExchange(exchange);
 
         return exchange;
     }

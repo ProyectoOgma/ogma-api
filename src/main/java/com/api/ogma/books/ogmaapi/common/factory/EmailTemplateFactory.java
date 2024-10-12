@@ -30,5 +30,12 @@ public class EmailTemplateFactory {
         return templateModel;
     }
 
+    public static Map<String, Object> createExchangeAcceptedTemplate(String userName, String exchangeId) {
+        Map<String, Object> templateModel = new HashMap<>();
+        templateModel.put("userName", userName);
+        templateModel.put("exchangeId", exchangeId);
+        return templateModel;
+    }
+
 
 }

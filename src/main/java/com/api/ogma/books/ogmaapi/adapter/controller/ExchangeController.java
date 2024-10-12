@@ -106,4 +106,33 @@ public class ExchangeController {
         }
     }
 
+    /**
+     * Crea un intercambio una vez que la oferta fue aceptada
+     */
+    @Operation(summary = "Confirma un intercambio a partir de una oferta aceptada")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Intercambio concretado"),
+            @ApiResponse(responseCode = "500", description = "Error al confirmar el intercambio")
+    })
+    @PutMapping("/confirm/{exchange_id}")
+    public ResponseEntity<Response<String>> startExchange(@PathVariable(name = "exchange_id") Long exchangeId) {
+        try {
+            Exchange exchange = exchangeHandler.startExchange(exchangeId);
+            StringBuilder message = new StringBuilder("Intercambio iniciado");
+
+            try {
+                exchange.getUsers()
+                        .forEach(user ->
+                                notificationHandler.sendExchangeAcceptedNotification(user, exchange.getId().toString()));
+            }catch (UnableToSendNotificationException e) {
+                log.error("Error sending notification: {}", e.getMessage());
+                message.append(", pero no se pudo enviar la notificacion");
+            }
+            return ResponseUtil.createCustomStatusCodeResponse("Intercambio concretado", message.toString(), HttpStatus.OK);
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al confirmar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+
 }

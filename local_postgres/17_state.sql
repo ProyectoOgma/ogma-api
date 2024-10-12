@@ -17,7 +17,7 @@ INSERT INTO public.state (name, scope) VALUES
 -- Estados del intercambio
 ('NOTIFICADO', 'EXCHANGE'),
 ('CANCELADO', 'EXCHANGE'),
-('PENDIENTE_DE_ENVIO', 'EXCHANGE'),
+('PENDIENTE DE ENVIO', 'EXCHANGE'),
 ('EN_ENVIO', 'EXCHANGE'),
 ('CONCRETADO', 'EXCHANGE');
 

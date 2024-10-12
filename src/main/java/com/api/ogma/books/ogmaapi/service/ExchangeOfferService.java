@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
+import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -10,8 +11,10 @@ import com.api.ogma.books.ogmaapi.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 @RequiredArgsConstructor
@@ -53,6 +56,17 @@ public class ExchangeOfferService {
     public void acceptOffer(ExchangeOffer offer) {
         //TODO: ver que mas acemos aca. Seguramente guardar o actualizar un dato para metricas
         stateService.updateState(offer, ExchangeOfferStates.ACEPTADA, State.Scope.OFFER);
+    }
+
+    public void pauseOffersByExchange(Exchange exchange) {
+        //TODO: Ver si creamos un estado especifico para esto
+        List<ExchangeOffer> combinedOffers = new ArrayList<>();
+        List<ExchangeOffer> offers = getOfferByPostId(exchange.getExchangeOffer().getPost().getId());
+        List<ExchangeOffer> offeredOffers = getOfferByOfferedPostId(exchange.getExchangeOffer().getOfferedPost().getId());
+        combinedOffers.addAll(offers);
+        combinedOffers.addAll(offeredOffers);
+        combinedOffers.stream().filter(offer -> !Objects.equals(offer.getId(), exchange.getExchangeOffer().getId()))
+                .forEach(offer -> stateService.updateState(offer, ExchangeOfferStates.CANCELADA, State.Scope.OFFER));
     }
 
     /**
