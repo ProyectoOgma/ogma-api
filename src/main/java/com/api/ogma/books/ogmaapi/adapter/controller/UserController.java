@@ -3,6 +3,8 @@ package com.api.ogma.books.ogmaapi.adapter.controller;
 import com.api.ogma.books.ogmaapi.adapter.handler.UserHandler;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
+import com.api.ogma.books.ogmaapi.exception.UserNotValidException;
+import com.api.ogma.books.ogmaapi.service.ValidationService;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -10,6 +12,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,15 +23,20 @@ import java.util.List;
 public class UserController {
 
     private final UserHandler userHandler;
+    private final ValidationService validationService;
 
 
     @Operation(summary = "Get user by id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Usuario encontrado"),
-            @ApiResponse(responseCode = "404", description = "Usuario no encontrado")
+            @ApiResponse(responseCode = "404", description = "Usuario no encontrado"),
+            @ApiResponse(responseCode = "403", description = "Usuario no autorizado")
     })
     @GetMapping("/{id}")
-    public ResponseEntity<UserResponse> getUser(@PathVariable Long id) {
+    public ResponseEntity<UserResponse> getUser(@PathVariable Long id) throws UserNotValidException {
+        if (!validationService.validateUser(id)) {
+            throw new UserNotValidException();
+        }
         UserResponse userResponse = userHandler.getUser(id);
         return new ResponseEntity<>(userResponse, HttpStatus.OK);
     }
@@ -38,7 +46,7 @@ public class UserController {
             @ApiResponse(responseCode = "200", description = "Usuarios encontrados"),
             @ApiResponse(responseCode = "404", description = "Usuarios no encontrados")
     })
-    @GetMapping("")
+    @GetMapping()
     public ResponseEntity<List<UserResponse>> getAllUsers() {
         List<UserResponse> userResponses = userHandler.getAllUsers();
         return new ResponseEntity<>(userResponses, HttpStatus.OK);
