@@ -61,8 +61,10 @@ public class ExchangeHandler {
      * @param id id del post
      */
     public ExchangeOfferResponse getOfferByPostId(Long id) {
-        List<ExchangeOffer> exchangeOffersPost = exchangeOfferService.getOfferByPostId(id);
-        List<ExchangeOffer> exchangeOffersOffered = exchangeOfferService.getOfferByOfferedPostId(id);
+        List<ExchangeOffer> exchangeOffersPost = exchangeOfferService.getOfferByPostId(id)
+                .stream().filter(offer -> stateService.validateState(offer.getActualState(), ExchangeOfferStates.PENDIENTE)).toList();
+        List<ExchangeOffer> exchangeOffersOffered = exchangeOfferService.getOfferByOfferedPostId(id)
+                .stream().filter(offer -> stateService.validateState(offer.getActualState(), ExchangeOfferStates.PENDIENTE)).toList();
         return exchangeOfferMapper.mapOfferedPostResponse(exchangeOffersPost, exchangeOffersOffered);
     }
 
