@@ -63,8 +63,7 @@ public class ExchangeHandler {
     public ExchangeOfferResponse getOfferByPostId(Long id) {
         List<ExchangeOffer> exchangeOffersPost = exchangeOfferService.getOfferByPostId(id)
                 .stream().filter(offer -> stateService.validateState(offer.getActualState(), ExchangeOfferStates.PENDIENTE)).toList();
-        List<ExchangeOffer> exchangeOffersOffered = exchangeOfferService.getOfferByOfferedPostId(id)
-                .stream().filter(offer -> stateService.validateState(offer.getActualState(), ExchangeOfferStates.PENDIENTE)).toList();
+        List<ExchangeOffer> exchangeOffersOffered = exchangeOfferService.getOfferByOfferedPostId(id);
         return exchangeOfferMapper.mapOfferedPostResponse(exchangeOffersPost, exchangeOffersOffered);
     }
 
