@@ -58,11 +58,13 @@ public class StateHistory {
         return finalDate == null;
     }
 
-    public long getDuration() {
+    public Date getDuration() {
+        long duration;
         if (finalDate == null) {
-            return new Date().getTime() - initialDate.getTime();
+            duration = new Date().getTime() - initialDate.getTime();
         } else {
-            return finalDate.getTime() - initialDate.getTime();
+            duration = finalDate.getTime() - initialDate.getTime();
         }
+        return new Date(duration);
     }
 }

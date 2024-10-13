@@ -10,6 +10,7 @@ INSERT INTO public.state (name, scope) VALUES
 
 -- Estados de la oferta
 ('PENDIENTE', 'OFFER'),
+('PARCIALMENTE ACEPTADA', 'OFFER'),
 ('ACEPTADA', 'OFFER'),
 ('RECHAZADA', 'OFFER'),
 ('CANCELADA', 'OFFER'),
