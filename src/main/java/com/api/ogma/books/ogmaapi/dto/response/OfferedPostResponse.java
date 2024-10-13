@@ -14,4 +14,5 @@ public class OfferedPostResponse {
     private List<String> image;
     private String publisher;
     private String bookStatus;
+    private String offerStatus;
 }

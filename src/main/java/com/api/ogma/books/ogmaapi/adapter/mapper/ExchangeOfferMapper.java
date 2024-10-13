@@ -4,10 +4,7 @@ import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.OfferedPostResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.RequestedOfferResponse;
-import com.api.ogma.books.ogmaapi.model.Author;
-import com.api.ogma.books.ogmaapi.model.Book;
-import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
-import com.api.ogma.books.ogmaapi.model.Image;
+import com.api.ogma.books.ogmaapi.model.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -60,6 +57,7 @@ public class ExchangeOfferMapper {
                 .image(book.getImages().stream().map(Image::getUrl).toList())
                 .publisher(book.getPublisher().getName())
                 .bookStatus(exchangeOffer.getPost().getBookState().name())
+                .offerStatus(exchangeOffer.getActualState().map(State::getName).orElse(null))
                 .build();
     }
 

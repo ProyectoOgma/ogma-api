@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Notificación de aceptación de intercambio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #4CAF50;
+        }
+        .content {
+            font-size: 16px;
+            color: #333;
+        }
+        .content p {
+            margin: 10px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>¡Intercambio aceptado!</h1>
+    </div>
+    <div class="content">
+        <p>Hola, <strong th:text="${userName}">Usuario</strong>,</p>
+        <p><strong th:text="${acceptedUser}">Usuario</strong> aceptó el intercambio!</p>
+        <p>Para continuar con el proceso, necesitamos que completes tus datos de contacto.</p>
+        <p>Por favor, haz clic en el siguiente enlace para acceder al formulario de verificación:</p>
+        <a href="#" class="cta-button" th:href="@{https://ogma.com/verificacion/${verificationId}}">Completar Verificación</a>
+    </div>
+</div>
+</body>
+</html>

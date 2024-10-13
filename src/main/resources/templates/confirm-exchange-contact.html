@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos de contacto disponibles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            color: #4CAF50;
+        }
+        .content {
+            font-size: 16px;
+            color: #333;
+        }
+        .content p {
+            margin: 10px 0;
+        }
+        .steps {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #e8f5e9;
+            border-radius: 5px;
+        }
+        .steps p {
+            margin: 5px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>¡Datos de contacto disponibles!</h1>
+    </div>
+    <div class="content">
+        <p>Hola, <strong th:text="${userName}">Usuario</strong>,</p>
+        <p>Los datos de contacto ya están disponibles en la plataforma para que realicen el acuerdo del envío del intercambio.</p>
+        <p>Última etapa! Para finalizar el intercambio deberás seguir los siguientes pasos para conseguir un itercambio ameno y amigable para todos.</p>
+        <div class="steps">
+            <p><strong>Pasos a seguir:</strong></p>
+            <p>1. Deben ir a la página para ver los datos de contacto de la otra persona.</p>
+            <p>2. Tienen 72 horas para acordar un medio de envío y enviarlo.</p>
+            <p>3. Si en las 72 horas esto no es acordado, el intercambio se cancela.</p>
+        </div>
+        <a href="#" class="cta-button" th:href="@{https://ogma.com/contactos/${exchangeId}}">Ver Datos de Contacto</a>
+    </div>
+</div>
+</body>
+</html>

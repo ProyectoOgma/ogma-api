@@ -33,6 +33,10 @@ public class NotificationDTO {
 
     private Map<String, Object> templateModel;
 
+    private String templatePath;
+
+    private String subject;
+
     public Boolean isMaileable() {
         return mailable;
     }

@@ -1,10 +1,8 @@
 package com.api.ogma.books.ogmaapi.repository.custom;
 
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
-import com.api.ogma.books.ogmaapi.model.Book;
-import com.api.ogma.books.ogmaapi.model.Genre;
-import com.api.ogma.books.ogmaapi.model.Post;
-import com.api.ogma.books.ogmaapi.model.User;
+import com.api.ogma.books.ogmaapi.dto.states.PostStates;
+import com.api.ogma.books.ogmaapi.model.*;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
@@ -34,6 +32,10 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
         Join<Post, Book> book = post.join("book", JoinType.INNER);
         Join<Book, Genre> bookGenres = book.join("genres", JoinType.INNER);
         Join<Post, User> user = post.join("user", JoinType.INNER);
+        Join<Post, StateHistory> stateHistory = post.join("stateHistories", JoinType.INNER);
+        Join<StateHistory, State> state = stateHistory.join("state", JoinType.INNER);
+
+
 
         List<Predicate> predicates = new ArrayList<>();
 
@@ -63,6 +65,12 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
         }
         if (userId != null && !userId.isEmpty()) {
             predicates.add(cb.equal(user.get("id"), Long.valueOf(userId)));
+        }
+        //Por el momento es fijo, despues si vemos que lo tenemos que parametrizar lo hacemos
+        if (true) {
+            List<String> states = List.of(PostStates.PUBLICADA.toString(), PostStates.CON_OFERTA.toString(), PostStates.OFERTA_PARCIALMENTE_ACEPTADA.toString());
+            predicates.add(state.get("name").in(states));
+            predicates.add(cb.isNull(stateHistory.get("finalDate")));
         }
         query.select(post).where(cb.and(predicates.toArray(new Predicate[0]))).distinct(true);
 

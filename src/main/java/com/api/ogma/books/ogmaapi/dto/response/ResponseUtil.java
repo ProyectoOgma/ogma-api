@@ -21,6 +21,19 @@ public class ResponseUtil {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
+    public static <T> ResponseEntity<Response<T>> createCustomStatusCodeResponse(T data, String message, HttpStatus status) {
+        Response<T> response = new Response<>(
+                data,
+                message,
+                true,
+                HttpStatus.OK.value(),
+                List.of(),
+                LocalDateTime.now()
+        );
+
+        return new ResponseEntity<>(response, status);
+    }
+
     public static <T> ResponseEntity<Response<T>> createErrorResponse(String message, HttpStatus status, List<String> errors) {
         Response<T> response = new Response<>(
                 null,

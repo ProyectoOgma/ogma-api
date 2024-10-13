@@ -1,11 +1,10 @@
 package com.api.ogma.books.ogmaapi.model;
 
 
-import com.api.ogma.books.ogmaapi.dto.States.PostStates;
-import com.api.ogma.books.ogmaapi.dto.States.StatefulEntity;
+import com.api.ogma.books.ogmaapi.dto.states.PostStates;
+import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
