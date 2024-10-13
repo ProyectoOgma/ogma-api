@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.States.PostStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
+import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -64,7 +65,7 @@ public class ExchangeHandler {
      * Rechaza una oferta de intercambio.
      * @param id id de la oferta
      */
-    public ReceivedOfferResponse rejectOffer(Long id) {
+    public ReceivedOfferResponse rejectOffer(Long id) throws OfferNotFoundException {
         ExchangeOffer exchangeOffer = exchangeOfferService.getOfferById(id);
         ExchangeOffer rejectedOffer = exchangeOfferService.rejectOffer(exchangeOffer);
         return exchangeOfferMapper.mapReceivedOffer(rejectedOffer);

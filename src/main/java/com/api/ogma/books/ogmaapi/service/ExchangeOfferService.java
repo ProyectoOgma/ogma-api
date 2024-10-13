@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.States.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
+import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
@@ -54,10 +55,11 @@ public class ExchangeOfferService {
      * @return oferta rechazada
      * @throws RuntimeException si la oferta no existe
      */
-    public ExchangeOffer rejectOffer(ExchangeOffer offer) {
+    public ExchangeOffer rejectOffer(ExchangeOffer offer) throws OfferNotFoundException {
         State state = offer.getActualState()
-                .orElseThrow(() -> new RuntimeException("Offer not found"));
+                .orElseThrow(() -> new OfferNotFoundException("Offer not found"));
 
+        // TODO: Cambiar por el metodo para validar estados
         // Si la oferta ya ha sido rechazada, no se puede rechazar de nuevo
         if (state.getName().equalsIgnoreCase(ExchangeOfferStates.RECHAZADA.toString())) {
             throw new RuntimeException("La oferta ya ha sido rechazada", new ErrorResponseException(HttpStatus.BAD_REQUEST));

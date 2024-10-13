@@ -7,6 +7,7 @@ import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
@@ -80,6 +81,8 @@ public class ExchangeController {
             return ResponseUtil.createSuccessResponse(rejectedOffer, "Oferta rechazada");
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al rechazar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        } catch (OfferNotFoundException e) {
+            return ResponseUtil.createErrorResponse("Error al rechazar la oferta", HttpStatus.BAD_REQUEST, List.of(e.getMessage()));
         }
     }
 
