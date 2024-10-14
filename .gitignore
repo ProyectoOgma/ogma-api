@@ -33,7 +33,7 @@ build/
 .vscode/
 
 ### Env
-.env.local
+.env
 .env.prod
 .env.dev
 .env.test

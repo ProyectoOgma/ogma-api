@@ -6,20 +6,14 @@ import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.ExchangeRepository;
 import com.api.ogma.books.ogmaapi.repository.StateHistoryRepository;
-import com.api.ogma.books.ogmaapi.service.PostService;
 import com.api.ogma.books.ogmaapi.service.StateService;
-import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityNotFoundException;
-import jakarta.persistence.PersistenceContext;
-import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
 import java.util.List;
-import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
 @Service
@@ -49,6 +43,8 @@ public class PostScheduler {
 
                     stateService.updateState(exchange, ExchangeStates.CANCELADO, State.Scope.EXCHANGE);
                     stateService.updateState(exchangeOffer, ExchangeOfferStates.CANCELADA, State.Scope.OFFER);
+                    //TODO: Ver de encontrar las ofertas que tenia previamente a aceptar esta cancelada y reactivarlas.
+                    //Si tiene ofertas previas, reactivarlas y dejar la publicacion en estado CON_OFERTA
                     stateService.updateState(post, PostStates.PUBLICADA, State.Scope.POST);
                 });
     }
