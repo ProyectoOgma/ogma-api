@@ -20,4 +20,7 @@ public class UserRequest {
     private String userGenre;
     private Date birthDate;
     private UserLocationRequest userLocationRequest;
+    private String address;
+    private String phoneNumber;
+    private String instagram;
 }

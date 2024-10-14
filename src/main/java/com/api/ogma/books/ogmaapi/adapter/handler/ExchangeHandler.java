@@ -1,8 +1,6 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
-import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
-import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeStates;
 import com.api.ogma.books.ogmaapi.dto.states.PostStates;
@@ -85,7 +83,7 @@ public class ExchangeHandler {
         //llamar al service para crear el intercambio
         Exchange exchange = exchangeService.createExchange(exchangeOffer);
         //llamar al service de oferta para marcarla como aceptada
-        exchangeOfferService.acceptOffer(exchangeOffer);
+        exchangeOfferService.updateOfferState(exchangeOffer, ExchangeOfferStates.PARCIALMENTE_ACEPTADA);
         //llamar al service del post para actualizar su estado
         postService.updateState(exchangeOffer.getPost(), PostStates.OFERTA_PARCIALMENTE_ACEPTADA);
 
@@ -104,6 +102,7 @@ public class ExchangeHandler {
         postService.updateState(exchange.getExchangeOffer().getPost(), PostStates.EN_INTERCAMBIO);
         postService.updateState(exchange.getExchangeOffer().getOfferedPost(), PostStates.EN_INTERCAMBIO);
         //Pausar todas las ofertas asociadas a esos posts
+        exchangeOfferService.acceptOffer(exchange.getExchangeOffer());
         exchangeOfferService.pauseOffersByExchange(exchange);
 
         return exchange;

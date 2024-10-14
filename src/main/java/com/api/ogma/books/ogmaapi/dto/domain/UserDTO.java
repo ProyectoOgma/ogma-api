@@ -29,6 +29,9 @@ public class UserDTO {
         private Date birthDate;
         @JsonProperty("userLocation")
         private UserLocationDTO userLocationDTO;
+        private String address;
+        private String phoneNumber;
+        private String instagram;
 
         public static UserDTO from(User user) {
             return UserDTO.builder()

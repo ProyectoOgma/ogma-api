@@ -77,7 +77,8 @@ public class UserService {
         }
 
         fillLocationData(user, userDTO.getUserLocationDTO());
-
+        user.setAddress(userDTO.getAddress());
+        user.setPhoneNumber(userDTO.getPhoneNumber());
         usersRepository.save(user);
         log.info("User {} updated successfully", user.getId());
     }

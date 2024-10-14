@@ -49,6 +49,10 @@ public class ExchangeOfferService {
         return offer;
     }
 
+    public void updateOfferState(ExchangeOffer offer, ExchangeOfferStates state) {
+        stateService.updateState(offer, state, State.Scope.OFFER);
+    }
+
     /**
      * Acepta una oferta de intercambio.
      * @param offer oferta a aceptar
