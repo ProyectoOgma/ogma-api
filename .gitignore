@@ -33,7 +33,10 @@ build/
 .vscode/
 
 ### Env
-.env
+.env.local
+.env.prod
+.env.dev
+.env.test
 
 ### seed
 /init-db/**

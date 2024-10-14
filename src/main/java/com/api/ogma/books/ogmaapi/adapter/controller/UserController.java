@@ -44,7 +44,7 @@ public class UserController {
         return new ResponseEntity<>(userResponses, HttpStatus.OK);
     }
 
-    @Operation(summary = "Create a new user")
+    @Operation(summary = "Actualizar usuario")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Usuario creado correctamente"),
             @ApiResponse(responseCode = "404", description = "Usuario no encontrado")
@@ -53,7 +53,7 @@ public class UserController {
     public ResponseEntity<String> updateUser(@PathVariable Long id,
                                              @RequestBody UserRequest userRequest)  {
         userHandler.updateUser(id, userRequest);
-        return new ResponseEntity<>("User updated successfully", HttpStatus.OK);
+        return new ResponseEntity<>("Usuario actualizado correctamente", HttpStatus.OK);
     }
 
 }

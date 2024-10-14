@@ -12,7 +12,13 @@ public class DotenvEnvironmentPostProcessor implements EnvironmentPostProcessor 
 
     @Override
     public void postProcessEnvironment(ConfigurableEnvironment environment, SpringApplication application) {
-        Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
+        String profile = environment.getProperty("env.profile", "local");
+        System.out.println("Loading .env." + profile + " file");
+
+        Dotenv dotenv = Dotenv.configure()
+                .filename(".env." + profile) // Usar el archivo correspondiente
+                .ignoreIfMissing()
+                .load();
 
         Properties props = new Properties();
         dotenv.entries().forEach(entry -> props.put(entry.getKey(), entry.getValue()));

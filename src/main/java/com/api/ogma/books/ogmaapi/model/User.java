@@ -56,6 +56,15 @@ public class User extends Auditable implements UserDetails {
     @JoinColumn(name = "id_municipality")
     private Municipality municipality;
 
+    @Column(name = "address", nullable = true)
+    private String address;
+
+    @Column(name = "phone_number", nullable = true)
+    private String phoneNumber;
+
+    @Column(name = "instagram", nullable = true)
+    private String instagram;
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
 
