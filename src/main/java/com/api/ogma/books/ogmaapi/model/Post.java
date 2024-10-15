@@ -98,4 +98,11 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
             stateHistory.setPost(this);
         }
     }
+
+    @Override
+    public void addStateHistory(StateHistory stateHistory) {
+        if (this.stateHistories != null) {
+            this.stateHistories.add(stateHistory);
+        }
+    }
 }

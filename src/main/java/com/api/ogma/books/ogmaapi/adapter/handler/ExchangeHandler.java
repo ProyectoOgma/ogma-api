@@ -11,6 +11,7 @@ import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.service.ExchangeOfferService;
 import com.api.ogma.books.ogmaapi.service.PostService;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

@@ -79,8 +79,6 @@ public class ExchangeController {
                 log.error("Error sending notification: {}", e.getMessage());
             }
             return ResponseUtil.createSuccessResponse(rejectedOffer, "Oferta rechazada");
-        } catch (Exception e) {
-            return ResponseUtil.createErrorResponse("Error al rechazar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         } catch (OfferNotFoundException e) {
             return ResponseUtil.createErrorResponse("Error al rechazar la oferta", HttpStatus.BAD_REQUEST, List.of(e.getMessage()));
         }

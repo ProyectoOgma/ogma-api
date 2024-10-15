@@ -8,6 +8,9 @@ import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.repository.ExchangeOfferRepository;
 import com.api.ogma.books.ogmaapi.repository.PostRepository;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
@@ -23,6 +26,8 @@ public class ExchangeOfferService {
     private final ExchangeOfferRepository exchangeOfferRepository;
     private final PostRepository postRepository;
     private final StateService stateService;
+    private final PostService postService;
+
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -66,6 +71,10 @@ public class ExchangeOfferService {
         }
 
         stateService.updateState(offer, ExchangeOfferStates.RECHAZADA, State.Scope.OFFER);
+
+        // Si el post no tiene mas ofertas, se cambia a PUBLICADA
+        postService.updateToPublicadaIfNoOffers(offer.getPost());
+
         return this.getOfferById(offer.getId());
     };
 
