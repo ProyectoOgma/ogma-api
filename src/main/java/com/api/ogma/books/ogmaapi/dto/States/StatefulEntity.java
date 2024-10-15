@@ -11,5 +11,7 @@ public interface StatefulEntity<T extends Enum<T>> {
     Optional<StateHistory> getActualStateHistory();
     Optional<State> getActualState();
     void setEntityState(StateHistory stateHistory);
+
+    void addStateHistory(StateHistory stateHistory);
 }
 

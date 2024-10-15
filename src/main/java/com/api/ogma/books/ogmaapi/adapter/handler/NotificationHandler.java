@@ -4,8 +4,8 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 import com.api.ogma.books.ogmaapi.common.factory.EmailTemplateFactory;
 import com.api.ogma.books.ogmaapi.common.factory.NotificationFactory;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
+import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
-import com.api.ogma.books.ogmaapi.model.Notification;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.service.ContextService;
 import com.api.ogma.books.ogmaapi.service.EmailService;
@@ -79,4 +79,16 @@ public class NotificationHandler {
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("No offer found to send notification"));
     }
+
+    public void sendRejectedOfferNotification(ReceivedOfferResponse receivedOfferResponse) {
+        try {
+            NotificationDTO notification = NotificationFactory.createRejectedOfferNotification(receivedOfferResponse);
+            sendNotification(notification);
+        }catch (Exception e) {
+            log.error("Error sending rejected offer notification: {}", e.getMessage());
+            throw new UnableToSendNotificationException("Error sending rejected offer notification");
+        }
+    }
+
+
 }

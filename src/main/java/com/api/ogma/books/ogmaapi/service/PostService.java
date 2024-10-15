@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.service;
 
+import com.api.ogma.books.ogmaapi.dto.States.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.api.ogma.books.ogmaapi.dto.States.PostStates;
@@ -23,6 +24,7 @@ public class PostService {
     private final PostRepository postRepository;
     private final BookRepository bookRepository;
     private final UserRepository userRepository;
+    private final ExchangeOfferRepository exchangeOfferRepository;
     private final StateService stateService;
 
     private static final State.Scope POST_SCOPE = State.Scope.POST;
@@ -70,6 +72,26 @@ public class PostService {
 
     public void updateState(Post post, PostStates newState) {
         stateService.updateState(post, newState, POST_SCOPE);
+    }
+
+    /**
+     * Updates a post state to PUBLICADA if no offers are associated with it
+     * @param post Post entity
+     */
+    public void updateToPublicadaIfNoOffers(Post post) {
+        try {
+            List<ExchangeOffer> offers = exchangeOfferRepository.findByPostId(post.getId());
+            if (offers.isEmpty()) {
+                stateService.updateState(post, PostStates.PUBLICADA, POST_SCOPE);
+            } else if (offers.stream().allMatch(o -> o.getActualState().get().getName().equalsIgnoreCase(ExchangeOfferStates.RECHAZADA.toString()))) {
+                stateService.updateState(post, PostStates.PUBLICADA, POST_SCOPE);
+            }
+
+        } catch (Exception e) {
+            System.out.println("Error updating post state, e: " + e.getMessage());
+            throw new RuntimeException("Error updating post state", e);
+        }
+
     }
 
     /**
