@@ -10,5 +10,4 @@ import java.util.List;
 public class ExchangeOfferResponse {
     private List<ReceivedOfferResponse> receivedOffers;
     private List<RequestedOfferResponse> requestedOffers;
-
 }

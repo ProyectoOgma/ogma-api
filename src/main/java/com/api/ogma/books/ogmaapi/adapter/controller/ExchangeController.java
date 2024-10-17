@@ -44,10 +44,10 @@ public class ExchangeController {
     @PostMapping("/offer")
     public ResponseEntity<Response<String>> createOffer(@RequestBody OfferRequest offerRequest) {
         try {
-            Post post = exchangeHandler.createOffer(offerRequest);
-            StringBuilder message = new StringBuilder("Oferta de intercambio creada");
+            ExchangeOffer exchangeOffer = exchangeHandler.createOffer(offerRequest);
+            StringBuilder message = new StringBuilder("Oferta de intercambio creada con exito");
             try {
-                notificationHandler.sendNewOfferNotification(post);
+                notificationHandler.sendNewOfferNotification(exchangeOffer);
             }catch (UnableToSendNotificationException e) {
                 log.error("Error sending notification: {}", e.getMessage());
                 message.append(", pero no se pudo enviar la notificacion");

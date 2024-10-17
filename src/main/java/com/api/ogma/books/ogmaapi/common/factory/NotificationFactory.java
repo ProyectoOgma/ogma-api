@@ -10,10 +10,10 @@ import com.api.ogma.books.ogmaapi.model.User;
 import static com.api.ogma.books.ogmaapi.common.NotificationConst.NOTIFICATION_POST_OFFER;
 
 public class NotificationFactory {
-    public static NotificationDTO createOfferNotification(Post post) {
+    public static NotificationDTO createOfferNotification(ExchangeOffer exchangeOffer) {
         return NotificationDTO.builder()
-                .user(post.getUser())
-                .message(NOTIFICATION_POST_OFFER + post.getBook().getTitle())
+                .user(exchangeOffer.getPost().getUser())
+                .message(NOTIFICATION_POST_OFFER + exchangeOffer.getOfferedPost().getBook().getTitle())
                 .mailable(true)
                 .type(NotificationType.INFO)
                 .build();

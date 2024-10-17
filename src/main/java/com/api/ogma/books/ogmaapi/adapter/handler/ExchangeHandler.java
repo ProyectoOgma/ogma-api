@@ -31,7 +31,7 @@ public class ExchangeHandler {
      * Crea una oferta de intercambio entre un post y otro.
      * @param offerRequest datos de la oferta
      */
-    public Post createOffer(OfferRequest offerRequest) {
+    public ExchangeOffer createOffer(OfferRequest offerRequest) {
         //valida que el post este en un estado valido para crear una oferta.
         Post post = postService.getPost(offerRequest.getPostId());
         Optional<State> actualState = post.getActualState();
@@ -49,7 +49,7 @@ public class ExchangeHandler {
             postService.updateState(exchangeOffer.getPost(), PostStates.CON_OFERTA);
         }
 
-        return post;
+        return exchangeOffer;
     }
 
     /**

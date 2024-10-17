@@ -72,7 +72,9 @@
             <p><span>Por tu libro:</span> <span class="book-title" th:utext="'&quot;' + ${requestedBook} + '&quot;'" style="color: black;">Libro Solicitado</span></p>
         </div>
         <p>Visita Ogma para ver más detalles de la oferta y dar una respuesta al interesado.</p>
-        <a href="#" class="cta-button" th:href="@{https://ogma.com/intercambios/${offerId}}">Ver Oferta</a>
+        <a class="cta-button" th:href="@{url}" th:text="@{'Ver oferta'}">url</a>
+        <p>Si no puedes hacer clic en el botón, copia y pega el siguiente enlace en tu navegador:</p>
+        <strong th:text="${url}">Enlace</strong>
     </div>
 </div>
 </body>

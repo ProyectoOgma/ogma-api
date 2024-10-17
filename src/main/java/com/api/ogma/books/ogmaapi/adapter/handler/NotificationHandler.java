@@ -35,12 +35,12 @@ public class NotificationHandler {
     private final EmailService emailService;
     private final ContextService contextService;
     private final ExchangeOfferService exchangeOfferService;
+    private final EmailTemplateFactory emailTemplateFactory;
 
-    public void sendNewOfferNotification(Post post) {
+    public void sendNewOfferNotification(ExchangeOffer exchangeOffer) {
         try {
-            ExchangeOffer exchangeOffer = findExchangeOfferToNotificate(post);
-            NotificationDTO offerNotification = NotificationFactory.createOfferNotification(post);
-            offerNotification.setTemplateModel(EmailTemplateFactory.createOfferTemplate(exchangeOffer));
+            NotificationDTO offerNotification = NotificationFactory.createOfferNotification(exchangeOffer);
+            offerNotification.setTemplateModel(emailTemplateFactory.createOfferTemplate(exchangeOffer));
             sendNotification(offerNotification);
         }catch (Exception e) {
             log.error("Error sending new offer notification: {}", e.getMessage());
