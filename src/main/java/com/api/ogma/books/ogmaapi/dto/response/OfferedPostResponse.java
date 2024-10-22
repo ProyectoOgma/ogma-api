@@ -15,4 +15,5 @@ public class OfferedPostResponse {
     private String publisher;
     private String bookStatus;
     private String offerStatus;
+    private Long idState;
 }

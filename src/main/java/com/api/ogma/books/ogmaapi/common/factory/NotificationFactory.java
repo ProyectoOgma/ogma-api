@@ -3,6 +3,8 @@ package com.api.ogma.books.ogmaapi.common.factory;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationType;
 import com.api.ogma.books.ogmaapi.model.Exchange;
+import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
+import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Post;
 import com.api.ogma.books.ogmaapi.model.User;
 
@@ -14,6 +16,16 @@ public class NotificationFactory {
                 .user(post.getUser())
                 .message(NOTIFICATION_POST_OFFER + post.getBook().getTitle())
                 .mailable(true)
+                .type(NotificationType.INFO)
+                .build();
+    }
+
+    public static NotificationDTO createRejectedOfferNotification(ReceivedOfferResponse exchangeOffer) {
+        User user = User.builder().id(exchangeOffer.getUser().getId()).build();
+        return NotificationDTO.builder()
+                .user(user)
+                .message("Tu oferta para el libro ha sido rechazada")
+                .mailable(false)
                 .type(NotificationType.INFO)
                 .build();
     }
@@ -35,4 +47,5 @@ public class NotificationFactory {
                 .type(NotificationType.INFO)
                 .build();
     }
+
 }

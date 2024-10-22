@@ -5,6 +5,8 @@ import com.api.ogma.books.ogmaapi.dto.response.OfferedPostResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.RequestedOfferResponse;
 import com.api.ogma.books.ogmaapi.model.*;
+import com.api.ogma.books.ogmaapi.dto.response.*;
+import com.api.ogma.books.ogmaapi.model.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -15,6 +17,7 @@ import java.util.List;
 public class ExchangeOfferMapper {
 
     private final UserDTOMapper userDTOMapper;
+
 
     public ExchangeOfferResponse mapOfferedPostResponse(List<ExchangeOffer> exchangeOffersPost, List<ExchangeOffer> exchangeOffersOffered) {
         return ExchangeOfferResponse.builder()
@@ -29,8 +32,11 @@ public class ExchangeOfferMapper {
                 .toList();
     }
 
-    private ReceivedOfferResponse mapReceivedOffer(ExchangeOffer exchangeOffer) {
+
+    public ReceivedOfferResponse mapReceivedOffer(ExchangeOffer exchangeOffer) {
         return ReceivedOfferResponse.builder()
+                .id(exchangeOffer.getId())
+                .offerDate(exchangeOffer.getOfferDate())
                 .offeredPost(mapOfferedPost(exchangeOffer))
                 .user(userDTOMapper.fromUserToUserResponse(exchangeOffer.getUser()))
                 .build();
@@ -70,6 +76,7 @@ public class ExchangeOfferMapper {
                 .image(book.getImages().stream().map(Image::getUrl).toList())
                 .publisher(book.getPublisher().getName())
                 .bookStatus(exchangeOffer.getOfferedPost().getBookState().name())
+                .idState(exchangeOffer.getOfferedPost().getActualState().map(State::getId).orElse(null))
                 .build();
     }
 }

@@ -69,4 +69,11 @@ public class ExchangeOffer implements StatefulEntity<ExchangeOfferStates> {
             stateHistory.setExchangeOffer(this);
         }
     }
+
+    @Override
+    public void addStateHistory(StateHistory stateHistory) {
+        if (this.stateHistories != null) {
+            this.stateHistories.add(stateHistory);
+        }
+    }
 }

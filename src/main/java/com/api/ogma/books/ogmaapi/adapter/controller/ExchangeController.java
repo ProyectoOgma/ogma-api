@@ -5,9 +5,12 @@ import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
+import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
 import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
@@ -56,6 +59,32 @@ public class ExchangeController {
             return ResponseUtil.createSuccessResponse(null, message.toString());
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al enviar la oferta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    /**
+     * Rechaza una oferta de intercambio
+     * @param id id de la oferta
+     * @return respuesta de la operacion
+     */
+    @Operation(summary = "Rechaza una oferta de intercambio")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Oferta rechazada"),
+            @ApiResponse(responseCode = "500", description = "Error al rechazar la oferta")
+    })
+    @PostMapping("/reject/{id}")
+    public ResponseEntity<Response<ReceivedOfferResponse>> rejectOffer(@PathVariable Long id) {
+        try {
+            ReceivedOfferResponse rejectedOffer = exchangeHandler.rejectOffer(id);
+            try {
+                // Crear notificacion en db para el usuario que hizo la oferta
+                notificationHandler.sendRejectedOfferNotification(rejectedOffer);
+            } catch (UnableToSendNotificationException e) {
+                log.error("Error sending notification: {}", e.getMessage());
+            }
+            return ResponseUtil.createSuccessResponse(rejectedOffer, "Oferta rechazada");
+        } catch (OfferNotFoundException e) {
+            return ResponseUtil.createErrorResponse("Error al rechazar la oferta", HttpStatus.BAD_REQUEST, List.of(e.getMessage()));
         }
     }
 
