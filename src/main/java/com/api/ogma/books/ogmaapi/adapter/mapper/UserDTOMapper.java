@@ -30,6 +30,9 @@ public class UserDTOMapper {
     }
 
     private UserLocationDTO mapUserLocation(UserLocationRequest userLocationRequest) {
+        if (userLocationRequest == null) {
+            return UserLocationDTO.builder().build();
+        }
         return UserLocationDTO.builder()
                 .provinceId(userLocationRequest.getProvinceId())
                 .municipalityId(userLocationRequest.getMunicipalityId())

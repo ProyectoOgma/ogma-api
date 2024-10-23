@@ -8,6 +8,10 @@ import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.repository.MunicipalityRepository;
 import com.api.ogma.books.ogmaapi.repository.ProvinceRepository;
 import com.api.ogma.books.ogmaapi.repository.UserRepository;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -64,18 +68,21 @@ public class UserService {
      * @param id      User ID
      * @param userDTO User request
      */
-    public void updateUser(Long id, UserDTO userDTO) {
+    public void updateUser(Long id, UserDTO userDTO) throws JsonMappingException {
+        ObjectMapper objectMapper = new ObjectMapper()
+                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
+                .configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
         User user = usersRepository.findById(id)
                 .orElseThrow(() ->
                         new EntityNotFoundException("User with id: " + id + " not found"));
-        user.setGenre(userDTO.getGenre());
+        objectMapper.updateValue(user, userDTO);
         if (userDTO.getBirthDate() != null) {
             user.setBirthDate(new Date(userDTO.getBirthDate().getTime()));
         }
 
-        fillLocationData(user, userDTO.getUserLocationDTO());
-        user.setAddress(userDTO.getAddress());
-        user.setPhoneNumber(userDTO.getPhoneNumber());
+        if (userDTO.getUserLocationDTO().getMunicipalityId() != null || userDTO.getUserLocationDTO().getProvinceId() != null) {
+            fillLocationData(user, userDTO.getUserLocationDTO());
+        }
         usersRepository.save(user);
         log.info("User {} updated successfully", user.getId());
     }
