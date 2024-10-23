@@ -1,13 +1,18 @@
 package com.api.ogma.books.ogmaapi.dto.domain;
 
 import com.api.ogma.books.ogmaapi.model.User;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Builder
@@ -26,7 +31,8 @@ public class UserDTO {
         private String token;
         @JsonProperty("userGenre")
         private String genre;
-        private Date birthDate;
+        @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+        private LocalDate birthDate;
         @JsonProperty("userLocation")
         private UserLocationDTO userLocationDTO;
         private String address;
