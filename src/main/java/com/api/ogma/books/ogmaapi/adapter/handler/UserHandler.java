@@ -10,6 +10,7 @@ import com.api.ogma.books.ogmaapi.model.Province;
 import com.api.ogma.books.ogmaapi.model.User;
 import com.api.ogma.books.ogmaapi.service.ProvinceService;
 import com.api.ogma.books.ogmaapi.service.UserService;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -43,7 +44,7 @@ public class UserHandler {
         return UserResponse.from(users);
     }
 
-    public void updateUser(Long id, UserRequest userRequest) {
+    public void updateUser(Long id, UserRequest userRequest) throws JsonMappingException {
         UserDTOMapper userDTOMapper = new UserDTOMapper();
         userService.updateUser(id, userDTOMapper.fromRequestToUserDTO(userRequest));
     }

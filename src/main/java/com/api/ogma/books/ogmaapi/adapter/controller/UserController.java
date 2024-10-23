@@ -51,7 +51,7 @@ public class UserController {
     })
     @PatchMapping("/{id}")
     public ResponseEntity<String> updateUser(@PathVariable Long id,
-                                             @RequestBody UserRequest userRequest)  {
+                                             @RequestBody UserRequest userRequest) throws JsonMappingException {
         userHandler.updateUser(id, userRequest);
         return new ResponseEntity<>("Usuario actualizado correctamente", HttpStatus.OK);
     }
