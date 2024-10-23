@@ -46,6 +46,7 @@ public class UserDTOMapper {
                 .email(user.getEmail())
                 .birthDate(user.getBirthDate())
                 .userLocationResponse(mapLocationResponse(user))
+                .genre(user.getGenre())
                 .address(user.getAddress())
                 .phoneNumber(user.getPhoneNumber())
                 .instagram(user.getInstagram())

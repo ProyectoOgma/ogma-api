@@ -14,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 @Service
@@ -70,12 +71,17 @@ public class UserService {
                         new EntityNotFoundException("User with id: " + id + " not found"));
         user.setGenre(userDTO.getGenre());
         if (userDTO.getBirthDate() != null) {
-            user.setBirthDate(new Date(userDTO.getBirthDate().getTime()));
+            user.setBirthDate(LocalDate.parse(userDTO.getBirthDate().toString()));
         }
+        user.setEmail(userDTO.getEmail());
+        user.setName(userDTO.getName());
+        user.setLastName(userDTO.getLastName());
+        user.setInstagram(userDTO.getInstagram());
+        user.setPhoneNumber(userDTO.getPhoneNumber());
+        user.setAddress(userDTO.getAddress());
 
         fillLocationData(user, userDTO.getUserLocationDTO());
-        user.setAddress(userDTO.getAddress());
-        user.setPhoneNumber(userDTO.getPhoneNumber());
+
         usersRepository.save(user);
         log.info("User {} updated successfully", user.getId());
     }

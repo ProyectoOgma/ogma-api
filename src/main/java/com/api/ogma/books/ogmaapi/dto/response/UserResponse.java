@@ -8,6 +8,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -22,7 +23,8 @@ public class UserResponse {
     private String lastName;
     private String username;
     private String email;
-    private Date birthDate;
+    private String genre;
+    private LocalDate birthDate;
     private UserLocationResponse userLocationResponse;
     private String address;
     private String phoneNumber;
