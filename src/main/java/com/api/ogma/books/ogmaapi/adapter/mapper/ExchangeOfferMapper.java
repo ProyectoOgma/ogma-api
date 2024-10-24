@@ -1,5 +1,10 @@
 package com.api.ogma.books.ogmaapi.adapter.mapper;
 
+import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.OfferedPostResponse;
+import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
+import com.api.ogma.books.ogmaapi.dto.response.RequestedOfferResponse;
+import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.dto.response.*;
 import com.api.ogma.books.ogmaapi.model.*;
 import lombok.RequiredArgsConstructor;
@@ -58,6 +63,7 @@ public class ExchangeOfferMapper {
                 .image(book.getImages().stream().map(Image::getUrl).toList())
                 .publisher(book.getPublisher().getName())
                 .bookStatus(exchangeOffer.getPost().getBookState().name())
+                .offerStatus(exchangeOffer.getActualState().map(State::getName).orElse(null))
                 .build();
     }
 

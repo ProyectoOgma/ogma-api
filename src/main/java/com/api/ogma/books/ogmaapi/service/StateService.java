@@ -1,6 +1,6 @@
 package com.api.ogma.books.ogmaapi.service;
 
-import com.api.ogma.books.ogmaapi.dto.States.StatefulEntity;
+import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.model.StateHistory;
 import com.api.ogma.books.ogmaapi.repository.StateHistoryRepository;
@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -38,6 +39,18 @@ public class StateService {
         stateHistoryRepository.save(stateHistory);
         entity.addStateHistory(stateHistory);
 
+    }
+
+    public boolean validateState(Optional<State> actualState, Enum<?>... validStates) {
+        if (actualState.isEmpty()) {
+            return false;
+        }
+        for (Enum<?> validState : validStates) {
+            if (actualState.get().getName().equalsIgnoreCase(validState.toString())) {
+                return true;
+            }
+        }
+        return false;
     }
 
 }

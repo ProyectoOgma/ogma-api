@@ -4,6 +4,10 @@ import com.api.ogma.books.ogmaapi.model.StateHistory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface StateHistoryRepository extends JpaRepository<StateHistory, Long> {
+
+    List<StateHistory> findByStateNameAndFinalDateIsNull(String stateName);
 }

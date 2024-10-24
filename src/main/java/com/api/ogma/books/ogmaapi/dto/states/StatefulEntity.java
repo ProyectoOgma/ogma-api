@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.dto.States;
+package com.api.ogma.books.ogmaapi.dto.states;
 
 import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.model.StateHistory;

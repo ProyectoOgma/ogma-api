@@ -41,13 +41,13 @@ public class EmailService {
      * @param templateModel modelo de datos para el template
      * @throws MessagingException si ocurre un error al enviar el mensaje
      */
-    public void sendEmailTemplateMessage(String to, String subject, Map<String, Object> templateModel) throws MessagingException {
+    public void sendEmailTemplateMessage(String to, String subject, Map<String, Object> templateModel, String path) throws MessagingException {
         MimeMessage message = emailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
 
         Context thymeleafContext = new Context();
         thymeleafContext.setVariables(templateModel);
-        String htmlBody = templateEngine.process("offer-email", thymeleafContext);
+        String htmlBody = templateEngine.process(path, thymeleafContext);
 
         helper.setTo(to);
         helper.setSubject(subject);
