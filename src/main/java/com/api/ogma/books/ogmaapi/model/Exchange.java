@@ -83,4 +83,11 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
             stateHistory.setExchange(this);
         }
     }
+
+    @Override
+    public void addStateHistory(StateHistory stateHistory) {
+        if (this.stateHistories != null) {
+            this.stateHistories.add(stateHistory);
+        }
+    }
 }

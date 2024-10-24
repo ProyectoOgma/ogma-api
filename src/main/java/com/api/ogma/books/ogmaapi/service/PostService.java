@@ -1,8 +1,8 @@
 package com.api.ogma.books.ogmaapi.service;
 
-import com.api.ogma.books.ogmaapi.dto.States.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.domain.PostDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
+import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.*;
