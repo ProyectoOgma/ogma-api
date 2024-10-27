@@ -1,4 +1,4 @@
-package com.api.ogma.books.ogmaapi.dto.States;
+package com.api.ogma.books.ogmaapi.dto.states;
 
 public enum PostStates {
     PUBLICADA,
