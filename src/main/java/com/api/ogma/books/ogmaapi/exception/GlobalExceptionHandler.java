@@ -43,4 +43,9 @@ public class GlobalExceptionHandler {
         return ResponseUtil.createErrorResponse("Parámetros inválidos", HttpStatus.BAD_REQUEST, List.of(ex.getMessage()));
     }
 
+    @ExceptionHandler(UserNotValidException.class)
+    public ResponseEntity<Response<String>> handleUserNotValidException(UserNotValidException ex) {
+        return ResponseUtil.createErrorResponse("Usuario no válido", HttpStatus.FORBIDDEN, List.of(ex.getMessage()));
+    }
+
 }
