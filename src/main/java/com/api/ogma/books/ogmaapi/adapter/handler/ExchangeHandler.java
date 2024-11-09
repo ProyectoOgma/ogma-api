@@ -11,10 +11,7 @@ import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
 import com.api.ogma.books.ogmaapi.exception.UserNotValidException;
-import com.api.ogma.books.ogmaapi.model.Exchange;
-import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
-import com.api.ogma.books.ogmaapi.model.Post;
-import com.api.ogma.books.ogmaapi.model.State;
+import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.service.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -36,6 +33,7 @@ public class ExchangeHandler {
     private final StateService stateService;
     private final ContextService contextService;
     private final ExchangeMapper exchangeMapper;
+    private final UserService userService;
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -132,5 +130,13 @@ public class ExchangeHandler {
         }
         boolean shouldReturnUserInfo = stateService.validateState(exchange.getActualState(), ExchangeStates.PENDIENTE_DE_ENVIO, ExchangeStates.EN_ENVIO);
         return exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, shouldReturnUserInfo);
+    }
+
+    public List<ExchangeResponse> getExchangesByUser() {
+        UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
+        User user = userService.getUserByEmail(userDetails.getUsername());
+        return exchangeService.getExchangesByUserId(user.getId()).stream()
+                .map(exchange -> exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, false))
+                .toList();
     }
 }

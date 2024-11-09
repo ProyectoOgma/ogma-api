@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.model.Exchange;
+import com.api.ogma.books.ogmaapi.model.State;
 import com.api.ogma.books.ogmaapi.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -27,6 +28,7 @@ public class ExchangeMapper {
         ExchangeResponse.ExchangeResponseBuilder exchangeResponseBuilder = ExchangeResponse.builder()
                 .id(exchange.getId())
                 .exchangeDate(exchange.getExchangeDate().toString())
+                .exchangeState(mapState(exchange))
                 .book(mapBook(exchange.getExchangeOffer().getPost().getBook()))
                 .desiredBook(mapBook(exchange.getExchangeOffer().getOfferedPost().getBook()));
         if (shouldMapUser) {
@@ -48,5 +50,9 @@ public class ExchangeMapper {
 
     private static BookResponse mapBook(Book book) {
         return BookResponse.from(book);
+    }
+
+    private static String mapState(Exchange exchange) {
+        return exchange.getActualState().map(State::getName).orElse("");
     }
 }

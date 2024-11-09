@@ -16,6 +16,7 @@ import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -177,6 +178,25 @@ public class ExchangeController {
         } catch (UserNotValidException e) {
             return ResponseUtil.createErrorResponse("Usuario no permitido para buscar el intercambio", HttpStatus.FORBIDDEN, List.of(e.getMessage()));
         } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al buscar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Obtiene intercambios por el user id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Intercambios encontrados"),
+            @ApiResponse(responseCode = "404", description = "Intercambios no encontrados"),
+            @ApiResponse(responseCode = "500", description = "Error al buscar el intercambio")
+    })
+    @GetMapping("/my-exchanges")
+    public ResponseEntity<Response<List<ExchangeResponse>>> getExchangesByUserId() {
+        try {
+            List<ExchangeResponse> exchange = exchangeHandler.getExchangesByUser();
+            return ResponseUtil.createSuccessResponse(exchange, "Intercambio encontrado");
+        } catch (Exception e) {
+            if (e instanceof EntityNotFoundException) {
+                throw e;
+            }
             return ResponseUtil.createErrorResponse("Error al buscar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
