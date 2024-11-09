@@ -181,5 +181,21 @@ public class ExchangeController {
         }
     }
 
+    @Operation(summary = "Obtiene intercambios por el user id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Intercambios encontrados"),
+            @ApiResponse(responseCode = "404", description = "Intercambios no encontrados"),
+            @ApiResponse(responseCode = "500", description = "Error al buscar el intercambio")
+    })
+    @GetMapping("/myExchanges")
+    public ResponseEntity<Response<List<ExchangeResponse>>> getExchangesByUserId() {
+        try {
+            List<ExchangeResponse> exchange = exchangeHandler.getExchangesByUser();
+            return ResponseUtil.createSuccessResponse(exchange, "Intercambio encontrado");
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al buscar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
 
 }

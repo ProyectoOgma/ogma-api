@@ -46,4 +46,8 @@ public class ExchangeService {
         stateService.updateState(exchange, ExchangeStates.PENDIENTE_DE_ENVIO, State.Scope.EXCHANGE);
     }
 
+    public List<Exchange> getExchangesByUserId(Long userId) {
+        return exchangeRepository.findAllByUserId(userId).orElseThrow(() -> new EntityNotFoundException("Exchanges not found"));
+    }
+
 }
