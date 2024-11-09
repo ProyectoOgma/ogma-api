@@ -16,6 +16,9 @@ public class ProvinceDTO {
     private String name;
 
     public static ProvinceDTO from(Province province) {
+        if (province == null) {
+            return ProvinceDTO.builder().build();
+        }
         return ProvinceDTO.builder()
                           .id(province.getId())
                           .name(province.getName())
