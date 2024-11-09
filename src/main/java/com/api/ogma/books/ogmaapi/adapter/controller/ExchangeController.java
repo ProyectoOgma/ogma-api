@@ -10,7 +10,7 @@ import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
-import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
+import com.api.ogma.books.ogmaapi.exception.UserNotValidException;
 import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
@@ -160,6 +160,24 @@ public class ExchangeController {
             return ResponseUtil.createCustomStatusCodeResponse("Intercambio concretado", message.toString(), HttpStatus.OK);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al confirmar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Obtiene un intercambio por su id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Intercambio encontrado"),
+            @ApiResponse(responseCode = "404", description = "Intercambio no encontrado"),
+            @ApiResponse(responseCode = "500", description = "Error al buscar el intercambio")
+    })
+    @GetMapping("/{id}")
+    public ResponseEntity<Response<ExchangeResponse>> getExchangeById(@PathVariable Long id) {
+        try {
+            ExchangeResponse exchange = exchangeHandler.getExchangeById(id);
+            return ResponseUtil.createSuccessResponse(exchange, "Intercambio encontrado");
+        } catch (UserNotValidException e) {
+            return ResponseUtil.createErrorResponse("Usuario no permitido para buscar el intercambio", HttpStatus.FORBIDDEN, List.of(e.getMessage()));
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al buscar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
 

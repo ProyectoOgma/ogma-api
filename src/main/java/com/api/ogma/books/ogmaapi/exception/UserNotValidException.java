@@ -11,4 +11,7 @@ public class UserNotValidException extends Throwable {
     public UserNotValidException() {
         this.message = "El usuario logueado no coincide con el solicitado, acceso denegado.";
     }
+    public UserNotValidException(String message) {
+        this.message = message;
+    }
 }

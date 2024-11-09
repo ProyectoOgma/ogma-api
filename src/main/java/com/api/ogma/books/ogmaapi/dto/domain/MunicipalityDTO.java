@@ -15,6 +15,9 @@ public class MunicipalityDTO {
     private String name;
 
     public static MunicipalityDTO from(Municipality municipality) {
+        if (municipality == null) {
+            return MunicipalityDTO.builder().build();
+        }
         return MunicipalityDTO.builder()
                               .id(municipality.getId())
                               .name(municipality.getName())
