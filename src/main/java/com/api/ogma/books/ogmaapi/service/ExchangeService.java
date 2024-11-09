@@ -47,7 +47,12 @@ public class ExchangeService {
     }
 
     public List<Exchange> getExchangesByUserId(Long userId) {
-        return exchangeRepository.findAllByUserId(userId).orElseThrow(() -> new EntityNotFoundException("Exchanges not found"));
+        List<Exchange> exchanges = exchangeRepository.findAllByUserId(userId)
+                .orElseThrow(() -> new EntityNotFoundException("Exchanges not found"));
+        if (exchanges.isEmpty()) {
+            throw new EntityNotFoundException("Exchanges not found");
+        }
+        return exchanges;
     }
 
 }

@@ -16,6 +16,7 @@ import com.api.ogma.books.ogmaapi.model.Post;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -193,6 +194,9 @@ public class ExchangeController {
             List<ExchangeResponse> exchange = exchangeHandler.getExchangesByUser();
             return ResponseUtil.createSuccessResponse(exchange, "Intercambio encontrado");
         } catch (Exception e) {
+            if (e instanceof EntityNotFoundException) {
+                throw e;
+            }
             return ResponseUtil.createErrorResponse("Error al buscar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }
