@@ -188,7 +188,7 @@ public class ExchangeController {
             @ApiResponse(responseCode = "404", description = "Intercambios no encontrados"),
             @ApiResponse(responseCode = "500", description = "Error al buscar el intercambio")
     })
-    @GetMapping("/myExchanges")
+    @GetMapping("/my-exchanges")
     public ResponseEntity<Response<List<ExchangeResponse>>> getExchangesByUserId() {
         try {
             List<ExchangeResponse> exchange = exchangeHandler.getExchangesByUser();
