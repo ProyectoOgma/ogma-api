@@ -221,6 +221,7 @@ CREATE TABLE IF NOT EXISTS public.post
     type character varying(255) COLLATE pg_catalog."default",
     id_book bigint,
     id_user bigint,
+    book_send boolean DEFAULT false NOT NULL,
     CONSTRAINT post_pkey PRIMARY KEY (id_post)
 );
 

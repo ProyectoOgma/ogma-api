@@ -134,6 +134,7 @@ public class ExchangeHandler {
         //find post by user id in exchange
         Post post = exchange.getPostByUser(user);
         post.setBookSend(true);
+        postService.savePost(post);
         exchangeService.sendBook(exchange);
     }
 

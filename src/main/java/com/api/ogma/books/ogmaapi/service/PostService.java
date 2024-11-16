@@ -74,6 +74,10 @@ public class PostService {
         stateService.updateState(post, newState, POST_SCOPE);
     }
 
+    public void savePost(Post post) {
+        postRepository.save(post);
+    }
+
     /**
      * Updates a post state to PUBLICADA if no offers are associated with it
      * @param post Post entity
