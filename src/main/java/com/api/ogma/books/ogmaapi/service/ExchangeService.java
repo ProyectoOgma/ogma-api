@@ -1,10 +1,7 @@
 package com.api.ogma.books.ogmaapi.service;
 
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeStates;
-import com.api.ogma.books.ogmaapi.model.Exchange;
-import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
-import com.api.ogma.books.ogmaapi.model.State;
-import com.api.ogma.books.ogmaapi.model.User;
+import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.ExchangeRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -53,6 +50,16 @@ public class ExchangeService {
             throw new EntityNotFoundException("Exchanges not found");
         }
         return exchanges;
+    }
+
+    public void sendBook(Exchange exchange) {
+        if (allBooksSent(exchange)) {
+            stateService.updateState(exchange, ExchangeStates.EN_ENVIO, State.Scope.EXCHANGE);
+        }
+    }
+
+    public boolean allBooksSent(Exchange exchange) {
+        return exchange.getPosts().stream().allMatch(Post::isBookSend);
     }
 
 }

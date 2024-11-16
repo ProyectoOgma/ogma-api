@@ -164,6 +164,22 @@ public class ExchangeController {
         }
     }
 
+    @Operation(summary = "Actualiza el intercambio cuando el libro fue enviado")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Intercambio actualizado"),
+            @ApiResponse(responseCode = "500", description = "Error al actualizar el intercambio")
+    })
+    @PutMapping("/booksend/{exchange_id}")
+    public ResponseEntity<Response<String>> sendBook(@PathVariable(name = "exchange_id") Long exchangeId) {
+        try {
+            exchangeHandler.sendBook(exchangeId);
+
+            return ResponseUtil.createCustomStatusCodeResponse("Intercambio actualizado", "", HttpStatus.OK);
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al confirmar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
     @Operation(summary = "Obtiene un intercambio por su id")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Intercambio encontrado"),
