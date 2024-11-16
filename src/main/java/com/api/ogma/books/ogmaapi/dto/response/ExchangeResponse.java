@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.dto.response;
 
+import com.api.ogma.books.ogmaapi.model.Exchange;
 import lombok.Builder;
 import lombok.Data;
 

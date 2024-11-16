@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
 import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
+import com.api.ogma.books.ogmaapi.dto.request.SurveyRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
@@ -13,6 +14,7 @@ import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
 import com.api.ogma.books.ogmaapi.exception.UserNotValidException;
 import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.model.Post;
+import com.api.ogma.books.ogmaapi.model.Survey;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
@@ -201,5 +203,21 @@ public class ExchangeController {
         }
     }
 
+    @Operation(summary = "Envia la encuesta de satisfaccion de un intercambio")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Encuesta enviada"),
+            @ApiResponse(responseCode = "500", description = "Error al enviar la encuesta")
+    })
+    @PostMapping("/survey/{id}")
+    public ResponseEntity<Response<String>> sendSurvey(@PathVariable(name = "id") Long exchangeId, @RequestBody SurveyRequest surveyRequest) {
+        try {
+            Survey survey = exchangeHandler.createExchangeSurvey(exchangeId, surveyRequest);
+            return ResponseUtil.createSuccessResponse("Encuesta enviada", "Encuesta enviada");
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al enviar la encuesta", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        } catch (UserNotValidException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 }
