@@ -4,7 +4,6 @@ import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
 import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
-import com.api.ogma.books.ogmaapi.dto.response.*;
 import com.api.ogma.books.ogmaapi.dto.request.SurveyRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
