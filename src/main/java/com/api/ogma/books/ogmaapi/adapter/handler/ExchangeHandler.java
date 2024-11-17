@@ -122,6 +122,22 @@ public class ExchangeHandler {
         return exchange;
     }
 
+    public void sendBook(Long exchangeId) {
+        Exchange exchange = exchangeService.getExchangeById(exchangeId);
+        //validar que el intercambio este en estado pendiente de envio
+        if (!stateService.validateState(exchange.getActualState(), ExchangeStates.PENDIENTE_DE_ENVIO)) {
+            log.error("Exchange not in valid state to send book");
+            throw new IllegalArgumentException("Exchange not in valid state to send book");
+        }
+        UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
+        User user = userService.getUserByEmail(userDetails.getUsername());
+        //find post by user id in exchange
+        Post post = exchange.getPostByUser(user);
+        post.setBookSend(true);
+        postService.savePost(post);
+        exchangeService.sendBook(exchange);
+    }
+
     public ExchangeResponse getExchangeById(Long exchangeId) throws UserNotValidException {
         Exchange exchange = exchangeService.getExchangeById(exchangeId);
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));

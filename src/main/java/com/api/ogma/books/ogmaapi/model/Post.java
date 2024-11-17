@@ -66,6 +66,8 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ExchangeOffer> exchangeOffers;
 
+    private boolean bookSend = false;
+
 //    @OneToOne(cascade = CascadeType.ALL)
 //    @JoinColumn(name = "transaccion_id")
 //    private Transaccion transaccion;

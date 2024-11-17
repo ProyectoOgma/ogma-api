@@ -90,4 +90,17 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
             this.stateHistories.add(stateHistory);
         }
     }
+
+    public Post getPostByUser(User user) {
+        if (exchangeOffer.getPost().getUser().getId().equals(user.getId())) {
+            return exchangeOffer.getPost();
+        } else if (exchangeOffer.getOfferedPost().getUser().getId().equals(user.getId())) {
+            return exchangeOffer.getOfferedPost();
+        }
+        throw new IllegalArgumentException("User is not part of this exchange");
+    }
+
+    public List<Post> getPosts() {
+        return List.of(exchangeOffer.getPost(), exchangeOffer.getOfferedPost());
+    }
 }
