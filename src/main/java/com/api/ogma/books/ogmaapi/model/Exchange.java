@@ -43,11 +43,11 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
 
     private Date exchangeDate;
 
-    private String exchangeComment;
-
-    private String exchangeRating;
-
     private String shippingType; //por ahora es acuerdo con el vendededor unicamente
+
+    @OneToMany(mappedBy = "exchange", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
+    private List<Survey> surveys;
 
     @PrePersist
     @PreUpdate

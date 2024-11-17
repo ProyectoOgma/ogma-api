@@ -2,7 +2,10 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeOfferMapper;
+import com.api.ogma.books.ogmaapi.dto.domain.SurveyDTO;
+import com.api.ogma.books.ogmaapi.dto.request.SurveyRequest;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
+import com.api.ogma.books.ogmaapi.dto.response.SurveyResponse;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeOfferStates;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeStates;
 import com.api.ogma.books.ogmaapi.dto.states.PostStates;
@@ -34,6 +37,7 @@ public class ExchangeHandler {
     private final ContextService contextService;
     private final ExchangeMapper exchangeMapper;
     private final UserService userService;
+    private final SurveyService surveyService;
 
     /**
      * Crea una oferta de intercambio entre un post y otro.
@@ -154,5 +158,27 @@ public class ExchangeHandler {
         return exchangeService.getExchangesByUserId(user.getId()).stream()
                 .map(exchange -> exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, false))
                 .toList();
+    }
+
+    public Survey createExchangeSurvey(Long exchangeId, SurveyRequest surveyRequest) throws UserNotValidException {
+        Exchange exchange = exchangeService.getExchangeById(exchangeId);
+        UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
+        if (exchange.getUsers().stream().noneMatch(user -> user.getUsername().equals(userDetails.getUsername()))){
+            throw new UserNotValidException("User not allowed to see this exchange");
+        }
+
+        SurveyDTO survey = new SurveyDTO();
+        User reviewer = userService.getUserByEmail(userDetails.getUsername());
+        User reviewed = exchange.getUsers().stream().filter(user -> !user.getUsername().equals(userDetails.getUsername())).findFirst().orElseThrow(() -> new UserNotValidException("User not allowed to see this exchange"));
+        survey.setReviewer(reviewer);
+        survey.setBookRating(surveyRequest.getBookRating());
+        survey.setUserRating(surveyRequest.getUserRating());
+        survey.setBook(exchange.getExchangeOffer().getPost().getBook());
+        survey.setComment(surveyRequest.getComment());
+        survey.setType(Survey.Type.EXCHANGE);
+        survey.setReviewed(reviewed);
+        survey.setExchange(exchange);
+
+        return surveyService.createSurvey(survey);
     }
 }
