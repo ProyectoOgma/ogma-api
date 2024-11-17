@@ -103,4 +103,7 @@ public class Book extends Auditable{
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<StateHistory> stateHistory;
 
+    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Survey> surveys;
+
 }

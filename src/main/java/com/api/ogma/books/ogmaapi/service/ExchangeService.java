@@ -1,5 +1,6 @@
 package com.api.ogma.books.ogmaapi.service;
 
+import com.api.ogma.books.ogmaapi.dto.domain.SurveyDTO;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeStates;
 import com.api.ogma.books.ogmaapi.model.*;
 import com.api.ogma.books.ogmaapi.repository.ExchangeRepository;
