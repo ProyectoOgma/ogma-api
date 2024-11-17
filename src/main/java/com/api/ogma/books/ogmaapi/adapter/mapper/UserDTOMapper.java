@@ -7,6 +7,7 @@ import com.api.ogma.books.ogmaapi.dto.domain.UserLocationDTO;
 import com.api.ogma.books.ogmaapi.dto.request.UserLocationRequest;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.dto.response.UserLocationResponse;
+import com.api.ogma.books.ogmaapi.dto.response.UserMetricResponse;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.model.User;
 import org.springframework.stereotype.Component;

@@ -5,9 +5,11 @@ import com.api.ogma.books.ogmaapi.dto.domain.MunicipalityDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.ProvinceDTO;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.dto.response.UserLocationResponse;
+import com.api.ogma.books.ogmaapi.dto.response.UserMetricResponse;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.model.Province;
 import com.api.ogma.books.ogmaapi.model.User;
+import com.api.ogma.books.ogmaapi.service.MetricService;
 import com.api.ogma.books.ogmaapi.service.ProvinceService;
 import com.api.ogma.books.ogmaapi.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -21,6 +23,7 @@ public class UserHandler {
 
     private final UserService userService;
     private final UserDTOMapper userDTOMapper;
+    private final MetricService metricService;
 
     public UserResponse getUser(Long id) {
         User user = userService.getUser(id);
