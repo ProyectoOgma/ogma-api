@@ -5,7 +5,8 @@ public enum ExchangeOfferStates {
     PARCIALMENTE_ACEPTADA,
     ACEPTADA,
     RECHAZADA,
-    CANCELADA;
+    CANCELADA,
+    FINALIZADA;
 
     @Override
     public String toString() {

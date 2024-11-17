@@ -4,11 +4,7 @@ import com.api.ogma.books.ogmaapi.adapter.handler.ExchangeHandler;
 import com.api.ogma.books.ogmaapi.adapter.handler.NotificationHandler;
 import com.api.ogma.books.ogmaapi.adapter.mapper.ExchangeMapper;
 import com.api.ogma.books.ogmaapi.dto.request.OfferRequest;
-import com.api.ogma.books.ogmaapi.dto.response.ExchangeOfferResponse;
-import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
-import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
-import com.api.ogma.books.ogmaapi.dto.response.Response;
-import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
+import com.api.ogma.books.ogmaapi.dto.response.*;
 import com.api.ogma.books.ogmaapi.exception.OfferNotFoundException;
 import com.api.ogma.books.ogmaapi.exception.UserNotValidException;
 import com.api.ogma.books.ogmaapi.model.Exchange;
@@ -173,6 +169,22 @@ public class ExchangeController {
     public ResponseEntity<Response<String>> sendBook(@PathVariable(name = "exchange_id") Long exchangeId) {
         try {
             exchangeHandler.sendBook(exchangeId);
+
+            return ResponseUtil.createCustomStatusCodeResponse("Intercambio actualizado", "", HttpStatus.OK);
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al confirmar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Actualiza el intercambio cuando el libro fue recibido")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Intercambio actualizado"),
+            @ApiResponse(responseCode = "500", description = "Error al actualizar el intercambio")
+    })
+    @PutMapping("/received/{exchange_id}")
+    public ResponseEntity<Response<String>> receiveBook(@PathVariable(name = "exchange_id") Long exchangeId, @RequestParam(name = "received") Boolean receivedOkay) {
+        try {
+            exchangeHandler.receiveBook(exchangeId, receivedOkay);
 
             return ResponseUtil.createCustomStatusCodeResponse("Intercambio actualizado", "", HttpStatus.OK);
         } catch (Exception e) {
