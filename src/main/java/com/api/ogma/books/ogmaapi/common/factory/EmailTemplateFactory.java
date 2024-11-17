@@ -19,7 +19,7 @@ public class EmailTemplateFactory {
         templateModel.put("offerUser", StringUtils.capitalize(postOffered.getUser().getUserSiteName()));
         templateModel.put("offeredBook", postOffered.getBook().getTitle());
         templateModel.put("requestedBook", post.getBook().getTitle());
-        templateModel.put("offerId", exchangeOffer.getId());
+        templateModel.put("postId", post.getId());
         return templateModel;
     }
 
