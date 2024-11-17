@@ -104,6 +104,6 @@ public class Book extends Auditable{
     private List<StateHistory> stateHistory;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Review> bookReviews;
+    private List<Survey> surveys;
 
 }

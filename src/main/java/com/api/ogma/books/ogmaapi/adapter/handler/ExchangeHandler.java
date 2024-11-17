@@ -157,6 +157,7 @@ public class ExchangeHandler {
         survey.setReviewer(reviewer);
         survey.setBookRating(surveyRequest.getBookRating());
         survey.setUserRating(surveyRequest.getUserRating());
+        survey.setBook(exchange.getExchangeOffer().getPost().getBook());
         survey.setComment(surveyRequest.getComment());
         survey.setType(Survey.Type.EXCHANGE);
         survey.setReviewed(reviewed);
