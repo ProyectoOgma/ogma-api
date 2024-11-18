@@ -19,7 +19,7 @@ public class EmailTemplateFactory {
         templateModel.put("offerUser", StringUtils.capitalize(postOffered.getUser().getUserSiteName()));
         templateModel.put("offeredBook", postOffered.getBook().getTitle());
         templateModel.put("requestedBook", post.getBook().getTitle());
-        templateModel.put("offerId", exchangeOffer.getId());
+        templateModel.put("postId", post.getId());
         return templateModel;
     }
 
@@ -27,6 +27,7 @@ public class EmailTemplateFactory {
         Map<String, Object> templateModel = new HashMap<>();
         templateModel.put("userName", StringUtils.capitalize(exchange.getExchangeOffer().getOfferedPost().getUser().getUserSiteName()));
         templateModel.put("acceptedUser", StringUtils.capitalize(exchange.getExchangeOffer().getPost().getUser().getUserSiteName()));
+        templateModel.put("exchangeId", exchange.getId());
         return templateModel;
     }
 
