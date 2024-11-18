@@ -5,7 +5,8 @@ public enum ExchangeStates {
     CANCELADO,
     PENDIENTE_DE_ENVIO,
     EN_ENVIO,
-    CONCRETADO;
+    CONCRETADO_SATISFACTORIAMENTE,
+    CONCRETADO_NO_SATISFACTORIAMENTE;
 
     @Override
     public String toString() {
