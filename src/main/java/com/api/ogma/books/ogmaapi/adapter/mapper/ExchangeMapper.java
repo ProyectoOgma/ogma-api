@@ -28,6 +28,7 @@ public class ExchangeMapper {
         ExchangeResponse.ExchangeResponseBuilder exchangeResponseBuilder = ExchangeResponse.builder()
                 .id(exchange.getId())
                 .exchangeDate(exchange.getExchangeDate().toString())
+                .sendBookDate(exchange.getSendBookDate() != null ? exchange.getSendBookDate().toString() : "")
                 .exchangeState(mapState(exchange))
                 .book(mapBook(exchange.getExchangeOffer().getPost().getBook()))
                 .desiredBook(mapBook(exchange.getExchangeOffer().getOfferedPost().getBook()));
