@@ -6,15 +6,21 @@ import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.api.ogma.books.ogmaapi.dto.request.PostRequest;
 import com.api.ogma.books.ogmaapi.dto.response.PostResponse;
 import com.api.ogma.books.ogmaapi.model.Post;
+import com.api.ogma.books.ogmaapi.model.User;
+import com.api.ogma.books.ogmaapi.service.ContextService;
 import com.api.ogma.books.ogmaapi.service.PostService;
+import com.api.ogma.books.ogmaapi.service.UserService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -24,6 +30,8 @@ public class PostHandler {
     private final ObjectMapper objectMapper;
     private final PostService postService;
     private final PostMapper postMapper;
+    private final ContextService contextService;
+    private final UserService userService;
 
     /**
      * Method that creates a post
@@ -56,7 +64,14 @@ public class PostHandler {
     public Page<PostResponse> getAllPosts(PostType type, String bookTitle, String authorName, String genre, Double minPrice, Double maxPrice,
                                           Integer minRating, Integer maxRating, String userId, Pageable pageable) {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE);
-        Page<Post> posts = postService.getAllPosts(type, bookTitle, authorName, genre, minPrice, maxPrice, minRating, maxRating, userId, pageable);
+        boolean isUserId = false;
+        if (userId == null) {
+            UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
+            User user = userService.getUserByEmail(userDetails.getUsername());
+            userId = user.getId().toString();
+            isUserId = true;
+        }
+        Page<Post> posts = postService.getAllPosts(type, bookTitle, authorName, genre, minPrice, maxPrice, minRating, maxRating, userId, pageable, isUserId);
         return posts.map(postMapper::mapFromPostToPostResponse);
     }
 

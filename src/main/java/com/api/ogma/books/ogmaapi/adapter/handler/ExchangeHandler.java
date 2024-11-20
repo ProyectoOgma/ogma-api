@@ -110,7 +110,7 @@ public class ExchangeHandler {
 
     public Exchange startExchange(Long exchangeId) {
         Exchange exchange = exchangeService.getExchangeById(exchangeId);
-        //validar que el intercambio este en estado pendiente de envio
+        //validar que el intercambio este en estado notificado
         if (!stateService.validateState(exchange.getActualState(), ExchangeStates.NOTIFICADO)) {
             log.error("Exchange not in valid state to start exchange");
             throw new IllegalArgumentException("Exchange not in valid state to confirm exchange");
