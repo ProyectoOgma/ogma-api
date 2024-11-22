@@ -50,8 +50,12 @@ public class MetricService {
         }
         // Se obtienen las ventas y los intercambios realizados por el usuario
         Integer exchanges = stateHistoryRepository.countExchangeCompletedByUserId(user.getId());
-        userMetricResponse.setExchanges(exchanges);
+        Integer activePosts = stateHistoryRepository.countActivePostsByUser(user.getId());
+        Integer exchangesInProgress = stateHistoryRepository.countExchangeInProgressByUser(user.getId());
 
+        userMetricResponse.setExchanges(exchanges);
+        userMetricResponse.setActivePosts(activePosts);
+        userMetricResponse.setExchangeInProgress(exchangesInProgress);
 
         // TODO: Se obtienen las ventas realizadas por el usuario
         Integer sales = 0;
