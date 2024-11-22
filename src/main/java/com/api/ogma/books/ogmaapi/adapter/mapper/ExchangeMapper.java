@@ -22,16 +22,16 @@ public class ExchangeMapper {
     }
 
     public ExchangeResponse mapFromExchangeToExchangeResponse(Exchange exchange, UserDetails userDetails, boolean shouldMapUser) {
+        User user = findOtherUserInExchange(exchange, userDetails);
         ExchangeResponse.ExchangeResponseBuilder exchangeResponseBuilder = ExchangeResponse.builder()
                 .id(exchange.getId())
                 .exchangeDate(exchange.getExchangeDate().toString())
                 .exchangeState(mapState(exchange))
                 .book(mapBook(exchange, userDetails))
-                .desiredBook(mapDesiredBook(exchange, userDetails));
+                .desiredBook(mapDesiredBook(exchange, userDetails))
+                .user(UserResponse.builder().name(user.getName()).lastName(user.getLastName()).build());
         if (shouldMapUser) {
             exchangeResponseBuilder.user(mapUser(exchange.getUsers(), userDetails));
-        } else {
-            exchangeResponseBuilder.user(UserResponse.builder().build());
         }
         return exchangeResponseBuilder.build();
     }
@@ -71,5 +71,12 @@ public class ExchangeMapper {
 
     private static String mapState(Exchange exchange) {
         return exchange.getActualState().map(State::getName).orElse("");
+    }
+
+    private static User findOtherUserInExchange(Exchange exchange, UserDetails userDetails) {
+        return exchange.getUsers().stream()
+                .filter(user -> !user.getUsername().equals(userDetails.getUsername()))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("User not found"));
     }
 }

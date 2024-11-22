@@ -178,7 +178,7 @@ public class ExchangeHandler {
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
         User user = userService.getUserByEmail(userDetails.getUsername());
         return exchangeService.getExchangesByUserId(user.getId()).stream()
-                .map(exchange -> exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, true))
+                .map(exchange -> exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, false))
                 .toList();
     }
 
