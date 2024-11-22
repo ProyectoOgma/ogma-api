@@ -11,6 +11,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.apache.commons.lang3.ObjectUtils;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -68,6 +69,9 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     private List<ExchangeOffer> exchangeOffers;
 
     private boolean bookSend = false;
+
+    @Nullable
+    private Date shippingDate;
 
     @Nullable
     private Boolean bookReceived;
