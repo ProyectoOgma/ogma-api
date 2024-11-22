@@ -17,4 +17,10 @@ public interface StateHistoryRepository extends JpaRepository<StateHistory, Long
 
     @Query("SELECT COUNT(*) FROM StateHistory sh WHERE sh.state.id = 17")
     Integer countExchangesCompleted();
+
+    @Query("SELECT COUNT(*) FROM StateHistory sh WHERE sh.state.id IN (1,2,3,6,7) AND sh.post.user.id = ?1")
+    Integer countActivePostsByUser(Long userId);
+
+    @Query("SELECT COUNT(*) FROM StateHistory sh WHERE sh.state.id IN (13,15,16) AND sh.exchangeOffer.user.id = ?1")
+    Integer countExchangeInProgressByUser(Long userId);
 }
