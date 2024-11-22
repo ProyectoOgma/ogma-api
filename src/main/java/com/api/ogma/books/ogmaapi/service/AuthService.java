@@ -62,7 +62,9 @@ public class AuthService {
     }
 
     private String createUserSiteName(RegisterRequest registerRequest) {
-        return registerRequest.getName() + StringUtils.capitalize(registerRequest.getLastName());
+        String name = StringUtils.capitalize(registerRequest.getName().replaceAll("\\s", ""));
+        String lastName = StringUtils.capitalize(registerRequest.getLastName().replaceAll("\\s", ""));
+        return name + lastName;
     }
 
 

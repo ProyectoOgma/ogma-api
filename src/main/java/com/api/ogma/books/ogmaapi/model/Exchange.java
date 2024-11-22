@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.model;
 import com.api.ogma.books.ogmaapi.dto.states.ExchangeStates;
 import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.*;
 import org.apache.commons.lang3.ObjectUtils;
@@ -42,6 +43,9 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
     private List<StateHistory> stateHistories;
 
     private Date exchangeDate;
+
+    @Nullable
+    private Date sendBookDate;
 
     private String shippingType; //por ahora es acuerdo con el vendededor unicamente
 
@@ -89,5 +93,18 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
         if (this.stateHistories != null) {
             this.stateHistories.add(stateHistory);
         }
+    }
+
+    public Post getPostByUser(User user) {
+        if (exchangeOffer.getPost().getUser().getId().equals(user.getId())) {
+            return exchangeOffer.getPost();
+        } else if (exchangeOffer.getOfferedPost().getUser().getId().equals(user.getId())) {
+            return exchangeOffer.getOfferedPost();
+        }
+        throw new IllegalArgumentException("User is not part of this exchange");
+    }
+
+    public List<Post> getPosts() {
+        return List.of(exchangeOffer.getPost(), exchangeOffer.getOfferedPost());
     }
 }

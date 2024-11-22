@@ -6,6 +6,7 @@ import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.*;
 import org.apache.commons.lang3.ObjectUtils;
@@ -65,6 +66,11 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
 
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ExchangeOffer> exchangeOffers;
+
+    private boolean bookSend = false;
+
+    @Nullable
+    private Boolean bookReceived;
 
 //    @OneToOne(cascade = CascadeType.ALL)
 //    @JoinColumn(name = "transaccion_id")

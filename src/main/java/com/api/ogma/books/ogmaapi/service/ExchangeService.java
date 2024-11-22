@@ -53,4 +53,38 @@ public class ExchangeService {
         return exchanges;
     }
 
+    public void sendBook(Exchange exchange) {
+        if (allBooksSent(exchange)) {
+            stateService.updateState(exchange, ExchangeStates.EN_ENVIO, State.Scope.EXCHANGE);
+            exchange.setSendBookDate(new Date());
+            exchangeRepository.save(exchange);
+        }
+    }
+
+    public boolean receiveBook(Exchange exchange) {
+        if (allBooksReceivedInExchange(exchange)) {
+            if (allBooksReceivedOkay(exchange)) {
+                stateService.updateState(exchange, ExchangeStates.CONCRETADO_SATISFACTORIAMENTE, State.Scope.EXCHANGE);
+            } else {
+                stateService.updateState(exchange, ExchangeStates.CONCRETADO_NO_SATISFACTORIAMENTE, State.Scope.EXCHANGE);
+            }
+            return true;
+        }
+        return false;
+    }
+
+    public boolean allBooksSent(Exchange exchange) {
+        return exchange.getPosts().stream().allMatch(Post::isBookSend);
+    }
+
+    public boolean allBooksReceivedInExchange(Exchange exchange) {
+        return exchange.getPosts().stream().filter(post -> post.getBookReceived() != null).count() == 2;
+    }
+
+    public boolean allBooksReceivedOkay(Exchange exchange) {
+        return exchange.getPosts().stream()
+                .filter(post -> post.getBookReceived() != null)
+                .allMatch(post -> Boolean.TRUE.equals(post.getBookReceived()));
+    }
+
 }

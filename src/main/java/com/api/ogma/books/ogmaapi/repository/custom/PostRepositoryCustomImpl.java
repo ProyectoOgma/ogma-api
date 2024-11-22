@@ -25,7 +25,7 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
 
     @Override
     public Page<Post> getAllPosts(PostType type, String bookTitle, String authorName, String genre,
-                                  Double minPrice, Double maxPrice, Integer minRating, Integer maxRating, String userId, Pageable pageable) {
+                                  Double minPrice, Double maxPrice, Integer minRating, Integer maxRating, String userId, Pageable pageable, boolean isUserId) {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<Post> query = cb.createQuery(Post.class);
         Root<Post> post = query.from(Post.class);
@@ -63,7 +63,10 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
         if (maxRating != null) {
             predicates.add(cb.le(post.get("rating"), maxRating));
         }
-        if (userId != null && !userId.isEmpty()) {
+        if (isUserId && userId != null && !userId.isEmpty()) {
+            predicates.add(cb.notEqual(user.get("id"), Long.valueOf(userId)));
+        }
+        if (!isUserId && userId != null && !userId.isEmpty()) {
             predicates.add(cb.equal(user.get("id"), Long.valueOf(userId)));
         }
         //Por el momento es fijo, despues si vemos que lo tenemos que parametrizar lo hacemos
@@ -73,6 +76,7 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
             predicates.add(cb.isNull(stateHistory.get("finalDate")));
         }
         query.select(post).where(cb.and(predicates.toArray(new Predicate[0]))).distinct(true);
+        query.orderBy(cb.desc(post.get("id")));
 
         TypedQuery<Post> typedQuery = entityManager.createQuery(query);
         List<Post> resultList = typedQuery.getResultList();
