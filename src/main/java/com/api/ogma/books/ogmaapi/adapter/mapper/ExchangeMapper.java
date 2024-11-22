@@ -3,10 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.mapper;
 import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.dto.response.ExchangeResponse;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
-import com.api.ogma.books.ogmaapi.model.Book;
-import com.api.ogma.books.ogmaapi.model.Exchange;
-import com.api.ogma.books.ogmaapi.model.State;
-import com.api.ogma.books.ogmaapi.model.User;
+import com.api.ogma.books.ogmaapi.model.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
@@ -28,10 +25,9 @@ public class ExchangeMapper {
         ExchangeResponse.ExchangeResponseBuilder exchangeResponseBuilder = ExchangeResponse.builder()
                 .id(exchange.getId())
                 .exchangeDate(exchange.getExchangeDate().toString())
-                .sendBookDate(exchange.getSendBookDate() != null ? exchange.getSendBookDate().toString() : "")
                 .exchangeState(mapState(exchange))
-                .book(mapBook(exchange.getExchangeOffer().getPost().getBook()))
-                .desiredBook(mapBook(exchange.getExchangeOffer().getOfferedPost().getBook()));
+                .book(mapBook(exchange, userDetails))
+                .desiredBook(mapDesiredBook(exchange, userDetails));
         if (shouldMapUser) {
             exchangeResponseBuilder.user(mapUser(exchange.getUsers(), userDetails));
         } else {
@@ -49,8 +45,28 @@ public class ExchangeMapper {
 
     }
 
-    private static BookResponse mapBook(Book book) {
-        return BookResponse.from(book);
+    private static BookResponse mapBook(Exchange exchange, UserDetails userDetails) {
+        Post userPost = exchange.getUsers().stream()
+                .filter(user -> user.getUsername().equals(userDetails.getUsername()))
+                .findFirst()
+                .map(exchange::getPostByUser)
+                .orElseThrow();
+        Book book = userPost.getBook();
+        BookResponse bookResponse = BookResponse.from(book);
+        bookResponse.setShippingDate(userPost.getShippingDate() != null ? userPost.getShippingDate().toString() : "");
+        return bookResponse;
+    }
+
+    private static BookResponse mapDesiredBook(Exchange exchange, UserDetails userDetails) {
+        Post userPost = exchange.getUsers().stream()
+                .filter(user -> !user.getUsername().equals(userDetails.getUsername()))
+                .findFirst()
+                .map(exchange::getPostByUser)
+                .orElseThrow();
+        Book book = userPost.getBook();
+        BookResponse bookResponse = BookResponse.from(book);
+        bookResponse.setShippingDate(userPost.getShippingDate() != null ? userPost.getShippingDate().toString() : "");
+        return bookResponse;
     }
 
     private static String mapState(Exchange exchange) {

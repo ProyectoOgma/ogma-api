@@ -22,6 +22,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -135,9 +136,9 @@ public class ExchangeHandler {
         }
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
         User user = userService.getUserByEmail(userDetails.getUsername());
-        //find post by user id in exchange
         Post post = exchange.getPostByUser(user);
         post.setBookSend(true);
+        post.setShippingDate(new Date());
         postService.savePost(post);
         exchangeService.sendBook(exchange);
     }
@@ -177,7 +178,7 @@ public class ExchangeHandler {
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
         User user = userService.getUserByEmail(userDetails.getUsername());
         return exchangeService.getExchangesByUserId(user.getId()).stream()
-                .map(exchange -> exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, false))
+                .map(exchange -> exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, true))
                 .toList();
     }
 

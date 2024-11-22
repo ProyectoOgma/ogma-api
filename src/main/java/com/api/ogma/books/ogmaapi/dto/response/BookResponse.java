@@ -39,6 +39,7 @@ public class BookResponse {
     private Collection<LangDTO> langs;
     private List<Image> images;
     private Collection<ReviewDTO> reviews;
+    private String shippingDate;
 
     public static BookResponse from(Book book) {
         return BookResponse.builder()

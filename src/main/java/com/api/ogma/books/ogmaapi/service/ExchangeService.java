@@ -56,8 +56,6 @@ public class ExchangeService {
     public void sendBook(Exchange exchange) {
         if (allBooksSent(exchange)) {
             stateService.updateState(exchange, ExchangeStates.EN_ENVIO, State.Scope.EXCHANGE);
-            exchange.setSendBookDate(new Date());
-            exchangeRepository.save(exchange);
         }
     }
 
