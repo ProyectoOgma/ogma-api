@@ -10,6 +10,7 @@ import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.*;
 import org.apache.commons.lang3.ObjectUtils;
+import org.hibernate.annotations.BatchSize;
 
 import java.util.Date;
 import java.util.List;
@@ -37,16 +38,17 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Enumerated(EnumType.STRING)
     private PostType type; // Si es venta o intercambio
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_user")
     private User user;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_book")
     @JsonManagedReference
     private Book book;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.LAZY)
+    @BatchSize(size = 10)
     @JoinTable(
             name = "post_desired_books",
             joinColumns = @JoinColumn(name = "post_id"),
@@ -58,14 +60,17 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Enumerated(EnumType.STRING)
     private BookState bookState;
 
-    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @BatchSize(size = 10)
     @JsonManagedReference
     private List<StateHistory> stateHistories;
 
-    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @BatchSize(size = 10)
     private List<Comment> comments;
 
-    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @BatchSize(size = 10)
     private List<ExchangeOffer> exchangeOffers;
 
     private boolean bookSend = false;
