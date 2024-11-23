@@ -143,7 +143,7 @@ public class ExchangeHandler {
         exchangeService.sendBook(exchange);
     }
 
-    public void receiveBook(Long exchangeId, Boolean receivedOkay) {
+    public void receiveBook(Long exchangeId, Boolean receivedOkay) throws UserNotValidException {
         Exchange exchange = exchangeService.getExchangeById(exchangeId);
         //validar que el intercambio este en estado en envio
         if (!stateService.validateState(exchange.getActualState(), ExchangeStates.EN_ENVIO)) {
@@ -151,8 +151,11 @@ public class ExchangeHandler {
             throw new IllegalArgumentException("Exchange not in valid state to receive book");
         }
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
-        User user = userService.getUserByEmail(userDetails.getUsername());
-        Post post = exchange.getPostByUser(user);
+        User otherUser = exchange.getUsers().stream()
+                .filter(user -> !user.getUsername().equals(userDetails.getUsername()))
+                .findFirst()
+                .orElseThrow(() -> new UserNotValidException("User not allowed to see this exchange"));
+        Post post = exchange.getPostByUser(otherUser);
         post.setBookReceived(receivedOkay);
         postService.savePost(post);
 

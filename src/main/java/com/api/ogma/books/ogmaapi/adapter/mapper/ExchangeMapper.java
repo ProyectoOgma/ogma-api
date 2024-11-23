@@ -54,6 +54,7 @@ public class ExchangeMapper {
         Book book = userPost.getBook();
         BookResponse bookResponse = BookResponse.from(book);
         bookResponse.setShippingDate(userPost.getShippingDate() != null ? userPost.getShippingDate().toString() : "");
+        bookResponse.setBookReceived(userPost.getBookReceived());
         return bookResponse;
     }
 
@@ -66,6 +67,7 @@ public class ExchangeMapper {
         Book book = userPost.getBook();
         BookResponse bookResponse = BookResponse.from(book);
         bookResponse.setShippingDate(userPost.getShippingDate() != null ? userPost.getShippingDate().toString() : "");
+        bookResponse.setBookReceived(userPost.getBookReceived());
         return bookResponse;
     }
 
