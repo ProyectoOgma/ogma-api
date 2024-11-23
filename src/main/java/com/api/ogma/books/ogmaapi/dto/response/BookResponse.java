@@ -3,14 +3,14 @@ package com.api.ogma.books.ogmaapi.dto.response;
 import com.api.ogma.books.ogmaapi.dto.domain.*;
 import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.model.Image;
-import com.api.ogma.books.ogmaapi.model.Review;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -18,6 +18,7 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class BookResponse {
 
     private Long id;
