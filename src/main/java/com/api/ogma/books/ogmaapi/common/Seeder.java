@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 
 @Profile({"local", "dev", "test"})
 @Component
@@ -45,17 +47,17 @@ public class Seeder implements CommandLineRunner {
                 .role(Role.USER)
                 .build();
 
-        User updateJulianUser = userRepository.findByEmail("julianismael13@gmail.com").orElse(null);
-        assert updateJulianUser != null;
-        updateJulianUser.setHashedPassword(passwordEncoder.encode("password"));
-        userRepository.save(updateJulianUser);
-        System.out.println("User seeded: " + updateJulianUser);
-
-        User updateAylenUser = userRepository.findByEmail("aylenrominapattuzzi@gmail.com").orElse(null);
-        assert updateAylenUser != null;
-        updateAylenUser.setHashedPassword(passwordEncoder.encode("password"));
-        userRepository.save(updateAylenUser);
-        System.out.println("User seeded: " + updateAylenUser);
+//        User updateJulianUser = userRepository.findByEmail("julianismael13@gmail.com").orElse(null);
+//        assert updateJulianUser != null;
+//        updateJulianUser.setHashedPassword(passwordEncoder.encode("password"));
+//        userRepository.save(updateJulianUser);
+//        System.out.println("User seeded: " + updateJulianUser);
+//
+//        User updateAylenUser = userRepository.findByEmail("aylenrominapattuzzi@gmail.com").orElse(null);
+//        assert updateAylenUser != null;
+//        updateAylenUser.setHashedPassword(passwordEncoder.encode("password"));
+//        userRepository.save(updateAylenUser);
+//        System.out.println("User seeded: " + updateAylenUser);
 
         User userSaved = userRepository.save(user);
         System.out.println("User seeded: " + userSaved);

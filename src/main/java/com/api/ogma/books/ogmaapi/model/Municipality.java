@@ -30,6 +30,7 @@ public class Municipality extends Auditable{
     private Province province;
 
     @OneToMany(mappedBy = "municipality", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @JsonBackReference
     private List<User> users;
 
 
