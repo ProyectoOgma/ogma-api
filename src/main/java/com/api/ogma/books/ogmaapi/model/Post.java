@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
@@ -23,6 +24,7 @@ import java.util.Optional;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Id
     @Column(name = "id_post")
@@ -38,11 +40,11 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Enumerated(EnumType.STRING)
     private PostType type; // Si es venta o intercambio
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "id_user")
     private User user;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "id_book")
     @JsonManagedReference
     private Book book;
