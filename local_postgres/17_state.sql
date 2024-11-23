@@ -21,4 +21,3 @@ INSERT INTO public.state (name, scope) VALUES
 ('PENDIENTE DE ENVIO', 'EXCHANGE'), -- 15
 ('EN_ENVIO', 'EXCHANGE'), -- 16
 ('CONCRETADO', 'EXCHANGE'); -- 17
-

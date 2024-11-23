@@ -110,7 +110,7 @@ public class ExchangeHandler {
 
     public Exchange startExchange(Long exchangeId) {
         Exchange exchange = exchangeService.getExchangeById(exchangeId);
-        //validar que el intercambio este en estado pendiente de envio
+        //validar que el intercambio este en estado notificado
         if (!stateService.validateState(exchange.getActualState(), ExchangeStates.NOTIFICADO)) {
             log.error("Exchange not in valid state to start exchange");
             throw new IllegalArgumentException("Exchange not in valid state to confirm exchange");
@@ -124,6 +124,43 @@ public class ExchangeHandler {
         exchangeOfferService.pauseOffersByExchange(exchange);
 
         return exchange;
+    }
+
+    public void sendBook(Long exchangeId) {
+        Exchange exchange = exchangeService.getExchangeById(exchangeId);
+        //validar que el intercambio este en estado pendiente de envio
+        if (!stateService.validateState(exchange.getActualState(), ExchangeStates.PENDIENTE_DE_ENVIO)) {
+            log.error("Exchange not in valid state to send book");
+            throw new IllegalArgumentException("Exchange not in valid state to send book");
+        }
+        UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
+        User user = userService.getUserByEmail(userDetails.getUsername());
+        //find post by user id in exchange
+        Post post = exchange.getPostByUser(user);
+        post.setBookSend(true);
+        postService.savePost(post);
+        exchangeService.sendBook(exchange);
+    }
+
+    public void receiveBook(Long exchangeId, Boolean receivedOkay) {
+        Exchange exchange = exchangeService.getExchangeById(exchangeId);
+        //validar que el intercambio este en estado en envio
+        if (!stateService.validateState(exchange.getActualState(), ExchangeStates.EN_ENVIO)) {
+            log.error("Exchange not in valid state to receive book");
+            throw new IllegalArgumentException("Exchange not in valid state to receive book");
+        }
+        UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
+        User user = userService.getUserByEmail(userDetails.getUsername());
+        Post post = exchange.getPostByUser(user);
+        post.setBookReceived(receivedOkay);
+        postService.savePost(post);
+
+        boolean exchangeFinish = exchangeService.receiveBook(exchange);
+        if (exchangeFinish) {
+            postService.updateState(exchange.getExchangeOffer().getPost(), PostStates.INTERCAMBIADA);
+            postService.updateState(exchange.getExchangeOffer().getOfferedPost(), PostStates.INTERCAMBIADA);
+            exchangeOfferService.updateOfferState(exchange.getExchangeOffer(), ExchangeOfferStates.FINALIZADA);
+        }
     }
 
     public ExchangeResponse getExchangeById(Long exchangeId) throws UserNotValidException {
