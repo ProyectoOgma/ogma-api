@@ -170,7 +170,11 @@ public class ExchangeHandler {
         if (exchange.getUsers().stream().noneMatch(user -> user.getUsername().equals(userDetails.getUsername()))){
             throw new UserNotValidException("User not allowed to see this exchange");
         }
-        boolean shouldReturnUserInfo = stateService.validateState(exchange.getActualState(), ExchangeStates.PENDIENTE_DE_ENVIO, ExchangeStates.EN_ENVIO);
+        boolean shouldReturnUserInfo = stateService.validateState(exchange.getActualState(),
+                ExchangeStates.PENDIENTE_DE_ENVIO,
+                ExchangeStates.EN_ENVIO,
+                ExchangeStates.CONCRETADO_SATISFACTORIAMENTE,
+                ExchangeStates.CONCRETADO_NO_SATISFACTORIAMENTE);
         return exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, shouldReturnUserInfo);
     }
 
