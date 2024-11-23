@@ -40,6 +40,7 @@ public class BookResponse {
     private List<Image> images;
     private Collection<ReviewDTO> reviews;
     private String shippingDate;
+    private Boolean bookReceived;
 
     public static BookResponse from(Book book) {
         return BookResponse.builder()
