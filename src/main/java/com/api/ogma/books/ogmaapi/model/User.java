@@ -51,10 +51,12 @@ public class User extends Auditable implements UserDetails {
 
     @ManyToOne
     @JoinColumn(name = "id_province")
+    @JsonBackReference
     private Province province;
 
     @ManyToOne
     @JoinColumn(name = "id_municipality")
+    @JsonBackReference
     private Municipality municipality;
 
     @Column(name = "address", nullable = true)
