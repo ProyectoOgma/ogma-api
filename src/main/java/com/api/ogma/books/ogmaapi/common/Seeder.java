@@ -33,6 +33,12 @@ public class Seeder implements CommandLineRunner {
     }
 
     private void seedUsers() {
+        User updateAylenUser = userRepository.findByEmail("jbollatti.ogma@gmail.com").orElse(null);
+        assert updateAylenUser != null;
+        updateAylenUser.setHashedPassword(passwordEncoder.encode("password"));
+        userRepository.save(updateAylenUser);
+        System.out.println("User seeded: " + updateAylenUser);
+
         if (alreadySeeded()) {
             System.out.println("Users already seeded");
             return;
@@ -46,18 +52,6 @@ public class Seeder implements CommandLineRunner {
                 .hashedPassword(passwordEncoder.encode("password"))
                 .role(Role.USER)
                 .build();
-
-//        User updateJulianUser = userRepository.findByEmail("julianismael13@gmail.com").orElse(null);
-//        assert updateJulianUser != null;
-//        updateJulianUser.setHashedPassword(passwordEncoder.encode("password"));
-//        userRepository.save(updateJulianUser);
-//        System.out.println("User seeded: " + updateJulianUser);
-//
-//        User updateAylenUser = userRepository.findByEmail("aylenrominapattuzzi@gmail.com").orElse(null);
-//        assert updateAylenUser != null;
-//        updateAylenUser.setHashedPassword(passwordEncoder.encode("password"));
-//        userRepository.save(updateAylenUser);
-//        System.out.println("User seeded: " + updateAylenUser);
 
         User userSaved = userRepository.save(user);
         System.out.println("User seeded: " + userSaved);
