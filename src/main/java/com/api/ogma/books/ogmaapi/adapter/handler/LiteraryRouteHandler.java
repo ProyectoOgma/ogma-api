@@ -42,4 +42,22 @@ public class LiteraryRouteHandler {
                 .map(literaryRouteMapper::fromLiteraryRouteToResponse)
                 .toList();
     }
+
+    /**
+     * Add a literary route to the user's favorite list
+     *
+     * @param literaryRouteId Literary route id
+     */
+    public void addFavouriteLiteraryRoute(Long literaryRouteId) {
+        literaryRouteService.addFavoriteLiteraryRoute(literaryRouteId);
+    }
+
+    /**
+     * Remove a literary route from the user's favorite list
+     *
+     * @param literaryRouteId Literary route id
+     */
+    public void removeFavouriteLiteraryRoute(Long literaryRouteId) {
+        literaryRouteService.removeFavoriteLiteraryRoute(literaryRouteId);
+    }
 }
