@@ -12,7 +12,9 @@ import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @Service
 @AllArgsConstructor
@@ -41,6 +43,11 @@ public class LiteraryRouteService {
                 .map(user -> userRepository.findByEmail(user.getUsername())
                         .orElseThrow(() -> new UsernameNotFoundException("User not found")))
                 .orElseThrow(() -> new EntityNotFoundException("Literary routes not found")));
+    }
+
+    public List<LiteraryRoute> getMyFavouriteRoutes() {
+        Set<LiteraryRoute> favoriteRoutes = contextService.getUserEntityFromContext().getFavoriteLiteraryRoutes();
+        return new ArrayList<>(favoriteRoutes);
     }
 
     @Transactional

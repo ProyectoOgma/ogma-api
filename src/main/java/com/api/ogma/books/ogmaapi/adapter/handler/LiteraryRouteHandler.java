@@ -43,6 +43,13 @@ public class LiteraryRouteHandler {
                 .toList();
     }
 
+    public List<LiteraryRouteResponse> getMyFavouriteRoutes() {
+        List<LiteraryRoute> literaryRoutes = literaryRouteService.getMyFavouriteRoutes();
+        return literaryRoutes.stream()
+                .map(literaryRouteMapper::fromLiteraryRouteToResponse)
+                .toList();
+    }
+
     /**
      * Add a literary route to the user's favorite list
      *

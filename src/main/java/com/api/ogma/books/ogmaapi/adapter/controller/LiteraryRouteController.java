@@ -5,6 +5,7 @@ import com.api.ogma.books.ogmaapi.adapter.handler.LiteraryRouteHandler;
 import com.api.ogma.books.ogmaapi.dto.domain.LiteraryRouteDTO;
 import com.api.ogma.books.ogmaapi.dto.request.LiteraryRouteRequest;
 import com.api.ogma.books.ogmaapi.dto.response.LiteraryRouteResponse;
+import com.api.ogma.books.ogmaapi.dto.response.MyLiteraryRouteResponse;
 import com.api.ogma.books.ogmaapi.dto.response.Response;
 import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import io.swagger.v3.oas.annotations.Operation;
@@ -51,12 +52,16 @@ public class LiteraryRouteController {
             @ApiResponse(responseCode = "500", description = "Error al obtener las rutas literarias, intentelo nuevamente")
     })
     @GetMapping("/my_routes")
-    public ResponseEntity<Response<List<LiteraryRouteResponse>>> getMyLiteraryRoutes() {
+    public ResponseEntity<Response<MyLiteraryRouteResponse>> getMyLiteraryRoutes() {
         try {
             List<LiteraryRouteResponse> literaryRoutes = literaryRouteHandler.getMyLiteraryRoutes();
-            String message = ObjectUtils.isEmpty(literaryRoutes) ? "El usuario no tiene rutas literarias creadas" : "Rutas literarias obtenidas correctamente";
+            List<LiteraryRouteResponse> favouriteRoutes = literaryRouteHandler.getMyFavouriteRoutes();
+            MyLiteraryRouteResponse myLiteraryRouteResponse = MyLiteraryRouteResponse.builder()
+                    .createdRoutes(literaryRoutes)
+                    .favoriteRoutes(favouriteRoutes)
+                    .build();
 
-            return ResponseUtil.createSuccessResponse(literaryRoutes, message);
+            return ResponseUtil.createSuccessResponse(myLiteraryRouteResponse, "Rutas literarias obtenidas correctamente");
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al obtener las rutas literarias, intentelo nuevamente",
                     HttpStatus.INTERNAL_SERVER_ERROR,
