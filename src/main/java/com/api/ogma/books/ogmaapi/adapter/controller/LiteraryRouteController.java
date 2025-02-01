@@ -11,12 +11,10 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
+import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -41,6 +39,25 @@ public class LiteraryRouteController {
             return ResponseUtil.createSuccessResponse(literaryRouteCreated, message);
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al crear la ruta literaria, intentelo nuevamente",
+                    HttpStatus.INTERNAL_SERVER_ERROR,
+                    List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Get my literary routes")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Rutas literarias obtenidas correctamente"),
+            @ApiResponse(responseCode = "500", description = "Error al obtener las rutas literarias, intentelo nuevamente")
+    })
+    @GetMapping("/my_routes")
+    public ResponseEntity<Response<List<LiteraryRouteResponse>>> getMyLiteraryRoutes() {
+        try {
+            List<LiteraryRouteResponse> literaryRoutes = literaryRouteHandler.getMyLiteraryRoutes();
+            String message = ObjectUtils.isEmpty(literaryRoutes) ? "El usuario no tiene rutas literarias creadas" : "Rutas literarias obtenidas correctamente";
+
+            return ResponseUtil.createSuccessResponse(literaryRoutes, message);
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al obtener las rutas literarias, intentelo nuevamente",
                     HttpStatus.INTERNAL_SERVER_ERROR,
                     List.of(e.getMessage()));
         }

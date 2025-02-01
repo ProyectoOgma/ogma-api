@@ -5,9 +5,12 @@ import com.api.ogma.books.ogmaapi.model.LiteraryRoute;
 import com.api.ogma.books.ogmaapi.repository.BookRepository;
 import com.api.ogma.books.ogmaapi.repository.LiteraryRouteRepository;
 import com.api.ogma.books.ogmaapi.repository.UserRepository;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 @AllArgsConstructor
@@ -29,6 +32,12 @@ public class LiteraryRouteService {
                                 .orElseThrow(() -> new UsernameNotFoundException("User not found"))));
         literaryRoute.setBooks(bookRepository.findAllById(literaryRouteDTO.getBookIds()));
         return literaryRouteRepository.save(literaryRoute);
+    }
 
+    public List<LiteraryRoute> getMyLiteraryRoutes() {
+        return literaryRouteRepository.findAllByUser(contextService.getUserDetails()
+                .map(user -> userRepository.findByEmail(user.getUsername())
+                        .orElseThrow(() -> new UsernameNotFoundException("User not found")))
+                .orElseThrow(() -> new EntityNotFoundException("Literary routes not found")));
     }
 }

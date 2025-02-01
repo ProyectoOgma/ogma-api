@@ -8,6 +8,8 @@ import com.api.ogma.books.ogmaapi.service.LiteraryRouteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @RequiredArgsConstructor
 @Service
 public class LiteraryRouteHandler {
@@ -15,9 +17,29 @@ public class LiteraryRouteHandler {
     private final LiteraryRouteService literaryRouteService;
     private final LiteraryRouteMapper literaryRouteMapper;
 
+    /**
+     * Create a new literary route
+     * Create a new literary route with the information provided
+     *
+     * @param literaryRouteRequest Literary route information
+     * @return Literary route created
+     */
     public LiteraryRouteResponse createLiteraryRoute(LiteraryRouteRequest literaryRouteRequest) {
         LiteraryRoute literaryRoute = literaryRouteService
                 .createLiteraryRoute(literaryRouteMapper.fromRequestToDTO(literaryRouteRequest));
         return literaryRouteMapper.fromLiteraryRouteToResponse(literaryRoute);
+    }
+
+    /**
+     * Get my literary routes
+     * Get a list of literary routes created by the user
+     *
+     * @return List of literary routes
+     */
+    public List<LiteraryRouteResponse> getMyLiteraryRoutes() {
+        List<LiteraryRoute> literaryRoutes = literaryRouteService.getMyLiteraryRoutes();
+        return literaryRoutes.stream()
+                .map(literaryRouteMapper::fromLiteraryRouteToResponse)
+                .toList();
     }
 }
