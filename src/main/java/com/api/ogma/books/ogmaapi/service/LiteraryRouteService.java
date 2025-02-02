@@ -50,6 +50,15 @@ public class LiteraryRouteService {
         return new ArrayList<>(favoriteRoutes);
     }
 
+    public List<LiteraryRoute> getAllLiteraryRoutes() {
+        return literaryRouteRepository.findAll();
+    }
+
+    public LiteraryRoute getLiteraryRouteById(Long id) {
+        return literaryRouteRepository.findById(id)
+                .orElseThrow(() -> new EntityNotFoundException("Literary route not found"));
+    }
+
     @Transactional
     public void addFavoriteLiteraryRoute(Long literaryRouteId) {
         User user = contextService.getUserEntityFromContext();

@@ -11,6 +11,7 @@ import com.api.ogma.books.ogmaapi.dto.response.ResponseUtil;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.http.HttpStatus;
@@ -64,6 +65,45 @@ public class LiteraryRouteController {
             return ResponseUtil.createSuccessResponse(myLiteraryRouteResponse, "Rutas literarias obtenidas correctamente");
         } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al obtener las rutas literarias, intentelo nuevamente",
+                    HttpStatus.INTERNAL_SERVER_ERROR,
+                    List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Get all literary routes")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Rutas literarias obtenidas correctamente"),
+            @ApiResponse(responseCode = "500", description = "Error al obtener las rutas literarias, intentelo nuevamente")
+    })
+    @GetMapping()
+    public ResponseEntity<Response<List<LiteraryRouteResponse>>> getAllLiteraryRoutes() {
+        try {
+            List<LiteraryRouteResponse> literaryRoutes = literaryRouteHandler.getAllLiteraryRoutes();
+
+            return ResponseUtil.createSuccessResponse(literaryRoutes, "Rutas literarias obtenidas correctamente");
+        } catch (Exception e) {
+            return ResponseUtil.createErrorResponse("Error al obtener las rutas literarias, intentelo nuevamente",
+                    HttpStatus.INTERNAL_SERVER_ERROR,
+                    List.of(e.getMessage()));
+        }
+    }
+
+    @Operation(summary = "Get literary route by id")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Ruta literaria obtenida correctamente"),
+            @ApiResponse(responseCode = "500", description = "Error al obtener la ruta literaria, intentelo nuevamente")
+    })
+    @GetMapping("/{literaryRouteId}")
+    public ResponseEntity<Response<LiteraryRouteResponse>> getLiteraryRouteById(@PathVariable Long literaryRouteId) {
+        try {
+            LiteraryRouteResponse literaryRoute = literaryRouteHandler.getLiteraryRouteById(literaryRouteId);
+
+            return ResponseUtil.createSuccessResponse(literaryRoute, "Ruta literaria obtenida correctamente");
+        } catch (Exception e) {
+            if (e instanceof EntityNotFoundException) {
+                throw e;
+            }
+            return ResponseUtil.createErrorResponse("Error al obtener la ruta literaria, intentelo nuevamente",
                     HttpStatus.INTERNAL_SERVER_ERROR,
                     List.of(e.getMessage()));
         }

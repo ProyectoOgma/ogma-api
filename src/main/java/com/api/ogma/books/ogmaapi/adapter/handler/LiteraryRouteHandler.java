@@ -51,6 +51,32 @@ public class LiteraryRouteHandler {
     }
 
     /**
+     * Get all literary routes
+     * Get a list of all literary routes
+     *
+     * @return List of literary routes
+     */
+    public List<LiteraryRouteResponse> getAllLiteraryRoutes() {
+        List<LiteraryRoute> literaryRoutes = literaryRouteService.getAllLiteraryRoutes();
+        return literaryRoutes.stream()
+                .map(literaryRouteMapper::fromLiteraryRouteToResponse)
+                .toList();
+    }
+
+    /**
+     * Get a literary route by id
+     * Get a literary route by its id
+     *
+     * @param literaryRouteId Literary route id
+     * @return Literary route
+     */
+    public LiteraryRouteResponse getLiteraryRouteById(Long literaryRouteId) {
+        LiteraryRoute literaryRoute = literaryRouteService.getLiteraryRouteById(literaryRouteId);
+        return literaryRouteMapper.fromLiteraryRouteToResponse(literaryRoute);
+    }
+
+
+    /**
      * Add a literary route to the user's favorite list
      *
      * @param literaryRouteId Literary route id
