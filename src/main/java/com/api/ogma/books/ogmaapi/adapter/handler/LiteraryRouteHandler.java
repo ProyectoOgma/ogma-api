@@ -1,6 +1,7 @@
 package com.api.ogma.books.ogmaapi.adapter.handler;
 
 import com.api.ogma.books.ogmaapi.adapter.mapper.LiteraryRouteMapper;
+import com.api.ogma.books.ogmaapi.dto.domain.LiteraryRouteDTO;
 import com.api.ogma.books.ogmaapi.dto.request.LiteraryRouteRequest;
 import com.api.ogma.books.ogmaapi.dto.response.LiteraryRouteResponse;
 import com.api.ogma.books.ogmaapi.model.LiteraryRoute;
@@ -60,6 +61,8 @@ public class LiteraryRouteHandler {
         List<LiteraryRoute> literaryRoutes = literaryRouteService.getAllLiteraryRoutes();
         return literaryRoutes.stream()
                 .map(literaryRouteMapper::fromLiteraryRouteToResponse)
+                .peek(literaryRoute ->
+                        literaryRoute.setIsFavourite(literaryRouteService.isFavourite(literaryRoute.getId())))
                 .toList();
     }
 
