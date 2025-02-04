@@ -19,4 +19,5 @@ public class LiteraryRouteResponse {
     @JsonProperty("books")
     @JsonIgnoreProperties(value = {"reviews", "authors", "genres", "synopsis", "langs", "height", "width", "weight", "depth", "shipping_date", "book_received"})
     private List<BookResponse> bookResponsesList;
+    private Boolean isFavourite;
 }

@@ -89,4 +89,10 @@ public class LiteraryRouteService {
         return literaryRouteRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Ruta literaria no encontrada"));
     }
+
+    public boolean isFavourite(Long literaryRouteId) {
+        User user = contextService.getUserEntityFromContext();
+        LiteraryRoute literaryRoute = findById(literaryRouteId);
+        return user.getFavoriteLiteraryRoutes().contains(literaryRoute);
+    }
 }
