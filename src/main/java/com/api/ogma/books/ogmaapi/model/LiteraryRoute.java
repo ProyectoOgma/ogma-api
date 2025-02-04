@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -35,13 +36,15 @@ public class LiteraryRoute extends Auditable {
     @JsonBackReference
     private User user;
 
-    @ManyToMany
-    @JoinTable(
-            name = "literary_route_book",
-            joinColumns = @JoinColumn(name = "id_literary_route"),
-            inverseJoinColumns = @JoinColumn(name = "id_book")
-    )
-    private List<Book> books;
+    @OneToMany(mappedBy = "literaryRoute", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OrderBy("orderIndex ASC")
+    private List<LiteraryRouteBook> literaryRouteBooks = new ArrayList<>();
+
+    // ✅ Ensure books are added via method to keep bidirectional mapping
+    public void addBook(Book book, int orderIndex) {
+        LiteraryRouteBook routeBook = new LiteraryRouteBook(this, book, orderIndex);
+        literaryRouteBooks.add(routeBook);
+    }
 
 
 }
