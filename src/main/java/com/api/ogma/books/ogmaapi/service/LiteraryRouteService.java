@@ -35,6 +35,7 @@ public class LiteraryRouteService {
                         literaryRoute.setUser(userRepository.findByEmail(user.getUsername())
                                 .orElseThrow(() -> new UsernameNotFoundException("User not found"))));
         literaryRoute.setBooks(bookRepository.findAllById(literaryRouteDTO.getBookIds()));
+        literaryRoute.setBookIdsOrder(literaryRouteDTO.getBookIds());
         return literaryRouteRepository.save(literaryRoute);
     }
 

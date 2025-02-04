@@ -43,5 +43,9 @@ public class LiteraryRoute extends Auditable {
     )
     private List<Book> books;
 
+    @ElementCollection
+    @CollectionTable(name = "book_ids_order", joinColumns = @JoinColumn(name = "id_literary_route"))
+    @Column(name = "book_id")
+    private List<Long> bookIdsOrder;
 
 }
