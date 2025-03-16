@@ -75,7 +75,9 @@ public class LiteraryRouteHandler {
      */
     public LiteraryRouteResponse getLiteraryRouteById(Long literaryRouteId) {
         LiteraryRoute literaryRoute = literaryRouteService.getLiteraryRouteById(literaryRouteId);
-        return literaryRouteMapper.fromLiteraryRouteToResponse(literaryRoute);
+        LiteraryRouteResponse literaryRouteResponse = literaryRouteMapper.fromLiteraryRouteToResponse(literaryRoute);
+        literaryRouteResponse.setIsFavourite(literaryRouteService.isFavourite(literaryRouteId));
+        return literaryRouteResponse;
     }
 
 
