@@ -29,9 +29,9 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
         CriteriaQuery<Post> query = cb.createQuery(Post.class);
         Root<Post> post = query.from(Post.class);
-        Join<Post, Book> book;
-        Join<Book, Genre> bookGenres;
-        Join<Post, User> user;
+        Join<Post, Book> book = post.join("book", JoinType.INNER);
+        Join<Book, Genre> bookGenres = book.join("genres", JoinType.INNER);
+        Join<Post, User> user = post.join("user", JoinType.INNER);
         Join<Post, StateHistory> stateHistory = post.join("stateHistories", JoinType.INNER);
         Join<StateHistory, State> state = stateHistory.join("state", JoinType.INNER);
 
@@ -43,16 +43,12 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
             predicates.add(cb.equal(post.get("type"), type));
         }
         if (genre != null && !genre.isEmpty()) {
-            book = post.join("book", JoinType.INNER);
-            bookGenres = book.join("genres", JoinType.INNER);
             predicates.add(cb.like(cb.lower(bookGenres.get("name")), "%" + genre.toLowerCase() + "%"));
         }
         if (bookTitle != null && !bookTitle.isEmpty()) {
-            book = post.join("book", JoinType.INNER);
             predicates.add(cb.like(cb.lower(book.get("title")), "%" + bookTitle.toLowerCase() + "%"));
         }
         if (authorName != null && !authorName.isEmpty()) {
-            book = post.join("book", JoinType.INNER);
             predicates.add(cb.like(cb.lower(book.join("authors").get("name")), "%" + authorName.toLowerCase() + "%"));
         }
         if (minPrice != null) {
@@ -68,11 +64,9 @@ public class PostRepositoryCustomImpl implements PostRepositoryCustom {
             predicates.add(cb.le(post.get("rating"), maxRating));
         }
         if (isUserId && userId != null && !userId.isEmpty()) {
-            user = post.join("user", JoinType.INNER);
             predicates.add(cb.notEqual(user.get("id"), Long.valueOf(userId)));
         }
         if (!isUserId && userId != null && !userId.isEmpty()) {
-            user = post.join("user", JoinType.INNER);
             predicates.add(cb.equal(user.get("id"), Long.valueOf(userId)));
         }
         //Por el momento es fijo, despues si vemos que lo tenemos que parametrizar lo hacemos

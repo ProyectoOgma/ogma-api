@@ -77,7 +77,7 @@ public class PostController {
 
         String message = posts.isEmpty() ? "Posts no encontrados" : "Posts encontrados";
         return ResponseUtil.createSuccessResponse(posts, message);
-    }
+}
 
     @Operation(summary = "Get post by id")
     @ApiResponses(value = {

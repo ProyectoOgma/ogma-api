@@ -44,6 +44,9 @@ public class Exchange implements StatefulEntity<ExchangeStates> {
 
     private Date exchangeDate;
 
+    @Nullable
+    private Date sendBookDate;
+
     private String shippingType; //por ahora es acuerdo con el vendededor unicamente
 
     @OneToMany(mappedBy = "exchange", cascade = CascadeType.ALL, orphanRemoval = true)

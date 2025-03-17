@@ -193,7 +193,7 @@ public class ExchangeController {
             exchangeHandler.receiveBook(exchangeId, receivedOkay);
 
             return ResponseUtil.createCustomStatusCodeResponse("Intercambio actualizado", "", HttpStatus.OK);
-        } catch (Exception | UserNotValidException e) {
+        } catch (Exception e) {
             return ResponseUtil.createErrorResponse("Error al confirmar el intercambio", HttpStatus.INTERNAL_SERVER_ERROR, List.of(e.getMessage()));
         }
     }

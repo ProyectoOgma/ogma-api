@@ -5,15 +5,12 @@ import com.api.ogma.books.ogmaapi.dto.states.PostStates;
 import com.api.ogma.books.ogmaapi.dto.states.StatefulEntity;
 import com.api.ogma.books.ogmaapi.dto.domain.BookState;
 import com.api.ogma.books.ogmaapi.dto.domain.PostType;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
 import lombok.*;
 import org.apache.commons.lang3.ObjectUtils;
-import org.hibernate.annotations.BatchSize;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -24,7 +21,6 @@ import java.util.Optional;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Id
     @Column(name = "id_post")
@@ -49,8 +45,7 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     @JsonManagedReference
     private Book book;
 
-    @ManyToMany(fetch = FetchType.LAZY)
-    @BatchSize(size = 10)
+    @ManyToMany
     @JoinTable(
             name = "post_desired_books",
             joinColumns = @JoinColumn(name = "post_id"),
@@ -62,23 +57,17 @@ public class Post extends Auditable implements StatefulEntity<PostStates> {
     @Enumerated(EnumType.STRING)
     private BookState bookState;
 
-    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @BatchSize(size = 10)
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<StateHistory> stateHistories;
 
-    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @BatchSize(size = 10)
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments;
 
-    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    @BatchSize(size = 10)
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ExchangeOffer> exchangeOffers;
 
     private boolean bookSend = false;
-
-    @Nullable
-    private Date shippingDate;
 
     @Nullable
     private Boolean bookReceived;

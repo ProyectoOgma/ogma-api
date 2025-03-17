@@ -14,7 +14,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.sql.Date;
 import java.time.LocalDate;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -52,12 +51,10 @@ public class User extends Auditable implements UserDetails {
 
     @ManyToOne
     @JoinColumn(name = "id_province")
-    @JsonBackReference
     private Province province;
 
     @ManyToOne
     @JoinColumn(name = "id_municipality")
-    @JsonBackReference
     private Municipality municipality;
 
     @Column(name = "address", nullable = true)
@@ -79,15 +76,6 @@ public class User extends Auditable implements UserDetails {
     @OneToMany(mappedBy = "user")
     @JsonManagedReference
     private Set<LiteraryRoute> literaryRoutes;
-
-    @ManyToMany
-    @JoinTable(
-            name = "user_favorite_literary_routes",
-            joinColumns = @JoinColumn(name = "user_id"),
-            inverseJoinColumns = @JoinColumn(name = "literary_route_id")
-    )
-    private Set<LiteraryRoute> favoriteLiteraryRoutes = new HashSet<>();
-
 
     @OneToMany(mappedBy = "user")
     @JsonManagedReference
