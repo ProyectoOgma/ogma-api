@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Builder
 @Data
 @NoArgsConstructor
@@ -14,5 +16,5 @@ public class LiteraryRouteDTO {
     private Integer rating;
     private String name;
     private String description;
-    private UserDTO userDTO;
+    private List<Long> bookIds;
 }

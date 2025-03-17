@@ -22,6 +22,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
@@ -135,14 +136,14 @@ public class ExchangeHandler {
         }
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
         User user = userService.getUserByEmail(userDetails.getUsername());
-        //find post by user id in exchange
         Post post = exchange.getPostByUser(user);
         post.setBookSend(true);
+        post.setShippingDate(new Date());
         postService.savePost(post);
         exchangeService.sendBook(exchange);
     }
 
-    public void receiveBook(Long exchangeId, Boolean receivedOkay) {
+    public void receiveBook(Long exchangeId, Boolean receivedOkay) throws UserNotValidException {
         Exchange exchange = exchangeService.getExchangeById(exchangeId);
         //validar que el intercambio este en estado en envio
         if (!stateService.validateState(exchange.getActualState(), ExchangeStates.EN_ENVIO)) {
@@ -150,8 +151,11 @@ public class ExchangeHandler {
             throw new IllegalArgumentException("Exchange not in valid state to receive book");
         }
         UserDetails userDetails = contextService.getUserDetails().orElseThrow(() -> new UsernameNotFoundException("User not found in context"));
-        User user = userService.getUserByEmail(userDetails.getUsername());
-        Post post = exchange.getPostByUser(user);
+        User otherUser = exchange.getUsers().stream()
+                .filter(user -> !user.getUsername().equals(userDetails.getUsername()))
+                .findFirst()
+                .orElseThrow(() -> new UserNotValidException("User not allowed to see this exchange"));
+        Post post = exchange.getPostByUser(otherUser);
         post.setBookReceived(receivedOkay);
         postService.savePost(post);
 
@@ -169,7 +173,11 @@ public class ExchangeHandler {
         if (exchange.getUsers().stream().noneMatch(user -> user.getUsername().equals(userDetails.getUsername()))){
             throw new UserNotValidException("User not allowed to see this exchange");
         }
-        boolean shouldReturnUserInfo = stateService.validateState(exchange.getActualState(), ExchangeStates.PENDIENTE_DE_ENVIO, ExchangeStates.EN_ENVIO);
+        boolean shouldReturnUserInfo = stateService.validateState(exchange.getActualState(),
+                ExchangeStates.PENDIENTE_DE_ENVIO,
+                ExchangeStates.EN_ENVIO,
+                ExchangeStates.CONCRETADO_SATISFACTORIAMENTE,
+                ExchangeStates.CONCRETADO_NO_SATISFACTORIAMENTE);
         return exchangeMapper.mapFromExchangeToExchangeResponse(exchange, userDetails, shouldReturnUserInfo);
     }
 
