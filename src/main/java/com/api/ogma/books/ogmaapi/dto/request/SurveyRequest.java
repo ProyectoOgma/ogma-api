@@ -17,4 +17,5 @@ public class SurveyRequest {
     private Integer bookRating;
     private Integer userRating;
     private String comment;
+    private Boolean recommendation;
 }

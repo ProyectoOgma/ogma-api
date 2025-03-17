@@ -21,6 +21,7 @@ public class SurveyService {
                 .userRating(survey.getUserRating())
                 .book(survey.getBook())
                 .bookRating(survey.getBookRating())
+                .recommendation(survey.getRecommendation())
                 .comment(survey.getComment())
                 .type(survey.getType())
                 .build();

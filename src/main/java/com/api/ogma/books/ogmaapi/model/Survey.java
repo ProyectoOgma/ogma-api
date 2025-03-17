@@ -48,6 +48,9 @@ public class Survey {
     @Column(name = "comment", nullable = true, length = 500)
     private String comment;
 
+    @Column(name = "recommendation", nullable = true)
+    private Boolean recommendation;
+
     // Type Exchange or Sale
     @Enumerated(EnumType.STRING)
     @Column(name = "type", nullable = false, length = 50)

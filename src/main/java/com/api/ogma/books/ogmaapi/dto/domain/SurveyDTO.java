@@ -20,6 +20,7 @@ public class SurveyDTO {
     private Book book;
     private Integer bookRating;
     private Integer userRating;
+    private Boolean recommendation;
     private String comment;
     private Survey.Type type;
 }
