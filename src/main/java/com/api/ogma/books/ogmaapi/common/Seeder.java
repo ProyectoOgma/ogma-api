@@ -45,7 +45,20 @@ public class Seeder implements CommandLineRunner {
                 .role(Role.USER)
                 .build();
 
+        // Crear usuario julian
+        User jbUser = User.builder()
+                .name("Julian")
+                .lastName("Bollatti")
+                .userSiteName("julianbollatti")
+                .email("jbollati.ogma@gmail.com")
+                .hashedPassword(passwordEncoder.encode("password"))
+                .role(Role.ADMIN)
+                .build();
+
         User userSaved = userRepository.save(user);
+        User jbUserSaved = userRepository.save(jbUser);
+
+        System.out.println("User seeded: " + jbUserSaved);
         System.out.println("User seeded: " + userSaved);
     }
 }
