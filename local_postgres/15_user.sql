@@ -1,1000 +1,3003 @@
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-03-06', 'mariacano-06.@outlook.com', 'male', 'P+vaDQDWwwA', 'Cano', 'María', 'USER', 'mariacano', 4, 7, '360-750-3498', 'Carretera del Alba 72', '@mariacano03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-03-09', 'antoniavega03-@outlook.com', 'male', 'P9f39i1scWY', 'Vega', 'Antonia', 'USER', 'antoniavega', 6, 2, '351-249-9811', 'Calle de la Aurora 39', '@antoniavega09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-02-11', 'nieveslorenzo_02.@hotmail.com', 'N/A', 'P+LbTE2n+aw', 'Lorenzo', 'Nieves', 'USER', 'nieveslorenzo', 3, 9, '351-418-2370', 'Avenida del Sol 9', '@nieveslorenzo2023');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2018-01-03', 'pilarbravo_2018-@hotmail.com', 'N/A', 'P9RZUDD4HZo', 'Bravo', 'Pilar', 'USER', 'pilarbravo', 2, 8, '360-192-1531', 'Calle de la Paz 42', '@pilarbravo03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-05-16', 'mariahidalgo1991_@outlook.com', 'female', 'P+VhtIaGJIc', 'Hidalgo', 'María', 'USER', 'mariahidalgo', 2, 9, '364-264-8703', 'Rambla del Mar 79', '@mariahidalgo05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-04-01', 'mariasantiago_2017_@gmail.com', 'male', 'P906uHvVdXA', 'Santiago', 'María', 'USER', 'mariasantiago', 10, 3, '357-143-2250', 'Plaza Mayor 54', '@mariasantiago2017');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-11-04', 'victoriamora.2021@gmail.com', 'male', 'P+SaGgEl7mw', 'Mora', 'Victoria', 'USER', 'victoriamora', 1, 2, '367-562-2643', 'Ronda del Parque 80', '@victoriamora11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-12-02', 'mariasantana12-@hotmail.com', 'female', 'P+NK1QylgBk', 'Santana', 'María', 'USER', 'mariasantana', 8, 3, '354-724-1339', 'Carretera de la Flor 63', '@mariasantana02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-10-12', 'antoniasantiago-1948@gmail.com', 'male', 'P8nZT0V+hMQ', 'Santiago', 'Antonia', 'USER', 'antoniasantiago', 3, 3, '354-572-8794', 'Plaza de la Libertad 25', '@antoniasantiago1948');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-08-04', 'mercedesmarin_1937@gmail.com', 'male', 'P99m4bhmQvQ', 'Marín', 'Mercedes', 'USER', 'mercedesmarin', 10, 1, '365-328-4189', 'Rambla de los Sueños 45', '@mercedesmarin04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-01-14', 'josecortes.14_@outlook.com', 'male', 'P9+SgSnE2Qo', 'Cortés', 'José', 'USER', 'josecortes', 5, 10, '364-472-6069', 'Calle de la Paz 5', '@josecortes14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-08-21', 'mercedesbravo-08.@outlook.com', 'female', 'P9GoB/ucNBY', 'Bravo', 'Mercedes', 'USER', 'mercedesbravo', 10, 9, '364-193-6292', 'Rambla de los Sueños 58', '@mercedesbravo21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-08-07', 'mariagutierrez07.@outlook.com', 'male', 'P994InwP1pI', 'Gutiérrez', 'María', 'USER', 'mariagutierrez', 10, 8, '352-914-1371', 'Carretera de la Sierra 98', '@mariagutierrez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-08-21', 'josecarmona.21_@hotmail.com', 'N/A', 'P7GEf2OIA2A', 'Carmona', 'José', 'USER', 'josecarmona', 8, 4, '351-855-6785', 'Avenida del Sauce 86', '@josecarmona08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-10-25', 'mariacano.10@gmail.com', 'female', 'P99PWJm82AA', 'Cano', 'María', 'USER', 'mariacano', 3, 3, '360-962-9359', 'Camino de la Esperanza 29', '@mariacano10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-08-25', 'luzcarrasco1999_@gmail.com', 'male', 'P9Jc9W+BbmA', 'Carrasco', 'Luz', 'USER', 'luzcarrasco', 9, 1, '370-513-6066', 'Rambla del Horizonte 16', '@luzcarrasco08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-04-04', 'miguelsoto-04_@outlook.com', 'N/A', 'P8G5fKy3zNQ', 'Soto', 'Miguel', 'USER', 'miguelsoto', 2, 8, '370-106-4498', 'Avenida del Sol 1', '@miguelsoto04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1965-05-12', 'nievesdominguez_12.@gmail.com', 'female', 'P5dplEvO+kA', 'Domínguez', 'Nieves', 'USER', 'nievesdominguez', 7, 5, '357-305-3789', 'Plaza del Mirador 37', '@nievesdominguez1965');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-09-10', 'mariabermudez_1986_@outlook.com', 'N/A', 'P98jThti5pg', 'Bermúdez', 'María', 'USER', 'mariabermudez', 9, 5, '351-879-2438', 'Ronda del Parque 91', '@mariabermudez1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-08-22', 'joseaguilar.08_@gmail.com', 'N/A', 'P6zWRFQm7wA', 'Aguilar', 'José', 'USER', 'joseaguilar', 2, 2, '361-597-1810', 'Travesía de la Montaña 90', '@joseaguilar08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-08-09', 'mariacabrera-08.@hotmail.com', 'female', 'P+y3Cjhcc/4', 'Cabrera', 'María', 'USER', 'mariacabrera', 1, 7, '354-134-3641', 'Plaza de las Campanas 8', '@mariacabrera1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-05-25', 'teresalorenzo25.@outlook.com', 'N/A', 'P+O+jSJIjXs', 'Lorenzo', 'Teresa', 'USER', 'teresalorenzo', 2, 3, '360-787-1954', 'Rambla del Horizonte 15', '@teresalorenzo2007');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-08-07', 'isabelmoya.08-@gmail.com', 'female', 'P982PmVA9RA', 'Moya', 'Isabel', 'USER', 'isabelmoya', 3, 2, '367-650-7547', 'Paseo de los Álamos 1', '@isabelmoya07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-06-23', 'josemartin06-@hotmail.com', 'male', 'P9CIIB7zMXg', 'Martín', 'José', 'USER', 'josemartin', 2, 5, '368-672-4762', 'Camino de los Aromas 86', '@josemartin23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-08-18', 'rosamartinez.08.@gmail.com', 'male', 'P8PJ7/QzuKA', 'Martínez', 'Rosa', 'USER', 'rosamartinez', 2, 5, '361-994-5014', 'Ronda de los Abedules 60', '@rosamartinez18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-05-13', 'mariamontero_1940-@gmail.com', 'male', 'P+xjnCfyvf0', 'Montero', 'María', 'USER', 'mariamontero', 4, 10, '359-257-5573', 'Ronda de los Abedules 24', '@mariamontero13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-09-10', 'carmenalonso_09@gmail.com', 'N/A', 'P7gQgzMVmCA', 'Alonso', 'Carmen', 'USER', 'carmenalonso', 8, 3, '362-890-5253', 'Travesía del Río 17', '@carmenalonso10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-08-04', 'pilaralonso_04@outlook.com', 'N/A', 'P+ZH5Jz7usw', 'Alonso', 'Pilar', 'USER', 'pilaralonso', 9, 2, '358-763-3175', 'Cuesta de la Luz 2', '@pilaralonso1967');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-05-04', 'teresasoto_1967-@outlook.com', 'male', 'P+gDD/zYkkY', 'Soto', 'Teresa', 'USER', 'teresasoto', 6, 1, '354-240-3598', 'Camino de la Esperanza 11', '@teresasoto1967');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-06-13', 'mariaibanez06_@outlook.com', 'female', 'P+YREF/LwEg', 'Ibáñez', 'María', 'USER', 'mariaibanez', 1, 8, '357-545-7111', 'Cuesta de los Vientos 17', '@mariaibanez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-04-21', 'rosariolozano-2007-@hotmail.com', 'N/A', 'P+21FrCVIik', 'Lozano', 'Rosario', 'USER', 'rosariolozano', 3, 6, '370-990-8581', 'Travesía del Río 50', '@rosariolozano2007');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-04-08', 'mariaherrero_1967@outlook.com', 'female', 'P8GDR0AWLgg', 'Herrero', 'María', 'USER', 'mariaherrero', 6, 4, '368-501-2181', 'Callejón del Gato 90', '@mariaherrero08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-06-15', 'rosaromero2024-@outlook.com', 'female', 'P6/KRd0LjFA', 'Romero', 'Rosa', 'USER', 'rosaromero', 2, 8, '353-374-4234', 'Paseo de los Cedros 61', '@rosaromero15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-08-26', 'antoniadelgado_1989.@gmail.com', 'male', 'P9ZfDq5ps4w', 'Delgado', 'Antonia', 'USER', 'antoniadelgado', 2, 8, '361-866-7964', 'Plaza de las Campanas 30', '@antoniadelgado1989');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-10-24', 'mariamartin.10@outlook.com', 'N/A', 'P9QJVOizm4o', 'Martín', 'María', 'USER', 'mariamartin', 7, 2, '367-519-1659', 'Paseo del Horizonte 83', '@mariamartin2023');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-01-20', 'mariacastro_01-@gmail.com', 'N/A', 'P9wEuCjh/y4', 'Castro', 'María', 'USER', 'mariacastro', 2, 7, '355-455-7574', 'Avenida de la Luna 26', '@mariacastro20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-07-08', 'mariacarmona-07-@hotmail.com', 'N/A', 'P+LPL4O0Lr0', 'Carmona', 'María', 'USER', 'mariacarmona', 1, 1, '361-338-3008', 'Rambla de los Jazmines 98', '@mariacarmona08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-07-07', 'pazramos.07-@hotmail.com', 'male', 'P+WgNSOP/4k', 'Ramos', 'Paz', 'USER', 'pazramos', 8, 4, '351-695-1587', 'Cuesta del Lago 54', '@pazramos07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-11-28', 'mariavazquez.1940@outlook.com', 'male', 'P9rcMIAwPAw', 'Vázquez', 'María', 'USER', 'mariavazquez', 8, 1, '351-252-3793', 'Calle de la Paz 39', '@mariavazquez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-03-15', 'mariadiaz-15@hotmail.com', 'male', 'P9gVbRWne14', 'Díaz', 'María', 'USER', 'mariadiaz', 3, 8, '358-827-5928', 'Primavera 42', '@mariadiaz03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-08-27', 'mariamoya_27_@hotmail.com', 'male', 'P9jRgSI7jyI', 'Moya', 'María', 'USER', 'mariamoya', 3, 10, '358-887-2076', 'Carretera del Alba 46', '@mariamoya1994');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-04-28', 'juanpardo.28_@hotmail.com', 'N/A', 'P9GzdCS7Ylg', 'Pardo', 'Juan', 'USER', 'juanpardo', 7, 3, '355-582-2961', 'Travesía del Valle 30', '@juanpardo2014');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2016-02-23', 'pablogarrido.23_@gmail.com', 'female', 'P6xNySQNvSA', 'Garrido', 'Pablo', 'USER', 'pablogarrido', 1, 7, '355-346-2235', 'Camino de las Rosas 21', '@pablogarrido23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-10-24', 'teresacarmona.10.@hotmail.com', 'male', 'P8Y5rNWVUBg', 'Carmona', 'Teresa', 'USER', 'teresacarmona', 7, 6, '368-285-4443', 'Cuesta de la Luz 5', '@teresacarmona24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1973-04-22', 'angelavicente.1973.@outlook.com', 'female', 'P9StzcBCOI4', 'Vicente', 'Ángela', 'USER', 'angelavicente', 1, 3, '352-777-1228', 'Camino Real 90', '@angelavicente04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1985-05-18', 'mariagarcia-18.@hotmail.com', 'N/A', 'P98FLzy43iI', 'García', 'María', 'USER', 'mariagarcia', 9, 6, '363-872-4480', 'Travesía del Olivo 14', '@mariagarcia1985');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-08-09', 'pilarfuentes-09-@gmail.com', 'N/A', 'P7Eg64q1Wlg', 'Fuentes', 'Pilar', 'USER', 'pilarfuentes', 4, 4, '367-197-4539', 'Rambla de los Encantos 20', '@pilarfuentes2015');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-04-17', 'fernandoleon-1986.@gmail.com', 'N/A', 'P9q6LmAIGqw', 'León', 'Fernando', 'USER', 'fernandoleon', 4, 4, '365-341-6303', 'Plaza Mayor 32', '@fernandoleon17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1985-02-01', 'mercedescastillo-02-@hotmail.com', 'female', 'P+GpuTonHsY', 'Castillo', 'Mercedes', 'USER', 'mercedescastillo', 8, 4, '369-506-9805', 'Rambla del Mar 77', '@mercedescastillo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-05-06', 'albertoaguilar_1978-@gmail.com', 'N/A', 'P+Nw004DhAo', 'Aguilar', 'Alberto', 'USER', 'albertoaguilar', 5, 5, '362-156-8798', 'Carretera del Alba 24', '@albertoaguilar06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-05-02', 'pablobravo_1935-@hotmail.com', 'male', 'P+5AANIFbg4', 'Bravo', 'Pablo', 'USER', 'pablobravo', 3, 8, '367-127-9291', 'Plaza Mayor 39', '@pablobravo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-09-13', 'lourdespena13@gmail.com', 'male', 'P9W4HLUKL1Q', 'Peña', 'Lourdes', 'USER', 'lourdespena', 6, 5, '353-531-9681', 'Plaza de la Fuente 55', '@lourdespena13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-09-21', 'mariavazquez1986.@gmail.com', 'female', 'P+v02+9B1hw', 'Vázquez', 'María', 'USER', 'mariavazquez', 8, 10, '366-196-1720', 'Travesía del Olivo 5', '@mariavazquez1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-04-06', 'mariacabrera.04.@gmail.com', 'N/A', 'P8+B08zmZFg', 'Cabrera', 'María', 'USER', 'mariacabrera', 5, 2, '354-961-7737', 'Paseo de los Álamos 40', '@mariacabrera04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-08-03', 'josejimenez_1975-@hotmail.com', 'male', 'P8hNsWBPxiQ', 'Jiménez', 'José', 'USER', 'josejimenez', 10, 2, '352-540-7646', 'Camino de la Esperanza 28', '@josejimenez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-02-07', 'mariacarmona_1937.@hotmail.com', 'female', 'P+jmmkUpHE0', 'Carmona', 'María', 'USER', 'mariacarmona', 7, 6, '351-987-2237', 'Travesía de la Montaña 30', '@mariacarmona1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-02-26', 'mariaredondo_1941-@hotmail.com', 'N/A', 'P0y+wAieTAA', 'Redondo', 'María', 'USER', 'mariaredondo', 6, 7, '370-254-6287', 'Plaza de las Campanas 29', '@mariaredondo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-10-22', 'mariamedina_22-@hotmail.com', 'female', 'P6/+6/X143A', 'Medina', 'María', 'USER', 'mariamedina', 4, 4, '365-125-5588', 'Callejón del Gato 20', '@mariamedina22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-06-07', 'luztorres-07-@gmail.com', 'female', 'P+/2HZPW/ng', 'Torres', 'Luz', 'USER', 'luztorres', 3, 2, '359-903-6956', 'Rambla del Horizonte 92', '@luztorres1961');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-02-28', 'raquelsalas1997.@hotmail.com', 'female', 'P+g3FkFbGq8', 'Salas', 'Raquel', 'USER', 'raquelsalas', 1, 6, '364-128-4810', 'Avenida del Sauce 68', '@raquelsalas1997');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1974-04-26', 'mariacastillo.1974.@hotmail.com', 'male', 'P9mcxkWsO2I', 'Castillo', 'María', 'USER', 'mariacastillo', 7, 6, '370-263-9223', 'Travesía de la Montaña 57', '@mariacastillo26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-01-18', 'mariabravo2019-@hotmail.com', 'female', 'P+v20bCqSxE', 'Bravo', 'María', 'USER', 'mariabravo', 4, 10, '369-862-2765', 'Camino de los Aromas 85', '@mariabravo18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-03-09', 'soledadbermudez-09_@gmail.com', 'N/A', 'P+7NIidlVuw', 'Bermúdez', 'Soledad', 'USER', 'soledadbermudez', 9, 1, '352-201-4103', 'Carretera del Alba 14', '@soledadbermudez09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-02-07', 'josedelgado.02_@hotmail.com', 'male', 'P5gsS2TVewA', 'Delgado', 'José', 'USER', 'josedelgado', 6, 2, '357-130-8317', 'Cuesta del Molino 99', '@josedelgado1969');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-12-27', 'mariamartin-27-@hotmail.com', 'N/A', 'P9+O+FGI3IQ', 'Martín', 'María', 'USER', 'mariamartin', 10, 9, '361-509-4972', 'Ronda de los Nogales 75', '@mariamartin12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-04-24', 'anamontero-24_@hotmail.com', 'N/A', 'P+wrBVBgvik', 'Montero', 'Ana', 'USER', 'anamontero', 1, 6, '366-456-6944', 'Cuesta del Molino 88', '@anamontero2001');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-08-26', 'soledadrojas26@outlook.com', 'female', 'P+sYrc+5Lhc', 'Rojas', 'Soledad', 'USER', 'soledadrojas', 1, 9, '361-416-6715', 'Paseo de los Pinos 64', '@soledadrojas08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-10-02', 'nievesgarrido.1968.@gmail.com', 'male', 'P8PXXFvw/6Q', 'Garrido', 'Nieves', 'USER', 'nievesgarrido', 5, 1, '356-154-6245', 'Rambla de los Jazmines 60', '@nievesgarrido02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-09-14', 'mariaprieto_14_@gmail.com', 'N/A', 'P6HYWrozXpA', 'Prieto', 'María', 'USER', 'mariaprieto', 7, 9, '368-387-9815', 'Camino de las Rosas 99', '@mariaprieto1991');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-11-23', 'mariajimenez_2013_@gmail.com', 'male', 'P9XCJuLb0gA', 'Jiménez', 'María', 'USER', 'mariajimenez', 1, 5, '351-735-6751', 'Carretera de la Sierra 53', '@mariajimenez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-12-21', 'miguelortiz12@gmail.com', 'N/A', 'P7hAysDboEg', 'Ortiz', 'Miguel', 'USER', 'miguelortiz', 3, 3, '352-219-1634', 'Paseo de los Álamos 5', '@miguelortiz1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-03-01', 'marialorenzo01-@gmail.com', 'male', 'P+zsl9R7RUI', 'Lorenzo', 'María', 'USER', 'marialorenzo', 9, 8, '358-361-5427', 'Avenida del Sauce 98', '@marialorenzo01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-11-25', 'rosapardo_25@outlook.com', 'N/A', 'P9xER8mQaUo', 'Pardo', 'Rosa', 'USER', 'rosapardo', 6, 6, '360-900-4703', 'Paseo de los Cedros 32', '@rosapardo2024');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-03-03', 'pablovidal_03-@gmail.com', 'N/A', 'P+zk9Shr1U4', 'Vidal', 'Pablo', 'USER', 'pablovidal', 10, 1, '359-463-7491', 'Rambla de los Encantos 72', '@pablovidal1966');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-05-05', 'jorgenavarro_05@hotmail.com', 'female', 'P+ThzYEa9oo', 'Navarro', 'Jorge', 'USER', 'jorgenavarro', 2, 7, '358-989-9454', 'Plaza de la Libertad 99', '@jorgenavarro05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-11-12', 'marialozano.1940_@outlook.com', 'male', 'P+wGDkNQQw4', 'Lozano', 'María', 'USER', 'marialozano', 5, 10, '353-238-4445', 'Cuesta del Molino 97', '@marialozano12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-12-18', 'marinarubio.12-@gmail.com', 'male', 'P7NpxfSjRjg', 'Rubio', 'Marina', 'USER', 'marinarubio', 9, 9, '354-683-9641', 'Rambla del Mar 98', '@marinarubio18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-11-21', 'teresaiglesias_21-@outlook.com', 'N/A', 'P9udUW55QoQ', 'Iglesias', 'Teresa', 'USER', 'teresaiglesias', 10, 1, '355-363-7156', 'Avenida del Sol 35', '@teresaiglesias11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-06-02', 'marianavarro_02_@hotmail.com', 'N/A', 'P+rsMRrMKak', 'Navarro', 'María', 'USER', 'marianavarro', 8, 10, '357-546-8350', 'Calle de los Tulipanes 35', '@marianavarro1995');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-06-21', 'mariasantana_06.@hotmail.com', 'N/A', 'P7QHxsWvR1A', 'Santana', 'María', 'USER', 'mariasantana', 4, 8, '369-284-1404', 'Cuesta del Molino 42', '@mariasantana1980');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-10-01', 'rosablanco.10_@outlook.com', 'N/A', 'P+3wFvkenyg', 'Blanco', 'Rosa', 'USER', 'rosablanco', 3, 4, '353-531-2303', 'Avenida de las Estrellas 3', '@rosablanco1999');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-07-11', 'josecabrera-07_@hotmail.com', 'male', 'P9XySk8FQHA', 'Cabrera', 'José', 'USER', 'josecabrera', 2, 6, '366-606-5167', 'Ronda de San Pedro 68', '@josecabrera2001');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-10-18', 'mariagarcia-1949_@hotmail.com', 'male', 'P9Osn2al5mA', 'García', 'María', 'USER', 'mariagarcia', 3, 4, '364-803-9792', 'Ronda de los Nogales 55', '@mariagarcia10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-11-25', 'mariaperez1966_@gmail.com', 'N/A', 'P6CR7fSJkEA', 'Pérez', 'María', 'USER', 'mariaperez', 2, 6, '358-596-9876', 'Ronda de los Abedules 19', '@mariaperez1966');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-02-19', 'mariaalonso_19-@outlook.com', 'N/A', 'P+UtLgU6AKg', 'Alonso', 'María', 'USER', 'mariaalonso', 10, 9, '355-776-3408', 'Avenida del Sauce 2', '@mariaalonso1949');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-04-20', 'mariamora-04@outlook.com', 'male', 'P9hyIUYtrS4', 'Mora', 'María', 'USER', 'mariamora', 9, 8, '362-702-5035', 'Camino de las Rosas 12', '@mariamora20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1973-04-23', 'mariamunoz1973_@gmail.com', 'male', 'P9ZomDFLEkQ', 'Muñoz', 'María', 'USER', 'mariamunoz', 10, 8, '364-309-9438', 'Travesía del Río 42', '@mariamunoz23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-02-01', 'jorgerey01-@outlook.com', 'male', 'P+NscsXigp8', 'Rey', 'Jorge', 'USER', 'jorgerey', 4, 10, '356-675-6506', 'Plaza Mayor 62', '@jorgerey01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-11-17', 'josemoya-17@hotmail.com', 'female', 'P+Nx8KpopOM', 'Moya', 'José', 'USER', 'josemoya', 3, 4, '368-600-7819', 'Rambla del Mar 93', '@josemoya11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-08-19', 'pauladiaz-19-@hotmail.com', 'N/A', 'P+9EDeByo1I', 'Díaz', 'Paula', 'USER', 'pauladiaz', 4, 7, '366-576-8804', 'Paseo del Horizonte 97', '@pauladiaz1951');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-10-13', 'carmenperez.1963.@hotmail.com', 'female', 'P9LAsJnfdLw', 'Pérez', 'Carmen', 'USER', 'carmenperez', 3, 3, '355-705-4382', 'Ronda de los Abedules 78', '@carmenperez1963');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-02-21', 'mariaromero.21@hotmail.com', 'female', 'P8CfLVGSQmw', 'Romero', 'María', 'USER', 'mariaromero', 2, 9, '358-266-9332', 'Travesía del Río 51', '@mariaromero1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-10-09', 'luzlopez_1962_@gmail.com', 'female', 'P+WCMSv/UOI', 'López', 'Luz', 'USER', 'luzlopez', 10, 3, '366-437-7861', 'Paseo de los Pinos 57', '@luzlopez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-04-15', 'lourdesbermudez-1956-@gmail.com', 'N/A', 'P+sRVpdM5no', 'Bermúdez', 'Lourdes', 'USER', 'lourdesbermudez', 3, 2, '369-962-8418', 'Ronda de los Abedules 42', '@lourdesbermudez04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-07-18', 'angelesblanco-18-@gmail.com', 'female', 'P+4PARwH+MM', 'Blanco', 'Ángeles', 'USER', 'angelesblanco', 8, 6, '368-672-6463', 'Cuesta del Castillo 20', '@angelesblanco1944');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-11-01', 'mariavega_1952@gmail.com', 'female', 'P+bd3kWwcVo', 'Vega', 'María', 'USER', 'mariavega', 8, 3, '367-286-6125', 'Cuesta del Castillo 92', '@mariavega11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-01-28', 'mariavidal-1952.@outlook.com', 'female', 'P7bIby2fCUg', 'Vidal', 'María', 'USER', 'mariavidal', 8, 4, '356-395-3404', 'Cuesta del Molino 15', '@mariavidal1952');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-02-10', 'milagrosarias_02@hotmail.com', 'N/A', 'P9fyK7qAc4o', 'Arias', 'Milagros', 'USER', 'milagrosarias', 5, 8, '351-685-9279', 'Plaza del Mirador 89', '@milagrosarias1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-04-20', 'mariagimenez04.@outlook.com', 'N/A', 'P+f+4K6Iw3s', 'Giménez', 'María', 'USER', 'mariagimenez', 9, 9, '351-344-1604', 'Paseo de los Cedros 91', '@mariagimenez20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-12-16', 'fernandoleon_16@hotmail.com', 'female', 'P82jNumPs2w', 'León', 'Fernando', 'USER', 'fernandoleon', 4, 5, '357-922-6908', 'Carretera de la Flor 70', '@fernandoleon1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-09-26', 'teresagomez.09.@outlook.com', 'male', 'P92SJcGIhxw', 'Gómez', 'Teresa', 'USER', 'teresagomez', 7, 1, '359-267-4631', 'Ronda de los Abedules 69', '@teresagomez26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-02-06', 'albertosantana.2022-@outlook.com', 'male', 'P96fBOGTzII', 'Santana', 'Alberto', 'USER', 'albertosantana', 6, 1, '363-518-1679', 'Plaza de la Fuente 95', '@albertosantana06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-07-20', 'mariablanco_20.@gmail.com', 'male', 'P9LrfqgdUpY', 'Blanco', 'María', 'USER', 'mariablanco', 2, 9, '355-601-6876', 'Ronda de los Nogales 38', '@mariablanco20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-07-24', 'laurahernandez24_@hotmail.com', 'male', 'P7b2vBSxkeA', 'Hernández', 'Laura', 'USER', 'laurahernandez', 10, 4, '351-651-2716', 'Ronda del Bosque 73', '@laurahernandez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-05-27', 'mariacarmona27@outlook.com', 'male', 'P+bonCSJ0bU', 'Carmona', 'María', 'USER', 'mariacarmona', 9, 3, '362-561-2625', 'Ronda de los Abedules 28', '@mariacarmona27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-08-02', 'cristinacalvo.08-@gmail.com', 'N/A', 'P+Bi3TCMZ0g', 'Calvo', 'Cristina', 'USER', 'cristinacalvo', 5, 7, '361-732-8435', 'Avenida del Sol 42', '@cristinacalvo2002');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-02-02', 'fernandomontero_02_@outlook.com', 'male', 'P+owh/XHhjc', 'Montero', 'Fernando', 'USER', 'fernandomontero', 6, 7, '363-646-6544', 'Avenida del Amanecer 90', '@fernandomontero2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-12-07', 'mariaiglesias12.@hotmail.com', 'male', 'P+tqAj01kvg', 'Iglesias', 'María', 'USER', 'mariaiglesias', 9, 5, '355-329-6501', 'Calle de la Aurora 33', '@mariaiglesias12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-05-11', 'mariapena-05_@hotmail.com', 'N/A', 'P+z859upzSI', 'Peña', 'María', 'USER', 'mariapena', 8, 4, '351-608-4511', 'Paseo de los Álamos 7', '@mariapena1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-10-01', 'angelesvicente.10-@gmail.com', 'female', 'P9d4WVsE7tI', 'Vicente', 'Ángeles', 'USER', 'angelesvicente', 4, 5, '370-200-2574', 'Camino de la Loma 89', '@angelesvicente01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-05-08', 'luzsantiago_05-@hotmail.com', 'male', 'P+FGWwl6azU', 'Santiago', 'Luz', 'USER', 'luzsantiago', 4, 3, '364-419-9382', 'Rambla de los Jazmines 76', '@luzsantiago1992');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-02-28', 'elenacarmona_2012_@hotmail.com', 'female', 'P+XycSa2+zU', 'Carmona', 'Elena', 'USER', 'elenacarmona', 8, 5, '358-750-5780', 'Primavera 39', '@elenacarmona02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-12-10', 'manuelbermudez1987_@outlook.com', 'female', 'P+CU/XnrrrM', 'Bermúdez', 'Manuel', 'USER', 'manuelbermudez', 8, 2, '358-174-8315', 'Rambla de los Encantos 19', '@manuelbermudez12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-12-22', 'nievessantiago.12-@hotmail.com', 'male', 'P5wNm5mDQ4A', 'Santiago', 'Nieves', 'USER', 'nievessantiago', 10, 6, '356-306-2249', 'Paseo de los Álamos 78', '@nievessantiago22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-06-12', 'africadiaz06_@outlook.com', 'male', 'P+xXeVd8RHI', 'Díaz', 'África', 'USER', 'africadiaz', 4, 6, '364-938-5892', 'Travesía del Olivo 65', '@africadiaz1949');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-04-16', 'mariamartin-16-@gmail.com', 'N/A', 'P+gNw0YT7PU', 'Martín', 'María', 'USER', 'mariamartin', 3, 8, '359-782-6109', 'Plaza de las Campanas 77', '@mariamartin1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-11-21', 'teresagutierrez_1999_@hotmail.com', 'N/A', 'P8cYso85Clw', 'Gutiérrez', 'Teresa', 'USER', 'teresagutierrez', 8, 8, '364-112-7298', 'Avenida del Sauce 3', '@teresagutierrez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-09-11', 'mariaortega-09.@outlook.com', 'N/A', 'P+07vJnOrnk', 'Ortega', 'María', 'USER', 'mariaortega', 9, 5, '357-539-9592', 'Cuesta del Castillo 5', '@mariaortega1979');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1955-07-01', 'angelahernandez.1955@gmail.com', 'female', 'P+7aFDkJNlw', 'Hernández', 'Ángela', 'USER', 'angelahernandez', 2, 9, '365-861-3250', 'Avenida del Amanecer 68', '@angelahernandez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-05-25', 'mariacarrasco-25-@outlook.com', 'female', 'P+/OlnZKndI', 'Carrasco', 'María', 'USER', 'mariacarrasco', 6, 8, '356-430-1958', 'Camino de los Aromas 62', '@mariacarrasco05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-02-18', 'mariaruiz-18_@gmail.com', 'male', 'P6sQZMhEcwA', 'Ruiz', 'María', 'USER', 'mariaruiz', 5, 10, '354-834-1064', 'Camino de los Aromas 23', '@mariaruiz18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-02-18', 'doloresserrano02-@hotmail.com', 'male', 'P9/rRPi9fwY', 'Serrano', 'Dolores', 'USER', 'doloresserrano', 3, 4, '365-182-9479', 'Carretera del Cielo 50', '@doloresserrano02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-09-08', 'anajimenez-09.@gmail.com', 'female', 'P83A9QRBLcA', 'Jiménez', 'Ana', 'USER', 'anajimenez', 10, 8, '356-315-9230', 'Carretera del Cielo 91', '@anajimenez09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-04-08', 'mariaestevez-2012-@gmail.com', 'N/A', 'P9DKgmS8LHA', 'Estévez', 'María', 'USER', 'mariaestevez', 5, 6, '352-375-2955', 'Calle de la Aurora 7', '@mariaestevez2012');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-07-01', 'lourdessoto-1967.@hotmail.com', 'female', 'P86TBh7Zu8Q', 'Soto', 'Lourdes', 'USER', 'lourdessoto', 7, 4, '353-675-5343', 'Rambla del Horizonte 45', '@lourdessoto1967');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-11-09', 'mariadelgado-2011@hotmail.com', 'male', 'P+eK/UFy+1o', 'Delgado', 'María', 'USER', 'mariadelgado', 2, 4, '368-942-3865', 'Paseo de los Pinos 39', '@mariadelgado2011');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-03-16', 'mariasoto_16@gmail.com', 'male', 'P+P4KU2xvKA', 'Soto', 'María', 'USER', 'mariasoto', 1, 1, '351-138-6577', 'Camino de la Loma 23', '@mariasoto03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-12-11', 'angelesaguilar_12-@gmail.com', 'male', 'P9H8/ZfFrFw', 'Aguilar', 'Ángeles', 'USER', 'angelesaguilar', 8, 8, '358-683-5149', 'Rambla de los Jazmines 5', '@angelesaguilar12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-08-15', 'consuelosoto_08-@gmail.com', 'female', 'P5OtlJPdzsA', 'Soto', 'Consuelo', 'USER', 'consuelosoto', 10, 3, '357-958-2994', 'Paseo de la Amistad 81', '@consuelosoto15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-04-23', 'mariadominguez_04_@hotmail.com', 'male', 'P+EVttGx914', 'Domínguez', 'María', 'USER', 'mariadominguez', 5, 4, '366-439-5657', 'Plaza Mayor 87', '@mariadominguez04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-12-20', 'mariaramirez2023-@hotmail.com', 'male', 'P86d0RoUbCA', 'Ramírez', 'María', 'USER', 'mariaramirez', 5, 2, '362-915-9175', 'Avenida del Sauce 77', '@mariaramirez2023');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-08-02', 'angelalozano1994@gmail.com', 'female', 'P9VZ4YL5b9A', 'Lozano', 'Ángela', 'USER', 'angelalozano', 2, 5, '367-555-1820', 'Carretera del Alba 24', '@angelalozano08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-06-14', 'mariaramos.2023-@hotmail.com', 'male', 'P+AkaY2+VTk', 'Ramos', 'María', 'USER', 'mariaramos', 1, 10, '354-540-9164', 'Plaza del Mirador 18', '@mariaramos06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-04-15', 'mariacano.1938-@hotmail.com', 'female', 'P+kN9W6QVJY', 'Cano', 'María', 'USER', 'mariacano', 6, 5, '359-335-7737', 'Plaza Mayor 56', '@mariacano1938');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-12-01', 'isabelfernandez.12@hotmail.com', 'N/A', 'P+Luh5S5tyA', 'Fernández', 'Isabel', 'USER', 'isabelfernandez', 10, 9, '369-118-8486', 'Ronda del Bosque 20', '@isabelfernandez12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-07-08', 'franciscosalas_1941_@gmail.com', 'male', 'P51d8ELDMKA', 'Salas', 'Francisco', 'USER', 'franciscosalas', 7, 1, '357-347-7639', 'Carretera del Alba 65', '@franciscosalas07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-06-25', 'mariaortiz06.@hotmail.com', 'female', 'P8nYAILkPJw', 'Ortiz', 'María', 'USER', 'mariaortiz', 10, 7, '351-934-2036', 'Paseo del Horizonte 8', '@mariaortiz06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-01-16', 'dolorescano.2000-@hotmail.com', 'male', 'P8NosB7UzvQ', 'Cano', 'Dolores', 'USER', 'dolorescano', 8, 1, '352-373-1367', 'Ronda del Bosque 49', '@dolorescano2000');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-08-09', 'rosaiglesias.09.@outlook.com', 'female', 'P8XKOTutRtQ', 'Iglesias', 'Rosa', 'USER', 'rosaiglesias', 6, 5, '364-961-4365', 'Plaza de la Fuente 38', '@rosaiglesias08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-05-20', 'cristinaparra05.@hotmail.com', 'male', 'P+wD2naNbpo', 'Parra', 'Cristina', 'USER', 'cristinaparra', 9, 4, '359-314-5628', 'Paseo de los Álamos 32', '@cristinaparra1966');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-06-23', 'isabelrodriguez-2013-@hotmail.com', 'male', 'P8XeEFKPpXA', 'Rodríguez', 'Isabel', 'USER', 'isabelrodriguez', 1, 4, '354-586-2613', 'Carretera de la Sierra 42', '@isabelrodriguez23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-04-12', 'mariacarmona.1939.@outlook.com', 'female', 'P9YpfRKJzHo', 'Carmona', 'María', 'USER', 'mariacarmona', 10, 7, '355-474-1998', 'Travesía de la Montaña 91', '@mariacarmona1939');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-03-10', 'laurafuentes.03-@hotmail.com', 'male', 'P7tKyWIQ2IA', 'Fuentes', 'Laura', 'USER', 'laurafuentes', 4, 9, '361-156-2962', 'Rambla de los Jazmines 50', '@laurafuentes03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-03-16', 'mariaiglesias16-@hotmail.com', 'female', 'P9pVrgkV7uA', 'Iglesias', 'María', 'USER', 'mariaiglesias', 2, 4, '359-368-6978', 'Travesía del Alba 10', '@mariaiglesias1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-09-07', 'luzsoto.1959.@hotmail.com', 'male', 'P+MPGaR+j6c', 'Soto', 'Luz', 'USER', 'luzsoto', 9, 7, '358-857-7164', 'Paseo de la Amistad 4', '@luzsoto07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-11-23', 'luisapena11.@hotmail.com', 'female', 'P+tvKGDRckc', 'Peña', 'Luisa', 'USER', 'luisapena', 3, 3, '353-129-8609', 'Callejón del Gato 6', '@luisapena11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-09-21', 'cristinaprieto1943@hotmail.com', 'N/A', 'P+slffgemr4', 'Prieto', 'Cristina', 'USER', 'cristinaprieto', 10, 2, '370-727-6304', 'Plaza de la Libertad 10', '@cristinaprieto1943');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-01-25', 'paulasoto_25.@outlook.com', 'N/A', 'P9AH1pvADho', 'Soto', 'Paula', 'USER', 'paulasoto', 9, 10, '360-846-8590', 'Ronda de los Abedules 60', '@paulasoto01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1993-05-05', 'nievessanchez_1993.@gmail.com', 'N/A', 'P+K//J1+QgM', 'Sánchez', 'Nieves', 'USER', 'nievessanchez', 1, 6, '366-178-5210', 'Rambla del Horizonte 33', '@nievessanchez1993');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-06-10', 'mariasanchez_1971.@hotmail.com', 'male', 'P9j8Lj5zSsI', 'Sánchez', 'María', 'USER', 'mariasanchez', 4, 3, '366-568-2005', 'Camino de la Loma 96', '@mariasanchez1971');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-10-06', 'rosamartin_10_@hotmail.com', 'N/A', 'P8y6Z2VvoLw', 'Martín', 'Rosa', 'USER', 'rosamartin', 4, 9, '363-285-6392', 'Plaza Mayor 8', '@rosamartin1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-12-20', 'mariaserrano-12.@gmail.com', 'female', 'P9FbWjuB2pY', 'Serrano', 'María', 'USER', 'mariaserrano', 2, 3, '360-876-9526', 'Primavera 21', '@mariaserrano12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-08-28', 'mariasantana-08_@hotmail.com', 'male', 'P+i28bL3UrA', 'Santana', 'María', 'USER', 'mariasantana', 9, 4, '363-755-1880', 'Ronda de los Nogales 15', '@mariasantana08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-06-28', 'marinagutierrez_2009@hotmail.com', 'N/A', 'P+OOVglnPsc', 'Gutiérrez', 'Marina', 'USER', 'marinagutierrez', 7, 10, '367-685-8099', 'Paseo de la Amistad 38', '@marinagutierrez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-11-03', 'mariadominguez.11@outlook.com', 'female', 'P6ICjyjP9MA', 'Domínguez', 'María', 'USER', 'mariadominguez', 4, 7, '357-618-2268', 'Camino de las Rosas 97', '@mariadominguez03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-10-22', 'angelaesteban-22.@outlook.com', 'male', 'P5k98x6aVyA', 'Esteban', 'Ángela', 'USER', 'angelaesteban', 7, 10, '354-181-3355', 'Cuesta de la Luz 19', '@angelaesteban22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-01-13', 'jorgelozano01@outlook.com', 'N/A', 'P+nWL0gFJ50', 'Lozano', 'Jorge', 'USER', 'jorgelozano', 4, 6, '369-989-3279', 'Travesía del Alba 79', '@jorgelozano01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-01-03', 'martaprieto-01_@gmail.com', 'N/A', 'P+jSGo/9DTA', 'Prieto', 'Marta', 'USER', 'martaprieto', 6, 3, '367-424-1583', 'Rambla del Mar 97', '@martaprieto03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-05-11', 'antoniadiaz.11@hotmail.com', 'female', 'P9Rpa3TruMg', 'Díaz', 'Antonia', 'USER', 'antoniadiaz', 3, 4, '354-925-9260', 'Cuesta del Lago 36', '@antoniadiaz11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-07-25', 'mariasantiago2009@gmail.com', 'N/A', 'P8fEwuPNJKw', 'Santiago', 'María', 'USER', 'mariasantiago', 10, 10, '369-411-8377', 'Paseo de los Cedros 75', '@mariasantiago07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-10-24', 'mariamoya2003.@gmail.com', 'N/A', 'P+t5HrFsK3A', 'Moya', 'María', 'USER', 'mariamoya', 7, 4, '352-149-9411', 'Plaza Mayor 95', '@mariamoya24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2018-04-06', 'mariaromero.06_@gmail.com', 'female', 'P+HsD8ravDc', 'Romero', 'María', 'USER', 'mariaromero', 9, 4, '361-523-6732', 'Cuesta del Molino 58', '@mariaromero06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-07-15', 'mariasanz-07.@outlook.com', 'male', 'P+HVjPxQRvg', 'Sanz', 'María', 'USER', 'mariasanz', 6, 2, '363-862-1859', 'Camino de las Rosas 90', '@mariasanz07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-06-21', 'elenamoya_1968_@gmail.com', 'female', 'P1vBA5p2MAA', 'Moya', 'Elena', 'USER', 'elenamoya', 2, 7, '353-484-9640', 'Travesía del Río 10', '@elenamoya1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-11-16', 'mariamora16_@outlook.com', 'male', 'P9fzkXv1OOY', 'Mora', 'María', 'USER', 'mariamora', 3, 2, '354-849-1690', 'Paseo de los Pinos 95', '@mariamora11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-05-03', 'joseibanez-05-@gmail.com', 'female', 'P+oEONJ2N0g', 'Ibáñez', 'José', 'USER', 'joseibanez', 10, 7, '363-287-5016', 'Paseo de los Pinos 88', '@joseibanez2004');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-09-21', 'mariaredondo1997-@gmail.com', 'female', 'P9RbVLFcdeA', 'Redondo', 'María', 'USER', 'mariaredondo', 3, 7, '360-221-9826', 'Cuesta de los Vientos 67', '@mariaredondo1997');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-02-18', 'mariaibanez_02-@outlook.com', 'male', 'P+aHRy3fjYU', 'Ibáñez', 'María', 'USER', 'mariaibanez', 8, 3, '354-428-9354', 'Camino de la Loma 96', '@mariaibanez1989');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-02-14', 'patriciagomez1939_@outlook.com', 'N/A', 'P94OixNA2rg', 'Gómez', 'Patricia', 'USER', 'patriciagomez', 9, 2, '358-787-2815', 'Camino Real 100', '@patriciagomez14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-01-19', 'elenaortiz01.@outlook.com', 'female', 'P8E7S+llDIw', 'Ortiz', 'Elena', 'USER', 'elenaortiz', 9, 10, '355-530-7432', 'Avenida del Amanecer 24', '@elenaortiz19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-12-07', 'luisromero-07_@gmail.com', 'female', 'P9hfPoUOg1I', 'Romero', 'Luis', 'USER', 'luisromero', 9, 5, '364-468-1167', 'Cuesta del Lago 32', '@luisromero12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-07-10', 'luzarias10.@outlook.com', 'female', 'P+hgbAzgsVk', 'Arias', 'Luz', 'USER', 'luzarias', 4, 10, '359-656-1731', 'Paseo de la Amistad 2', '@luzarias07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-01-06', 'angelessoto-1964.@hotmail.com', 'female', 'P+zZvrVSEWo', 'Soto', 'Ángeles', 'USER', 'angelessoto', 8, 2, '357-395-1790', 'Camino de las Rosas 13', '@angelessoto1964');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-08-08', 'mariasanchez-08_@hotmail.com', 'female', 'P+d9/yFmaIg', 'Sánchez', 'María', 'USER', 'mariasanchez', 6, 2, '368-995-1948', 'Camino de las Rosas 77', '@mariasanchez1945');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-11-25', 'lauragarrido25-@outlook.com', 'female', 'P5jSznUSQ6A', 'Garrido', 'Laura', 'USER', 'lauragarrido', 7, 3, '364-368-1025', 'Paseo del Horizonte 88', '@lauragarrido25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-02-13', 'africaesteban_1957@outlook.com', 'male', 'P8unWZx/6yQ', 'Esteban', 'África', 'USER', 'africaesteban', 4, 1, '359-973-8721', 'Rambla de los Encantos 77', '@africaesteban02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-08-24', 'mariavidal2017_@outlook.com', 'female', 'P9xVq5N6ScY', 'Vidal', 'María', 'USER', 'mariavidal', 1, 2, '363-481-9203', 'Camino de las Rosas 75', '@mariavidal24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1985-08-19', 'isabelgarrido_1985@hotmail.com', 'N/A', 'P+dco7QANuE', 'Garrido', 'Isabel', 'USER', 'isabelgarrido', 4, 9, '355-879-2000', 'Camino de las Rosas 47', '@isabelgarrido1985');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-12-11', 'mariamoya.12-@hotmail.com', 'male', 'P9BAD/6j3NY', 'Moya', 'María', 'USER', 'mariamoya', 5, 1, '353-832-5638', 'Carretera de la Sierra 45', '@mariamoya1980');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-03-15', 'mariarojas_2019@hotmail.com', 'N/A', 'P+SalMFs1Y0', 'Rojas', 'María', 'USER', 'mariarojas', 8, 4, '366-214-8981', 'Rambla de los Encantos 78', '@mariarojas03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-11-20', 'saramoya20.@hotmail.com', 'N/A', 'P+m6OqZJcAY', 'Moya', 'Sara', 'USER', 'saramoya', 9, 2, '353-832-3942', 'Carretera de la Sierra 4', '@saramoya11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-11-16', 'mariaibanez-16.@outlook.com', 'female', 'P+xnr0sO0zw', 'Ibáñez', 'María', 'USER', 'mariaibanez', 1, 10, '367-359-5256', 'Ronda de los Nogales 89', '@mariaibanez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-07-23', 'carlosbravo2000-@outlook.com', 'female', 'P2lUi28BawA', 'Bravo', 'Carlos', 'USER', 'carlosbravo', 9, 8, '358-999-4739', 'Camino de los Aromas 17', '@carlosbravo2000');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-10-22', 'teresafuentes_22_@outlook.com', 'N/A', 'P7ZZtNdjhlg', 'Fuentes', 'Teresa', 'USER', 'teresafuentes', 7, 2, '353-377-4451', 'Camino de la Loma 90', '@teresafuentes1947');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-02-06', 'pilarlopez_02-@outlook.com', 'male', 'P+gpAe2Sg4w', 'López', 'Pilar', 'USER', 'pilarlopez', 5, 5, '360-494-6315', 'Paseo del Horizonte 93', '@pilarlopez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-05-05', 'mariaalvarez_05_@gmail.com', 'female', 'P95cs2Ad1E4', 'Álvarez', 'María', 'USER', 'mariaalvarez', 3, 2, '355-776-8975', 'Cuesta del Molino 37', '@mariaalvarez05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-03-26', 'africaserrano.1979-@hotmail.com', 'female', 'P+FLKn8sIc8', 'Serrano', 'África', 'USER', 'africaserrano', 3, 2, '357-408-2869', 'Paseo de los Álamos 11', '@africaserrano1979');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-09-21', 'mariacarrasco.1980.@outlook.com', 'female', 'P+kQmfMOwOI', 'Carrasco', 'María', 'USER', 'mariacarrasco', 9, 1, '369-629-5462', 'Carretera de la Sierra 73', '@mariacarrasco21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-04-19', 'marialeon_1944-@gmail.com', 'male', 'P9C3Zf2gBFY', 'León', 'María', 'USER', 'marialeon', 6, 6, '370-899-8344', 'Paseo de los Pinos 38', '@marialeon04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-10-07', 'javiergomez_1953@gmail.com', 'N/A', 'P9Nd7elas6Q', 'Gómez', 'Javier', 'USER', 'javiergomez', 5, 6, '356-296-3448', 'Avenida de las Estrellas 47', '@javiergomez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-04-17', 'marianunez04@gmail.com', 'male', 'P+56rlxtIpI', 'Nuñez', 'María', 'USER', 'marianunez', 7, 2, '358-650-4769', 'Camino de la Esperanza 41', '@marianunez17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-04-21', 'elenagutierrez-2007.@hotmail.com', 'female', 'P9AbLvaPiQ4', 'Gutiérrez', 'Elena', 'USER', 'elenagutierrez', 3, 4, '364-336-2687', 'Plaza Mayor 39', '@elenagutierrez21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-03-20', 'soledadibanez.03-@outlook.com', 'female', 'P+yJa9rW7b8', 'Ibáñez', 'Soledad', 'USER', 'soledadibanez', 5, 7, '359-687-4628', 'Carretera de la Sierra 1', '@soledadibanez20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-08-20', 'cristinafernandez20@outlook.com', 'female', 'P+BYryZiP34', 'Fernández', 'Cristina', 'USER', 'cristinafernandez', 8, 1, '366-876-9173', 'Camino Real 99', '@cristinafernandez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-11-08', 'anapena-08.@outlook.com', 'N/A', 'P+tbDwjTf8o', 'Peña', 'Ana', 'USER', 'anapena', 3, 1, '355-718-9132', 'Plaza Mayor 20', '@anapena08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-12-23', 'mariamedina.23_@hotmail.com', 'male', 'P8epx+VO7iQ', 'Medina', 'María', 'USER', 'mariamedina', 4, 3, '354-651-9431', 'Plaza Mayor 36', '@mariamedina23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-09-10', 'isabelcastillo-09.@hotmail.com', 'male', 'P99PavgP5SI', 'Castillo', 'Isabel', 'USER', 'isabelcastillo', 2, 4, '370-421-1501', 'Paseo de los Pinos 25', '@isabelcastillo09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-08-10', 'africanunez.10.@gmail.com', 'N/A', 'P+TMP2t9Sww', 'Nuñez', 'África', 'USER', 'africanunez', 10, 4, '370-736-6781', 'Ronda de los Abedules 89', '@africanunez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1993-09-12', 'mariavicente12-@gmail.com', 'male', 'P+Dc2nZjmXc', 'Vicente', 'María', 'USER', 'mariavicente', 9, 1, '363-839-4954', 'Camino de la Esperanza 21', '@mariavicente09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-01-23', 'mariacabrera-01-@gmail.com', 'female', 'P+oGjqL0LVw', 'Cabrera', 'María', 'USER', 'mariacabrera', 10, 9, '370-202-9501', 'Calle de los Tulipanes 45', '@mariacabrera1944');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-02-02', 'mariaherrero02.@gmail.com', 'N/A', 'P4D6xlHOH4A', 'Herrero', 'María', 'USER', 'mariaherrero', 9, 10, '364-143-1246', 'Ronda de San Pedro 81', '@mariaherrero02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-09-17', 'patriciaortiz1969_@gmail.com', 'N/A', 'P938wD7sXN4', 'Ortiz', 'Patricia', 'USER', 'patriciaortiz', 10, 1, '370-385-9117', 'Ronda del Parque 88', '@patriciaortiz1969');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-08-25', 'pablorubio_25.@hotmail.com', 'female', 'P+fJPf1Q7Uc', 'Rubio', 'Pablo', 'USER', 'pablorubio', 7, 1, '351-461-1074', 'Plaza de las Campanas 89', '@pablorubio1960');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-08-12', 'rosarioarias1950@outlook.com', 'N/A', 'P7Rl6gk0IxA', 'Arias', 'Rosario', 'USER', 'rosarioarias', 8, 1, '359-339-9117', 'Rambla de los Encantos 83', '@rosarioarias08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-08-04', 'rosahidalgo04.@gmail.com', 'female', 'P53gq8O7BOA', 'Hidalgo', 'Rosa', 'USER', 'rosahidalgo', 5, 4, '355-718-9727', 'Paseo de los Pinos 99', '@rosahidalgo1998');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-12-28', 'marialeon-1970-@outlook.com', 'N/A', 'P9quYcUjV3Q', 'León', 'María', 'USER', 'marialeon', 3, 2, '359-337-5253', 'Travesía del Valle 49', '@marialeon28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-12-16', 'mariarojas16.@gmail.com', 'N/A', 'P+QoCPE999E', 'Rojas', 'María', 'USER', 'mariarojas', 4, 7, '356-262-3466', 'Camino Real 97', '@mariarojas2021');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-06-28', 'javierfernandez-1942_@gmail.com', 'male', 'P+5csI9Mj10', 'Fernández', 'Javier', 'USER', 'javierfernandez', 5, 1, '354-440-8386', 'Camino de la Loma 45', '@javierfernandez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-10-06', 'doloresalonso.10.@hotmail.com', 'male', 'P+ky7m+EV5A', 'Alonso', 'Dolores', 'USER', 'doloresalonso', 7, 2, '352-776-1862', 'Avenida del Amanecer 41', '@doloresalonso06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-02-22', 'mariagomez_2009.@hotmail.com', 'female', 'P+m6S7uX19Q', 'Gómez', 'María', 'USER', 'mariagomez', 3, 6, '365-804-2521', 'Travesía del Olivo 65', '@mariagomez2009');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-07-15', 'mariaiglesias_15.@hotmail.com', 'N/A', 'P61gW5GEetA', 'Iglesias', 'María', 'USER', 'mariaiglesias', 6, 4, '370-796-3086', 'Paseo de los Cedros 23', '@mariaiglesias15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-01-06', 'sofiagomez.01.@hotmail.com', 'female', 'P+IRtmqLyEI', 'Gómez', 'Sofía', 'USER', 'sofiagomez', 9, 8, '356-467-8176', 'Paseo de los Cedros 90', '@sofiagomez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-04-13', 'mariaramirez-13-@outlook.com', 'N/A', 'P8vOvJ/eDGg', 'Ramírez', 'María', 'USER', 'mariaramirez', 7, 3, '355-838-7822', 'Cuesta de los Vientos 64', '@mariaramirez1984');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-09-14', 'teresamontero-09.@hotmail.com', 'female', 'P+5/APmakX4', 'Montero', 'Teresa', 'USER', 'teresamontero', 1, 1, '353-263-1521', 'Avenida del Sol 39', '@teresamontero14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-02-22', 'mariasanz_22-@outlook.com', 'N/A', 'P+Lbnutn7Qc', 'Sanz', 'María', 'USER', 'mariasanz', 3, 3, '358-539-9348', 'Calle de la Paz 100', '@mariasanz22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-03-04', 'rosarioparra1967_@gmail.com', 'N/A', 'P+PyXF7jcqg', 'Parra', 'Rosario', 'USER', 'rosarioparra', 8, 9, '368-819-5694', 'Paseo del Horizonte 31', '@rosarioparra04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-08-05', 'juanmolina08.@outlook.com', 'female', 'P+HxUn0L2s8', 'Molina', 'Juan', 'USER', 'juanmolina', 8, 7, '369-227-7738', 'Camino Real 18', '@juanmolina05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-11-19', 'mariamolina11-@outlook.com', 'male', 'P+371mtEodk', 'Molina', 'María', 'USER', 'mariamolina', 4, 5, '354-725-4801', 'Cuesta de la Luz 68', '@mariamolina19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-06-02', 'mariaherrero06@hotmail.com', 'female', 'P+46/il6zQA', 'Herrero', 'María', 'USER', 'mariaherrero', 1, 6, '367-979-7359', 'Plaza de la Fuente 76', '@mariaherrero06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-12-08', 'cristinaprieto_08-@hotmail.com', 'female', 'P8co0+kRCsQ', 'Prieto', 'Cristina', 'USER', 'cristinaprieto', 5, 7, '366-562-5343', 'Rambla de los Encantos 73', '@cristinaprieto1984');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-12-10', 'isabelcastillo_1943.@outlook.com', 'male', 'P8nM34IDTjA', 'Castillo', 'Isabel', 'USER', 'isabelcastillo', 1, 2, '369-642-8330', 'Travesía del Valle 16', '@isabelcastillo12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-05-06', 'rociopena_06_@gmail.com', 'male', 'P+mfSXPo5ro', 'Peña', 'Rocío', 'USER', 'rociopena', 6, 8, '361-671-8064', 'Camino de los Aromas 69', '@rociopena1995');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-10-12', 'rosavidal.1962_@gmail.com', 'female', 'P9V/u9dmyhA', 'Vidal', 'Rosa', 'USER', 'rosavidal', 10, 6, '361-964-4682', 'Paseo de los Álamos 26', '@rosavidal10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1955-04-07', 'marialorenzo.07_@gmail.com', 'female', 'P9IB+SFGVUA', 'Lorenzo', 'María', 'USER', 'marialorenzo', 1, 7, '352-955-6639', 'Plaza Mayor 50', '@marialorenzo04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-07-12', 'mariasantana.2013-@outlook.com', 'male', 'P9/kmq+pQZg', 'Santana', 'María', 'USER', 'mariasantana', 2, 2, '361-770-7353', 'Camino de los Aromas 23', '@mariasantana07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-09-24', 'mariacabrera_24.@outlook.com', 'N/A', 'P+dsobZJ9bo', 'Cabrera', 'María', 'USER', 'mariacabrera', 10, 3, '361-761-5991', 'Calle de la Aurora 96', '@mariacabrera09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-07-17', 'teresasanchez.1997@outlook.com', 'N/A', 'P+ndKxCSIK4', 'Sánchez', 'Teresa', 'USER', 'teresasanchez', 8, 9, '356-916-1952', 'Paseo de los Álamos 17', '@teresasanchez17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-09-16', 'juansalas-16@outlook.com', 'N/A', 'P9T7mcwiXSg', 'Salas', 'Juan', 'USER', 'juansalas', 5, 2, '368-785-4607', 'Paseo de los Álamos 39', '@juansalas16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1955-03-03', 'carmengimenez_03@gmail.com', 'N/A', 'P+CE2pbBZaI', 'Giménez', 'Carmen', 'USER', 'carmengimenez', 6, 7, '355-235-8386', 'Carretera del Alba 24', '@carmengimenez03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-07-25', 'miriamrubio_1999_@hotmail.com', 'N/A', 'P+/1aHed7BA', 'Rubio', 'Miriam', 'USER', 'miriamrubio', 2, 8, '365-766-2821', 'Carretera de la Sierra 40', '@miriamrubio1999');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-12-06', 'mariaaguilar.06.@outlook.com', 'female', 'P6UKaLnJHZA', 'Aguilar', 'María', 'USER', 'mariaaguilar', 3, 10, '356-399-9821', 'Travesía de la Montaña 41', '@mariaaguilar1963');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-04-10', 'mercedesmedina10.@gmail.com', 'N/A', 'P8JOX66Xzfg', 'Medina', 'Mercedes', 'USER', 'mercedesmedina', 5, 9, '370-248-4191', 'Paseo de la Amistad 28', '@mercedesmedina2023');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1982-11-04', 'milagrosmendez1982@gmail.com', 'female', 'P9mlFHVJnII', 'Méndez', 'Milagros', 'USER', 'milagrosmendez', 6, 1, '363-816-1993', 'Paseo de los Cedros 57', '@milagrosmendez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-10-15', 'mariamendez.10.@hotmail.com', 'female', 'P87cGudMjzw', 'Méndez', 'María', 'USER', 'mariamendez', 4, 1, '370-623-8242', 'Avenida de las Estrellas 53', '@mariamendez2009');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-08-14', 'nataliaprieto_1943_@hotmail.com', 'female', 'P9P/b+QvW9I', 'Prieto', 'Natalia', 'USER', 'nataliaprieto', 6, 7, '359-475-6196', 'Travesía de la Montaña 32', '@nataliaprieto1943');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-07-22', 'mariamedina22.@outlook.com', 'male', 'P8p+7KgVDEQ', 'Medina', 'María', 'USER', 'mariamedina', 9, 10, '363-396-2720', 'Ronda de los Abedules 68', '@mariamedina1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-08-24', 'mariahidalgo-08_@gmail.com', 'female', 'P76YZlcEEHA', 'Hidalgo', 'María', 'USER', 'mariahidalgo', 10, 2, '352-191-1951', 'Travesía del Alba 50', '@mariahidalgo24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-01-28', 'josebravo_28@gmail.com', 'male', 'P9Zr5FAdOdQ', 'Bravo', 'José', 'USER', 'josebravo', 10, 7, '368-960-3565', 'Primavera 1', '@josebravo1967');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-11-09', 'cristinamartinez-1954-@hotmail.com', 'female', 'P+mpwQH+yTw', 'Martínez', 'Cristina', 'USER', 'cristinamartinez', 9, 7, '365-221-3953', 'Avenida del Sauce 81', '@cristinamartinez09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-01-07', 'diegoalonso1948-@hotmail.com', 'male', 'P+fSqKBQzm0', 'Alonso', 'Diego', 'USER', 'diegoalonso', 7, 2, '354-135-9770', 'Cuesta del Molino 86', '@diegoalonso01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-10-28', 'mariavazquez_28-@hotmail.com', 'female', 'P8XS1fzMbxQ', 'Vázquez', 'María', 'USER', 'mariavazquez', 10, 1, '369-874-8772', 'Rambla del Horizonte 20', '@mariavazquez28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-09-11', 'lorenamoya09_@hotmail.com', 'N/A', 'P+4IrEynsfI', 'Moya', 'Lorena', 'USER', 'lorenamoya', 1, 7, '355-312-6439', 'Calle de la Paz 57', '@lorenamoya09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-08-07', 'doloresarias-08_@gmail.com', 'female', 'P+/mDsr5XY0', 'Arias', 'Dolores', 'USER', 'doloresarias', 7, 10, '365-122-5538', 'Rambla de los Jazmines 25', '@doloresarias2002');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-07-14', 'evagomez_07.@outlook.com', 'male', 'P86UKCXXQGA', 'Gómez', 'Eva', 'USER', 'evagomez', 9, 4, '364-684-2277', 'Calle de la Aurora 4', '@evagomez14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-11-18', 'raquelarias18_@gmail.com', 'female', 'P9ARj+Ms0W4', 'Arias', 'Raquel', 'USER', 'raquelarias', 1, 1, '354-656-2490', 'Ronda de los Abedules 90', '@raquelarias1970');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-05-03', 'carmenlozano-03-@gmail.com', 'N/A', 'P8LdMpvgoKw', 'Lozano', 'Carmen', 'USER', 'carmenlozano', 8, 7, '354-775-1585', 'Avenida de la Luna 82', '@carmenlozano2001');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-10-15', 'mariarojas-15-@gmail.com', 'N/A', 'P+fK6J3E/kk', 'Rojas', 'María', 'USER', 'mariarojas', 5, 10, '366-865-5109', 'Plaza de las Campanas 77', '@mariarojas10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-07-07', 'mariacarrasco-07@gmail.com', 'male', 'P+GFCXA0ay0', 'Carrasco', 'María', 'USER', 'mariacarrasco', 5, 6, '353-723-9994', 'Cuesta de la Luz 41', '@mariacarrasco07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-03-27', 'mariacruz_27_@hotmail.com', 'male', 'P94/H4Pgf1Q', 'Cruz', 'María', 'USER', 'mariacruz', 7, 4, '369-828-3962', 'Carretera de la Sierra 70', '@mariacruz03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-12-17', 'milagrosfuentes1987.@outlook.com', 'N/A', 'P5z4GUrKdoA', 'Fuentes', 'Milagros', 'USER', 'milagrosfuentes', 3, 4, '361-361-2514', 'Cuesta del Lago 53', '@milagrosfuentes12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-01-23', 'mariamorales2008@gmail.com', 'female', 'P+ch1MJJMOo', 'Morales', 'María', 'USER', 'mariamorales', 4, 5, '365-802-6768', 'Camino Real 55', '@mariamorales23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-08-13', 'mariadiaz-13.@gmail.com', 'female', 'P8C5P2UqekQ', 'Díaz', 'María', 'USER', 'mariadiaz', 10, 5, '361-927-1923', 'Carretera de los Cipreses 54', '@mariadiaz13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-01-08', 'cristinavega08.@outlook.com', 'male', 'P+0kDGxfiIU', 'Vega', 'Cristina', 'USER', 'cristinavega', 8, 1, '366-923-7424', 'Plaza del Mirador 6', '@cristinavega08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1955-10-17', 'mariamartinez-1955@hotmail.com', 'male', 'P+lmv2bHCz4', 'Martínez', 'María', 'USER', 'mariamartinez', 10, 4, '359-457-8318', 'Rambla de los Encantos 36', '@mariamartinez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-12-22', 'mariagomez.22_@outlook.com', 'female', 'P8Dpo9nICNQ', 'Gómez', 'María', 'USER', 'mariagomez', 6, 2, '361-307-9438', 'Rambla de los Encantos 94', '@mariagomez2010');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-01-15', 'mariamendez.01_@outlook.com', 'N/A', 'P9ngvCuQ/OI', 'Méndez', 'María', 'USER', 'mariamendez', 9, 6, '353-504-4113', 'Ronda del Bosque 45', '@mariamendez1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-09-18', 'carmenhernandez-18@gmail.com', 'male', 'P8MoAYGGGbg', 'Hernández', 'Carmen', 'USER', 'carmenhernandez', 7, 5, '368-658-1075', 'Primavera 40', '@carmenhernandez1939');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-01-01', 'antoniavega-1968-@gmail.com', 'male', 'P+RoAkZgN3Q', 'Vega', 'Antonia', 'USER', 'antoniavega', 7, 9, '362-302-6030', 'Camino de la Esperanza 45', '@antoniavega01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-08-22', 'mariacano1936.@outlook.com', 'female', 'P939b6cNv7g', 'Cano', 'María', 'USER', 'mariacano', 10, 7, '365-133-1364', 'Plaza de la Libertad 15', '@mariacano08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-01-26', 'mariamendez-26_@outlook.com', 'female', 'P9qQap/kOlY', 'Méndez', 'María', 'USER', 'mariamendez', 1, 6, '353-792-3186', 'Rambla de los Encantos 92', '@mariamendez2000');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-04-08', 'carmendelgado08@gmail.com', 'male', 'P+JHT4k+rH8', 'Delgado', 'Carmen', 'USER', 'carmendelgado', 7, 1, '358-515-1355', 'Ronda de San Pedro 80', '@carmendelgado08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-03-24', 'saramorales_1945_@hotmail.com', 'male', 'P9y74Y6wd/4', 'Morales', 'Sara', 'USER', 'saramorales', 5, 6, '355-895-8884', 'Carretera de la Flor 87', '@saramorales03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-12-23', 'teresasoto_12.@hotmail.com', 'N/A', 'P+kQEuAgYjE', 'Soto', 'Teresa', 'USER', 'teresasoto', 7, 1, '367-585-6930', 'Plaza del Mirador 33', '@teresasoto23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-11-28', 'mariarojas.28@outlook.com', 'male', 'P+AhcRFgEyM', 'Rojas', 'María', 'USER', 'mariarojas', 4, 7, '363-316-1988', 'Avenida de la Luna 27', '@mariarojas1969');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-09-01', 'milagrosruiz.09-@outlook.com', 'male', 'P+EseCN5Ydg', 'Ruiz', 'Milagros', 'USER', 'milagrosruiz', 4, 4, '352-778-2215', 'Cuesta de la Luz 62', '@milagrosruiz2021');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-10-02', 'elenapena_1983@gmail.com', 'N/A', 'P+cefjpu8Ko', 'Peña', 'Elena', 'USER', 'elenapena', 4, 8, '353-779-8051', 'Plaza de las Campanas 65', '@elenapena10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-03-13', 'mariarey.03-@outlook.com', 'N/A', 'P9muvsXqEZ4', 'Rey', 'María', 'USER', 'mariarey', 5, 9, '352-174-7103', 'Carretera de los Cipreses 98', '@mariarey13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-11-02', 'juanmolina-11-@hotmail.com', 'female', 'P+b2vl17f10', 'Molina', 'Juan', 'USER', 'juanmolina', 2, 9, '370-402-9434', 'Plaza de las Campanas 54', '@juanmolina11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-08-15', 'mariaprieto_08.@outlook.com', 'N/A', 'P+Qz4x+LpMU', 'Prieto', 'María', 'USER', 'mariaprieto', 6, 7, '370-939-4342', 'Plaza de las Campanas 51', '@mariaprieto08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-04-22', 'nievesiglesias-1959_@hotmail.com', 'N/A', 'P+dL6fwMdDM', 'Iglesias', 'Nieves', 'USER', 'nievesiglesias', 5, 7, '353-930-7804', 'Travesía de la Montaña 97', '@nievesiglesias22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-11-25', 'mariajimenez11-@hotmail.com', 'N/A', 'P+mN3QVqWlg', 'Jiménez', 'María', 'USER', 'mariajimenez', 9, 10, '362-608-2981', 'Primavera 55', '@mariajimenez25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-12-21', 'manuelcastro1963.@gmail.com', 'female', 'P9QrgeFUT1Q', 'Castro', 'Manuel', 'USER', 'manuelcastro', 4, 1, '361-179-9209', 'Travesía del Valle 59', '@manuelcastro12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-04-27', 'sofiahernandez.27.@gmail.com', 'N/A', 'P9Ahx9oZTHY', 'Hernández', 'Sofía', 'USER', 'sofiahernandez', 8, 10, '369-781-8148', 'Ronda del Bosque 5', '@sofiahernandez27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-11-27', 'lorenatorres1972_@outlook.com', 'female', 'P+kTOev+taE', 'Torres', 'Lorena', 'USER', 'lorenatorres', 4, 6, '362-308-3916', 'Paseo de la Amistad 99', '@lorenatorres27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-05-15', 'laurabermudez-05.@hotmail.com', 'N/A', 'P+oFfPcFoY8', 'Bermúdez', 'Laura', 'USER', 'laurabermudez', 5, 1, '370-297-6430', 'Calle de los Tulipanes 58', '@laurabermudez15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-02-03', 'mariarojas_03-@outlook.com', 'female', 'P9UAd7PzpuI', 'Rojas', 'María', 'USER', 'mariarojas', 6, 1, '356-804-1159', 'Rambla de los Encantos 59', '@mariarojas03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-05-03', 'anagarcia03_@hotmail.com', 'female', 'P+brIhBHuvY', 'García', 'Ana', 'USER', 'anagarcia', 7, 4, '363-270-7227', 'Camino Real 2', '@anagarcia03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-10-10', 'isabelaguilar_10@outlook.com', 'female', 'P9BDy3VzkiA', 'Aguilar', 'Isabel', 'USER', 'isabelaguilar', 4, 9, '356-558-4869', 'Carretera del Alba 59', '@isabelaguilar10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-08-27', 'elenasanchez27-@outlook.com', 'male', 'P+KWG9RkXvA', 'Sánchez', 'Elena', 'USER', 'elenasanchez', 6, 3, '364-679-8769', 'Primavera 76', '@elenasanchez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-11-26', 'teresavidal.26@gmail.com', 'N/A', 'P80ABlmLZXQ', 'Vidal', 'Teresa', 'USER', 'teresavidal', 6, 1, '354-532-3068', 'Paseo de los Pinos 100', '@teresavidal2021');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-09-01', 'patriciacarmona01@gmail.com', 'female', 'P+zUwAhzsNI', 'Carmona', 'Patricia', 'USER', 'patriciacarmona', 5, 9, '358-625-4537', 'Rambla de los Sueños 15', '@patriciacarmona01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-09-09', 'mariajimenez_1980.@gmail.com', 'female', 'P+rUgGE8SZY', 'Jiménez', 'María', 'USER', 'mariajimenez', 8, 9, '370-489-8785', 'Cuesta del Castillo 15', '@mariajimenez09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-03-13', 'carmendominguez_2008_@outlook.com', 'N/A', 'P96LkFwdJDY', 'Domínguez', 'Carmen', 'USER', 'carmendominguez', 9, 9, '364-562-4412', 'Ronda de los Abedules 81', '@carmendominguez2008');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-05-23', 'angeleshidalgo-23.@gmail.com', 'male', 'P+0paV/Iz7c', 'Hidalgo', 'Ángeles', 'USER', 'angeleshidalgo', 4, 6, '362-708-8408', 'Paseo de los Álamos 39', '@angeleshidalgo23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-01-04', 'mariafuentes04@outlook.com', 'male', 'P+zqTEmvOsM', 'Fuentes', 'María', 'USER', 'mariafuentes', 1, 8, '357-950-6916', 'Cuesta de la Luz 22', '@mariafuentes1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-04-09', 'aliciasuarez.09_@hotmail.com', 'female', 'P9nJNVpv7EY', 'Suárez', 'Alicia', 'USER', 'aliciasuarez', 7, 7, '353-518-3943', 'Plaza de la Libertad 88', '@aliciasuarez04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-09-02', 'luzmendez09.@gmail.com', 'male', 'P8dlzP8u5sw', 'Méndez', 'Luz', 'USER', 'luzmendez', 6, 4, '354-286-3050', 'Avenida de la Luna 68', '@luzmendez1939');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-12-05', 'isabelcruz12-@outlook.com', 'N/A', 'P71Px5ch8AA', 'Cruz', 'Isabel', 'USER', 'isabelcruz', 6, 1, '369-147-6080', 'Travesía del Río 89', '@isabelcruz05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-01-12', 'nievessanchez.12_@hotmail.com', 'male', 'P9ki5wdXAj4', 'Sánchez', 'Nieves', 'USER', 'nievessanchez', 6, 9, '369-799-6243', 'Travesía de la Montaña 19', '@nievessanchez12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-02-07', 'mariavega07.@outlook.com', 'N/A', 'P8kqvhDz2UQ', 'Vega', 'María', 'USER', 'mariavega', 8, 8, '351-414-4549', 'Travesía del Río 53', '@mariavega1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-02-28', 'mariapardo28_@outlook.com', 'male', 'P+9C1vGxRZ0', 'Pardo', 'María', 'USER', 'mariapardo', 7, 1, '369-581-8473', 'Ronda de San Pedro 15', '@mariapardo28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-07-22', 'mariabermudez.1958_@outlook.com', 'female', 'P+alP1KE+f8', 'Bermúdez', 'María', 'USER', 'mariabermudez', 1, 7, '362-732-2337', 'Rambla de los Encantos 26', '@mariabermudez1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1982-10-26', 'elenaarias-1982.@gmail.com', 'N/A', 'P+f/B5PRk4E', 'Arias', 'Elena', 'USER', 'elenaarias', 7, 7, '356-520-6589', 'Travesía de la Montaña 13', '@elenaarias26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-12-23', 'antonioarias-12@hotmail.com', 'female', 'P9x03DVu0hI', 'Arias', 'Antonio', 'USER', 'antonioarias', 5, 1, '353-171-4560', 'Plaza de las Campanas 88', '@antonioarias23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-01-21', 'mariamarin01@hotmail.com', 'male', 'P8XcpeOKoQQ', 'Marín', 'María', 'USER', 'mariamarin', 2, 5, '360-164-4187', 'Rambla del Horizonte 2', '@mariamarin1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-12-10', 'lauraserrano12.@outlook.com', 'N/A', 'P+Wkh0GAkys', 'Serrano', 'Laura', 'USER', 'lauraserrano', 2, 8, '364-988-5871', 'Paseo de los Pinos 7', '@lauraserrano10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-06-11', 'rociosantos-06.@hotmail.com', 'male', 'P+3LbbaXEDE', 'Santos', 'Rocío', 'USER', 'rociosantos', 9, 1, '363-306-2634', 'Carretera del Cielo 31', '@rociosantos06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-11-14', 'teresarodriguez11-@gmail.com', 'N/A', 'P8ViuHG5dFw', 'Rodríguez', 'Teresa', 'USER', 'teresarodriguez', 4, 5, '358-333-2297', 'Carretera del Cielo 76', '@teresarodriguez14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-12-12', 'africacabrera12.@gmail.com', 'male', 'P83zV3e5sZw', 'Cabrera', 'África', 'USER', 'africacabrera', 9, 2, '360-640-5788', 'Cuesta de los Vientos 80', '@africacabrera12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-02-26', 'mariahidalgo-2024@hotmail.com', 'N/A', 'P++Tw92ouQ0', 'Hidalgo', 'María', 'USER', 'mariahidalgo', 4, 3, '359-350-8536', 'Paseo de la Amistad 1', '@mariahidalgo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-06-28', 'mariaaguilar28_@gmail.com', 'N/A', 'P96x3bKCgHg', 'Aguilar', 'María', 'USER', 'mariaaguilar', 3, 9, '365-940-9156', 'Plaza de la Libertad 17', '@mariaaguilar28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-03-13', 'mariagomez_1976_@hotmail.com', 'female', 'P9KIvNACBiQ', 'Gómez', 'María', 'USER', 'mariagomez', 9, 7, '362-234-9664', 'Ronda del Bosque 21', '@mariagomez13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-01-28', 'analeon_28@gmail.com', 'N/A', 'P+SUDbe0pAg', 'León', 'Ana', 'USER', 'analeon', 4, 6, '352-821-5763', 'Paseo del Horizonte 3', '@analeon1992');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-07-08', 'javiergarcia-07.@hotmail.com', 'female', 'P+n8ppOcXe0', 'García', 'Javier', 'USER', 'javiergarcia', 4, 7, '359-604-1896', 'Carretera de los Cipreses 48', '@javiergarcia2004');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-10-03', 'milagrossalas_03_@outlook.com', 'N/A', 'P9BiUMyvh34', 'Salas', 'Milagros', 'USER', 'milagrossalas', 5, 1, '369-231-9163', 'Ronda del Bosque 65', '@milagrossalas03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-07-27', 'mariamendez-07-@outlook.com', 'N/A', 'P+KE9QarsUM', 'Méndez', 'María', 'USER', 'mariamendez', 9, 3, '353-782-2755', 'Carretera de los Cipreses 68', '@mariamendez27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1973-12-19', 'mariamolina12_@gmail.com', 'N/A', 'P8qwSI0RmjQ', 'Molina', 'María', 'USER', 'mariamolina', 6, 4, '354-139-2085', 'Carretera de la Flor 24', '@mariamolina12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-05-10', 'rosavega_1945-@gmail.com', 'male', 'P+c3WI2UIJA', 'Vega', 'Rosa', 'USER', 'rosavega', 4, 2, '363-318-6588', 'Rambla del Horizonte 43', '@rosavega1945');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-06-14', 'josegomez.14-@gmail.com', 'female', 'P9UZ8SRS9zg', 'Gómez', 'José', 'USER', 'josegomez', 10, 5, '356-574-1969', 'Carretera del Alba 47', '@josegomez1977');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-07-18', 'mariasanz_1976-@outlook.com', 'female', 'P9c8mtj0Db4', 'Sanz', 'María', 'USER', 'mariasanz', 5, 1, '363-614-9536', 'Camino de la Loma 10', '@mariasanz1976');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-06-20', 'isabelortega-20-@gmail.com', 'N/A', 'P+M2gH1ZFJc', 'Ortega', 'Isabel', 'USER', 'isabelortega', 3, 6, '356-803-8292', 'Rambla de los Encantos 53', '@isabelortega1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-09-10', 'mariabravo_09_@outlook.com', 'female', 'P+xvQiDPcRQ', 'Bravo', 'María', 'USER', 'mariabravo', 5, 8, '367-468-4167', 'Plaza de la Fuente 20', '@mariabravo1981');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-11-04', 'mariavega1941@hotmail.com', 'male', 'P+FJ2F55nd0', 'Vega', 'María', 'USER', 'mariavega', 4, 10, '358-803-6459', 'Paseo de la Amistad 65', '@mariavega04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-07-13', 'mariabermudez-07.@hotmail.com', 'male', 'P+l8ZOIRk8E', 'Bermúdez', 'María', 'USER', 'mariabermudez', 8, 10, '358-856-3706', 'Travesía del Río 86', '@mariabermudez2009');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-03-06', 'luisdominguez-1992-@outlook.com', 'N/A', 'P8F7MJtFUuQ', 'Domínguez', 'Luis', 'USER', 'luisdominguez', 2, 7, '353-960-8660', 'Cuesta de la Luz 99', '@luisdominguez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-01-25', 'marialorenzo.25_@outlook.com', 'N/A', 'P+WOhz5glK4', 'Lorenzo', 'María', 'USER', 'marialorenzo', 4, 4, '356-316-7383', 'Rambla de los Encantos 84', '@marialorenzo25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-07-15', 'mariapascual.07.@hotmail.com', 'N/A', 'P+PQY2cN2vs', 'Pascual', 'María', 'USER', 'mariapascual', 5, 6, '351-973-5077', 'Cuesta del Molino 41', '@mariapascual15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-06-23', 'rosaibanez.06@gmail.com', 'female', 'P7BshoUvs2g', 'Ibáñez', 'Rosa', 'USER', 'rosaibanez', 10, 9, '357-953-2650', 'Camino de la Loma 2', '@rosaibanez23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-08-25', 'davidfuentes1990_@outlook.com', 'N/A', 'P9VPJBTmb1I', 'Fuentes', 'David', 'USER', 'davidfuentes', 3, 8, '369-632-8083', 'Paseo de los Cedros 85', '@davidfuentes08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-12-09', 'luciasoto.1939@hotmail.com', 'N/A', 'P9BkCLQlYaY', 'Soto', 'Lucía', 'USER', 'luciasoto', 5, 2, '352-395-1940', 'Carretera de los Cipreses 2', '@luciasoto12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-07-19', 'elenamolina_2020@gmail.com', 'N/A', 'P+lkhAI2RW4', 'Molina', 'Elena', 'USER', 'elenamolina', 2, 2, '370-475-6118', 'Rambla del Horizonte 53', '@elenamolina19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-01-13', 'mercedesnavarro1962@outlook.com', 'N/A', 'P+gvo6svRq0', 'Navarro', 'Mercedes', 'USER', 'mercedesnavarro', 3, 1, '368-119-6708', 'Rambla de los Sueños 56', '@mercedesnavarro01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-12-11', 'africasantos.11.@outlook.com', 'N/A', 'P8Iqd1j4MZA', 'Santos', 'África', 'USER', 'africasantos', 2, 1, '358-502-4349', 'Paseo del Horizonte 15', '@africasantos1970');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-01-01', 'mariamunoz01-@outlook.com', 'male', 'P7b2b4d0I4g', 'Muñoz', 'María', 'USER', 'mariamunoz', 1, 6, '365-768-3489', 'Travesía del Valle 9', '@mariamunoz1998');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-01-12', 'isabelparra-01-@gmail.com', 'N/A', 'P+iKtLibEIU', 'Parra', 'Isabel', 'USER', 'isabelparra', 4, 3, '366-382-5459', 'Rambla del Horizonte 76', '@isabelparra12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-09-28', 'soledadgarrido2023_@outlook.com', 'N/A', 'P+MOjTNvJ4A', 'Garrido', 'Soledad', 'USER', 'soledadgarrido', 2, 4, '366-471-9305', 'Travesía del Río 66', '@soledadgarrido28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-09-05', 'luisaaguilar_1972@hotmail.com', 'female', 'P9Kqk1Y4omA', 'Aguilar', 'Luisa', 'USER', 'luisaaguilar', 5, 10, '369-646-3083', 'Travesía de la Montaña 16', '@luisaaguilar05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-07-13', 'mariasantana_13.@hotmail.com', 'male', 'P+afNGa5oU8', 'Santana', 'María', 'USER', 'mariasantana', 5, 8, '352-873-7796', 'Camino de la Esperanza 12', '@mariasantana07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-10-06', 'irenedelgado-10.@outlook.com', 'female', 'P6RAx474VsA', 'Delgado', 'Irene', 'USER', 'irenedelgado', 2, 3, '357-212-9204', 'Cuesta del Lago 12', '@irenedelgado10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-02-21', 'mariagomez.02-@gmail.com', 'male', 'P7PbsPW8fpA', 'Gómez', 'María', 'USER', 'mariagomez', 4, 10, '355-814-5486', 'Camino de la Esperanza 30', '@mariagomez1944');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-03-09', 'teresacarmona.03.@gmail.com', 'N/A', 'P+XHZMHV9R8', 'Carmona', 'Teresa', 'USER', 'teresacarmona', 2, 4, '357-600-6398', 'Camino de la Esperanza 26', '@teresacarmona1945');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1996-12-19', 'milagrosruiz-12@outlook.com', 'male', 'P+txNHIvHpY', 'Ruiz', 'Milagros', 'USER', 'milagrosruiz', 4, 8, '352-786-6292', 'Paseo de la Amistad 21', '@milagrosruiz12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-05-24', 'patriciapena_24-@hotmail.com', 'male', 'P+Gv/diUz6A', 'Peña', 'Patricia', 'USER', 'patriciapena', 8, 9, '359-183-4299', 'Paseo del Horizonte 63', '@patriciapena05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-09-28', 'mariacarmona.1944-@outlook.com', 'male', 'P+by/WE8xSg', 'Carmona', 'María', 'USER', 'mariacarmona', 4, 4, '365-893-4078', 'Avenida del Sauce 17', '@mariacarmona1944');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-11-16', 'pabloiglesias.1936-@outlook.com', 'female', 'P+zk1QKIaMo', 'Iglesias', 'Pablo', 'USER', 'pabloiglesias', 1, 7, '352-264-1963', 'Primavera 93', '@pabloiglesias11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-07-02', 'claradiaz-07@gmail.com', 'male', 'P97bq/r399Y', 'Díaz', 'Clara', 'USER', 'claradiaz', 2, 9, '351-974-3740', 'Paseo de los Pinos 1', '@claradiaz2013');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-12-21', 'carlosmontero-21_@outlook.com', 'female', 'P9XDqiY4Zew', 'Montero', 'Carlos', 'USER', 'carlosmontero', 7, 4, '366-333-2536', 'Calle de la Aurora 65', '@carlosmontero12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-08-18', 'teresaperez_08.@hotmail.com', 'male', 'P+D0eWLqNIc', 'Pérez', 'Teresa', 'USER', 'teresaperez', 1, 4, '364-325-7233', 'Plaza de la Libertad 100', '@teresaperez18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-10-23', 'mariamendez_1939-@outlook.com', 'male', 'P+j7WvsQo8M', 'Méndez', 'María', 'USER', 'mariamendez', 1, 4, '362-930-9130', 'Rambla del Horizonte 67', '@mariamendez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-06-19', 'isabelnavarro.1966_@gmail.com', 'female', 'P+YXtPg8eKw', 'Navarro', 'Isabel', 'USER', 'isabelnavarro', 7, 10, '367-429-8378', 'Camino de la Esperanza 51', '@isabelnavarro06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-09-23', 'antoniabravo_23.@hotmail.com', 'male', 'P8gRFdsWMUQ', 'Bravo', 'Antonia', 'USER', 'antoniabravo', 1, 6, '358-280-3384', 'Rambla del Mar 76', '@antoniabravo09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-03-20', 'rosalorenzo-1968.@outlook.com', 'male', 'P+X+jEfEWXA', 'Lorenzo', 'Rosa', 'USER', 'rosalorenzo', 9, 6, '354-942-6574', 'Camino de la Esperanza 78', '@rosalorenzo03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-05-16', 'aliciaparra-05.@gmail.com', 'female', 'P6J6+a6h2IA', 'Parra', 'Alicia', 'USER', 'aliciaparra', 10, 10, '352-717-5392', 'Plaza Mayor 24', '@aliciaparra16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-06-26', 'josecastro.26-@hotmail.com', 'female', 'P9k649ZPLbg', 'Castro', 'José', 'USER', 'josecastro', 5, 9, '360-266-3580', 'Primavera 15', '@josecastro26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-03-20', 'mariadelgado1966_@hotmail.com', 'female', 'P9f/dmTG/Uw', 'Delgado', 'María', 'USER', 'mariadelgado', 5, 3, '359-906-5511', 'Paseo de los Pinos 23', '@mariadelgado03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-03-02', 'mariamunoz_02_@hotmail.com', 'female', 'P9KwLyHQv8g', 'Muñoz', 'María', 'USER', 'mariamunoz', 3, 9, '361-654-4636', 'Ronda de los Nogales 57', '@mariamunoz03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1985-02-04', 'elenaalonso-04@gmail.com', 'male', 'P+vGOcRtrcw', 'Alonso', 'Elena', 'USER', 'elenaalonso', 7, 3, '353-345-4292', 'Avenida de las Estrellas 12', '@elenaalonso1985');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-01-06', 'mariafuentes1953-@gmail.com', 'female', 'P+M/lCtB8Ps', 'Fuentes', 'María', 'USER', 'mariafuentes', 6, 10, '355-741-9779', 'Cuesta del Molino 11', '@mariafuentes06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-03-17', 'josemoya_03-@outlook.com', 'female', 'P8RdcqgCc7Q', 'Moya', 'José', 'USER', 'josemoya', 9, 9, '353-457-2057', 'Carretera del Cielo 27', '@josemoya17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-04-07', 'rociovazquez-04@gmail.com', 'N/A', 'P7TyskALCLg', 'Vázquez', 'Rocío', 'USER', 'rociovazquez', 3, 2, '367-903-9584', 'Camino de los Aromas 24', '@rociovazquez2000');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-03-17', 'mariamartin-1947_@gmail.com', 'female', 'P+JXNEeqOAc', 'Martín', 'María', 'USER', 'mariamartin', 8, 7, '361-401-2004', 'Primavera 60', '@mariamartin1947');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-03-19', 'miriamsanz03-@hotmail.com', 'female', 'P8MRgAcz5Jg', 'Sanz', 'Miriam', 'USER', 'miriamsanz', 1, 7, '367-138-6066', 'Carretera del Alba 29', '@miriamsanz19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-03-16', 'consuelohidalgo-1966.@gmail.com', 'female', 'P+qFiy7T4fA', 'Hidalgo', 'Consuelo', 'USER', 'consuelohidalgo', 7, 5, '355-688-4455', 'Paseo de los Cedros 9', '@consuelohidalgo16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-09-16', 'lourdesaguilar_16_@gmail.com', 'male', 'P8k5UBXmeAA', 'Aguilar', 'Lourdes', 'USER', 'lourdesaguilar', 1, 6, '360-320-5139', 'Rambla del Horizonte 3', '@lourdesaguilar16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-08-23', 'isabelmarin-23_@hotmail.com', 'N/A', 'P+4GrbInI0M', 'Marín', 'Isabel', 'USER', 'isabelmarin', 3, 10, '363-140-5339', 'Calle de los Tulipanes 45', '@isabelmarin1989');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-03-17', 'mariafuentes-1954_@outlook.com', 'male', 'P9WsSOjyUBw', 'Fuentes', 'María', 'USER', 'mariafuentes', 10, 8, '356-600-2737', 'Camino Real 91', '@mariafuentes17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-12-03', 'angelesrey03_@gmail.com', 'female', 'P+tx4yZLuTY', 'Rey', 'Ángeles', 'USER', 'angelesrey', 9, 9, '370-184-6137', 'Avenida de la Luna 67', '@angelesrey03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-03-26', 'mariagonzalez-1947@outlook.com', 'N/A', 'P89i8dZFAkA', 'González', 'María', 'USER', 'mariagonzalez', 3, 6, '351-123-5064', 'Avenida de las Estrellas 56', '@mariagonzalez26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-09-28', 'pabloperez09@outlook.com', 'female', 'P+QxdO1HcNA', 'Pérez', 'Pablo', 'USER', 'pabloperez', 4, 10, '354-802-3417', 'Plaza Mayor 85', '@pabloperez09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-05-12', 'mariamunoz.2003.@hotmail.com', 'female', 'P9c+dx4Gj4I', 'Muñoz', 'María', 'USER', 'mariamunoz', 6, 3, '359-789-2059', 'Camino de los Aromas 2', '@mariamunoz2003');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-01-13', 'lourdesdiaz.01.@hotmail.com', 'female', 'P9zY0GtF6HI', 'Díaz', 'Lourdes', 'USER', 'lourdesdiaz', 10, 5, '353-118-9116', 'Carretera de la Sierra 11', '@lourdesdiaz01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-02-03', 'mariaaguilar1998-@outlook.com', 'N/A', 'P+/XoMJrPgA', 'Aguilar', 'María', 'USER', 'mariaaguilar', 8, 7, '365-429-3393', 'Ronda del Parque 41', '@mariaaguilar03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-05-04', 'mariacarrasco.2021@hotmail.com', 'N/A', 'P9S8SMKSzYI', 'Carrasco', 'María', 'USER', 'mariacarrasco', 1, 8, '366-208-5517', 'Avenida del Sol 61', '@mariacarrasco2021');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-09-03', 'soledadgomez2024-@gmail.com', 'male', 'P9Sfs4h5QRA', 'Gómez', 'Soledad', 'USER', 'soledadgomez', 6, 10, '361-972-2574', 'Camino de la Loma 32', '@soledadgomez03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-11-28', 'diegogonzalez.2024-@hotmail.com', 'N/A', 'P8ZwWY9gGlw', 'González', 'Diego', 'USER', 'diegogonzalez', 4, 4, '368-937-7659', 'Rambla de los Jazmines 60', '@diegogonzalez2024');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-12-23', 'joseguerrero_2014_@outlook.com', 'male', 'P9lyZbz5L/w', 'Guerrero', 'José', 'USER', 'joseguerrero', 8, 3, '363-617-4457', 'Plaza de las Campanas 81', '@joseguerrero12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-12-24', 'juliaestevez24_@hotmail.com', 'N/A', 'P+XKkCi3nfg', 'Estévez', 'Julia', 'USER', 'juliaestevez', 2, 8, '356-980-9839', 'Travesía del Olivo 75', '@juliaestevez12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-12-26', 'doloresgimenez-2002_@hotmail.com', 'female', 'P+6mHqdbbqI', 'Giménez', 'Dolores', 'USER', 'doloresgimenez', 9, 9, '352-416-6434', 'Travesía del Alba 96', '@doloresgimenez26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-06-02', 'mercedessantana06@outlook.com', 'male', 'P+FMh0WiC6s', 'Santana', 'Mercedes', 'USER', 'mercedessantana', 7, 3, '355-563-3820', 'Calle de los Tulipanes 10', '@mercedessantana1962');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-06-23', 'mariasoto.1935@outlook.com', 'N/A', 'P9Hh1TiP2dY', 'Soto', 'María', 'USER', 'mariasoto', 2, 8, '353-281-6262', 'Ronda de los Nogales 64', '@mariasoto1935');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-07-02', 'carlosrey.02-@hotmail.com', 'male', 'P8gxTboqAlQ', 'Rey', 'Carlos', 'USER', 'carlosrey', 9, 9, '354-321-6208', 'Travesía del Valle 84', '@carlosrey1960');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-07-08', 'beatrizmartinez_1957_@outlook.com', 'female', 'P6UJz+uHZ4A', 'Martínez', 'Beatriz', 'USER', 'beatrizmartinez', 5, 9, '355-676-8876', 'Ronda de los Nogales 15', '@beatrizmartinez1957');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-12-24', 'milagrosmora2011@outlook.com', 'female', 'P+OlLEJ1N9s', 'Mora', 'Milagros', 'USER', 'milagrosmora', 6, 6, '366-945-8778', 'Plaza del Mirador 9', '@milagrosmora12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1973-10-13', 'mariaruiz-10.@outlook.com', 'male', 'P+aDChXVzx0', 'Ruiz', 'María', 'USER', 'mariaruiz', 10, 9, '355-481-3064', 'Avenida de la Luna 96', '@mariaruiz13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-12-14', 'silviabravo-1950@outlook.com', 'female', 'P+ucf1fdkss', 'Bravo', 'Silvia', 'USER', 'silviabravo', 10, 7, '364-833-9567', 'Plaza de la Fuente 49', '@silviabravo12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-11-02', 'andreacastro_02_@gmail.com', 'N/A', 'P+XudxZ79yI', 'Castro', 'Andrea', 'USER', 'andreacastro', 4, 3, '368-686-7541', 'Carretera de la Sierra 41', '@andreacastro02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-03-19', 'gloriabermudez19_@hotmail.com', 'female', 'P+s+6j7+n4M', 'Bermúdez', 'Gloria', 'USER', 'gloriabermudez', 3, 9, '368-587-8583', 'Camino Real 40', '@gloriabermudez1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-05-21', 'isabelsoto-1987@gmail.com', 'female', 'P+g3ulU73uk', 'Soto', 'Isabel', 'USER', 'isabelsoto', 6, 1, '365-510-5410', 'Ronda de San Pedro 25', '@isabelsoto1987');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-07-07', 'nievesdominguez_07-@gmail.com', 'N/A', 'P+gs35jVLBA', 'Domínguez', 'Nieves', 'USER', 'nievesdominguez', 4, 5, '364-458-3763', 'Paseo de los Álamos 31', '@nievesdominguez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-10-18', 'carmenbravo1995@outlook.com', 'N/A', 'P+18QqvUeIE', 'Bravo', 'Carmen', 'USER', 'carmenbravo', 10, 2, '369-833-2766', 'Paseo de los Cedros 4', '@carmenbravo10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-12-24', 'antoniadominguez1954-@outlook.com', 'female', 'P5eNYZw8WYA', 'Domínguez', 'Antonia', 'USER', 'antoniadominguez', 7, 1, '359-261-2249', 'Camino de la Esperanza 26', '@antoniadominguez24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-02-11', 'mariaarias.1978_@gmail.com', 'female', 'P9X9vGIZGmo', 'Arias', 'María', 'USER', 'mariaarias', 6, 3, '364-680-9311', 'Paseo de los Pinos 38', '@mariaarias1978');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-11-14', 'mariagil.11-@gmail.com', 'female', 'P+hLyN4yVjY', 'Gil', 'María', 'USER', 'mariagil', 9, 5, '370-897-5008', 'Plaza de la Fuente 65', '@mariagil11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-04-15', 'angelesortega-15-@gmail.com', 'female', 'P97l51KSrpY', 'Ortega', 'Ángeles', 'USER', 'angelesortega', 1, 1, '363-775-3161', 'Cuesta del Castillo 1', '@angelesortega15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-07-27', 'mariamora07-@outlook.com', 'female', 'P+IcP7MGJx4', 'Mora', 'María', 'USER', 'mariamora', 3, 8, '365-324-4764', 'Travesía del Río 6', '@mariamora1978');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-12-05', 'nievesleon-2019.@gmail.com', 'N/A', 'P+Lk+rzqrEY', 'León', 'Nieves', 'USER', 'nievesleon', 3, 6, '356-711-8917', 'Travesía de la Montaña 33', '@nievesleon12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-01-20', 'gloriafernandez-20_@gmail.com', 'male', 'P+kggXZlV80', 'Fernández', 'Gloria', 'USER', 'gloriafernandez', 3, 3, '370-213-3986', 'Paseo del Horizonte 43', '@gloriafernandez20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-05-27', 'mariamunoz-05.@outlook.com', 'female', 'P+dDDiqsACc', 'Muñoz', 'María', 'USER', 'mariamunoz', 4, 8, '369-755-8152', 'Cuesta del Castillo 11', '@mariamunoz27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-02-05', 'teresaiglesias.05.@hotmail.com', 'N/A', 'P81f4BfnycA', 'Iglesias', 'Teresa', 'USER', 'teresaiglesias', 1, 6, '351-327-4377', 'Travesía del Alba 30', '@teresaiglesias05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-12-02', 'mariarodriguez-2011_@hotmail.com', 'male', 'P+AZKorStVg', 'Rodríguez', 'María', 'USER', 'mariarodriguez', 7, 10, '367-990-7630', 'Travesía del Alba 19', '@mariarodriguez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1974-04-15', 'mercedessantiago.1974@outlook.com', 'male', 'P+wAhIA4MH4', 'Santiago', 'Mercedes', 'USER', 'mercedessantiago', 2, 3, '363-629-4845', 'Calle de la Paz 96', '@mercedessantiago1974');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-06-13', 'patriciahidalgo_1997@hotmail.com', 'N/A', 'P+tppd9wrjw', 'Hidalgo', 'Patricia', 'USER', 'patriciahidalgo', 5, 7, '364-741-3481', 'Avenida de la Luna 33', '@patriciahidalgo1997');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-08-20', 'luzleon.08@hotmail.com', 'male', 'P+ErORDHWUU', 'León', 'Luz', 'USER', 'luzleon', 4, 1, '365-712-7132', 'Ronda de San Pedro 32', '@luzleon20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-08-14', 'mariapardo-14@gmail.com', 'female', 'P+PulHu011Q', 'Pardo', 'María', 'USER', 'mariapardo', 7, 4, '352-291-9371', 'Calle de la Aurora 19', '@mariapardo2015');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-10-06', 'carmensoto_10.@outlook.com', 'male', 'P+uW4p0AISI', 'Soto', 'Carmen', 'USER', 'carmensoto', 8, 3, '367-135-7545', 'Callejón del Gato 34', '@carmensoto2002');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-04-03', 'mariamontero.2000.@outlook.com', 'N/A', 'P94+HLRMMPI', 'Montero', 'María', 'USER', 'mariamontero', 2, 1, '361-463-5174', 'Ronda del Bosque 70', '@mariamontero04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-01-09', 'doloresrey_01@gmail.com', 'female', 'P9Zwg9sL0sQ', 'Rey', 'Dolores', 'USER', 'doloresrey', 7, 6, '351-351-3724', 'Calle de la Aurora 84', '@doloresrey2004');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-02-05', 'monicapascual.2014-@hotmail.com', 'N/A', 'P9UISUeS7eo', 'Pascual', 'Mónica', 'USER', 'monicapascual', 8, 7, '362-672-1321', 'Travesía del Alba 7', '@monicapascual05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-11-17', 'mariaarias.11@hotmail.com', 'female', 'P9cVV7gfiPg', 'Arias', 'María', 'USER', 'mariaarias', 5, 2, '358-407-6718', 'Travesía de la Montaña 44', '@mariaarias17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-02-25', 'carmenmoya-25.@outlook.com', 'female', 'P9pv9t7/xCY', 'Moya', 'Carmen', 'USER', 'carmenmoya', 4, 5, '355-621-4456', 'Camino de los Aromas 47', '@carmenmoya25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-09-02', 'josemartin02@outlook.com', 'N/A', 'P9RzW3fv7+o', 'Martín', 'José', 'USER', 'josemartin', 8, 2, '366-654-6387', 'Avenida del Sauce 29', '@josemartin02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-10-23', 'mariavazquez-2022_@hotmail.com', 'female', 'P9x/dA6kw/Q', 'Vázquez', 'María', 'USER', 'mariavazquez', 1, 2, '368-443-5687', 'Avenida de la Luna 42', '@mariavazquez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-06-03', 'mariasanchez_1949.@outlook.com', 'male', 'P+L5sddMyZI', 'Sánchez', 'María', 'USER', 'mariasanchez', 7, 3, '360-827-2467', 'Carretera de los Cipreses 53', '@mariasanchez03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-09-12', 'angelesmoya_12.@gmail.com', 'male', 'P+YlPqFARl4', 'Moya', 'Ángeles', 'USER', 'angelesmoya', 8, 5, '358-153-1475', 'Ronda de San Pedro 79', '@angelesmoya2009');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-10-17', 'isabelgarcia_17_@hotmail.com', 'N/A', 'P58ik4sOPAA', 'García', 'Isabel', 'USER', 'isabelgarcia', 9, 5, '356-642-2092', 'Carretera de la Sierra 90', '@isabelgarcia17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-06-22', 'saramontero-06@outlook.com', 'male', 'P+514EYxWGY', 'Montero', 'Sara', 'USER', 'saramontero', 3, 9, '353-336-5723', 'Primavera 42', '@saramontero2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-10-27', 'mariasantiago.2011_@hotmail.com', 'male', 'P+KTwENKPyA', 'Santiago', 'María', 'USER', 'mariasantiago', 9, 3, '367-168-5143', 'Avenida de la Luna 38', '@mariasantiago10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-02-02', 'isabelmorales.02.@hotmail.com', 'female', 'P+t4/RlsBB0', 'Morales', 'Isabel', 'USER', 'isabelmorales', 4, 8, '366-211-4875', 'Primavera 35', '@isabelmorales02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-05-27', 'mariacano-05@outlook.com', 'N/A', 'P+wWjw1jV3U', 'Cano', 'María', 'USER', 'mariacano', 9, 9, '356-765-4689', 'Cuesta del Lago 34', '@mariacano05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-04-25', 'antoniamora1951@outlook.com', 'male', 'P9vSXa1COsY', 'Mora', 'Antonia', 'USER', 'antoniamora', 2, 10, '354-274-4026', 'Rambla del Mar 67', '@antoniamora04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-05-25', 'mariasantiago-25.@outlook.com', 'female', 'P+yXySBfYKU', 'Santiago', 'María', 'USER', 'mariasantiago', 7, 5, '364-850-6956', 'Primavera 23', '@mariasantiago25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-11-14', 'mariaesteban14_@outlook.com', 'N/A', 'P9nYPQrHwSI', 'Esteban', 'María', 'USER', 'mariaesteban', 8, 10, '361-667-7008', 'Carretera de la Flor 18', '@mariaesteban1942');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-11-12', 'rafaelleon11_@gmail.com', 'female', 'P9B9e04XGPo', 'León', 'Rafael', 'USER', 'rafaelleon', 10, 2, '358-169-4952', 'Travesía del Olivo 58', '@rafaelleon12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-08-06', 'mariamoreno-06.@hotmail.com', 'male', 'P9YrK1ZmkeI', 'Moreno', 'María', 'USER', 'mariamoreno', 4, 3, '354-525-2395', 'Rambla de los Encantos 32', '@mariamoreno1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-07-12', 'luisramirez12@gmail.com', 'female', 'P8uOhCYo1sQ', 'Ramírez', 'Luis', 'USER', 'luisramirez', 8, 1, '356-220-4025', 'Carretera del Alba 37', '@luisramirez1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-12-10', 'paularojas10.@outlook.com', 'N/A', 'P+H4j3Zk0Lc', 'Rojas', 'Paula', 'USER', 'paularojas', 6, 9, '363-280-6421', 'Avenida del Sauce 62', '@paularojas10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-09-27', 'carmenmarin_1945-@outlook.com', 'female', 'P9LIdJD+q3Q', 'Marín', 'Carmen', 'USER', 'carmenmarin', 4, 6, '357-842-4354', 'Ronda de los Nogales 76', '@carmenmarin1945');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-11-25', 'pilarsantana25_@hotmail.com', 'N/A', 'P8wwxZDMlbg', 'Santana', 'Pilar', 'USER', 'pilarsantana', 3, 4, '364-110-1877', 'Plaza de las Campanas 28', '@pilarsantana2017');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-08-07', 'mariarojas.1978_@gmail.com', 'female', 'P7+cBqFR2VA', 'Rojas', 'María', 'USER', 'mariarojas', 5, 10, '362-564-2640', 'Travesía de la Montaña 76', '@mariarojas1978');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-12-02', 'mariaesteban_02-@outlook.com', 'N/A', 'P+efdtnUsdQ', 'Esteban', 'María', 'USER', 'mariaesteban', 6, 4, '354-630-4715', 'Cuesta del Lago 13', '@mariaesteban1990');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-11-28', 'angelesbermudez-1950-@gmail.com', 'N/A', 'P++mmkLmCis', 'Bermúdez', 'Ángeles', 'USER', 'angelesbermudez', 4, 10, '358-404-5154', 'Camino de la Loma 39', '@angelesbermudez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1965-03-13', 'mariaherrero03.@gmail.com', 'male', 'P4bE6vIM2oA', 'Herrero', 'María', 'USER', 'mariaherrero', 8, 9, '351-238-5970', 'Cuesta de los Vientos 74', '@mariaherrero03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-04-11', 'mariamontero11_@gmail.com', 'male', 'P7zv7SUUqzA', 'Montero', 'María', 'USER', 'mariamontero', 2, 7, '362-997-5794', 'Avenida de la Luna 53', '@mariamontero04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-10-17', 'nievesesteban_17-@outlook.com', 'male', 'P+AAJaCnHns', 'Esteban', 'Nieves', 'USER', 'nievesesteban', 2, 2, '362-547-8240', 'Cuesta del Molino 2', '@nievesesteban10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-08-24', 'isabelmoya_2021_@outlook.com', 'N/A', 'P+PT/bV6n0k', 'Moya', 'Isabel', 'USER', 'isabelmoya', 2, 4, '352-100-8125', 'Rambla del Mar 2', '@isabelmoya2021');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-02-22', 'mariapardo-22_@hotmail.com', 'female', 'P96pkqAV3qI', 'Pardo', 'María', 'USER', 'mariapardo', 7, 4, '357-934-4212', 'Avenida del Sauce 74', '@mariapardo22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-08-18', 'franciscorojas.18@hotmail.com', 'male', 'P+e14vtPOaI', 'Rojas', 'Francisco', 'USER', 'franciscorojas', 3, 5, '352-603-8843', 'Cuesta del Molino 7', '@franciscorojas1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-04-10', 'rafaelguerrero-04@gmail.com', 'female', 'P+y2Qk277t8', 'Guerrero', 'Rafael', 'USER', 'rafaelguerrero', 3, 8, '362-288-1360', 'Paseo de los Álamos 62', '@rafaelguerrero10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-01-11', 'mariasalas11.@hotmail.com', 'male', 'P9YOm7k2nuY', 'Salas', 'María', 'USER', 'mariasalas', 4, 5, '367-672-6173', 'Travesía de la Montaña 36', '@mariasalas2014');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-11-02', 'analorenzo-1963.@gmail.com', 'male', 'P9R4VWD7aAQ', 'Lorenzo', 'Ana', 'USER', 'analorenzo', 1, 3, '367-730-7547', 'Avenida de las Estrellas 16', '@analorenzo11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-11-07', 'rocioherrero-2003-@hotmail.com', 'N/A', 'P8zqtJFDOAw', 'Herrero', 'Rocío', 'USER', 'rocioherrero', 6, 8, '355-579-7861', 'Ronda de los Abedules 79', '@rocioherrero2003');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-03-07', 'mariajimenez-2023.@hotmail.com', 'N/A', 'P8Q8JWyteKg', 'Jiménez', 'María', 'USER', 'mariajimenez', 4, 4, '369-769-1809', 'Cuesta del Molino 86', '@mariajimenez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-07-20', 'mariarojas07-@gmail.com', 'female', 'P+U6j+FObQk', 'Rojas', 'María', 'USER', 'mariarojas', 8, 2, '353-244-1048', 'Travesía de la Montaña 7', '@mariarojas07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1985-08-01', 'saramartin-01.@outlook.com', 'female', 'P5j2P2wuygA', 'Martín', 'Sara', 'USER', 'saramartin', 7, 2, '362-404-6880', 'Paseo de los Álamos 67', '@saramartin1985');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-09-12', 'pedrolozano-1953_@outlook.com', 'N/A', 'P+4yeMdyIr8', 'Lozano', 'Pedro', 'USER', 'pedrolozano', 1, 3, '368-263-5007', 'Rambla del Mar 17', '@pedrolozano1953');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-05-27', 'mariaserrano-27_@outlook.com', 'male', 'P+BSVvtn2uI', 'Serrano', 'María', 'USER', 'mariaserrano', 1, 5, '353-863-3139', 'Plaza de la Fuente 86', '@mariaserrano27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-09-25', 'mariagonzalez09-@outlook.com', 'female', 'P+uw4YgIMV0', 'González', 'María', 'USER', 'mariagonzalez', 4, 8, '356-420-3687', 'Avenida del Sauce 10', '@mariagonzalez25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-06-26', 'aliciapascual1983_@hotmail.com', 'N/A', 'P+X5dJ3tWDg', 'Pascual', 'Alicia', 'USER', 'aliciapascual', 6, 6, '360-306-8775', 'Cuesta del Molino 35', '@aliciapascual26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-06-06', 'mariasanz_2009-@gmail.com', 'female', 'P9g0ZfRLEe4', 'Sanz', 'María', 'USER', 'mariasanz', 9, 4, '365-278-5227', 'Avenida del Sauce 41', '@mariasanz06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-02-17', 'mariatorres-02.@outlook.com', 'male', 'P+NBu9StE3Q', 'Torres', 'María', 'USER', 'mariatorres', 1, 7, '355-397-1696', 'Carretera de los Cipreses 30', '@mariatorres02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-01-27', 'mariamedina27@hotmail.com', 'N/A', 'P8y1Oz569ow', 'Medina', 'María', 'USER', 'mariamedina', 6, 10, '357-231-9435', 'Avenida del Sauce 43', '@mariamedina27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-04-13', 'elenavazquez_04-@hotmail.com', 'N/A', 'P6dmXeut3MA', 'Vázquez', 'Elena', 'USER', 'elenavazquez', 1, 5, '362-849-1085', 'Rambla de los Sueños 12', '@elenavazquez04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-07-10', 'rafaellozano07-@gmail.com', 'female', 'P65J7119k9A', 'Lozano', 'Rafael', 'USER', 'rafaellozano', 6, 1, '357-246-5980', 'Rambla de los Sueños 79', '@rafaellozano1991');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-05-09', 'mariadominguez1956-@outlook.com', 'male', 'P9/XocOoxx4', 'Domínguez', 'María', 'USER', 'mariadominguez', 8, 8, '365-680-6919', 'Ronda de San Pedro 77', '@mariadominguez05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-12-10', 'mariablanco12_@hotmail.com', 'male', 'P9v++jeoAzA', 'Blanco', 'María', 'USER', 'mariablanco', 6, 4, '368-255-1286', 'Avenida de la Luna 50', '@mariablanco1970');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-02-09', 'mariamolina-2020_@outlook.com', 'N/A', 'P9YBI98WdDQ', 'Molina', 'María', 'USER', 'mariamolina', 2, 6, '369-370-1261', 'Primavera 39', '@mariamolina02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-06-01', 'angelamoreno01_@hotmail.com', 'male', 'P914RaTHrYo', 'Moreno', 'Ángela', 'USER', 'angelamoreno', 3, 9, '354-784-2823', 'Paseo de la Amistad 42', '@angelamoreno06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-04-20', 'mariasantos-1971@outlook.com', 'female', 'P9+JHjMbiTw', 'Santos', 'María', 'USER', 'mariasantos', 2, 6, '366-275-6419', 'Paseo de los Cedros 64', '@mariasantos1971');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-07-12', 'mariasantana1999-@outlook.com', 'female', 'P+AjXrdf3cA', 'Santana', 'María', 'USER', 'mariasantana', 10, 9, '362-403-7528', 'Travesía del Alba 80', '@mariasantana07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2018-12-04', 'mariaramirez.2018-@outlook.com', 'N/A', 'P+B2fk0yMTQ', 'Ramírez', 'María', 'USER', 'mariaramirez', 10, 4, '366-218-7716', 'Paseo de los Cedros 55', '@mariaramirez2018');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1973-03-02', 'josevicente.03_@outlook.com', 'male', 'P7jKh6xc+sg', 'Vicente', 'José', 'USER', 'josevicente', 5, 6, '352-729-4438', 'Travesía del Río 52', '@josevicente02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-09-18', 'mariaflores18_@hotmail.com', 'N/A', 'P9u+1ybgo64', 'Flores', 'María', 'USER', 'mariaflores', 2, 5, '369-708-7062', 'Carretera de la Sierra 13', '@mariaflores09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-08-04', 'josemora2011.@gmail.com', 'N/A', 'P+fvJKRbrGU', 'Mora', 'José', 'USER', 'josemora', 3, 1, '352-627-9372', 'Camino de la Loma 50', '@josemora2011');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-01-08', 'elenavicente_08.@outlook.com', 'female', 'P+/COpxZrPQ', 'Vicente', 'Elena', 'USER', 'elenavicente', 5, 3, '354-183-8498', 'Avenida del Amanecer 73', '@elenavicente08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-06-24', 'jorgearias.1995-@outlook.com', 'N/A', 'P+fFYd4b/u0', 'Arias', 'Jorge', 'USER', 'jorgearias', 4, 10, '364-201-9897', 'Avenida de la Luna 61', '@jorgearias24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-08-27', 'angelasalas_08.@gmail.com', 'female', 'P8cdiQmiNtA', 'Salas', 'Ángela', 'USER', 'angelasalas', 3, 5, '368-691-7585', 'Callejón del Gato 41', '@angelasalas08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-10-23', 'milagrospascual23-@hotmail.com', 'N/A', 'P9LbGq/tJVA', 'Pascual', 'Milagros', 'USER', 'milagrospascual', 4, 9, '361-971-7428', 'Plaza del Mirador 19', '@milagrospascual2013');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-02-20', 'josesantiago.20@gmail.com', 'female', 'P9eDGNp38w4', 'Santiago', 'José', 'USER', 'josesantiago', 2, 8, '361-591-3520', 'Plaza de la Fuente 30', '@josesantiago02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-11-13', 'jorgebravo_11@gmail.com', 'male', 'P8Oczd9mbTg', 'Bravo', 'Jorge', 'USER', 'jorgebravo', 9, 1, '353-743-7997', 'Camino Real 60', '@jorgebravo1966');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-12-10', 'josemoya-10@outlook.com', 'N/A', 'P9EHpI3bc+o', 'Moya', 'José', 'USER', 'josemoya', 10, 8, '363-782-4192', 'Travesía de la Montaña 6', '@josemoya2003');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-09-18', 'carmenalonso_18-@hotmail.com', 'N/A', 'P+NpkyAHutQ', 'Alonso', 'Carmen', 'USER', 'carmenalonso', 10, 8, '362-901-5995', 'Cuesta del Castillo 39', '@carmenalonso09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-06-09', 'mariacortes.2009.@hotmail.com', 'male', 'P5ey6GyDYaA', 'Cortés', 'María', 'USER', 'mariacortes', 10, 6, '358-989-8702', 'Carretera del Alba 62', '@mariacortes2009');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-06-24', 'mariarojas.06_@gmail.com', 'N/A', 'P9yk9Ev5kpo', 'Rojas', 'María', 'USER', 'mariarojas', 4, 2, '356-155-9459', 'Travesía del Valle 8', '@mariarojas24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-06-22', 'lorenasalas-2017-@gmail.com', 'N/A', 'P+KhquiFs6g', 'Salas', 'Lorena', 'USER', 'lorenasalas', 7, 2, '354-935-2841', 'Rambla de los Sueños 70', '@lorenasalas2017');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-05-16', 'mariavega-1997.@gmail.com', 'male', 'P+D+qtXQx64', 'Vega', 'María', 'USER', 'mariavega', 7, 3, '353-316-2545', 'Camino de las Rosas 51', '@mariavega16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-02-13', 'mariaestevez.02@outlook.com', 'male', 'P+/ske0E4cg', 'Estévez', 'María', 'USER', 'mariaestevez', 1, 6, '352-626-4631', 'Camino de los Aromas 3', '@mariaestevez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-12-27', 'manuelramos_12@outlook.com', 'N/A', 'P+38iq9nRL0', 'Ramos', 'Manuel', 'USER', 'manuelramos', 4, 6, '370-843-9285', 'Camino de los Aromas 86', '@manuelramos12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-03-28', 'aliciamorales.1991.@hotmail.com', 'N/A', 'P7S1B1fP1+g', 'Morales', 'Alicia', 'USER', 'aliciamorales', 7, 5, '356-274-8237', 'Ronda del Parque 79', '@aliciamorales03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-01-03', 'mariafuentes.01.@hotmail.com', 'male', 'P+1RANlQ7wk', 'Fuentes', 'María', 'USER', 'mariafuentes', 1, 7, '368-663-3539', 'Travesía de la Montaña 6', '@mariafuentes01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-07-12', 'isabelvicente_12@gmail.com', 'female', 'P9il9TfBGrA', 'Vicente', 'Isabel', 'USER', 'isabelvicente', 9, 1, '353-624-1493', 'Rambla de los Jazmines 22', '@isabelvicente1997');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-04-02', 'mariabermudez_02-@outlook.com', 'female', 'P9VenTCIAcw', 'Bermúdez', 'María', 'USER', 'mariabermudez', 1, 7, '368-341-4820', 'Ronda del Bosque 62', '@mariabermudez1952');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1982-03-16', 'mariaguerrero-1982-@gmail.com', 'female', 'P+Qukq2SdLk', 'Guerrero', 'María', 'USER', 'mariaguerrero', 8, 8, '351-807-8717', 'Cuesta del Lago 8', '@mariaguerrero16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-02-24', 'antoniafuentes.02@hotmail.com', 'N/A', 'P8HkrRlKjGQ', 'Fuentes', 'Antonia', 'USER', 'antoniafuentes', 6, 2, '362-994-2830', 'Primavera 35', '@antoniafuentes02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2018-11-01', 'mariacano_2018_@gmail.com', 'N/A', 'P+jq/Hlz79o', 'Cano', 'María', 'USER', 'mariacano', 10, 1, '367-432-8867', 'Avenida de la Luna 3', '@mariacano11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-03-10', 'mariabravo.03@outlook.com', 'male', 'P9ffIT/2J3g', 'Bravo', 'María', 'USER', 'mariabravo', 10, 4, '357-287-2676', 'Cuesta del Castillo 71', '@mariabravo03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-03-24', 'rosariogimenez.24@outlook.com', 'male', 'P53V9ycqZIA', 'Giménez', 'Rosario', 'USER', 'rosariogimenez', 1, 8, '362-940-7712', 'Avenida del Sol 56', '@rosariogimenez1983');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-07-19', 'pablogimenez_19_@outlook.com', 'N/A', 'P+PRfr8wG3Q', 'Giménez', 'Pablo', 'USER', 'pablogimenez', 8, 9, '358-890-1084', 'Rambla de los Encantos 30', '@pablogimenez2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-05-11', 'mariaaguilar.1978@gmail.com', 'female', 'P9xUIKhoTco', 'Aguilar', 'María', 'USER', 'mariaaguilar', 8, 10, '355-548-2000', 'Cuesta del Lago 51', '@mariaaguilar11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-06-06', 'analorenzo_06-@hotmail.com', 'N/A', 'P+JzPO5WNBg', 'Lorenzo', 'Ana', 'USER', 'analorenzo', 4, 7, '363-278-4698', 'Ronda de los Abedules 64', '@analorenzo06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-01-11', 'angelesfernandez_2000@hotmail.com', 'N/A', 'P65uWWRNyEA', 'Fernández', 'Ángeles', 'USER', 'angelesfernandez', 2, 8, '356-842-5782', 'Cuesta de la Luz 40', '@angelesfernandez2000');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-01-24', 'mariaguerrero1971.@hotmail.com', 'female', 'P5rKGW/m/QA', 'Guerrero', 'María', 'USER', 'mariaguerrero', 1, 2, '358-635-8614', 'Carretera de la Sierra 12', '@mariaguerrero24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-10-20', 'consuelomolina-10_@hotmail.com', 'female', 'P9Lg7v8z1yw', 'Molina', 'Consuelo', 'USER', 'consuelomolina', 2, 4, '370-858-1129', 'Camino de las Rosas 36', '@consuelomolina10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-09-22', 'mariatorres22-@outlook.com', 'female', 'P+9nhqyMfXU', 'Torres', 'María', 'USER', 'mariatorres', 4, 7, '366-235-8657', 'Cuesta del Lago 24', '@mariatorres22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-01-21', 'mariaramirez.21_@gmail.com', 'N/A', 'P+2AwhdjeFU', 'Ramírez', 'María', 'USER', 'mariaramirez', 4, 2, '358-946-1971', 'Avenida de las Estrellas 64', '@mariaramirez01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-10-04', 'luisavidal_04_@outlook.com', 'female', 'P+tTnj5QhnA', 'Vidal', 'Luisa', 'USER', 'luisavidal', 2, 9, '363-116-6002', 'Camino de los Aromas 4', '@luisavidal1956');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-03-20', 'africamendez.03@outlook.com', 'N/A', 'P+E8O9eI7Mc', 'Méndez', 'África', 'USER', 'africamendez', 6, 9, '357-847-7289', 'Calle de la Paz 80', '@africamendez1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-07-28', 'mariahernandez-28_@gmail.com', 'female', 'P9ALWNCdi3g', 'Hernández', 'María', 'USER', 'mariahernandez', 3, 8, '357-630-1218', 'Cuesta del Molino 97', '@mariahernandez28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-08-28', 'lauramora_28.@hotmail.com', 'N/A', 'P8jQb5amZtQ', 'Mora', 'Laura', 'USER', 'lauramora', 1, 2, '362-407-6608', 'Carretera de la Flor 14', '@lauramora28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-06-15', 'mariacabrera-15.@gmail.com', 'male', 'P7QMlfho6Ng', 'Cabrera', 'María', 'USER', 'mariacabrera', 9, 1, '356-954-6217', 'Paseo del Horizonte 57', '@mariacabrera06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-12-19', 'teresamora19-@gmail.com', 'female', 'P+sB+SbSFNY', 'Mora', 'Teresa', 'USER', 'teresamora', 10, 4, '357-938-7394', 'Cuesta de los Vientos 94', '@teresamora1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-06-20', 'luisleon_20.@hotmail.com', 'female', 'P73ANhLK6Og', 'León', 'Luis', 'USER', 'luisleon', 3, 2, '357-457-1729', 'Travesía del Río 83', '@luisleon2022');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-05-14', 'isabeldelgado_14@hotmail.com', 'male', 'P9xzlT/ZsKg', 'Delgado', 'Isabel', 'USER', 'isabeldelgado', 7, 3, '362-740-4109', 'Avenida del Sol 83', '@isabeldelgado1947');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-02-08', 'dolorescruz-08_@hotmail.com', 'N/A', 'P9gHKlKbR5g', 'Cruz', 'Dolores', 'USER', 'dolorescruz', 10, 9, '365-552-1911', 'Cuesta del Lago 88', '@dolorescruz08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-12-02', 'isabelpascual2010.@outlook.com', 'N/A', 'P+NYUgaW/II', 'Pascual', 'Isabel', 'USER', 'isabelpascual', 8, 6, '361-464-4477', 'Calle de la Aurora 41', '@isabelpascual12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-05-25', 'carloscabrera-1937@outlook.com', 'female', 'P8nfojV8kJQ', 'Cabrera', 'Carlos', 'USER', 'carloscabrera', 3, 4, '353-751-8833', 'Cuesta de los Vientos 16', '@carloscabrera25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-11-02', 'juliabravo_02-@outlook.com', 'N/A', 'P+4CKONUpJQ', 'Bravo', 'Julia', 'USER', 'juliabravo', 6, 10, '359-689-4904', 'Primavera 34', '@juliabravo11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2016-02-05', 'silviamoreno-2016@outlook.com', 'N/A', 'P9V21f49i7Y', 'Moreno', 'Silvia', 'USER', 'silviamoreno', 10, 5, '353-565-7941', 'Avenida del Amanecer 78', '@silviamoreno02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-12-03', 'mariahidalgo_12.@hotmail.com', 'female', 'P+BQ9hpEQvo', 'Hidalgo', 'María', 'USER', 'mariahidalgo', 7, 4, '365-288-6602', 'Calle de la Aurora 7', '@mariahidalgo12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-03-19', 'africaserrano-19@hotmail.com', 'female', 'P+XaJk/vUwY', 'Serrano', 'África', 'USER', 'africaserrano', 5, 1, '356-683-6806', 'Carretera de la Sierra 61', '@africaserrano19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-11-23', 'mariacarmona.11_@hotmail.com', 'N/A', 'P9WjwX3Erg4', 'Carmona', 'María', 'USER', 'mariacarmona', 7, 8, '353-678-4193', 'Cuesta de la Luz 24', '@mariacarmona23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-05-05', 'victoriaestevez-2004_@gmail.com', 'male', 'P8xr05oL8RQ', 'Estévez', 'Victoria', 'USER', 'victoriaestevez', 8, 9, '355-736-1343', 'Paseo de la Amistad 46', '@victoriaestevez2004');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2016-10-08', 'elenalorenzo_10.@outlook.com', 'N/A', 'P97tQoAM8DQ', 'Lorenzo', 'Elena', 'USER', 'elenalorenzo', 10, 8, '368-262-4475', 'Plaza del Mirador 29', '@elenalorenzo2016');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-01-13', 'mariafuentes13-@hotmail.com', 'female', 'P9DTBK1R7n4', 'Fuentes', 'María', 'USER', 'mariafuentes', 2, 6, '358-227-5490', 'Carretera de la Sierra 53', '@mariafuentes13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-08-27', 'mariabravo.27@gmail.com', 'male', 'P+WBXlPooZ0', 'Bravo', 'María', 'USER', 'mariabravo', 6, 4, '365-602-6538', 'Paseo de la Amistad 19', '@mariabravo1960');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-09-02', 'marialorenzo.1950-@gmail.com', 'male', 'P+owPKSATZw', 'Lorenzo', 'María', 'USER', 'marialorenzo', 5, 6, '359-796-7001', 'Rambla de los Sueños 7', '@marialorenzo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-05-02', 'mariamorales1953.@outlook.com', 'female', 'P7ZHtOxffig', 'Morales', 'María', 'USER', 'mariamorales', 3, 1, '357-771-6917', 'Plaza Mayor 83', '@mariamorales02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-10-21', 'laurapena-10_@gmail.com', 'N/A', 'P+LIP+weNjk', 'Peña', 'Laura', 'USER', 'laurapena', 8, 2, '364-753-8685', 'Cuesta de los Vientos 37', '@laurapena21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-02-14', 'rosalopez_14-@outlook.com', 'female', 'P5APxQyVukA', 'López', 'Rosa', 'USER', 'rosalopez', 6, 3, '369-413-9231', 'Camino de las Rosas 80', '@rosalopez2022');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-02-08', 'luisaaguilar02_@outlook.com', 'N/A', 'P9Irxlpgq44', 'Aguilar', 'Luisa', 'USER', 'luisaaguilar', 6, 5, '353-644-1899', 'Cuesta del Lago 93', '@luisaaguilar1953');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-04-02', 'luciadelgado-1953@gmail.com', 'male', 'P+SIHOf6MCM', 'Delgado', 'Lucía', 'USER', 'luciadelgado', 5, 3, '353-203-1219', 'Ronda de los Abedules 46', '@luciadelgado1953');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-05-02', 'mariasalas_05.@gmail.com', 'N/A', 'P78oGXwS6EA', 'Salas', 'María', 'USER', 'mariasalas', 8, 6, '356-149-8703', 'Cuesta del Molino 65', '@mariasalas1952');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2018-08-23', 'joseesteban08.@outlook.com', 'N/A', 'P+nxos1Pgt8', 'Esteban', 'José', 'USER', 'joseesteban', 6, 10, '360-903-1261', 'Rambla de los Jazmines 69', '@joseesteban08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-06-03', 'nereagarrido_1986@hotmail.com', 'N/A', 'P+BEw9+4Ikc', 'Garrido', 'Nerea', 'USER', 'nereagarrido', 3, 2, '352-498-4477', 'Plaza de la Fuente 61', '@nereagarrido06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-04-22', 'nataliablanco.1936_@outlook.com', 'female', 'P+gXZy3VRzg', 'Blanco', 'Natalia', 'USER', 'nataliablanco', 6, 10, '354-998-1942', 'Camino Real 77', '@nataliablanco04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-11-02', 'doloressalas_02-@outlook.com', 'male', 'P+/Vk6qCZ/E', 'Salas', 'Dolores', 'USER', 'doloressalas', 3, 5, '358-191-4512', 'Carretera del Cielo 61', '@doloressalas02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-05-19', 'lauradelgado1969.@outlook.com', 'male', 'P7pmnkczBLA', 'Delgado', 'Laura', 'USER', 'lauradelgado', 6, 8, '363-234-8749', 'Ronda del Parque 10', '@lauradelgado1969');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-06-04', 'mariabermudez-04@hotmail.com', 'female', 'P6KM6rUzZpA', 'Bermúdez', 'María', 'USER', 'mariabermudez', 3, 9, '358-744-9510', 'Carretera del Alba 94', '@mariabermudez1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-09-02', 'lorenamora-09_@hotmail.com', 'male', 'P+5WLVPUKys', 'Mora', 'Lorena', 'USER', 'lorenamora', 3, 1, '369-965-8211', 'Plaza Mayor 14', '@lorenamora09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-11-07', 'lourdessanchez-11-@hotmail.com', 'female', 'P9rILB+Rnk4', 'Sánchez', 'Lourdes', 'USER', 'lourdessanchez', 10, 6, '364-299-2606', 'Calle de la Paz 1', '@lourdessanchez1935');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-02-05', 'elenajimenez.1989@outlook.com', 'male', 'P+2rDyfbBew', 'Jiménez', 'Elena', 'USER', 'elenajimenez', 4, 3, '351-993-6090', 'Rambla de los Encantos 68', '@elenajimenez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-01-26', 'mariarey-1959@gmail.com', 'male', 'P8CHq/ZuKFg', 'Rey', 'María', 'USER', 'mariarey', 9, 1, '362-242-4809', 'Camino de las Rosas 56', '@mariarey1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-01-19', 'mariasanchez.2017_@gmail.com', 'male', 'P+gqp/52I2c', 'Sánchez', 'María', 'USER', 'mariasanchez', 2, 3, '352-648-3210', 'Ronda del Parque 39', '@mariasanchez19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-12-12', 'mariasuarez_12_@hotmail.com', 'male', 'P9PqG2d9vNo', 'Suárez', 'María', 'USER', 'mariasuarez', 6, 6, '359-937-6903', 'Ronda de los Abedules 35', '@mariasuarez1994');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-10-17', 'fernandoalvarez.1959_@gmail.com', 'N/A', 'P+V8xiGPcg4', 'Álvarez', 'Fernando', 'USER', 'fernandoalvarez', 10, 3, '353-321-9722', 'Carretera del Cielo 7', '@fernandoalvarez1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-09-17', 'rosariocalvo-17@gmail.com', 'female', 'P+HR4e8yOPk', 'Calvo', 'Rosario', 'USER', 'rosariocalvo', 3, 3, '351-768-4223', 'Ronda del Parque 91', '@rosariocalvo1992');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-06-12', 'josegil12.@hotmail.com', 'N/A', 'P7+OpnjZYHg', 'Gil', 'José', 'USER', 'josegil', 3, 2, '363-376-2442', 'Paseo del Horizonte 54', '@josegil06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-10-11', 'luisapascual.10.@outlook.com', 'female', 'P7PgOcYRC+g', 'Pascual', 'Luisa', 'USER', 'luisapascual', 4, 3, '352-861-4653', 'Plaza de la Fuente 89', '@luisapascual11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-06-28', 'aliciaortega_1945_@outlook.com', 'male', 'P++9vzAAwfc', 'Ortega', 'Alicia', 'USER', 'aliciaortega', 4, 8, '360-800-3701', 'Plaza de la Libertad 50', '@aliciaortega06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-01-21', 'luzgarcia01_@outlook.com', 'female', 'P7zNRb9BQNg', 'García', 'Luz', 'USER', 'luzgarcia', 5, 8, '359-774-3048', 'Calle de la Aurora 20', '@luzgarcia01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-03-15', 'angelesrubio-1952@hotmail.com', 'male', 'P9zQcrKH/Mg', 'Rubio', 'Ángeles', 'USER', 'angelesrubio', 9, 8, '355-100-1962', 'Calle de la Paz 86', '@angelesrubio03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-08-13', 'mariaprieto.1963-@outlook.com', 'male', 'P+h0yf3vv/M', 'Prieto', 'María', 'USER', 'mariaprieto', 5, 1, '366-104-2634', 'Avenida del Sauce 23', '@mariaprieto13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-12-14', 'elenafuentes2014.@hotmail.com', 'N/A', 'P8QRBY9R7DA', 'Fuentes', 'Elena', 'USER', 'elenafuentes', 5, 4, '357-773-3030', 'Travesía del Río 1', '@elenafuentes2014');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-01-07', 'andreasantos_01@outlook.com', 'male', 'P+rNCV4lG9o', 'Santos', 'Andrea', 'USER', 'andreasantos', 4, 2, '362-876-1705', 'Avenida de la Luna 17', '@andreasantos07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-08-26', 'lourdespena_08-@gmail.com', 'N/A', 'P6xwG+xWyrA', 'Peña', 'Lourdes', 'USER', 'lourdespena', 2, 4, '359-893-8322', 'Avenida del Sauce 19', '@lourdespena1942');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-10-23', 'mariavidal_23_@outlook.com', 'female', 'P+ExYP7Dke4', 'Vidal', 'María', 'USER', 'mariavidal', 4, 1, '369-484-2244', 'Travesía del Olivo 61', '@mariavidal10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-11-25', 'isabelcabrera11_@outlook.com', 'male', 'P6umNlU+iMA', 'Cabrera', 'Isabel', 'USER', 'isabelcabrera', 9, 9, '354-126-5575', 'Plaza de las Campanas 93', '@isabelcabrera1984');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1985-08-02', 'rocionavarro1985-@gmail.com', 'male', 'P9LkKt2dtQY', 'Navarro', 'Rocío', 'USER', 'rocionavarro', 2, 4, '351-675-4291', 'Travesía del Alba 61', '@rocionavarro02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-01-27', 'mariacarrasco.27-@gmail.com', 'N/A', 'P+2XubxJCyI', 'Carrasco', 'María', 'USER', 'mariacarrasco', 1, 5, '357-986-2047', 'Rambla de los Jazmines 30', '@mariacarrasco01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-11-18', 'milagrosgarcia.11-@outlook.com', 'N/A', 'P+y2i5ZGt+w', 'García', 'Milagros', 'USER', 'milagrosgarcia', 3, 6, '362-472-9515', 'Paseo de los Pinos 15', '@milagrosgarcia11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-11-23', 'mariamorales.1954_@outlook.com', 'male', 'P98kAuO5GIw', 'Morales', 'María', 'USER', 'mariamorales', 5, 1, '359-807-2520', 'Travesía del Valle 74', '@mariamorales1954');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-09-27', 'carmenmartinez-1935@hotmail.com', 'female', 'P+xlNPRigsE', 'Martínez', 'Carmen', 'USER', 'carmenmartinez', 9, 9, '369-773-6866', 'Paseo de los Álamos 90', '@carmenmartinez1935');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-05-10', 'mariagonzalez.05.@hotmail.com', 'N/A', 'P+GRR1b09KU', 'González', 'María', 'USER', 'mariagonzalez', 3, 7, '364-709-4892', 'Travesía del Olivo 26', '@mariagonzalez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-06-09', 'milagrossantana.09.@hotmail.com', 'female', 'P9jShv5zEM4', 'Santana', 'Milagros', 'USER', 'milagrossantana', 4, 10, '365-652-5862', 'Avenida del Sauce 36', '@milagrossantana09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-04-24', 'mariacarmona-1967_@outlook.com', 'female', 'P+71zSU+B40', 'Carmona', 'María', 'USER', 'mariacarmona', 10, 10, '370-806-3775', 'Travesía de la Montaña 70', '@mariacarmona24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-03-08', 'martarojas.08_@outlook.com', 'N/A', 'P7chUh0RyLg', 'Rojas', 'Marta', 'USER', 'martarojas', 5, 8, '369-974-9358', 'Camino de las Rosas 36', '@martarojas1971');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-02-28', 'mariablanco_02-@hotmail.com', 'N/A', 'P9aj/8A7cPY', 'Blanco', 'María', 'USER', 'mariablanco', 5, 2, '355-104-8226', 'Travesía del Río 73', '@mariablanco1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-01-03', 'mariacarmona-01-@gmail.com', 'female', 'P+CbobN4taE', 'Carmona', 'María', 'USER', 'mariacarmona', 4, 10, '362-685-9535', 'Cuesta del Molino 79', '@mariacarmona01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-06-18', 'teresaarias.1968_@gmail.com', 'N/A', 'P9uuBhqORF4', 'Arias', 'Teresa', 'USER', 'teresaarias', 9, 4, '363-790-7127', 'Rambla de los Sueños 54', '@teresaarias06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-05-03', 'nievesprieto-1954-@hotmail.com', 'male', 'P+2DRoLQ+U4', 'Prieto', 'Nieves', 'USER', 'nievesprieto', 7, 9, '369-606-8186', 'Avenida de la Luna 46', '@nievesprieto03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-03-11', 'analopez.1940.@hotmail.com', 'N/A', 'P8Q+vk8vx6A', 'López', 'Ana', 'USER', 'analopez', 7, 10, '369-987-1345', 'Plaza Mayor 11', '@analopez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-02-09', 'anamoya-02_@outlook.com', 'N/A', 'P8jVdz8ROQQ', 'Moya', 'Ana', 'USER', 'anamoya', 4, 3, '359-484-4090', 'Ronda del Bosque 17', '@anamoya09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-09-14', 'mariasanchez.09.@hotmail.com', 'female', 'P+S2QcOKUt4', 'Sánchez', 'María', 'USER', 'mariasanchez', 1, 3, '355-843-1226', 'Carretera de la Flor 70', '@mariasanchez2000');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-01-26', 'mariaramos-1935@outlook.com', 'N/A', 'P8RuEg2+ImA', 'Ramos', 'María', 'USER', 'mariaramos', 3, 10, '359-847-4929', 'Paseo del Horizonte 23', '@mariaramos01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-01-26', 'mariasanz_2011@hotmail.com', 'N/A', 'P8lfD2IToxg', 'Sanz', 'María', 'USER', 'mariasanz', 5, 3, '369-964-1505', 'Plaza de la Fuente 99', '@mariasanz26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-02-19', 'mariasoto-02-@hotmail.com', 'male', 'P+farGLAlc4', 'Soto', 'María', 'USER', 'mariasoto', 5, 8, '361-920-3992', 'Carretera de los Cipreses 92', '@mariasoto19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-04-11', 'mariaflores-11.@outlook.com', 'N/A', 'P9HKnpVvCOA', 'Flores', 'María', 'USER', 'mariaflores', 3, 2, '352-584-4318', 'Paseo del Horizonte 84', '@mariaflores1948');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-10-11', 'teresafuentes10-@outlook.com', 'N/A', 'P+WaxY+1dO8', 'Fuentes', 'Teresa', 'USER', 'teresafuentes', 1, 4, '363-791-8597', 'Avenida del Sauce 3', '@teresafuentes11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-07-24', 'diegomoreno_24-@hotmail.com', 'female', 'P84Xi502yNw', 'Moreno', 'Diego', 'USER', 'diegomoreno', 7, 8, '365-208-9188', 'Ronda del Bosque 20', '@diegomoreno1936');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-07-23', 'raquellorenzo23@hotmail.com', 'male', 'P+fKDGX2ZvE', 'Lorenzo', 'Raquel', 'USER', 'raquellorenzo', 6, 10, '359-597-9916', 'Ronda de los Abedules 56', '@raquellorenzo1964');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-12-25', 'antoniablanco25@gmail.com', 'male', 'P95T5Mrustw', 'Blanco', 'Antonia', 'USER', 'antoniablanco', 10, 4, '353-568-2773', 'Cuesta del Lago 92', '@antoniablanco1949');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-05-26', 'nievesmora_2010_@hotmail.com', 'N/A', 'P76etA/tClg', 'Mora', 'Nieves', 'USER', 'nievesmora', 7, 6, '370-322-6338', 'Travesía del Olivo 14', '@nievesmora26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-05-28', 'mariarojas-28_@outlook.com', 'N/A', 'P8i6xGSz/qQ', 'Rojas', 'María', 'USER', 'mariarojas', 4, 10, '364-889-9215', 'Paseo de los Álamos 27', '@mariarojas28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-02-21', 'elenamora_21.@gmail.com', 'N/A', 'P9T5zcLrrtY', 'Mora', 'Elena', 'USER', 'elenamora', 1, 5, '359-384-8701', 'Primavera 9', '@elenamora2005');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1988-06-27', 'mariavega_06@outlook.com', 'N/A', 'P+nZIuLu/1M', 'Vega', 'María', 'USER', 'mariavega', 8, 1, '353-589-3525', 'Rambla de los Encantos 51', '@mariavega1988');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-12-28', 'mariasalas.1972_@outlook.com', 'N/A', 'P+gOgD162s4', 'Salas', 'María', 'USER', 'mariasalas', 3, 4, '360-597-1265', 'Camino de las Rosas 32', '@mariasalas12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-03-12', 'isabelrey-03_@hotmail.com', 'male', 'P84D1B0VFNg', 'Rey', 'Isabel', 'USER', 'isabelrey', 9, 3, '365-383-2502', 'Cuesta de la Luz 58', '@isabelrey03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-05-03', 'mariaherrero-03.@outlook.com', 'N/A', 'P+SIKsgj8ws', 'Herrero', 'María', 'USER', 'mariaherrero', 4, 4, '359-860-3544', 'Calle de la Aurora 30', '@mariaherrero1980');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-07-21', 'angelesparra-07@hotmail.com', 'female', 'P9x5tkenM5o', 'Parra', 'Ángeles', 'USER', 'angelesparra', 4, 3, '358-916-4320', 'Cuesta del Lago 54', '@angelesparra07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-02-27', 'anagonzalez_27-@gmail.com', 'female', 'P93vqeRpEmA', 'González', 'Ana', 'USER', 'anagonzalez', 10, 4, '355-579-4425', 'Paseo del Horizonte 73', '@anagonzalez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-04-04', 'dolorescastillo04.@gmail.com', 'male', 'P+XOF6hn8mI', 'Castillo', 'Dolores', 'USER', 'dolorescastillo', 5, 5, '363-360-7295', 'Paseo de la Amistad 23', '@dolorescastillo04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-03-17', 'luisamarin-2021.@gmail.com', 'female', 'P8TLpvxghEw', 'Marín', 'Luisa', 'USER', 'luisamarin', 7, 10, '353-738-3510', 'Cuesta de la Luz 92', '@luisamarin2021');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-05-04', 'mariasalas-04-@hotmail.com', 'male', 'P90PQuICJko', 'Salas', 'María', 'USER', 'mariasalas', 8, 9, '351-968-4186', 'Ronda de los Nogales 48', '@mariasalas05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-05-02', 'mariamarin_02-@outlook.com', 'male', 'P69D4luS+HA', 'Marín', 'María', 'USER', 'mariamarin', 2, 9, '364-735-7449', 'Cuesta del Castillo 63', '@mariamarin2003');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-04-08', 'mariaredondo-08.@gmail.com', 'male', 'P+Ruoi7Lfc0', 'Redondo', 'María', 'USER', 'mariaredondo', 8, 1, '368-113-2172', 'Camino de la Loma 78', '@mariaredondo08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-10-02', 'anasantiago-02-@hotmail.com', 'female', 'P8aGDl+cBDA', 'Santiago', 'Ana', 'USER', 'anasantiago', 5, 10, '353-959-2438', 'Carretera del Alba 18', '@anasantiago1970');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-09-25', 'mariaruiz.09-@outlook.com', 'male', 'P9CbIgNi65o', 'Ruiz', 'María', 'USER', 'mariaruiz', 2, 6, '358-866-9811', 'Cuesta del Castillo 9', '@mariaruiz1951');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-12-25', 'milagrosvega-12_@hotmail.com', 'male', 'P+0CymKydec', 'Vega', 'Milagros', 'USER', 'milagrosvega', 7, 5, '370-312-9221', 'Calle de la Paz 59', '@milagrosvega25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-12-23', 'elenaparra_23-@outlook.com', 'female', 'P9AkMfVu4J4', 'Parra', 'Elena', 'USER', 'elenaparra', 2, 7, '355-851-8706', 'Calle de los Tulipanes 31', '@elenaparra23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1965-03-16', 'teresaparra16.@hotmail.com', 'male', 'P9zccxRyZU4', 'Parra', 'Teresa', 'USER', 'teresaparra', 4, 8, '370-492-1950', 'Plaza Mayor 34', '@teresaparra16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-08-21', 'mariatorres.1964.@hotmail.com', 'female', 'P+ddRic5/Wo', 'Torres', 'María', 'USER', 'mariatorres', 4, 4, '363-819-9149', 'Paseo de los Álamos 47', '@mariatorres21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-01-24', 'mariarodriguez_01@outlook.com', 'N/A', 'P9gyUazKEmg', 'Rodríguez', 'María', 'USER', 'mariarodriguez', 3, 3, '359-558-5675', 'Paseo del Horizonte 56', '@mariarodriguez24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-10-21', 'mariaramos1951-@hotmail.com', 'female', 'P+f8iTBXG/s', 'Ramos', 'María', 'USER', 'mariaramos', 10, 8, '370-605-2923', 'Rambla de los Sueños 2', '@mariaramos1951');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-12-04', 'mariapascual_12.@outlook.com', 'female', 'P+2pzSlumuU', 'Pascual', 'María', 'USER', 'mariapascual', 7, 8, '359-577-1100', 'Plaza Mayor 88', '@mariapascual1952');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-11-10', 'marialozano11@hotmail.com', 'female', 'P5kbkYirE0A', 'Lozano', 'María', 'USER', 'marialozano', 6, 9, '368-719-3697', 'Ronda del Parque 62', '@marialozano1998');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-10-03', 'marialozano1969-@outlook.com', 'N/A', 'P+lhW9zDD60', 'Lozano', 'María', 'USER', 'marialozano', 10, 2, '353-122-6722', 'Travesía del Alba 69', '@marialozano03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-01-16', 'mariasantana-1994.@hotmail.com', 'male', 'P96hX75lGCY', 'Santana', 'María', 'USER', 'mariasantana', 4, 2, '363-146-5382', 'Travesía del Valle 8', '@mariasantana1994');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-02-17', 'mariaflores-02.@gmail.com', 'N/A', 'P9lWQ0VZqsg', 'Flores', 'María', 'USER', 'mariaflores', 9, 6, '368-408-3450', 'Ronda del Bosque 8', '@mariaflores02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-06-22', 'rosariogutierrez.06.@hotmail.com', 'male', 'P+Q/xgwC2UE', 'Gutiérrez', 'Rosario', 'USER', 'rosariogutierrez', 6, 4, '363-927-4847', 'Camino de la Loma 90', '@rosariogutierrez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-12-26', 'mariarojas-12@outlook.com', 'N/A', 'P93Yv7zgLgA', 'Rojas', 'María', 'USER', 'mariarojas', 8, 10, '357-636-7977', 'Rambla del Mar 88', '@mariarojas26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-02-26', 'mariaprieto26-@hotmail.com', 'male', 'P+Ra3Kwa9yU', 'Prieto', 'María', 'USER', 'mariaprieto', 10, 10, '351-682-7413', 'Carretera de la Sierra 51', '@mariaprieto26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-12-16', 'victoriacortes16.@outlook.com', 'N/A', 'P9FedmoFvwA', 'Cortés', 'Victoria', 'USER', 'victoriacortes', 6, 6, '361-613-5383', 'Camino de la Esperanza 80', '@victoriacortes1936');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-10-07', 'mariavega-10-@outlook.com', 'male', 'P+m5SZTZff0', 'Vega', 'María', 'USER', 'mariavega', 5, 7, '367-920-2478', 'Rambla de los Encantos 62', '@mariavega1952');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-11-18', 'mariamora_11_@outlook.com', 'male', 'P+KuNf4+PuA', 'Mora', 'María', 'USER', 'mariamora', 3, 10, '360-926-9408', 'Paseo del Horizonte 11', '@mariamora18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1988-11-18', 'mariasoto_1988.@hotmail.com', 'N/A', 'P+QAWz850M4', 'Soto', 'María', 'USER', 'mariasoto', 2, 7, '369-906-9997', 'Cuesta de los Vientos 98', '@mariasoto18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-03-13', 'rosarubio.13_@gmail.com', 'male', 'P9bsLfkuDBo', 'Rubio', 'Rosa', 'USER', 'rosarubio', 10, 7, '368-749-1717', 'Carretera del Alba 56', '@rosarubio03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-04-08', 'mariafernandez.04.@outlook.com', 'male', 'P+KLCghG+4c', 'Fernández', 'María', 'USER', 'mariafernandez', 4, 9, '367-342-9664', 'Ronda de San Pedro 8', '@mariafernandez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-04-22', 'pabloesteban.1997@gmail.com', 'N/A', 'P9xIR98iZO4', 'Esteban', 'Pablo', 'USER', 'pabloesteban', 4, 9, '365-893-8370', 'Camino Real 31', '@pabloesteban04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-08-05', 'mariaparra_05@hotmail.com', 'N/A', 'P8GKjjuIpSA', 'Parra', 'María', 'USER', 'mariaparra', 6, 7, '352-732-6448', 'Cuesta del Castillo 5', '@mariaparra1935');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-02-09', 'milagrosramos.1968.@outlook.com', 'male', 'P7MFpvdSe1g', 'Ramos', 'Milagros', 'USER', 'milagrosramos', 3, 1, '363-698-1050', 'Camino Real 13', '@milagrosramos1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-03-06', 'milagrosibanez.06-@hotmail.com', 'N/A', 'P+b8D7YqFh8', 'Ibáñez', 'Milagros', 'USER', 'milagrosibanez', 9, 10, '351-308-7287', 'Plaza Mayor 81', '@milagrosibanez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1993-06-01', 'mariagil06.@hotmail.com', 'N/A', 'P+Q8AcUpPZ4', 'Gil', 'María', 'USER', 'mariagil', 6, 2, '356-918-8801', 'Cuesta de los Vientos 18', '@mariagil1993');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-04-01', 'rosarojas_04-@gmail.com', 'male', 'P9ov8LDQOsg', 'Rojas', 'Rosa', 'USER', 'rosarojas', 8, 10, '369-707-3271', 'Calle de los Tulipanes 5', '@rosarojas01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-12-03', 'mariadiaz-12-@gmail.com', 'female', 'P9ik1/jHnJ4', 'Díaz', 'María', 'USER', 'mariadiaz', 3, 7, '360-492-1280', 'Plaza del Mirador 43', '@mariadiaz12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-08-27', 'elenamunoz-1995@gmail.com', 'N/A', 'P+Yh/fNngg0', 'Muñoz', 'Elena', 'USER', 'elenamunoz', 9, 7, '364-638-2873', 'Avenida del Sauce 70', '@elenamunoz1995');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-04-26', 'mariasoto.04_@gmail.com', 'male', 'P+ROKTjw+Dc', 'Soto', 'María', 'USER', 'mariasoto', 5, 10, '360-700-6797', 'Calle de la Paz 17', '@mariasoto1977');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-10-25', 'patriciasantana.25-@hotmail.com', 'male', 'P9wBol+wZ+4', 'Santana', 'Patricia', 'USER', 'patriciasantana', 4, 8, '359-545-2725', 'Cuesta de los Vientos 57', '@patriciasantana1977');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-09-15', 'milagrosmorales2014-@gmail.com', 'N/A', 'P+07NAz2IYQ', 'Morales', 'Milagros', 'USER', 'milagrosmorales', 3, 10, '366-219-1510', 'Paseo de los Cedros 56', '@milagrosmorales15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-06-14', 'isabelrodriguez-14_@gmail.com', 'male', 'P7lr2Rrrj/A', 'Rodríguez', 'Isabel', 'USER', 'isabelrodriguez', 10, 7, '359-676-1001', 'Avenida del Sauce 84', '@isabelrodriguez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-04-19', 'silviasanz_19@hotmail.com', 'N/A', 'P9EKzF9ixDg', 'Sanz', 'Silvia', 'USER', 'silviasanz', 3, 10, '354-228-2628', 'Rambla del Horizonte 52', '@silviasanz04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-03-22', 'javiermunoz.1979.@outlook.com', 'female', 'P9GdVieAF94', 'Muñoz', 'Javier', 'USER', 'javiermunoz', 2, 1, '351-466-1547', 'Carretera del Alba 1', '@javiermunoz03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-10-15', 'isabelcortes.10@gmail.com', 'female', 'P56mqiVJ7EA', 'Cortés', 'Isabel', 'USER', 'isabelcortes', 5, 10, '361-785-3824', 'Callejón del Gato 93', '@isabelcortes15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-05-18', 'luzmorales-1940_@outlook.com', 'N/A', 'P+iK7TLW/NY', 'Morales', 'Luz', 'USER', 'luzmorales', 9, 7, '357-349-6150', 'Paseo de los Álamos 23', '@luzmorales1940');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-07-12', 'angelesrubio.07_@gmail.com', 'female', 'P+ozyuYcJc8', 'Rubio', 'Ángeles', 'USER', 'angelesrubio', 8, 1, '368-768-5410', 'Calle de la Paz 80', '@angelesrubio07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1988-09-18', 'mariamarin1988@gmail.com', 'male', 'P9D6lWpf/bg', 'Marín', 'María', 'USER', 'mariamarin', 1, 3, '361-800-5918', 'Calle de la Paz 3', '@mariamarin09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-09-16', 'marialorenzo.2013_@outlook.com', 'male', 'P+qJuV3dASY', 'Lorenzo', 'María', 'USER', 'marialorenzo', 8, 6, '353-469-6196', 'Ronda de San Pedro 86', '@marialorenzo16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-04-24', 'marialopez-2006.@outlook.com', 'male', 'P+geifkR1JQ', 'López', 'María', 'USER', 'marialopez', 7, 7, '354-814-6960', 'Ronda del Parque 14', '@marialopez24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-05-11', 'rosariorojas-05_@hotmail.com', 'male', 'P87wSXs7MmA', 'Rojas', 'Rosario', 'USER', 'rosariorojas', 4, 2, '359-420-3439', 'Camino Real 81', '@rosariorojas1998');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-08-10', 'mariasalas08.@outlook.com', 'N/A', 'P+K1R243Wio', 'Salas', 'María', 'USER', 'mariasalas', 8, 3, '363-389-2520', 'Rambla de los Jazmines 39', '@mariasalas2024');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-04-02', 'saraflores04_@hotmail.com', 'female', 'P8IcbuwjmHQ', 'Flores', 'Sara', 'USER', 'saraflores', 7, 5, '368-602-2698', 'Carretera de la Flor 91', '@saraflores04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-06-24', 'consuelovicente1997@gmail.com', 'male', 'P81Ya+e6fzA', 'Vicente', 'Consuelo', 'USER', 'consuelovicente', 8, 10, '353-129-3623', 'Camino de las Rosas 52', '@consuelovicente24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-05-13', 'angelaherrero-1999-@hotmail.com', 'N/A', 'P+SVoqBbEu8', 'Herrero', 'Ángela', 'USER', 'angelaherrero', 3, 4, '351-288-1936', 'Rambla de los Sueños 15', '@angelaherrero1999');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-11-08', 'teresacortes_2021_@hotmail.com', 'N/A', 'P9aZPRjmCw4', 'Cortés', 'Teresa', 'USER', 'teresacortes', 3, 7, '352-200-8368', 'Camino de los Aromas 26', '@teresacortes08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-06-07', 'mariavega.1960.@outlook.com', 'female', 'P9F9sEqACXY', 'Vega', 'María', 'USER', 'mariavega', 9, 7, '358-772-8529', 'Callejón del Gato 22', '@mariavega06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-06-25', 'teresaprieto_06@outlook.com', 'male', 'P+Cw3HMBiHE', 'Prieto', 'Teresa', 'USER', 'teresaprieto', 5, 3, '370-232-6892', 'Ronda de los Nogales 40', '@teresaprieto06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-10-12', 'josealvarez.1944@gmail.com', 'male', 'P+Bjsd4MI2E', 'Álvarez', 'José', 'USER', 'josealvarez', 10, 1, '352-722-8117', 'Rambla de los Encantos 7', '@josealvarez12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-08-04', 'mariajimenez-04@hotmail.com', 'N/A', 'P+6MXxknFu0', 'Jiménez', 'María', 'USER', 'mariajimenez', 6, 1, '358-197-4809', 'Camino de los Aromas 27', '@mariajimenez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-04-24', 'angelesfuentes-04_@gmail.com', 'male', 'P+eenu/1noM', 'Fuentes', 'Ángeles', 'USER', 'angelesfuentes', 9, 8, '359-398-1628', 'Camino de las Rosas 60', '@angelesfuentes04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-12-15', 'mariapardo_12_@outlook.com', 'female', 'P12B4+YdkAA', 'Pardo', 'María', 'USER', 'mariapardo', 2, 1, '366-445-8857', 'Travesía del Olivo 8', '@mariapardo1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-11-16', 'luzcarmona-16@hotmail.com', 'N/A', 'P+1odeCmufY', 'Carmona', 'Luz', 'USER', 'luzcarmona', 6, 10, '353-488-6504', 'Carretera del Alba 67', '@luzcarmona16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-09-26', 'mariaramos26_@hotmail.com', 'N/A', 'P65VUwb0BhA', 'Ramos', 'María', 'USER', 'mariaramos', 1, 5, '365-152-8182', 'Avenida del Amanecer 78', '@mariaramos26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-09-01', 'cristinasantiago-09.@hotmail.com', 'male', 'P8J1gUrs+bw', 'Santiago', 'Cristina', 'USER', 'cristinasantiago', 8, 5, '360-247-8793', 'Calle de los Tulipanes 21', '@cristinasantiago1990');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-08-13', 'mariasantiago_13_@gmail.com', 'male', 'P9E8XPGsTp4', 'Santiago', 'María', 'USER', 'mariasantiago', 8, 6, '356-608-4358', 'Cuesta del Castillo 14', '@mariasantiago13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-12-13', 'marialozano1945@outlook.com', 'N/A', 'P+mFVbEaC7g', 'Lozano', 'María', 'USER', 'marialozano', 1, 2, '369-715-4915', 'Carretera de la Flor 86', '@marialozano12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-11-03', 'mariacortes.11@gmail.com', 'female', 'P+WwnGkO6o4', 'Cortés', 'María', 'USER', 'mariacortes', 3, 5, '361-384-1171', 'Carretera del Alba 86', '@mariacortes1961');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1993-04-11', 'clarapardo-11-@gmail.com', 'N/A', 'P9/+vxt26qQ', 'Pardo', 'Clara', 'USER', 'clarapardo', 8, 8, '354-774-5603', 'Paseo de los Pinos 17', '@clarapardo04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-05-04', 'luznavarro1997@hotmail.com', 'female', 'P+cHVfvzJvE', 'Navarro', 'Luz', 'USER', 'luznavarro', 1, 7, '363-694-1500', 'Cuesta del Lago 66', '@luznavarro04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-11-15', 'luisasoto_11_@outlook.com', 'male', 'P+w45BqOT/U', 'Soto', 'Luisa', 'USER', 'luisasoto', 10, 6, '362-454-4574', 'Avenida del Sol 13', '@luisasoto11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-07-07', 'javiercalvo07_@outlook.com', 'male', 'P9JdY5A7FFA', 'Calvo', 'Javier', 'USER', 'javiercalvo', 8, 10, '356-618-7734', 'Calle de la Paz 51', '@javiercalvo07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-08-22', 'antonioiglesias.08-@gmail.com', 'N/A', 'P+Av9qjzoBk', 'Iglesias', 'Antonio', 'USER', 'antonioiglesias', 1, 9, '356-184-4799', 'Ronda de los Abedules 69', '@antonioiglesias22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-09-21', 'mariamontero-1981_@hotmail.com', 'N/A', 'P9ANIWN4iuI', 'Montero', 'María', 'USER', 'mariamontero', 4, 10, '365-971-9563', 'Rambla de los Encantos 84', '@mariamontero09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-08-07', 'consueloherrero1976@gmail.com', 'female', 'P+KFfhXv5u4', 'Herrero', 'Consuelo', 'USER', 'consueloherrero', 3, 10, '364-312-1138', 'Travesía de la Montaña 33', '@consueloherrero1976');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-05-23', 'doloresguerrero-05-@outlook.com', 'female', 'P+FhSv2GU18', 'Guerrero', 'Dolores', 'USER', 'doloresguerrero', 6, 1, '355-642-8803', 'Carretera de los Cipreses 71', '@doloresguerrero23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1993-06-23', 'carmensantiago_23_@gmail.com', 'male', 'P7YcfIQQrRg', 'Santiago', 'Carmen', 'USER', 'carmensantiago', 10, 1, '368-225-9400', 'Paseo de los Pinos 6', '@carmensantiago06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-09-21', 'mariasoto09.@gmail.com', 'female', 'P+dgBq34Syg', 'Soto', 'María', 'USER', 'mariasoto', 6, 5, '364-543-3626', 'Ronda de los Abedules 89', '@mariasoto1944');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-09-13', 'mariaortega.13@hotmail.com', 'male', 'P9tAK9uIzVI', 'Ortega', 'María', 'USER', 'mariaortega', 9, 7, '354-288-1823', 'Camino de los Aromas 56', '@mariaortega13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-04-22', 'mariaparra.1957.@hotmail.com', 'male', 'P3psp+kjTAA', 'Parra', 'María', 'USER', 'mariaparra', 6, 8, '352-630-7622', 'Cuesta del Castillo 72', '@mariaparra04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-05-07', 'milagrosrodriguez07-@outlook.com', 'female', 'P9zQiCOuG8Q', 'Rodríguez', 'Milagros', 'USER', 'milagrosrodriguez', 1, 2, '359-958-8721', 'Ronda de los Abedules 82', '@milagrosrodriguez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-10-15', 'angelamarin10@outlook.com', 'female', 'P+RvuEqVaKg', 'Marín', 'Ángela', 'USER', 'angelamarin', 9, 7, '354-356-8338', 'Ronda del Bosque 25', '@angelamarin2004');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-11-21', 'mariamoya.11.@hotmail.com', 'female', 'P+EGTujbiY0', 'Moya', 'María', 'USER', 'mariamoya', 2, 10, '356-735-4901', 'Avenida de la Luna 37', '@mariamoya11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-03-17', 'nievesramirez_03_@hotmail.com', 'N/A', 'P+GSXzn7R0Q', 'Ramírez', 'Nieves', 'USER', 'nievesramirez', 3, 7, '361-587-7505', 'Calle de los Tulipanes 32', '@nievesramirez1967');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-07-09', 'marinabermudez.09@hotmail.com', 'N/A', 'P7cKMHVayiA', 'Bermúdez', 'Marina', 'USER', 'marinabermudez', 2, 2, '365-101-4904', 'Cuesta del Molino 57', '@marinabermudez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-10-05', 'mariahernandez10-@outlook.com', 'male', 'P+1wb9M9iUg', 'Hernández', 'María', 'USER', 'mariahernandez', 1, 10, '361-278-4513', 'Carretera de los Cipreses 10', '@mariahernandez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-10-08', 'mariaalvarez1994-@outlook.com', 'female', 'P+LiRT4A+bE', 'Álvarez', 'María', 'USER', 'mariaalvarez', 6, 7, '355-324-5132', 'Paseo de los Álamos 14', '@mariaalvarez1994');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-09-28', 'albertorey-28.@outlook.com', 'female', 'P+TU7z8tSHE', 'Rey', 'Alberto', 'USER', 'albertorey', 7, 10, '369-856-5936', 'Calle de la Aurora 45', '@albertorey09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-09-27', 'mariamarin-27.@outlook.com', 'male', 'P8QkEDwvckg', 'Marín', 'María', 'USER', 'mariamarin', 8, 4, '364-920-1825', 'Camino Real 84', '@mariamarin09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-05-04', 'mariaortiz1949@gmail.com', 'male', 'P8VTFjXUORg', 'Ortiz', 'María', 'USER', 'mariaortiz', 1, 9, '354-457-3372', 'Avenida del Amanecer 31', '@mariaortiz1949');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-01-11', 'mariamoya.11-@hotmail.com', 'female', 'P+YX3lqCEZw', 'Moya', 'María', 'USER', 'mariamoya', 5, 10, '353-584-3396', 'Calle de los Tulipanes 80', '@mariamoya11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-03-08', 'mariaparra_08@outlook.com', 'N/A', 'P8GGfMziN9A', 'Parra', 'María', 'USER', 'mariaparra', 7, 2, '359-409-3092', 'Ronda de San Pedro 93', '@mariaparra03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2024-05-08', 'mariaguerrero.2024-@gmail.com', 'female', 'P9hPJH1UphA', 'Guerrero', 'María', 'USER', 'mariaguerrero', 10, 7, '355-757-7950', 'Plaza de las Campanas 91', '@mariaguerrero05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-11-15', 'angelesjimenez15.@outlook.com', 'N/A', 'P87a/FL4Qnw', 'Jiménez', 'Ángeles', 'USER', 'angelesjimenez', 2, 9, '366-999-7298', 'Paseo de los Pinos 15', '@angelesjimenez15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-08-26', 'silvialorenzo.1949.@gmail.com', 'female', 'P+vejz55yrM', 'Lorenzo', 'Silvia', 'USER', 'silvialorenzo', 2, 7, '351-552-1218', 'Avenida del Sol 12', '@silvialorenzo26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-01-10', 'mariaparra10@gmail.com', 'male', 'P+FHAcmnrvo', 'Parra', 'María', 'USER', 'mariaparra', 9, 3, '367-187-9638', 'Camino de la Loma 7', '@mariaparra01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-09-25', 'mariarubio.09-@hotmail.com', 'N/A', 'P+vOSlz/FxM', 'Rubio', 'María', 'USER', 'mariarubio', 6, 7, '361-791-5567', 'Carretera de la Flor 3', '@mariarubio1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-10-26', 'mariaaguilar-1990_@gmail.com', 'N/A', 'P+7PgH6nuC0', 'Aguilar', 'María', 'USER', 'mariaaguilar', 8, 6, '369-357-2774', 'Cuesta de los Vientos 61', '@mariaaguilar1990');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-02-07', 'angelasantana_07@outlook.com', 'male', 'P9Sxd34Qxyg', 'Santana', 'Ángela', 'USER', 'angelasantana', 6, 7, '353-457-3950', 'Camino Real 7', '@angelasantana1943');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-12-16', 'sofiahidalgo12.@outlook.com', 'N/A', 'P+AJNnLMSgA', 'Hidalgo', 'Sofía', 'USER', 'sofiahidalgo', 4, 10, '357-510-4994', 'Paseo de los Pinos 90', '@sofiahidalgo16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1976-11-10', 'mariasantiago.11_@hotmail.com', 'male', 'P7HPmlY0SGA', 'Santiago', 'María', 'USER', 'mariasantiago', 6, 4, '353-647-3535', 'Travesía del Alba 85', '@mariasantiago10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-02-03', 'luisamoya_1962.@gmail.com', 'male', 'P9RLr/hBuE4', 'Moya', 'Luisa', 'USER', 'luisamoya', 10, 4, '351-175-6478', 'Ronda de San Pedro 93', '@luisamoya1962');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1991-01-26', 'rosariocalvo-01-@gmail.com', 'N/A', 'P+gWr/0MUgY', 'Calvo', 'Rosario', 'USER', 'rosariocalvo', 8, 4, '367-213-5007', 'Travesía del Río 25', '@rosariocalvo1991');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-06-21', 'mariavidal.21@gmail.com', 'female', 'P9B0XHjKLOo', 'Vidal', 'María', 'USER', 'mariavidal', 9, 7, '359-134-6106', 'Travesía de la Montaña 30', '@mariavidal1938');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-01-26', 'mariaflores26-@outlook.com', 'male', 'P9b70QbZb4o', 'Flores', 'María', 'USER', 'mariaflores', 3, 4, '365-468-6541', 'Carretera del Alba 37', '@mariaflores01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-08-12', 'dolorespascual_08.@outlook.com', 'male', 'P+q6qVNaZrY', 'Pascual', 'Dolores', 'USER', 'dolorespascual', 1, 2, '354-143-2263', 'Calle de la Paz 28', '@dolorespascual2005');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-05-03', 'irenepena.1994_@outlook.com', 'N/A', 'P9Fio8Fc4pg', 'Peña', 'Irene', 'USER', 'irenepena', 1, 9, '369-861-1432', 'Plaza del Mirador 75', '@irenepena03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-08-13', 'angelapardo.13_@hotmail.com', 'N/A', 'P+MSw49ymwI', 'Pardo', 'Ángela', 'USER', 'angelapardo', 8, 9, '352-857-3471', 'Cuesta de los Vientos 70', '@angelapardo08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-04-21', 'antoniasoto.21_@hotmail.com', 'female', 'P+23kjHtLzU', 'Soto', 'Antonia', 'USER', 'antoniasoto', 8, 10, '367-626-7047', 'Calle de los Tulipanes 26', '@antoniasoto04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2016-01-27', 'antoniamoreno_2016-@gmail.com', 'male', 'P+xak+x8/jI', 'Moreno', 'Antonia', 'USER', 'antoniamoreno', 9, 10, '368-132-4150', 'Paseo de los Pinos 88', '@antoniamoreno01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-03-27', 'carmenpena.2005-@gmail.com', 'N/A', 'P+gOvLBrTtg', 'Peña', 'Carmen', 'USER', 'carmenpena', 7, 8, '366-221-9844', 'Paseo de los Pinos 33', '@carmenpena27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-01-10', 'juliagimenez01_@hotmail.com', 'male', 'P90xsGBeuio', 'Giménez', 'Julia', 'USER', 'juliagimenez', 4, 1, '369-926-6140', 'Camino Real 63', '@juliagimenez01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-09-11', 'mariaesteban-1967_@gmail.com', 'female', 'P9ggh9srTq4', 'Esteban', 'María', 'USER', 'mariaesteban', 7, 5, '360-113-1859', 'Avenida de la Luna 51', '@mariaesteban09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-02-18', 'mariajimenez-02-@gmail.com', 'female', 'P9NR9ar/Ecw', 'Jiménez', 'María', 'USER', 'mariajimenez', 6, 7, '368-579-3062', 'Camino de la Esperanza 21', '@mariajimenez1984');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1943-05-06', 'mariaarias-05_@outlook.com', 'N/A', 'P8UVbdlGHtQ', 'Arias', 'María', 'USER', 'mariaarias', 2, 5, '355-459-2073', 'Avenida del Sauce 94', '@mariaarias06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-07-01', 'mariasantos-01.@hotmail.com', 'N/A', 'P9M8sU1RBMo', 'Santos', 'María', 'USER', 'mariasantos', 6, 9, '352-719-7289', 'Ronda de los Nogales 2', '@mariasantos07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-03-24', 'rocionavarro_03_@outlook.com', 'male', 'P+PRhZ5160U', 'Navarro', 'Rocío', 'USER', 'rocionavarro', 8, 5, '367-286-9839', 'Carretera del Cielo 37', '@rocionavarro1989');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-11-17', 'andreamarin17@gmail.com', 'female', 'P9VwIQivB6g', 'Marín', 'Andrea', 'USER', 'andreamarin', 2, 6, '362-460-9729', 'Rambla de los Encantos 74', '@andreamarin17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-10-12', 'mariamoreno_1958_@gmail.com', 'N/A', 'P9Z/nTZY+pI', 'Moreno', 'María', 'USER', 'mariamoreno', 4, 2, '360-813-7596', 'Ronda de San Pedro 84', '@mariamoreno1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-07-23', 'mariasoto.2022@outlook.com', 'N/A', 'P9raCRVKk7Q', 'Soto', 'María', 'USER', 'mariasoto', 6, 6, '360-814-2296', 'Cuesta del Lago 79', '@mariasoto23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-11-18', 'mariagil-1989_@hotmail.com', 'male', 'P9Td36/Rf2g', 'Gil', 'María', 'USER', 'mariagil', 4, 10, '370-867-4086', 'Paseo de la Amistad 100', '@mariagil1989');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-11-19', 'antoniavicente.2017@outlook.com', 'male', 'P9dt1FdFHlI', 'Vicente', 'Antonia', 'USER', 'antoniavicente', 1, 10, '355-747-2211', 'Rambla del Mar 21', '@antoniavicente19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-02-12', 'cristinaguerrero2019.@outlook.com', 'female', 'P9u9sForzKw', 'Guerrero', 'Cristina', 'USER', 'cristinaguerrero', 1, 1, '358-494-5191', 'Rambla de los Sueños 4', '@cristinaguerrero2019');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-08-08', 'josesantana1961-@outlook.com', 'female', 'P8FP5FEnQoA', 'Santana', 'José', 'USER', 'josesantana', 10, 1, '358-763-9935', 'Carretera de la Flor 25', '@josesantana1961');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-06-18', 'africasuarez_1947.@outlook.com', 'N/A', 'P9ZFLykn4mY', 'Suárez', 'África', 'USER', 'africasuarez', 1, 6, '353-961-7767', 'Avenida del Amanecer 22', '@africasuarez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-10-21', 'mariaserrano.10_@outlook.com', 'female', 'P8537OfYdNQ', 'Serrano', 'María', 'USER', 'mariaserrano', 10, 8, '357-941-2065', 'Travesía del Alba 39', '@mariaserrano21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-01-17', 'luzsantana01-@hotmail.com', 'female', 'P9Sx6p1iNJI', 'Santana', 'Luz', 'USER', 'luzsantana', 9, 9, '359-362-6024', 'Avenida del Amanecer 96', '@luzsantana17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-04-20', 'pablocastillo_2002-@hotmail.com', 'N/A', 'P+WcRQVgnr8', 'Castillo', 'Pablo', 'USER', 'pablocastillo', 6, 7, '359-183-5085', 'Travesía del Valle 70', '@pablocastillo20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-02-27', 'nereaalvarez-27.@gmail.com', 'male', 'P+fX71/r20k', 'Álvarez', 'Nerea', 'USER', 'nereaalvarez', 7, 1, '351-451-2732', 'Cuesta de los Vientos 73', '@nereaalvarez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-09-09', 'rosariomorales09_@hotmail.com', 'female', 'P8Cc9tIX3XA', 'Morales', 'Rosario', 'USER', 'rosariomorales', 5, 6, '363-554-6080', 'Travesía del Valle 65', '@rosariomorales09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-06-27', 'mariamoya27-@gmail.com', 'N/A', 'P+4dIrOY5Jc', 'Moya', 'María', 'USER', 'mariamoya', 6, 1, '351-415-7378', 'Cuesta del Molino 81', '@mariamoya2005');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-09-12', 'mariagutierrez1935-@outlook.com', 'male', 'P9TDvy5BEvo', 'Gutiérrez', 'María', 'USER', 'mariagutierrez', 3, 6, '368-223-6015', 'Carretera de la Flor 79', '@mariagutierrez09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-07-19', 'manuelcarmona.19-@hotmail.com', 'male', 'P9NTe2sQ5rY', 'Carmona', 'Manuel', 'USER', 'manuelcarmona', 4, 9, '368-876-4993', 'Plaza de las Campanas 76', '@manuelcarmona1951');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-01-05', 'consuelodelgado.05@gmail.com', 'female', 'P+GFBH0e3Q8', 'Delgado', 'Consuelo', 'USER', 'consuelodelgado', 9, 4, '370-407-8512', 'Avenida del Sol 51', '@consuelodelgado05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-07-04', 'mariamora_07_@hotmail.com', 'N/A', 'P8LhtWTL6xw', 'Mora', 'María', 'USER', 'mariamora', 7, 10, '367-551-2316', 'Cuesta de los Vientos 15', '@mariamora07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-07-10', 'angelapardo-07.@hotmail.com', 'female', 'P+w4ksFosoM', 'Pardo', 'Ángela', 'USER', 'angelapardo', 9, 8, '359-180-5460', 'Ronda de los Nogales 14', '@angelapardo07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-12-01', 'mariavicente.01_@outlook.com', 'N/A', 'P9PYFkTSKzI', 'Vicente', 'María', 'USER', 'mariavicente', 3, 2, '359-957-2975', 'Camino de las Rosas 4', '@mariavicente12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-06-18', 'rosarioramirez.06_@hotmail.com', 'male', 'P8y88X5lnfA', 'Ramírez', 'Rosario', 'USER', 'rosarioramirez', 4, 5, '358-925-5057', 'Carretera del Alba 47', '@rosarioramirez06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-07-21', 'doloresibanez07.@outlook.com', 'female', 'P+ENj6BD9Tg', 'Ibáñez', 'Dolores', 'USER', 'doloresibanez', 7, 9, '367-285-1024', 'Avenida de las Estrellas 41', '@doloresibanez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-07-07', 'elenasoto-07_@gmail.com', 'N/A', 'P+a+DLlWXrU', 'Soto', 'Elena', 'USER', 'elenasoto', 2, 3, '361-480-5118', 'Plaza de la Libertad 41', '@elenasoto07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1949-04-12', 'soledadsantos_04_@hotmail.com', 'N/A', 'P+hCQtgr46c', 'Santos', 'Soledad', 'USER', 'soledadsantos', 3, 8, '366-616-3757', 'Rambla de los Jazmines 46', '@soledadsantos04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-06-10', 'mariapardo.10.@hotmail.com', 'female', 'P8GeRRlNBNQ', 'Pardo', 'María', 'USER', 'mariapardo', 1, 6, '368-566-2698', 'Carretera de los Cipreses 99', '@mariapardo1961');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-10-19', 'angelesrey_1986-@gmail.com', 'female', 'P84KnCuiosA', 'Rey', 'Ángeles', 'USER', 'angelesrey', 6, 5, '356-389-1060', 'Avenida del Sol 74', '@angelesrey1986');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-06-09', 'patriciarey-1962@hotmail.com', 'N/A', 'P8BUBJ2aS5g', 'Rey', 'Patricia', 'USER', 'patriciarey', 9, 7, '360-147-3687', 'Cuesta del Lago 55', '@patriciarey09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-06-28', 'raquelsantiago1995.@gmail.com', 'N/A', 'P+SsZaOEFfI', 'Santiago', 'Raquel', 'USER', 'raquelsantiago', 10, 9, '354-378-7582', 'Paseo del Horizonte 99', '@raquelsantiago1995');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-08-28', 'antoniocastro_08_@hotmail.com', 'female', 'P+0FGeKrZlY', 'Castro', 'Antonio', 'USER', 'antoniocastro', 5, 3, '368-200-9697', 'Rambla del Mar 82', '@antoniocastro2003');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-05-26', 'mariagonzalez1966-@gmail.com', 'N/A', 'P+vlsKl786c', 'González', 'María', 'USER', 'mariagonzalez', 8, 1, '361-845-2259', 'Avenida del Sol 85', '@mariagonzalez05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-02-19', 'mariacastro2022-@outlook.com', 'N/A', 'P8ZtFplJvpA', 'Castro', 'María', 'USER', 'mariacastro', 5, 10, '356-386-7032', 'Primavera 87', '@mariacastro02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-10-21', 'evaibanez.10.@gmail.com', 'male', 'P9hMlB6HTQQ', 'Ibáñez', 'Eva', 'USER', 'evaibanez', 8, 3, '362-555-2844', 'Cuesta de los Vientos 2', '@evaibanez2013');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-09-22', 'sofiarodriguez2015_@outlook.com', 'N/A', 'P+gfuYEDRzM', 'Rodríguez', 'Sofía', 'USER', 'sofiarodriguez', 8, 5, '367-582-9762', 'Avenida del Sauce 19', '@sofiarodriguez2015');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-03-08', 'albertohidalgo08.@outlook.com', 'female', 'P7QFvpKCMtA', 'Hidalgo', 'Alberto', 'USER', 'albertohidalgo', 2, 4, '362-900-5016', 'Avenida del Amanecer 20', '@albertohidalgo03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-02-08', 'marianavarro.08_@outlook.com', 'male', 'P9N0efvBDxQ', 'Navarro', 'María', 'USER', 'marianavarro', 5, 6, '355-943-2907', 'Paseo de los Álamos 51', '@marianavarro2023');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-01-07', 'mariavega_01.@gmail.com', 'female', 'P9eb86JCT2o', 'Vega', 'María', 'USER', 'mariavega', 5, 9, '362-963-2093', 'Plaza del Mirador 86', '@mariavega01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-05-28', 'mariamendez-05@hotmail.com', 'N/A', 'P99dGIGRatY', 'Méndez', 'María', 'USER', 'mariamendez', 9, 6, '353-992-5046', 'Avenida del Sol 77', '@mariamendez05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-08-05', 'marialozano-1990@outlook.com', 'female', 'P9fBqUifxSQ', 'Lozano', 'María', 'USER', 'marialozano', 7, 2, '358-437-4742', 'Ronda de los Nogales 13', '@marialozano05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1965-05-14', 'mercedescalvo.05.@gmail.com', 'male', 'P+DziWZ+7G0', 'Calvo', 'Mercedes', 'USER', 'mercedescalvo', 9, 9, '364-612-4083', 'Paseo del Horizonte 66', '@mercedescalvo14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1936-09-05', 'mariacortes.05_@hotmail.com', 'N/A', 'P80Kz9Y3BIA', 'Cortés', 'María', 'USER', 'mariacortes', 2, 4, '370-957-1956', 'Cuesta del Castillo 71', '@mariacortes09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-03-22', 'africapascual.03-@hotmail.com', 'female', 'P9T+6cGff+Q', 'Pascual', 'África', 'USER', 'africapascual', 7, 8, '368-996-4456', 'Paseo de los Cedros 10', '@africapascual2007');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1996-08-03', 'teresaredondo.03.@gmail.com', 'N/A', 'P7NYjqCpC/g', 'Redondo', 'Teresa', 'USER', 'teresaredondo', 2, 10, '364-496-4994', 'Rambla del Horizonte 64', '@teresaredondo1996');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-01-24', 'mariasalas24@hotmail.com', 'female', 'P+03Sd+lT/4', 'Salas', 'María', 'USER', 'mariasalas', 10, 8, '356-821-4388', 'Paseo de los Álamos 44', '@mariasalas01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-12-14', 'soledadblanco.12-@gmail.com', 'male', 'P+wmvfV84wQ', 'Blanco', 'Soledad', 'USER', 'soledadblanco', 5, 3, '366-247-4697', 'Plaza Mayor 74', '@soledadblanco14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-10-18', 'patriciavega-1983@outlook.com', 'male', 'P+RF01xBB9A', 'Vega', 'Patricia', 'USER', 'patriciavega', 1, 7, '364-534-2305', 'Plaza de la Fuente 61', '@patriciavega10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-01-06', 'mariaromero-06-@gmail.com', 'N/A', 'P9+aw6RrmLI', 'Romero', 'María', 'USER', 'mariaromero', 9, 6, '363-857-1845', 'Rambla de los Encantos 55', '@mariaromero2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-05-02', 'mariacalvo05.@hotmail.com', 'female', 'P6fxgP2VAzA', 'Calvo', 'María', 'USER', 'mariacalvo', 8, 6, '368-492-2514', 'Ronda de los Nogales 32', '@mariacalvo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-09-27', 'pedrosoto-09@hotmail.com', 'N/A', 'P7hBliWOb/g', 'Soto', 'Pedro', 'USER', 'pedrosoto', 2, 4, '364-490-9691', 'Paseo de los Pinos 94', '@pedrosoto09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-08-19', 'mariasantana2014@hotmail.com', 'male', 'P9nbWWWvJGY', 'Santana', 'María', 'USER', 'mariasantana', 10, 4, '364-992-1950', 'Ronda de los Nogales 19', '@mariasantana19');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-06-18', 'carmensuarez-18-@outlook.com', 'male', 'P9kCLG2ARDY', 'Suárez', 'Carmen', 'USER', 'carmensuarez', 2, 9, '352-783-8420', 'Ronda de los Abedules 98', '@carmensuarez1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-07-08', 'jorgeprieto-1987.@outlook.com', 'female', 'P+evzgg8Btw', 'Prieto', 'Jorge', 'USER', 'jorgeprieto', 2, 8, '365-279-4472', 'Cuesta del Molino 93', '@jorgeprieto1987');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-05-03', 'luisaromero1977_@hotmail.com', 'male', 'P+GdPIBQzzo', 'Romero', 'Luisa', 'USER', 'luisaromero', 4, 4, '364-264-6520', 'Rambla de los Encantos 50', '@luisaromero03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-10-17', 'mariavega_1969_@outlook.com', 'female', 'P8yU7pgYMYw', 'Vega', 'María', 'USER', 'mariavega', 6, 4, '360-291-3861', 'Travesía del Valle 50', '@mariavega1969');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-02-25', 'soledadmoya.25_@outlook.com', 'male', 'P+0G953ajXI', 'Moya', 'Soledad', 'USER', 'soledadmoya', 7, 3, '358-161-1303', 'Camino de las Rosas 10', '@soledadmoya2020');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-02-07', 'victoriasantana_07_@outlook.com', 'N/A', 'P+kyWP9QQHk', 'Santana', 'Victoria', 'USER', 'victoriasantana', 2, 9, '363-701-4054', 'Avenida del Sauce 100', '@victoriasantana07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-07-27', 'rociorojas-1942.@outlook.com', 'female', 'P9fcxscAKjw', 'Rojas', 'Rocío', 'USER', 'rociorojas', 6, 2, '368-191-6642', 'Ronda de los Abedules 28', '@rociorojas1942');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-12-04', 'teresaesteban-12_@outlook.com', 'male', 'P+vREB84K9Y', 'Esteban', 'Teresa', 'USER', 'teresaesteban', 10, 5, '353-778-5015', 'Cuesta del Molino 4', '@teresaesteban2013');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-08-19', 'isabelcalvo19-@outlook.com', 'N/A', 'P+xehYKp8/o', 'Calvo', 'Isabel', 'USER', 'isabelcalvo', 8, 2, '363-408-2556', 'Calle de los Tulipanes 21', '@isabelcalvo08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-02-26', 'anapena-26_@gmail.com', 'male', 'P9Xr2dmB0fY', 'Peña', 'Ana', 'USER', 'anapena', 10, 4, '366-229-7868', 'Calle de la Paz 82', '@anapena1935');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-02-12', 'miriamromero-1940@outlook.com', 'N/A', 'P7J59yiGWjg', 'Romero', 'Miriam', 'USER', 'miriamromero', 9, 7, '366-623-7741', 'Camino de la Esperanza 87', '@miriamromero12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-12-26', 'luiscarmona2006.@hotmail.com', 'N/A', 'P9nv3Yl7fzo', 'Carmona', 'Luis', 'USER', 'luiscarmona', 7, 5, '352-324-3896', 'Paseo de los Cedros 83', '@luiscarmona26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-06-10', 'lucialorenzo.10_@gmail.com', 'male', 'P8B+yiXftwQ', 'Lorenzo', 'Lucía', 'USER', 'lucialorenzo', 6, 4, '369-758-2254', 'Plaza Mayor 65', '@lucialorenzo06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-06-19', 'luzpardo-1975-@outlook.com', 'female', 'P+0ddZcT+pc', 'Pardo', 'Luz', 'USER', 'luzpardo', 4, 8, '370-992-4177', 'Avenida del Sauce 91', '@luzpardo1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-09-10', 'teresacarmona_09@outlook.com', 'male', 'P4ox8L+9bwA', 'Carmona', 'Teresa', 'USER', 'teresacarmona', 3, 1, '366-517-1065', 'Travesía del Olivo 7', '@teresacarmona09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-05-16', 'victoriafuentes05@outlook.com', 'female', 'P+8ZOCXWnnI', 'Fuentes', 'Victoria', 'USER', 'victoriafuentes', 9, 10, '369-542-2360', 'Avenida de las Estrellas 87', '@victoriafuentes2011');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-01-04', 'luisavega.1977@hotmail.com', 'male', 'P8Wh3EBVoyQ', 'Vega', 'Luisa', 'USER', 'luisavega', 2, 5, '356-718-5020', 'Ronda de los Abedules 31', '@luisavega1977');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-07-27', 'silviaarias27@gmail.com', 'male', 'P+mcQUNo3k0', 'Arias', 'Silvia', 'USER', 'silviaarias', 6, 3, '368-949-3516', 'Cuesta del Molino 47', '@silviaarias07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-07-04', 'marinasalas.04.@hotmail.com', 'male', 'P6jJUXyzgEA', 'Salas', 'Marina', 'USER', 'marinasalas', 4, 4, '368-838-4106', 'Paseo de los Cedros 24', '@marinasalas2019');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-06-13', 'luisaaguilar.06-@hotmail.com', 'female', 'P+//PNoQp1Q', 'Aguilar', 'Luisa', 'USER', 'luisaaguilar', 7, 1, '360-666-9593', 'Carretera de la Flor 43', '@luisaaguilar1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-07-08', 'teresarojas08_@hotmail.com', 'N/A', 'P7obGkB/kGg', 'Rojas', 'Teresa', 'USER', 'teresarojas', 2, 2, '357-184-6747', 'Primavera 69', '@teresarojas1952');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-09-15', 'carlosguerrero-2005-@gmail.com', 'female', 'P86mhI0/nkw', 'Guerrero', 'Carlos', 'USER', 'carlosguerrero', 9, 9, '368-736-7111', 'Calle de la Aurora 22', '@carlosguerrero15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-09-19', 'miguelrojas_19.@gmail.com', 'N/A', 'P+5mxBjr6PA', 'Rojas', 'Miguel', 'USER', 'miguelrojas', 1, 6, '360-753-5656', 'Camino de los Aromas 38', '@miguelrojas09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-09-02', 'mariarubio1972-@gmail.com', 'N/A', 'P+WLaC6HEfE', 'Rubio', 'María', 'USER', 'mariarubio', 9, 4, '359-324-7489', 'Calle de la Aurora 22', '@mariarubio02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-05-16', 'mariasantiago-2009@outlook.com', 'male', 'P7zE03zLjyg', 'Santiago', 'María', 'USER', 'mariasantiago', 3, 6, '353-854-4649', 'Paseo de los Pinos 70', '@mariasantiago16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1963-09-13', 'mariasalas1963.@hotmail.com', 'N/A', 'P93pjbreMhY', 'Salas', 'María', 'USER', 'mariasalas', 8, 8, '352-486-1496', 'Avenida del Amanecer 52', '@mariasalas09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-08-18', 'luisasuarez-18_@outlook.com', 'N/A', 'P+6gb2+mDTw', 'Suárez', 'Luisa', 'USER', 'luisasuarez', 1, 6, '365-664-3837', 'Primavera 29', '@luisasuarez1957');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-05-10', 'pabloredondo_10_@outlook.com', 'female', 'P+Z/ApBC5Bk', 'Redondo', 'Pablo', 'USER', 'pabloredondo', 2, 5, '359-769-5473', 'Avenida de las Estrellas 78', '@pabloredondo10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-01-23', 'sofiagarrido23_@hotmail.com', 'N/A', 'P+wI4EOsoa4', 'Garrido', 'Sofía', 'USER', 'sofiagarrido', 9, 2, '357-640-9794', 'Carretera de la Sierra 54', '@sofiagarrido1946');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-10-28', 'consueloesteban.10_@outlook.com', 'N/A', 'P+lNfTf/+Cw', 'Esteban', 'Consuelo', 'USER', 'consueloesteban', 4, 2, '351-305-3540', 'Camino de las Rosas 66', '@consueloesteban1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-08-27', 'pazflores_27_@outlook.com', 'female', 'P+NaAlLvNIU', 'Flores', 'Paz', 'USER', 'pazflores', 4, 10, '358-376-3138', 'Ronda de los Abedules 56', '@pazflores1971');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1980-12-08', 'aliciamora1980@gmail.com', 'female', 'P+xdPCPYYQ8', 'Mora', 'Alicia', 'USER', 'aliciamora', 4, 6, '357-772-4221', 'Rambla de los Sueños 2', '@aliciamora12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-05-23', 'angeladominguez_05_@outlook.com', 'N/A', 'P+Vwy/R+gS0', 'Domínguez', 'Ángela', 'USER', 'angeladominguez', 7, 6, '364-162-5324', 'Plaza de las Campanas 25', '@angeladominguez2014');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-03-16', 'mariavicente.2007.@outlook.com', 'N/A', 'P++Ji6laCPU', 'Vicente', 'María', 'USER', 'mariavicente', 5, 1, '358-908-4709', 'Carretera de la Sierra 59', '@mariavicente16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-08-14', 'josecarmona1937-@hotmail.com', 'N/A', 'P+Cbfga04VI', 'Carmona', 'José', 'USER', 'josecarmona', 9, 6, '356-325-3310', 'Plaza de las Campanas 81', '@josecarmona1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-09-03', 'mariaherrero_1958_@gmail.com', 'female', 'P+8AXtHM9e8', 'Herrero', 'María', 'USER', 'mariaherrero', 5, 5, '357-896-9438', 'Paseo del Horizonte 39', '@mariaherrero1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-09-02', 'mariapena-1938_@gmail.com', 'female', 'P+aknOZ2aQA', 'Peña', 'María', 'USER', 'mariapena', 5, 2, '354-214-1500', 'Carretera de la Sierra 7', '@mariapena1938');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1973-06-11', 'mariamora-06_@outlook.com', 'male', 'P+gvfsxSjLM', 'Mora', 'María', 'USER', 'mariamora', 10, 8, '368-171-8960', 'Rambla de los Sueños 94', '@mariamora11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-04-07', 'mariaredondo-07_@hotmail.com', 'female', 'P9/y6feMLtA', 'Redondo', 'María', 'USER', 'mariaredondo', 10, 5, '370-966-1006', 'Paseo de los Pinos 27', '@mariaredondo1987');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-04-16', 'luzsanchez_16_@hotmail.com', 'male', 'P9xJTkYBkx4', 'Sánchez', 'Luz', 'USER', 'luzsanchez', 10, 10, '359-189-7322', 'Cuesta del Lago 73', '@luzsanchez16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-07-24', 'victoriarubio.07-@gmail.com', 'N/A', 'P8sAocNNGCQ', 'Rubio', 'Victoria', 'USER', 'victoriarubio', 1, 8, '364-263-3671', 'Travesía del Río 56', '@victoriarubio2014');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-12-10', 'mariacano_1981_@hotmail.com', 'female', 'P+JNaSfKc8Q', 'Cano', 'María', 'USER', 'mariacano', 8, 9, '356-561-5763', 'Rambla de los Sueños 82', '@mariacano12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-04-01', 'mariabermudez04-@hotmail.com', 'female', 'P9H9Hk9NuaA', 'Bermúdez', 'María', 'USER', 'mariabermudez', 1, 8, '366-588-9261', 'Camino de las Rosas 86', '@mariabermudez01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-05-17', 'mariarojas_05_@hotmail.com', 'female', 'P++SOcI1geI', 'Rojas', 'María', 'USER', 'mariarojas', 2, 5, '360-106-7735', 'Plaza de la Fuente 99', '@mariarojas1972');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-01-06', 'antoniamontero06_@gmail.com', 'female', 'P9OdpwFw6JQ', 'Montero', 'Antonia', 'USER', 'antoniamontero', 7, 3, '367-598-1037', 'Cuesta de la Luz 83', '@antoniamontero01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-12-11', 'mercedesgonzalez-12.@outlook.com', 'N/A', 'P+bvkfW0LoU', 'González', 'Mercedes', 'USER', 'mercedesgonzalez', 3, 9, '353-207-2431', 'Avenida del Sauce 91', '@mercedesgonzalez1956');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-07-01', 'carmenserrano-07@outlook.com', 'female', 'P+pobpazbko', 'Serrano', 'Carmen', 'USER', 'carmenserrano', 6, 9, '368-127-2293', 'Paseo de la Amistad 73', '@carmenserrano1984');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-04-12', 'consuelosalas_1937@gmail.com', 'female', 'P+BHF1EYGdQ', 'Salas', 'Consuelo', 'USER', 'consuelosalas', 3, 10, '370-265-8139', 'Cuesta del Lago 27', '@consuelosalas1937');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-04-04', 'mariaguerrero_1967_@gmail.com', 'female', 'P+mQbUYEJcs', 'Guerrero', 'María', 'USER', 'mariaguerrero', 5, 6, '354-575-6791', 'Carretera de los Cipreses 20', '@mariaguerrero04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-09-05', 'elenaalonso.1975_@hotmail.com', 'female', 'P+64VVgJxbg', 'Alonso', 'Elena', 'USER', 'elenaalonso', 6, 9, '354-477-6010', 'Callejón del Gato 37', '@elenaalonso1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-11-04', 'isabelgil.11@outlook.com', 'N/A', 'P9l4UGR8UMY', 'Gil', 'Isabel', 'USER', 'isabelgil', 7, 8, '369-205-5056', 'Paseo del Horizonte 16', '@isabelgil04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-10-27', 'mariamorales.27-@hotmail.com', 'female', 'P+Qsum7AQ+4', 'Morales', 'María', 'USER', 'mariamorales', 4, 1, '352-846-7512', 'Ronda del Bosque 53', '@mariamorales27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-07-12', 'claramontero-12.@hotmail.com', 'N/A', 'P8e5h3+igxw', 'Montero', 'Clara', 'USER', 'claramontero', 9, 2, '356-700-8072', 'Rambla de los Sueños 95', '@claramontero12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-09-14', 'claracalvo_14-@gmail.com', 'female', 'P+zXzG7D0mA', 'Calvo', 'Clara', 'USER', 'claracalvo', 7, 5, '367-611-8683', 'Avenida de las Estrellas 28', '@claracalvo14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-05-08', 'mariagarrido_2020_@outlook.com', 'female', 'P+rhkk47+gY', 'Garrido', 'María', 'USER', 'mariagarrido', 10, 1, '352-503-2177', 'Calle de la Aurora 77', '@mariagarrido2020');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-05-17', 'anamarin_1967-@gmail.com', 'male', 'P8U7CDnLpug', 'Marín', 'Ana', 'USER', 'anamarin', 10, 6, '366-735-3357', 'Plaza de la Libertad 61', '@anamarin05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1996-07-06', 'luzredondo07@outlook.com', 'female', 'P+zCwo0M3JY', 'Redondo', 'Luz', 'USER', 'luzredondo', 9, 1, '367-912-5957', 'Cuesta del Lago 8', '@luzredondo1996');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-10-02', 'raquelfuentes_10.@outlook.com', 'N/A', 'P9u+o+QotJw', 'Fuentes', 'Raquel', 'USER', 'raquelfuentes', 5, 2, '358-650-4124', 'Rambla de los Encantos 12', '@raquelfuentes2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-05-06', 'luzmora_06@outlook.com', 'male', 'P8tU1K1cuYw', 'Mora', 'Luz', 'USER', 'luzmora', 1, 4, '364-695-4611', 'Avenida de la Luna 90', '@luzmora2017');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-08-27', 'mariamartinez2001-@gmail.com', 'female', 'P+T+fZcCL7E', 'Martínez', 'María', 'USER', 'mariamartinez', 8, 8, '361-777-5642', 'Avenida del Amanecer 92', '@mariamartinez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-04-07', 'lourdessantana.1948_@outlook.com', 'male', 'P9M4txQm6MQ', 'Santana', 'Lourdes', 'USER', 'lourdessantana', 1, 7, '368-731-2071', 'Plaza de las Campanas 56', '@lourdessantana07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-06-28', 'luzpardo_1942.@outlook.com', 'male', 'P+TGMGd34Uc', 'Pardo', 'Luz', 'USER', 'luzpardo', 1, 8, '365-476-7535', 'Paseo de la Amistad 77', '@luzpardo28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-01-11', 'fernandocalvo_1967.@hotmail.com', 'N/A', 'P+Owy5GEpV4', 'Calvo', 'Fernando', 'USER', 'fernandocalvo', 8, 2, '366-448-8064', 'Camino de las Rosas 95', '@fernandocalvo11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-12-21', 'lauramoreno-12_@hotmail.com', 'N/A', 'P+p673TLWug', 'Moreno', 'Laura', 'USER', 'lauramoreno', 3, 9, '367-249-4146', 'Callejón del Gato 78', '@lauramoreno21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-09-04', 'mariaarias_09_@hotmail.com', 'male', 'P98gVi55Kuo', 'Arias', 'María', 'USER', 'mariaarias', 6, 5, '359-225-2702', 'Paseo del Horizonte 69', '@mariaarias09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-05-06', 'angelarodriguez1975_@gmail.com', 'male', 'P+xxi69Tdpc', 'Rodríguez', 'Ángela', 'USER', 'angelarodriguez', 3, 5, '362-442-7192', 'Calle de la Paz 33', '@angelarodriguez1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-12-10', 'mariaarias_10@hotmail.com', 'male', 'P++V0DmWo+4', 'Arias', 'María', 'USER', 'mariaarias', 4, 9, '361-759-7633', 'Calle de los Tulipanes 47', '@mariaarias12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-11-07', 'consuelosantiago_11_@hotmail.com', 'female', 'P93RyLadl54', 'Santiago', 'Consuelo', 'USER', 'consuelosantiago', 2, 8, '369-706-4568', 'Paseo de los Cedros 8', '@consuelosantiago1979');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-06-10', 'elenasantiago1964.@outlook.com', 'female', 'P+yqs4BCcDs', 'Santiago', 'Elena', 'USER', 'elenasantiago', 3, 5, '351-813-5664', 'Travesía del Alba 43', '@elenasantiago1964');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-01-06', 'pedrogarcia-01@gmail.com', 'N/A', 'P+xpNVxEaSc', 'García', 'Pedro', 'USER', 'pedrogarcia', 3, 8, '363-854-3721', 'Ronda del Parque 95', '@pedrogarcia06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1964-10-06', 'isabelprieto-06@hotmail.com', 'male', 'P70W36/INTg', 'Prieto', 'Isabel', 'USER', 'isabelprieto', 9, 5, '357-786-3412', 'Avenida del Sol 62', '@isabelprieto10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-05-24', 'mariaalvarez_2005.@gmail.com', 'female', 'P6VEkKge82A', 'Álvarez', 'María', 'USER', 'mariaalvarez', 6, 2, '368-443-2955', 'Paseo de los Pinos 99', '@mariaalvarez24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-12-08', 'teresaflores.08-@hotmail.com', 'male', 'P94xG1gCViI', 'Flores', 'Teresa', 'USER', 'teresaflores', 5, 8, '355-846-4514', 'Plaza del Mirador 19', '@teresaflores1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-09-01', 'soledadbravo1950-@outlook.com', 'N/A', 'P8d4oak5Z+A', 'Bravo', 'Soledad', 'USER', 'soledadbravo', 8, 10, '368-554-5022', 'Paseo de la Amistad 95', '@soledadbravo09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-04-06', 'luciamora06@hotmail.com', 'male', 'P9xKNioa2ZI', 'Mora', 'Lucía', 'USER', 'luciamora', 1, 10, '366-850-9274', 'Paseo de los Álamos 29', '@luciamora06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-01-12', 'franciscobermudez.1987_@gmail.com', 'male', 'P8Xy1nz9dGw', 'Bermúdez', 'Francisco', 'USER', 'franciscobermudez', 5, 1, '365-495-2433', 'Carretera del Alba 91', '@franciscobermudez12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-09-04', 'milagrosiglesias.09.@gmail.com', 'male', 'P+Twwk6EifE', 'Iglesias', 'Milagros', 'USER', 'milagrosiglesias', 9, 10, '354-729-4035', 'Carretera del Alba 16', '@milagrosiglesias04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-06-13', 'soledadcalvo-13.@hotmail.com', 'male', 'P6iW222VwlA', 'Calvo', 'Soledad', 'USER', 'soledadcalvo', 4, 1, '369-391-8675', 'Camino de la Esperanza 16', '@soledadcalvo2019');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1984-12-21', 'mariarojas_1984-@gmail.com', 'male', 'P+lv+eUwfsA', 'Rojas', 'María', 'USER', 'mariarojas', 8, 2, '368-350-7045', 'Cuesta de los Vientos 94', '@mariarojas12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-12-23', 'angelavicente-23_@gmail.com', 'female', 'P+grSXkNgik', 'Vicente', 'Ángela', 'USER', 'angelavicente', 3, 10, '353-819-9651', 'Travesía del Río 61', '@angelavicente12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2014-07-27', 'angelesdominguez07.@gmail.com', 'female', 'P8bjVukDrzw', 'Domínguez', 'Ángeles', 'USER', 'angelesdominguez', 2, 9, '358-170-4505', 'Callejón del Gato 35', '@angelesdominguez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1988-03-22', 'mariamoya.22@outlook.com', 'male', 'P+bcYm6tUfE', 'Moya', 'María', 'USER', 'mariamoya', 5, 1, '352-998-9798', 'Camino de la Loma 9', '@mariamoya03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-09-09', 'pilarsantiago-1972-@hotmail.com', 'female', 'P+dgNPFWwB0', 'Santiago', 'Pilar', 'USER', 'pilarsantiago', 3, 8, '362-724-6019', 'Paseo de los Pinos 76', '@pilarsantiago09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-05-28', 'mercedescastillo-1981.@hotmail.com', 'N/A', 'P+WNL6K5Wys', 'Castillo', 'Mercedes', 'USER', 'mercedescastillo', 3, 9, '352-478-8452', 'Rambla de los Jazmines 100', '@mercedescastillo28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-06-18', 'pilarvicente18_@hotmail.com', 'male', 'P+PN3ybYS9E', 'Vicente', 'Pilar', 'USER', 'pilarvicente', 10, 9, '352-286-7162', 'Plaza de la Fuente 99', '@pilarvicente18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-08-01', 'mariadelgado-08-@gmail.com', 'male', 'P+zdNCtc2P4', 'Delgado', 'María', 'USER', 'mariadelgado', 9, 8, '362-586-5195', 'Travesía de la Montaña 13', '@mariadelgado01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-08-20', 'isabelgutierrez.08.@outlook.com', 'N/A', 'P+/ZeAa34To', 'Gutiérrez', 'Isabel', 'USER', 'isabelgutierrez', 8, 4, '368-815-3783', 'Carretera del Cielo 83', '@isabelgutierrez2015');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-10-22', 'anagarrido.2015.@gmail.com', 'female', 'P+nu4bq6wDE', 'Garrido', 'Ana', 'USER', 'anagarrido', 1, 1, '355-904-4402', 'Rambla de los Jazmines 46', '@anagarrido10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1978-01-01', 'mariadelgado_01_@outlook.com', 'male', 'P88VUqy4Cqw', 'Delgado', 'María', 'USER', 'mariadelgado', 7, 5, '354-163-6851', 'Cuesta de la Luz 81', '@mariadelgado01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-05-20', 'mercedeshidalgo05.@outlook.com', 'N/A', 'P+RyO0XLERE', 'Hidalgo', 'Mercedes', 'USER', 'mercedeshidalgo', 8, 6, '353-906-9769', 'Ronda de los Abedules 97', '@mercedeshidalgo20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-05-24', 'mariasanchez1968-@outlook.com', 'N/A', 'P+kssnhFE9s', 'Sánchez', 'María', 'USER', 'mariasanchez', 1, 7, '359-391-9429', 'Camino de los Aromas 58', '@mariasanchez24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-03-05', 'mariasantiago03@hotmail.com', 'female', 'P+fq+DgdcdI', 'Santiago', 'María', 'USER', 'mariasantiago', 7, 8, '369-216-2033', 'Cuesta de los Vientos 58', '@mariasantiago1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-06-28', 'mariamunoz.1961-@hotmail.com', 'female', 'P98PILE4IZo', 'Muñoz', 'María', 'USER', 'mariamunoz', 6, 9, '358-402-5135', 'Camino de la Esperanza 86', '@mariamunoz28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-10-08', 'consuelomolina.1992@outlook.com', 'N/A', 'P+FrayFUkW0', 'Molina', 'Consuelo', 'USER', 'consuelomolina', 6, 10, '356-644-3179', 'Plaza de la Libertad 20', '@consuelomolina10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-12-24', 'mariarodriguez.1986_@hotmail.com', 'male', 'P+DtfmfMybo', 'Rodríguez', 'María', 'USER', 'mariarodriguez', 9, 4, '355-650-2202', 'Carretera de la Flor 84', '@mariarodriguez24');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-03-27', 'elenamontero-1957-@outlook.com', 'female', 'P6v3okI/LSA', 'Montero', 'Elena', 'USER', 'elenamontero', 2, 3, '359-138-4928', 'Carretera de la Flor 46', '@elenamontero03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-03-10', 'angelabravo.03@hotmail.com', 'male', 'P8P5MahkFzQ', 'Bravo', 'Ángela', 'USER', 'angelabravo', 2, 3, '356-346-6625', 'Rambla de los Encantos 28', '@angelabravo1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-12-21', 'doloresibanez-12_@hotmail.com', 'male', 'P+dZ/FxUwUc', 'Ibáñez', 'Dolores', 'USER', 'doloresibanez', 10, 8, '365-766-8114', 'Cuesta de los Vientos 54', '@doloresibanez1989');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-12-01', 'elenaserrano_1998.@outlook.com', 'female', 'P+ftR1CRSI0', 'Serrano', 'Elena', 'USER', 'elenaserrano', 9, 1, '353-977-7248', 'Cuesta del Molino 15', '@elenaserrano12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-06-18', 'laurapena.2006@hotmail.com', 'female', 'P4gKjMZZfwA', 'Peña', 'Laura', 'USER', 'laurapena', 3, 9, '354-533-3471', 'Camino Real 77', '@laurapena2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-03-16', 'pilarjimenez_03_@hotmail.com', 'female', 'P9F3UNbEuZ4', 'Jiménez', 'Pilar', 'USER', 'pilarjimenez', 10, 4, '354-154-6192', 'Avenida de la Luna 48', '@pilarjimenez16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-01-22', 'mariaaguilar-01-@gmail.com', 'female', 'P8NHmhTzTKQ', 'Aguilar', 'María', 'USER', 'mariaaguilar', 2, 3, '358-175-7814', 'Avenida del Sol 43', '@mariaaguilar01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-04-27', 'davidestevez-27.@hotmail.com', 'N/A', 'P9p0xZow2Kg', 'Estévez', 'David', 'USER', 'davidestevez', 4, 5, '358-836-4281', 'Paseo del Horizonte 21', '@davidestevez1966');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-05-16', 'mariagil05.@hotmail.com', 'N/A', 'P+Osq2etIDk', 'Gil', 'María', 'USER', 'mariagil', 3, 4, '353-397-7229', 'Ronda del Bosque 47', '@mariagil16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2018-11-03', 'mariagimenez-2018@outlook.com', 'N/A', 'P+MGCjltzek', 'Giménez', 'María', 'USER', 'mariagimenez', 8, 8, '351-656-7690', 'Camino Real 33', '@mariagimenez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-10-15', 'mariaaguilar.10@outlook.com', 'N/A', 'P9h5ePmS1dw', 'Aguilar', 'María', 'USER', 'mariaaguilar', 6, 1, '356-262-8297', 'Camino de los Aromas 3', '@mariaaguilar10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-01-25', 'anamartinez.01-@outlook.com', 'N/A', 'P+vsnowkfeQ', 'Martínez', 'Ana', 'USER', 'anamartinez', 6, 2, '356-747-8896', 'Carretera de la Sierra 44', '@anamartinez01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-07-08', 'saraarias.07@outlook.com', 'male', 'P8ih8s3ehhw', 'Arias', 'Sara', 'USER', 'saraarias', 1, 5, '361-341-6022', 'Camino de los Aromas 29', '@saraarias07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-01-23', 'mariasanchez_1994_@gmail.com', 'male', 'P+iihqLIaHE', 'Sánchez', 'María', 'USER', 'mariasanchez', 2, 4, '360-387-2180', 'Ronda de los Abedules 50', '@mariasanchez23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-05-14', 'victoriasalas1961_@hotmail.com', 'female', 'P9M5IK+Q4EQ', 'Salas', 'Victoria', 'USER', 'victoriasalas', 10, 6, '354-792-8155', 'Plaza de la Fuente 75', '@victoriasalas05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1982-05-18', 'joselorenzo.18@outlook.com', 'N/A', 'P9Zfg0QM3Ag', 'Lorenzo', 'José', 'USER', 'joselorenzo', 7, 2, '358-800-5042', 'Plaza de la Fuente 23', '@joselorenzo1982');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-02-18', 'mariarey_1997.@outlook.com', 'N/A', 'P6gRj6IgbaA', 'Rey', 'María', 'USER', 'mariarey', 10, 4, '351-210-3846', 'Paseo de los Pinos 99', '@mariarey1997');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-03-24', 'mariamorales_2001.@hotmail.com', 'female', 'P+sA433EOQs', 'Morales', 'María', 'USER', 'mariamorales', 7, 6, '366-373-1214', 'Cuesta del Lago 8', '@mariamorales03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1988-12-15', 'mariaestevez1988-@gmail.com', 'male', 'P7VRkJTtARg', 'Estévez', 'María', 'USER', 'mariaestevez', 3, 5, '356-282-3158', 'Camino de las Rosas 57', '@mariaestevez15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-04-14', 'luiscabrera_2012_@gmail.com', 'female', 'P60GTEixIzA', 'Cabrera', 'Luis', 'USER', 'luiscabrera', 5, 5, '357-957-1207', 'Paseo de la Amistad 32', '@luiscabrera14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2021-02-15', 'josefernandez_2021-@hotmail.com', 'male', 'P+cFGT14/G0', 'Fernández', 'José', 'USER', 'josefernandez', 9, 1, '369-948-6076', 'Ronda del Bosque 85', '@josefernandez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-01-12', 'marianavarro1952.@gmail.com', 'N/A', 'P9cWjw6oAhw', 'Navarro', 'María', 'USER', 'marianavarro', 6, 2, '351-915-7832', 'Cuesta del Lago 19', '@marianavarro01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-02-04', 'pilargarcia-02@hotmail.com', 'female', 'P8n6Le17mkg', 'García', 'Pilar', 'USER', 'pilargarcia', 2, 4, '365-491-9505', 'Camino de las Rosas 75', '@pilargarcia02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1969-05-15', 'lourdesramirez1969_@hotmail.com', 'female', 'P9NoDZkSGqA', 'Ramírez', 'Lourdes', 'USER', 'lourdesramirez', 5, 8, '366-614-2868', 'Paseo del Horizonte 78', '@lourdesramirez1969');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-07-21', 'mariamora2009@outlook.com', 'female', 'P9e0ZqXEkMg', 'Mora', 'María', 'USER', 'mariamora', 4, 9, '364-120-9625', 'Ronda del Bosque 83', '@mariamora07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-09-25', 'doloresserrano2023.@gmail.com', 'male', 'P82mrNG26iQ', 'Serrano', 'Dolores', 'USER', 'doloresserrano', 8, 10, '364-693-8333', 'Avenida del Amanecer 63', '@doloresserrano2023');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-11-27', 'mariarey-11-@outlook.com', 'female', 'P73yYhHQlbg', 'Rey', 'María', 'USER', 'mariarey', 9, 9, '351-925-3964', 'Cuesta del Lago 63', '@mariarey27');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2004-01-26', 'javiercastillo.26_@gmail.com', 'N/A', 'P+8bsDVyV80', 'Castillo', 'Javier', 'USER', 'javiercastillo', 2, 9, '357-611-2023', 'Carretera del Alba 74', '@javiercastillo26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1935-02-06', 'mariajimenez_02@outlook.com', 'male', 'P+cvksM0rgM', 'Jiménez', 'María', 'USER', 'mariajimenez', 1, 10, '362-201-4036', 'Plaza de la Fuente 84', '@mariajimenez1935');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-01-04', 'lourdesarias_04_@hotmail.com', 'male', 'P+Cr6PC6OHs', 'Arias', 'Lourdes', 'USER', 'lourdesarias', 9, 7, '370-136-3373', 'Camino de los Aromas 55', '@lourdesarias1957');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-12-05', 'pazprieto12@hotmail.com', 'male', 'P8OXEjCoZ7A', 'Prieto', 'Paz', 'USER', 'pazprieto', 7, 9, '356-428-7660', 'Avenida de las Estrellas 77', '@pazprieto05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-11-06', 'albertosoto11-@outlook.com', 'N/A', 'P9Xi9ye1ihg', 'Soto', 'Alberto', 'USER', 'albertosoto', 8, 1, '359-141-5872', 'Cuesta del Molino 94', '@albertosoto06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-02-14', 'consuelosanchez_02@outlook.com', 'N/A', 'P8nuBS2gF7w', 'Sánchez', 'Consuelo', 'USER', 'consuelosanchez', 2, 5, '358-112-6176', 'Carretera del Alba 85', '@consuelosanchez14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1993-08-01', 'teresaredondo.01_@hotmail.com', 'female', 'P+WyKPUhP7Y', 'Redondo', 'Teresa', 'USER', 'teresaredondo', 6, 9, '364-262-9101', 'Ronda del Parque 100', '@teresaredondo1993');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-06-17', 'marialorenzo_1968_@gmail.com', 'female', 'P+FTYhaezCU', 'Lorenzo', 'María', 'USER', 'marialorenzo', 7, 9, '357-256-7819', 'Carretera de la Flor 2', '@marialorenzo06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-03-09', 'mariarubio09.@gmail.com', 'female', 'P9CSDTjv1I4', 'Rubio', 'María', 'USER', 'mariarubio', 2, 2, '366-932-2459', 'Paseo de los Cedros 15', '@mariarubio1946');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-03-23', 'pazcastillo.23.@gmail.com', 'female', 'P9kpgLNkdqo', 'Castillo', 'Paz', 'USER', 'pazcastillo', 7, 6, '369-797-6480', 'Rambla de los Encantos 50', '@pazcastillo03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1952-10-03', 'elenarey10@outlook.com', 'female', 'P+8baK8Ubfs', 'Rey', 'Elena', 'USER', 'elenarey', 6, 6, '354-886-3456', 'Paseo de los Cedros 100', '@elenarey03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-12-21', 'africapardo_2012_@gmail.com', 'female', 'P+xpw/0dY/0', 'Pardo', 'África', 'USER', 'africapardo', 3, 5, '363-188-1720', 'Carretera de la Sierra 22', '@africapardo21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-12-04', 'josegarcia04@outlook.com', 'male', 'P+ndoSAcJm0', 'García', 'José', 'USER', 'josegarcia', 7, 5, '370-908-4621', 'Travesía del Olivo 44', '@josegarcia12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-03-13', 'lorenacabrera_1951.@gmail.com', 'N/A', 'P7/9L4cbHxA', 'Cabrera', 'Lorena', 'USER', 'lorenacabrera', 9, 1, '364-235-9821', 'Paseo de los Pinos 14', '@lorenacabrera03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-10-25', 'pazbermudez_10@outlook.com', 'female', 'P+XG4KWZA6Y', 'Bermúdez', 'Paz', 'USER', 'pazbermudez', 5, 2, '355-873-2554', 'Avenida del Sauce 8', '@pazbermudez25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1988-05-03', 'joseramirez-1988-@hotmail.com', 'female', 'P9AL+FRxnfw', 'Ramírez', 'José', 'USER', 'joseramirez', 5, 3, '356-821-3606', 'Plaza del Mirador 15', '@joseramirez05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-04-05', 'mariafuentes-04_@outlook.com', 'male', 'P+jeW7sqV6g', 'Fuentes', 'María', 'USER', 'mariafuentes', 3, 5, '357-397-5475', 'Ronda del Bosque 31', '@mariafuentes1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-01-13', 'nievesromero.2008.@outlook.com', 'female', 'P+Ev2b1jwY8', 'Romero', 'Nieves', 'USER', 'nievesromero', 9, 5, '369-877-3747', 'Paseo de los Pinos 50', '@nievesromero01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-11-21', 'luisrey1948@outlook.com', 'female', 'P+gdQWNkyUA', 'Rey', 'Luis', 'USER', 'luisrey', 10, 6, '360-216-3937', 'Ronda de San Pedro 60', '@luisrey21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-04-01', 'victoriagomez-2017@gmail.com', 'N/A', 'P9Qol6OWC7I', 'Gómez', 'Victoria', 'USER', 'victoriagomez', 5, 1, '368-221-3704', 'Camino Real 41', '@victoriagomez01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1999-08-25', 'paulacabrera25.@hotmail.com', 'N/A', 'P+GxmZ4tmNA', 'Cabrera', 'Paula', 'USER', 'paulacabrera', 5, 3, '364-798-6461', 'Travesía de la Montaña 68', '@paulacabrera08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1998-12-16', 'pazcruz-12.@hotmail.com', 'N/A', 'P+nZJi6KMMk', 'Cruz', 'Paz', 'USER', 'pazcruz', 3, 10, '365-436-4979', 'Carretera de la Sierra 13', '@pazcruz1998');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-07-08', 'mariamora_07-@outlook.com', 'male', 'P9nVpo8XiuY', 'Mora', 'María', 'USER', 'mariamora', 2, 3, '367-966-4988', 'Carretera de la Sierra 20', '@mariamora07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-08-19', 'teresaparra08@outlook.com', 'N/A', 'P9Ew+3dXkNo', 'Parra', 'Teresa', 'USER', 'teresaparra', 3, 8, '361-397-4579', 'Plaza del Mirador 75', '@teresaparra08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1996-03-03', 'soledadromero.03.@outlook.com', 'male', 'P+RKsjOUho0', 'Romero', 'Soledad', 'USER', 'soledadromero', 9, 2, '365-934-9481', 'Ronda de San Pedro 49', '@soledadromero03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-06-23', 'mariasalas_23@hotmail.com', 'male', 'P6wXbZLpgFA', 'Salas', 'María', 'USER', 'mariasalas', 5, 10, '360-952-5534', 'Paseo de los Pinos 48', '@mariasalas1971');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-02-28', 'cristinaromero_2015.@hotmail.com', 'female', 'P9tLIjEsXPg', 'Romero', 'Cristina', 'USER', 'cristinaromero', 5, 6, '365-763-4754', 'Camino de la Esperanza 94', '@cristinaromero28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-03-09', 'mariaaguilar-09-@gmail.com', 'N/A', 'P+cMwM58Glk', 'Aguilar', 'María', 'USER', 'mariaaguilar', 6, 6, '358-404-2643', 'Plaza de las Campanas 38', '@mariaaguilar03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-06-09', 'albertolorenzo-09_@hotmail.com', 'N/A', 'P8FXd0A/K8Q', 'Lorenzo', 'Alberto', 'USER', 'albertolorenzo', 1, 5, '353-899-3843', 'Plaza de la Fuente 47', '@albertolorenzo09');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-10-22', 'marialorenzo.22-@outlook.com', 'N/A', 'P9eOpHBTG04', 'Lorenzo', 'María', 'USER', 'marialorenzo', 10, 6, '369-222-1234', 'Cuesta de la Luz 70', '@marialorenzo10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-08-14', 'lourdescortes1966_@outlook.com', 'N/A', 'P+sGlM+U8qE', 'Cortés', 'Lourdes', 'USER', 'lourdescortes', 3, 3, '353-184-5279', 'Cuesta de los Vientos 41', '@lourdescortes08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1965-01-17', 'mariasanchez_17@hotmail.com', 'male', 'P++apd4lv30', 'Sánchez', 'María', 'USER', 'mariasanchez', 7, 5, '369-218-7548', 'Avenida del Sauce 49', '@mariasanchez1965');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-12-18', 'mariadelgado12_@hotmail.com', 'female', 'P+NyQx9zCfM', 'Delgado', 'María', 'USER', 'mariadelgado', 8, 2, '369-761-4748', 'Paseo de los Cedros 94', '@mariadelgado1983');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-05-18', 'mariapardo-1972_@outlook.com', 'male', 'P9uf4Zc/QlA', 'Pardo', 'María', 'USER', 'mariapardo', 7, 2, '361-108-3307', 'Travesía del Valle 64', '@mariapardo05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-03-21', 'mariadominguez03.@gmail.com', 'N/A', 'P8t0qS0vIQA', 'Domínguez', 'María', 'USER', 'mariadominguez', 5, 10, '358-240-4157', 'Paseo de los Álamos 1', '@mariadominguez1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-04-24', 'mercedesserrano_24_@outlook.com', 'N/A', 'P7gyqysqbDg', 'Serrano', 'Mercedes', 'USER', 'mercedesserrano', 10, 3, '353-893-3611', 'Calle de la Paz 51', '@mercedesserrano1983');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-09-10', 'anacabrera09_@hotmail.com', 'N/A', 'P+F/4B+6DWA', 'Cabrera', 'Ana', 'USER', 'anacabrera', 7, 8, '362-645-2209', 'Camino de los Aromas 31', '@anacabrera10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1995-05-27', 'mariasantos-27-@hotmail.com', 'female', 'P9q2gPoNuoI', 'Santos', 'María', 'USER', 'mariasantos', 6, 3, '359-407-4827', 'Plaza de las Campanas 54', '@mariasantos05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-02-02', 'mariarey.02.@outlook.com', 'N/A', 'P87TVEG1cCQ', 'Rey', 'María', 'USER', 'mariarey', 9, 8, '362-989-9298', 'Paseo de la Amistad 11', '@mariarey02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-01-04', 'luisaramirez.2012@outlook.com', 'male', 'P9/iwJqYKzQ', 'Ramírez', 'Luisa', 'USER', 'luisaramirez', 10, 7, '367-909-3994', 'Paseo de los Cedros 5', '@luisaramirez2012');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-07-26', 'marianunez.07@outlook.com', 'female', 'P9Fx39LQoUY', 'Nuñez', 'María', 'USER', 'marianunez', 6, 7, '355-626-5040', 'Rambla del Mar 37', '@marianunez26');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-07-06', 'rosacruz06.@outlook.com', 'female', 'P8LI3odI5xg', 'Cruz', 'Rosa', 'USER', 'rosacruz', 3, 9, '364-136-3958', 'Camino de las Rosas 4', '@rosacruz06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-05-14', 'mariaaguilar_14_@hotmail.com', 'male', 'P923F4lljOg', 'Aguilar', 'María', 'USER', 'mariaaguilar', 3, 8, '359-510-6141', 'Avenida de la Luna 84', '@mariaaguilar05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-02-10', 'carmenmoya_02_@hotmail.com', 'N/A', 'P89wOmJAXgA', 'Moya', 'Carmen', 'USER', 'carmenmoya', 8, 4, '360-997-9720', 'Paseo de los Pinos 18', '@carmenmoya1983');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-05-12', 'monicahidalgo-05@gmail.com', 'N/A', 'P+Y7YtXY2QQ', 'Hidalgo', 'Mónica', 'USER', 'monicahidalgo', 1, 8, '365-956-2236', 'Camino de los Aromas 84', '@monicahidalgo05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-02-14', 'mariabravo_2023@outlook.com', 'N/A', 'P9/zzqzaOVg', 'Bravo', 'María', 'USER', 'mariabravo', 5, 9, '355-342-8601', 'Camino de la Esperanza 87', '@mariabravo14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-10-07', 'carmengimenez_2022_@hotmail.com', 'male', 'P90yAOyUch4', 'Giménez', 'Carmen', 'USER', 'carmengimenez', 1, 6, '356-342-6805', 'Plaza de las Campanas 5', '@carmengimenez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-01-22', 'mariacalvo.1981_@gmail.com', 'male', 'P9H6Jh3fMfo', 'Calvo', 'María', 'USER', 'mariacalvo', 5, 1, '359-308-3450', 'Ronda de los Abedules 51', '@mariacalvo22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-10-01', 'mariasalas-10.@hotmail.com', 'male', 'P61TokOugRA', 'Salas', 'María', 'USER', 'mariasalas', 2, 6, '361-651-7233', 'Rambla de los Encantos 34', '@mariasalas1958');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-04-15', 'consuelogarcia_2020-@gmail.com', 'male', 'P818PHP38aA', 'García', 'Consuelo', 'USER', 'consuelogarcia', 3, 5, '363-733-4666', 'Paseo de los Pinos 50', '@consuelogarcia2020');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2008-02-07', 'mariamartin-2008_@gmail.com', 'female', 'P89o6sbQbDw', 'Martín', 'María', 'USER', 'mariamartin', 4, 3, '367-770-6523', 'Paseo de los Pinos 93', '@mariamartin02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1968-10-26', 'mariasalas-26_@outlook.com', 'N/A', 'P+VBR7U4oSc', 'Salas', 'María', 'USER', 'mariasalas', 6, 3, '366-776-7569', 'Cuesta del Molino 93', '@mariasalas1968');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-02-04', 'mariasuarez04@hotmail.com', 'N/A', 'P+mYwQ+dIcA', 'Suárez', 'María', 'USER', 'mariasuarez', 5, 10, '357-673-1065', 'Plaza de las Campanas 6', '@mariasuarez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1989-03-23', 'nievesmoya-03@outlook.com', 'female', 'P+pAExLgFYw', 'Moya', 'Nieves', 'USER', 'nievesmoya', 9, 9, '365-647-1358', 'Cuesta del Molino 35', '@nievesmoya23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-04-26', 'pazsalas-04-@gmail.com', 'N/A', 'P++bHlYsobY', 'Salas', 'Paz', 'USER', 'pazsalas', 7, 6, '359-579-7434', 'Calle de los Tulipanes 39', '@pazsalas04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1983-11-15', 'luisamartin.1983.@gmail.com', 'N/A', 'P+y8zFdDsD0', 'Martín', 'Luisa', 'USER', 'luisamartin', 4, 7, '362-122-4782', 'Callejón del Gato 98', '@luisamartin1983');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-06-20', 'mariamartinez-06-@gmail.com', 'male', 'P+8UfpSiIqE', 'Martínez', 'María', 'USER', 'mariamartinez', 3, 4, '358-669-8792', 'Plaza de la Libertad 7', '@mariamartinez20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-03-05', 'lauragil03-@outlook.com', 'N/A', 'P9OeFyGzePo', 'Gil', 'Laura', 'USER', 'lauragil', 10, 10, '356-869-9180', 'Primavera 72', '@lauragil05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2005-12-14', 'mariagomez.12-@gmail.com', 'male', 'P9HQqS88cF4', 'Gómez', 'María', 'USER', 'mariagomez', 9, 3, '370-954-4380', 'Rambla de los Jazmines 7', '@mariagomez2005');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1972-02-23', 'pilarrey_1972.@outlook.com', 'N/A', 'P+3k8YIqxT4', 'Rey', 'Pilar', 'USER', 'pilarrey', 5, 3, '365-593-4214', 'Paseo de los Cedros 12', '@pilarrey23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1981-08-18', 'mariaredondo.1981_@outlook.com', 'male', 'P7XUr0Pm0rA', 'Redondo', 'María', 'USER', 'mariaredondo', 4, 8, '369-717-9821', 'Paseo de los Cedros 62', '@mariaredondo18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-10-21', 'carmensuarez1950-@hotmail.com', 'female', 'P+Dr8uqGou8', 'Suárez', 'Carmen', 'USER', 'carmensuarez', 2, 5, '359-865-2719', 'Travesía del Olivo 94', '@carmensuarez1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1974-05-03', 'carmenaguilar-03-@outlook.com', 'female', 'P7wgjrOIbPA', 'Aguilar', 'Carmen', 'USER', 'carmenaguilar', 8, 2, '369-324-1224', 'Plaza del Mirador 64', '@carmenaguilar1974');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-02-09', 'sofiamorales.09-@outlook.com', 'male', 'P9n1UWNajs4', 'Morales', 'Sofía', 'USER', 'sofiamorales', 3, 3, '355-819-2836', 'Calle de la Aurora 47', '@sofiamorales1990');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2001-10-21', 'mariaibanez.2001-@outlook.com', 'female', 'P+gq3irIzCA', 'Ibáñez', 'María', 'USER', 'mariaibanez', 4, 2, '363-874-5122', 'Ronda de San Pedro 45', '@mariaibanez2001');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1948-02-10', 'elenasantos-10-@outlook.com', 'male', 'P6dXjprGcKA', 'Santos', 'Elena', 'USER', 'elenasantos', 8, 9, '358-358-1315', 'Avenida de las Estrellas 9', '@elenasantos1948');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-03-04', 'nataliasanz_04-@hotmail.com', 'N/A', 'P7WxEorQhaA', 'Sanz', 'Natalia', 'USER', 'nataliasanz', 3, 2, '356-136-7032', 'Callejón del Gato 91', '@nataliasanz1956');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1965-07-21', 'paulapardo_1965@gmail.com', 'male', 'P+g6YtJPwfM', 'Pardo', 'Paula', 'USER', 'paulapardo', 2, 5, '355-366-9060', 'Carretera del Cielo 78', '@paulapardo21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1996-07-14', 'consuelomoya-14_@outlook.com', 'female', 'P9mdu0X3qmQ', 'Moya', 'Consuelo', 'USER', 'consuelomoya', 9, 2, '367-304-4935', 'Carretera de los Cipreses 45', '@consuelomoya1996');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2011-09-12', 'mariagonzalez09_@outlook.com', 'male', 'P+I+G/4RJm0', 'González', 'María', 'USER', 'mariagonzalez', 5, 8, '356-118-7868', 'Travesía de la Montaña 68', '@mariagonzalez2011');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-02-08', 'carmensanz1987_@hotmail.com', 'female', 'P+87ghQDchI', 'Sanz', 'Carmen', 'USER', 'carmensanz', 3, 2, '364-428-7227', 'Rambla de los Encantos 47', '@carmensanz02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1940-11-18', 'lourdesmedina.11.@gmail.com', 'N/A', 'P+L4gK0AcB8', 'Medina', 'Lourdes', 'USER', 'lourdesmedina', 3, 8, '364-151-2684', 'Rambla de los Jazmines 67', '@lourdesmedina11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1957-06-28', 'josevega_1957-@gmail.com', 'N/A', 'P8KnekRm4iQ', 'Vega', 'José', 'USER', 'josevega', 2, 10, '368-726-9422', 'Avenida del Sol 26', '@josevega28');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1938-03-08', 'victoriasalas_1938@hotmail.com', 'female', 'P+JHg7HOLJo', 'Salas', 'Victoria', 'USER', 'victoriasalas', 4, 7, '359-778-6918', 'Rambla de los Sueños 32', '@victoriasalas1938');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1947-05-10', 'anarey-05.@hotmail.com', 'female', 'P+3/Y3GuKAs', 'Rey', 'Ana', 'USER', 'anarey', 8, 4, '370-570-1217', 'Ronda de los Abedules 84', '@anarey10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-07-18', 'silviamoya.1951@gmail.com', 'male', 'P+aB5Y2QSJc', 'Moya', 'Silvia', 'USER', 'silviamoya', 1, 10, '364-588-9413', 'Camino de la Esperanza 89', '@silviamoya07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-04-26', 'mariaserrano_2020-@gmail.com', 'male', 'P+7USm+YnxE', 'Serrano', 'María', 'USER', 'mariaserrano', 1, 2, '362-904-8712', 'Carretera de la Sierra 12', '@mariaserrano04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-11-18', 'pilarlopez18_@hotmail.com', 'male', 'P98qm6XeeuA', 'López', 'Pilar', 'USER', 'pilarlopez', 9, 1, '366-931-5985', 'Plaza del Mirador 65', '@pilarlopez18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-07-21', 'angelessantiago_1942-@gmail.com', 'N/A', 'P94KiycOx6w', 'Santiago', 'Ángeles', 'USER', 'angelessantiago', 3, 10, '368-485-4105', 'Rambla del Mar 83', '@angelessantiago21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1982-06-05', 'dolorespascual-05@gmail.com', 'male', 'P+QL6f12B7k', 'Pascual', 'Dolores', 'USER', 'dolorespascual', 1, 6, '364-354-6778', 'Avenida del Sol 77', '@dolorespascual05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1987-01-05', 'mariamolina05@outlook.com', 'female', 'P+jda+zLWhY', 'Molina', 'María', 'USER', 'mariamolina', 6, 1, '352-437-9940', 'Camino de los Aromas 54', '@mariamolina01');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-07-03', 'mariahidalgo-03.@hotmail.com', 'female', 'P99l6xrFnP4', 'Hidalgo', 'María', 'USER', 'mariahidalgo', 2, 6, '370-820-4307', 'Carretera del Alba 20', '@mariahidalgo2003');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1945-04-26', 'josepardo_1945_@gmail.com', 'male', 'P+1DPySoYvA', 'Pardo', 'José', 'USER', 'josepardo', 3, 2, '352-246-3986', 'Paseo de los Pinos 87', '@josepardo1945');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1958-10-22', 'mariadominguez-22.@gmail.com', 'male', 'P+vIz1ImG0Y', 'Domínguez', 'María', 'USER', 'mariadominguez', 6, 1, '363-828-1189', 'Cuesta de la Luz 65', '@mariadominguez22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-11-03', 'miguelgarcia-11-@gmail.com', 'female', 'P9MEDTVfalg', 'García', 'Miguel', 'USER', 'miguelgarcia', 8, 10, '366-664-4244', 'Camino de la Esperanza 92', '@miguelgarcia11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1946-06-10', 'elenalorenzo06_@hotmail.com', 'male', 'P9EnAOxpI7w', 'Lorenzo', 'Elena', 'USER', 'elenalorenzo', 2, 6, '364-349-6734', 'Cuesta del Lago 78', '@elenalorenzo1946');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1971-09-13', 'victoriapascual.09_@gmail.com', 'female', 'P90xzaxTs6A', 'Pascual', 'Victoria', 'USER', 'victoriapascual', 6, 1, '357-657-1050', 'Avenida del Amanecer 57', '@victoriapascual13');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1967-03-04', 'mariacano.03.@outlook.com', 'female', 'P7PxojQ7tdA', 'Cano', 'María', 'USER', 'mariacano', 8, 2, '351-924-6394', 'Rambla de los Jazmines 59', '@mariacano04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-05-18', 'pazmora.05_@hotmail.com', 'male', 'P+HeXNlyUqw', 'Mora', 'Paz', 'USER', 'pazmora', 2, 8, '361-506-2110', 'Cuesta del Lago 31', '@pazmora05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-03-21', 'mariaflores.21-@hotmail.com', 'N/A', 'P+27sE0w6I8', 'Flores', 'María', 'USER', 'mariaflores', 6, 7, '356-691-7928', 'Paseo de los Álamos 60', '@mariaflores21');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-11-03', 'mariavega_11_@gmail.com', 'female', 'P9HZ0vi8DzI', 'Vega', 'María', 'USER', 'mariavega', 9, 8, '370-581-1876', 'Paseo de la Amistad 21', '@mariavega2020');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-05-21', 'josesantana.21-@gmail.com', 'male', 'P+Hic5k0W80', 'Santana', 'José', 'USER', 'josesantana', 2, 1, '356-676-8835', 'Ronda de San Pedro 62', '@josesantana05');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-05-28', 'mariavega1951@gmail.com', 'male', 'P8Cm8Zm1nUA', 'Vega', 'María', 'USER', 'mariavega', 3, 4, '364-251-6701', 'Avenida del Sol 24', '@mariavega1951');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1950-07-13', 'lorenamartinez_07.@gmail.com', 'male', 'P+c6vH5GtA0', 'Martínez', 'Lorena', 'USER', 'lorenamartinez', 2, 5, '366-580-8753', 'Camino de la Loma 77', '@lorenamartinez1950');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1990-03-19', 'anamunoz_19@outlook.com', 'N/A', 'P9nNcN3NH1o', 'Muñoz', 'Ana', 'USER', 'anamunoz', 10, 10, '369-336-9133', 'Plaza Mayor 47', '@anamunoz1990');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-10-07', 'luzestevez07-@hotmail.com', 'N/A', 'P+oehmL2Dqo', 'Estévez', 'Luz', 'USER', 'luzestevez', 5, 5, '359-808-1210', 'Avenida de las Estrellas 31', '@luzestevez07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-12-17', 'isabelsanz_17_@outlook.com', 'N/A', 'P+M8TXhBhEU', 'Sanz', 'Isabel', 'USER', 'isabelsanz', 9, 9, '357-985-2263', 'Rambla de los Jazmines 1', '@isabelsanz2010');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1992-06-25', 'laurahidalgo_1992-@outlook.com', 'male', 'P+3pqB86gvQ', 'Hidalgo', 'Laura', 'USER', 'laurahidalgo', 1, 2, '361-893-2939', 'Plaza de la Fuente 66', '@laurahidalgo1992');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1996-08-06', 'beatrizmolina.1996.@outlook.com', 'female', 'P9eZTXy6bGw', 'Molina', 'Beatriz', 'USER', 'beatrizmolina', 7, 7, '369-875-2452', 'Avenida de las Estrellas 89', '@beatrizmolina08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-05-23', 'mariafuentes-05_@outlook.com', 'N/A', 'P9nJKecZZlI', 'Fuentes', 'María', 'USER', 'mariafuentes', 6, 4, '361-903-7139', 'Ronda del Parque 63', '@mariafuentes1975');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1956-11-10', 'mariaparra_1956@hotmail.com', 'N/A', 'P+e4aNIi4G0', 'Parra', 'María', 'USER', 'mariaparra', 8, 6, '370-257-9848', 'Avenida de la Luna 32', '@mariaparra11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1986-12-15', 'angelesmoya12.@gmail.com', 'female', 'P9Fs3wYkBBY', 'Moya', 'Ángeles', 'USER', 'angelesmoya', 2, 1, '364-186-4486', 'Camino de las Rosas 6', '@angelesmoya15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1966-12-03', 'saramontero.03_@outlook.com', 'N/A', 'P+GutmPJjNw', 'Montero', 'Sara', 'USER', 'saramontero', 7, 2, '367-665-5883', 'Carretera de la Sierra 8', '@saramontero1966');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-02-27', 'doloresprieto-1937@outlook.com', 'male', 'P+5Bn8Pi+kI', 'Prieto', 'Dolores', 'USER', 'doloresprieto', 1, 7, '370-360-4484', 'Carretera de la Flor 25', '@doloresprieto02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2015-08-18', 'mariarubio08.@gmail.com', 'N/A', 'P9ki6qn122w', 'Rubio', 'María', 'USER', 'mariarubio', 5, 5, '369-822-1360', 'Cuesta de la Luz 3', '@mariarubio2015');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1941-09-09', 'mariarojas-1941.@gmail.com', 'female', 'P+7FQcMEsLQ', 'Rojas', 'María', 'USER', 'mariarojas', 5, 7, '352-953-2905', 'Avenida del Sol 96', '@mariarojas1941');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-06-11', 'joselorenzo-1977-@gmail.com', 'female', 'P+i5iX73luo', 'Lorenzo', 'José', 'USER', 'joselorenzo', 5, 2, '370-609-5594', 'Camino de las Rosas 80', '@joselorenzo1977');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2012-08-15', 'mercedesmontero-08_@outlook.com', 'female', 'P8Ix9IjNM5g', 'Montero', 'Mercedes', 'USER', 'mercedesmontero', 9, 5, '366-961-2523', 'Avenida del Amanecer 34', '@mercedesmontero15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1944-12-15', 'beatrizserrano.1944_@gmail.com', 'male', 'P+kBpNLKnS8', 'Serrano', 'Beatriz', 'USER', 'beatrizserrano', 10, 9, '358-192-5573', 'Carretera de la Sierra 33', '@beatrizserrano15');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1937-10-17', 'mariacabrera_10-@hotmail.com', 'male', 'P+NWYh1KcDQ', 'Cabrera', 'María', 'USER', 'mariacabrera', 3, 10, '355-536-5752', 'Avenida del Sol 87', '@mariacabrera17');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1939-03-11', 'mariarodriguez-1939-@hotmail.com', 'male', 'P8TMSbzVSbA', 'Rodríguez', 'María', 'USER', 'mariarodriguez', 6, 1, '356-931-9432', 'Cuesta del Lago 91', '@mariarodriguez11');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2022-07-19', 'antoniovicente.07.@hotmail.com', 'female', 'P+e5jHE5oEs', 'Vicente', 'Antonio', 'USER', 'antoniovicente', 10, 7, '352-342-2238', 'Avenida de la Luna 24', '@antoniovicente2022');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2006-08-05', 'lourdesarias_08_@hotmail.com', 'female', 'P7w2KEf2VdA', 'Arias', 'Lourdes', 'USER', 'lourdesarias', 6, 3, '361-519-8489', 'Cuesta de los Vientos 51', '@lourdesarias2006');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1961-07-03', 'rosanavarro1961@gmail.com', 'male', 'P93oDxdNvcg', 'Navarro', 'Rosa', 'USER', 'rosanavarro', 9, 4, '368-759-4967', 'Travesía de la Montaña 98', '@rosanavarro1961');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1997-03-23', 'antoniaromero03-@hotmail.com', 'male', 'P+bzN+SYAwo', 'Romero', 'Antonia', 'USER', 'antoniaromero', 4, 5, '369-264-7158', 'Plaza Mayor 72', '@antoniaromero1997');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-02-19', 'soledadvega-02.@outlook.com', 'male', 'P+If0x78IkM', 'Vega', 'Soledad', 'USER', 'soledadvega', 3, 6, '370-392-5496', 'Paseo de los Álamos 55', '@soledadvega02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1975-10-14', 'angelamontero-14@outlook.com', 'N/A', 'P93W8MhnYKg', 'Montero', 'Ángela', 'USER', 'angelamontero', 8, 9, '369-378-1400', 'Primavera 43', '@angelamontero14');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-12-02', 'monicamontero_2002-@gmail.com', 'N/A', 'P996e2hDLRg', 'Montero', 'Mónica', 'USER', 'monicamontero', 8, 6, '370-290-6578', 'Ronda de San Pedro 93', '@monicamontero12');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2000-08-21', 'mariavicente21-@outlook.com', 'female', 'P9Y74oDDr6g', 'Vicente', 'María', 'USER', 'mariavicente', 10, 3, '366-459-7150', 'Paseo de los Álamos 21', '@mariavicente08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2023-04-19', 'celiaortega2023_@outlook.com', 'male', 'P9howPZ1gCo', 'Ortega', 'Celia', 'USER', 'celiaortega', 3, 5, '364-676-6194', 'Carretera del Alba 45', '@celiaortega04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-08-05', 'fernandogonzalez2009@hotmail.com', 'male', 'P+NhXddECws', 'González', 'Fernando', 'USER', 'fernandogonzalez', 1, 4, '361-756-6194', 'Carretera de la Sierra 66', '@fernandogonzalez08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2009-07-15', 'mariahidalgo.15@hotmail.com', 'N/A', 'P+6qQcz6S40', 'Hidalgo', 'María', 'USER', 'mariahidalgo', 3, 5, '368-458-5128', 'Plaza de la Libertad 85', '@mariahidalgo07');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1970-03-04', 'rafaelcano1970_@gmail.com', 'female', 'P+JHGZH7YD4', 'Cano', 'Rafael', 'USER', 'rafaelcano', 6, 4, '354-492-3057', 'Calle de los Tulipanes 32', '@rafaelcano03');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-05-06', 'mariamoreno05_@outlook.com', 'N/A', 'P+KEBlOJD2o', 'Moreno', 'María', 'USER', 'mariamoreno', 10, 2, '358-262-5269', 'Rambla del Mar 82', '@mariamoreno06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1977-12-02', 'mariasuarez12@outlook.com', 'male', 'P9RSJdFcnTw', 'Suárez', 'María', 'USER', 'mariasuarez', 6, 10, '366-589-5461', 'Callejón del Gato 34', '@mariasuarez02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-09-17', 'milagrosjimenez09.@hotmail.com', 'N/A', 'P+xQZ5MByME', 'Jiménez', 'Milagros', 'USER', 'milagrosjimenez', 7, 5, '366-442-9365', 'Camino de los Aromas 8', '@milagrosjimenez1979');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-02-28', 'anacabrera-02-@gmail.com', 'N/A', 'P6581tvOEeA', 'Cabrera', 'Ana', 'USER', 'anacabrera', 6, 7, '362-336-5414', 'Carretera de la Flor 90', '@anacabrera2007');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2020-02-18', 'mariacabrera_2020-@outlook.com', 'female', 'P+iE7TqQxo4', 'Cabrera', 'María', 'USER', 'mariacabrera', 6, 4, '370-528-5256', 'Paseo de los Cedros 81', '@mariacabrera18');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1994-04-16', 'pedrocabrera-1994.@outlook.com', 'female', 'P9YqQtwtrQQ', 'Cabrera', 'Pedro', 'USER', 'pedrocabrera', 9, 2, '367-510-1007', 'Carretera de la Flor 95', '@pedrocabrera04');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-10-01', 'mariasantiago_01_@hotmail.com', 'male', 'P+8UEvJnhoA', 'Santiago', 'María', 'USER', 'mariasantiago', 2, 4, '367-740-6299', 'Camino de los Aromas 66', '@mariasantiago10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2007-07-23', 'rosamunoz-2007_@gmail.com', 'female', 'P9XtOo6qoTA', 'Muñoz', 'Rosa', 'USER', 'rosamunoz', 7, 4, '369-258-8867', 'Calle de la Aurora 58', '@rosamunoz23');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1959-07-27', 'africamedina1959.@outlook.com', 'female', 'P9DlsB2rkhI', 'Medina', 'África', 'USER', 'africamedina', 5, 5, '358-842-8305', 'Carretera de los Cipreses 58', '@africamedina1959');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2017-05-27', 'mariavazquez.27-@outlook.com', 'male', 'P9w9+tJ5vlw', 'Vázquez', 'María', 'USER', 'mariavazquez', 10, 5, '359-514-4007', 'Paseo de los Álamos 1', '@mariavazquez2017');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1962-11-08', 'mariacabrera.11-@outlook.com', 'N/A', 'P+a8MsBtSfc', 'Cabrera', 'María', 'USER', 'mariacabrera', 4, 5, '361-709-9597', 'Travesía del Valle 88', '@mariacabrera08');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2019-09-20', 'mariabermudez09@gmail.com', 'female', 'P9CNb2ADyXw', 'Bermúdez', 'María', 'USER', 'mariabermudez', 9, 6, '362-865-7078', 'Plaza del Mirador 75', '@mariabermudez20');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1954-06-09', 'pedrosalas09@hotmail.com', 'female', 'P+w3Md6EHWU', 'Salas', 'Pedro', 'USER', 'pedrosalas', 4, 8, '352-723-7341', 'Rambla del Mar 8', '@pedrosalas06');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-03-22', 'anacruz2003-@gmail.com', 'male', 'P+sllRyLw6U', 'Cruz', 'Ana', 'USER', 'anacruz', 2, 6, '358-933-2520', 'Carretera del Cielo 29', '@anacruz22');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2003-09-10', 'teresagutierrez_10.@outlook.com', 'N/A', 'P+eq0+aQU6E', 'Gutiérrez', 'Teresa', 'USER', 'teresagutierrez', 5, 1, '355-581-7836', 'Calle de los Tulipanes 68', '@teresagutierrez10');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1979-03-12', 'mariacastro-03_@outlook.com', 'male', 'P+4IYV5T3MQ', 'Castro', 'María', 'USER', 'mariacastro', 9, 7, '364-180-5249', 'Cuesta de los Vientos 1', '@mariacastro1979');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2002-01-02', 'angeleshidalgo-02_@hotmail.com', 'N/A', 'P9vBkeZnuMw', 'Hidalgo', 'Ángeles', 'USER', 'angeleshidalgo', 1, 6, '362-827-3268', 'Cuesta del Lago 8', '@angeleshidalgo02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2013-04-12', 'mariamora-04_@hotmail.com', 'female', 'P9073OQrOmg', 'Mora', 'María', 'USER', 'mariamora', 10, 8, '358-864-1908', 'Plaza Mayor 31', '@mariamora2013');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1960-01-25', 'anaparra_1960_@outlook.com', 'female', 'P+H2w5G8/mw', 'Parra', 'Ana', 'USER', 'anaparra', 2, 1, '369-364-9469', 'Paseo de la Amistad 26', '@anaparra25');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1942-02-12', 'mariaarias_02_@gmail.com', 'N/A', 'P97HQOddYoI', 'Arias', 'María', 'USER', 'mariaarias', 5, 4, '354-677-6550', 'Camino Real 18', '@mariaarias02');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1951-08-16', 'nieveslopez_16_@outlook.com', 'male', 'P+rMf3odLqs', 'López', 'Nieves', 'USER', 'nieveslopez', 5, 1, '369-378-1568', 'Cuesta del Castillo 13', '@nieveslopez16');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '2010-07-18', 'milagrossalas-18.@hotmail.com', 'male', 'P93jlPsT3rw', 'Salas', 'Milagros', 'USER', 'milagrossalas', 6, 5, '361-746-8941', 'Ronda del Parque 74', '@milagrossalas2010');
-INSERT INTO public."user" (created_at, updated_at, birth_date, email, genre, hashed_password, last_name, name, role, user_site_name, id_municipality, id_province, phone_number, address, instagram) VALUES (NOW(), NOW(), '1953-11-06', 'mariaestevez1953-@outlook.com', 'female', 'P9OA4LXiRo4', 'Estévez', 'María', 'USER', 'mariaestevez', 1, 5, '365-963-1589', 'Carretera de la Sierra 66', '@mariaestevez06');
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Ramírez', 'lorena.ramirez@hotmail.com', 'F', 'GU6ToE1bJKaP', '+34169984784', '2024-12-12 10:39:19', '@', '.', 6, 20, 'Paseo de los Álamos, 2036', '1990-11-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Ruiz', 'miguel.ruiz@outlook.com', 'N/A', '2QPmQVrH4OCy', '+34021833141', '2024-12-10 11:23:02', '@', '.', 6, 10, 'Callejón del Gato, 942', '2001-10-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Torres', 'gloria.torres@outlook.com', 'F', 'KN30xKxtnXnd', '+34771648613', '2024-09-17 11:23:20', '@', '.', 11, 52, 'Callejón del Gato, 1001', '1952-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Iglesias', 'jorge.iglesias@gmail.com', 'M', 'rapuXwM09xMg', '+34816029239', '2024-09-25 17:47:54', '@', '.', 14, 5, 'Ronda de San Pedro, 3689', '2001-11-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Moreno', 'cristina.moreno@outlook.com', 'M', 'nXFlco8a6BId', '+34953465653', '2024-10-30 13:06:46', '@', '.', 9, 65, 'Paseo de los Álamos, 1363', '1982-01-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Suárez', 'rocio.suarez@gmail.com', 'F', 'N8BzpbRycpuS', '+34676054712', '2024-08-01 08:48:58', '@', '.', 6, 69, 'Plaza Mayor, 3369', '2002-08-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Navarro', 'ana.navarro@outlook.com', 'M', 'fyo7p4PIi6ax', '+34743178522', '2024-08-02 16:45:20', '@', '.', 17, 67, 'Travesía del Río, 2515', '1976-08-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Gutiérrez', 'rocio.gutierrez@outlook.com', 'M', 'odXBuQBDKPeV', '+34700920675', '2024-10-17 08:33:40', '@', '.', 17, 63, 'Carretera de la Sierra, 1596', '1986-04-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Díaz', 'beatriz.diaz@hotmail.com', 'M', 'KVbv8OMgKFD8', '+34496407605', '2024-08-14 13:20:40', '@', '.', 5, 59, 'Primavera, 25', '2005-12-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Rubio', 'silvia.rubio@hotmail.com', 'M', 'fN8PP0Bu2Kub', '+34243645765', '2024-10-17 17:43:34', '@', '.', 19, 80, 'Primavera, 739', '1984-01-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Ruiz', 'monica.ruiz@outlook.com', 'F', 'kNfoRUHYyUft', '+34846671529', '2024-12-09 17:03:55', '@', '.', 5, 23, 'Travesía del Río, 2231', '1957-09-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Nuñez', 'rosa.nunez@outlook.com', 'N/A', 'Piof72onlU8d', '+34432373040', '2024-10-08 08:17:58', '@', '.', 3, 20, 'Carretera de la Sierra, 1595', '1978-08-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Suárez', 'alberto.suarez@hotmail.com', 'M', 'MwsizsfTHErW', '+34436706462', '2024-09-25 10:07:25', '@', '.', 5, 98, 'Camino Real, 2739', '1960-06-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Nuñez', 'laura.nunez@hotmail.com', 'F', '19x5oDm9L3xu', '+34773250468', '2024-12-02 09:01:29', '@', '.', 14, 43, 'Travesía del Río, 43', '1955-09-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'García', 'pablo.garcia@gmail.com', 'M', 'lGSyFYpl34wz', '+34710574724', '2024-10-30 11:29:50', '@', '.', 2, 27, 'Plaza Mayor, 121', '1992-05-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Sánchez', 'julia.sanchez@outlook.com', 'N/A', 'YWrK6wkUFdAH', '+34668567464', '2024-10-31 16:26:32', '@', '.', 18, 13, 'Camino Real, 3707', '1978-03-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Ramos', 'rosa.ramos@outlook.com', 'M', 'YvnNhDczXQVu', '+34057610159', '2024-10-25 10:04:59', '@', '.', 23, 15, 'Avenida de las Estrellas, 1106', '1988-12-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Domínguez', 'carlos.dominguez@hotmail.com', 'N/A', 'uM1jfx2VTd3D', '+34415373262', '2024-09-30 17:35:16', '@', '.', 18, 9, 'Avenida de las Estrellas, 1644', '1955-12-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Delgado', 'javier.delgado@outlook.com', 'M', 'LuDgar5ZSeWz', '+34970797294', '2024-10-03 12:35:58', '@', '.', 16, 2, 'Travesía del Río, 3218', '1967-11-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Martín', 'pablo.martin@hotmail.com', 'F', '0pLceeTWhsj5', '+34949341437', '2024-10-14 08:21:17', '@', '.', 2, 42, 'Camino Real, 2848', '1987-04-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Sánchez', 'ana.sanchez@outlook.com', 'F', 'Dpv5SA6mMC5i', '+34184950749', '2024-12-24 18:28:28', '@', '.', 2, 60, 'Callejón del Gato, 2556', '1999-11-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Ortega', 'jose.ortega@gmail.com', 'M', 'euUKt4uaNRUG', '+34489428796', '2024-09-16 12:54:23', '@', '.', 11, 95, 'Ronda de San Pedro, 3144', '2007-07-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Ramírez', 'jorge.ramirez@outlook.com', 'F', 'jj7FjbK16XFS', '+34888304000', '2024-10-01 14:27:28', '@', '.', 18, 72, 'Primavera, 2629', '1959-02-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'García', 'rafael.garcia@hotmail.com', 'F', 'nbVQoy0rz12K', '+34114671660', '2024-11-04 13:43:19', '@', '.', 23, 82, 'Paseo de los Álamos, 3212', '1994-04-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'López', 'marina.lopez@gmail.com', 'M', '0pMmp6nyhQV7', '+34938255186', '2024-10-07 12:31:20', '@', '.', 14, 44, 'Ronda de San Pedro, 2345', '1973-11-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Ortiz', 'monica.ortiz@hotmail.com', 'F', 'laf74FEgSIy5', '+34126176932', '2024-10-16 08:06:54', '@', '.', 13, 19, 'Cuesta de la Luz, 1588', '2004-12-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Moreno', 'marina.moreno@outlook.com', 'M', 'Qc5rVO2RKljd', '+34020403579', '2024-10-11 10:19:22', '@', '.', 1, 86, 'Callejón del Gato, 874', '1968-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Álvarez', 'gloria.alvarez@outlook.com', 'F', 'e2RmTD9q2Nwn', '+34749549218', '2024-10-08 12:32:10', '@', '.', 11, 66, 'Plaza Mayor, 121', '1958-09-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Torres', 'antonio.torres@gmail.com', 'M', '7JGpujrNxhh9', '+34450209049', '2024-10-04 16:57:06', '@', '.', 21, 22, 'Cuesta de la Luz, 2875', '1989-07-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Ortiz', 'fernando.ortiz@gmail.com', 'F', 'O03GLF7A3uZa', '+34229232343', '2024-10-17 15:32:40', '@', '.', 24, 38, 'Travesía del Río, 900', '1975-11-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Iglesias', 'gloria.iglesias@hotmail.com', 'N/A', 'LU8pi0CDDJyH', '+34900516939', '2024-11-21 09:55:47', '@', '.', 3, 11, 'Plaza Mayor, 2705', '1983-12-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Molina', 'victoria.molina@gmail.com', 'F', '9LAME8kCwjF2', '+34226327338', '2024-10-04 17:20:56', '@', '.', 16, 78, 'Paseo de los Álamos, 427', '1977-05-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Medina', 'marina.medina@gmail.com', 'F', 'hmrBFWW7jOvM', '+34317866832', '2024-10-22 17:09:28', '@', '.', 6, 4, 'Carretera de la Sierra, 2869', '1989-06-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Gómez', 'miguel.gomez@outlook.com', 'F', 'gWoeJ13VKPCh', '+34843724695', '2024-11-05 14:38:29', '@', '.', 9, 77, 'Rambla del Mar, 1174', '1955-07-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Álvarez', 'silvia.alvarez@hotmail.com', 'F', '8PMn2DUMPCNk', '+34928905618', '2024-08-23 12:10:45', '@', '.', 8, 27, 'Plaza Mayor, 2130', '2001-10-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Domínguez', 'silvia.dominguez@outlook.com', 'M', 'Iy1394lXR5v9', '+34058326845', '2024-09-06 08:19:23', '@', '.', 12, 1, 'Callejón del Gato, 1357', '1990-05-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Castro', 'elena.castro@outlook.com', 'M', 'fpovxA7iq4Wy', '+34739381548', '2024-09-25 09:14:09', '@', '.', 21, 3, 'Ronda de San Pedro, 1302', '1952-01-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Moreno', 'patricia.moreno@hotmail.com', 'M', 'EYTZEpy1PW0W', '+34024969320', '2024-10-07 17:49:43', '@', '.', 24, 33, 'Ronda de San Pedro, 640', '1990-11-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Álvarez', 'ana.alvarez@outlook.com', 'F', '5IAAb5CzMqSj', '+34482309039', '2024-10-22 13:45:06', '@', '.', 7, 68, 'Travesía del Río, 2282', '1987-08-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Gutiérrez', 'javier.gutierrez@gmail.com', 'F', 'fOPBS3ZFcl2R', '+34188341219', '2024-10-24 13:27:07', '@', '.', 4, 34, 'Avenida de las Estrellas, 2666', '1951-05-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Marín', 'lucia.marin@gmail.com', 'N/A', 'iTnPYz15gu4p', '+34823711625', '2024-10-15 08:46:27', '@', '.', 11, 80, 'Avenida de las Estrellas, 2560', '1978-12-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Hernández', 'ana.hernandez@gmail.com', 'M', '7ye93WGfi5ED', '+34657558986', '2024-10-17 12:34:39', '@', '.', 14, 10, 'Plaza Mayor, 1882', '1951-07-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Ramos', 'antonio.ramos@outlook.com', 'N/A', 'gKugP76adZ0G', '+34443721387', '2024-09-20 12:12:49', '@', '.', 24, 53, 'Travesía del Río, 1375', '1967-08-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Gil', 'cristina.gil@hotmail.com', 'F', 'TYXzVNO0kyG1', '+34679673837', '2024-10-30 11:12:35', '@', '.', 21, 67, 'Rambla del Mar, 3721', '1951-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Hernández', 'juan.hernandez@gmail.com', 'M', 'KHrLuKbud8TM', '+34406258131', '2024-12-19 09:56:49', '@', '.', 4, 77, 'Travesía del Río, 1021', '1982-07-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Iglesias', 'gloria.iglesias6219@gmail.com', 'N/A', 'd2KiNpT7YV9A', '+34027950972', '2024-09-17 09:51:27', '@', '.', 15, 6, 'Camino Real, 579', '1999-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Díaz', 'ana.diaz@outlook.com', 'N/A', 'Qfl8gp9ZZ4Mj', '+34703498965', '2024-09-17 15:19:43', '@', '.', 15, 100, 'Avenida de las Estrellas, 3266', '1990-04-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Garrido', 'nerea.garrido@gmail.com', 'M', 'KbIXXyhO0ZXx', '+34788775031', '2024-10-03 09:34:35', '@', '.', 20, 74, 'Avenida de las Estrellas, 2', '1963-07-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Garrido', 'lucia.garrido@outlook.com', 'F', 'HwVefnrEf2ua', '+34732222545', '2024-09-30 13:10:57', '@', '.', 13, 38, 'Carretera de la Sierra, 2116', '1991-12-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Castro', 'pablo.castro@outlook.com', 'F', 'JoZAhsvMNDVV', '+34424078388', '2024-10-08 13:33:58', '@', '.', 9, 51, 'Paseo de los Álamos, 2437', '1977-03-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Ramos', 'paula.ramos@hotmail.com', 'F', 'dW9njkleagu8', '+34228965779', '2024-10-25 13:43:35', '@', '.', 16, 4, 'Primavera, 1596', '1983-07-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Gil', 'sara.gil@outlook.com', 'M', 'yqbVHF6oyKwT', '+34699117356', '2024-10-30 15:37:42', '@', '.', 14, 25, 'Camino Real, 1172', '1959-12-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Torres', 'sara.torres@hotmail.com', 'M', 'gL3iO0cfE4mK', '+34869528620', '2024-10-28 12:29:57', '@', '.', 9, 42, 'Camino Real, 3396', '1953-09-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Gutiérrez', 'francisco.gutierrez@gmail.com', 'M', 'TR5e1jMn8Eug', '+34177696767', '2024-10-03 08:28:05', '@', '.', 14, 87, 'Primavera, 3183', '1963-07-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Fernández', 'david.fernandez@hotmail.com', 'F', 'GwomoxamzCFm', '+34252258021', '2024-10-17 16:22:48', '@', '.', 6, 80, 'Primavera, 3072', '1984-04-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Gutiérrez', 'eva.gutierrez@outlook.com', 'F', 'SsZydQQc48C0', '+34367207834', '2024-10-04 12:09:07', '@', '.', 8, 94, 'Camino Real, 1205', '1951-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Sánchez', 'carlos.sanchez@outlook.com', 'F', '5zeW3WDhvBx8', '+34524373925', '2024-09-26 18:08:37', '@', '.', 20, 64, 'Camino Real, 580', '1987-08-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Ruiz', 'miguel.ruiz@hotmail.com', 'N/A', 'OVGBHLukppl1', '+34415220008', '2024-10-07 13:31:09', '@', '.', 13, 4, 'Callejón del Gato, 1961', '1979-10-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Romero', 'jorge.romero@outlook.com', 'M', 'of00iwLachxl', '+34307606621', '2024-11-04 14:56:39', '@', '.', 11, 73, 'Paseo de los Álamos, 1470', '1982-10-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Vázquez', 'sofia.vazquez@outlook.com', 'M', 'MJjrb5uRVIZ0', '+34349392719', '2024-09-03 08:24:04', '@', '.', 8, 66, 'Callejón del Gato, 1944', '1964-06-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Díaz', 'julia.diaz@hotmail.com', 'M', 'iev7wXLARKRu', '+34736872683', '2024-09-19 18:05:47', '@', '.', 24, 52, 'Ronda de San Pedro, 1756', '1952-05-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Medina', 'julia.medina@outlook.com', 'M', 'vWwKkIFJnXwo', '+34068345973', '2024-10-09 08:43:35', '@', '.', 10, 25, 'Paseo de los Álamos, 1601', '1980-10-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Suárez', 'carmen.suarez@outlook.com', 'F', 'a01irhH9mo9Y', '+34835975521', '2024-10-01 10:36:02', '@', '.', 16, 86, 'Carretera de la Sierra, 293', '1970-12-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Hernández', 'juan.hernandez@hotmail.com', 'F', 'mAs8Ayka6p4i', '+34679782574', '2024-10-23 12:54:03', '@', '.', 17, 3, 'Ronda de San Pedro, 1136', '1990-10-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Jiménez', 'cristina.jimenez@gmail.com', 'N/A', 'k1KlwoGc02EC', '+34790446388', '2024-10-03 13:20:24', '@', '.', 20, 14, 'Rambla del Mar, 3455', '1997-08-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'González', 'elena.gonzalez@gmail.com', 'F', '9xtTEM5B6G3M', '+34731314156', '2024-08-02 15:27:59', '@', '.', 20, 56, 'Ronda de San Pedro, 2273', '2008-03-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Vázquez', 'luis.vazquez@hotmail.com', 'N/A', 'sifazWvuyMNg', '+34494866561', '2024-10-01 15:18:55', '@', '.', 22, 87, 'Avenida de las Estrellas, 3300', '1978-12-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Ortega', 'andrea.ortega@outlook.com', 'N/A', 'tnPlUgHwdKTz', '+34040584872', '2024-10-30 10:35:02', '@', '.', 9, 74, 'Primavera, 1511', '1954-10-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Delgado', 'cristina.delgado@outlook.com', 'M', 'hsAXt96Qofci', '+34515241897', '2024-08-30 14:25:34', '@', '.', 15, 47, 'Paseo de los Álamos, 698', '1955-07-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Ramos', 'sara.ramos@hotmail.com', 'N/A', '6FGENQ4e2KiQ', '+34837627931', '2024-12-10 15:29:57', '@', '.', 3, 31, 'Cuesta de la Luz, 3826', '1955-10-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Ruiz', 'rosa.ruiz@outlook.com', 'F', 'jrfu1bj83yb6', '+34816735079', '2024-10-21 09:09:41', '@', '.', 5, 67, 'Ronda de San Pedro, 3707', '1951-11-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Díaz', 'maria.diaz@hotmail.com', 'M', 'wg4UF6x9Xd1g', '+34090515723', '2024-10-22 15:20:37', '@', '.', 22, 92, 'Ronda de San Pedro, 2409', '1968-03-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Ortega', 'alicia.ortega@outlook.com', 'N/A', 'PQshQucxcJXS', '+34097427343', '2024-10-17 16:14:17', '@', '.', 4, 48, 'Travesía del Río, 1474', '1973-07-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Muñoz', 'marta.munoz@outlook.com', 'M', 'X4GNOYzKqqYR', '+34136950935', '2024-09-30 15:02:31', '@', '.', 17, 4, 'Avenida del Sol, 143', '1985-02-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Gutiérrez', 'isabel.gutierrez@gmail.com', 'F', 'hf8s8ZSk3aTq', '+34555401126', '2024-12-24 16:54:11', '@', '.', 12, 94, 'Avenida del Sol, 279', '1995-08-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Alonso', 'sara.alonso@gmail.com', 'M', 'UMaDwh6phT7e', '+34985900538', '2024-10-15 12:55:34', '@', '.', 10, 96, 'Ronda de San Pedro, 3611', '1992-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Medina', 'eva.medina@hotmail.com', 'M', 'lbCQvRPU4GOf', '+34750383771', '2024-10-04 17:53:36', '@', '.', 19, 78, 'Avenida del Sol, 33', '1962-06-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'López', 'teresa.lopez@hotmail.com', 'F', '3ldOVMd03mL9', '+34952288397', '2024-12-11 14:18:04', '@', '.', 8, 83, 'Camino Real, 2741', '2006-02-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Domínguez', 'clara.dominguez@gmail.com', 'N/A', 'XngoOL1Yf3XS', '+34373718225', '2024-10-17 14:53:33', '@', '.', 17, 67, 'Avenida del Sol, 437', '1967-07-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Domínguez', 'ana.dominguez@outlook.com', 'N/A', '7rd2aPvlKr8N', '+34794310323', '2024-10-08 18:25:25', '@', '.', 22, 8, 'Callejón del Gato, 3986', '1985-03-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Sanz', 'sofia.sanz@hotmail.com', 'N/A', '8N5uB1DDsqoh', '+34631554258', '2024-10-03 10:27:49', '@', '.', 11, 39, 'Cuesta de la Luz, 672', '2009-01-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Castro', 'monica.castro@outlook.com', 'F', 'hRee0w4bOg1N', '+34771072507', '2024-09-24 10:12:37', '@', '.', 23, 71, 'Paseo de los Álamos, 3681', '1958-09-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'González', 'pablo.gonzalez@hotmail.com', 'F', 'Wqpkoc4mXUVA', '+34013455972', '2024-10-14 17:19:17', '@', '.', 23, 22, 'Rambla del Mar, 3087', '1968-11-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Molina', 'francisco.molina@gmail.com', 'N/A', 't7yC1YGl8xoG', '+34550544439', '2024-10-01 16:25:55', '@', '.', 23, 76, 'Carretera de la Sierra, 2324', '1992-03-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Delgado', 'miguel.delgado@hotmail.com', 'M', '7NU17F8KafML', '+34936611007', '2024-09-27 11:32:09', '@', '.', 10, 75, 'Callejón del Gato, 1346', '1985-12-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Pérez', 'victoria.perez@hotmail.com', 'N/A', 'XWgWOihEbR5h', '+34565090288', '2024-09-17 13:44:05', '@', '.', 12, 64, 'Travesía del Río, 2098', '1996-01-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Iglesias', 'teresa.iglesias@gmail.com', 'N/A', 'kX9xcOJE6gAq', '+34173636496', '2024-08-09 16:12:08', '@', '.', 16, 81, 'Plaza Mayor, 3080', '1974-05-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Morales', 'antonio.morales@outlook.com', 'N/A', 'nANNa3S0ZFz8', '+34768164374', '2024-08-14 18:37:55', '@', '.', 2, 78, 'Rambla del Mar, 1067', '1952-09-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Sánchez', 'sara.sanchez@gmail.com', 'F', 'XrVMkxY9UXja', '+34897486135', '2024-10-31 16:19:39', '@', '.', 1, 37, 'Plaza Mayor, 3695', '1977-07-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Rodríguez', 'maria.rodriguez@outlook.com', 'M', 'YnjeZ2wuY0va', '+34124583852', '2024-10-11 08:25:33', '@', '.', 3, 20, 'Primavera, 1277', '1978-12-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Navarro', 'pedro.navarro@outlook.com', 'F', 'MsuAmyin51iN', '+34853957290', '2024-10-03 10:10:59', '@', '.', 24, 43, 'Carretera de la Sierra, 3302', '2008-11-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Torres', 'rocio.torres@hotmail.com', 'F', 'q19X5SEPSpwn', '+34515345746', '2024-08-19 18:44:49', '@', '.', 23, 53, 'Camino Real, 3011', '1951-09-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Pérez', 'miriam.perez@gmail.com', 'F', 'Ctnsv18dLr9h', '+34965220968', '2024-09-11 12:13:48', '@', '.', 19, 23, 'Ronda de San Pedro, 1414', '1998-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Martínez', 'andrea.martinez@gmail.com', 'M', 's2FxsEP1gycq', '+34484345333', '2024-09-18 10:31:56', '@', '.', 18, 12, 'Camino Real, 3802', '1983-02-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'García', 'rocio.garcia@outlook.com', 'N/A', 'uwJnTxO04KXM', '+34140390972', '2024-11-26 14:51:23', '@', '.', 8, 71, 'Rambla del Mar, 631', '2007-08-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Rodríguez', 'natalia.rodriguez@outlook.com', 'N/A', 'yuSVydYy5UTO', '+34489324032', '2024-09-27 16:57:56', '@', '.', 9, 100, 'Plaza Mayor, 1921', '1981-01-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'González', 'elena.gonzalez7960@outlook.com', 'M', 'r71QUhtS16UD', '+34212051368', '2024-11-07 11:32:11', '@', '.', 11, 66, 'Travesía del Río, 2148', '1982-02-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Medina', 'marina.medina571@outlook.com', 'N/A', 'sWXkq228chGk', '+34367818337', '2024-08-05 09:18:14', '@', '.', 17, 97, 'Paseo de los Álamos, 178', '1956-03-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Torres', 'marta.torres@hotmail.com', 'M', 'ZKPJwCetvcAZ', '+34417966311', '2024-10-08 12:07:28', '@', '.', 19, 25, 'Rambla del Mar, 903', '1980-05-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Navarro', 'sofia.navarro@hotmail.com', 'N/A', 'znErURmPo5pN', '+34583065647', '2024-09-24 10:05:52', '@', '.', 11, 26, 'Carretera de la Sierra, 2748', '1989-09-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Gutiérrez', 'maria.gutierrez@outlook.com', 'M', 'YNVJx8OjUpgV', '+34199616741', '2024-09-03 08:40:35', '@', '.', 18, 42, 'Primavera, 2074', '1986-01-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Gómez', 'manuel.gomez@outlook.com', 'N/A', 'MED2lLDjT8fL', '+34211870856', '2024-09-24 10:03:05', '@', '.', 22, 59, 'Avenida del Sol, 37', '1951-08-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Rubio', 'miriam.rubio@gmail.com', 'N/A', '2z2KWpXoEHMN', '+34349546899', '2024-10-04 18:41:33', '@', '.', 18, 51, 'Rambla del Mar, 579', '1996-05-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Fernández', 'marina.fernandez@hotmail.com', 'N/A', 'StHN75q0HjBL', '+34212577440', '2024-11-06 12:26:26', '@', '.', 9, 53, 'Primavera, 3016', '1964-07-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Hernández', 'miguel.hernandez@outlook.com', 'F', 'AGp2SsmkmVJ4', '+34228182700', '2024-10-24 09:20:43', '@', '.', 17, 62, 'Paseo de los Álamos, 1385', '1989-06-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Molina', 'alberto.molina@hotmail.com', 'F', 'vi7UF6S07As7', '+34010523953', '2024-10-14 09:26:42', '@', '.', 12, 5, 'Rambla del Mar, 954', '1967-10-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Medina', 'miguel.medina@hotmail.com', 'N/A', 'VT74VNScLIXn', '+34275447408', '2024-09-19 17:12:54', '@', '.', 7, 16, 'Avenida de las Estrellas, 3887', '2006-06-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Delgado', 'fernando.delgado@hotmail.com', 'M', '3B0JsfdpfkRn', '+34760253453', '2024-10-18 11:48:22', '@', '.', 21, 63, 'Carretera de la Sierra, 583', '1997-12-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Alonso', 'juan.alonso@outlook.com', 'N/A', 'Km5Qp4AYnNoN', '+34133768484', '2024-10-10 09:20:49', '@', '.', 13, 16, 'Primavera, 611', '1956-11-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Iglesias', 'fernando.iglesias@outlook.com', 'M', 'a75YhEFUr9Us', '+34111988691', '2024-10-31 08:41:45', '@', '.', 8, 45, 'Rambla del Mar, 531', '1981-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Molina', 'raquel.molina@outlook.com', 'M', 'PfWQZ8QeljB2', '+34535630446', '2024-11-08 08:41:02', '@', '.', 12, 69, 'Cuesta de la Luz, 98', '1987-04-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Ortega', 'eva.ortega@outlook.com', 'M', 'eh0ayNdeOU2B', '+34216174616', '2024-09-19 09:06:46', '@', '.', 20, 35, 'Paseo de los Álamos, 1685', '1989-07-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Navarro', 'monica.navarro@gmail.com', 'N/A', 'PfV0YBLiD7TC', '+34973859560', '2024-10-31 08:43:58', '@', '.', 5, 73, 'Primavera, 3456', '1977-07-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Alonso', 'andrea.alonso@hotmail.com', 'N/A', 'bfcrGzDle2jq', '+34123604118', '2024-10-28 18:52:53', '@', '.', 1, 79, 'Camino Real, 465', '1990-05-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Álvarez', 'beatriz.alvarez@outlook.com', 'M', 's9BiPUMIsgpv', '+34235016145', '2024-09-26 09:31:14', '@', '.', 9, 26, 'Rambla del Mar, 958', '1975-07-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Ramírez', 'raquel.ramirez@gmail.com', 'F', 'yGrh3bimVkGM', '+34531643886', '2024-10-21 13:57:50', '@', '.', 13, 16, 'Paseo de los Álamos, 3745', '1967-04-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Medina', 'antonio.medina@gmail.com', 'M', 'Fyzi90JhReTs', '+34183397138', '2024-10-07 17:08:05', '@', '.', 1, 59, 'Primavera, 3294', '1965-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Ortega', 'sara.ortega@hotmail.com', 'N/A', 'qUaPdMZETlcj', '+34549506461', '2024-10-29 12:10:55', '@', '.', 6, 17, 'Plaza Mayor, 3398', '1998-03-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Martín', 'andrea.martin@hotmail.com', 'M', 'y1DTGz1f8tqf', '+34296052539', '2024-10-24 08:04:59', '@', '.', 10, 58, 'Paseo de los Álamos, 392', '2009-08-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Muñoz', 'carmen.munoz@outlook.com', 'F', 'KC2fN3afPdQO', '+34103410154', '2024-10-22 13:50:52', '@', '.', 7, 55, 'Travesía del Río, 1649', '1973-01-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Garrido', 'alberto.garrido@gmail.com', 'F', 'Cb8AAdmDzUai', '+34355201747', '2024-10-17 09:17:02', '@', '.', 1, 2, 'Plaza Mayor, 1903', '1993-10-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Suárez', 'nerea.suarez@outlook.com', 'M', 'y9KVYouWpz5Z', '+34724982747', '2024-10-14 18:03:18', '@', '.', 12, 85, 'Callejón del Gato, 1925', '1993-03-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Ramírez', 'marina.ramirez@hotmail.com', 'M', 'unysF33C6Yao', '+34724198363', '2024-10-30 17:14:02', '@', '.', 24, 71, 'Callejón del Gato, 787', '2003-06-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Ramírez', 'sofia.ramirez@outlook.com', 'N/A', '6pqf1s852YUD', '+34988688555', '2024-10-01 17:50:31', '@', '.', 23, 80, 'Travesía del Río, 3671', '2002-09-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Alonso', 'victoria.alonso@hotmail.com', 'F', '31zpMkThrcZU', '+34125272450', '2024-10-16 10:58:59', '@', '.', 22, 6, 'Avenida del Sol, 2666', '1977-12-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Martínez', 'andrea.martinez@outlook.com', 'N/A', 'lUiegumrPB14', '+34971829165', '2024-10-09 13:59:54', '@', '.', 18, 16, 'Rambla del Mar, 260', '1950-10-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Blanco', 'nerea.blanco@hotmail.com', 'M', 'x6scoFSZ5eqX', '+34703662420', '2024-08-28 15:08:00', '@', '.', 10, 99, 'Avenida de las Estrellas, 2658', '1950-01-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Ruiz', 'jorge.ruiz@hotmail.com', 'M', 'OvxzftgGIiAO', '+34333105054', '2024-09-03 13:39:14', '@', '.', 24, 15, 'Avenida del Sol, 3436', '1996-11-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Díaz', 'isabel.diaz@outlook.com', 'M', 'WLYbFlMvqqSQ', '+34993587895', '2024-12-31 12:55:52', '@', '.', 20, 17, 'Carretera de la Sierra, 1212', '1980-04-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Garrido', 'jose.garrido@gmail.com', 'M', 'nsyHKYfw45OZ', '+34871098616', '2024-10-30 14:37:52', '@', '.', 8, 73, 'Carretera de la Sierra, 141', '1999-02-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Sánchez', 'nerea.sanchez@gmail.com', 'F', 'Sth7b2VF9wJW', '+34174405717', '2024-12-27 14:56:03', '@', '.', 15, 35, 'Primavera, 3664', '1960-09-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Ramos', 'victoria.ramos@hotmail.com', 'F', 'PkXIgL6EmUlR', '+34127159547', '2024-11-18 10:32:59', '@', '.', 24, 17, 'Carretera de la Sierra, 2094', '1986-10-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Ortiz', 'luis.ortiz@hotmail.com', 'N/A', 'OW7EYjVnVAlW', '+34415659510', '2024-12-16 18:57:55', '@', '.', 22, 75, 'Travesía del Río, 2046', '2006-04-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Blanco', 'eva.blanco@outlook.com', 'F', '2FqJjSZ6lt2S', '+34926376532', '2024-10-01 09:22:28', '@', '.', 13, 77, 'Callejón del Gato, 874', '1978-03-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Medina', 'marina.medina6626@hotmail.com', 'N/A', 'jKlyqiC7H3F2', '+34141553282', '2024-10-09 18:16:16', '@', '.', 17, 24, 'Callejón del Gato, 2316', '1984-07-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Iglesias', 'julia.iglesias@hotmail.com', 'M', 'wIYjOkNHvMX1', '+34983695244', '2024-12-25 18:34:25', '@', '.', 2, 4, 'Travesía del Río, 3637', '1971-09-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Jiménez', 'pablo.jimenez@outlook.com', 'F', '3sTtN5NtNfcj', '+34301910364', '2024-10-22 10:24:37', '@', '.', 5, 2, 'Carretera de la Sierra, 3017', '1966-06-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Suárez', 'pablo.suarez@gmail.com', 'M', 'fKEyNtYN5j7M', '+34850512141', '2024-12-02 10:19:29', '@', '.', 15, 77, 'Travesía del Río, 619', '1967-09-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Moreno', 'lucia.moreno@hotmail.com', 'F', 'ix2DWBSqwv9S', '+34186622790', '2024-10-04 09:13:41', '@', '.', 12, 97, 'Carretera de la Sierra, 3287', '1952-11-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Martínez', 'silvia.martinez@outlook.com', 'N/A', 'dGEXM3T0xaXz', '+34618531328', '2024-09-03 09:37:58', '@', '.', 19, 22, 'Cuesta de la Luz, 1986', '2000-08-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Sanz', 'miriam.sanz@hotmail.com', 'M', 'o4o9TUga2SsK', '+34707351624', '2024-11-11 18:00:39', '@', '.', 17, 54, 'Travesía del Río, 2498', '1982-02-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Molina', 'julia.molina@gmail.com', 'N/A', 'McikJxyOFFd7', '+34605153850', '2024-10-25 12:04:41', '@', '.', 11, 16, 'Avenida de las Estrellas, 1198', '1950-05-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Iglesias', 'victoria.iglesias@hotmail.com', 'M', 'iJmeMlGFkuhi', '+34344455840', '2024-10-24 18:45:46', '@', '.', 23, 48, 'Paseo de los Álamos, 2400', '1972-05-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Marín', 'jose.marin@gmail.com', 'M', 'pDIByLVshKdK', '+34447777730', '2024-11-12 17:39:07', '@', '.', 10, 100, 'Cuesta de la Luz, 2528', '1959-05-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Rodríguez', 'lucia.rodriguez@gmail.com', 'M', 'mR2oeBr42psy', '+34149776347', '2024-09-25 18:51:30', '@', '.', 6, 45, 'Ronda de San Pedro, 3199', '1974-01-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Moreno', 'rosa.moreno@outlook.com', 'F', 'jnUlowFXMXr2', '+34353025375', '2024-09-12 18:07:50', '@', '.', 6, 93, 'Avenida de las Estrellas, 625', '1962-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Muñoz', 'antonio.munoz@outlook.com', 'N/A', 'skyK7gjAM110', '+34652370250', '2024-12-17 13:58:42', '@', '.', 24, 39, 'Camino Real, 1656', '1961-01-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'García', 'andrea.garcia@hotmail.com', 'N/A', '8Cn5G1uVccd1', '+34049958140', '2024-10-03 14:51:13', '@', '.', 4, 86, 'Plaza Mayor, 2046', '1994-11-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Hernández', 'manuel.hernandez@gmail.com', 'M', 'DnxdSyllwOOT', '+34773822586', '2024-09-02 14:36:24', '@', '.', 20, 22, 'Paseo de los Álamos, 2017', '1998-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Díaz', 'lucia.diaz@gmail.com', 'F', 'rLzmSd4SWDT2', '+34664129049', '2024-08-29 11:04:11', '@', '.', 17, 38, 'Avenida de las Estrellas, 3164', '1952-04-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Pérez', 'teresa.perez@outlook.com', 'M', 'nI2XXlWgRihZ', '+34752941670', '2024-12-25 18:47:51', '@', '.', 23, 59, 'Callejón del Gato, 1258', '1965-10-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Castro', 'pedro.castro@outlook.com', 'F', 'LYGHJ0WeevGW', '+34066320267', '2024-12-09 08:56:49', '@', '.', 20, 35, 'Avenida del Sol, 2817', '2005-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Martín', 'paula.martin@hotmail.com', 'F', 'NT0rVBT4nFuz', '+34109416888', '2024-12-19 09:41:38', '@', '.', 14, 89, 'Primavera, 2063', '1995-04-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Ortega', 'patricia.ortega@outlook.com', 'M', 'uDpYC9a1CTMM', '+34707389939', '2024-09-04 12:57:53', '@', '.', 2, 90, 'Rambla del Mar, 1850', '1955-11-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Martín', 'julia.martin@gmail.com', 'N/A', 'yWox6gTkL3lO', '+34940164662', '2024-09-18 17:54:03', '@', '.', 7, 84, 'Avenida del Sol, 1881', '2008-08-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Martín', 'rafael.martin@gmail.com', 'M', 'kwbU96lNZqeB', '+34747060408', '2024-12-16 13:42:53', '@', '.', 16, 15, 'Camino Real, 2480', '1993-05-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Ortega', 'jose.ortega@hotmail.com', 'N/A', '8QoRalwujC5C', '+34375693249', '2024-12-31 13:25:13', '@', '.', 12, 21, 'Avenida de las Estrellas, 1174', '1950-05-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Torres', 'miguel.torres@gmail.com', 'N/A', 'Xncbr0RznU8P', '+34629313187', '2024-09-13 11:39:40', '@', '.', 8, 81, 'Plaza Mayor, 1220', '2004-08-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Hernández', 'lucia.hernandez@outlook.com', 'M', 'Rg8eLsM4Gad5', '+34204160803', '2024-09-30 11:32:28', '@', '.', 24, 78, 'Rambla del Mar, 2957', '1957-05-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Gil', 'cristina.gil@outlook.com', 'N/A', 'NtjVHcyEFC15', '+34357141866', '2024-10-15 17:46:45', '@', '.', 17, 78, 'Ronda de San Pedro, 488', '1963-03-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Suárez', 'celia.suarez@gmail.com', 'M', 'CbRdGJrKbZvj', '+34151437744', '2024-08-22 17:08:02', '@', '.', 16, 56, 'Cuesta de la Luz, 2324', '2001-02-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Medina', 'eva.medina@outlook.com', 'N/A', 'zvXcv1c8DEz8', '+34381203965', '2024-11-27 14:46:30', '@', '.', 2, 91, 'Travesía del Río, 2614', '1950-06-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Martínez', 'rosa.martinez@outlook.com', 'M', 'ZRmUUSY139DJ', '+34786747081', '2024-12-16 12:18:42', '@', '.', 17, 13, 'Travesía del Río, 3453', '1960-04-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Álvarez', 'gloria.alvarez@hotmail.com', 'F', 'wpjA1ZQedBSP', '+34434223210', '2024-08-30 09:14:03', '@', '.', 23, 91, 'Cuesta de la Luz, 3796', '2003-05-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'López', 'jose.lopez@gmail.com', 'M', 'TqMVVZ4DuovB', '+34346373831', '2024-12-13 17:46:02', '@', '.', 5, 60, 'Ronda de San Pedro, 3669', '1990-04-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Molina', 'david.molina@gmail.com', 'M', 'bcX4i3PLXY5t', '+34590702739', '2024-10-24 10:24:47', '@', '.', 23, 50, 'Plaza Mayor, 381', '2006-10-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Iglesias', 'javier.iglesias@gmail.com', 'M', '0tgBhWDU34Zg', '+34927809831', '2024-10-22 16:25:34', '@', '.', 14, 5, 'Paseo de los Álamos, 2739', '1999-02-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Jiménez', 'silvia.jimenez@hotmail.com', 'M', '9TW92zeWhuFF', '+34331677799', '2024-08-02 16:21:19', '@', '.', 18, 89, 'Rambla del Mar, 3297', '1981-06-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Sanz', 'manuel.sanz@gmail.com', 'N/A', 'kBM4IGwx4tQ7', '+34160134599', '2024-09-11 13:12:23', '@', '.', 4, 67, 'Travesía del Río, 2476', '1983-12-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Medina', 'elena.medina@gmail.com', 'M', 'pwO9qBnJayx1', '+34382990302', '2024-11-18 17:52:50', '@', '.', 16, 25, 'Carretera de la Sierra, 2115', '1977-09-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'López', 'nerea.lopez@outlook.com', 'N/A', 'KTzgjdHBPip5', '+34039201764', '2024-08-30 08:02:15', '@', '.', 9, 59, 'Avenida de las Estrellas, 598', '1960-02-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Sanz', 'lucia.sanz@outlook.com', 'M', '6FoSPI3Mk4rp', '+34387543673', '2024-09-13 11:25:49', '@', '.', 12, 89, 'Avenida del Sol, 3725', '1980-11-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Martín', 'diego.martin@hotmail.com', 'F', '5Fm5iFEQ0Kin', '+34118058885', '2024-10-03 16:03:06', '@', '.', 13, 89, 'Ronda de San Pedro, 2158', '1995-06-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Gómez', 'marina.gomez@hotmail.com', 'M', 'a5a9UlTD2ROh', '+34022083483', '2024-11-25 16:50:13', '@', '.', 6, 20, 'Carretera de la Sierra, 145', '1993-04-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Domínguez', 'manuel.dominguez@hotmail.com', 'F', 'u6BhCt43SWXI', '+34830000745', '2024-10-16 18:09:37', '@', '.', 6, 1, 'Avenida de las Estrellas, 2142', '1983-03-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Delgado', 'lucia.delgado@gmail.com', 'M', 'fK1ruKKqeunX', '+34331993988', '2024-11-19 16:12:25', '@', '.', 20, 11, 'Primavera, 1471', '1973-06-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Garrido', 'teresa.garrido@gmail.com', 'N/A', '5Qz1IUEoBsd2', '+34292256598', '2024-10-09 18:32:15', '@', '.', 4, 25, 'Callejón del Gato, 2581', '1962-02-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Sanz', 'rosa.sanz@hotmail.com', 'N/A', 'bsMTZJwg7WeO', '+34571253189', '2024-09-13 14:57:04', '@', '.', 6, 88, 'Avenida del Sol, 1584', '1997-07-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Marín', 'alberto.marin@gmail.com', 'M', '0623qPJrAInp', '+34095814051', '2024-10-10 17:06:31', '@', '.', 12, 59, 'Callejón del Gato, 1032', '1966-04-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Gutiérrez', 'javier.gutierrez@outlook.com', 'F', 'VX8zzFdGZ6LI', '+34590565623', '2024-10-10 09:08:35', '@', '.', 1, 3, 'Travesía del Río, 1738', '1954-08-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Ruiz', 'sara.ruiz@outlook.com', 'N/A', 'opZTjx7knjA9', '+34087086233', '2024-09-11 18:54:09', '@', '.', 20, 65, 'Paseo de los Álamos, 1416', '2001-09-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Torres', 'jorge.torres@outlook.com', 'N/A', 'XnrVoKNWhSjV', '+34167968518', '2024-10-29 15:56:57', '@', '.', 2, 55, 'Ronda de San Pedro, 3970', '1995-08-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Gómez', 'julia.gomez@gmail.com', 'F', 'Fu9QdEiTZN4G', '+34263697681', '2024-10-30 17:21:04', '@', '.', 18, 22, 'Avenida del Sol, 991', '1969-06-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Fernández', 'monica.fernandez@outlook.com', 'F', 'NlHSk5kFKg1x', '+34234758144', '2024-10-09 10:15:45', '@', '.', 20, 55, 'Cuesta de la Luz, 3909', '1998-03-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'López', 'patricia.lopez@outlook.com', 'M', 'ZpLvkhT9miQN', '+34767659390', '2024-12-04 15:28:55', '@', '.', 15, 35, 'Primavera, 3481', '1954-09-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Domínguez', 'rosa.dominguez@gmail.com', 'N/A', 'NMR2pdsIgQgb', '+34649999022', '2024-09-04 16:56:07', '@', '.', 18, 46, 'Paseo de los Álamos, 2816', '1986-11-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Pérez', 'manuel.perez@gmail.com', 'F', '9HeABHhbqcbt', '+34649739314', '2024-09-02 14:54:53', '@', '.', 20, 7, 'Carretera de la Sierra, 2643', '1969-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Martín', 'cristina.martin@hotmail.com', 'N/A', 'ORUwd8Xlgb9h', '+34433802867', '2024-10-21 17:56:47', '@', '.', 18, 90, 'Avenida del Sol, 1746', '1999-01-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Garrido', 'luis.garrido@gmail.com', 'F', 'pxqQUL6BYA6m', '+34183686944', '2024-12-27 13:12:58', '@', '.', 7, 58, 'Avenida del Sol, 2889', '1961-03-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Ramos', 'gloria.ramos@hotmail.com', 'F', 'jcWy7B5Tny1s', '+34490543670', '2024-10-04 08:34:55', '@', '.', 18, 96, 'Carretera de la Sierra, 1341', '2005-10-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Álvarez', 'lorena.alvarez@hotmail.com', 'M', '6kaP8Laqczq7', '+34090030246', '2024-09-17 10:22:00', '@', '.', 11, 24, 'Rambla del Mar, 2917', '1994-03-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Alonso', 'juan.alonso@gmail.com', 'N/A', '9JUVOV6od1TW', '+34928297208', '2024-09-05 16:03:03', '@', '.', 17, 62, 'Avenida de las Estrellas, 2133', '1996-10-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'López', 'manuel.lopez@gmail.com', 'M', 'nY0vGTl1UyFF', '+34916402365', '2024-12-30 16:35:22', '@', '.', 1, 2, 'Avenida del Sol, 572', '1990-11-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Suárez', 'lucia.suarez@hotmail.com', 'F', 'BRUr8y0h6HRk', '+34232885308', '2024-11-07 17:21:53', '@', '.', 6, 100, 'Camino Real, 3348', '1994-10-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Ruiz', 'raquel.ruiz@outlook.com', 'N/A', 'cE7m5TZs50lo', '+34360738703', '2024-10-18 10:53:18', '@', '.', 13, 13, 'Carretera de la Sierra, 590', '2008-01-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Torres', 'marta.torres414@outlook.com', 'M', '5haTffEwdZOt', '+34709835032', '2024-11-19 12:05:47', '@', '.', 8, 98, 'Ronda de San Pedro, 3990', '1992-11-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Sánchez', 'rafael.sanchez@hotmail.com', 'F', '5EqVZG0plv0x', '+34140353512', '2024-11-06 11:56:44', '@', '.', 10, 57, 'Travesía del Río, 3288', '1964-01-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Muñoz', 'jorge.munoz@gmail.com', 'M', 'U5qxAGH0UzNU', '+34022755321', '2024-09-19 15:01:53', '@', '.', 19, 53, 'Primavera, 3525', '1951-09-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Ortega', 'francisco.ortega@hotmail.com', 'M', 'A6vy30I5vfq2', '+34257528013', '2024-10-16 11:01:02', '@', '.', 19, 16, 'Plaza Mayor, 300', '1958-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Navarro', 'ana.navarro@gmail.com', 'M', 'FNsABFmx2SDV', '+34720136859', '2024-10-14 10:16:33', '@', '.', 9, 57, 'Plaza Mayor, 2362', '1957-03-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Vázquez', 'ana.vazquez@gmail.com', 'F', 'acKwe9GJrvR0', '+34963264296', '2024-12-30 10:32:55', '@', '.', 5, 84, 'Camino Real, 2483', '2002-02-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Alonso', 'juan.alonso@hotmail.com', 'N/A', 'hGLfqXI9tEm7', '+34030973386', '2024-10-15 09:35:55', '@', '.', 15, 27, 'Carretera de la Sierra, 1791', '1988-11-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Ramos', 'maria.ramos@hotmail.com', 'M', 'Wq5jkaH7GJTa', '+34311408030', '2024-10-07 10:03:59', '@', '.', 12, 69, 'Primavera, 2506', '1974-01-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Rodríguez', 'antonio.rodriguez@gmail.com', 'N/A', 'R5u3RjZr5aVs', '+34851542185', '2024-12-30 10:36:31', '@', '.', 15, 40, 'Avenida de las Estrellas, 542', '2005-12-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Medina', 'rocio.medina@gmail.com', 'M', 'AFy0FIumQjRI', '+34098076401', '2024-10-25 16:56:07', '@', '.', 11, 17, 'Avenida de las Estrellas, 3149', '1958-05-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Garrido', 'carlos.garrido@outlook.com', 'N/A', 'ePL28jKKRh7k', '+34311180512', '2024-09-17 16:24:37', '@', '.', 6, 11, 'Camino Real, 651', '1996-03-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Rubio', 'paula.rubio@hotmail.com', 'M', 'VsI4X2w3chPb', '+34246856014', '2024-11-12 08:55:22', '@', '.', 24, 43, 'Ronda de San Pedro, 1309', '1996-11-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Domínguez', 'maria.dominguez@gmail.com', 'M', 'u5U6pYpaQK3M', '+34455582204', '2024-08-09 15:40:52', '@', '.', 11, 64, 'Ronda de San Pedro, 1935', '1999-10-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Gil', 'cristina.gil8388@gmail.com', 'N/A', 'c9r7WLsKVzj3', '+34817051891', '2024-11-19 12:16:23', '@', '.', 15, 47, 'Paseo de los Álamos, 2224', '1955-11-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Medina', 'silvia.medina@hotmail.com', 'N/A', 'saSyuK6VYdQE', '+34526237216', '2024-11-20 17:38:13', '@', '.', 11, 17, 'Camino Real, 3632', '1970-08-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Garrido', 'diego.garrido@hotmail.com', 'M', 'kxXp0mwAwnI4', '+34626375233', '2024-10-03 10:29:05', '@', '.', 6, 58, 'Avenida del Sol, 3433', '1986-12-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Gutiérrez', 'eva.gutierrez@hotmail.com', 'N/A', 'Vqhl8o9sPTn6', '+34084432084', '2024-10-02 18:55:45', '@', '.', 12, 64, 'Ronda de San Pedro, 1210', '1959-09-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Ramos', 'celia.ramos@outlook.com', 'M', '2kaSjenOom3o', '+34679660550', '2024-08-20 14:05:03', '@', '.', 23, 15, 'Avenida de las Estrellas, 2338', '1994-02-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Medina', 'juan.medina@gmail.com', 'M', 'DKSf2p9N9Hwl', '+34176257762', '2024-10-25 16:30:28', '@', '.', 3, 77, 'Paseo de los Álamos, 360', '1997-02-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'González', 'david.gonzalez@gmail.com', 'F', 'dcMaRckylTMO', '+34545159780', '2024-10-09 15:25:05', '@', '.', 13, 53, 'Cuesta de la Luz, 1016', '1963-06-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Sanz', 'sofia.sanz@gmail.com', 'N/A', 'z4XIXRHXV7vy', '+34129805886', '2024-11-18 09:44:06', '@', '.', 8, 42, 'Avenida de las Estrellas, 2989', '2003-12-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Jiménez', 'pedro.jimenez@hotmail.com', 'N/A', 'eivqGmTOXvKo', '+34478211344', '2024-10-25 10:21:41', '@', '.', 24, 69, 'Camino Real, 2360', '2008-04-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Medina', 'patricia.medina@outlook.com', 'F', 'o1eTdUU9AbaW', '+34273837386', '2024-12-10 11:43:02', '@', '.', 21, 13, 'Camino Real, 1436', '1974-02-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Medina', 'fernando.medina@gmail.com', 'M', 'YPQs1IZc7dOz', '+34191948783', '2024-10-25 09:03:15', '@', '.', 4, 5, 'Plaza Mayor, 1724', '1985-08-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Rubio', 'raquel.rubio@outlook.com', 'M', 'QbYoBZQQgPNy', '+34344938687', '2024-10-14 08:52:18', '@', '.', 15, 56, 'Avenida de las Estrellas, 1175', '1963-08-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Jiménez', 'silvia.jimenez@gmail.com', 'M', '6K6uNDD1T3x4', '+34133735195', '2024-10-14 08:39:14', '@', '.', 3, 9, 'Callejón del Gato, 1636', '2006-01-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Domínguez', 'gloria.dominguez@gmail.com', 'N/A', 'X0lOg4GTF2pR', '+34957777799', '2024-08-29 10:48:31', '@', '.', 23, 83, 'Camino Real, 2195', '1971-07-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Torres', 'gloria.torres@hotmail.com', 'M', '8IhbW7arMDks', '+34209427541', '2024-09-11 14:43:17', '@', '.', 19, 79, 'Travesía del Río, 2222', '1999-11-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Domínguez', 'alicia.dominguez@outlook.com', 'M', 'KMhiLwfAUYYN', '+34155703592', '2024-10-28 17:23:41', '@', '.', 11, 41, 'Ronda de San Pedro, 3045', '2009-06-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Ruiz', 'miguel.ruiz390@hotmail.com', 'N/A', 'KeUHrjsezkZv', '+34720449712', '2024-11-25 18:22:37', '@', '.', 21, 65, 'Avenida de las Estrellas, 3848', '1965-12-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Sánchez', 'lorena.sanchez@hotmail.com', 'F', 'jaL21dq2XDNj', '+34068217100', '2024-10-31 14:56:20', '@', '.', 13, 56, 'Paseo de los Álamos, 2035', '2007-02-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Vázquez', 'cristina.vazquez@gmail.com', 'N/A', '3edQK0soVvQ2', '+34595599386', '2024-10-02 16:03:07', '@', '.', 19, 27, 'Paseo de los Álamos, 3883', '1980-03-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Moreno', 'pablo.moreno@outlook.com', 'M', '18lsosMU1OLn', '+34181318934', '2024-09-16 14:01:58', '@', '.', 24, 48, 'Plaza Mayor, 1484', '1976-04-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Marín', 'maria.marin@outlook.com', 'F', '72M011gbE1Dg', '+34576371960', '2024-10-01 14:45:54', '@', '.', 12, 12, 'Cuesta de la Luz, 2651', '2000-07-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Sanz', 'lucia.sanz@hotmail.com', 'M', 'B0yBvUMBqz0W', '+34080694706', '2024-08-28 12:27:08', '@', '.', 13, 100, 'Avenida de las Estrellas, 881', '2001-07-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Iglesias', 'monica.iglesias@hotmail.com', 'N/A', 'IyBV8nntdDXy', '+34064761080', '2024-10-25 09:09:09', '@', '.', 2, 48, 'Travesía del Río, 1095', '2000-02-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Martínez', 'julia.martinez@outlook.com', 'F', 'kVurmpFdP9Tu', '+34564917618', '2024-12-11 13:02:42', '@', '.', 22, 6, 'Travesía del Río, 3686', '1991-12-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Garrido', 'miguel.garrido@hotmail.com', 'F', 'GD3Lh4zokOue', '+34525565749', '2024-10-28 14:42:38', '@', '.', 22, 64, 'Ronda de San Pedro, 871', '1980-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Sánchez', 'miriam.sanchez@gmail.com', 'F', 'YwsrmdxhrbEh', '+34340482952', '2024-10-10 16:07:12', '@', '.', 23, 57, 'Carretera de la Sierra, 3720', '1979-11-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Rodríguez', 'miguel.rodriguez@hotmail.com', 'M', 'ZmBwqLImATcQ', '+34396147936', '2024-10-03 13:32:06', '@', '.', 16, 86, 'Travesía del Río, 1054', '1961-01-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Domínguez', 'maria.dominguez@outlook.com', 'N/A', 'qdpUIGIpQpy6', '+34601941827', '2024-09-09 10:56:14', '@', '.', 18, 26, 'Travesía del Río, 739', '2005-03-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Ortega', 'diego.ortega@gmail.com', 'F', 'cjyicAA6LOgH', '+34280540186', '2024-08-20 16:45:06', '@', '.', 8, 10, 'Ronda de San Pedro, 2883', '2003-12-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Gómez', 'julia.gomez@outlook.com', 'M', 'ZZswOOzQrgmH', '+34876047184', '2024-08-19 15:06:09', '@', '.', 23, 77, 'Primavera, 1562', '1973-01-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Gómez', 'carmen.gomez@outlook.com', 'N/A', 't1ClmrfbQamK', '+34898508494', '2024-12-30 16:11:30', '@', '.', 1, 96, 'Callejón del Gato, 2488', '2004-04-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Morales', 'celia.morales@hotmail.com', 'N/A', 'cn0itcMT8mUb', '+34001784464', '2024-12-09 10:36:59', '@', '.', 23, 83, 'Carretera de la Sierra, 3333', '1959-06-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Rubio', 'nerea.rubio@hotmail.com', 'F', 'Cjm3HODmT9Oj', '+34246962205', '2024-10-22 09:21:32', '@', '.', 2, 90, 'Travesía del Río, 724', '1977-04-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Medina', 'silvia.medina@outlook.com', 'F', 'MKHtylYomb9V', '+34738563201', '2024-10-01 11:12:56', '@', '.', 21, 72, 'Plaza Mayor, 2027', '1958-07-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Castro', 'victoria.castro@outlook.com', 'M', 'YI16wUfnuZLZ', '+34155072593', '2024-10-31 18:52:25', '@', '.', 2, 56, 'Plaza Mayor, 1299', '1970-03-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Gil', 'andrea.gil@hotmail.com', 'F', 'mD7jSCYEFwUx', '+34596119574', '2024-10-29 10:53:34', '@', '.', 2, 51, 'Plaza Mayor, 2159', '1956-02-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Álvarez', 'pedro.alvarez@outlook.com', 'N/A', 'OmL3zMsefvGx', '+34952042194', '2024-10-08 12:10:20', '@', '.', 16, 43, 'Camino Real, 1850', '1975-09-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Nuñez', 'rafael.nunez@outlook.com', 'M', 'hx8Nz7YmY1NX', '+34041244994', '2024-10-04 08:36:19', '@', '.', 10, 15, 'Callejón del Gato, 276', '1962-12-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Marín', 'sofia.marin@gmail.com', 'M', 'XBJhrizeUgEc', '+34768530880', '2024-09-18 13:57:41', '@', '.', 22, 32, 'Avenida de las Estrellas, 2904', '1957-09-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Fernández', 'patricia.fernandez@hotmail.com', 'M', 'WlfS8HhtF1iW', '+34134427970', '2024-10-28 17:58:22', '@', '.', 15, 72, 'Plaza Mayor, 3493', '1991-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Molina', 'eva.molina@hotmail.com', 'N/A', '8wDo8yFskbOp', '+34599347970', '2024-10-08 15:07:50', '@', '.', 1, 88, 'Cuesta de la Luz, 3771', '1988-08-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Domínguez', 'alberto.dominguez@outlook.com', 'N/A', 'FxpByQEOJjyA', '+34436813371', '2024-10-10 16:09:09', '@', '.', 21, 76, 'Primavera, 2653', '1971-11-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Rubio', 'fernando.rubio@gmail.com', 'M', 'GMo26IbHkdhQ', '+34629761761', '2024-10-10 18:29:25', '@', '.', 12, 18, 'Ronda de San Pedro, 1111', '1951-11-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Marín', 'miguel.marin@gmail.com', 'M', 'vPLzoBUUE1jN', '+34261487940', '2024-10-11 18:32:42', '@', '.', 12, 52, 'Avenida de las Estrellas, 3698', '2000-12-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Ramos', 'fernando.ramos@hotmail.com', 'N/A', 'AI7L5mJv3a1W', '+34372473677', '2024-11-18 17:58:35', '@', '.', 17, 61, 'Avenida de las Estrellas, 3087', '1990-09-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Álvarez', 'nerea.alvarez@hotmail.com', 'N/A', 'dGmYSoT7Jll1', '+34556215829', '2024-10-10 08:15:57', '@', '.', 7, 1, 'Travesía del Río, 3290', '2004-03-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Morales', 'carlos.morales@outlook.com', 'N/A', 'sewpmM41jhtV', '+34586394304', '2024-09-19 12:02:56', '@', '.', 15, 21, 'Carretera de la Sierra, 1462', '1953-04-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Pérez', 'rafael.perez@hotmail.com', 'M', 'xo1ZWE2gJvVD', '+34004621795', '2024-12-26 18:42:33', '@', '.', 11, 39, 'Rambla del Mar, 2414', '2001-12-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Molina', 'beatriz.molina@outlook.com', 'N/A', '4FfB4u7jqfGZ', '+34978221842', '2024-12-18 17:29:52', '@', '.', 4, 1, 'Plaza Mayor, 53', '1953-02-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Hernández', 'manuel.hernandez@outlook.com', 'N/A', 'hbJoHWkpiB5k', '+34296338051', '2024-08-27 10:18:09', '@', '.', 12, 22, 'Plaza Mayor, 3705', '2001-06-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Martín', 'alicia.martin@gmail.com', 'N/A', 'KKo0ouw1hknn', '+34216938018', '2024-12-17 13:31:37', '@', '.', 9, 88, 'Avenida de las Estrellas, 2729', '1993-03-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Rodríguez', 'irene.rodriguez@hotmail.com', 'M', 'RuBavUaitJ1q', '+34457847450', '2024-12-26 13:57:59', '@', '.', 6, 11, 'Avenida del Sol, 3043', '1959-08-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Sanz', 'monica.sanz@outlook.com', 'N/A', 'UNeptXJ0aH3i', '+34323544555', '2024-12-31 10:47:27', '@', '.', 4, 68, 'Carretera de la Sierra, 3822', '1962-11-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Sanz', 'celia.sanz@gmail.com', 'N/A', 'GsC9eyHNIm9z', '+34494218244', '2024-10-15 08:21:39', '@', '.', 2, 33, 'Cuesta de la Luz, 302', '1964-08-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Morales', 'javier.morales@gmail.com', 'F', 'FAJBsItuMwEZ', '+34338201435', '2024-10-02 11:44:20', '@', '.', 12, 81, 'Avenida del Sol, 3781', '1982-11-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Romero', 'eva.romero@gmail.com', 'F', '6iUFuDXTcaP3', '+34067014193', '2024-10-10 16:48:55', '@', '.', 17, 24, 'Cuesta de la Luz, 1336', '1963-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Castro', 'andrea.castro@hotmail.com', 'M', 'VdbOCMRHc9Rk', '+34552253673', '2024-09-17 13:11:25', '@', '.', 18, 92, 'Cuesta de la Luz, 3519', '1995-02-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Iglesias', 'alicia.iglesias@gmail.com', 'N/A', '87nhaTHCuR83', '+34563305384', '2024-11-08 12:41:43', '@', '.', 12, 46, 'Primavera, 3172', '1954-03-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Gil', 'carmen.gil@outlook.com', 'N/A', 'LYnE24nHDyX4', '+34661623391', '2024-10-23 17:00:08', '@', '.', 1, 18, 'Paseo de los Álamos, 2595', '1959-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Delgado', 'marta.delgado@hotmail.com', 'M', 'lUDPnrM3sj5r', '+34920725379', '2024-09-20 09:54:55', '@', '.', 16, 38, 'Paseo de los Álamos, 694', '2009-09-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Navarro', 'miriam.navarro@gmail.com', 'M', 'T1BO5SSN24y7', '+34478997670', '2024-10-07 15:52:14', '@', '.', 14, 30, 'Paseo de los Álamos, 3661', '2004-10-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Suárez', 'natalia.suarez@gmail.com', 'F', 'KcUUjl5UHiAM', '+34525402479', '2024-08-20 16:03:52', '@', '.', 6, 3, 'Avenida de las Estrellas, 971', '1981-05-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Sanz', 'miriam.sanz@gmail.com', 'F', 'SPk9U8lutNNS', '+34319196889', '2024-11-15 15:04:10', '@', '.', 9, 39, 'Primavera, 129', '1975-05-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'García', 'juan.garcia@outlook.com', 'F', 'GlidLc2lFV89', '+34344222861', '2024-10-31 13:25:24', '@', '.', 24, 24, 'Callejón del Gato, 320', '1982-06-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Fernández', 'paula.fernandez@hotmail.com', 'N/A', 'vj38VwnlpS47', '+34945301979', '2024-10-30 08:12:02', '@', '.', 3, 96, 'Ronda de San Pedro, 2997', '1978-11-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Ortiz', 'juan.ortiz@outlook.com', 'F', 'rHYoOqcW2nvr', '+34330921026', '2024-09-06 17:23:52', '@', '.', 13, 69, 'Callejón del Gato, 467', '1993-06-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Sánchez', 'pablo.sanchez@outlook.com', 'M', 'B5Cytepv8mZH', '+34797331491', '2024-10-18 16:04:10', '@', '.', 8, 88, 'Callejón del Gato, 1857', '1966-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Ortiz', 'alberto.ortiz@hotmail.com', 'N/A', 'gDgXKXmEkDDv', '+34630960476', '2024-11-14 14:25:46', '@', '.', 22, 77, 'Callejón del Gato, 361', '1979-04-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Navarro', 'nerea.navarro@gmail.com', 'M', 'caCDPM1nBWW1', '+34764045222', '2024-10-11 08:39:47', '@', '.', 24, 97, 'Ronda de San Pedro, 1299', '1961-05-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Medina', 'isabel.medina@outlook.com', 'F', 'cmRJY3tAbqY0', '+34285718770', '2024-09-25 15:04:05', '@', '.', 12, 32, 'Camino Real, 3914', '1980-11-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Muñoz', 'raquel.munoz@hotmail.com', 'F', 'Qw3pnAfZShAC', '+34410553328', '2024-09-25 15:52:27', '@', '.', 15, 65, 'Plaza Mayor, 1447', '1963-09-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'González', 'lorena.gonzalez@outlook.com', 'N/A', 'VnswhGIlSWrw', '+34673766272', '2024-10-15 10:00:36', '@', '.', 4, 55, 'Avenida del Sol, 3737', '1988-05-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Vázquez', 'miriam.vazquez@hotmail.com', 'F', '04ymbGlbO7Sk', '+34246777135', '2024-09-05 09:54:53', '@', '.', 2, 63, 'Carretera de la Sierra, 2918', '1967-07-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Navarro', 'isabel.navarro@gmail.com', 'N/A', 'QlFD6SAG1InJ', '+34840102555', '2024-10-22 17:48:38', '@', '.', 1, 7, 'Avenida de las Estrellas, 3088', '1967-12-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Alonso', 'miriam.alonso@outlook.com', 'M', 'f95udXKCu3kb', '+34442662276', '2024-09-04 10:32:57', '@', '.', 7, 75, 'Travesía del Río, 1227', '2000-12-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Pérez', 'victoria.perez@gmail.com', 'F', 'bxRKiyMsY6HR', '+34357009061', '2024-10-07 12:58:10', '@', '.', 8, 76, 'Primavera, 994', '1975-05-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Gómez', 'alberto.gomez@outlook.com', 'F', 'LxYwA1if0p6l', '+34886217594', '2024-12-10 09:41:11', '@', '.', 3, 96, 'Primavera, 999', '1966-12-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Delgado', 'cristina.delgado@gmail.com', 'N/A', '86JhbpBBYcH6', '+34468158682', '2024-08-07 16:54:23', '@', '.', 22, 77, 'Rambla del Mar, 3884', '1986-08-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Iglesias', 'silvia.iglesias@hotmail.com', 'M', 'wq1gYTbilS4M', '+34198158606', '2024-10-15 09:34:50', '@', '.', 5, 56, 'Primavera, 3540', '1960-10-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Gil', 'laura.gil@gmail.com', 'M', 'cULHHB0Bvu3l', '+34936752927', '2024-10-25 15:21:44', '@', '.', 10, 30, 'Rambla del Mar, 1355', '1986-04-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Rubio', 'celia.rubio@outlook.com', 'M', '8kFZVlhCMwsu', '+34463779719', '2024-10-03 11:04:41', '@', '.', 16, 72, 'Callejón del Gato, 1971', '1987-08-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Vázquez', 'antonio.vazquez@hotmail.com', 'M', 'jGvQUdW0MVt7', '+34444916268', '2024-12-13 16:09:41', '@', '.', 13, 56, 'Carretera de la Sierra, 160', '1997-08-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Martínez', 'irene.martinez@hotmail.com', 'N/A', 'H6mhOx62XqaN', '+34711031013', '2024-10-01 13:33:44', '@', '.', 22, 94, 'Plaza Mayor, 1107', '1987-03-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Vázquez', 'carlos.vazquez@gmail.com', 'M', 'vdCeCOZkQ00U', '+34798998657', '2024-10-07 12:50:17', '@', '.', 1, 6, 'Ronda de San Pedro, 803', '1975-08-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'García', 'manuel.garcia@gmail.com', 'M', 'vrh2Af1b866g', '+34931402179', '2024-10-15 14:57:07', '@', '.', 14, 69, 'Primavera, 1258', '1955-06-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Alonso', 'irene.alonso@hotmail.com', 'N/A', 'VX9zfqDdCizO', '+34036246879', '2024-11-13 16:17:18', '@', '.', 17, 4, 'Ronda de San Pedro, 2937', '2002-02-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Álvarez', 'raquel.alvarez@gmail.com', 'F', '3yFS2xY3eDHR', '+34060160554', '2024-10-14 15:00:21', '@', '.', 6, 30, 'Camino Real, 2639', '1972-09-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Moreno', 'andrea.moreno@gmail.com', 'F', 'jnnPevrsWubW', '+34792636654', '2024-10-10 09:59:59', '@', '.', 24, 35, 'Callejón del Gato, 2425', '1959-02-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Medina', 'patricia.medina7323@gmail.com', 'N/A', 'HQe6oKuglQxY', '+34068011988', '2024-09-03 10:28:33', '@', '.', 11, 56, 'Travesía del Río, 2795', '2007-05-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Hernández', 'maria.hernandez@gmail.com', 'M', '0PKBVOUyl44e', '+34921371244', '2024-10-18 17:06:10', '@', '.', 13, 43, 'Camino Real, 3079', '1986-04-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Sánchez', 'rosa.sanchez@outlook.com', 'F', 'x9enW21P99Ov', '+34058454028', '2024-10-04 14:59:51', '@', '.', 21, 43, 'Ronda de San Pedro, 693', '1953-04-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Pérez', 'laura.perez@outlook.com', 'M', 'VHxrbG04ILIO', '+34005773150', '2024-08-23 09:29:28', '@', '.', 24, 90, 'Travesía del Río, 587', '1960-03-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'García', 'irene.garcia@gmail.com', 'M', 'HuRngxug7SEO', '+34144642317', '2024-09-13 12:16:51', '@', '.', 23, 85, 'Carretera de la Sierra, 3625', '1998-10-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Fernández', 'clara.fernandez@hotmail.com', 'N/A', 'iYgFB8NP0WXA', '+34851463579', '2024-10-16 18:29:45', '@', '.', 16, 73, 'Avenida del Sol, 2954', '1973-10-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Serrano', 'irene.serrano@gmail.com', 'F', 'XZyW5AXHQhlx', '+34835888191', '2024-10-25 09:25:10', '@', '.', 21, 57, 'Callejón del Gato, 1357', '1971-07-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Martínez', 'elena.martinez@outlook.com', 'M', 'hgfmopFnK02z', '+34316354372', '2024-11-29 15:44:07', '@', '.', 4, 21, 'Avenida de las Estrellas, 43', '1979-02-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Marín', 'laura.marin@outlook.com', 'F', '5LyS5yf0EqlJ', '+34125043036', '2024-11-01 15:10:42', '@', '.', 18, 73, 'Paseo de los Álamos, 1127', '2003-11-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Morales', 'teresa.morales@hotmail.com', 'F', 'hjxYVQmIwBf3', '+34177062032', '2024-08-22 17:30:48', '@', '.', 19, 60, 'Primavera, 1037', '1975-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Gómez', 'cristina.gomez@outlook.com', 'F', 'LYmSdiBi2QfL', '+34155112654', '2024-10-21 16:38:54', '@', '.', 23, 14, 'Avenida del Sol, 1092', '2006-11-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Garrido', 'paula.garrido@gmail.com', 'M', 'EB5xzYPpwbKB', '+34001270706', '2024-09-18 16:23:28', '@', '.', 10, 41, 'Avenida del Sol, 758', '1980-08-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Garrido', 'david.garrido@outlook.com', 'N/A', 'p45MrwmNO8Ef', '+34103528942', '2024-10-22 14:03:39', '@', '.', 4, 69, 'Cuesta de la Luz, 2478', '2000-01-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Marín', 'lorena.marin@gmail.com', 'F', '484mmzftjtkR', '+34823083993', '2024-10-07 16:08:51', '@', '.', 8, 15, 'Travesía del Río, 892', '2005-11-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Rubio', 'carlos.rubio@outlook.com', 'F', 'QbVMk6qBFLoi', '+34715235664', '2024-10-07 15:50:37', '@', '.', 17, 49, 'Paseo de los Álamos, 1929', '1976-07-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Delgado', 'laura.delgado@gmail.com', 'M', 'FObdV3szxbjQ', '+34942888079', '2024-10-16 15:23:34', '@', '.', 6, 63, 'Carretera de la Sierra, 350', '1981-01-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Fernández', 'eva.fernandez@gmail.com', 'M', 'ytYzQmCFFXZq', '+34693133388', '2024-11-19 11:19:14', '@', '.', 11, 65, 'Camino Real, 1210', '1978-06-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Vázquez', 'celia.vazquez@gmail.com', 'M', 'KrSBF4w6qtYO', '+34523853367', '2024-08-27 18:51:17', '@', '.', 12, 81, 'Ronda de San Pedro, 170', '1982-03-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'García', 'clara.garcia@hotmail.com', 'N/A', 'ZJatnpkppUNW', '+34680539560', '2024-10-31 13:51:38', '@', '.', 14, 25, 'Avenida de las Estrellas, 2854', '2000-08-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Moreno', 'carmen.moreno@hotmail.com', 'F', '3WmQ2gu0Oym3', '+34142166640', '2024-11-20 12:40:50', '@', '.', 24, 41, 'Ronda de San Pedro, 1951', '1974-12-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Ruiz', 'javier.ruiz@gmail.com', 'N/A', 'RxN8aT6VlMEq', '+34458204031', '2024-09-26 15:37:22', '@', '.', 13, 14, 'Callejón del Gato, 628', '1952-01-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Ruiz', 'jose.ruiz@gmail.com', 'F', 'Fc8bXsPauaZ1', '+34372525961', '2024-10-09 15:45:53', '@', '.', 16, 36, 'Avenida de las Estrellas, 2999', '2005-05-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'López', 'diego.lopez@outlook.com', 'N/A', 'fw1GpOjuVw0Q', '+34166157963', '2024-10-02 12:07:13', '@', '.', 1, 29, 'Carretera de la Sierra, 2683', '2005-08-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Álvarez', 'beatriz.alvarez@hotmail.com', 'N/A', 'eyQcAKzXbSlZ', '+34779399160', '2024-10-17 11:40:01', '@', '.', 23, 9, 'Avenida del Sol, 580', '1977-09-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Rubio', 'antonio.rubio@gmail.com', 'N/A', 'AJjNJF1ftspV', '+34262884678', '2024-08-23 08:25:27', '@', '.', 6, 73, 'Travesía del Río, 2912', '1972-11-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Domínguez', 'marina.dominguez@gmail.com', 'N/A', '6YLR9GRVZZQY', '+34961212969', '2024-10-31 11:19:37', '@', '.', 24, 61, 'Ronda de San Pedro, 84', '1964-03-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Ortega', 'monica.ortega@hotmail.com', 'F', '16qvvMrvx0Pe', '+34050339547', '2024-08-15 14:18:03', '@', '.', 8, 22, 'Rambla del Mar, 1110', '2004-04-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Vázquez', 'luis.vazquez6778@gmail.com', 'N/A', '9gPqlDe8I6Xu', '+34504823096', '2024-10-14 08:13:37', '@', '.', 3, 57, 'Cuesta de la Luz, 3416', '1960-05-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Navarro', 'cristina.navarro@hotmail.com', 'F', '05W5QixHx2Jp', '+34412589315', '2024-12-03 11:42:10', '@', '.', 11, 29, 'Travesía del Río, 959', '1991-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Ruiz', 'maria.ruiz@gmail.com', 'F', 'x4jMhXl5z5M8', '+34342405755', '2024-08-02 11:07:25', '@', '.', 18, 63, 'Callejón del Gato, 3641', '1990-12-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'González', 'gloria.gonzalez@gmail.com', 'M', 'SCv6nZfsoxgR', '+34707101254', '2024-10-15 12:04:02', '@', '.', 24, 95, 'Callejón del Gato, 2190', '1999-03-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Jiménez', 'silvia.jimenez@outlook.com', 'M', 'iOF9LurHjtht', '+34663790875', '2024-09-03 12:51:31', '@', '.', 2, 4, 'Paseo de los Álamos, 1042', '1957-08-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Vázquez', 'fernando.vazquez@hotmail.com', 'F', 'YOFbg5ynDhyV', '+34894072675', '2024-12-06 13:34:17', '@', '.', 6, 60, 'Avenida del Sol, 2449', '1964-12-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Garrido', 'sara.garrido@outlook.com', 'F', '68z9ZnVTdUmY', '+34087944508', '2024-11-11 16:17:25', '@', '.', 7, 66, 'Camino Real, 3532', '1983-12-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Nuñez', 'monica.nunez@hotmail.com', 'F', 'MhZTmI63H5Bm', '+34473912584', '2024-12-05 11:47:33', '@', '.', 18, 9, 'Primavera, 2195', '1990-05-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Muñoz', 'victoria.munoz@outlook.com', 'F', '5m6flSslSBeb', '+34130965881', '2024-10-21 13:58:51', '@', '.', 3, 4, 'Paseo de los Álamos, 1268', '1992-10-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Iglesias', 'marta.iglesias@gmail.com', 'M', 'ieCvVsznuND0', '+34029663023', '2024-10-30 17:30:13', '@', '.', 8, 64, 'Travesía del Río, 2135', '1965-07-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Garrido', 'celia.garrido@outlook.com', 'F', 'bjRocr3XBa4C', '+34146892551', '2024-10-29 13:43:09', '@', '.', 10, 39, 'Avenida del Sol, 2908', '1974-01-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Nuñez', 'julia.nunez@hotmail.com', 'N/A', 'FyYMRlClJ8dd', '+34944377031', '2024-10-30 08:49:08', '@', '.', 21, 34, 'Paseo de los Álamos, 2185', '2002-07-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Ortiz', 'nerea.ortiz@gmail.com', 'M', 'qwHkK0i53yIm', '+34941215686', '2024-10-07 08:59:46', '@', '.', 3, 58, 'Avenida de las Estrellas, 3200', '1998-06-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Ramírez', 'gloria.ramirez@gmail.com', 'N/A', 'Vh9DTQpsAzXq', '+34744087116', '2024-11-26 15:10:56', '@', '.', 24, 61, 'Travesía del Río, 3951', '1974-03-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Torres', 'sofia.torres@outlook.com', 'F', '2LEpua0kZZlY', '+34135106061', '2024-10-24 09:59:37', '@', '.', 24, 46, 'Cuesta de la Luz, 2478', '1986-06-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'López', 'eva.lopez@outlook.com', 'F', '8eGrEIuy5RL9', '+34041683900', '2024-09-05 09:25:02', '@', '.', 12, 54, 'Travesía del Río, 2108', '1972-04-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'González', 'francisco.gonzalez@outlook.com', 'M', 'GhH9IQTcjBkw', '+34816642191', '2024-09-12 09:08:33', '@', '.', 9, 91, 'Primavera, 1583', '1969-01-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Romero', 'beatriz.romero@outlook.com', 'M', '4paV8IchSi5O', '+34093587441', '2024-09-26 10:29:04', '@', '.', 6, 47, 'Rambla del Mar, 1276', '1974-09-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Díaz', 'marina.diaz@hotmail.com', 'N/A', '44SVr8ImCcVQ', '+34867350557', '2024-09-20 16:50:11', '@', '.', 23, 98, 'Paseo de los Álamos, 2939', '2007-10-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Vázquez', 'beatriz.vazquez@hotmail.com', 'M', 'bgbuXYxVciqu', '+34269434210', '2024-11-26 11:39:21', '@', '.', 6, 32, 'Camino Real, 3169', '1981-06-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Rodríguez', 'miriam.rodriguez@outlook.com', 'M', 'Cd5HyvXPwEGq', '+34407662126', '2024-10-29 14:55:39', '@', '.', 1, 64, 'Cuesta de la Luz, 3053', '1989-07-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Gil', 'alberto.gil@hotmail.com', 'N/A', 'mfvGcdfWrs3s', '+34797807720', '2024-10-15 16:50:12', '@', '.', 4, 85, 'Camino Real, 3921', '1996-10-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Ortega', 'fernando.ortega@outlook.com', 'F', 'uAfcvNtoUtwS', '+34590931581', '2024-10-10 09:49:15', '@', '.', 16, 9, 'Paseo de los Álamos, 2609', '1994-04-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Castro', 'pedro.castro@gmail.com', 'F', 'ueFTyIm8MS93', '+34965524809', '2024-10-11 18:14:17', '@', '.', 24, 96, 'Carretera de la Sierra, 1382', '1966-04-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Gutiérrez', 'maria.gutierrez@gmail.com', 'F', 'HvCPvQHPtZVE', '+34730712874', '2024-08-19 13:37:06', '@', '.', 3, 82, 'Avenida de las Estrellas, 2706', '1991-11-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Gómez', 'alberto.gomez@hotmail.com', 'F', 'd5X2lPKUFOON', '+34521593670', '2024-10-14 17:07:19', '@', '.', 4, 1, 'Plaza Mayor, 3879', '1992-07-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Díaz', 'rocio.diaz@outlook.com', 'M', 'obIN1zwaZTOI', '+34205042879', '2024-10-14 08:42:16', '@', '.', 24, 11, 'Avenida del Sol, 1439', '2004-08-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Sanz', 'teresa.sanz@outlook.com', 'M', 'SVBky8eXeSXR', '+34555557522', '2024-11-15 18:05:32', '@', '.', 15, 25, 'Callejón del Gato, 1420', '1977-02-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Gutiérrez', 'jorge.gutierrez@outlook.com', 'N/A', 'vqQ470DYzNsw', '+34874594253', '2024-10-25 11:40:41', '@', '.', 4, 37, 'Callejón del Gato, 395', '1982-04-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Sánchez', 'paula.sanchez@gmail.com', 'N/A', 'oTaddtZJknlN', '+34238484516', '2024-08-14 18:57:17', '@', '.', 22, 88, 'Carretera de la Sierra, 3158', '2006-04-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Ramírez', 'elena.ramirez@outlook.com', 'M', 'wXd24ohURIIG', '+34758507394', '2024-12-09 08:04:50', '@', '.', 4, 11, 'Paseo de los Álamos, 1067', '1972-05-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Muñoz', 'marina.munoz@gmail.com', 'F', '17BKqohkZhCL', '+34842069481', '2024-09-23 12:26:50', '@', '.', 19, 11, 'Carretera de la Sierra, 838', '1957-08-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Medina', 'francisco.medina@outlook.com', 'F', 'd3lavaYaAM3d', '+34635554841', '2024-09-27 14:29:23', '@', '.', 23, 47, 'Avenida de las Estrellas, 1632', '1978-01-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'López', 'jorge.lopez@gmail.com', 'N/A', 'EzF9XtCe3OQc', '+34646997116', '2024-08-06 11:18:34', '@', '.', 24, 60, 'Callejón del Gato, 381', '1967-03-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Blanco', 'lucia.blanco@hotmail.com', 'F', 'WNWBzi3gLEFc', '+34355927875', '2024-10-07 09:24:25', '@', '.', 10, 2, 'Travesía del Río, 1140', '1993-04-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Morales', 'jorge.morales@outlook.com', 'M', 'oMy4FUtHb9Nn', '+34931160378', '2024-10-10 09:08:56', '@', '.', 21, 3, 'Cuesta de la Luz, 763', '1999-03-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Serrano', 'laura.serrano@outlook.com', 'F', '8aAnOiigMsVh', '+34062683412', '2024-10-31 11:42:18', '@', '.', 4, 41, 'Plaza Mayor, 1813', '1998-01-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Morales', 'lucia.morales@hotmail.com', 'N/A', 'NOyTFqctwBgQ', '+34247522325', '2024-08-28 17:49:27', '@', '.', 1, 91, 'Camino Real, 3379', '1965-05-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'García', 'lucia.garcia@gmail.com', 'F', 'ny5tgZ7qaGb7', '+34032002618', '2024-10-07 10:10:33', '@', '.', 1, 78, 'Paseo de los Álamos, 1222', '2008-07-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Gil', 'jorge.gil@hotmail.com', 'M', 'wK1nJkGGCLxr', '+34304529897', '2024-10-24 12:26:55', '@', '.', 6, 10, 'Travesía del Río, 2169', '1959-01-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Vázquez', 'eva.vazquez@outlook.com', 'M', 'ScKBJDENSiHP', '+34781972793', '2024-10-24 13:24:54', '@', '.', 3, 98, 'Avenida del Sol, 476', '1986-12-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Gutiérrez', 'isabel.gutierrez@outlook.com', 'F', 'khmSH3p2rhxf', '+34020629745', '2024-10-01 14:22:26', '@', '.', 24, 98, 'Primavera, 924', '1991-07-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Díaz', 'victoria.diaz@hotmail.com', 'F', '1FMqBjrJNykS', '+34351231149', '2024-10-16 08:30:51', '@', '.', 21, 31, 'Primavera, 3451', '1986-12-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Vázquez', 'irene.vazquez@hotmail.com', 'F', '0kmOlXirHt6k', '+34075587234', '2024-12-02 17:00:36', '@', '.', 19, 50, 'Callejón del Gato, 1951', '1983-02-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Delgado', 'beatriz.delgado@hotmail.com', 'M', 'zV8ba0R56dGq', '+34958178874', '2024-10-28 17:17:21', '@', '.', 2, 67, 'Primavera, 181', '1969-06-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Fernández', 'francisco.fernandez@gmail.com', 'F', 'GJTxmVMXfbPa', '+34002608408', '2024-10-25 08:58:03', '@', '.', 20, 9, 'Rambla del Mar, 1864', '2002-01-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Medina', 'celia.medina@gmail.com', 'N/A', 'kleiljOSR1wa', '+34843336228', '2024-09-24 11:23:05', '@', '.', 21, 76, 'Paseo de los Álamos, 3456', '1998-02-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Sanz', 'teresa.sanz@hotmail.com', 'M', 'spgnN9YUzSGJ', '+34230923698', '2024-08-29 17:33:22', '@', '.', 12, 67, 'Primavera, 3184', '2008-06-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Ortega', 'diego.ortega@hotmail.com', 'N/A', '8GFYpfQStHVE', '+34494557406', '2024-10-29 10:08:06', '@', '.', 13, 76, 'Camino Real, 2104', '1978-03-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Ruiz', 'cristina.ruiz@gmail.com', 'M', 'bHVZX0oIUqPA', '+34622688708', '2024-10-11 14:45:27', '@', '.', 18, 63, 'Avenida de las Estrellas, 836', '1994-03-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Vázquez', 'andrea.vazquez@gmail.com', 'N/A', 'HEpEuL4zGBYs', '+34672338199', '2024-08-08 09:57:46', '@', '.', 24, 96, 'Travesía del Río, 2576', '1977-05-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Ramos', 'nerea.ramos@outlook.com', 'N/A', 'claMsGdnfb4p', '+34290441398', '2024-10-14 16:18:25', '@', '.', 8, 29, 'Plaza Mayor, 2550', '1966-08-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Serrano', 'alberto.serrano@outlook.com', 'M', 'USDnJavGJCrM', '+34483700189', '2024-09-06 18:02:39', '@', '.', 18, 31, 'Plaza Mayor, 1514', '2005-04-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Delgado', 'silvia.delgado@gmail.com', 'N/A', 'VJfbvzUGEPr0', '+34820454956', '2024-08-20 14:18:38', '@', '.', 7, 49, 'Rambla del Mar, 397', '1964-04-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Hernández', 'clara.hernandez@hotmail.com', 'N/A', 'Cn40EwImFaYh', '+34251138406', '2024-10-30 15:44:01', '@', '.', 13, 36, 'Ronda de San Pedro, 774', '1979-01-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Serrano', 'rosa.serrano@gmail.com', 'N/A', 'zCeXAO8FvEiF', '+34447535920', '2024-10-15 11:04:53', '@', '.', 3, 57, 'Avenida de las Estrellas, 2309', '1996-12-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Molina', 'cristina.molina@outlook.com', 'M', 'ej9AuiN39GkB', '+34662957003', '2024-10-03 18:48:26', '@', '.', 6, 55, 'Cuesta de la Luz, 1849', '1993-12-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Jiménez', 'victoria.jimenez@hotmail.com', 'N/A', 'TvHPBjgll8ib', '+34526485348', '2024-08-16 16:54:07', '@', '.', 6, 88, 'Ronda de San Pedro, 692', '1992-02-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Medina', 'miriam.medina@hotmail.com', 'F', '0guMcYPzaeun', '+34886101042', '2024-11-01 08:17:33', '@', '.', 21, 91, 'Carretera de la Sierra, 361', '1976-05-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Navarro', 'celia.navarro@outlook.com', 'F', 'kjSn4FtvU6Ew', '+34527402211', '2024-11-19 13:37:34', '@', '.', 16, 90, 'Plaza Mayor, 77', '2008-03-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'González', 'javier.gonzalez@gmail.com', 'F', 'YnbN9zdsFYvG', '+34204021973', '2024-09-17 17:25:47', '@', '.', 19, 95, 'Cuesta de la Luz, 1573', '1966-09-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Martínez', 'carmen.martinez@gmail.com', 'M', 'kLjyjHjELjxQ', '+34449564719', '2024-09-03 11:09:07', '@', '.', 20, 14, 'Carretera de la Sierra, 2280', '1979-08-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Nuñez', 'francisco.nunez@hotmail.com', 'N/A', 'H0hMUhXkpXLG', '+34368404480', '2024-11-04 13:37:56', '@', '.', 11, 87, 'Primavera, 3624', '1997-03-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Ruiz', 'patricia.ruiz@hotmail.com', 'F', 'u3J2I1L19qU4', '+34871525249', '2024-12-26 16:50:06', '@', '.', 15, 79, 'Plaza Mayor, 528', '1988-02-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Vázquez', 'maria.vazquez@outlook.com', 'M', 'VSXDjTdtmtCH', '+34116206460', '2024-09-23 17:57:32', '@', '.', 3, 27, 'Plaza Mayor, 1494', '1956-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Martínez', 'celia.martinez@gmail.com', 'F', 'S5ug5AuOaD1v', '+34469007781', '2024-10-09 10:18:45', '@', '.', 12, 39, 'Primavera, 1714', '1993-04-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Jiménez', 'sara.jimenez@gmail.com', 'F', 'jW6H57EmdYwi', '+34237026521', '2024-12-02 18:00:27', '@', '.', 2, 52, 'Avenida del Sol, 1043', '2006-05-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Jiménez', 'beatriz.jimenez@hotmail.com', 'F', 'UYQUPTwCa9tp', '+34892761313', '2024-09-27 11:32:26', '@', '.', 18, 81, 'Camino Real, 2106', '1990-01-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Castro', 'carlos.castro@hotmail.com', 'N/A', 'hS2lCaibisSL', '+34115415639', '2024-11-01 12:15:23', '@', '.', 11, 53, 'Callejón del Gato, 2605', '1950-02-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Ortega', 'carlos.ortega@hotmail.com', 'F', 'nZtCTcaOGkMB', '+34281020596', '2024-10-02 16:17:09', '@', '.', 9, 55, 'Camino Real, 3105', '1984-06-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Garrido', 'lorena.garrido@hotmail.com', 'F', 'sDm2gVrO3LzS', '+34199932706', '2024-11-04 13:32:26', '@', '.', 13, 62, 'Plaza Mayor, 989', '1998-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Nuñez', 'elena.nunez@outlook.com', 'N/A', 'c4aUAowje2Fz', '+34866055780', '2024-12-05 10:36:52', '@', '.', 5, 75, 'Plaza Mayor, 2293', '1990-09-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Fernández', 'silvia.fernandez@outlook.com', 'M', 'd6DgM2OSPaOj', '+34893857578', '2024-10-18 16:26:37', '@', '.', 7, 68, 'Carretera de la Sierra, 1449', '1998-06-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Gil', 'teresa.gil@gmail.com', 'N/A', 'khzjkPoM3sy6', '+34866854759', '2024-10-09 14:04:25', '@', '.', 6, 59, 'Plaza Mayor, 1555', '1960-01-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Domínguez', 'natalia.dominguez@hotmail.com', 'M', 'm9Z70ypLAeSz', '+34532611292', '2024-10-15 08:25:35', '@', '.', 19, 87, 'Callejón del Gato, 1888', '2002-07-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Sanz', 'natalia.sanz@hotmail.com', 'N/A', 'BXZ76UF32ZtE', '+34683110963', '2024-10-04 10:03:10', '@', '.', 22, 52, 'Avenida del Sol, 3515', '1963-09-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Ortega', 'juan.ortega@hotmail.com', 'F', 'NZ6bBQ8ZdD38', '+34535285584', '2024-10-31 18:25:54', '@', '.', 18, 68, 'Paseo de los Álamos, 1894', '1994-05-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Navarro', 'rocio.navarro@hotmail.com', 'N/A', 'M67MvxNBvFJP', '+34959787374', '2024-08-26 08:16:54', '@', '.', 2, 50, 'Rambla del Mar, 151', '2005-01-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Díaz', 'jose.diaz@hotmail.com', 'F', '0NHDm3UZgLQP', '+34192562099', '2024-10-25 14:05:09', '@', '.', 13, 10, 'Primavera, 1571', '1979-12-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Fernández', 'maria.fernandez@outlook.com', 'N/A', 'IZ6uaTaorvzQ', '+34606656067', '2024-08-13 11:50:25', '@', '.', 12, 30, 'Cuesta de la Luz, 1440', '1962-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'González', 'elena.gonzalez2007@outlook.com', 'F', 'z3TPGjpi0TUe', '+34469998400', '2024-09-11 13:18:36', '@', '.', 23, 35, 'Avenida del Sol, 521', '1981-08-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Alonso', 'rocio.alonso@gmail.com', 'M', '0TY8LcODXs5D', '+34786318664', '2024-10-11 17:30:34', '@', '.', 23, 42, 'Camino Real, 3724', '2002-03-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Domínguez', 'maria.dominguez2810@hotmail.com', 'N/A', 'f5zQJu2poE9i', '+34721868280', '2024-09-05 10:07:33', '@', '.', 16, 30, 'Callejón del Gato, 1556', '2004-04-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Ortega', 'andrea.ortega@gmail.com', 'F', 'kIMU6rEawT6I', '+34184032645', '2024-11-20 11:30:37', '@', '.', 18, 48, 'Avenida del Sol, 2699', '1956-11-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Muñoz', 'diego.munoz@hotmail.com', 'M', 'd16BagUPT4AC', '+34652556647', '2024-10-02 15:54:41', '@', '.', 16, 41, 'Plaza Mayor, 2779', '1996-04-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Muñoz', 'carlos.munoz@gmail.com', 'M', 'aBO4aZPro9Tr', '+34570594373', '2024-12-31 08:57:37', '@', '.', 7, 6, 'Rambla del Mar, 2956', '1974-05-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Marín', 'silvia.marin@outlook.com', 'M', 'xQUevWtE5ZpD', '+34548866575', '2024-12-19 18:38:21', '@', '.', 20, 40, 'Avenida del Sol, 409', '2008-03-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Ramírez', 'javier.ramirez@gmail.com', 'F', 'VYv5QMOuRzHg', '+34479938086', '2024-12-03 18:13:10', '@', '.', 9, 1, 'Avenida del Sol, 2454', '1952-07-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Sanz', 'eva.sanz@outlook.com', 'N/A', 'lwvE3uwSTb4x', '+34797388179', '2024-10-04 15:28:10', '@', '.', 1, 88, 'Plaza Mayor, 101', '1976-08-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Díaz', 'julia.diaz742@outlook.com', 'N/A', 'X7ZQDVCfR3vM', '+34984686400', '2024-09-19 10:29:34', '@', '.', 9, 58, 'Rambla del Mar, 3778', '1952-01-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Romero', 'miriam.romero@outlook.com', 'M', 'M5drsrDka4jw', '+34447292173', '2024-10-09 11:39:57', '@', '.', 5, 80, 'Paseo de los Álamos, 2561', '1976-06-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Jiménez', 'marina.jimenez@outlook.com', 'N/A', 'DYZWh4tpLpHk', '+34287587855', '2024-10-18 14:37:02', '@', '.', 6, 2, 'Paseo de los Álamos, 1988', '1997-08-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Navarro', 'gloria.navarro@outlook.com', 'M', 'mH9faxI0iSdu', '+34784252892', '2024-09-03 10:24:36', '@', '.', 9, 81, 'Plaza Mayor, 2786', '1978-08-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Morales', 'teresa.morales@gmail.com', 'M', 'e7knV7bMELYE', '+34477633714', '2024-09-13 10:23:36', '@', '.', 13, 79, 'Callejón del Gato, 3868', '1988-10-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Ramírez', 'isabel.ramirez@outlook.com', 'M', 'ufyF54BP3Z6Z', '+34243094393', '2024-11-27 12:50:47', '@', '.', 1, 81, 'Carretera de la Sierra, 3795', '1973-04-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Nuñez', 'alicia.nunez@gmail.com', 'F', 'UeHnelOgVwZZ', '+34424822267', '2024-10-21 15:40:54', '@', '.', 10, 52, 'Avenida del Sol, 2461', '1972-07-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Garrido', 'marina.garrido@hotmail.com', 'F', 'fAUzJffyr3Y5', '+34033999799', '2024-10-09 18:40:17', '@', '.', 14, 17, 'Rambla del Mar, 1462', '1996-08-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Suárez', 'rosa.suarez@gmail.com', 'N/A', 'TTTsIfBjhPGe', '+34720294547', '2024-09-19 14:44:54', '@', '.', 4, 65, 'Paseo de los Álamos, 3182', '1980-01-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Blanco', 'paula.blanco@outlook.com', 'N/A', 'kmgtgTjJ7Yzh', '+34056181127', '2024-10-15 15:05:53', '@', '.', 9, 20, 'Paseo de los Álamos, 3688', '1999-06-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Gutiérrez', 'sara.gutierrez@hotmail.com', 'N/A', 'TCqezzIxRBaB', '+34092838210', '2024-11-29 14:18:11', '@', '.', 6, 21, 'Plaza Mayor, 1213', '2001-12-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Vázquez', 'miriam.vazquez7031@outlook.com', 'N/A', 'ggMJagGD53BC', '+34575201865', '2024-10-29 15:54:43', '@', '.', 4, 31, 'Carretera de la Sierra, 657', '1989-07-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Romero', 'fernando.romero@hotmail.com', 'F', '4NkNHFY7r0Uy', '+34209695703', '2024-11-29 11:43:20', '@', '.', 17, 62, 'Avenida de las Estrellas, 1925', '1966-10-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Pérez', 'rocio.perez@gmail.com', 'N/A', 'soqZJw3kwrvU', '+34570939509', '2024-10-07 17:09:39', '@', '.', 18, 43, 'Ronda de San Pedro, 1924', '2008-09-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Moreno', 'manuel.moreno@outlook.com', 'M', 'I5YHJoSbfcUt', '+34261498100', '2024-08-22 15:57:24', '@', '.', 12, 97, 'Travesía del Río, 1826', '1983-01-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Alonso', 'eva.alonso@gmail.com', 'M', 'oTQyYu82GE8q', '+34661212110', '2024-09-18 09:28:00', '@', '.', 15, 30, 'Travesía del Río, 515', '1963-05-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Romero', 'david.romero@gmail.com', 'F', 'KcJ1gfpUyQSW', '+34315245588', '2024-11-04 13:46:21', '@', '.', 22, 41, 'Ronda de San Pedro, 3867', '1993-10-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Rubio', 'laura.rubio@hotmail.com', 'M', 'lIN1V1s1Dzy9', '+34264079749', '2024-10-23 18:19:29', '@', '.', 17, 24, 'Travesía del Río, 1548', '1998-06-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Castro', 'pablo.castro706@outlook.com', 'N/A', 'x9kOnL63id4E', '+34410846132', '2024-10-11 18:45:47', '@', '.', 11, 42, 'Avenida de las Estrellas, 3920', '1976-11-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Sánchez', 'luis.sanchez@gmail.com', 'N/A', 'S00bWPhVfyFs', '+34152774439', '2024-10-11 08:28:05', '@', '.', 20, 52, 'Carretera de la Sierra, 954', '1960-09-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'López', 'pedro.lopez@gmail.com', 'M', 'Kwrya8pTebbZ', '+34346764516', '2024-10-04 09:58:56', '@', '.', 11, 19, 'Plaza Mayor, 2309', '2008-08-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Torres', 'maria.torres@gmail.com', 'M', 'StQ5oboUzr7N', '+34240045103', '2024-10-14 12:09:08', '@', '.', 10, 38, 'Travesía del Río, 3659', '1998-01-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'López', 'victoria.lopez@outlook.com', 'F', '5npDfo31FUqM', '+34604973838', '2024-10-30 15:00:11', '@', '.', 10, 3, 'Camino Real, 3732', '1976-09-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'González', 'carmen.gonzalez@outlook.com', 'M', 'TfZOt1SYENCs', '+34568232096', '2024-09-30 15:54:16', '@', '.', 9, 10, 'Rambla del Mar, 1871', '1989-03-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Vázquez', 'rocio.vazquez@outlook.com', 'M', 'is84HcIPea7w', '+34707099084', '2024-10-23 09:02:34', '@', '.', 20, 64, 'Avenida de las Estrellas, 1770', '1983-04-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'López', 'pablo.lopez@gmail.com', 'M', 'ClVVBxgT5Uop', '+34189082791', '2024-09-04 14:20:14', '@', '.', 15, 91, 'Carretera de la Sierra, 1450', '1951-04-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Navarro', 'isabel.navarro@hotmail.com', 'M', 'kc1bXCEr0hJ8', '+34110819535', '2024-09-17 11:10:24', '@', '.', 15, 36, 'Avenida del Sol, 3418', '1966-06-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Ramos', 'irene.ramos@gmail.com', 'N/A', '4bucn2nfmQ18', '+34654946398', '2024-10-28 18:43:07', '@', '.', 1, 71, 'Plaza Mayor, 2491', '1975-07-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Gil', 'clara.gil@hotmail.com', 'N/A', 'O8f4Ebnov9fA', '+34558329166', '2024-12-02 08:30:43', '@', '.', 3, 90, 'Avenida de las Estrellas, 883', '1977-10-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Sanz', 'andrea.sanz@hotmail.com', 'F', 'IAdlaAstZ9yO', '+34658995221', '2024-10-04 18:38:33', '@', '.', 9, 19, 'Primavera, 1550', '1963-05-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'García', 'cristina.garcia@gmail.com', 'M', 'OyZUpiiY0uCJ', '+34970150122', '2024-10-07 15:10:50', '@', '.', 8, 68, 'Primavera, 434', '1980-12-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Suárez', 'victoria.suarez@outlook.com', 'N/A', 'Db9jQhqZNqHL', '+34863015820', '2024-10-15 13:59:02', '@', '.', 19, 92, 'Primavera, 2592', '1979-12-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Vázquez', 'fernando.vazquez2075@hotmail.com', 'N/A', 'X5wahpDdWjzH', '+34850811223', '2024-10-03 12:37:42', '@', '.', 9, 97, 'Carretera de la Sierra, 180', '2000-07-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Rubio', 'silvia.rubio@outlook.com', 'M', 'zJkU90b2pssB', '+34939720056', '2024-08-06 15:14:59', '@', '.', 16, 74, 'Paseo de los Álamos, 468', '1962-01-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Torres', 'isabel.torres@outlook.com', 'N/A', 'ndXtuPQSIWta', '+34792029250', '2024-10-17 12:22:23', '@', '.', 7, 34, 'Avenida del Sol, 3276', '2002-05-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Torres', 'ana.torres@gmail.com', 'M', '9rzu6DOmftGS', '+34643805403', '2024-11-11 18:56:51', '@', '.', 6, 18, 'Carretera de la Sierra, 2762', '1994-08-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Gutiérrez', 'fernando.gutierrez@outlook.com', 'F', '6dYRR9ix4gry', '+34215812509', '2024-10-22 09:15:55', '@', '.', 20, 31, 'Cuesta de la Luz, 1519', '1995-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Gutiérrez', 'juan.gutierrez@outlook.com', 'F', 'XJPDOCk9XzE3', '+34333706690', '2024-08-20 08:49:08', '@', '.', 11, 70, 'Callejón del Gato, 1988', '2000-03-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Rodríguez', 'jorge.rodriguez@hotmail.com', 'F', 'SBIUqyEsVTRF', '+34312677217', '2024-10-23 12:17:51', '@', '.', 23, 13, 'Callejón del Gato, 962', '1994-10-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Blanco', 'monica.blanco@outlook.com', 'M', '7fOYYppJ2lUv', '+34950014527', '2024-09-17 17:33:30', '@', '.', 11, 98, 'Carretera de la Sierra, 2140', '2008-07-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Martínez', 'ana.martinez@outlook.com', 'F', '8PpmG6Kfi40N', '+34628334762', '2024-09-27 16:06:43', '@', '.', 19, 40, 'Ronda de San Pedro, 2796', '1959-06-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Navarro', 'alicia.navarro@outlook.com', 'F', 'CxypDTsMaG6L', '+34899870415', '2024-09-19 08:09:42', '@', '.', 17, 31, 'Cuesta de la Luz, 2376', '2002-05-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Serrano', 'pedro.serrano@outlook.com', 'M', 'HUn16g85Nm2I', '+34740224959', '2024-10-10 15:38:40', '@', '.', 19, 35, 'Callejón del Gato, 1787', '2005-02-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Medina', 'david.medina@gmail.com', 'N/A', 'MJllSyBrxX1g', '+34073471018', '2024-11-29 17:01:53', '@', '.', 11, 7, 'Callejón del Gato, 1949', '1992-06-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Iglesias', 'luis.iglesias@gmail.com', 'M', 'DuTTrKaFrDLI', '+34853488319', '2024-12-24 14:56:03', '@', '.', 2, 52, 'Cuesta de la Luz, 2917', '1952-09-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Gutiérrez', 'natalia.gutierrez@outlook.com', 'M', '1lXzm82bVUJK', '+34997624635', '2024-10-15 12:44:29', '@', '.', 23, 40, 'Plaza Mayor, 2917', '1998-04-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Blanco', 'isabel.blanco@gmail.com', 'M', 'oapgeWmaKPnH', '+34280168870', '2024-10-15 12:29:05', '@', '.', 1, 6, 'Cuesta de la Luz, 1008', '1992-04-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Vázquez', 'ana.vazquez8640@gmail.com', 'M', 'YY8tJdkmE2K8', '+34777806000', '2024-10-16 17:29:56', '@', '.', 21, 58, 'Paseo de los Álamos, 680', '1980-10-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Jiménez', 'pablo.jimenez@hotmail.com', 'N/A', 'JtfZGGJOIE6e', '+34721582778', '2024-10-16 12:40:22', '@', '.', 16, 81, 'Avenida del Sol, 1217', '2005-09-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Gómez', 'miguel.gomez1183@outlook.com', 'F', 'wuXFePEDuLmH', '+34788258718', '2024-09-25 11:18:11', '@', '.', 21, 24, 'Primavera, 3645', '1963-11-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Domínguez', 'victoria.dominguez@hotmail.com', 'F', '0moo8RnvKz5w', '+34592464820', '2024-08-07 14:33:14', '@', '.', 7, 78, 'Paseo de los Álamos, 2186', '1961-09-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Pérez', 'silvia.perez@outlook.com', 'N/A', 'X4CArj7ynIOi', '+34766624560', '2024-12-25 16:09:13', '@', '.', 5, 54, 'Rambla del Mar, 1168', '2000-07-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'González', 'sofia.gonzalez@gmail.com', 'N/A', '7DZXnFX0YYBp', '+34846652056', '2024-09-18 11:10:14', '@', '.', 2, 98, 'Primavera, 3045', '1955-08-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Jiménez', 'jose.jimenez@outlook.com', 'M', 'XTGk44tV7sJS', '+34384340588', '2024-10-09 14:28:31', '@', '.', 1, 41, 'Ronda de San Pedro, 3845', '2001-07-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Jiménez', 'fernando.jimenez@hotmail.com', 'M', 'JNVXIONxdVOP', '+34536982081', '2024-10-29 08:26:06', '@', '.', 10, 56, 'Avenida de las Estrellas, 245', '1962-01-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'González', 'beatriz.gonzalez@gmail.com', 'N/A', 'ZOiW3qGxYlu3', '+34023075826', '2024-09-18 08:41:49', '@', '.', 13, 41, 'Travesía del Río, 1702', '1969-02-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Delgado', 'monica.delgado@outlook.com', 'M', 'K7oeVQ74QT4s', '+34397784201', '2024-10-02 16:09:18', '@', '.', 8, 65, 'Avenida de las Estrellas, 508', '2004-07-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Sánchez', 'sofia.sanchez@gmail.com', 'N/A', 'ywFPZSeRp6rP', '+34595975531', '2024-10-01 08:45:25', '@', '.', 23, 30, 'Camino Real, 21', '2004-02-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Sánchez', 'alberto.sanchez@outlook.com', 'F', 'bLGK6WIqg2YD', '+34084839985', '2024-10-07 17:41:01', '@', '.', 22, 90, 'Avenida de las Estrellas, 2223', '1966-07-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Martín', 'maria.martin@gmail.com', 'F', 'yC4QSgDhuvfS', '+34797821605', '2024-10-21 10:19:37', '@', '.', 19, 45, 'Ronda de San Pedro, 2722', '1986-12-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Torres', 'patricia.torres@gmail.com', 'M', 'Haqp6Jh53rTl', '+34770167508', '2024-12-16 17:24:28', '@', '.', 12, 96, 'Cuesta de la Luz, 3404', '1982-11-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Medina', 'antonio.medina@outlook.com', 'M', 'R3pgQRi7eMWc', '+34410795478', '2024-10-11 11:40:00', '@', '.', 9, 92, 'Cuesta de la Luz, 3893', '2007-03-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Ramírez', 'marta.ramirez@hotmail.com', 'M', 'Ey2aQAJSnXLi', '+34083543307', '2024-10-17 10:41:56', '@', '.', 10, 45, 'Ronda de San Pedro, 2881', '1986-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Blanco', 'lucia.blanco6916@hotmail.com', 'M', 'Q6d1aD1Ek4Lr', '+34220114210', '2024-10-23 18:56:15', '@', '.', 4, 32, 'Rambla del Mar, 1568', '1994-09-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Martín', 'carlos.martin@outlook.com', 'F', 'BXxBF99jaLPf', '+34831210323', '2024-10-28 17:31:22', '@', '.', 4, 10, 'Paseo de los Álamos, 3291', '1985-04-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Rodríguez', 'marta.rodriguez@hotmail.com', 'N/A', 'gIMXL6FbmYWn', '+34045664712', '2024-10-25 11:58:48', '@', '.', 14, 46, 'Callejón del Gato, 3306', '1990-08-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'López', 'jorge.lopez1370@gmail.com', 'N/A', 'lIxDBCMebgmI', '+34707950846', '2024-10-16 15:12:11', '@', '.', 5, 42, 'Carretera de la Sierra, 3070', '1971-11-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Pérez', 'alicia.perez@hotmail.com', 'N/A', 'HIijpYhXqBBf', '+34785174666', '2024-10-24 08:10:23', '@', '.', 1, 53, 'Avenida de las Estrellas, 3055', '1960-02-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Ortiz', 'carlos.ortiz@hotmail.com', 'M', '4oSG0VPvHviF', '+34375848947', '2024-10-02 14:10:07', '@', '.', 1, 78, 'Carretera de la Sierra, 2145', '2008-02-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Martín', 'alicia.martin@outlook.com', 'M', 'oDTAFEc8Wu1I', '+34447012612', '2024-11-13 16:57:09', '@', '.', 13, 55, 'Carretera de la Sierra, 1278', '1955-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Marín', 'isabel.marin@gmail.com', 'F', 'kMkCVtdL5Ty4', '+34136535443', '2024-12-26 11:16:55', '@', '.', 2, 12, 'Avenida del Sol, 2011', '1981-02-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Morales', 'gloria.morales@gmail.com', 'N/A', 'RdcST61Fse6C', '+34936998405', '2024-09-13 09:24:14', '@', '.', 15, 41, 'Plaza Mayor, 587', '1964-03-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Vázquez', 'marta.vazquez@gmail.com', 'F', 'EFcAYCmMUaeQ', '+34799558606', '2024-09-11 11:16:23', '@', '.', 22, 77, 'Cuesta de la Luz, 3617', '1957-09-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Pérez', 'celia.perez@gmail.com', 'F', 'pNULLRpXHQ8X', '+34348053305', '2024-10-02 14:56:19', '@', '.', 8, 100, 'Rambla del Mar, 3446', '1972-09-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Romero', 'maria.romero@outlook.com', 'M', 'c7NH2EkePuFe', '+34486083054', '2024-12-27 13:23:04', '@', '.', 13, 62, 'Travesía del Río, 958', '2007-05-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Castro', 'alicia.castro@gmail.com', 'F', 'DrAA0P84hlKw', '+34941969073', '2024-09-11 11:03:38', '@', '.', 5, 80, 'Cuesta de la Luz, 1488', '1983-05-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Gómez', 'carlos.gomez@gmail.com', 'N/A', 'GndulyuXRyev', '+34079693163', '2024-09-26 15:22:29', '@', '.', 5, 21, 'Cuesta de la Luz, 3499', '1986-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Pérez', 'gloria.perez@hotmail.com', 'F', 'XBjoCCmFvmGO', '+34931971706', '2024-08-13 12:37:14', '@', '.', 16, 24, 'Primavera, 2146', '1950-05-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Sanz', 'andrea.sanz@outlook.com', 'N/A', 'AMJgd3P4izru', '+34261980512', '2024-10-22 15:43:48', '@', '.', 21, 65, 'Primavera, 3870', '1992-03-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Ortiz', 'beatriz.ortiz@outlook.com', 'N/A', 'ml08jIbwtLIq', '+34766193171', '2024-10-01 09:50:29', '@', '.', 11, 57, 'Avenida de las Estrellas, 801', '1998-07-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Díaz', 'gloria.diaz@hotmail.com', 'N/A', 'FBDpKAoV5ABw', '+34051515455', '2024-10-02 14:45:39', '@', '.', 13, 33, 'Travesía del Río, 3559', '2005-04-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Hernández', 'monica.hernandez@hotmail.com', 'M', 'gyOnKFKC0DFC', '+34033368416', '2024-08-19 09:10:56', '@', '.', 20, 36, 'Camino Real, 1483', '2006-07-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Hernández', 'beatriz.hernandez@hotmail.com', 'F', 'UxnwVP87nggp', '+34536952236', '2024-09-26 10:44:10', '@', '.', 24, 79, 'Camino Real, 2146', '2000-01-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Sánchez', 'isabel.sanchez@hotmail.com', 'F', 'hUQtGDoueGHs', '+34549879910', '2024-10-07 09:58:15', '@', '.', 5, 48, 'Camino Real, 2369', '2009-03-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Hernández', 'andrea.hernandez@outlook.com', 'N/A', 'RTZeaBuQA46U', '+34864266588', '2024-11-22 13:07:01', '@', '.', 2, 98, 'Avenida del Sol, 1024', '1985-09-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Rodríguez', 'isabel.rodriguez@hotmail.com', 'N/A', 'biP8zmG51Gnc', '+34989070845', '2024-09-23 14:57:09', '@', '.', 14, 10, 'Paseo de los Álamos, 529', '2002-03-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Morales', 'miguel.morales@hotmail.com', 'F', '73YW1jQO2b2q', '+34333837888', '2024-08-14 13:01:55', '@', '.', 22, 19, 'Avenida de las Estrellas, 2367', '1976-10-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Morales', 'eva.morales@outlook.com', 'N/A', 'nYDel9R2fh0P', '+34705274943', '2024-10-23 18:49:21', '@', '.', 18, 64, 'Avenida de las Estrellas, 1487', '1989-08-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Gutiérrez', 'alberto.gutierrez@gmail.com', 'M', '01v0T5khxrmK', '+34880862020', '2024-10-15 18:39:10', '@', '.', 18, 21, 'Callejón del Gato, 3964', '2007-04-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Gutiérrez', 'miguel.gutierrez@hotmail.com', 'N/A', 'gmkY3xL7IIbF', '+34261324865', '2024-10-04 13:50:04', '@', '.', 16, 18, 'Travesía del Río, 1132', '1979-12-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Martínez', 'alberto.martinez@hotmail.com', 'M', 'phECqACWZwlx', '+34597981639', '2024-10-18 17:01:56', '@', '.', 23, 82, 'Avenida de las Estrellas, 3996', '1955-03-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Vázquez', 'david.vazquez@outlook.com', 'F', 'qoGhivue25K3', '+34685318184', '2024-10-17 18:06:28', '@', '.', 23, 71, 'Callejón del Gato, 1667', '1957-04-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Jiménez', 'paula.jimenez@gmail.com', 'F', 'R2C6lCQd3MVb', '+34794517504', '2024-10-29 11:28:58', '@', '.', 10, 16, 'Primavera, 827', '2001-02-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Moreno', 'fernando.moreno@outlook.com', 'M', 'N0G3innjrVuC', '+34158939863', '2024-10-10 09:15:12', '@', '.', 22, 14, 'Cuesta de la Luz, 1477', '2003-04-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Navarro', 'isabel.navarro@outlook.com', 'F', 'ciBXzYORupnL', '+34432375626', '2024-10-30 14:59:25', '@', '.', 24, 51, 'Cuesta de la Luz, 2437', '1979-06-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Ramos', 'celia.ramos5176@outlook.com', 'M', 'vqU8CpwkUMNL', '+34443438278', '2024-12-26 17:39:11', '@', '.', 7, 88, 'Travesía del Río, 2047', '1975-12-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Garrido', 'celia.garrido@hotmail.com', 'M', 'JpHfYcb9gWJW', '+34097829031', '2024-10-16 18:50:16', '@', '.', 1, 39, 'Avenida de las Estrellas, 2620', '1976-07-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Hernández', 'carmen.hernandez@gmail.com', 'N/A', '8xqBosWPa5MU', '+34614769716', '2024-10-08 09:05:55', '@', '.', 1, 1, 'Callejón del Gato, 2545', '1980-09-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Castro', 'elena.castro@gmail.com', 'N/A', '2t0CkkFqxl2K', '+34574355749', '2024-09-27 13:12:14', '@', '.', 23, 96, 'Avenida del Sol, 3202', '2006-03-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Delgado', 'paula.delgado@hotmail.com', 'F', 'NYvKQu3BAfVp', '+34989924204', '2024-10-29 12:03:33', '@', '.', 8, 65, 'Camino Real, 16', '1984-02-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Torres', 'sofia.torres5176@gmail.com', 'N/A', 'JjNqEILyWvLl', '+34628403076', '2024-10-07 16:13:24', '@', '.', 4, 74, 'Primavera, 1882', '1968-02-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Martín', 'marta.martin@outlook.com', 'F', 'qX2rbpoGuPV0', '+34363818760', '2024-10-11 18:53:18', '@', '.', 9, 2, 'Paseo de los Álamos, 3987', '1993-07-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Iglesias', 'fernando.iglesias3581@outlook.com', 'F', 'mHNhxe9boBs8', '+34059530324', '2024-09-09 08:13:15', '@', '.', 2, 84, 'Plaza Mayor, 3490', '1959-11-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Romero', 'clara.romero@outlook.com', 'F', 'SWyT5DkPLyrG', '+34344596015', '2024-10-01 10:34:36', '@', '.', 8, 38, 'Cuesta de la Luz, 2959', '2005-07-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Vázquez', 'paula.vazquez@outlook.com', 'M', 'XdP8MmC9P0hG', '+34529910356', '2024-10-02 16:49:06', '@', '.', 24, 80, 'Callejón del Gato, 911', '1981-06-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Ortiz', 'silvia.ortiz@outlook.com', 'N/A', 'TjW9rcLG7S8Q', '+34249682307', '2024-10-11 10:09:38', '@', '.', 8, 71, 'Avenida del Sol, 811', '1990-09-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Díaz', 'pedro.diaz@outlook.com', 'N/A', 'KuztahN3Rq4i', '+34550400608', '2024-10-28 14:25:51', '@', '.', 17, 80, 'Travesía del Río, 3896', '2004-11-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Rodríguez', 'monica.rodriguez@gmail.com', 'M', 'jrZNh2LTEO9E', '+34422912432', '2024-10-04 08:52:43', '@', '.', 16, 43, 'Ronda de San Pedro, 1771', '1964-09-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'García', 'natalia.garcia@hotmail.com', 'M', 'xQx3wagI9KHw', '+34390040056', '2024-10-16 18:10:16', '@', '.', 24, 16, 'Carretera de la Sierra, 651', '1975-10-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Molina', 'rosa.molina@hotmail.com', 'F', 'T0Nm4G65Qjuh', '+34918888528', '2024-08-01 17:42:40', '@', '.', 9, 78, 'Plaza Mayor, 1309', '1956-08-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Sanz', 'rocio.sanz@hotmail.com', 'M', 'LPnt3anUWc8q', '+34145076237', '2024-10-16 16:28:53', '@', '.', 10, 64, 'Paseo de los Álamos, 1312', '1972-05-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'López', 'isabel.lopez@gmail.com', 'M', 'coDiYHRIUJtu', '+34420292026', '2024-10-29 14:23:08', '@', '.', 8, 98, 'Camino Real, 3095', '1973-07-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Rubio', 'eva.rubio@gmail.com', 'M', 'cooJxbbscX5u', '+34141452306', '2024-11-11 14:06:58', '@', '.', 20, 41, 'Carretera de la Sierra, 2716', '2000-02-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Fernández', 'victoria.fernandez@outlook.com', 'N/A', 'kMVNJP9Z1nfs', '+34166641694', '2024-10-09 18:08:51', '@', '.', 8, 57, 'Carretera de la Sierra, 3377', '2008-11-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Nuñez', 'eva.nunez@outlook.com', 'N/A', 'Ag7nMlX9JUxr', '+34784232066', '2024-10-08 18:22:34', '@', '.', 24, 16, 'Ronda de San Pedro, 613', '1960-11-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Navarro', 'rocio.navarro5924@outlook.com', 'N/A', 'cJ1ONUJMUZ6V', '+34183915206', '2024-10-31 17:45:10', '@', '.', 2, 91, 'Carretera de la Sierra, 187', '1991-03-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Suárez', 'laura.suarez@hotmail.com', 'F', '1ik9VYFfohZp', '+34286204988', '2024-10-28 11:23:01', '@', '.', 1, 33, 'Primavera, 2787', '1987-12-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Domínguez', 'lorena.dominguez@outlook.com', 'F', 'wML4XnIqS8lm', '+34694629352', '2024-09-24 16:15:56', '@', '.', 14, 5, 'Carretera de la Sierra, 1713', '2006-05-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'López', 'lorena.lopez@hotmail.com', 'F', '7kKL5M64kYJc', '+34518655352', '2024-10-08 08:00:02', '@', '.', 4, 55, 'Callejón del Gato, 2464', '1968-07-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'López', 'sara.lopez@hotmail.com', 'N/A', 'cQF8gmng0ve3', '+34955516414', '2024-10-15 16:13:01', '@', '.', 17, 96, 'Avenida del Sol, 3443', '1973-03-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Hernández', 'carmen.hernandez4868@outlook.com', 'N/A', 'jJWvSQfB5Wuk', '+34286559051', '2024-10-15 10:20:48', '@', '.', 9, 56, 'Travesía del Río, 675', '1976-04-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Sanz', 'lorena.sanz@outlook.com', 'M', 'ryGsFuzq9RFl', '+34925458070', '2024-11-06 13:12:15', '@', '.', 15, 17, 'Avenida de las Estrellas, 3481', '1976-04-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Pérez', 'pedro.perez@outlook.com', 'M', 'nOSXVIV0XdbA', '+34442968865', '2024-08-29 11:05:56', '@', '.', 24, 47, 'Travesía del Río, 2410', '1994-11-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Álvarez', 'patricia.alvarez@hotmail.com', 'F', 'bkqXT6gpiRcC', '+34990229436', '2024-09-03 13:34:24', '@', '.', 7, 34, 'Carretera de la Sierra, 2626', '1973-01-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Hernández', 'eva.hernandez@outlook.com', 'M', 'CAOvyfwrMCFS', '+34219238197', '2024-11-04 17:10:07', '@', '.', 2, 75, 'Avenida del Sol, 2979', '1968-08-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Rubio', 'pablo.rubio@outlook.com', 'F', 'kKc6i1Dn1nvJ', '+34200265432', '2024-10-29 09:46:52', '@', '.', 6, 36, 'Plaza Mayor, 220', '1996-03-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Medina', 'patricia.medina@gmail.com', 'N/A', 'vPqsptUrjDTx', '+34031856347', '2024-09-03 11:00:54', '@', '.', 4, 7, 'Cuesta de la Luz, 3126', '1981-05-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Garrido', 'marina.garrido391@outlook.com', 'N/A', 'YNiXcja87C7p', '+34573250140', '2024-11-20 17:00:40', '@', '.', 7, 21, 'Avenida del Sol, 1828', '1993-04-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Medina', 'elena.medina3622@outlook.com', 'M', 'N11UrBe97qaQ', '+34973382759', '2024-10-02 18:40:57', '@', '.', 20, 96, 'Carretera de la Sierra, 1430', '1990-03-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Suárez', 'fernando.suarez@outlook.com', 'M', 'gFbvxvNJIN9U', '+34806754756', '2024-10-01 09:40:57', '@', '.', 8, 72, 'Primavera, 2209', '1986-06-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Sanz', 'celia.sanz1807@outlook.com', 'F', '84nRNwyX44ZE', '+34369631923', '2024-11-13 09:40:30', '@', '.', 4, 58, 'Rambla del Mar, 3479', '2001-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Ruiz', 'maria.ruiz@outlook.com', 'N/A', '2JIDtRJSfyit', '+34418830761', '2024-10-29 16:40:48', '@', '.', 8, 40, 'Carretera de la Sierra, 2809', '2009-10-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Hernández', 'gloria.hernandez@hotmail.com', 'M', 'feP1v1cwODDD', '+34434912889', '2024-09-11 09:03:02', '@', '.', 7, 7, 'Rambla del Mar, 1259', '1964-09-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Gil', 'manuel.gil@outlook.com', 'F', 'eAIQWXAZ10az', '+34250166903', '2024-09-02 10:27:27', '@', '.', 10, 99, 'Paseo de los Álamos, 54', '1991-12-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Pérez', 'alicia.perez@gmail.com', 'N/A', 'CebRennL5avV', '+34851264632', '2024-10-24 11:20:13', '@', '.', 20, 32, 'Travesía del Río, 2171', '1963-01-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Fernández', 'maria.fernandez@gmail.com', 'F', 'TTU0aSqKdCFm', '+34225815236', '2024-10-22 12:43:55', '@', '.', 24, 90, 'Camino Real, 202', '1977-05-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Morales', 'rafael.morales@outlook.com', 'F', 'S076FCDLeXbz', '+34302803464', '2024-09-19 17:45:43', '@', '.', 21, 83, 'Plaza Mayor, 2701', '1981-03-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Nuñez', 'julia.nunez6029@outlook.com', 'M', 'gHigGq4yNbp5', '+34213801145', '2024-10-14 13:12:57', '@', '.', 6, 93, 'Plaza Mayor, 2389', '1951-06-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Domínguez', 'david.dominguez@gmail.com', 'F', 'JRd9NhLbUUsj', '+34670225300', '2024-10-17 12:22:46', '@', '.', 1, 66, 'Avenida del Sol, 45', '1967-04-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Martínez', 'miriam.martinez@outlook.com', 'F', '29jT5qEXDWVY', '+34576115578', '2024-12-10 08:42:01', '@', '.', 14, 97, 'Ronda de San Pedro, 1264', '1981-06-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Álvarez', 'lorena.alvarez9714@gmail.com', 'F', 'h03OtYe3in1Z', '+34146924402', '2024-10-14 11:00:51', '@', '.', 22, 45, 'Ronda de San Pedro, 215', '1984-03-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Martínez', 'carlos.martinez@outlook.com', 'F', 'cyZ8J2gGP3ea', '+34828692155', '2024-09-11 12:03:52', '@', '.', 15, 78, 'Cuesta de la Luz, 48', '1982-05-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Ruiz', 'ana.ruiz@hotmail.com', 'F', 'w9lDMdjViUTc', '+34571495837', '2024-12-02 09:56:07', '@', '.', 24, 7, 'Callejón del Gato, 2651', '1957-03-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Fernández', 'monica.fernandez@hotmail.com', 'F', 'DyLtE3IM3aNh', '+34617912120', '2024-10-30 14:20:25', '@', '.', 15, 27, 'Cuesta de la Luz, 493', '1965-10-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Ramos', 'alberto.ramos@outlook.com', 'N/A', 'fm8utk7mZfdp', '+34554221911', '2024-08-09 13:43:13', '@', '.', 16, 79, 'Primavera, 2894', '1996-06-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Iglesias', 'raquel.iglesias@outlook.com', 'M', 'nnKRpjBjTUfj', '+34848596783', '2024-08-08 16:15:07', '@', '.', 13, 79, 'Camino Real, 522', '1964-10-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Serrano', 'ana.serrano@gmail.com', 'F', 'hlB0vbU6KmhD', '+34291456589', '2024-10-10 15:49:54', '@', '.', 6, 100, 'Camino Real, 1857', '1963-06-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Morales', 'nerea.morales@outlook.com', 'N/A', 'aTCOhD7gFgRa', '+34695718976', '2024-10-02 10:36:59', '@', '.', 2, 33, 'Travesía del Río, 184', '1961-12-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Sánchez', 'carmen.sanchez@gmail.com', 'N/A', '9qVEfyaSkDPP', '+34324051111', '2024-08-12 17:44:17', '@', '.', 21, 71, 'Avenida del Sol, 1095', '1988-03-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Martín', 'elena.martin@gmail.com', 'F', 'fUyknjsdhjcD', '+34743478391', '2024-10-02 08:32:35', '@', '.', 10, 13, 'Travesía del Río, 605', '1956-07-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Iglesias', 'maria.iglesias@hotmail.com', 'F', 'ZoHOevuMyALq', '+34204090354', '2024-09-25 10:09:55', '@', '.', 1, 20, 'Avenida de las Estrellas, 2546', '1999-06-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Delgado', 'javier.delgado@gmail.com', 'N/A', 'F65nFu1uVFb4', '+34109577535', '2024-09-18 14:33:01', '@', '.', 5, 96, 'Travesía del Río, 262', '1963-06-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Rubio', 'nerea.rubio@outlook.com', 'N/A', 'j3WhUKMpZXGm', '+34079603991', '2024-10-28 15:13:05', '@', '.', 12, 18, 'Avenida del Sol, 3124', '1980-12-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Gómez', 'victoria.gomez@gmail.com', 'F', 'rRVqvaRp4tx2', '+34583539829', '2024-09-09 15:20:34', '@', '.', 11, 50, 'Ronda de San Pedro, 623', '1961-12-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Sánchez', 'luis.sanchez@hotmail.com', 'N/A', 'c9FHq5KUH0Ze', '+34579178358', '2024-09-25 15:40:45', '@', '.', 11, 47, 'Primavera, 3089', '1987-03-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Sánchez', 'cristina.sanchez@outlook.com', 'F', 'fGwhdUNtOo0o', '+34154026505', '2024-12-02 14:01:12', '@', '.', 24, 29, 'Travesía del Río, 1306', '1970-07-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Serrano', 'antonio.serrano@hotmail.com', 'M', 'C7vC9XBknr7g', '+34966449843', '2024-10-08 10:11:38', '@', '.', 3, 57, 'Paseo de los Álamos, 413', '1983-12-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Rodríguez', 'victoria.rodriguez@outlook.com', 'M', '9Z8wtK61uVcX', '+34813756012', '2024-12-18 16:31:16', '@', '.', 1, 25, 'Avenida del Sol, 3705', '1983-04-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Morales', 'irene.morales@outlook.com', 'F', 'zt6JrlViwE34', '+34389218205', '2024-10-11 18:21:01', '@', '.', 6, 81, 'Camino Real, 3468', '1974-06-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Ruiz', 'carlos.ruiz@gmail.com', 'F', 'C0TIddj3mWzy', '+34111774991', '2024-10-04 18:22:40', '@', '.', 9, 22, 'Callejón del Gato, 992', '2003-11-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Martínez', 'silvia.martinez@gmail.com', 'F', 'MjMDWTrhdtLX', '+34784730361', '2024-09-20 13:39:12', '@', '.', 13, 58, 'Camino Real, 3352', '1978-07-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Blanco', 'sara.blanco@outlook.com', 'M', 'Omt0YMK1SDW0', '+34184837112', '2024-10-17 08:13:31', '@', '.', 4, 98, 'Primavera, 1258', '1956-08-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Gil', 'sara.gil9244@gmail.com', 'F', 'UMmYoCNT1rPn', '+34356714930', '2024-12-04 15:58:12', '@', '.', 6, 95, 'Travesía del Río, 1872', '1953-08-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Marín', 'fernando.marin@hotmail.com', 'F', '8C5RP1mNh991', '+34180990136', '2024-09-23 15:42:24', '@', '.', 22, 57, 'Rambla del Mar, 1058', '1986-04-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Molina', 'clara.molina@hotmail.com', 'F', '9bC8cgJ4DYKT', '+34475337631', '2024-09-30 12:44:20', '@', '.', 14, 23, 'Plaza Mayor, 2392', '2007-10-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Ramos', 'teresa.ramos@gmail.com', 'F', 'UtsNwwHZXyjA', '+34946852028', '2024-11-28 17:13:01', '@', '.', 20, 41, 'Avenida de las Estrellas, 3653', '1965-03-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Marín', 'natalia.marin@gmail.com', 'F', 'rqS6m7QwS2uw', '+34095084735', '2024-09-27 17:20:14', '@', '.', 7, 61, 'Paseo de los Álamos, 3219', '1997-12-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Gutiérrez', 'gloria.gutierrez@gmail.com', 'F', 'mx2n3ft6RUc2', '+34556863458', '2024-10-25 09:20:40', '@', '.', 16, 74, 'Primavera, 704', '1976-06-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Rubio', 'manuel.rubio@outlook.com', 'F', 'ydZeyAgMYj6b', '+34272087088', '2024-10-16 14:33:45', '@', '.', 10, 68, 'Travesía del Río, 2637', '1966-01-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Morales', 'diego.morales@outlook.com', 'M', 'Zp6ukTG0eEr7', '+34786870974', '2024-08-30 12:33:16', '@', '.', 1, 37, 'Avenida del Sol, 374', '1962-04-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Blanco', 'rocio.blanco@gmail.com', 'F', 'vQAgW3rfFhVA', '+34208160871', '2024-11-12 10:56:24', '@', '.', 5, 34, 'Camino Real, 2517', '2000-02-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Sanz', 'luis.sanz@gmail.com', 'F', '9uhGj66Ktb4F', '+34769324042', '2024-12-09 09:36:04', '@', '.', 5, 47, 'Callejón del Gato, 260', '1988-10-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Delgado', 'lorena.delgado@gmail.com', 'N/A', '7aoGBanYcp9o', '+34697519490', '2024-10-01 13:28:32', '@', '.', 14, 98, 'Callejón del Gato, 2443', '1957-05-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Álvarez', 'javier.alvarez@outlook.com', 'F', 'EopkRD9436os', '+34196296596', '2024-10-29 08:58:59', '@', '.', 1, 38, 'Cuesta de la Luz, 1048', '1988-05-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Medina', 'lucia.medina@gmail.com', 'F', 'mI2Ts67fsUlv', '+34776702751', '2024-10-10 08:49:22', '@', '.', 24, 93, 'Camino Real, 3422', '1990-06-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Hernández', 'rocio.hernandez@gmail.com', 'M', 'aATUSZJrL8t9', '+34048003579', '2024-10-28 18:11:42', '@', '.', 11, 8, 'Paseo de los Álamos, 3499', '1990-01-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'González', 'pablo.gonzalez@gmail.com', 'N/A', '7PzGXknRv5V4', '+34992819869', '2024-11-20 17:23:04', '@', '.', 21, 45, 'Camino Real, 2068', '1980-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Vázquez', 'beatriz.vazquez@outlook.com', 'N/A', 'GTjZr548Lwdo', '+34463256900', '2024-10-24 10:00:15', '@', '.', 19, 5, 'Plaza Mayor, 3490', '1990-01-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Rodríguez', 'isabel.rodriguez@outlook.com', 'N/A', 'bqceXK4SJkQ6', '+34929175572', '2024-10-03 12:47:34', '@', '.', 16, 55, 'Primavera, 1870', '1966-01-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Vázquez', 'alicia.vazquez@outlook.com', 'N/A', 'Eg1MulaQ5FZR', '+34338704187', '2024-10-16 12:49:51', '@', '.', 20, 80, 'Avenida de las Estrellas, 2665', '1983-10-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Nuñez', 'alberto.nunez@outlook.com', 'F', 'MW3Jtx5Cy04O', '+34295512312', '2024-09-24 10:27:53', '@', '.', 17, 59, 'Camino Real, 3005', '1977-01-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Iglesias', 'fernando.iglesias@gmail.com', 'N/A', 'EwM4mYPRi7Zr', '+34070333679', '2024-11-12 18:48:20', '@', '.', 15, 81, 'Callejón del Gato, 3084', '1952-01-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Ruiz', 'ana.ruiz@gmail.com', 'M', '8efvvRu58mNe', '+34085984044', '2024-09-03 08:25:48', '@', '.', 10, 97, 'Camino Real, 1733', '1959-10-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Torres', 'antonio.torres@hotmail.com', 'F', 'pH3zAN1XGZ8u', '+34137333055', '2024-10-07 17:07:07', '@', '.', 2, 27, 'Travesía del Río, 3667', '1967-09-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Ramos', 'nerea.ramos@hotmail.com', 'F', 'iNNMh2K6vuz1', '+34043871895', '2024-09-10 15:19:36', '@', '.', 23, 8, 'Travesía del Río, 2429', '1991-09-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Navarro', 'clara.navarro@gmail.com', 'N/A', 'br5hjJRCJYYx', '+34820064339', '2024-08-20 08:56:36', '@', '.', 13, 47, 'Carretera de la Sierra, 3339', '1963-12-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Martínez', 'carlos.martinez5837@outlook.com', 'N/A', 'lUnUfjJI4YSE', '+34379378428', '2024-09-17 10:54:54', '@', '.', 1, 32, 'Travesía del Río, 3588', '1961-04-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Navarro', 'clara.navarro@outlook.com', 'N/A', 'vVa0a1fwCRAK', '+34811060480', '2024-08-02 18:23:29', '@', '.', 3, 28, 'Carretera de la Sierra, 3412', '2000-02-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Torres', 'diego.torres@outlook.com', 'N/A', 'xx0Em9U9Lm41', '+34933338128', '2024-09-17 15:43:38', '@', '.', 4, 83, 'Avenida del Sol, 2892', '1955-02-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Domínguez', 'rocio.dominguez@hotmail.com', 'N/A', 'DHl1eZUnjK9g', '+34431156750', '2024-11-26 08:14:02', '@', '.', 19, 48, 'Avenida del Sol, 2849', '1950-03-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Gómez', 'david.gomez@hotmail.com', 'F', 'tYSavnKnAWim', '+34194228848', '2024-09-09 15:15:46', '@', '.', 21, 15, 'Carretera de la Sierra, 2024', '1969-12-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Molina', 'pedro.molina@outlook.com', 'M', 'MGVu375kDnl2', '+34145025004', '2024-08-30 14:17:51', '@', '.', 16, 27, 'Ronda de San Pedro, 2452', '1962-01-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Moreno', 'paula.moreno@outlook.com', 'F', 'vsLM3qn5dw9d', '+34784084469', '2024-12-03 09:11:59', '@', '.', 6, 17, 'Callejón del Gato, 876', '1993-06-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Ortega', 'miriam.ortega@outlook.com', 'F', '4kWy5Lziycsv', '+34681199526', '2024-10-07 15:24:12', '@', '.', 22, 14, 'Callejón del Gato, 2046', '1976-02-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Moreno', 'javier.moreno@hotmail.com', 'N/A', 'sfIxW0IWHEcS', '+34114879760', '2024-09-27 13:47:01', '@', '.', 24, 82, 'Camino Real, 1387', '1955-06-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Torres', 'lorena.torres@outlook.com', 'N/A', 'ep2J5QSzIUTU', '+34879783106', '2024-11-05 17:25:13', '@', '.', 5, 72, 'Cuesta de la Luz, 94', '1989-11-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'López', 'isabel.lopez@outlook.com', 'M', '03T9aD9e0vU1', '+34563353748', '2024-09-19 10:01:24', '@', '.', 15, 9, 'Rambla del Mar, 497', '1978-03-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Ramírez', 'miguel.ramirez@hotmail.com', 'N/A', 'c6AB6HhnFwwG', '+34992539225', '2024-09-05 10:02:25', '@', '.', 16, 67, 'Ronda de San Pedro, 3377', '1959-01-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Hernández', 'rosa.hernandez@gmail.com', 'F', 'nMt1rI3kYgUB', '+34723822220', '2024-11-07 16:35:19', '@', '.', 17, 89, 'Camino Real, 3506', '1960-10-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Morales', 'raquel.morales@hotmail.com', 'N/A', 'p7vSwPxG1oHS', '+34597182838', '2024-10-25 16:10:35', '@', '.', 4, 13, 'Cuesta de la Luz, 3086', '1984-02-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Marín', 'irene.marin@gmail.com', 'F', 'CA79r4qkqtTv', '+34546479799', '2024-09-24 08:22:44', '@', '.', 5, 52, 'Plaza Mayor, 1663', '1963-06-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Gil', 'teresa.gil6392@gmail.com', 'N/A', '0yZAvpLPxm4Y', '+34687542232', '2024-10-02 09:59:35', '@', '.', 19, 100, 'Avenida del Sol, 380', '1990-08-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Medina', 'miriam.medina@gmail.com', 'N/A', 'kQT6K8C5KFTn', '+34499044190', '2024-10-29 14:09:17', '@', '.', 7, 71, 'Rambla del Mar, 1680', '2009-07-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Rodríguez', 'luis.rodriguez@hotmail.com', 'N/A', 'Tmg8fpvHuXw3', '+34097869049', '2024-09-19 13:00:23', '@', '.', 14, 24, 'Cuesta de la Luz, 2331', '1985-06-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'García', 'david.garcia@outlook.com', 'N/A', 'rVepcqlG7Rjm', '+34327074348', '2024-12-04 15:41:37', '@', '.', 7, 74, 'Cuesta de la Luz, 951', '1954-04-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Torres', 'raquel.torres@hotmail.com', 'M', '9REvhxwwNfbV', '+34684594400', '2024-10-24 13:15:56', '@', '.', 4, 82, 'Paseo de los Álamos, 2780', '1957-01-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Ramos', 'cristina.ramos@gmail.com', 'M', '2Mw2HJzipQiY', '+34127216220', '2024-09-12 18:11:25', '@', '.', 9, 68, 'Cuesta de la Luz, 3126', '1967-06-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Rubio', 'beatriz.rubio@gmail.com', 'F', 'e02yKPpnmgxJ', '+34746214897', '2024-10-02 14:07:49', '@', '.', 16, 100, 'Paseo de los Álamos, 3011', '1957-04-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Rubio', 'marta.rubio@hotmail.com', 'M', 'o53AYVa7mvVS', '+34370573179', '2024-10-01 18:53:25', '@', '.', 16, 89, 'Callejón del Gato, 2624', '1962-07-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Castro', 'irene.castro@hotmail.com', 'F', 'x17aC3bX1cH1', '+34048907680', '2024-09-19 08:20:48', '@', '.', 15, 62, 'Paseo de los Álamos, 52', '1986-02-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Delgado', 'paula.delgado@gmail.com', 'M', 'eOF3lvdrFZDl', '+34996636768', '2024-10-30 11:43:46', '@', '.', 1, 15, 'Primavera, 3368', '1981-08-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Ortiz', 'clara.ortiz@hotmail.com', 'N/A', '5O5KBJNVx6cu', '+34621622986', '2024-10-08 10:38:02', '@', '.', 3, 69, 'Paseo de los Álamos, 1378', '1958-01-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Ruiz', 'marta.ruiz@gmail.com', 'M', 'slzeYBkNtWnU', '+34999439390', '2024-10-31 14:10:12', '@', '.', 18, 62, 'Primavera, 2776', '1952-03-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Iglesias', 'pedro.iglesias@hotmail.com', 'N/A', 'zKBn5lD10rvV', '+34113189363', '2024-08-02 15:49:34', '@', '.', 2, 62, 'Avenida del Sol, 1756', '1973-08-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Castro', 'carlos.castro@gmail.com', 'N/A', 'ZicObpBZRgZ6', '+34381265174', '2024-10-18 11:26:58', '@', '.', 24, 17, 'Callejón del Gato, 2352', '1997-04-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Suárez', 'ana.suarez@outlook.com', 'N/A', 'HtYTZQd248iK', '+34222116308', '2024-10-09 09:31:51', '@', '.', 19, 10, 'Rambla del Mar, 3864', '2008-05-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Serrano', 'paula.serrano@outlook.com', 'F', 'LANm3wySdbku', '+34162582458', '2024-10-21 11:08:09', '@', '.', 1, 71, 'Ronda de San Pedro, 1876', '1971-09-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Domínguez', 'ana.dominguez4800@hotmail.com', 'N/A', '52waLlxCDIm0', '+34816227823', '2024-11-18 09:23:10', '@', '.', 11, 57, 'Avenida de las Estrellas, 3000', '1960-02-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Fernández', 'carlos.fernandez@outlook.com', 'F', '7Z5X3l2PvEe1', '+34413681587', '2024-10-15 12:56:20', '@', '.', 18, 51, 'Paseo de los Álamos, 2637', '1952-04-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Rubio', 'maria.rubio@hotmail.com', 'N/A', 'WRhHGRqJ7bnX', '+34478895708', '2024-08-20 17:10:46', '@', '.', 4, 98, 'Carretera de la Sierra, 1989', '1993-04-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Ramírez', 'teresa.ramirez@hotmail.com', 'F', 'zqI8RMGUS0hB', '+34561120143', '2024-10-04 17:24:18', '@', '.', 10, 26, 'Cuesta de la Luz, 2231', '1999-09-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Delgado', 'sofia.delgado@outlook.com', 'F', 'o2k42Tk0MoZD', '+34265039287', '2024-09-02 13:52:03', '@', '.', 2, 93, 'Primavera, 2422', '1964-01-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Sánchez', 'rocio.sanchez@hotmail.com', 'N/A', 'RjEef0uE3yc2', '+34783721464', '2024-11-01 12:40:12', '@', '.', 6, 17, 'Camino Real, 1582', '1990-02-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Moreno', 'eva.moreno@hotmail.com', 'M', 'LtiA5oTMqvUS', '+34178074131', '2024-12-30 16:43:41', '@', '.', 24, 17, 'Callejón del Gato, 353', '1989-10-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Domínguez', 'gloria.dominguez@outlook.com', 'F', 'h8Xf5BAGuWL4', '+34398366736', '2024-10-30 10:35:08', '@', '.', 13, 62, 'Avenida de las Estrellas, 2278', '1960-08-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Suárez', 'maria.suarez@outlook.com', 'F', 'dj4pDKVb7INI', '+34029143387', '2024-11-19 14:58:38', '@', '.', 23, 52, 'Camino Real, 3020', '1961-08-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Martínez', 'raquel.martinez@gmail.com', 'M', 'HYeucD1a5cE3', '+34217230020', '2024-10-04 12:46:13', '@', '.', 7, 17, 'Carretera de la Sierra, 1215', '2008-12-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Gómez', 'clara.gomez@hotmail.com', 'N/A', 'MWnOWh7uMquT', '+34730164556', '2024-08-08 10:11:29', '@', '.', 9, 28, 'Travesía del Río, 3822', '1991-06-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Rubio', 'irene.rubio@outlook.com', 'M', 'a4yJlgOzhuhy', '+34683419501', '2024-10-11 17:06:47', '@', '.', 1, 66, 'Avenida del Sol, 3028', '1986-06-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Hernández', 'raquel.hernandez@hotmail.com', 'M', 'sL8i3XVleahi', '+34178139953', '2024-10-07 15:27:04', '@', '.', 14, 2, 'Travesía del Río, 2696', '1965-10-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Moreno', 'lorena.moreno@outlook.com', 'N/A', 'N85WXQLeu3cn', '+34342784426', '2024-10-24 17:29:36', '@', '.', 15, 65, 'Cuesta de la Luz, 598', '1975-04-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Torres', 'carlos.torres@hotmail.com', 'M', 'WPbzU4ogc4VG', '+34087568388', '2024-09-13 16:03:24', '@', '.', 7, 2, 'Avenida del Sol, 631', '1960-03-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Iglesias', 'celia.iglesias@gmail.com', 'N/A', 'bV25OzfCVDrt', '+34161968936', '2024-12-30 09:32:11', '@', '.', 4, 71, 'Callejón del Gato, 1016', '1991-03-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Delgado', 'marina.delgado@gmail.com', 'N/A', 'Wvflh1O1HRFd', '+34360119711', '2024-09-18 14:33:48', '@', '.', 4, 7, 'Ronda de San Pedro, 3140', '1998-02-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'González', 'clara.gonzalez@outlook.com', 'F', 'XPRCxQW4pgtU', '+34481237038', '2024-10-30 16:51:18', '@', '.', 9, 6, 'Paseo de los Álamos, 3409', '1984-07-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'García', 'eva.garcia@hotmail.com', 'N/A', 'A4j3BG6USTR4', '+34151291875', '2024-09-27 12:29:46', '@', '.', 13, 72, 'Plaza Mayor, 3614', '1956-02-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Muñoz', 'luis.munoz@gmail.com', 'F', 'mnOYK4QUTGTs', '+34665187637', '2024-12-10 12:26:23', '@', '.', 18, 2, 'Ronda de San Pedro, 124', '1981-09-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Ramos', 'cristina.ramos@outlook.com', 'F', '9sOuGvg62UOp', '+34588054139', '2024-09-03 16:57:51', '@', '.', 11, 45, 'Avenida de las Estrellas, 2681', '1999-09-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Pérez', 'clara.perez@hotmail.com', 'N/A', 'TIsBUqiN5JE3', '+34935516235', '2024-10-31 14:19:47', '@', '.', 1, 92, 'Travesía del Río, 3552', '2004-12-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Molina', 'david.molina1731@gmail.com', 'N/A', 'f321eVeh5JOd', '+34248543575', '2024-10-15 09:21:55', '@', '.', 8, 19, 'Camino Real, 1777', '1970-07-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Medina', 'sofia.medina@hotmail.com', 'N/A', 'qLkwJDTCHh1b', '+34705423873', '2024-10-17 14:31:04', '@', '.', 2, 8, 'Paseo de los Álamos, 874', '1987-05-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'García', 'clara.garcia@outlook.com', 'M', 'KuzKHZwsNItj', '+34900438184', '2024-10-29 17:10:51', '@', '.', 22, 64, 'Cuesta de la Luz, 1891', '1955-04-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Fernández', 'isabel.fernandez@gmail.com', 'N/A', '7fQI3CV0ouFY', '+34386567439', '2024-10-01 12:26:50', '@', '.', 23, 73, 'Ronda de San Pedro, 3018', '1953-11-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Gómez', 'irene.gomez@outlook.com', 'F', 'HwIoSIwivGMQ', '+34081995363', '2024-11-13 10:32:46', '@', '.', 9, 79, 'Ronda de San Pedro, 1371', '2009-11-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Fernández', 'david.fernandez2609@outlook.com', 'M', 'c71IoJSGbhYP', '+34994456014', '2024-10-18 10:36:10', '@', '.', 5, 55, 'Avenida de las Estrellas, 58', '2002-01-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Navarro', 'javier.navarro@gmail.com', 'M', '4ZgTOoNKsvjT', '+34315999718', '2024-10-11 08:43:15', '@', '.', 11, 4, 'Rambla del Mar, 2338', '2002-12-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Suárez', 'pedro.suarez@outlook.com', 'N/A', 'BntbrOsRnLN1', '+34063714330', '2024-12-23 16:29:56', '@', '.', 2, 96, 'Travesía del Río, 1148', '1952-11-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Jiménez', 'elena.jimenez@gmail.com', 'F', 'urv6oKczERhE', '+34109404838', '2024-10-09 08:11:50', '@', '.', 21, 61, 'Paseo de los Álamos, 1477', '1984-09-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'López', 'marta.lopez@hotmail.com', 'F', 'PrCE69r9zt71', '+34719403283', '2024-09-10 13:34:00', '@', '.', 8, 32, 'Callejón del Gato, 3218', '1970-07-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Ortega', 'lucia.ortega@outlook.com', 'N/A', 'SoAIPgRXRlnm', '+34763435131', '2024-10-02 09:51:16', '@', '.', 23, 52, 'Avenida del Sol, 2552', '1992-04-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Nuñez', 'rafael.nunez@hotmail.com', 'F', 'eJjv5S7ZDLtg', '+34474746687', '2024-10-09 11:08:24', '@', '.', 23, 55, 'Ronda de San Pedro, 470', '1966-04-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Muñoz', 'manuel.munoz@outlook.com', 'N/A', 'jXhP5ukQj4e8', '+34850689533', '2024-08-02 17:59:30', '@', '.', 18, 26, 'Plaza Mayor, 1555', '1991-07-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Ortega', 'irene.ortega@outlook.com', 'N/A', 'fRljMg4CFUnx', '+34962531534', '2024-12-31 14:08:58', '@', '.', 24, 79, 'Camino Real, 3937', '2009-09-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Muñoz', 'javier.munoz@hotmail.com', 'N/A', 'mo7dUs8h2xPi', '+34005629381', '2024-10-02 13:10:49', '@', '.', 6, 77, 'Avenida del Sol, 3813', '2004-02-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Gil', 'javier.gil@gmail.com', 'F', 'xdiJagNU75dg', '+34837622853', '2024-10-02 18:48:18', '@', '.', 20, 15, 'Camino Real, 1452', '1972-11-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Jiménez', 'natalia.jimenez@outlook.com', 'F', '9z40erkTYcJV', '+34176790872', '2024-09-27 09:29:09', '@', '.', 20, 85, 'Carretera de la Sierra, 2673', '1987-05-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Morales', 'sara.morales@hotmail.com', 'M', '9teerkcQEt7g', '+34939996973', '2024-10-24 09:55:43', '@', '.', 1, 65, 'Rambla del Mar, 129', '1989-04-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Domínguez', 'andrea.dominguez@hotmail.com', 'F', 'di2gTwtoReIW', '+34680254956', '2024-09-11 08:50:21', '@', '.', 7, 12, 'Primavera, 3237', '1965-07-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'García', 'david.garcia9518@gmail.com', 'M', '1ljNp0UYZ9EC', '+34117222066', '2024-09-18 15:36:03', '@', '.', 16, 20, 'Paseo de los Álamos, 2628', '2007-01-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Serrano', 'manuel.serrano@outlook.com', 'M', 'UCDGYYFKF7yV', '+34595959907', '2024-08-15 18:04:40', '@', '.', 7, 25, 'Avenida del Sol, 346', '2004-06-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Torres', 'laura.torres@hotmail.com', 'N/A', '7hUMCP4C6u6G', '+34954457410', '2024-08-13 14:27:12', '@', '.', 7, 81, 'Plaza Mayor, 274', '1986-02-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'González', 'gloria.gonzalez5719@hotmail.com', 'M', '3KimFNv9ZmS4', '+34915190946', '2024-10-30 14:31:59', '@', '.', 6, 99, 'Travesía del Río, 3892', '1972-02-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Vázquez', 'carmen.vazquez@hotmail.com', 'N/A', '3ys3R6NlaFM8', '+34814614095', '2024-10-25 14:59:56', '@', '.', 5, 22, 'Plaza Mayor, 2035', '1982-07-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Navarro', 'maria.navarro@hotmail.com', 'M', 'AjjPnykMMXU4', '+34476662044', '2024-10-15 16:51:43', '@', '.', 6, 89, 'Plaza Mayor, 2304', '1971-07-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Jiménez', 'patricia.jimenez@outlook.com', 'M', 'u4Oaa1l7gYuu', '+34068685470', '2024-08-29 18:14:36', '@', '.', 1, 18, 'Callejón del Gato, 125', '1962-02-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Díaz', 'rafael.diaz@outlook.com', 'F', 'cR1Ke91yvAkn', '+34557667486', '2024-09-17 10:46:30', '@', '.', 11, 12, 'Camino Real, 1080', '1956-08-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Gil', 'laura.gil8357@outlook.com', 'N/A', 'DAuhVIRGTjVU', '+34857771194', '2024-08-26 09:51:39', '@', '.', 18, 95, 'Primavera, 989', '1953-11-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Navarro', 'rosa.navarro@hotmail.com', 'N/A', 'f3XbIh3HKjTS', '+34512024015', '2024-12-16 12:33:18', '@', '.', 7, 53, 'Carretera de la Sierra, 3473', '1999-03-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Martín', 'silvia.martin@gmail.com', 'F', 'QXETZ0iarFaV', '+34122332496', '2024-10-31 12:52:04', '@', '.', 11, 84, 'Callejón del Gato, 3695', '2005-05-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Rubio', 'andrea.rubio@outlook.com', 'M', 'VQFnVaMfmikQ', '+34321033728', '2024-10-07 12:02:01', '@', '.', 14, 87, 'Ronda de San Pedro, 2271', '1995-04-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Molina', 'maria.molina@gmail.com', 'M', 'SywiqYYCFSQu', '+34208365608', '2024-11-14 11:24:54', '@', '.', 18, 13, 'Avenida del Sol, 3444', '1952-11-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Romero', 'jose.romero@outlook.com', 'M', 'UMH9N7fYwzFI', '+34054464180', '2024-10-17 15:15:39', '@', '.', 6, 82, 'Camino Real, 3077', '1977-12-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Ortiz', 'fernando.ortiz@hotmail.com', 'N/A', 'FkG7awvYwTt6', '+34587491901', '2024-11-12 17:56:12', '@', '.', 19, 38, 'Carretera de la Sierra, 3243', '1964-11-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Serrano', 'raquel.serrano@outlook.com', 'F', 'AndKjZqR690o', '+34329417063', '2024-10-30 10:35:13', '@', '.', 3, 50, 'Cuesta de la Luz, 551', '2002-06-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'López', 'eva.lopez@gmail.com', 'N/A', 'chXVqv0lus8L', '+34647086244', '2024-10-17 11:40:17', '@', '.', 20, 76, 'Ronda de San Pedro, 2231', '1998-05-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Díaz', 'ana.diaz@hotmail.com', 'F', 'BXS6j3q5FUea', '+34100245836', '2024-10-28 18:41:20', '@', '.', 12, 39, 'Rambla del Mar, 3269', '1968-11-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'López', 'cristina.lopez@outlook.com', 'F', 'w470tKltdfVs', '+34187357819', '2024-11-15 17:36:45', '@', '.', 8, 94, 'Rambla del Mar, 342', '1964-09-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Rodríguez', 'teresa.rodriguez@gmail.com', 'N/A', 'uBhGnyOVoDVx', '+34120870993', '2024-11-08 12:25:06', '@', '.', 14, 91, 'Travesía del Río, 1794', '1975-12-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'García', 'francisco.garcia@outlook.com', 'M', 'WdGUgjv59TZ4', '+34284025925', '2024-11-28 16:15:45', '@', '.', 15, 20, 'Primavera, 2749', '1962-12-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Martínez', 'monica.martinez@hotmail.com', 'M', 'EOaWPE6WmeIJ', '+34387575010', '2024-09-20 12:52:15', '@', '.', 13, 100, 'Rambla del Mar, 3041', '1966-05-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Romero', 'alberto.romero@hotmail.com', 'F', 'IrOZb386Ms7s', '+34749947275', '2024-10-22 08:59:02', '@', '.', 12, 80, 'Cuesta de la Luz, 1501', '1998-01-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Molina', 'carlos.molina@hotmail.com', 'M', 'LVhJXfqNmvSc', '+34753564766', '2024-10-30 16:26:41', '@', '.', 2, 32, 'Plaza Mayor, 2363', '1964-11-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Moreno', 'ana.moreno@gmail.com', 'N/A', 'qrcEkVxA5eOm', '+34016398494', '2024-12-27 14:18:50', '@', '.', 8, 68, 'Plaza Mayor, 2233', '2006-12-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Sanz', 'alicia.sanz@gmail.com', 'F', 'wE2OW698AeyP', '+34297915277', '2024-10-15 13:05:45', '@', '.', 3, 76, 'Carretera de la Sierra, 2038', '1977-02-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Medina', 'luis.medina@outlook.com', 'F', 'bpz2cyCOrXLm', '+34533634288', '2024-10-11 17:18:11', '@', '.', 8, 54, 'Callejón del Gato, 3892', '1989-07-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Garrido', 'laura.garrido@outlook.com', 'N/A', '4GK5rXzP6W3b', '+34128956922', '2024-10-16 18:09:08', '@', '.', 16, 36, 'Paseo de los Álamos, 2897', '1969-09-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Suárez', 'francisco.suarez@gmail.com', 'M', 'jGBtwnLO2o6j', '+34815649386', '2024-10-25 10:43:19', '@', '.', 11, 23, 'Callejón del Gato, 1973', '1978-03-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Javier', 'Garrido', 'javier.garrido@outlook.com', 'M', 'mFpFMVJsHyrt', '+34733393998', '2024-10-18 08:22:39', '@', '.', 8, 35, 'Callejón del Gato, 1123', '1991-10-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Sanz', 'juan.sanz@outlook.com', 'F', 'FoJyfFUyCuIy', '+34939952924', '2024-10-15 17:01:56', '@', '.', 15, 71, 'Paseo de los Álamos, 1067', '1974-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Serrano', 'isabel.serrano@hotmail.com', 'N/A', 'OOIDYxt9J6No', '+34291967306', '2024-10-17 13:17:56', '@', '.', 4, 46, 'Avenida de las Estrellas, 2434', '1967-02-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'López', 'victoria.lopez@gmail.com', 'N/A', 'jGDGQzIuHMSl', '+34619539559', '2024-10-15 13:04:38', '@', '.', 23, 82, 'Travesía del Río, 1217', '1986-10-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Medina', 'miguel.medina4413@gmail.com', 'M', 'a6Jld3YUh67I', '+34520862587', '2024-08-07 16:47:55', '@', '.', 12, 64, 'Avenida del Sol, 1148', '1985-12-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Serrano', 'celia.serrano@outlook.com', 'F', 'zV0m7p1KH8PE', '+34621541247', '2024-12-24 14:46:51', '@', '.', 19, 66, 'Cuesta de la Luz, 386', '1951-03-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Serrano', 'raquel.serrano8748@outlook.com', 'N/A', '5E0Q9b5DIvvS', '+34592480717', '2024-10-23 09:06:14', '@', '.', 7, 13, 'Avenida de las Estrellas, 3347', '1977-11-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Rodríguez', 'patricia.rodriguez@hotmail.com', 'N/A', 'MXTAhDQMBdyl', '+34621812605', '2024-09-06 13:26:12', '@', '.', 22, 14, 'Travesía del Río, 751', '1960-12-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Martínez', 'pablo.martinez@outlook.com', 'F', 'HmkdS1CsbmDT', '+34131322423', '2024-10-01 10:05:47', '@', '.', 22, 31, 'Paseo de los Álamos, 1920', '1977-03-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Vázquez', 'manuel.vazquez@outlook.com', 'F', 'MjgnwspBjNLf', '+34693415233', '2024-10-24 11:42:34', '@', '.', 3, 47, 'Callejón del Gato, 880', '1974-03-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Molina', 'alberto.molina@outlook.com', 'F', 'wxyKd0tJg2sv', '+34320559665', '2024-10-25 14:08:01', '@', '.', 7, 38, 'Carretera de la Sierra, 3408', '1987-01-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Pérez', 'jorge.perez@outlook.com', 'N/A', '2Zt3s6lSm3Xg', '+34115472285', '2024-09-20 10:39:17', '@', '.', 7, 5, 'Plaza Mayor, 2631', '1970-08-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Díaz', 'luis.diaz@gmail.com', 'M', '09hK038WpE3F', '+34998162064', '2024-12-26 15:14:21', '@', '.', 12, 6, 'Travesía del Río, 3792', '1957-08-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Ramos', 'carlos.ramos@gmail.com', 'N/A', 'g5sOBjQseN6V', '+34585027874', '2024-10-25 14:43:34', '@', '.', 21, 81, 'Cuesta de la Luz, 2860', '2009-08-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'López', 'lorena.lopez7836@gmail.com', 'F', 'm9nSb3IjYEwW', '+34441476422', '2024-10-04 16:28:22', '@', '.', 3, 79, 'Avenida de las Estrellas, 2825', '1956-10-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Sánchez', 'clara.sanchez@hotmail.com', 'M', 'DI2ykpYmz9So', '+34945559715', '2024-08-27 17:26:14', '@', '.', 21, 2, 'Camino Real, 3457', '2001-01-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Alonso', 'alicia.alonso@outlook.com', 'M', 'gdc2kBP7C3Yl', '+34491691406', '2024-09-24 18:16:09', '@', '.', 22, 24, 'Camino Real, 3119', '1984-03-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Gil', 'monica.gil@outlook.com', 'M', 'ZW0uuaaJIgqR', '+34573219906', '2024-10-23 15:29:05', '@', '.', 15, 39, 'Paseo de los Álamos, 159', '1990-05-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'López', 'teresa.lopez@outlook.com', 'M', 'P0Lgh8rLBx51', '+34383479735', '2024-12-31 15:25:04', '@', '.', 12, 69, 'Callejón del Gato, 1491', '1994-06-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Díaz', 'natalia.diaz@outlook.com', 'F', 'fbRwXEs9H55a', '+34918526096', '2024-10-11 11:17:12', '@', '.', 6, 69, 'Cuesta de la Luz, 947', '1979-12-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Iglesias', 'ana.iglesias@outlook.com', 'M', 'bSyGhC2WSiqd', '+34735979757', '2024-09-30 16:21:55', '@', '.', 24, 93, 'Carretera de la Sierra, 2200', '1978-04-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Medina', 'monica.medina@hotmail.com', 'N/A', 'DEfRHZPsEppD', '+34293228552', '2024-10-08 17:27:51', '@', '.', 11, 26, 'Plaza Mayor, 3843', '1991-07-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Alonso', 'isabel.alonso@hotmail.com', 'F', 'ZOWX4zqNhV7O', '+34487624171', '2024-12-31 17:13:00', '@', '.', 9, 3, 'Primavera, 1364', '1996-05-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Molina', 'rafael.molina@gmail.com', 'N/A', 'rxWAfsxhAq4m', '+34483074288', '2024-10-14 15:57:30', '@', '.', 5, 58, 'Plaza Mayor, 1452', '1969-12-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Blanco', 'carmen.blanco@hotmail.com', 'N/A', 'WHDiTo04PvLt', '+34367734083', '2024-10-24 09:25:57', '@', '.', 17, 71, 'Carretera de la Sierra, 2210', '1989-09-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Martínez', 'julia.martinez@hotmail.com', 'M', 'VwSz3ee9JRKJ', '+34364674030', '2024-11-22 11:12:47', '@', '.', 12, 4, 'Camino Real, 3016', '2007-09-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'González', 'marina.gonzalez@gmail.com', 'M', 'DtFVxdP5ohw2', '+34398918064', '2024-10-28 18:45:31', '@', '.', 6, 89, 'Camino Real, 707', '1987-02-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Garrido', 'lorena.garrido4010@gmail.com', 'N/A', 'dw7HUJ0UW374', '+34712015884', '2024-10-09 12:04:34', '@', '.', 1, 81, 'Avenida de las Estrellas, 3848', '1960-11-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Marín', 'rocio.marin@outlook.com', 'N/A', 'NJX42eSzhw3A', '+34659614782', '2024-10-28 17:56:40', '@', '.', 11, 73, 'Cuesta de la Luz, 2767', '1981-10-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Álvarez', 'sara.alvarez@hotmail.com', 'N/A', 'mufLsd1fQQAi', '+34820547427', '2024-12-30 15:05:14', '@', '.', 3, 69, 'Travesía del Río, 1757', '1998-03-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Domínguez', 'julia.dominguez@outlook.com', 'F', 'xOvmzXovTZio', '+34188074512', '2024-09-25 16:15:52', '@', '.', 12, 10, 'Avenida de las Estrellas, 1821', '1950-06-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Serrano', 'silvia.serrano@hotmail.com', 'M', 'vmNDII17Hl5J', '+34024648568', '2024-12-13 11:16:40', '@', '.', 5, 100, 'Rambla del Mar, 2276', '1982-11-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Garrido', 'juan.garrido@outlook.com', 'N/A', 'bn1DPf0kHwEr', '+34960146356', '2024-10-02 11:38:10', '@', '.', 12, 25, 'Travesía del Río, 1186', '1981-07-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Nuñez', 'lucia.nunez@hotmail.com', 'M', 'dPXXLCF5JGHG', '+34994168740', '2024-10-03 17:03:01', '@', '.', 4, 99, 'Primavera, 3908', '1979-03-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Domínguez', 'pedro.dominguez@outlook.com', 'F', 'ZHu9bd425Pws', '+34693573063', '2024-10-01 18:49:25', '@', '.', 15, 41, 'Carretera de la Sierra, 120', '1972-11-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Martínez', 'elena.martinez@gmail.com', 'M', '3ktwsOWC2LCT', '+34820072057', '2024-09-11 11:19:19', '@', '.', 8, 65, 'Avenida del Sol, 3511', '1994-02-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Ortiz', 'andrea.ortiz@hotmail.com', 'F', 'PsfCRMTlyruA', '+34701435092', '2024-09-19 18:13:02', '@', '.', 22, 77, 'Camino Real, 2008', '2003-01-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Pérez', 'david.perez@hotmail.com', 'F', 'RY5RnTCTmgb9', '+34343880556', '2024-10-29 08:44:52', '@', '.', 1, 12, 'Plaza Mayor, 3182', '1952-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Navarro', 'david.navarro@hotmail.com', 'N/A', 'aPlzqC8gG0JQ', '+34678033548', '2024-12-20 11:08:16', '@', '.', 22, 77, 'Callejón del Gato, 2717', '1985-11-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Vázquez', 'rafael.vazquez@hotmail.com', 'F', 'PrF5PvjQU3xj', '+34101781924', '2024-12-31 16:54:42', '@', '.', 10, 81, 'Callejón del Gato, 661', '1985-11-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Domínguez', 'natalia.dominguez@outlook.com', 'N/A', '6tNf8EeyW6r1', '+34142276762', '2024-11-25 12:59:16', '@', '.', 9, 7, 'Avenida del Sol, 528', '1999-04-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Sanz', 'monica.sanz@hotmail.com', 'M', 'NPcYFsXDMPk6', '+34827097790', '2024-10-30 09:56:37', '@', '.', 17, 26, 'Avenida del Sol, 1562', '1962-02-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Rodríguez', 'rocio.rodriguez@gmail.com', 'F', 'gWq0ixY3LrGB', '+34778164520', '2024-10-16 17:13:30', '@', '.', 22, 51, 'Avenida del Sol, 2443', '1988-05-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Pérez', 'pablo.perez@gmail.com', 'M', '3TTMNqQXSEck', '+34455165883', '2024-10-09 14:06:11', '@', '.', 8, 59, 'Travesía del Río, 2427', '1954-05-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Garrido', 'jorge.garrido@gmail.com', 'N/A', 'ybrclNmWXZR4', '+34631850199', '2024-10-04 16:38:47', '@', '.', 10, 11, 'Rambla del Mar, 3739', '1991-06-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Navarro', 'paula.navarro@hotmail.com', 'M', 'eeQxNynucjkw', '+34562286361', '2024-10-14 16:36:23', '@', '.', 13, 97, 'Primavera, 2990', '1980-08-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Castro', 'carmen.castro@outlook.com', 'M', 'fGnwPvyCtPTy', '+34220619039', '2024-10-02 14:04:19', '@', '.', 23, 14, 'Avenida de las Estrellas, 3839', '2000-10-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Delgado', 'carmen.delgado@gmail.com', 'N/A', 'OPQaLZldTgGk', '+34505871576', '2024-10-09 12:50:58', '@', '.', 13, 73, 'Plaza Mayor, 893', '1964-08-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Sanz', 'sara.sanz@gmail.com', 'M', 'eZxU4kmSPOJR', '+34258746473', '2024-08-30 15:31:50', '@', '.', 13, 1, 'Avenida del Sol, 808', '1973-10-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Torres', 'sofia.torres@hotmail.com', 'M', 'XdUDHf4QyBMs', '+34865027067', '2024-09-18 18:36:10', '@', '.', 23, 54, 'Ronda de San Pedro, 117', '1986-05-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Pérez', 'miguel.perez@hotmail.com', 'F', 'mBVrVxb1rTPQ', '+34629391942', '2024-10-03 11:58:55', '@', '.', 11, 92, 'Cuesta de la Luz, 495', '1964-08-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Moreno', 'jose.moreno@hotmail.com', 'F', 'uU7PNZNVPwsN', '+34852328906', '2024-10-02 14:27:37', '@', '.', 4, 17, 'Cuesta de la Luz, 1753', '1955-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Ramos', 'maria.ramos7217@outlook.com', 'F', 'boDxcL7HbOae', '+34906985059', '2024-10-28 13:49:26', '@', '.', 5, 12, 'Paseo de los Álamos, 3135', '2006-10-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Delgado', 'alberto.delgado@outlook.com', 'F', 'vh1p67KsvIwU', '+34341683525', '2024-10-21 16:29:54', '@', '.', 12, 72, 'Cuesta de la Luz, 1249', '1960-06-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Vázquez', 'rafael.vazquez@outlook.com', 'F', 'M09EAinKFzSv', '+34950619457', '2024-10-14 10:31:28', '@', '.', 16, 29, 'Callejón del Gato, 2155', '2001-05-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Ramos', 'miguel.ramos@hotmail.com', 'N/A', 'c4dQPhK1TBsl', '+34321606935', '2024-09-23 13:15:43', '@', '.', 9, 100, 'Rambla del Mar, 1606', '1973-04-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Domínguez', 'lucia.dominguez@outlook.com', 'F', 'GmsUefAjhJuW', '+34664799161', '2024-09-13 09:52:40', '@', '.', 9, 21, 'Ronda de San Pedro, 1908', '1991-01-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Moreno', 'victoria.moreno@gmail.com', 'N/A', '1Vd6UY7OmL6b', '+34674985695', '2024-10-21 10:14:45', '@', '.', 6, 39, 'Plaza Mayor, 573', '1957-10-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Serrano', 'rafael.serrano@outlook.com', 'F', 'nAxeT4d243Vj', '+34000673860', '2024-10-21 08:59:45', '@', '.', 20, 52, 'Travesía del Río, 3496', '1985-03-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Ramos', 'laura.ramos@gmail.com', 'N/A', 'LILINQETGKH6', '+34512665867', '2024-10-22 10:48:02', '@', '.', 1, 3, 'Carretera de la Sierra, 981', '1971-02-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Ramírez', 'gloria.ramirez@hotmail.com', 'N/A', 'rGxuY5wVhSIz', '+34207005815', '2024-09-26 15:46:09', '@', '.', 9, 15, 'Camino Real, 551', '1994-01-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Nuñez', 'celia.nunez@gmail.com', 'M', 'UDKzVhUR89cW', '+34057007584', '2024-10-31 12:44:14', '@', '.', 6, 2, 'Avenida de las Estrellas, 1009', '1968-12-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Castro', 'cristina.castro@outlook.com', 'M', 'GRU6O7ZaYBHw', '+34876542768', '2024-09-19 14:17:27', '@', '.', 13, 13, 'Carretera de la Sierra, 1177', '1960-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'López', 'pedro.lopez@hotmail.com', 'F', 'JRAyPVgIchFT', '+34597479666', '2024-09-30 10:41:46', '@', '.', 21, 80, 'Plaza Mayor, 3139', '1950-04-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Hernández', 'paula.hernandez@outlook.com', 'M', 'abruTycTxPLa', '+34040565243', '2024-09-13 10:09:16', '@', '.', 19, 94, 'Primavera, 1922', '2006-11-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Moreno', 'andrea.moreno4209@gmail.com', 'F', 'HHEVKfANpgCT', '+34951195662', '2024-12-17 13:41:42', '@', '.', 2, 69, 'Rambla del Mar, 405', '1953-10-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Torres', 'silvia.torres@hotmail.com', 'M', 'BKNAcQxzgVQ9', '+34301192536', '2024-11-28 16:47:22', '@', '.', 21, 1, 'Avenida de las Estrellas, 1022', '1959-11-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('José', 'Ortiz', 'jose.ortiz@hotmail.com', 'M', 'fQ0wHGnXDTqw', '+34017132585', '2024-12-04 16:20:24', '@', '.', 21, 44, 'Plaza Mayor, 3022', '1956-03-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Ramírez', 'miriam.ramirez@gmail.com', 'F', 'tFJBJURHa7Jd', '+34698326101', '2024-08-15 12:41:31', '@', '.', 16, 89, 'Camino Real, 754', '1977-06-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Iglesias', 'raquel.iglesias@gmail.com', 'F', 'VHUHMB7YW8C7', '+34628272572', '2024-09-26 08:17:13', '@', '.', 20, 90, 'Paseo de los Álamos, 1463', '1962-11-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Morales', 'monica.morales@hotmail.com', 'N/A', '8yUHSTuP4HSB', '+34152338691', '2024-10-02 14:15:16', '@', '.', 11, 35, 'Paseo de los Álamos, 3300', '2004-05-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Ramírez', 'raquel.ramirez@outlook.com', 'F', 'i3UXfVs5nuLq', '+34074057518', '2024-09-03 12:36:17', '@', '.', 1, 94, 'Avenida de las Estrellas, 2773', '2002-12-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Torres', 'elena.torres@hotmail.com', 'N/A', 'RC3n5g7hNAgC', '+34011344442', '2024-10-07 17:51:00', '@', '.', 21, 82, 'Rambla del Mar, 1830', '1966-11-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Morales', 'victoria.morales@gmail.com', 'N/A', 'gI0eEQCOdjHa', '+34093207506', '2024-10-22 16:23:18', '@', '.', 13, 37, 'Avenida del Sol, 18', '1970-09-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'García', 'fernando.garcia@gmail.com', 'F', 'mE9LJCOss7iX', '+34006106108', '2024-12-25 16:29:10', '@', '.', 23, 5, 'Carretera de la Sierra, 1034', '1985-05-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Romero', 'raquel.romero@gmail.com', 'F', 'CZp2tL5FywaL', '+34086456340', '2024-10-29 13:34:10', '@', '.', 20, 22, 'Travesía del Río, 2069', '1985-09-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Blanco', 'laura.blanco@outlook.com', 'N/A', 'sWXWv5MZeyjk', '+34266790331', '2024-10-22 18:23:25', '@', '.', 17, 97, 'Travesía del Río, 1905', '1965-07-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Ramos', 'isabel.ramos@gmail.com', 'F', 'aCqVSyehq6T3', '+34795887933', '2024-10-01 16:49:02', '@', '.', 17, 98, 'Avenida del Sol, 3578', '1969-04-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Muñoz', 'beatriz.munoz@hotmail.com', 'N/A', 'y0M3Ej2UviWK', '+34010478284', '2024-09-17 13:37:13', '@', '.', 22, 82, 'Camino Real, 3424', '1980-09-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Gil', 'lorena.gil@outlook.com', 'M', 'xhlUjWAbYGv2', '+34322147355', '2024-10-23 15:29:50', '@', '.', 13, 85, 'Callejón del Gato, 2111', '1966-06-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Fernández', 'francisco.fernandez@hotmail.com', 'N/A', 'wm5CRFTroHQv', '+34489149389', '2024-12-04 14:45:38', '@', '.', 13, 63, 'Callejón del Gato, 1167', '1950-03-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Castro', 'jorge.castro@gmail.com', 'N/A', 'aZKpeoZYKoPA', '+34508795266', '2024-10-17 08:41:18', '@', '.', 7, 85, 'Cuesta de la Luz, 2193', '1975-11-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Alonso', 'marta.alonso@hotmail.com', 'F', 'qeaCCr1VRvFi', '+34303169052', '2024-10-29 13:15:57', '@', '.', 18, 54, 'Avenida de las Estrellas, 3755', '1976-01-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Sánchez', 'teresa.sanchez@gmail.com', 'M', 'pwoL2BTzjiib', '+34698152241', '2024-09-04 15:36:33', '@', '.', 15, 46, 'Plaza Mayor, 2841', '1961-07-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Gutiérrez', 'juan.gutierrez@hotmail.com', 'N/A', '1absCwO4jOKD', '+34564413613', '2024-08-28 09:19:09', '@', '.', 1, 23, 'Avenida de las Estrellas, 3506', '1969-06-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Vázquez', 'lucia.vazquez@gmail.com', 'F', 'GGAtBnXS1paC', '+34243433659', '2024-09-16 11:08:13', '@', '.', 17, 74, 'Rambla del Mar, 2662', '2002-05-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Ortega', 'isabel.ortega@outlook.com', 'F', '2iCqlnRuhPAR', '+34231766496', '2024-10-30 14:21:51', '@', '.', 1, 83, 'Avenida de las Estrellas, 17', '1955-10-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Gutiérrez', 'victoria.gutierrez@outlook.com', 'M', 'Lam8Y2NsQNaD', '+34264505396', '2024-09-27 10:30:46', '@', '.', 4, 71, 'Plaza Mayor, 1201', '1952-02-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Garrido', 'monica.garrido@outlook.com', 'N/A', 'Uc0on6ylE8mU', '+34654067132', '2024-10-15 11:13:09', '@', '.', 13, 95, 'Paseo de los Álamos, 716', '1954-05-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Díaz', 'alberto.diaz@hotmail.com', 'M', '67FuOlpj9jT6', '+34280034783', '2024-11-19 10:10:21', '@', '.', 9, 42, 'Cuesta de la Luz, 3084', '1950-11-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Morales', 'juan.morales@outlook.com', 'M', 'NFigANgvqjHM', '+34240705965', '2024-08-05 10:30:47', '@', '.', 21, 33, 'Ronda de San Pedro, 2110', '1965-08-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Martínez', 'miguel.martinez@gmail.com', 'M', 'z2WeljBGRp8K', '+34653496339', '2024-12-25 12:18:35', '@', '.', 19, 19, 'Travesía del Río, 3549', '1986-01-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'López', 'carmen.lopez@hotmail.com', 'M', '9uqNrbwAFCC0', '+34221583473', '2024-09-12 13:41:45', '@', '.', 6, 57, 'Primavera, 3118', '1979-09-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Hernández', 'marina.hernandez@hotmail.com', 'M', 't84bH8cRC9Gj', '+34158864458', '2024-08-08 18:06:15', '@', '.', 9, 79, 'Paseo de los Álamos, 2920', '1954-04-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Ruiz', 'monica.ruiz@hotmail.com', 'F', '40DLqBFowaFr', '+34182291887', '2024-08-23 08:04:40', '@', '.', 11, 55, 'Camino Real, 660', '1967-09-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Delgado', 'rosa.delgado@outlook.com', 'F', 'gS38vutHYU8w', '+34830996184', '2024-10-08 18:37:20', '@', '.', 15, 97, 'Callejón del Gato, 1114', '2009-05-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Pérez', 'cristina.perez@hotmail.com', 'N/A', 'ePDBshx92TEA', '+34863230005', '2024-09-26 08:45:55', '@', '.', 11, 51, 'Ronda de San Pedro, 483', '1951-01-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Rodríguez', 'manuel.rodriguez@gmail.com', 'N/A', 'zAEOhkd8hKD0', '+34424053237', '2024-10-08 18:54:08', '@', '.', 17, 28, 'Travesía del Río, 1968', '1974-03-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Ramos', 'eva.ramos@gmail.com', 'M', 'qGCBi5b8YkBT', '+34234800367', '2024-08-09 15:56:54', '@', '.', 3, 65, 'Avenida del Sol, 598', '2009-11-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Moreno', 'cristina.moreno@gmail.com', 'M', 'dQ9dMh6Qpvcy', '+34207227347', '2024-10-18 16:53:55', '@', '.', 15, 19, 'Primavera, 1280', '1969-12-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Gil', 'jorge.gil@gmail.com', 'M', 'IR9YhiyTRR0P', '+34887506573', '2024-10-10 12:12:13', '@', '.', 1, 92, 'Ronda de San Pedro, 2408', '1997-11-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Ana', 'Moreno', 'ana.moreno@hotmail.com', 'F', 'z2J6IBZ4yT7C', '+34814592449', '2024-10-15 16:18:50', '@', '.', 17, 60, 'Avenida del Sol, 3525', '2004-07-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Romero', 'monica.romero@hotmail.com', 'F', 'nNzZCbxBY2ST', '+34943797254', '2024-08-20 17:59:48', '@', '.', 12, 2, 'Plaza Mayor, 416', '1971-02-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Iglesias', 'alicia.iglesias@outlook.com', 'F', 'CyuiHyNT9wQ1', '+34417229923', '2024-09-18 11:26:36', '@', '.', 10, 74, 'Plaza Mayor, 1757', '1954-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Hernández', 'marta.hernandez@outlook.com', 'N/A', 'm6YVWgkoLt7L', '+34211928955', '2024-10-07 16:17:36', '@', '.', 10, 63, 'Callejón del Gato, 2197', '1960-09-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Sanz', 'pedro.sanz@outlook.com', 'M', 'bpYivVJbDtiA', '+34106959979', '2024-08-23 13:54:39', '@', '.', 18, 25, 'Paseo de los Álamos, 1426', '2008-06-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Hernández', 'alberto.hernandez@gmail.com', 'M', 'AvhuAE36LL0L', '+34864805141', '2024-12-03 15:25:27', '@', '.', 4, 46, 'Callejón del Gato, 2441', '1999-07-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Navarro', 'diego.navarro@hotmail.com', 'F', 'JGMZaJzhZxYc', '+34856501315', '2024-10-10 15:55:57', '@', '.', 19, 100, 'Avenida de las Estrellas, 1330', '2009-01-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Serrano', 'gloria.serrano@outlook.com', 'M', 'Iwv52RfWOAYK', '+34413405393', '2024-10-07 10:13:33', '@', '.', 11, 61, 'Avenida del Sol, 3811', '1950-10-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Gutiérrez', 'andrea.gutierrez@hotmail.com', 'N/A', '6A6a5aIhGdnI', '+34811534874', '2024-09-04 17:08:42', '@', '.', 4, 87, 'Camino Real, 810', '1958-02-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Muñoz', 'gloria.munoz@gmail.com', 'N/A', 'A2lOZlw8xesc', '+34993775342', '2024-08-22 18:52:41', '@', '.', 15, 15, 'Rambla del Mar, 1000', '2002-03-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'García', 'antonio.garcia@outlook.com', 'F', '47EkQSgG720q', '+34086988732', '2024-12-31 13:50:20', '@', '.', 2, 58, 'Cuesta de la Luz, 965', '1993-09-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Ortiz', 'carlos.ortiz9238@gmail.com', 'N/A', 'TZvrwyXx5GNA', '+34333324738', '2024-10-03 14:10:45', '@', '.', 15, 68, 'Plaza Mayor, 184', '1978-08-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Martín', 'francisco.martin@gmail.com', 'M', 'bAe43aXi95uj', '+34419429077', '2024-10-15 15:18:07', '@', '.', 15, 27, 'Paseo de los Álamos, 1316', '1981-06-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Nuñez', 'andrea.nunez@outlook.com', 'F', '2u8JdQUecxAI', '+34458934454', '2024-10-01 14:16:53', '@', '.', 9, 47, 'Rambla del Mar, 431', '1992-12-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Ortiz', 'clara.ortiz5514@hotmail.com', 'F', 'jmzeOk9pV8Zi', '+34977518064', '2024-12-23 13:47:00', '@', '.', 22, 60, 'Primavera, 711', '1980-09-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Hernández', 'victoria.hernandez@gmail.com', 'N/A', 'Auiefq98whqX', '+34050864242', '2024-10-29 12:54:50', '@', '.', 24, 45, 'Callejón del Gato, 2292', '1953-08-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Domínguez', 'eva.dominguez@hotmail.com', 'N/A', 'WtHmgp2HkmvZ', '+34507819031', '2024-09-06 14:35:23', '@', '.', 5, 55, 'Cuesta de la Luz, 901', '1997-11-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Muñoz', 'natalia.munoz@outlook.com', 'F', 'bMoic1Kv10hK', '+34785463755', '2024-10-24 12:30:54', '@', '.', 10, 60, 'Ronda de San Pedro, 545', '1995-08-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Navarro', 'carmen.navarro@outlook.com', 'N/A', 'eVofrvArrIwe', '+34315271965', '2024-08-14 08:26:43', '@', '.', 24, 87, 'Plaza Mayor, 1611', '1992-05-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Garrido', 'lorena.garrido@gmail.com', 'N/A', 'nW1e8p5rXyjY', '+34585456600', '2024-09-24 10:01:16', '@', '.', 10, 62, 'Avenida de las Estrellas, 662', '2004-12-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Morales', 'francisco.morales@hotmail.com', 'N/A', 'UzkC9Zlzi5sg', '+34512924687', '2024-10-11 14:12:43', '@', '.', 21, 77, 'Cuesta de la Luz, 2526', '1994-03-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Ramírez', 'monica.ramirez@gmail.com', 'N/A', 'OoCokCu40qOE', '+34360837434', '2024-10-02 16:06:23', '@', '.', 23, 90, 'Carretera de la Sierra, 3456', '2007-10-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Gómez', 'jorge.gomez@gmail.com', 'M', '5zhk6MfyeYai', '+34860769254', '2024-08-22 14:26:22', '@', '.', 13, 82, 'Avenida de las Estrellas, 606', '1998-04-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Vázquez', 'nerea.vazquez@outlook.com', 'M', '3CIr2OPIJq8P', '+34697486408', '2024-10-15 11:01:31', '@', '.', 15, 79, 'Paseo de los Álamos, 2062', '1958-03-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Rubio', 'cristina.rubio@hotmail.com', 'M', 'EKx6VReLySeC', '+34265457822', '2024-09-13 11:36:30', '@', '.', 7, 33, 'Camino Real, 1397', '1960-04-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Castro', 'miguel.castro@hotmail.com', 'N/A', 'Mnmp1noSEZ3I', '+34679965481', '2024-12-16 08:17:20', '@', '.', 19, 75, 'Carretera de la Sierra, 923', '1987-09-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Iglesias', 'raquel.iglesias@hotmail.com', 'F', 'A3qagl5XNmmu', '+34387763094', '2024-12-18 15:58:37', '@', '.', 14, 59, 'Plaza Mayor, 2204', '1988-03-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Rodríguez', 'julia.rodriguez@outlook.com', 'M', '42ElkBzLBKN9', '+34365054245', '2024-08-01 16:27:36', '@', '.', 17, 50, 'Camino Real, 1867', '1975-01-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Molina', 'sara.molina@gmail.com', 'F', 'lGUyoVdenEhg', '+34985071415', '2024-09-18 13:21:05', '@', '.', 13, 97, 'Avenida del Sol, 2739', '1995-06-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Álvarez', 'francisco.alvarez@gmail.com', 'F', '40ZHEKUIh9PD', '+34325775308', '2024-08-22 13:44:28', '@', '.', 8, 40, 'Rambla del Mar, 107', '1952-09-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Garrido', 'cristina.garrido@gmail.com', 'N/A', '6sbiAhmHeIWs', '+34655365086', '2024-10-24 12:05:12', '@', '.', 12, 52, 'Travesía del Río, 2650', '1989-07-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Torres', 'teresa.torres@outlook.com', 'N/A', 'Ribtifhw02oL', '+34484621268', '2024-10-10 11:15:34', '@', '.', 11, 100, 'Rambla del Mar, 2003', '1954-07-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Sanz', 'alicia.sanz@hotmail.com', 'F', 'ApAbbjxO15yx', '+34515639587', '2024-10-18 16:36:05', '@', '.', 22, 78, 'Ronda de San Pedro, 506', '1953-02-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'López', 'isabel.lopez4495@gmail.com', 'N/A', 'm3LdsCQlhQSp', '+34743472495', '2024-10-21 17:28:29', '@', '.', 7, 4, 'Cuesta de la Luz, 1939', '1967-09-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Torres', 'silvia.torres8761@outlook.com', 'F', 'SjVUqISVATLB', '+34560639251', '2024-10-29 09:56:09', '@', '.', 12, 51, 'Rambla del Mar, 2229', '1966-09-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Ramírez', 'rosa.ramirez@gmail.com', 'F', 'zBYZZXKVrgP5', '+34601961435', '2024-10-24 16:55:05', '@', '.', 14, 22, 'Primavera, 2073', '1996-08-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Gil', 'marta.gil@gmail.com', 'F', '28sD2AJDN3n0', '+34224823503', '2024-09-25 12:49:22', '@', '.', 17, 68, 'Camino Real, 384', '2000-10-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Serrano', 'alberto.serrano6921@gmail.com', 'M', 'rx5h5AIw4XA5', '+34546378537', '2024-10-15 08:29:45', '@', '.', 21, 54, 'Carretera de la Sierra, 1191', '1959-11-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Hernández', 'laura.hernandez@hotmail.com', 'M', 'EI5rJBu90Khs', '+34905331311', '2024-11-12 15:41:18', '@', '.', 24, 52, 'Rambla del Mar, 3152', '1995-08-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Garrido', 'julia.garrido@hotmail.com', 'F', 'i7iPxbFCYY7F', '+34141647642', '2024-10-29 16:27:08', '@', '.', 20, 39, 'Camino Real, 3298', '1984-12-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'García', 'lorena.garcia@gmail.com', 'M', 'n4HykjkT2Iao', '+34479789008', '2024-09-02 08:00:50', '@', '.', 1, 89, 'Primavera, 3226', '1962-02-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Muñoz', 'julia.munoz@outlook.com', 'N/A', 'r5KrsdjsG60u', '+34425732683', '2024-10-07 10:00:16', '@', '.', 10, 54, 'Travesía del Río, 312', '1989-03-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sofía', 'Rodríguez', 'sofia.rodriguez@outlook.com', 'N/A', '2tcKt4N6G8ek', '+34400334164', '2024-08-12 10:26:52', '@', '.', 7, 9, 'Plaza Mayor, 27', '1958-10-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Fernández', 'david.fernandez@gmail.com', 'N/A', 'y34854qUzjRy', '+34252470398', '2024-08-01 18:03:37', '@', '.', 1, 93, 'Carretera de la Sierra, 3123', '1977-11-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Jiménez', 'isabel.jimenez@outlook.com', 'F', 'FUFoxI5LoNKp', '+34318733028', '2024-08-05 16:08:05', '@', '.', 22, 99, 'Plaza Mayor, 414', '1972-02-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Romero', 'carlos.romero@hotmail.com', 'N/A', 'uoMBioYoQiMF', '+34970036748', '2024-09-04 12:37:44', '@', '.', 23, 52, 'Primavera, 2193', '2007-09-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Iglesias', 'celia.iglesias4943@outlook.com', 'F', '6IhSOQoYHjti', '+34255446556', '2024-11-20 14:06:55', '@', '.', 18, 32, 'Avenida del Sol, 1538', '1976-09-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Medina', 'miguel.medina116@outlook.com', 'M', 'PPVXIW2g6B0b', '+34107689121', '2024-10-31 10:48:57', '@', '.', 23, 86, 'Avenida de las Estrellas, 568', '1973-01-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Ramos', 'sara.ramos5660@hotmail.com', 'M', '8CH3sOtAW48t', '+34204593921', '2024-10-24 08:17:25', '@', '.', 20, 41, 'Travesía del Río, 3155', '1964-01-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Ruiz', 'jorge.ruiz@gmail.com', 'F', 'HSxuFOhT1YJz', '+34794017616', '2024-10-15 14:40:41', '@', '.', 12, 42, 'Cuesta de la Luz, 1970', '1950-06-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Fernández', 'diego.fernandez@hotmail.com', 'M', 'ZSLvqFO4vRMQ', '+34354061699', '2024-11-20 13:30:41', '@', '.', 15, 44, 'Ronda de San Pedro, 55', '1989-07-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Pérez', 'irene.perez@gmail.com', 'F', 'yY64wTvy1FY5', '+34537626299', '2024-10-14 14:25:15', '@', '.', 8, 25, 'Ronda de San Pedro, 2800', '2000-10-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Sanz', 'francisco.sanz@gmail.com', 'M', 'RCW3uM9uXiuy', '+34778071410', '2024-12-13 08:36:38', '@', '.', 17, 30, 'Avenida del Sol, 1484', '1974-06-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lucía', 'Hernández', 'lucia.hernandez@gmail.com', 'F', 'j6hPizTkaco6', '+34800170255', '2024-10-10 18:56:42', '@', '.', 15, 58, 'Plaza Mayor, 3107', '1993-06-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Gutiérrez', 'cristina.gutierrez@outlook.com', 'M', '0tHDt6bDTpnp', '+34525491630', '2024-10-08 15:33:12', '@', '.', 23, 33, 'Camino Real, 2348', '1963-07-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Rubio', 'carlos.rubio@gmail.com', 'M', 'gfQAMI5vfu0m', '+34613752215', '2024-08-29 09:35:15', '@', '.', 24, 64, 'Cuesta de la Luz, 1225', '1977-01-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Jiménez', 'alicia.jimenez@hotmail.com', 'F', 'OXq8PZ47Ng4q', '+34746210057', '2024-10-24 12:04:39', '@', '.', 6, 36, 'Camino Real, 3473', '1967-10-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'López', 'clara.lopez@outlook.com', 'N/A', 'uPPlj3uP1ixh', '+34794743030', '2024-10-02 15:42:07', '@', '.', 8, 76, 'Avenida del Sol, 2153', '1976-05-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Blanco', 'miriam.blanco@gmail.com', 'N/A', 'p2843iSVylgJ', '+34944924459', '2024-10-15 12:42:02', '@', '.', 24, 55, 'Paseo de los Álamos, 1750', '1987-09-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Jiménez', 'paula.jimenez@outlook.com', 'M', 'ZAsOscsvPRLr', '+34243436817', '2024-10-15 08:14:31', '@', '.', 1, 75, 'Avenida de las Estrellas, 973', '1960-04-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Ortega', 'pablo.ortega@outlook.com', 'N/A', 'Uf0FWfObYdhq', '+34386385296', '2024-10-02 17:49:29', '@', '.', 10, 77, 'Rambla del Mar, 3269', '1965-01-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Fernández', 'maria.fernandez268@outlook.com', 'N/A', 'XiY765ilLwfu', '+34642174430', '2024-10-15 08:30:34', '@', '.', 6, 16, 'Avenida de las Estrellas, 1947', '1961-09-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Lorena', 'Fernández', 'lorena.fernandez@gmail.com', 'M', 'AshjOI6NPjCC', '+34461998347', '2024-10-30 15:34:07', '@', '.', 4, 92, 'Carretera de la Sierra, 2441', '1976-04-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'González', 'raquel.gonzalez@hotmail.com', 'N/A', 'T1eIXSp7M4HE', '+34918360856', '2024-10-11 09:19:15', '@', '.', 8, 58, 'Callejón del Gato, 3580', '1979-01-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Castro', 'jorge.castro@outlook.com', 'N/A', 'I92VovsmboAh', '+34868310405', '2024-09-19 12:22:59', '@', '.', 20, 21, 'Rambla del Mar, 3946', '1960-10-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Ruiz', 'antonio.ruiz@gmail.com', 'N/A', 'XSjPopMGodGk', '+34516153248', '2024-11-14 08:36:33', '@', '.', 8, 52, 'Primavera, 3366', '1987-11-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Delgado', 'fernando.delgado@gmail.com', 'N/A', '1zxOxE7H8ZCE', '+34933477315', '2024-09-24 09:29:57', '@', '.', 19, 41, 'Callejón del Gato, 3438', '1966-06-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Rubio', 'fernando.rubio8327@outlook.com', 'M', '4rjpCn87zGgp', '+34143816287', '2024-10-21 09:51:36', '@', '.', 13, 30, 'Camino Real, 658', '1981-01-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Ortega', 'diego.ortega1795@hotmail.com', 'F', 'izN0XyESUMBO', '+34249728063', '2024-10-22 18:58:11', '@', '.', 18, 18, 'Paseo de los Álamos, 826', '1954-09-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Ramos', 'raquel.ramos@hotmail.com', 'F', 'xj2DegCrwEQH', '+34956194782', '2024-09-17 16:42:01', '@', '.', 13, 83, 'Callejón del Gato, 903', '1994-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Martínez', 'marta.martinez@outlook.com', 'F', 'ahJfNDiQ6kYY', '+34434851803', '2024-10-09 13:22:24', '@', '.', 24, 50, 'Primavera, 317', '1961-08-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Navarro', 'victoria.navarro@gmail.com', 'N/A', 'Fzvf6ycnxJ2s', '+34642054276', '2024-09-09 13:15:45', '@', '.', 8, 92, 'Primavera, 296', '1966-04-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Romero', 'elena.romero@hotmail.com', 'N/A', 'zD1XaYPfQJyU', '+34742350338', '2024-10-28 15:54:05', '@', '.', 11, 86, 'Avenida de las Estrellas, 3849', '1950-09-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Morales', 'marta.morales@hotmail.com', 'M', 'zk4E0xXOg6Lb', '+34786501946', '2024-12-02 12:15:19', '@', '.', 1, 53, 'Primavera, 3996', '1958-08-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Romero', 'beatriz.romero@hotmail.com', 'M', 'BqdcTUq5iArw', '+34695471617', '2024-10-14 12:26:41', '@', '.', 2, 5, 'Ronda de San Pedro, 653', '1989-01-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Domínguez', 'monica.dominguez@hotmail.com', 'M', 'l43Fmu1L7ff1', '+34652340269', '2024-09-17 09:19:16', '@', '.', 23, 66, 'Plaza Mayor, 2437', '1999-06-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Molina', 'natalia.molina@outlook.com', 'M', 'bxzm8U1Zow2K', '+34302127774', '2024-09-06 18:08:16', '@', '.', 8, 83, 'Cuesta de la Luz, 2290', '1960-05-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Medina', 'raquel.medina@hotmail.com', 'N/A', 'zGDpQeVK77jO', '+34086736075', '2024-10-07 12:39:50', '@', '.', 2, 88, 'Callejón del Gato, 2425', '1967-03-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'González', 'diego.gonzalez@outlook.com', 'F', 'ZdSVs3EiBhV7', '+34088138706', '2024-10-23 12:23:34', '@', '.', 15, 70, 'Avenida de las Estrellas, 226', '2008-07-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Martínez', 'marina.martinez@outlook.com', 'F', 'ENklV5XX0Som', '+34451029063', '2024-10-09 12:44:11', '@', '.', 17, 25, 'Cuesta de la Luz, 1494', '2000-12-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Gil', 'paula.gil@outlook.com', 'M', 'hBf1q0VGM7hm', '+34332115992', '2024-12-30 11:24:57', '@', '.', 7, 9, 'Avenida del Sol, 1513', '1954-06-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Vázquez', 'natalia.vazquez@gmail.com', 'M', 'Yn5j8cQePuIT', '+34014347633', '2024-12-20 15:18:44', '@', '.', 16, 65, 'Callejón del Gato, 6', '1953-09-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Medina', 'miguel.medina9414@outlook.com', 'N/A', 'lmwMwr3OOmtp', '+34555972561', '2024-10-25 17:38:32', '@', '.', 2, 68, 'Paseo de los Álamos, 3292', '1956-08-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Delgado', 'david.delgado@outlook.com', 'F', 'VNSYg5KNGgtR', '+34115013398', '2024-10-29 14:32:49', '@', '.', 23, 26, 'Avenida de las Estrellas, 3905', '1961-06-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Navarro', 'clara.navarro6142@hotmail.com', 'N/A', 'eH38jub8IL5W', '+34305162596', '2024-10-01 14:04:24', '@', '.', 10, 1, 'Ronda de San Pedro, 3906', '2001-10-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Ramos', 'patricia.ramos@hotmail.com', 'F', 'tnWg1Ol5oFyx', '+34761390268', '2024-10-01 18:30:41', '@', '.', 8, 19, 'Camino Real, 163', '2008-08-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Molina', 'manuel.molina@gmail.com', 'M', 'tMDPVP0wunuC', '+34427966128', '2024-09-27 16:29:52', '@', '.', 15, 88, 'Travesía del Río, 1080', '1963-01-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Delgado', 'rosa.delgado@hotmail.com', 'M', 'Cj8nhs1kNa0Q', '+34303958497', '2024-10-31 08:43:09', '@', '.', 6, 57, 'Rambla del Mar, 2222', '2002-03-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Sanz', 'irene.sanz@gmail.com', 'N/A', 'eJRsIpnzgUV3', '+34417010661', '2024-10-15 16:05:19', '@', '.', 2, 45, 'Callejón del Gato, 2065', '1965-11-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Molina', 'diego.molina@gmail.com', 'N/A', 'GZem78mqozeE', '+34644517718', '2024-10-09 14:27:34', '@', '.', 24, 67, 'Ronda de San Pedro, 2669', '1972-09-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Gil', 'miguel.gil@hotmail.com', 'N/A', 'UL71RQZwoOnK', '+34027061835', '2024-11-21 15:18:37', '@', '.', 1, 93, 'Rambla del Mar, 3404', '1956-04-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Ramos', 'teresa.ramos@outlook.com', 'N/A', 'ZyjdhvIrgxy8', '+34472068688', '2024-10-24 13:42:31', '@', '.', 17, 41, 'Carretera de la Sierra, 2138', '1991-12-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Blanco', 'sara.blanco@hotmail.com', 'F', '0AkhDxqQCoxA', '+34313311556', '2024-09-13 11:39:17', '@', '.', 3, 94, 'Avenida de las Estrellas, 1369', '1989-09-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Garrido', 'rafael.garrido@gmail.com', 'N/A', '3EEUmimORmsj', '+34719822114', '2024-09-26 15:42:19', '@', '.', 18, 64, 'Travesía del Río, 860', '1982-03-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Iglesias', 'manuel.iglesias@hotmail.com', 'F', '55qkTjLSSVNF', '+34081911850', '2024-11-28 14:57:23', '@', '.', 10, 89, 'Travesía del Río, 721', '2005-05-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'Pérez', 'alberto.perez@hotmail.com', 'F', 'cecb4K2RK4sK', '+34651767890', '2024-10-21 13:10:07', '@', '.', 3, 74, 'Cuesta de la Luz, 2491', '1976-08-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Pérez', 'rocio.perez5544@gmail.com', 'M', 'Np839xJQMl6j', '+34889071184', '2024-10-21 12:03:52', '@', '.', 5, 58, 'Avenida de las Estrellas, 1636', '2007-11-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'García', 'juan.garcia@hotmail.com', 'N/A', 'AS7NQl8MfQLF', '+34808444732', '2024-10-07 13:41:21', '@', '.', 16, 55, 'Primavera, 3701', '1980-10-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Díaz', 'francisco.diaz@outlook.com', 'F', 'TERHOYEnhqTy', '+34476436600', '2024-09-09 16:28:52', '@', '.', 20, 35, 'Plaza Mayor, 2602', '1984-01-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Delgado', 'julia.delgado@hotmail.com', 'F', 'O7dg3f44yDhK', '+34587297212', '2024-10-21 18:02:27', '@', '.', 22, 23, 'Callejón del Gato, 3909', '1991-05-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Sánchez', 'julia.sanchez@gmail.com', 'F', 'A6nsfbVJ5fNq', '+34005120500', '2024-10-04 18:19:10', '@', '.', 4, 13, 'Carretera de la Sierra, 3041', '1989-06-14', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Marín', 'carmen.marin@hotmail.com', 'F', 'GabWkVhgtdRw', '+34201362307', '2024-12-04 09:08:38', '@', '.', 18, 59, 'Ronda de San Pedro, 3674', '1952-07-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Rodríguez', 'miguel.rodriguez@outlook.com', 'F', 'WBaGXWNVJHfS', '+34552756224', '2024-10-08 13:16:07', '@', '.', 1, 27, 'Avenida de las Estrellas, 481', '1974-01-22', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Ortiz', 'rosa.ortiz@gmail.com', 'M', 'o9FutJbRR42v', '+34734518146', '2024-09-03 18:59:42', '@', '.', 16, 42, 'Ronda de San Pedro, 175', '1957-04-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Domínguez', 'marina.dominguez@hotmail.com', 'F', 'NERfGHlFURGx', '+34921700992', '2024-12-30 17:00:45', '@', '.', 18, 36, 'Callejón del Gato, 1085', '1996-04-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Sanz', 'juan.sanz@hotmail.com', 'F', 'N3q8ZRjwypJV', '+34872890345', '2024-10-25 13:11:39', '@', '.', 6, 53, 'Carretera de la Sierra, 2520', '1975-10-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Sánchez', 'sara.sanchez8883@gmail.com', 'F', 'wGSuQ746x9tA', '+34485498072', '2024-10-30 13:08:46', '@', '.', 19, 53, 'Primavera, 2021', '1966-06-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Ramírez', 'elena.ramirez@gmail.com', 'M', 'xrB5seb2PtXm', '+34881441518', '2024-10-21 13:15:16', '@', '.', 12, 2, 'Paseo de los Álamos, 3965', '1998-05-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Nuñez', 'irene.nunez@hotmail.com', 'M', 'VTPLpb4mFHIE', '+34225766225', '2024-09-19 10:14:06', '@', '.', 19, 82, 'Cuesta de la Luz, 2989', '1967-10-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rocío', 'Moreno', 'rocio.moreno@gmail.com', 'F', 'Q0F0zEDZn6so', '+34739312648', '2024-10-04 09:07:38', '@', '.', 7, 52, 'Avenida del Sol, 2940', '1984-12-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Marín', 'nerea.marin@hotmail.com', 'F', 'huhaZ6sBh8Gq', '+34950949578', '2024-10-31 11:35:30', '@', '.', 10, 59, 'Callejón del Gato, 562', '2001-04-12', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Eva', 'Ramírez', 'eva.ramirez@hotmail.com', 'N/A', 'BzRZGWMF69tP', '+34533716550', '2024-11-12 17:02:25', '@', '.', 4, 81, 'Ronda de San Pedro, 1653', '2003-01-15', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Ortiz', 'cristina.ortiz@hotmail.com', 'F', 'SUZvLdGu24r8', '+34569522677', '2024-09-20 11:51:30', '@', '.', 19, 34, 'Rambla del Mar, 687', '1984-03-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Fernández', 'monica.fernandez2334@outlook.com', 'M', 'AnYRYkzNNa4L', '+34743851483', '2024-08-05 17:39:42', '@', '.', 18, 49, 'Avenida del Sol, 2337', '2005-12-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Torres', 'paula.torres@hotmail.com', 'N/A', 'IkWT8X9R1Z7u', '+34907561506', '2024-09-16 11:07:16', '@', '.', 12, 69, 'Paseo de los Álamos, 1079', '2007-04-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Ortiz', 'carlos.ortiz5082@hotmail.com', 'N/A', 'GM1vSAyl5AdW', '+34415166022', '2024-09-27 18:43:21', '@', '.', 23, 58, 'Travesía del Río, 316', '1973-02-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Gutiérrez', 'miguel.gutierrez@gmail.com', 'F', 'G5sgPZaK970Y', '+34097297008', '2024-12-27 11:21:08', '@', '.', 9, 72, 'Camino Real, 736', '1995-08-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Gutiérrez', 'julia.gutierrez@hotmail.com', 'M', 'A0k7dtWicnnG', '+34419004975', '2024-10-03 11:55:59', '@', '.', 13, 48, 'Primavera, 2412', '1960-01-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'García', 'rosa.garcia@gmail.com', 'M', '4DXug7V6xkyU', '+34626600652', '2024-12-16 13:17:47', '@', '.', 18, 35, 'Rambla del Mar, 2821', '1985-10-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Mónica', 'Marín', 'monica.marin@outlook.com', 'F', 'K14tjD4QIoQt', '+34003787854', '2024-11-22 10:28:06', '@', '.', 6, 61, 'Avenida del Sol, 2125', '1974-06-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Álvarez', 'pablo.alvarez@outlook.com', 'F', 'Qe4ff7RtrzMj', '+34359656081', '2024-12-25 11:10:44', '@', '.', 7, 13, 'Callejón del Gato, 3817', '1966-05-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Navarro', 'jorge.navarro@outlook.com', 'F', 'nv4V9fsor2ru', '+34308893614', '2024-11-14 17:53:32', '@', '.', 9, 14, 'Carretera de la Sierra, 2903', '1967-09-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Marín', 'manuel.marin@gmail.com', 'N/A', '4eTM0gYMmo4d', '+34176272504', '2024-10-29 09:06:24', '@', '.', 5, 88, 'Cuesta de la Luz, 2814', '1962-04-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Teresa', 'Navarro', 'teresa.navarro@hotmail.com', 'F', 'jYVJsNWEZNWs', '+34259958738', '2024-10-21 09:51:52', '@', '.', 22, 81, 'Primavera, 2582', '1966-05-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'García', 'patricia.garcia@outlook.com', 'M', 'Q7t0Huqj3fp3', '+34997536243', '2024-10-31 11:18:21', '@', '.', 22, 43, 'Primavera, 2130', '1984-09-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Rodríguez', 'beatriz.rodriguez@gmail.com', 'N/A', 'jaEfwpOTn6Yb', '+34797691672', '2024-10-21 18:02:01', '@', '.', 20, 51, 'Primavera, 1416', '1960-11-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'Moreno', 'miriam.moreno@outlook.com', 'M', 'S6iVK1H8vibV', '+34417880885', '2024-10-17 15:24:05', '@', '.', 9, 76, 'Carretera de la Sierra, 2825', '1975-07-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Marín', 'paula.marin@gmail.com', 'M', 'dZ2Q3TWeCNEx', '+34985150902', '2024-10-31 14:49:36', '@', '.', 6, 94, 'Paseo de los Álamos, 1484', '2002-04-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Navarro', 'david.navarro3419@gmail.com', 'M', '5Al7M1TpUg1G', '+34728674067', '2024-10-03 18:33:45', '@', '.', 18, 52, 'Travesía del Río, 1572', '1994-05-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Torres', 'julia.torres@gmail.com', 'M', 'jGNx3MPeI86m', '+34225007506', '2024-11-25 15:26:45', '@', '.', 23, 4, 'Avenida de las Estrellas, 631', '1953-12-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rafael', 'Muñoz', 'rafael.munoz@gmail.com', 'M', 'GNhFQiHSlm4t', '+34624189262', '2024-10-11 09:59:17', '@', '.', 7, 84, 'Travesía del Río, 2205', '2001-01-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Ortega', 'raquel.ortega@gmail.com', 'F', 'iF6uvqmvond0', '+34258475959', '2024-11-27 14:04:13', '@', '.', 11, 18, 'Avenida del Sol, 3442', '1958-05-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Elena', 'Ruiz', 'elena.ruiz@outlook.com', 'F', 'RdQCrDXI3hV2', '+34959092602', '2024-10-04 12:28:09', '@', '.', 8, 70, 'Callejón del Gato, 3675', '1996-05-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Martín', 'cristina.martin@outlook.com', 'M', '42baC2M3qUNq', '+34912196896', '2024-10-14 10:38:59', '@', '.', 22, 64, 'Ronda de San Pedro, 427', '2005-10-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Díaz', 'carlos.diaz@hotmail.com', 'N/A', 'MjXebHPEod3g', '+34112897744', '2024-11-06 12:20:00', '@', '.', 9, 26, 'Callejón del Gato, 2234', '1995-09-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Morales', 'carlos.morales4754@hotmail.com', 'M', 'uTD1JbYDBWoH', '+34125159474', '2024-10-18 15:14:54', '@', '.', 14, 2, 'Travesía del Río, 706', '1983-12-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carlos', 'Hernández', 'carlos.hernandez@gmail.com', 'M', 'taCubobrIQ8o', '+34439347888', '2024-10-11 09:35:05', '@', '.', 14, 94, 'Carretera de la Sierra, 2681', '1955-05-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Rosa', 'Gómez', 'rosa.gomez@gmail.com', 'N/A', '4wk7wMCC8Cec', '+34002645549', '2024-09-18 10:14:56', '@', '.', 2, 64, 'Avenida del Sol, 2114', '1970-08-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Ramos', 'silvia.ramos@outlook.com', 'M', 'ZlsjG8Ynjfn9', '+34796476909', '2024-10-18 09:48:38', '@', '.', 10, 35, 'Travesía del Río, 2251', '1953-02-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Celia', 'Molina', 'celia.molina@hotmail.com', 'M', '5ktEepCBI5UF', '+34414118421', '2024-10-10 08:20:10', '@', '.', 3, 18, 'Paseo de los Álamos, 2897', '1960-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marta', 'Rodríguez', 'marta.rodriguez@gmail.com', 'F', 'VOTACuExyoMR', '+34113764146', '2024-10-17 14:20:22', '@', '.', 6, 51, 'Carretera de la Sierra, 2466', '1986-02-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Díaz', 'alicia.diaz@hotmail.com', 'N/A', 'FtfDzi57iAk8', '+34226516769', '2024-09-25 11:17:52', '@', '.', 22, 33, 'Travesía del Río, 2740', '1962-09-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Blanco', 'fernando.blanco@hotmail.com', 'N/A', 'JzgLYGOLWrZZ', '+34915967228', '2024-12-12 09:06:37', '@', '.', 18, 76, 'Callejón del Gato, 2133', '2004-11-16', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Francisco', 'Ortiz', 'francisco.ortiz@hotmail.com', 'N/A', 'HpBL0TGL6Uaf', '+34645730086', '2024-10-04 10:03:55', '@', '.', 8, 83, 'Ronda de San Pedro, 2746', '1960-06-09', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Sánchez', 'miguel.sanchez@outlook.com', 'F', 'SvaBf4qMMRwf', '+34865973927', '2024-09-23 17:51:04', '@', '.', 19, 93, 'Primavera, 829', '1964-09-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Vázquez', 'julia.vazquez@gmail.com', 'M', 'dNn8wJcR46SU', '+34126013195', '2024-10-21 18:52:51', '@', '.', 16, 47, 'Ronda de San Pedro, 839', '1982-01-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Álvarez', 'carmen.alvarez@gmail.com', 'F', 'fiKcuyG21yrP', '+34085017117', '2024-10-30 15:56:50', '@', '.', 4, 10, 'Paseo de los Álamos, 633', '1956-08-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Nuñez', 'luis.nunez@gmail.com', 'F', 'h7OZ4hwNneQi', '+34025134388', '2024-10-09 11:48:12', '@', '.', 24, 27, 'Avenida del Sol, 2676', '1963-12-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Delgado', 'alicia.delgado@gmail.com', 'M', '3rna8fopr0TF', '+34055482675', '2024-10-11 17:36:50', '@', '.', 5, 47, 'Ronda de San Pedro, 808', '1985-08-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Ortiz', 'antonio.ortiz@gmail.com', 'M', '58poERUARFya', '+34826814738', '2024-10-04 13:42:44', '@', '.', 23, 50, 'Primavera, 817', '1976-04-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'Navarro', 'miguel.navarro@hotmail.com', 'F', 'WpouKfAqNEkl', '+34656069557', '2024-10-24 18:05:00', '@', '.', 10, 33, 'Avenida del Sol, 479', '2003-11-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Manuel', 'Sánchez', 'manuel.sanchez@gmail.com', 'F', 'Vy8OsmnYaiPx', '+34860762009', '2024-10-10 09:27:55', '@', '.', 17, 82, 'Avenida del Sol, 1667', '2007-10-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alicia', 'Ramos', 'alicia.ramos@gmail.com', 'M', 'p4oDXF2Efmbi', '+34665855756', '2024-10-23 10:01:36', '@', '.', 6, 24, 'Callejón del Gato, 3908', '2008-04-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Raquel', 'Marín', 'raquel.marin@hotmail.com', 'F', 'Dsdgh6KNxbsN', '+34439022395', '2024-11-28 11:24:41', '@', '.', 22, 38, 'Avenida de las Estrellas, 623', '1977-07-02', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'Molina', 'maria.molina2203@gmail.com', 'N/A', 'zG31ciO6CFvA', '+34620350988', '2024-10-10 10:16:10', '@', '.', 20, 59, 'Carretera de la Sierra, 700', '2009-08-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Suárez', 'isabel.suarez@gmail.com', 'N/A', '4KMdst9x5hkS', '+34433092877', '2024-11-11 09:00:12', '@', '.', 23, 17, 'Callejón del Gato, 3432', '1961-07-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Andrea', 'Rubio', 'andrea.rubio@gmail.com', 'F', 'Ylo49AfWsZzQ', '+34640171267', '2024-09-03 16:26:40', '@', '.', 11, 3, 'Carretera de la Sierra, 117', '1980-01-21', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Castro', 'pablo.castro@gmail.com', 'N/A', 'lArpC9ECLHX2', '+34861456523', '2024-12-23 15:14:13', '@', '.', 19, 69, 'Callejón del Gato, 642', '1975-07-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miguel', 'González', 'miguel.gonzalez@outlook.com', 'N/A', 'KhOcvAdsM3GT', '+34832218674', '2024-09-20 14:05:43', '@', '.', 14, 55, 'Carretera de la Sierra, 2331', '1954-05-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Romero', 'gloria.romero@outlook.com', 'M', 'hoLPFXkgdPOu', '+34408923905', '2024-09-23 16:37:42', '@', '.', 23, 61, 'Avenida del Sol, 3506', '1979-07-20', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Sanz', 'juan.sanz7187@outlook.com', 'N/A', 'tUbJtYlrKPMl', '+34039068029', '2024-10-09 17:22:42', '@', '.', 22, 58, 'Rambla del Mar, 1228', '2005-11-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Victoria', 'Martín', 'victoria.martin@hotmail.com', 'M', 'Gab0Nn2rn8Wb', '+34525347294', '2024-08-05 09:18:23', '@', '.', 23, 24, 'Primavera, 2977', '2005-11-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Hernández', 'natalia.hernandez@outlook.com', 'N/A', '3IPKYtwrde8y', '+34442969060', '2024-09-04 18:54:15', '@', '.', 16, 53, 'Callejón del Gato, 2909', '1967-11-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pablo', 'Álvarez', 'pablo.alvarez@hotmail.com', 'M', 'Z2o9dqPMRosY', '+34421971192', '2024-10-03 15:47:17', '@', '.', 5, 72, 'Camino Real, 1752', '1954-05-08', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Gómez', 'irene.gomez@hotmail.com', 'M', 'EH3WmULZDhgU', '+34780466350', '2024-09-12 17:30:29', '@', '.', 12, 99, 'Carretera de la Sierra, 515', '1966-12-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Garrido', 'nerea.garrido@hotmail.com', 'N/A', 'ZqN5xeCA5c5B', '+34564006330', '2024-09-10 12:02:35', '@', '.', 5, 30, 'Rambla del Mar, 3605', '1974-09-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Marina', 'Navarro', 'marina.navarro@gmail.com', 'F', '6bJIBoz4EFuU', '+34926104390', '2024-10-25 09:42:31', '@', '.', 4, 77, 'Callejón del Gato, 3381', '1966-01-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('David', 'Ortega', 'david.ortega@gmail.com', 'F', 'LpuKWQeWwhZn', '+34269826324', '2024-09-24 10:04:49', '@', '.', 9, 35, 'Primavera, 947', '1992-08-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Hernández', 'cristina.hernandez@hotmail.com', 'M', 'Zkm4X8mFqBho', '+34238907974', '2024-10-31 15:00:47', '@', '.', 22, 36, 'Rambla del Mar, 1127', '1980-02-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Paula', 'Gutiérrez', 'paula.gutierrez@gmail.com', 'M', 'Z7DVei1T2anS', '+34320156602', '2024-10-22 17:48:01', '@', '.', 6, 11, 'Cuesta de la Luz, 1340', '2001-12-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Gloria', 'Suárez', 'gloria.suarez@gmail.com', 'F', 'CceHmMKWLABO', '+34687002226', '2024-09-11 14:06:22', '@', '.', 21, 60, 'Plaza Mayor, 251', '1975-04-13', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Iglesias', 'pedro.iglesias@outlook.com', 'F', 'etYUYfpRJoN7', '+34878384506', '2024-10-01 16:22:31', '@', '.', 15, 49, 'Avenida del Sol, 3230', '1968-05-01', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Domínguez', 'jorge.dominguez@outlook.com', 'F', '5U09Eeaz92mg', '+34449020849', '2024-08-27 14:59:58', '@', '.', 2, 14, 'Avenida del Sol, 2164', '1971-07-28', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Irene', 'Molina', 'irene.molina@outlook.com', 'M', 'XcvzSaf0khwt', '+34287412962', '2024-09-25 15:21:17', '@', '.', 4, 16, 'Primavera, 1754', '2002-05-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Beatriz', 'Iglesias', 'beatriz.iglesias@gmail.com', 'M', 'CQWWJnBRsMrH', '+34039667153', '2024-08-12 08:55:57', '@', '.', 1, 55, 'Avenida del Sol, 62', '1956-10-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Laura', 'Iglesias', 'laura.iglesias@gmail.com', 'F', 'E293A6s4IeQG', '+34915506061', '2024-10-15 08:54:33', '@', '.', 3, 25, 'Travesía del Río, 2613', '1999-02-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Suárez', 'nerea.suarez@hotmail.com', 'N/A', 'dnFEERllrXIl', '+34985654175', '2024-09-12 08:18:29', '@', '.', 12, 44, 'Cuesta de la Luz, 2848', '1950-02-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Alberto', 'López', 'alberto.lopez@gmail.com', 'M', 'eC1aMVWTSApp', '+34745640711', '2024-10-29 08:07:05', '@', '.', 15, 30, 'Cuesta de la Luz, 3736', '1971-02-26', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julia', 'Gil', 'julia.gil@outlook.com', 'F', '0w85FWD0DrSZ', '+34401178862', '2024-10-16 10:10:00', '@', '.', 24, 14, 'Plaza Mayor, 3799', '1980-12-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Nerea', 'Gil', 'nerea.gil@outlook.com', 'M', 'srKSaScGk2PP', '+34597848331', '2024-11-28 15:07:24', '@', '.', 19, 50, 'Avenida de las Estrellas, 2647', '1993-12-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Carmen', 'Ortega', 'carmen.ortega@gmail.com', 'N/A', 'kfvgHTv6oueM', '+34266922985', '2024-09-25 13:18:37', '@', '.', 21, 49, 'Callejón del Gato, 2599', '1984-11-23', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Patricia', 'Navarro', 'patricia.navarro@outlook.com', 'F', 'ORH2ZhmqL4Au', '+34546401569', '2024-08-20 15:13:20', '@', '.', 21, 96, 'Carretera de la Sierra, 35', '1986-03-24', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Pedro', 'Álvarez', 'pedro.alvarez5200@hotmail.com', 'M', 'vmKu6T2RldgT', '+34403910060', '2024-10-07 17:15:09', '@', '.', 14, 64, 'Camino Real, 1842', '2003-04-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Antonio', 'Castro', 'antonio.castro@outlook.com', 'M', 'rfz77uMCDM0K', '+34679541090', '2024-09-05 09:01:01', '@', '.', 7, 9, 'Travesía del Río, 3088', '1993-02-03', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Iglesias', 'fernando.iglesias3086@gmail.com', 'N/A', 'YumUZr5Dwvxy', '+34167309340', '2024-10-09 17:01:53', '@', '.', 20, 95, 'Avenida de las Estrellas, 3917', '1987-12-05', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Castro', 'natalia.castro@outlook.com', 'N/A', '9pNlegaKjXad', '+34308666437', '2024-12-31 16:27:34', '@', '.', 10, 82, 'Rambla del Mar, 924', '1953-05-25', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Cristina', 'Nuñez', 'cristina.nunez@outlook.com', 'F', 'I6TeUHgAPLOV', '+34273216842', '2024-10-15 11:43:37', '@', '.', 24, 62, 'Plaza Mayor, 2651', '1980-05-06', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Miriam', 'López', 'miriam.lopez@outlook.com', 'N/A', 'Am5RTZwSnaLy', '+34193787647', '2024-10-04 14:59:44', '@', '.', 18, 24, 'Avenida del Sol, 2895', '1985-03-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Natalia', 'Rodríguez', 'natalia.rodriguez4472@outlook.com', 'M', 'dsfKz7wxpLCF', '+34547035647', '2024-09-03 12:03:17', '@', '.', 2, 77, 'Avenida de las Estrellas, 1874', '2004-08-27', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Gutiérrez', 'jorge.gutierrez@gmail.com', 'F', 'Qwj30gU04GB0', '+34659240619', '2024-09-18 10:57:05', '@', '.', 23, 58, 'Camino Real, 3510', '1956-02-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Isabel', 'Romero', 'isabel.romero@gmail.com', 'F', 'uBkdhnFelyJn', '+34255667886', '2024-10-11 13:36:34', '@', '.', 9, 43, 'Primavera, 408', '1973-08-04', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Fernando', 'Gil', 'fernando.gil@hotmail.com', 'F', '7Wz8mLVkMuxr', '+34362947042', '2024-10-23 16:23:46', '@', '.', 5, 78, 'Avenida de las Estrellas, 3886', '1993-01-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Luis', 'Castro', 'luis.castro@outlook.com', 'N/A', '20nkAOM1L10S', '+34458883549', '2024-09-18 11:26:49', '@', '.', 3, 86, 'Primavera, 3053', '2001-04-07', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Jorge', 'Molina', 'jorge.molina@gmail.com', 'M', 'eJ9lupr3SR4l', '+34222505717', '2024-08-29 15:10:42', '@', '.', 3, 8, 'Avenida de las Estrellas, 676', '1969-12-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Clara', 'Rodríguez', 'clara.rodriguez@hotmail.com', 'F', 'WkXuCUZdhN6N', '+34243226790', '2024-11-13 08:24:35', '@', '.', 10, 78, 'Paseo de los Álamos, 3672', '1990-07-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Silvia', 'Blanco', 'silvia.blanco@gmail.com', 'F', 'imURc3aCflzT', '+34317372492', '2024-10-29 11:01:02', '@', '.', 21, 6, 'Primavera, 2574', '1964-01-18', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('María', 'García', 'maria.garcia@outlook.com', 'F', 'GviiMik79y0l', '+34796894291', '2024-10-02 17:23:24', '@', '.', 20, 75, 'Cuesta de la Luz, 3882', '1960-02-17', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Juan', 'Morales', 'juan.morales3764@gmail.com', 'N/A', 'ijLXoF9kcBnM', '+34013880351', '2024-09-12 17:03:59', '@', '.', 17, 20, 'Ronda de San Pedro, 2557', '1953-10-19', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Sara', 'Domínguez', 'sara.dominguez@gmail.com', 'M', 'npx2FSvjbXZS', '+34198458965', '2024-09-17 17:58:43', '@', '.', 10, 86, 'Carretera de la Sierra, 1662', '1968-11-10', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Diego', 'Suárez', 'diego.suarez@hotmail.com', 'N/A', 'mFWmbovLiZkq', '+34677033636', '2024-10-21 09:25:29', '@', '.', 19, 82, 'Travesía del Río, 1586', '1970-08-11', 'USER'); 
+
+INSERT INTO public.user (name, last_name, email, genre, hashed_password, phone_number, created_at, instagram, user_site_name, id_province, id_municipality, address, birth_date, role) 
+VALUES ('Julian', 'Bollatti', 'jbollatti.ogma@gmail.com', 'M', 'BBPhMUvnhKce', '+34781045385', '2024-10-09 13:10:33', '@julianbollatti', 'julian.bollatti', 3, 77, 'Plaza Mayor, 3274', '1996-04-06', 'USER'); 
+

@@ -1,2234 +1,3864 @@
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_241.jpg', 70758.17, 'PURCHASE', 302, 775);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_966.jpg', 35566.78, 'EXCHANGE', 120, 8);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_264.jpg', 51566.01, 'PURCHASE', 185, 482);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_965.jpg', 64463.73, 'PURCHASE', 538, 719);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_20.jpg', 48499.77, 'PURCHASE', 433, 491);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_591.jpg', 5321.4, 'EXCHANGE', 161, 264);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_520.jpg', 56665.25, 'PURCHASE', 691, 794);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_821.jpg', 44845.31, 'PURCHASE', 113, 531);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_392.jpg', 82690.24, 'PURCHASE', 551, 165);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_264.jpg', 54673.44, 'PURCHASE', 567, 701);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_832.jpg', 88314.48, 'EXCHANGE', 578, 9);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_783.jpg', 85176.49, 'PURCHASE', 385, 480);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_489.jpg', 18164.9, 'PURCHASE', 344, 875);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_565.jpg', 88797.79, 'EXCHANGE', 448, 136);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_372.jpg', 8597.12, 'PURCHASE', 32, 380);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_760.jpg', 49862.54, 'EXCHANGE', 61, 629);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_942.jpg', 86532.25, 'PURCHASE', 456, 484);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_773.jpg', 18337.58, 'PURCHASE', 533, 754);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_781.jpg', 22729.31, 'EXCHANGE', 660, 697);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_979.jpg', 31764.57, 'EXCHANGE', 660, 293);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_650.jpg', 49902.39, 'EXCHANGE', 168, 556);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_576.jpg', 62574.36, 'PURCHASE', 342, 864);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_497.jpg', 79386.95, 'PURCHASE', 489, 936);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_828.jpg', 17849.59, 'PURCHASE', 221, 155);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_941.jpg', 17411.27, 'PURCHASE', 710, 244);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_451.jpg', 17649.77, 'EXCHANGE', 131, 979);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_432.jpg', 24072.31, 'PURCHASE', 551, 17);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_162.jpg', 70552.29, 'EXCHANGE', 29, 652);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_105.jpg', 51316.03, 'EXCHANGE', 554, 880);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_791.jpg', 30576.43, 'EXCHANGE', 66, 690);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_618.jpg', 87524.69, 'PURCHASE', 175, 938);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_1000.jpg', 49590.62, 'EXCHANGE', 393, 209);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_303.jpg', 79471.77, 'EXCHANGE', 246, 227);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_234.jpg', 7715.9, 'EXCHANGE', 538, 817);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_57.jpg', 70793.73, 'PURCHASE', 279, 968);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_973.jpg', 9941.52, 'EXCHANGE', 559, 466);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_491.jpg', 28075.93, 'PURCHASE', 293, 449);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_869.jpg', 30602.54, 'EXCHANGE', 643, 500);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_265.jpg', 15162.32, 'PURCHASE', 222, 767);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_80.jpg', 33238.2, 'PURCHASE', 498, 90);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_916.jpg', 86112.48, 'PURCHASE', 330, 735);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_337.jpg', 83131.05, 'PURCHASE', 427, 922);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_847.jpg', 36726.19, 'PURCHASE', 61, 42);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_792.jpg', 46914.5, 'PURCHASE', 137, 817);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_454.jpg', 39768.8, 'PURCHASE', 237, 482);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_25.jpg', 12423.17, 'PURCHASE', 625, 876);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_149.jpg', 44163.59, 'PURCHASE', 151, 626);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_212.jpg', 41622.07, 'PURCHASE', 705, 337);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_797.jpg', 6254.49, 'EXCHANGE', 257, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_666.jpg', 74474.48, 'PURCHASE', 327, 542);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_879.jpg', 39037.24, 'EXCHANGE', 135, 55);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_699.jpg', 83340.12, 'EXCHANGE', 503, 71);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_234.jpg', 21336.44, 'PURCHASE', 638, 906);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_517.jpg', 52981.56, 'PURCHASE', 696, 339);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_750.jpg', 12219.5, 'EXCHANGE', 461, 511);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_22.jpg', 79648.76, 'EXCHANGE', 94, 270);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_903.jpg', 40869.11, 'PURCHASE', 479, 508);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_215.jpg', 13997.18, 'PURCHASE', 230, 347);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_184.jpg', 19121.39, 'EXCHANGE', 666, 944);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_981.jpg', 24331.73, 'EXCHANGE', 537, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_846.jpg', 53065.87, 'EXCHANGE', 58, 13);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_29.jpg', 70055.97, 'EXCHANGE', 666, 374);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_811.jpg', 84040.54, 'EXCHANGE', 408, 19);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_364.jpg', 9537.22, 'EXCHANGE', 674, 24);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_414.jpg', 61747.76, 'PURCHASE', 356, 518);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_535.jpg', 75598.7, 'EXCHANGE', 184, 612);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_739.jpg', 58451.8, 'EXCHANGE', 389, 129);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_250.jpg', 28585.89, 'EXCHANGE', 75, 752);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_542.jpg', 89338.39, 'PURCHASE', 536, 815);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_699.jpg', 85727.94, 'PURCHASE', 59, 796);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_128.jpg', 53844.97, 'EXCHANGE', 444, 127);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_894.jpg', 42085.94, 'PURCHASE', 192, 705);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_605.jpg', 66176.35, 'PURCHASE', 338, 459);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_181.jpg', 59756.68, 'PURCHASE', 584, 191);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_952.jpg', 22783.12, 'EXCHANGE', 41, 660);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_572.jpg', 19697.3, 'PURCHASE', 668, 897);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_452.jpg', 68084.91, 'EXCHANGE', 635, 336);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_927.jpg', 22291.84, 'PURCHASE', 713, 472);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_389.jpg', 64102.7, 'EXCHANGE', 49, 610);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_545.jpg', 40293.98, 'PURCHASE', 623, 458);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_492.jpg', 11016.73, 'PURCHASE', 711, 249);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_763.jpg', 65778.83, 'EXCHANGE', 253, 931);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_207.jpg', 75986.5, 'PURCHASE', 375, 936);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_58.jpg', 53885.47, 'EXCHANGE', 506, 520);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_85.jpg', 77632.63, 'EXCHANGE', 258, 288);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_59.jpg', 62980.04, 'PURCHASE', 510, 927);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_921.jpg', 88745.84, 'EXCHANGE', 620, 743);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_80.jpg', 66952.71, 'PURCHASE', 485, 383);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_379.jpg', 45573.95, 'EXCHANGE', 653, 870);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_403.jpg', 15551.47, 'EXCHANGE', 61, 718);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_30.jpg', 80453.13, 'EXCHANGE', 239, 735);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_162.jpg', 87084.44, 'PURCHASE', 113, 771);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_236.jpg', 75928.05, 'PURCHASE', 434, 525);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_303.jpg', 86606.25, 'EXCHANGE', 100, 23);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_476.jpg', 30072.45, 'PURCHASE', 20, 206);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_836.jpg', 72349.64, 'PURCHASE', 100, 30);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_141.jpg', 77674.82, 'EXCHANGE', 633, 482);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_901.jpg', 22079.57, 'PURCHASE', 98, 680);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_310.jpg', 61022.67, 'PURCHASE', 430, 312);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_302.jpg', 28238.49, 'PURCHASE', 254, 908);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_293.jpg', 47432.67, 'PURCHASE', 572, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_732.jpg', 78364.36, 'PURCHASE', 483, 177);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_560.jpg', 85487.21, 'PURCHASE', 15, 657);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_285.jpg', 74808.12, 'EXCHANGE', 41, 151);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_627.jpg', 19519.64, 'EXCHANGE', 18, 621);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_415.jpg', 34418.31, 'PURCHASE', 636, 782);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_128.jpg', 31950.91, 'PURCHASE', 260, 383);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_862.jpg', 22941.62, 'EXCHANGE', 653, 667);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_591.jpg', 31126.65, 'PURCHASE', 667, 198);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_307.jpg', 49593.66, 'PURCHASE', 57, 426);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_831.jpg', 54825.02, 'PURCHASE', 365, 182);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_931.jpg', 38989.35, 'EXCHANGE', 676, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_735.jpg', 36754.71, 'EXCHANGE', 32, 380);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_902.jpg', 8156.88, 'EXCHANGE', 675, 806);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_41.jpg', 43910.23, 'PURCHASE', 209, 624);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_948.jpg', 68749.16, 'PURCHASE', 285, 847);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_746.jpg', 47824.3, 'PURCHASE', 297, 870);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_905.jpg', 88842.33, 'EXCHANGE', 179, 567);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_579.jpg', 11528.07, 'EXCHANGE', 460, 219);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_263.jpg', 87115.73, 'PURCHASE', 156, 664);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_306.jpg', 41477.11, 'EXCHANGE', 444, 327);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_36.jpg', 12987.9, 'EXCHANGE', 431, 396);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_578.jpg', 9146.02, 'EXCHANGE', 590, 480);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_593.jpg', 68150.43, 'PURCHASE', 353, 539);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_359.jpg', 76835.66, 'EXCHANGE', 159, 737);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_598.jpg', 16404.61, 'EXCHANGE', 51, 78);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_303.jpg', 13657.4, 'PURCHASE', 466, 748);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_890.jpg', 32758.78, 'PURCHASE', 580, 839);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_926.jpg', 21133.06, 'PURCHASE', 273, 250);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_163.jpg', 73441.13, 'EXCHANGE', 495, 294);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_61.jpg', 32855.35, 'PURCHASE', 659, 663);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_876.jpg', 47178.27, 'EXCHANGE', 120, 794);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_537.jpg', 81718.74, 'PURCHASE', 170, 540);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_369.jpg', 55017.07, 'PURCHASE', 189, 350);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_928.jpg', 52536.97, 'PURCHASE', 29, 264);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_98.jpg', 88506.02, 'PURCHASE', 614, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_69.jpg', 48377.22, 'EXCHANGE', 52, 731);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_183.jpg', 51390.84, 'EXCHANGE', 8, 579);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_971.jpg', 67683.2, 'PURCHASE', 48, 390);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_344.jpg', 51561.03, 'PURCHASE', 631, 416);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_393.jpg', 70257.95, 'EXCHANGE', 123, 560);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_701.jpg', 75510.19, 'PURCHASE', 414, 572);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_701.jpg', 66744.8, 'EXCHANGE', 351, 564);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_716.jpg', 12902.7, 'EXCHANGE', 133, 696);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_316.jpg', 29988.86, 'EXCHANGE', 322, 346);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_131.jpg', 45341.95, 'PURCHASE', 58, 997);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_992.jpg', 17144.19, 'EXCHANGE', 1, 60);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_740.jpg', 79934.67, 'EXCHANGE', 563, 523);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_153.jpg', 76763.24, 'EXCHANGE', 334, 399);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_218.jpg', 55243.15, 'EXCHANGE', 12, 358);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_219.jpg', 38781.7, 'PURCHASE', 343, 775);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_43.jpg', 30734.95, 'PURCHASE', 580, 41);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_946.jpg', 26077.34, 'PURCHASE', 391, 469);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_933.jpg', 41185.76, 'EXCHANGE', 83, 160);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_916.jpg', 18965.65, 'EXCHANGE', 433, 833);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_144.jpg', 30223.68, 'PURCHASE', 688, 419);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_919.jpg', 51058.81, 'EXCHANGE', 384, 640);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_3.jpg', 8831.5, 'EXCHANGE', 502, 209);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_795.jpg', 30970.53, 'PURCHASE', 162, 770);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_652.jpg', 75911.79, 'PURCHASE', 578, 516);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_477.jpg', 85510.83, 'PURCHASE', 633, 54);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_481.jpg', 77522.85, 'EXCHANGE', 185, 878);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_856.jpg', 50184.71, 'PURCHASE', 477, 93);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_51.jpg', 44968.27, 'PURCHASE', 10, 594);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_636.jpg', 80086.92, 'PURCHASE', 317, 584);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_866.jpg', 20990.79, 'PURCHASE', 480, 1000);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_667.jpg', 28667.8, 'PURCHASE', 697, 597);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_982.jpg', 34388.94, 'EXCHANGE', 353, 17);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_529.jpg', 40229.21, 'EXCHANGE', 104, 528);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_336.jpg', 80997.62, 'EXCHANGE', 56, 728);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_567.jpg', 89553.81, 'PURCHASE', 520, 260);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_757.jpg', 69054.26, 'PURCHASE', 53, 816);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_527.jpg', 18029.43, 'PURCHASE', 635, 75);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_765.jpg', 59771.05, 'PURCHASE', 399, 296);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_986.jpg', 47928.22, 'PURCHASE', 157, 387);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_88.jpg', 6376.1, 'PURCHASE', 262, 632);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_209.jpg', 32644.89, 'PURCHASE', 42, 628);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_58.jpg', 20568.66, 'EXCHANGE', 607, 437);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_619.jpg', 67751.09, 'PURCHASE', 432, 785);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_696.jpg', 30400.22, 'EXCHANGE', 417, 716);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_395.jpg', 49070.52, 'EXCHANGE', 429, 732);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_598.jpg', 60599.34, 'EXCHANGE', 215, 185);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_540.jpg', 83411.04, 'EXCHANGE', 203, 159);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_888.jpg', 35282.8, 'PURCHASE', 463, 605);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_298.jpg', 85301.1, 'PURCHASE', 588, 345);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_224.jpg', 31233.75, 'EXCHANGE', 411, 217);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_258.jpg', 25175.33, 'EXCHANGE', 628, 76);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_898.jpg', 67370.74, 'PURCHASE', 476, 614);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_846.jpg', 54388.33, 'EXCHANGE', 179, 905);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_360.jpg', 53304.24, 'PURCHASE', 22, 651);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_713.jpg', 61853.55, 'PURCHASE', 586, 663);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_18.jpg', 83617.89, 'EXCHANGE', 232, 56);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_114.jpg', 48650.59, 'PURCHASE', 308, 883);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_673.jpg', 76321.27, 'EXCHANGE', 487, 640);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_15.jpg', 77519.21, 'EXCHANGE', 475, 548);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_346.jpg', 18351.75, 'PURCHASE', 500, 856);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_145.jpg', 5338.54, 'PURCHASE', 100, 451);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_509.jpg', 9433.0, 'EXCHANGE', 150, 423);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_713.jpg', 36566.37, 'PURCHASE', 202, 204);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_745.jpg', 26718.88, 'PURCHASE', 530, 461);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_78.jpg', 17139.48, 'EXCHANGE', 430, 695);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_56.jpg', 31616.69, 'PURCHASE', 8, 912);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_110.jpg', 16726.5, 'PURCHASE', 8, 652);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_844.jpg', 36659.23, 'PURCHASE', 24, 87);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_491.jpg', 49859.21, 'PURCHASE', 704, 986);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_766.jpg', 40933.3, 'EXCHANGE', 591, 967);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_360.jpg', 67519.48, 'PURCHASE', 111, 275);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_864.jpg', 26438.15, 'EXCHANGE', 298, 546);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_411.jpg', 6027.19, 'EXCHANGE', 74, 523);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_656.jpg', 17846.35, 'EXCHANGE', 485, 328);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_890.jpg', 23374.68, 'PURCHASE', 414, 338);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_461.jpg', 56777.93, 'EXCHANGE', 566, 12);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_71.jpg', 43862.08, 'EXCHANGE', 348, 419);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_240.jpg', 74160.51, 'EXCHANGE', 311, 21);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_565.jpg', 47515.88, 'PURCHASE', 244, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_173.jpg', 14175.39, 'PURCHASE', 355, 830);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_260.jpg', 55361.73, 'PURCHASE', 586, 597);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_617.jpg', 15924.61, 'PURCHASE', 648, 745);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_812.jpg', 86124.0, 'PURCHASE', 477, 873);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_504.jpg', 6461.95, 'EXCHANGE', 584, 879);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_845.jpg', 14527.35, 'EXCHANGE', 355, 789);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_821.jpg', 56574.36, 'EXCHANGE', 132, 352);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_41.jpg', 22841.33, 'EXCHANGE', 604, 691);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_195.jpg', 15132.86, 'PURCHASE', 699, 204);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_145.jpg', 65231.11, 'PURCHASE', 245, 844);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_701.jpg', 29711.64, 'EXCHANGE', 715, 584);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_434.jpg', 36160.44, 'PURCHASE', 205, 71);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_51.jpg', 71073.11, 'PURCHASE', 65, 269);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_144.jpg', 16063.29, 'EXCHANGE', 609, 562);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_380.jpg', 88879.83, 'PURCHASE', 589, 395);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_343.jpg', 71023.03, 'PURCHASE', 679, 121);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_523.jpg', 49860.83, 'PURCHASE', 650, 158);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_779.jpg', 70482.98, 'EXCHANGE', 279, 999);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_980.jpg', 50308.81, 'EXCHANGE', 324, 481);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_129.jpg', 70131.34, 'PURCHASE', 18, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_899.jpg', 88864.28, 'EXCHANGE', 282, 384);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_695.jpg', 29014.42, 'EXCHANGE', 334, 101);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_978.jpg', 56459.68, 'EXCHANGE', 303, 277);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_845.jpg', 53772.27, 'EXCHANGE', 10, 761);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_745.jpg', 88535.03, 'PURCHASE', 435, 743);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_811.jpg', 78820.52, 'PURCHASE', 598, 337);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_418.jpg', 57943.46, 'EXCHANGE', 130, 389);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_178.jpg', 58889.53, 'PURCHASE', 43, 416);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_196.jpg', 61241.96, 'EXCHANGE', 178, 364);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_95.jpg', 47521.35, 'PURCHASE', 539, 379);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_538.jpg', 7546.0, 'PURCHASE', 405, 822);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_728.jpg', 57439.06, 'PURCHASE', 48, 747);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_751.jpg', 86452.26, 'PURCHASE', 46, 153);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_148.jpg', 14709.6, 'EXCHANGE', 45, 740);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_28.jpg', 20220.65, 'EXCHANGE', 88, 395);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_584.jpg', 59899.99, 'EXCHANGE', 74, 503);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_879.jpg', 20943.83, 'EXCHANGE', 672, 192);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_642.jpg', 31893.52, 'EXCHANGE', 170, 146);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_58.jpg', 21558.56, 'PURCHASE', 215, 811);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_86.jpg', 60563.24, 'EXCHANGE', 22, 334);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_666.jpg', 50624.98, 'PURCHASE', 329, 973);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_726.jpg', 89457.6, 'PURCHASE', 145, 693);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_654.jpg', 78776.85, 'EXCHANGE', 671, 637);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_419.jpg', 27330.42, 'EXCHANGE', 218, 485);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_879.jpg', 16216.09, 'EXCHANGE', 303, 842);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_709.jpg', 78238.33, 'PURCHASE', 648, 87);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_816.jpg', 83758.51, 'EXCHANGE', 505, 556);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_204.jpg', 78612.68, 'PURCHASE', 249, 628);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_158.jpg', 19918.48, 'EXCHANGE', 42, 391);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_254.jpg', 46213.46, 'PURCHASE', 181, 239);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_439.jpg', 84499.09, 'PURCHASE', 215, 680);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_628.jpg', 31606.23, 'PURCHASE', 461, 159);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_112.jpg', 64882.72, 'EXCHANGE', 516, 25);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_64.jpg', 83377.71, 'PURCHASE', 426, 199);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_925.jpg', 89833.06, 'EXCHANGE', 587, 251);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_459.jpg', 84346.3, 'EXCHANGE', 357, 457);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_996.jpg', 73729.58, 'EXCHANGE', 13, 271);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_513.jpg', 54171.36, 'EXCHANGE', 342, 802);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_288.jpg', 8181.9, 'EXCHANGE', 84, 334);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_829.jpg', 48551.39, 'EXCHANGE', 713, 819);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_602.jpg', 74725.98, 'EXCHANGE', 171, 556);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_997.jpg', 22829.85, 'PURCHASE', 464, 575);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_536.jpg', 43616.82, 'PURCHASE', 503, 518);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_962.jpg', 68737.56, 'PURCHASE', 122, 711);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_395.jpg', 79133.69, 'PURCHASE', 84, 275);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_854.jpg', 61616.65, 'EXCHANGE', 123, 350);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_834.jpg', 55290.79, 'EXCHANGE', 472, 581);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_667.jpg', 14751.56, 'EXCHANGE', 505, 285);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_122.jpg', 83924.7, 'EXCHANGE', 304, 121);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_177.jpg', 10005.39, 'PURCHASE', 654, 759);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_395.jpg', 63290.73, 'EXCHANGE', 199, 445);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_283.jpg', 60667.68, 'PURCHASE', 714, 388);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_845.jpg', 13529.34, 'EXCHANGE', 286, 697);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_628.jpg', 7960.24, 'EXCHANGE', 552, 266);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_919.jpg', 67972.84, 'EXCHANGE', 484, 727);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_920.jpg', 72849.66, 'EXCHANGE', 501, 198);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_852.jpg', 85857.87, 'EXCHANGE', 602, 61);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_827.jpg', 9221.14, 'EXCHANGE', 50, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_225.jpg', 82543.27, 'EXCHANGE', 518, 118);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_467.jpg', 8497.35, 'PURCHASE', 354, 83);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_233.jpg', 79815.3, 'EXCHANGE', 84, 660);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_294.jpg', 81919.86, 'EXCHANGE', 320, 639);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_774.jpg', 8973.32, 'EXCHANGE', 240, 774);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_734.jpg', 43582.41, 'EXCHANGE', 232, 944);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_535.jpg', 40273.72, 'EXCHANGE', 559, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_956.jpg', 30600.77, 'EXCHANGE', 105, 339);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_614.jpg', 47847.8, 'EXCHANGE', 98, 706);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_168.jpg', 38789.16, 'EXCHANGE', 282, 336);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_767.jpg', 48893.55, 'EXCHANGE', 690, 654);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_281.jpg', 85323.38, 'PURCHASE', 463, 256);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_342.jpg', 78116.56, 'PURCHASE', 387, 146);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_407.jpg', 5555.39, 'PURCHASE', 231, 826);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_592.jpg', 36344.5, 'EXCHANGE', 500, 291);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_155.jpg', 32326.91, 'PURCHASE', 132, 624);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_263.jpg', 19533.39, 'PURCHASE', 466, 652);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_882.jpg', 49019.24, 'PURCHASE', 506, 945);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_926.jpg', 63439.48, 'EXCHANGE', 535, 207);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_775.jpg', 18295.38, 'EXCHANGE', 714, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_195.jpg', 30908.33, 'PURCHASE', 431, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_127.jpg', 37870.34, 'EXCHANGE', 621, 112);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_426.jpg', 46777.3, 'PURCHASE', 96, 744);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_50.jpg', 30094.05, 'PURCHASE', 573, 680);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_145.jpg', 49021.02, 'PURCHASE', 102, 749);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_83.jpg', 6674.33, 'PURCHASE', 650, 432);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_7.jpg', 5981.68, 'EXCHANGE', 78, 152);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_901.jpg', 80980.72, 'PURCHASE', 460, 193);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_800.jpg', 28224.85, 'EXCHANGE', 680, 227);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_415.jpg', 29429.51, 'EXCHANGE', 394, 248);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_781.jpg', 10566.17, 'EXCHANGE', 540, 556);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_486.jpg', 74707.24, 'PURCHASE', 617, 4);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_215.jpg', 24539.01, 'PURCHASE', 666, 871);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_631.jpg', 78513.85, 'EXCHANGE', 666, 971);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_929.jpg', 56306.38, 'EXCHANGE', 497, 435);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_927.jpg', 74537.53, 'EXCHANGE', 184, 260);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_632.jpg', 29165.0, 'PURCHASE', 227, 120);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_337.jpg', 79284.66, 'PURCHASE', 128, 940);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_139.jpg', 7418.78, 'EXCHANGE', 631, 300);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_796.jpg', 80497.72, 'EXCHANGE', 647, 345);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_968.jpg', 65523.78, 'EXCHANGE', 158, 458);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_582.jpg', 36573.84, 'PURCHASE', 263, 119);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_258.jpg', 70509.62, 'PURCHASE', 633, 140);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_618.jpg', 38738.57, 'EXCHANGE', 455, 768);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_737.jpg', 78808.65, 'PURCHASE', 135, 165);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_66.jpg', 25467.49, 'PURCHASE', 9, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_151.jpg', 84524.76, 'PURCHASE', 174, 150);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_52.jpg', 38806.77, 'PURCHASE', 299, 837);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_41.jpg', 18825.84, 'PURCHASE', 371, 826);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_718.jpg', 61317.49, 'PURCHASE', 4, 986);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_380.jpg', 16185.51, 'PURCHASE', 512, 22);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_563.jpg', 85781.21, 'PURCHASE', 154, 199);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_178.jpg', 39355.41, 'EXCHANGE', 321, 721);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_483.jpg', 74402.93, 'EXCHANGE', 79, 96);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_601.jpg', 84212.74, 'PURCHASE', 67, 523);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_359.jpg', 29310.86, 'EXCHANGE', 695, 768);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_299.jpg', 20950.68, 'PURCHASE', 299, 900);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_647.jpg', 43285.02, 'EXCHANGE', 340, 818);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_53.jpg', 32869.6, 'EXCHANGE', 48, 432);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_791.jpg', 6532.58, 'EXCHANGE', 325, 399);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_365.jpg', 71868.24, 'EXCHANGE', 704, 781);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_252.jpg', 23017.34, 'PURCHASE', 192, 899);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_402.jpg', 83177.83, 'PURCHASE', 416, 987);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_540.jpg', 58439.6, 'EXCHANGE', 216, 972);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_622.jpg', 61819.06, 'EXCHANGE', 256, 58);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_116.jpg', 27293.46, 'PURCHASE', 209, 409);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_928.jpg', 6563.19, 'PURCHASE', 307, 879);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_444.jpg', 53728.97, 'EXCHANGE', 5, 13);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_533.jpg', 23350.92, 'PURCHASE', 684, 442);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_814.jpg', 57257.96, 'PURCHASE', 459, 940);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_931.jpg', 68130.35, 'PURCHASE', 434, 463);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_151.jpg', 73640.36, 'EXCHANGE', 394, 880);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_769.jpg', 30713.71, 'PURCHASE', 312, 459);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_534.jpg', 87030.13, 'EXCHANGE', 395, 787);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_859.jpg', 8651.68, 'PURCHASE', 489, 659);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_550.jpg', 52571.38, 'EXCHANGE', 591, 911);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_504.jpg', 39622.66, 'PURCHASE', 213, 198);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_950.jpg', 45628.13, 'PURCHASE', 567, 563);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_397.jpg', 74903.6, 'PURCHASE', 173, 854);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_924.jpg', 44992.18, 'EXCHANGE', 679, 199);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_347.jpg', 28367.37, 'EXCHANGE', 7, 471);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_646.jpg', 52963.26, 'EXCHANGE', 694, 256);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_737.jpg', 37551.4, 'PURCHASE', 287, 56);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_731.jpg', 48368.78, 'PURCHASE', 373, 3);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_123.jpg', 34299.1, 'PURCHASE', 52, 219);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_334.jpg', 59739.54, 'PURCHASE', 426, 538);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_179.jpg', 62122.27, 'PURCHASE', 573, 123);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_859.jpg', 13127.79, 'EXCHANGE', 686, 286);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_939.jpg', 83460.86, 'EXCHANGE', 540, 575);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_22.jpg', 17614.7, 'EXCHANGE', 177, 902);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_2.jpg', 42845.01, 'EXCHANGE', 79, 154);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_230.jpg', 28992.74, 'EXCHANGE', 661, 531);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_673.jpg', 40684.39, 'PURCHASE', 603, 53);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_967.jpg', 30884.38, 'EXCHANGE', 205, 604);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_981.jpg', 80382.89, 'PURCHASE', 12, 290);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_876.jpg', 8322.22, 'PURCHASE', 664, 893);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_42.jpg', 56903.55, 'PURCHASE', 617, 524);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_388.jpg', 40238.16, 'PURCHASE', 684, 850);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_210.jpg', 65016.95, 'EXCHANGE', 404, 284);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_961.jpg', 9368.54, 'EXCHANGE', 684, 53);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_995.jpg', 77241.43, 'PURCHASE', 458, 605);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_963.jpg', 5792.21, 'PURCHASE', 415, 845);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_604.jpg', 79861.79, 'EXCHANGE', 141, 879);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_723.jpg', 29633.64, 'PURCHASE', 504, 310);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_869.jpg', 56746.13, 'EXCHANGE', 594, 320);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_364.jpg', 57562.97, 'EXCHANGE', 437, 71);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_436.jpg', 31124.59, 'PURCHASE', 515, 150);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_736.jpg', 41786.24, 'EXCHANGE', 51, 868);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_923.jpg', 52941.04, 'EXCHANGE', 535, 488);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_30.jpg', 65190.24, 'EXCHANGE', 596, 561);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_364.jpg', 21321.81, 'EXCHANGE', 648, 417);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_132.jpg', 30105.42, 'EXCHANGE', 582, 554);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_869.jpg', 17533.82, 'PURCHASE', 181, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_350.jpg', 73910.14, 'EXCHANGE', 203, 675);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_32.jpg', 73299.13, 'PURCHASE', 201, 966);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_468.jpg', 82221.55, 'PURCHASE', 312, 739);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_686.jpg', 35705.72, 'PURCHASE', 560, 65);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_138.jpg', 10026.42, 'PURCHASE', 714, 691);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_309.jpg', 66768.76, 'EXCHANGE', 277, 968);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_993.jpg', 12944.21, 'PURCHASE', 603, 37);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_710.jpg', 65937.92, 'PURCHASE', 19, 92);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_876.jpg', 66052.69, 'PURCHASE', 76, 896);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_800.jpg', 88375.99, 'EXCHANGE', 165, 910);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_870.jpg', 11297.92, 'PURCHASE', 577, 874);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_851.jpg', 51324.75, 'EXCHANGE', 65, 45);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_966.jpg', 10172.95, 'EXCHANGE', 264, 443);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_862.jpg', 18097.06, 'PURCHASE', 301, 294);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_734.jpg', 18421.86, 'EXCHANGE', 257, 603);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_477.jpg', 58802.63, 'PURCHASE', 331, 970);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_797.jpg', 14606.53, 'PURCHASE', 26, 113);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_630.jpg', 20877.22, 'PURCHASE', 618, 675);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_267.jpg', 62489.4, 'PURCHASE', 191, 473);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_544.jpg', 44558.72, 'PURCHASE', 662, 257);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_690.jpg', 22673.02, 'PURCHASE', 622, 15);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_934.jpg', 27370.06, 'PURCHASE', 692, 105);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_874.jpg', 20523.61, 'PURCHASE', 535, 170);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_618.jpg', 83168.33, 'EXCHANGE', 586, 449);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_534.jpg', 79274.72, 'PURCHASE', 719, 1);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_651.jpg', 68361.08, 'EXCHANGE', 376, 229);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_138.jpg', 82137.66, 'PURCHASE', 195, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_770.jpg', 80040.93, 'PURCHASE', 14, 611);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_136.jpg', 18565.75, 'PURCHASE', 473, 275);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_941.jpg', 47680.76, 'EXCHANGE', 342, 639);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_644.jpg', 59235.13, 'EXCHANGE', 281, 542);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_296.jpg', 42348.45, 'EXCHANGE', 544, 72);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_136.jpg', 33722.72, 'PURCHASE', 156, 262);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_451.jpg', 43271.78, 'PURCHASE', 652, 689);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_732.jpg', 55850.18, 'EXCHANGE', 346, 20);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_700.jpg', 15750.64, 'PURCHASE', 480, 292);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_439.jpg', 27493.01, 'EXCHANGE', 328, 801);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_76.jpg', 67205.68, 'EXCHANGE', 95, 9);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_103.jpg', 9243.24, 'PURCHASE', 269, 142);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_275.jpg', 20044.99, 'EXCHANGE', 265, 763);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_354.jpg', 25440.87, 'PURCHASE', 527, 994);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_959.jpg', 21879.85, 'PURCHASE', 428, 970);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_142.jpg', 54547.24, 'PURCHASE', 195, 510);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_47.jpg', 38324.16, 'EXCHANGE', 17, 669);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_727.jpg', 88005.69, 'PURCHASE', 649, 746);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_138.jpg', 23017.42, 'EXCHANGE', 424, 850);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_945.jpg', 62642.03, 'EXCHANGE', 343, 775);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_558.jpg', 72743.32, 'EXCHANGE', 487, 675);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_241.jpg', 5938.28, 'PURCHASE', 681, 715);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_213.jpg', 63744.2, 'EXCHANGE', 7, 718);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_824.jpg', 53555.06, 'EXCHANGE', 33, 952);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_929.jpg', 58204.85, 'PURCHASE', 468, 691);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_524.jpg', 35331.2, 'PURCHASE', 574, 865);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_510.jpg', 7241.19, 'EXCHANGE', 384, 786);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_624.jpg', 78903.09, 'EXCHANGE', 385, 934);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_863.jpg', 22156.46, 'PURCHASE', 169, 170);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_518.jpg', 78792.25, 'PURCHASE', 437, 110);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_348.jpg', 11672.19, 'PURCHASE', 71, 530);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_766.jpg', 22311.92, 'PURCHASE', 165, 388);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_748.jpg', 33285.75, 'PURCHASE', 144, 392);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_693.jpg', 47677.81, 'EXCHANGE', 626, 721);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_403.jpg', 10151.73, 'PURCHASE', 383, 726);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_966.jpg', 13918.84, 'PURCHASE', 579, 546);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_679.jpg', 49995.77, 'PURCHASE', 97, 639);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_775.jpg', 7559.59, 'PURCHASE', 231, 912);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_990.jpg', 38164.19, 'PURCHASE', 439, 312);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_410.jpg', 60159.6, 'PURCHASE', 1, 180);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_755.jpg', 34967.46, 'EXCHANGE', 220, 752);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_25.jpg', 70204.54, 'PURCHASE', 514, 106);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_331.jpg', 23610.35, 'EXCHANGE', 79, 661);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_873.jpg', 47443.16, 'PURCHASE', 65, 165);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_362.jpg', 41145.79, 'EXCHANGE', 111, 896);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_162.jpg', 66619.55, 'EXCHANGE', 350, 351);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_733.jpg', 26338.59, 'PURCHASE', 308, 780);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_667.jpg', 30481.44, 'EXCHANGE', 346, 774);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_501.jpg', 62893.56, 'EXCHANGE', 33, 606);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_140.jpg', 20844.3, 'PURCHASE', 588, 94);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_574.jpg', 24724.61, 'EXCHANGE', 664, 909);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_202.jpg', 13845.88, 'EXCHANGE', 242, 783);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_137.jpg', 74820.29, 'PURCHASE', 330, 952);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_694.jpg', 32164.62, 'PURCHASE', 231, 538);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_294.jpg', 42247.8, 'EXCHANGE', 5, 269);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_578.jpg', 34339.73, 'EXCHANGE', 463, 664);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_805.jpg', 49993.89, 'EXCHANGE', 132, 470);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_918.jpg', 19801.01, 'PURCHASE', 417, 919);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_871.jpg', 59518.33, 'PURCHASE', 58, 595);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_479.jpg', 36299.25, 'EXCHANGE', 716, 667);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_164.jpg', 72365.23, 'EXCHANGE', 99, 715);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_40.jpg', 21579.77, 'PURCHASE', 718, 422);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_129.jpg', 27203.89, 'EXCHANGE', 376, 800);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_808.jpg', 38280.32, 'PURCHASE', 328, 429);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_922.jpg', 61571.24, 'PURCHASE', 542, 743);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_998.jpg', 59278.55, 'PURCHASE', 655, 894);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_580.jpg', 65390.06, 'EXCHANGE', 279, 933);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_961.jpg', 6546.75, 'EXCHANGE', 456, 867);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_598.jpg', 86797.09, 'EXCHANGE', 716, 196);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_6.jpg', 88507.2, 'PURCHASE', 534, 602);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_908.jpg', 77119.63, 'PURCHASE', 317, 125);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_224.jpg', 41306.82, 'EXCHANGE', 458, 116);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_139.jpg', 23241.03, 'PURCHASE', 535, 348);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_244.jpg', 36338.02, 'PURCHASE', 239, 363);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_859.jpg', 34402.7, 'EXCHANGE', 247, 279);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_893.jpg', 64829.38, 'PURCHASE', 659, 140);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_405.jpg', 79181.13, 'PURCHASE', 59, 655);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_406.jpg', 57248.66, 'EXCHANGE', 573, 98);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_621.jpg', 83734.8, 'EXCHANGE', 528, 379);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_982.jpg', 62333.42, 'EXCHANGE', 104, 711);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_336.jpg', 63625.83, 'EXCHANGE', 358, 99);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_648.jpg', 84846.29, 'EXCHANGE', 613, 790);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_428.jpg', 40494.89, 'PURCHASE', 169, 543);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_860.jpg', 42882.2, 'EXCHANGE', 284, 728);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_84.jpg', 80080.22, 'EXCHANGE', 293, 629);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_145.jpg', 71126.72, 'EXCHANGE', 584, 853);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_451.jpg', 32331.33, 'EXCHANGE', 350, 189);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_623.jpg', 56066.97, 'EXCHANGE', 74, 638);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_675.jpg', 66156.39, 'PURCHASE', 713, 281);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_542.jpg', 7474.53, 'PURCHASE', 226, 970);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_209.jpg', 25374.68, 'EXCHANGE', 621, 891);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_833.jpg', 55434.26, 'EXCHANGE', 356, 755);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_517.jpg', 86894.18, 'EXCHANGE', 344, 928);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_901.jpg', 43811.85, 'EXCHANGE', 446, 413);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_675.jpg', 19380.79, 'EXCHANGE', 121, 528);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_601.jpg', 11670.82, 'PURCHASE', 372, 652);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_494.jpg', 42099.25, 'EXCHANGE', 32, 361);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_634.jpg', 62268.04, 'EXCHANGE', 370, 365);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_712.jpg', 15452.1, 'PURCHASE', 2, 859);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_924.jpg', 7508.41, 'EXCHANGE', 55, 916);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_290.jpg', 16753.62, 'PURCHASE', 114, 948);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_3.jpg', 76203.89, 'EXCHANGE', 668, 989);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_320.jpg', 26367.2, 'EXCHANGE', 498, 705);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_412.jpg', 41459.69, 'EXCHANGE', 396, 440);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_310.jpg', 5724.07, 'PURCHASE', 484, 859);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_376.jpg', 58401.51, 'EXCHANGE', 224, 956);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_374.jpg', 41882.64, 'PURCHASE', 393, 766);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_728.jpg', 58778.34, 'EXCHANGE', 281, 627);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_586.jpg', 22867.03, 'EXCHANGE', 675, 449);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_644.jpg', 39105.36, 'EXCHANGE', 300, 764);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_403.jpg', 68113.78, 'EXCHANGE', 222, 363);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_466.jpg', 15588.4, 'PURCHASE', 340, 848);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_863.jpg', 81501.86, 'EXCHANGE', 115, 357);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_790.jpg', 75296.3, 'EXCHANGE', 52, 790);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_756.jpg', 40530.23, 'PURCHASE', 487, 885);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_451.jpg', 78104.44, 'PURCHASE', 225, 250);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_441.jpg', 86949.3, 'PURCHASE', 16, 125);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_557.jpg', 82662.19, 'EXCHANGE', 430, 189);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_806.jpg', 17466.09, 'EXCHANGE', 317, 643);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_750.jpg', 40241.56, 'PURCHASE', 470, 507);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_4.jpg', 87900.16, 'PURCHASE', 717, 573);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_513.jpg', 25472.12, 'PURCHASE', 191, 110);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_343.jpg', 53488.63, 'EXCHANGE', 220, 407);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_346.jpg', 27061.24, 'PURCHASE', 340, 296);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_525.jpg', 13949.85, 'EXCHANGE', 663, 33);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_902.jpg', 80548.22, 'EXCHANGE', 108, 519);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_368.jpg', 71580.28, 'PURCHASE', 37, 991);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_832.jpg', 12286.15, 'EXCHANGE', 658, 576);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_309.jpg', 14245.59, 'PURCHASE', 309, 742);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_874.jpg', 58013.81, 'EXCHANGE', 550, 187);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_457.jpg', 13199.71, 'PURCHASE', 645, 473);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_755.jpg', 22132.33, 'PURCHASE', 228, 177);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_79.jpg', 17188.85, 'PURCHASE', 196, 805);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_29.jpg', 27169.28, 'PURCHASE', 532, 735);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_191.jpg', 46575.63, 'EXCHANGE', 445, 414);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_553.jpg', 37783.2, 'PURCHASE', 76, 666);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_113.jpg', 71496.55, 'PURCHASE', 97, 174);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_722.jpg', 38567.99, 'EXCHANGE', 148, 712);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_44.jpg', 5476.55, 'PURCHASE', 389, 189);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_340.jpg', 46702.13, 'EXCHANGE', 336, 917);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_843.jpg', 37995.12, 'EXCHANGE', 376, 941);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_915.jpg', 58152.49, 'PURCHASE', 457, 862);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_61.jpg', 21932.43, 'PURCHASE', 428, 63);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_590.jpg', 62971.96, 'EXCHANGE', 435, 44);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_718.jpg', 30145.82, 'EXCHANGE', 92, 777);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_595.jpg', 23737.78, 'EXCHANGE', 138, 510);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_867.jpg', 36805.56, 'EXCHANGE', 94, 832);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_710.jpg', 52227.67, 'EXCHANGE', 599, 10);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_938.jpg', 46207.4, 'EXCHANGE', 132, 307);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_697.jpg', 61832.65, 'EXCHANGE', 450, 307);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_52.jpg', 10878.53, 'EXCHANGE', 455, 704);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_135.jpg', 40482.18, 'EXCHANGE', 198, 399);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_883.jpg', 27991.54, 'EXCHANGE', 593, 471);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_457.jpg', 42168.29, 'PURCHASE', 134, 738);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_125.jpg', 60323.8, 'EXCHANGE', 298, 358);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_477.jpg', 84887.3, 'PURCHASE', 42, 403);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_371.jpg', 43280.3, 'PURCHASE', 550, 406);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_715.jpg', 7181.88, 'PURCHASE', 350, 294);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_759.jpg', 79427.54, 'EXCHANGE', 131, 982);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_168.jpg', 18893.16, 'EXCHANGE', 398, 602);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_625.jpg', 57715.31, 'PURCHASE', 254, 408);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_225.jpg', 83630.51, 'EXCHANGE', 198, 456);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_178.jpg', 26535.18, 'PURCHASE', 388, 353);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_40.jpg', 81680.14, 'PURCHASE', 68, 586);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_603.jpg', 87501.35, 'EXCHANGE', 276, 843);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_435.jpg', 28235.45, 'EXCHANGE', 603, 246);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_22.jpg', 54044.46, 'PURCHASE', 330, 585);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_281.jpg', 50863.8, 'EXCHANGE', 554, 520);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_995.jpg', 34499.78, 'EXCHANGE', 710, 469);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_849.jpg', 24928.37, 'PURCHASE', 131, 616);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_828.jpg', 24332.34, 'EXCHANGE', 312, 102);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_530.jpg', 6662.38, 'PURCHASE', 660, 931);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_828.jpg', 72533.14, 'EXCHANGE', 652, 827);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_685.jpg', 52907.42, 'EXCHANGE', 676, 262);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_804.jpg', 16038.34, 'PURCHASE', 229, 792);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_55.jpg', 25724.37, 'EXCHANGE', 569, 718);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_944.jpg', 41571.41, 'PURCHASE', 76, 954);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_14.jpg', 59314.04, 'PURCHASE', 664, 241);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_975.jpg', 77142.51, 'EXCHANGE', 593, 781);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_131.jpg', 19200.94, 'EXCHANGE', 155, 783);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_858.jpg', 11957.86, 'PURCHASE', 605, 230);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_161.jpg', 20787.79, 'PURCHASE', 294, 985);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_722.jpg', 54182.79, 'EXCHANGE', 644, 498);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_183.jpg', 64814.53, 'PURCHASE', 437, 799);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_534.jpg', 73224.77, 'EXCHANGE', 632, 815);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_472.jpg', 32052.86, 'EXCHANGE', 294, 44);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_62.jpg', 65031.65, 'EXCHANGE', 585, 934);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_498.jpg', 83799.47, 'EXCHANGE', 528, 813);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_99.jpg', 36151.83, 'PURCHASE', 630, 449);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_799.jpg', 82692.19, 'PURCHASE', 313, 272);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_673.jpg', 14819.61, 'PURCHASE', 570, 925);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_968.jpg', 18052.61, 'PURCHASE', 75, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_193.jpg', 15335.36, 'PURCHASE', 656, 232);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_647.jpg', 7958.69, 'PURCHASE', 452, 341);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_452.jpg', 70315.47, 'EXCHANGE', 99, 684);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_349.jpg', 47821.04, 'EXCHANGE', 3, 768);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_600.jpg', 74775.58, 'EXCHANGE', 409, 707);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_248.jpg', 55278.69, 'PURCHASE', 660, 992);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_296.jpg', 27614.02, 'PURCHASE', 366, 473);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_201.jpg', 38840.13, 'PURCHASE', 621, 425);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_814.jpg', 85735.53, 'PURCHASE', 243, 614);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_149.jpg', 56060.21, 'EXCHANGE', 114, 392);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_163.jpg', 14207.55, 'EXCHANGE', 592, 807);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_250.jpg', 66880.76, 'PURCHASE', 92, 868);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_313.jpg', 35408.17, 'EXCHANGE', 372, 985);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_521.jpg', 32006.95, 'EXCHANGE', 637, 228);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_723.jpg', 89476.13, 'EXCHANGE', 408, 767);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_705.jpg', 31178.02, 'EXCHANGE', 712, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_852.jpg', 7708.07, 'EXCHANGE', 232, 712);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_669.jpg', 61012.46, 'EXCHANGE', 425, 515);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_103.jpg', 43513.59, 'EXCHANGE', 245, 828);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_83.jpg', 51355.59, 'PURCHASE', 583, 959);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_788.jpg', 75739.33, 'EXCHANGE', 636, 443);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_653.jpg', 26410.7, 'EXCHANGE', 73, 709);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_161.jpg', 87806.35, 'EXCHANGE', 609, 59);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_282.jpg', 19431.23, 'EXCHANGE', 367, 199);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_719.jpg', 89044.33, 'EXCHANGE', 637, 934);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_443.jpg', 39250.25, 'PURCHASE', 93, 226);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_415.jpg', 11008.95, 'PURCHASE', 469, 313);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_250.jpg', 43524.8, 'EXCHANGE', 569, 549);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_75.jpg', 5766.28, 'PURCHASE', 41, 980);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_436.jpg', 53603.45, 'PURCHASE', 587, 237);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_834.jpg', 48806.45, 'PURCHASE', 358, 58);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_101.jpg', 29559.14, 'EXCHANGE', 435, 567);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_327.jpg', 54925.46, 'EXCHANGE', 708, 785);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_656.jpg', 8902.61, 'PURCHASE', 330, 692);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_240.jpg', 87845.33, 'PURCHASE', 208, 86);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_715.jpg', 82005.4, 'EXCHANGE', 545, 293);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_831.jpg', 63792.79, 'PURCHASE', 548, 30);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_233.jpg', 36543.7, 'PURCHASE', 253, 776);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_736.jpg', 51009.05, 'EXCHANGE', 87, 7);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_331.jpg', 64533.54, 'PURCHASE', 625, 63);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_172.jpg', 15767.4, 'PURCHASE', 92, 642);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_889.jpg', 68992.37, 'PURCHASE', 594, 397);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_773.jpg', 45065.17, 'EXCHANGE', 169, 589);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_311.jpg', 18186.08, 'EXCHANGE', 452, 490);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_24.jpg', 13319.83, 'PURCHASE', 645, 403);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_88.jpg', 22507.67, 'PURCHASE', 667, 976);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_334.jpg', 60119.36, 'EXCHANGE', 90, 922);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_48.jpg', 74097.2, 'PURCHASE', 386, 48);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_327.jpg', 25076.26, 'PURCHASE', 548, 713);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_536.jpg', 88717.58, 'PURCHASE', 701, 53);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_673.jpg', 29213.82, 'EXCHANGE', 368, 14);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_235.jpg', 75881.74, 'PURCHASE', 10, 393);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_571.jpg', 85519.9, 'PURCHASE', 388, 971);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_609.jpg', 33563.33, 'EXCHANGE', 182, 580);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_434.jpg', 26773.89, 'EXCHANGE', 316, 106);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_488.jpg', 69319.35, 'PURCHASE', 315, 944);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_2.jpg', 85259.67, 'EXCHANGE', 69, 523);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_689.jpg', 21684.41, 'PURCHASE', 147, 529);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_552.jpg', 39223.87, 'PURCHASE', 388, 869);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_905.jpg', 88606.0, 'PURCHASE', 171, 237);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_746.jpg', 81630.78, 'PURCHASE', 280, 955);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_187.jpg', 36211.44, 'EXCHANGE', 228, 770);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_907.jpg', 41930.67, 'EXCHANGE', 41, 440);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_703.jpg', 56628.73, 'EXCHANGE', 425, 888);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_503.jpg', 27858.58, 'PURCHASE', 373, 950);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_625.jpg', 32471.25, 'EXCHANGE', 650, 956);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_325.jpg', 30942.99, 'EXCHANGE', 306, 677);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_753.jpg', 67064.34, 'PURCHASE', 477, 326);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_372.jpg', 51425.21, 'EXCHANGE', 482, 484);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_783.jpg', 47763.9, 'EXCHANGE', 149, 164);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_667.jpg', 13672.23, 'PURCHASE', 471, 367);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_454.jpg', 74388.72, 'PURCHASE', 318, 445);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_761.jpg', 89360.51, 'EXCHANGE', 73, 82);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_50.jpg', 82139.12, 'PURCHASE', 90, 334);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_839.jpg', 38330.76, 'EXCHANGE', 203, 624);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_583.jpg', 81686.24, 'EXCHANGE', 439, 591);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_278.jpg', 75305.54, 'PURCHASE', 295, 629);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_590.jpg', 81132.81, 'PURCHASE', 505, 142);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_942.jpg', 22720.79, 'EXCHANGE', 610, 1);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_215.jpg', 77615.81, 'EXCHANGE', 69, 80);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_431.jpg', 67267.07, 'PURCHASE', 627, 244);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_653.jpg', 50242.96, 'PURCHASE', 309, 886);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_455.jpg', 62521.39, 'PURCHASE', 219, 739);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_888.jpg', 25393.64, 'EXCHANGE', 218, 746);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_501.jpg', 71065.94, 'EXCHANGE', 270, 748);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_748.jpg', 54061.3, 'EXCHANGE', 633, 853);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_8.jpg', 64645.08, 'EXCHANGE', 301, 817);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_420.jpg', 65272.21, 'EXCHANGE', 496, 941);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_306.jpg', 11635.48, 'PURCHASE', 529, 564);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_520.jpg', 53397.43, 'PURCHASE', 28, 261);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_818.jpg', 80914.24, 'PURCHASE', 188, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_202.jpg', 87580.22, 'EXCHANGE', 187, 829);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_134.jpg', 35649.31, 'EXCHANGE', 540, 784);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_799.jpg', 84977.43, 'PURCHASE', 139, 80);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_954.jpg', 53982.57, 'EXCHANGE', 331, 455);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_497.jpg', 29944.31, 'EXCHANGE', 619, 914);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_444.jpg', 62635.25, 'EXCHANGE', 370, 609);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_647.jpg', 33730.66, 'PURCHASE', 518, 856);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_108.jpg', 84441.77, 'EXCHANGE', 312, 246);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_310.jpg', 84277.77, 'EXCHANGE', 242, 761);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_156.jpg', 24854.99, 'PURCHASE', 442, 307);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_189.jpg', 11471.74, 'EXCHANGE', 286, 811);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_915.jpg', 67564.52, 'EXCHANGE', 293, 49);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_269.jpg', 79808.27, 'PURCHASE', 228, 225);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_473.jpg', 24195.52, 'EXCHANGE', 260, 811);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_978.jpg', 23711.38, 'PURCHASE', 719, 503);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_652.jpg', 20680.58, 'EXCHANGE', 128, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_377.jpg', 20524.38, 'PURCHASE', 421, 324);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_736.jpg', 43111.1, 'EXCHANGE', 181, 223);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_980.jpg', 32431.85, 'EXCHANGE', 435, 331);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_501.jpg', 5362.54, 'PURCHASE', 1, 618);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_681.jpg', 31239.07, 'EXCHANGE', 604, 160);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_221.jpg', 45601.7, 'EXCHANGE', 248, 907);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_778.jpg', 28678.85, 'EXCHANGE', 653, 770);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_350.jpg', 13182.93, 'EXCHANGE', 162, 383);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_927.jpg', 33451.94, 'EXCHANGE', 38, 120);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_232.jpg', 81098.72, 'PURCHASE', 546, 668);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_776.jpg', 36228.03, 'EXCHANGE', 38, 421);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_772.jpg', 22739.74, 'PURCHASE', 255, 977);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_356.jpg', 63653.04, 'PURCHASE', 619, 412);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_287.jpg', 66555.22, 'EXCHANGE', 278, 966);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_509.jpg', 89813.9, 'PURCHASE', 100, 112);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_587.jpg', 5488.25, 'PURCHASE', 116, 19);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_676.jpg', 10533.23, 'PURCHASE', 457, 383);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_160.jpg', 58989.74, 'PURCHASE', 115, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_743.jpg', 65001.45, 'PURCHASE', 608, 992);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_956.jpg', 81517.27, 'EXCHANGE', 268, 468);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_378.jpg', 76979.65, 'PURCHASE', 479, 176);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_631.jpg', 63191.29, 'PURCHASE', 263, 51);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_926.jpg', 15558.27, 'EXCHANGE', 489, 971);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_855.jpg', 45183.78, 'PURCHASE', 141, 664);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_316.jpg', 30673.13, 'PURCHASE', 704, 176);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_735.jpg', 22171.59, 'PURCHASE', 559, 111);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_664.jpg', 69191.93, 'EXCHANGE', 619, 776);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_325.jpg', 64141.2, 'PURCHASE', 269, 918);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_602.jpg', 78902.74, 'PURCHASE', 17, 441);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_227.jpg', 83078.11, 'PURCHASE', 562, 755);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_40.jpg', 71786.98, 'EXCHANGE', 571, 764);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_230.jpg', 84269.77, 'EXCHANGE', 550, 881);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_786.jpg', 26471.98, 'PURCHASE', 335, 658);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_808.jpg', 18356.84, 'PURCHASE', 2, 645);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_854.jpg', 11634.04, 'EXCHANGE', 658, 745);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_304.jpg', 56050.21, 'PURCHASE', 7, 30);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_577.jpg', 19963.91, 'PURCHASE', 548, 152);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_268.jpg', 29146.47, 'EXCHANGE', 58, 875);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_918.jpg', 43147.2, 'PURCHASE', 625, 795);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_730.jpg', 68369.15, 'PURCHASE', 383, 580);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_475.jpg', 28212.84, 'PURCHASE', 346, 86);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_808.jpg', 61960.33, 'PURCHASE', 550, 826);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_768.jpg', 56626.77, 'EXCHANGE', 420, 115);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_648.jpg', 65983.34, 'PURCHASE', 681, 760);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_502.jpg', 36578.78, 'EXCHANGE', 203, 566);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_765.jpg', 48491.89, 'PURCHASE', 72, 647);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_73.jpg', 51710.59, 'PURCHASE', 548, 60);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_763.jpg', 71376.63, 'EXCHANGE', 280, 516);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_532.jpg', 68418.95, 'PURCHASE', 76, 43);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_689.jpg', 25225.38, 'EXCHANGE', 559, 293);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_320.jpg', 81710.31, 'EXCHANGE', 532, 521);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_314.jpg', 89201.97, 'EXCHANGE', 606, 895);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_816.jpg', 5365.93, 'PURCHASE', 215, 561);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_53.jpg', 43580.17, 'EXCHANGE', 358, 938);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_785.jpg', 62023.15, 'PURCHASE', 226, 76);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_161.jpg', 10171.07, 'PURCHASE', 517, 601);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_920.jpg', 40103.15, 'EXCHANGE', 329, 385);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_81.jpg', 38530.61, 'PURCHASE', 374, 962);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_32.jpg', 78489.45, 'PURCHASE', 532, 357);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_465.jpg', 61841.81, 'EXCHANGE', 581, 741);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_951.jpg', 18026.21, 'PURCHASE', 207, 966);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_986.jpg', 54020.99, 'PURCHASE', 252, 640);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_361.jpg', 9197.39, 'EXCHANGE', 171, 417);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_391.jpg', 10065.77, 'PURCHASE', 648, 982);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_373.jpg', 69836.22, 'PURCHASE', 586, 617);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_996.jpg', 44371.54, 'PURCHASE', 78, 713);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_821.jpg', 68375.07, 'PURCHASE', 79, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_464.jpg', 74729.07, 'EXCHANGE', 101, 518);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_548.jpg', 68857.08, 'PURCHASE', 477, 745);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_807.jpg', 41948.74, 'EXCHANGE', 406, 791);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_933.jpg', 19275.45, 'EXCHANGE', 549, 225);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_667.jpg', 40760.62, 'PURCHASE', 293, 937);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_571.jpg', 23909.08, 'EXCHANGE', 716, 715);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_226.jpg', 56955.86, 'EXCHANGE', 670, 620);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_339.jpg', 87788.61, 'EXCHANGE', 80, 14);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_233.jpg', 78076.61, 'EXCHANGE', 556, 731);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_758.jpg', 63966.52, 'PURCHASE', 503, 554);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_949.jpg', 43331.12, 'PURCHASE', 305, 334);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_564.jpg', 89412.34, 'EXCHANGE', 462, 932);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_314.jpg', 18284.14, 'PURCHASE', 71, 885);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_122.jpg', 87073.14, 'EXCHANGE', 485, 204);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_726.jpg', 54249.08, 'PURCHASE', 4, 755);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_697.jpg', 70550.9, 'EXCHANGE', 269, 139);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_456.jpg', 10284.22, 'EXCHANGE', 610, 886);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_150.jpg', 25270.52, 'PURCHASE', 228, 730);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_857.jpg', 12992.34, 'EXCHANGE', 315, 560);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_812.jpg', 57837.02, 'PURCHASE', 572, 271);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_682.jpg', 9867.14, 'EXCHANGE', 236, 900);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_288.jpg', 57434.56, 'PURCHASE', 159, 338);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_285.jpg', 31996.71, 'EXCHANGE', 532, 508);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_958.jpg', 81303.83, 'EXCHANGE', 619, 478);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_526.jpg', 23673.52, 'EXCHANGE', 628, 428);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_996.jpg', 19253.74, 'EXCHANGE', 331, 64);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_566.jpg', 59918.62, 'PURCHASE', 241, 189);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_361.jpg', 60255.34, 'PURCHASE', 634, 892);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_793.jpg', 68596.94, 'EXCHANGE', 307, 371);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_910.jpg', 19346.19, 'PURCHASE', 333, 26);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_431.jpg', 63390.91, 'EXCHANGE', 256, 294);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_527.jpg', 49201.01, 'PURCHASE', 451, 968);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_652.jpg', 85595.4, 'PURCHASE', 100, 289);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_744.jpg', 26240.43, 'EXCHANGE', 639, 748);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_216.jpg', 55583.67, 'PURCHASE', 142, 278);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_154.jpg', 49152.0, 'EXCHANGE', 238, 167);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_662.jpg', 76039.34, 'EXCHANGE', 196, 718);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_548.jpg', 38636.18, 'EXCHANGE', 78, 455);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_127.jpg', 67853.16, 'EXCHANGE', 246, 945);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_356.jpg', 69922.11, 'PURCHASE', 214, 434);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_888.jpg', 88827.11, 'PURCHASE', 159, 229);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_867.jpg', 77284.74, 'PURCHASE', 255, 17);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_360.jpg', 33482.38, 'EXCHANGE', 304, 111);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_683.jpg', 69017.06, 'EXCHANGE', 483, 771);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_817.jpg', 22732.47, 'EXCHANGE', 165, 876);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_160.jpg', 19467.39, 'EXCHANGE', 26, 954);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_982.jpg', 88241.5, 'PURCHASE', 659, 8);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_128.jpg', 42749.03, 'EXCHANGE', 72, 266);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_574.jpg', 89726.87, 'PURCHASE', 26, 506);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_962.jpg', 43585.83, 'EXCHANGE', 353, 892);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_616.jpg', 81112.92, 'PURCHASE', 405, 675);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_607.jpg', 13819.49, 'PURCHASE', 405, 109);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_630.jpg', 49240.24, 'PURCHASE', 525, 74);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_414.jpg', 28447.97, 'EXCHANGE', 427, 306);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_635.jpg', 39708.68, 'PURCHASE', 288, 500);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_89.jpg', 63338.67, 'PURCHASE', 567, 340);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_184.jpg', 29345.19, 'PURCHASE', 305, 510);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_920.jpg', 77469.22, 'PURCHASE', 701, 458);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_317.jpg', 38664.95, 'EXCHANGE', 327, 15);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_540.jpg', 84255.36, 'EXCHANGE', 596, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_838.jpg', 84096.48, 'EXCHANGE', 574, 354);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_921.jpg', 17744.56, 'PURCHASE', 35, 449);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_66.jpg', 44600.47, 'PURCHASE', 160, 669);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_694.jpg', 39211.72, 'PURCHASE', 349, 92);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_819.jpg', 36542.27, 'PURCHASE', 651, 466);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_990.jpg', 18237.22, 'EXCHANGE', 331, 268);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_262.jpg', 55975.02, 'EXCHANGE', 309, 733);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_65.jpg', 45564.69, 'PURCHASE', 706, 75);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_947.jpg', 53917.83, 'PURCHASE', 412, 312);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_64.jpg', 89106.38, 'PURCHASE', 51, 190);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_728.jpg', 26381.06, 'EXCHANGE', 581, 772);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_429.jpg', 40563.47, 'PURCHASE', 600, 812);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_294.jpg', 78531.76, 'PURCHASE', 437, 263);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_866.jpg', 60662.17, 'PURCHASE', 35, 8);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_268.jpg', 58215.75, 'PURCHASE', 159, 806);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_690.jpg', 47788.58, 'EXCHANGE', 483, 336);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_317.jpg', 40681.2, 'EXCHANGE', 332, 39);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_240.jpg', 47240.49, 'EXCHANGE', 46, 275);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_131.jpg', 83834.56, 'EXCHANGE', 623, 822);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_486.jpg', 6432.79, 'PURCHASE', 271, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_885.jpg', 50730.02, 'EXCHANGE', 666, 53);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_484.jpg', 37471.43, 'EXCHANGE', 7, 530);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_877.jpg', 10462.65, 'PURCHASE', 100, 796);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_634.jpg', 20112.4, 'EXCHANGE', 190, 957);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_10.jpg', 6590.19, 'EXCHANGE', 665, 521);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_657.jpg', 16066.68, 'EXCHANGE', 498, 689);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_751.jpg', 17962.01, 'PURCHASE', 479, 633);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_902.jpg', 61534.36, 'EXCHANGE', 462, 554);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_309.jpg', 37707.27, 'EXCHANGE', 178, 542);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_351.jpg', 12916.45, 'PURCHASE', 608, 110);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_266.jpg', 34491.69, 'PURCHASE', 349, 509);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_807.jpg', 5305.99, 'EXCHANGE', 616, 501);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_317.jpg', 46708.55, 'EXCHANGE', 523, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_127.jpg', 12181.9, 'EXCHANGE', 267, 646);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_300.jpg', 26214.56, 'PURCHASE', 499, 151);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_190.jpg', 23983.43, 'PURCHASE', 396, 630);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_172.jpg', 6191.88, 'EXCHANGE', 710, 923);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_45.jpg', 9753.39, 'PURCHASE', 710, 933);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_487.jpg', 30319.26, 'PURCHASE', 114, 261);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_599.jpg', 15652.85, 'PURCHASE', 492, 918);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_885.jpg', 11143.96, 'PURCHASE', 509, 578);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_918.jpg', 59689.28, 'PURCHASE', 589, 803);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_296.jpg', 53648.0, 'PURCHASE', 102, 73);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_179.jpg', 19529.27, 'PURCHASE', 484, 649);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_852.jpg', 25569.75, 'PURCHASE', 699, 306);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_124.jpg', 85570.96, 'PURCHASE', 300, 199);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_695.jpg', 73722.85, 'PURCHASE', 86, 614);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_627.jpg', 68337.19, 'PURCHASE', 364, 525);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_401.jpg', 13542.38, 'EXCHANGE', 30, 739);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_695.jpg', 49529.9, 'PURCHASE', 682, 986);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_31.jpg', 20523.96, 'PURCHASE', 60, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_493.jpg', 53706.52, 'PURCHASE', 654, 371);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_380.jpg', 81917.98, 'EXCHANGE', 511, 339);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_595.jpg', 52294.05, 'EXCHANGE', 342, 194);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_270.jpg', 60557.85, 'PURCHASE', 697, 214);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_594.jpg', 75349.68, 'PURCHASE', 100, 389);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_945.jpg', 88374.92, 'EXCHANGE', 512, 928);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_948.jpg', 86126.74, 'EXCHANGE', 520, 711);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_21.jpg', 27758.08, 'EXCHANGE', 489, 415);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_715.jpg', 61796.04, 'EXCHANGE', 416, 893);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_581.jpg', 69698.64, 'EXCHANGE', 280, 349);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_74.jpg', 88800.05, 'PURCHASE', 284, 292);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_426.jpg', 6213.6, 'EXCHANGE', 661, 876);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_642.jpg', 21754.8, 'EXCHANGE', 718, 993);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_960.jpg', 15111.54, 'PURCHASE', 29, 407);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_503.jpg', 20566.64, 'EXCHANGE', 262, 586);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_192.jpg', 7945.79, 'PURCHASE', 293, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_736.jpg', 28520.14, 'PURCHASE', 718, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_498.jpg', 69813.63, 'EXCHANGE', 517, 225);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_476.jpg', 25669.94, 'PURCHASE', 552, 496);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_863.jpg', 5638.22, 'PURCHASE', 293, 461);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_463.jpg', 78061.88, 'PURCHASE', 580, 325);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_827.jpg', 17413.23, 'PURCHASE', 261, 20);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_905.jpg', 89325.21, 'EXCHANGE', 312, 322);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_784.jpg', 80050.08, 'PURCHASE', 326, 616);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_163.jpg', 51313.14, 'EXCHANGE', 642, 715);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_88.jpg', 24238.16, 'PURCHASE', 210, 543);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_70.jpg', 51979.25, 'PURCHASE', 46, 210);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_958.jpg', 21351.38, 'EXCHANGE', 136, 308);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_311.jpg', 30960.57, 'EXCHANGE', 43, 81);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_570.jpg', 16427.2, 'EXCHANGE', 253, 914);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_380.jpg', 51121.19, 'PURCHASE', 477, 383);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_420.jpg', 34749.41, 'PURCHASE', 334, 111);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_211.jpg', 10080.51, 'EXCHANGE', 4, 300);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_222.jpg', 62624.57, 'PURCHASE', 542, 741);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_365.jpg', 36040.19, 'EXCHANGE', 440, 187);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_885.jpg', 84933.36, 'PURCHASE', 7, 607);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_738.jpg', 63747.4, 'EXCHANGE', 26, 124);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_635.jpg', 49361.45, 'EXCHANGE', 320, 733);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_170.jpg', 28822.68, 'EXCHANGE', 696, 76);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_75.jpg', 44402.31, 'PURCHASE', 171, 832);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_410.jpg', 61577.55, 'PURCHASE', 87, 50);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_838.jpg', 77872.75, 'EXCHANGE', 267, 139);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_857.jpg', 69153.55, 'EXCHANGE', 173, 321);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_603.jpg', 82163.07, 'EXCHANGE', 327, 289);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_411.jpg', 14609.81, 'PURCHASE', 613, 30);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_108.jpg', 34317.4, 'EXCHANGE', 397, 986);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_931.jpg', 64688.0, 'PURCHASE', 536, 751);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_708.jpg', 15540.38, 'PURCHASE', 571, 128);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_461.jpg', 23121.53, 'EXCHANGE', 296, 520);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_462.jpg', 71611.01, 'EXCHANGE', 241, 300);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_33.jpg', 83989.92, 'EXCHANGE', 343, 634);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_103.jpg', 66952.63, 'PURCHASE', 412, 111);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_378.jpg', 24133.74, 'PURCHASE', 665, 747);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_993.jpg', 37358.84, 'PURCHASE', 584, 866);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_897.jpg', 60236.63, 'EXCHANGE', 71, 799);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_441.jpg', 85360.51, 'PURCHASE', 590, 990);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_118.jpg', 43259.89, 'EXCHANGE', 437, 858);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_32.jpg', 76544.0, 'EXCHANGE', 348, 842);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_694.jpg', 67123.49, 'EXCHANGE', 435, 32);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_734.jpg', 48670.41, 'PURCHASE', 6, 646);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_167.jpg', 13993.16, 'PURCHASE', 84, 318);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_683.jpg', 76625.19, 'EXCHANGE', 318, 445);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_157.jpg', 32461.98, 'EXCHANGE', 571, 623);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_532.jpg', 32458.6, 'PURCHASE', 540, 566);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_46.jpg', 5823.01, 'PURCHASE', 233, 190);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_679.jpg', 14515.92, 'PURCHASE', 235, 131);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_102.jpg', 41218.11, 'EXCHANGE', 41, 764);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_310.jpg', 65288.34, 'PURCHASE', 464, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_604.jpg', 32955.63, 'PURCHASE', 591, 665);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_282.jpg', 81021.5, 'PURCHASE', 8, 464);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_604.jpg', 28328.52, 'PURCHASE', 173, 112);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_74.jpg', 21231.15, 'PURCHASE', 419, 943);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_485.jpg', 87025.05, 'PURCHASE', 105, 310);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_999.jpg', 19952.77, 'EXCHANGE', 639, 83);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_225.jpg', 63657.54, 'PURCHASE', 614, 981);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_103.jpg', 81737.6, 'EXCHANGE', 558, 192);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_428.jpg', 12129.45, 'PURCHASE', 705, 879);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_144.jpg', 20825.32, 'EXCHANGE', 451, 369);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_296.jpg', 9795.48, 'PURCHASE', 436, 640);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_250.jpg', 21167.97, 'PURCHASE', 595, 94);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_784.jpg', 47204.03, 'EXCHANGE', 19, 889);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_30.jpg', 38783.48, 'EXCHANGE', 542, 929);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_834.jpg', 24867.54, 'PURCHASE', 230, 390);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_893.jpg', 59056.73, 'EXCHANGE', 392, 168);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_786.jpg', 7927.13, 'EXCHANGE', 587, 347);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_164.jpg', 13640.08, 'EXCHANGE', 675, 900);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_960.jpg', 23063.95, 'EXCHANGE', 207, 64);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_871.jpg', 38693.97, 'EXCHANGE', 523, 902);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_845.jpg', 8773.83, 'EXCHANGE', 35, 852);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_91.jpg', 88942.35, 'EXCHANGE', 676, 995);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_826.jpg', 10703.94, 'EXCHANGE', 211, 169);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_288.jpg', 76070.97, 'EXCHANGE', 554, 158);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_347.jpg', 20271.61, 'PURCHASE', 517, 998);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_348.jpg', 89555.46, 'PURCHASE', 122, 28);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_750.jpg', 81873.05, 'EXCHANGE', 369, 477);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_670.jpg', 9287.93, 'PURCHASE', 341, 249);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_539.jpg', 64761.53, 'PURCHASE', 184, 253);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_502.jpg', 35340.2, 'PURCHASE', 704, 592);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_815.jpg', 7662.43, 'EXCHANGE', 510, 179);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_670.jpg', 35914.45, 'PURCHASE', 193, 832);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_670.jpg', 5138.75, 'PURCHASE', 509, 458);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_953.jpg', 61270.75, 'EXCHANGE', 451, 263);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_744.jpg', 37885.4, 'PURCHASE', 610, 868);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_170.jpg', 56485.79, 'EXCHANGE', 428, 829);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_851.jpg', 24075.55, 'PURCHASE', 59, 244);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_599.jpg', 21744.62, 'EXCHANGE', 519, 797);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_324.jpg', 82278.89, 'PURCHASE', 575, 977);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_93.jpg', 80441.87, 'PURCHASE', 408, 693);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_445.jpg', 78692.13, 'PURCHASE', 317, 133);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_306.jpg', 34100.77, 'PURCHASE', 652, 130);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_452.jpg', 20418.2, 'PURCHASE', 586, 128);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_634.jpg', 11467.72, 'EXCHANGE', 510, 765);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_373.jpg', 9658.85, 'EXCHANGE', 313, 976);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_968.jpg', 47866.84, 'EXCHANGE', 463, 497);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_3.jpg', 58186.87, 'PURCHASE', 532, 530);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_1.jpg', 21539.16, 'PURCHASE', 330, 207);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_904.jpg', 34827.59, 'PURCHASE', 627, 582);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_51.jpg', 78671.18, 'PURCHASE', 276, 297);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_203.jpg', 22135.75, 'PURCHASE', 432, 826);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_426.jpg', 55355.59, 'PURCHASE', 383, 480);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_876.jpg', 35087.95, 'EXCHANGE', 637, 827);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_603.jpg', 24801.19, 'EXCHANGE', 242, 606);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_673.jpg', 41898.04, 'PURCHASE', 281, 777);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_406.jpg', 33043.52, 'PURCHASE', 473, 841);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_102.jpg', 37938.21, 'EXCHANGE', 367, 450);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_150.jpg', 82985.12, 'EXCHANGE', 283, 9);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_280.jpg', 27350.17, 'EXCHANGE', 543, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_300.jpg', 58813.9, 'PURCHASE', 613, 158);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_982.jpg', 45193.61, 'PURCHASE', 639, 873);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_856.jpg', 33216.94, 'PURCHASE', 373, 544);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_374.jpg', 45287.35, 'PURCHASE', 563, 343);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_21.jpg', 9773.26, 'EXCHANGE', 157, 269);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_485.jpg', 85273.88, 'PURCHASE', 157, 548);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_13.jpg', 69257.98, 'PURCHASE', 643, 177);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_868.jpg', 39771.28, 'PURCHASE', 167, 811);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_356.jpg', 54577.55, 'PURCHASE', 449, 7);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_598.jpg', 83883.15, 'EXCHANGE', 703, 166);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_249.jpg', 8473.06, 'EXCHANGE', 75, 979);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_115.jpg', 70929.92, 'PURCHASE', 338, 651);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_511.jpg', 7195.47, 'PURCHASE', 131, 447);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_685.jpg', 86036.37, 'PURCHASE', 262, 181);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_703.jpg', 61295.41, 'PURCHASE', 645, 841);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_792.jpg', 85893.83, 'EXCHANGE', 295, 138);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_844.jpg', 42856.3, 'PURCHASE', 688, 653);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_953.jpg', 62736.86, 'PURCHASE', 421, 909);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_113.jpg', 68566.84, 'PURCHASE', 515, 994);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_258.jpg', 39604.98, 'EXCHANGE', 477, 776);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_3.jpg', 11115.26, 'EXCHANGE', 306, 569);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_957.jpg', 22743.94, 'PURCHASE', 278, 215);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_47.jpg', 23135.21, 'EXCHANGE', 283, 84);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_278.jpg', 40125.96, 'PURCHASE', 373, 323);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_402.jpg', 26022.81, 'EXCHANGE', 67, 908);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_631.jpg', 66076.05, 'PURCHASE', 541, 823);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_911.jpg', 12280.63, 'PURCHASE', 178, 205);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_277.jpg', 87805.44, 'PURCHASE', 385, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_918.jpg', 25611.93, 'EXCHANGE', 68, 846);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_250.jpg', 59304.64, 'PURCHASE', 110, 725);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_155.jpg', 40057.0, 'PURCHASE', 656, 704);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_469.jpg', 41836.31, 'PURCHASE', 643, 470);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_636.jpg', 20741.6, 'PURCHASE', 415, 91);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_842.jpg', 74095.62, 'PURCHASE', 159, 361);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_662.jpg', 34001.24, 'EXCHANGE', 177, 516);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_257.jpg', 52467.62, 'EXCHANGE', 316, 520);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_165.jpg', 76620.45, 'PURCHASE', 313, 37);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_190.jpg', 81413.41, 'EXCHANGE', 182, 70);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_886.jpg', 52647.15, 'EXCHANGE', 571, 286);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_422.jpg', 43816.0, 'PURCHASE', 594, 534);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_252.jpg', 77007.28, 'PURCHASE', 256, 326);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_748.jpg', 16426.8, 'PURCHASE', 242, 971);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_438.jpg', 48323.81, 'EXCHANGE', 205, 964);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_813.jpg', 15581.78, 'PURCHASE', 593, 900);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_691.jpg', 78036.8, 'PURCHASE', 479, 499);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_221.jpg', 10885.88, 'EXCHANGE', 80, 133);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_822.jpg', 42976.16, 'EXCHANGE', 622, 330);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_977.jpg', 57818.55, 'PURCHASE', 65, 909);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_642.jpg', 42554.46, 'EXCHANGE', 597, 247);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_578.jpg', 49525.48, 'EXCHANGE', 299, 809);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_654.jpg', 16526.9, 'EXCHANGE', 111, 13);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_650.jpg', 86456.55, 'PURCHASE', 386, 357);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_175.jpg', 40649.58, 'PURCHASE', 349, 445);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_447.jpg', 81928.36, 'PURCHASE', 350, 217);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_785.jpg', 33323.83, 'PURCHASE', 63, 16);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_325.jpg', 26331.62, 'PURCHASE', 127, 508);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_236.jpg', 31189.9, 'EXCHANGE', 404, 529);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_450.jpg', 73634.13, 'PURCHASE', 609, 673);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_863.jpg', 87217.99, 'EXCHANGE', 191, 442);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_22.jpg', 35753.58, 'EXCHANGE', 84, 928);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_439.jpg', 56770.54, 'EXCHANGE', 446, 98);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_495.jpg', 63606.25, 'EXCHANGE', 407, 848);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_379.jpg', 62048.09, 'PURCHASE', 199, 723);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_819.jpg', 53310.75, 'EXCHANGE', 468, 196);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_666.jpg', 87644.76, 'PURCHASE', 599, 513);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_76.jpg', 56852.75, 'EXCHANGE', 116, 572);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_318.jpg', 11177.92, 'PURCHASE', 533, 345);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_400.jpg', 76439.06, 'PURCHASE', 571, 255);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_157.jpg', 25273.31, 'EXCHANGE', 565, 80);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_710.jpg', 86335.14, 'PURCHASE', 391, 23);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_396.jpg', 6006.69, 'PURCHASE', 223, 596);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_465.jpg', 41529.21, 'PURCHASE', 549, 800);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_720.jpg', 20363.38, 'EXCHANGE', 215, 282);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_566.jpg', 36129.53, 'EXCHANGE', 299, 828);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_941.jpg', 35538.15, 'PURCHASE', 385, 929);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_63.jpg', 35278.93, 'PURCHASE', 307, 846);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_104.jpg', 72196.38, 'PURCHASE', 520, 351);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_706.jpg', 20462.05, 'PURCHASE', 408, 464);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_839.jpg', 78997.91, 'PURCHASE', 476, 878);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_358.jpg', 45468.27, 'PURCHASE', 413, 156);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_539.jpg', 62661.69, 'EXCHANGE', 718, 764);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_242.jpg', 66707.18, 'PURCHASE', 39, 762);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_779.jpg', 37464.49, 'PURCHASE', 41, 948);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_865.jpg', 30374.9, 'EXCHANGE', 51, 197);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_567.jpg', 57586.23, 'PURCHASE', 254, 490);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_378.jpg', 43911.93, 'EXCHANGE', 341, 465);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_241.jpg', 80281.44, 'PURCHASE', 376, 195);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_315.jpg', 81230.61, 'PURCHASE', 214, 849);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_830.jpg', 39199.56, 'PURCHASE', 430, 798);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_38.jpg', 79953.58, 'EXCHANGE', 598, 895);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_924.jpg', 40614.58, 'PURCHASE', 495, 895);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_110.jpg', 26518.57, 'EXCHANGE', 631, 294);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_667.jpg', 85622.04, 'PURCHASE', 51, 940);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_309.jpg', 81418.64, 'PURCHASE', 346, 533);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_43.jpg', 36728.81, 'PURCHASE', 103, 602);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_654.jpg', 31298.91, 'EXCHANGE', 623, 929);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_626.jpg', 6070.08, 'PURCHASE', 370, 578);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_833.jpg', 86223.75, 'EXCHANGE', 669, 462);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_556.jpg', 39133.3, 'EXCHANGE', 405, 295);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_332.jpg', 87692.35, 'EXCHANGE', 422, 467);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_719.jpg', 71555.34, 'PURCHASE', 398, 64);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_109.jpg', 38777.59, 'PURCHASE', 646, 416);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_721.jpg', 18556.33, 'PURCHASE', 96, 283);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_662.jpg', 26884.91, 'EXCHANGE', 417, 359);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_906.jpg', 43616.81, 'PURCHASE', 551, 231);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_141.jpg', 72360.16, 'EXCHANGE', 399, 997);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_362.jpg', 44403.22, 'PURCHASE', 90, 306);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_894.jpg', 28349.39, 'PURCHASE', 260, 248);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_63.jpg', 42666.02, 'PURCHASE', 542, 249);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_380.jpg', 70536.61, 'EXCHANGE', 236, 910);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_812.jpg', 82059.11, 'EXCHANGE', 112, 662);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_129.jpg', 63984.5, 'EXCHANGE', 638, 98);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_762.jpg', 55464.55, 'EXCHANGE', 554, 785);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_946.jpg', 10514.46, 'EXCHANGE', 321, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_233.jpg', 89542.68, 'EXCHANGE', 199, 638);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_225.jpg', 25105.6, 'PURCHASE', 388, 249);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_71.jpg', 51928.04, 'EXCHANGE', 410, 712);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_723.jpg', 52445.4, 'PURCHASE', 234, 391);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_470.jpg', 21761.87, 'EXCHANGE', 416, 821);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_857.jpg', 21682.38, 'EXCHANGE', 380, 722);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_792.jpg', 80592.16, 'PURCHASE', 339, 423);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_869.jpg', 31520.52, 'PURCHASE', 13, 107);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_817.jpg', 71284.01, 'EXCHANGE', 197, 124);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_762.jpg', 24839.44, 'PURCHASE', 302, 306);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_848.jpg', 8109.72, 'EXCHANGE', 157, 352);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_410.jpg', 17523.13, 'PURCHASE', 258, 792);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_614.jpg', 37001.97, 'PURCHASE', 411, 537);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_207.jpg', 55539.28, 'PURCHASE', 475, 237);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_378.jpg', 54428.84, 'PURCHASE', 624, 464);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_615.jpg', 73395.48, 'EXCHANGE', 15, 81);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_694.jpg', 38197.43, 'PURCHASE', 403, 398);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_852.jpg', 77451.28, 'EXCHANGE', 19, 158);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_559.jpg', 66441.41, 'PURCHASE', 388, 485);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_946.jpg', 48596.88, 'PURCHASE', 101, 34);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_8.jpg', 80909.4, 'EXCHANGE', 18, 839);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_269.jpg', 50096.75, 'PURCHASE', 582, 262);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_601.jpg', 14376.99, 'EXCHANGE', 236, 1000);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_822.jpg', 7657.42, 'EXCHANGE', 385, 137);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_632.jpg', 20130.46, 'EXCHANGE', 713, 459);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_72.jpg', 24067.82, 'EXCHANGE', 413, 414);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_550.jpg', 60630.88, 'EXCHANGE', 339, 384);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_753.jpg', 76620.46, 'EXCHANGE', 705, 122);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_394.jpg', 38940.76, 'EXCHANGE', 17, 630);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_813.jpg', 52069.66, 'PURCHASE', 42, 668);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_899.jpg', 83506.6, 'EXCHANGE', 716, 972);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_663.jpg', 40782.5, 'EXCHANGE', 303, 793);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_904.jpg', 75086.85, 'PURCHASE', 90, 290);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_697.jpg', 32679.14, 'EXCHANGE', 206, 579);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_603.jpg', 30431.83, 'PURCHASE', 442, 77);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_14.jpg', 78697.94, 'PURCHASE', 51, 465);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_913.jpg', 59283.72, 'EXCHANGE', 443, 64);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_1.jpg', 86106.11, 'PURCHASE', 578, 158);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_2.jpg', 58917.04, 'EXCHANGE', 38, 128);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_712.jpg', 39712.67, 'PURCHASE', 168, 909);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_166.jpg', 86885.18, 'PURCHASE', 2, 830);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_576.jpg', 15920.94, 'EXCHANGE', 457, 91);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_379.jpg', 74346.12, 'PURCHASE', 675, 275);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_749.jpg', 43746.57, 'PURCHASE', 117, 154);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_87.jpg', 20291.56, 'PURCHASE', 715, 129);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_204.jpg', 89928.07, 'PURCHASE', 128, 225);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_300.jpg', 75487.34, 'PURCHASE', 140, 993);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_524.jpg', 33276.3, 'PURCHASE', 396, 459);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_930.jpg', 73921.16, 'PURCHASE', 713, 88);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_432.jpg', 50405.23, 'PURCHASE', 495, 235);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_371.jpg', 29886.24, 'EXCHANGE', 311, 994);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_190.jpg', 30933.52, 'PURCHASE', 355, 430);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_72.jpg', 47057.42, 'PURCHASE', 439, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_917.jpg', 19742.13, 'EXCHANGE', 235, 523);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_346.jpg', 14064.32, 'PURCHASE', 122, 145);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_281.jpg', 23380.79, 'PURCHASE', 656, 85);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_331.jpg', 29918.24, 'EXCHANGE', 4, 224);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_554.jpg', 29938.63, 'PURCHASE', 428, 205);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_126.jpg', 29002.67, 'PURCHASE', 493, 84);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_691.jpg', 11378.39, 'EXCHANGE', 374, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_280.jpg', 35111.47, 'EXCHANGE', 76, 453);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_651.jpg', 15899.99, 'EXCHANGE', 678, 554);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_88.jpg', 8422.1, 'EXCHANGE', 172, 316);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_461.jpg', 42868.78, 'PURCHASE', 14, 916);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_933.jpg', 57889.26, 'PURCHASE', 346, 453);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_199.jpg', 55312.11, 'EXCHANGE', 117, 946);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_677.jpg', 89644.05, 'EXCHANGE', 328, 364);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_320.jpg', 19491.78, 'EXCHANGE', 381, 165);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_692.jpg', 17967.06, 'EXCHANGE', 332, 575);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_868.jpg', 64820.89, 'PURCHASE', 121, 720);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_259.jpg', 21140.63, 'EXCHANGE', 130, 659);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_613.jpg', 22949.7, 'PURCHASE', 173, 781);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_907.jpg', 7941.15, 'EXCHANGE', 292, 695);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_91.jpg', 48451.71, 'EXCHANGE', 302, 100);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_77.jpg', 20593.89, 'EXCHANGE', 619, 343);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_9.jpg', 49138.13, 'PURCHASE', 680, 684);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_274.jpg', 83367.31, 'PURCHASE', 169, 944);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_628.jpg', 12973.99, 'EXCHANGE', 706, 8);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_902.jpg', 79458.54, 'EXCHANGE', 663, 895);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_182.jpg', 5462.61, 'PURCHASE', 222, 729);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_299.jpg', 37179.95, 'PURCHASE', 274, 636);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_742.jpg', 42977.54, 'EXCHANGE', 165, 148);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_703.jpg', 17897.04, 'PURCHASE', 134, 308);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_223.jpg', 24852.75, 'EXCHANGE', 546, 212);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_632.jpg', 72341.55, 'EXCHANGE', 127, 672);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_374.jpg', 79708.6, 'EXCHANGE', 613, 475);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_281.jpg', 11680.51, 'EXCHANGE', 219, 165);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_360.jpg', 79958.45, 'EXCHANGE', 266, 718);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_140.jpg', 29216.24, 'EXCHANGE', 588, 564);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_267.jpg', 19683.82, 'PURCHASE', 397, 745);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_957.jpg', 35789.25, 'PURCHASE', 152, 478);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_255.jpg', 53736.57, 'PURCHASE', 633, 450);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_130.jpg', 14388.99, 'PURCHASE', 701, 705);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_968.jpg', 87178.04, 'EXCHANGE', 162, 165);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_655.jpg', 16017.87, 'EXCHANGE', 16, 83);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_409.jpg', 56572.32, 'EXCHANGE', 241, 716);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_425.jpg', 71404.54, 'EXCHANGE', 421, 940);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_569.jpg', 11038.17, 'PURCHASE', 241, 16);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_502.jpg', 88424.96, 'PURCHASE', 475, 222);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_704.jpg', 88461.48, 'EXCHANGE', 331, 118);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_307.jpg', 54841.02, 'PURCHASE', 43, 785);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_148.jpg', 35065.47, 'EXCHANGE', 211, 803);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_186.jpg', 82928.47, 'PURCHASE', 110, 667);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_44.jpg', 38670.97, 'PURCHASE', 165, 58);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_781.jpg', 11883.5, 'EXCHANGE', 328, 116);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_40.jpg', 46967.04, 'EXCHANGE', 644, 55);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_537.jpg', 84928.5, 'PURCHASE', 369, 665);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_987.jpg', 71055.99, 'PURCHASE', 2, 904);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_944.jpg', 54224.31, 'EXCHANGE', 373, 498);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_584.jpg', 64319.43, 'EXCHANGE', 397, 955);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_368.jpg', 72542.1, 'PURCHASE', 213, 469);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_199.jpg', 30871.45, 'EXCHANGE', 470, 284);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_249.jpg', 53020.98, 'PURCHASE', 544, 48);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_600.jpg', 48240.76, 'EXCHANGE', 20, 526);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_41.jpg', 64211.08, 'EXCHANGE', 507, 358);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_109.jpg', 9571.33, 'EXCHANGE', 590, 570);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_370.jpg', 5973.21, 'EXCHANGE', 218, 67);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_590.jpg', 54158.33, 'EXCHANGE', 21, 75);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_288.jpg', 30814.01, 'EXCHANGE', 672, 487);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_941.jpg', 66173.83, 'PURCHASE', 444, 816);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_225.jpg', 12526.49, 'EXCHANGE', 705, 526);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_459.jpg', 88191.97, 'PURCHASE', 142, 839);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_120.jpg', 70163.33, 'EXCHANGE', 39, 146);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_816.jpg', 47397.15, 'PURCHASE', 167, 546);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_314.jpg', 86328.81, 'EXCHANGE', 669, 455);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_568.jpg', 62109.64, 'PURCHASE', 202, 326);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_411.jpg', 84788.66, 'EXCHANGE', 178, 991);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_443.jpg', 48081.82, 'PURCHASE', 666, 465);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_919.jpg', 72889.16, 'EXCHANGE', 152, 78);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_489.jpg', 11069.03, 'EXCHANGE', 87, 239);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_569.jpg', 61727.8, 'EXCHANGE', 511, 234);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_655.jpg', 58446.08, 'PURCHASE', 477, 751);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_905.jpg', 48699.57, 'PURCHASE', 572, 535);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_137.jpg', 27231.0, 'PURCHASE', 676, 788);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_286.jpg', 56014.76, 'PURCHASE', 483, 264);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_561.jpg', 60417.95, 'PURCHASE', 9, 940);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_170.jpg', 22539.33, 'PURCHASE', 479, 223);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_757.jpg', 53725.54, 'EXCHANGE', 178, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_540.jpg', 71808.43, 'PURCHASE', 648, 378);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_746.jpg', 63146.53, 'PURCHASE', 592, 63);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_662.jpg', 70684.39, 'EXCHANGE', 590, 639);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_630.jpg', 51105.32, 'EXCHANGE', 471, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_144.jpg', 79205.54, 'PURCHASE', 576, 216);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_960.jpg', 76316.62, 'EXCHANGE', 397, 81);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_49.jpg', 68339.47, 'PURCHASE', 618, 96);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_632.jpg', 24245.31, 'PURCHASE', 575, 603);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_992.jpg', 37750.96, 'EXCHANGE', 109, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_560.jpg', 54817.07, 'EXCHANGE', 676, 273);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_516.jpg', 66063.48, 'EXCHANGE', 238, 86);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_104.jpg', 83489.62, 'EXCHANGE', 423, 526);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_564.jpg', 54126.42, 'PURCHASE', 521, 116);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_727.jpg', 54010.59, 'EXCHANGE', 406, 246);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_33.jpg', 9493.84, 'PURCHASE', 259, 349);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_204.jpg', 59560.94, 'EXCHANGE', 135, 324);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_996.jpg', 6456.64, 'EXCHANGE', 540, 446);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_165.jpg', 28412.1, 'EXCHANGE', 352, 96);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_242.jpg', 20778.23, 'EXCHANGE', 584, 885);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_709.jpg', 56579.82, 'EXCHANGE', 95, 881);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_393.jpg', 62674.93, 'EXCHANGE', 710, 318);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_662.jpg', 17879.7, 'EXCHANGE', 506, 436);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_615.jpg', 6635.16, 'EXCHANGE', 177, 376);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_797.jpg', 61248.38, 'PURCHASE', 201, 619);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_304.jpg', 43992.94, 'EXCHANGE', 78, 282);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_339.jpg', 61581.18, 'PURCHASE', 413, 211);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_957.jpg', 73922.59, 'EXCHANGE', 325, 243);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_86.jpg', 88728.75, 'EXCHANGE', 682, 933);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_170.jpg', 86784.1, 'PURCHASE', 83, 839);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_82.jpg', 27523.47, 'PURCHASE', 101, 338);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_870.jpg', 47285.81, 'PURCHASE', 112, 783);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_629.jpg', 12408.6, 'PURCHASE', 138, 564);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_297.jpg', 23956.24, 'EXCHANGE', 552, 205);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_553.jpg', 72683.87, 'PURCHASE', 61, 110);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_271.jpg', 86730.75, 'PURCHASE', 100, 122);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_482.jpg', 44560.4, 'EXCHANGE', 87, 723);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_820.jpg', 16451.39, 'PURCHASE', 455, 60);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_366.jpg', 88764.77, 'EXCHANGE', 3, 913);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_484.jpg', 89720.64, 'EXCHANGE', 285, 13);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_217.jpg', 18917.16, 'EXCHANGE', 288, 695);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_289.jpg', 29217.11, 'EXCHANGE', 263, 219);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_240.jpg', 5104.65, 'PURCHASE', 529, 101);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_716.jpg', 26260.21, 'PURCHASE', 31, 883);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_366.jpg', 88445.78, 'EXCHANGE', 295, 602);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_188.jpg', 51369.84, 'EXCHANGE', 206, 217);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_790.jpg', 14609.54, 'PURCHASE', 627, 836);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_1000.jpg', 37249.23, 'PURCHASE', 2, 246);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_378.jpg', 74641.42, 'EXCHANGE', 126, 382);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_748.jpg', 16477.62, 'EXCHANGE', 345, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_623.jpg', 12834.41, 'EXCHANGE', 448, 220);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_147.jpg', 60576.29, 'PURCHASE', 555, 394);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_641.jpg', 78777.58, 'PURCHASE', 361, 559);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_446.jpg', 67602.16, 'PURCHASE', 356, 291);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_296.jpg', 63753.91, 'PURCHASE', 441, 465);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_258.jpg', 36361.97, 'EXCHANGE', 535, 4);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_783.jpg', 49743.08, 'PURCHASE', 358, 100);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_242.jpg', 44337.74, 'PURCHASE', 300, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_599.jpg', 44929.89, 'EXCHANGE', 418, 206);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_141.jpg', 72999.42, 'PURCHASE', 188, 151);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_64.jpg', 61478.05, 'PURCHASE', 559, 169);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_445.jpg', 40060.0, 'PURCHASE', 493, 690);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_38.jpg', 8053.61, 'EXCHANGE', 145, 113);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_999.jpg', 73532.34, 'EXCHANGE', 565, 29);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_758.jpg', 89455.85, 'PURCHASE', 645, 472);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_629.jpg', 58389.92, 'EXCHANGE', 223, 66);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_368.jpg', 62992.02, 'PURCHASE', 554, 137);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_333.jpg', 31410.34, 'EXCHANGE', 325, 911);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_580.jpg', 61577.85, 'EXCHANGE', 313, 43);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_174.jpg', 17316.78, 'PURCHASE', 58, 376);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_157.jpg', 82638.82, 'PURCHASE', 506, 983);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_60.jpg', 54330.32, 'EXCHANGE', 582, 287);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_243.jpg', 84777.37, 'EXCHANGE', 564, 658);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_566.jpg', 84817.41, 'PURCHASE', 13, 738);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_564.jpg', 13902.54, 'PURCHASE', 673, 855);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_639.jpg', 70252.15, 'PURCHASE', 481, 248);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_331.jpg', 16801.89, 'PURCHASE', 605, 521);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_11.jpg', 44744.69, 'EXCHANGE', 91, 793);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_989.jpg', 26200.52, 'EXCHANGE', 304, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_525.jpg', 22446.56, 'PURCHASE', 93, 652);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_693.jpg', 23921.23, 'PURCHASE', 467, 267);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_150.jpg', 44094.6, 'EXCHANGE', 16, 550);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_268.jpg', 62249.71, 'PURCHASE', 65, 694);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_472.jpg', 66890.31, 'EXCHANGE', 66, 945);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_116.jpg', 30383.86, 'PURCHASE', 532, 822);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_884.jpg', 23294.16, 'PURCHASE', 567, 578);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_964.jpg', 19276.91, 'PURCHASE', 200, 569);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_331.jpg', 43202.34, 'PURCHASE', 230, 484);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_475.jpg', 63789.64, 'PURCHASE', 171, 226);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_433.jpg', 37389.23, 'EXCHANGE', 192, 595);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_174.jpg', 34187.31, 'PURCHASE', 452, 943);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_725.jpg', 70829.72, 'PURCHASE', 719, 722);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_62.jpg', 20629.01, 'EXCHANGE', 476, 470);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_343.jpg', 17580.82, 'PURCHASE', 246, 606);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_868.jpg', 49301.69, 'PURCHASE', 714, 904);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_809.jpg', 70459.5, 'EXCHANGE', 212, 649);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_881.jpg', 74427.63, 'PURCHASE', 204, 576);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_547.jpg', 46674.64, 'EXCHANGE', 609, 616);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_94.jpg', 46405.19, 'PURCHASE', 144, 589);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_258.jpg', 54164.83, 'EXCHANGE', 201, 501);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_11.jpg', 87986.77, 'PURCHASE', 212, 367);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_100.jpg', 39588.59, 'PURCHASE', 558, 252);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_973.jpg', 38978.2, 'EXCHANGE', 378, 661);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_723.jpg', 26532.99, 'EXCHANGE', 628, 848);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_168.jpg', 25261.41, 'PURCHASE', 64, 587);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_54.jpg', 47628.95, 'PURCHASE', 7, 80);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_229.jpg', 88973.91, 'EXCHANGE', 695, 560);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_659.jpg', 31908.73, 'EXCHANGE', 114, 8);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_716.jpg', 50590.62, 'EXCHANGE', 4, 147);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_306.jpg', 12466.52, 'EXCHANGE', 46, 838);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_496.jpg', 48565.51, 'PURCHASE', 540, 715);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_993.jpg', 65064.67, 'EXCHANGE', 137, 953);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_378.jpg', 45452.42, 'EXCHANGE', 188, 807);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_914.jpg', 79939.3, 'EXCHANGE', 41, 169);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_680.jpg', 22376.56, 'EXCHANGE', 90, 708);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_403.jpg', 83053.18, 'PURCHASE', 717, 844);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_884.jpg', 26986.48, 'EXCHANGE', 97, 40);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_752.jpg', 9705.78, 'PURCHASE', 118, 875);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_103.jpg', 19257.16, 'EXCHANGE', 361, 778);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_153.jpg', 41163.32, 'EXCHANGE', 526, 904);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_891.jpg', 29843.55, 'EXCHANGE', 626, 275);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_608.jpg', 50513.0, 'PURCHASE', 311, 84);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_978.jpg', 58452.53, 'EXCHANGE', 412, 52);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_649.jpg', 34720.8, 'PURCHASE', 7, 864);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_345.jpg', 41288.55, 'EXCHANGE', 552, 878);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_866.jpg', 49219.23, 'PURCHASE', 230, 894);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_654.jpg', 48776.26, 'PURCHASE', 143, 727);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_750.jpg', 23434.53, 'PURCHASE', 496, 321);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_280.jpg', 11312.76, 'PURCHASE', 112, 527);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_687.jpg', 50615.49, 'EXCHANGE', 511, 179);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_754.jpg', 80931.36, 'PURCHASE', 529, 820);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_507.jpg', 77149.01, 'EXCHANGE', 689, 179);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_471.jpg', 86151.25, 'EXCHANGE', 575, 245);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_300.jpg', 84229.53, 'EXCHANGE', 332, 648);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_166.jpg', 41851.42, 'EXCHANGE', 44, 493);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_192.jpg', 33815.33, 'EXCHANGE', 289, 298);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_240.jpg', 54452.35, 'EXCHANGE', 40, 394);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_590.jpg', 86816.43, 'PURCHASE', 287, 47);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_548.jpg', 56403.63, 'PURCHASE', 334, 85);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_651.jpg', 17315.74, 'PURCHASE', 402, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_678.jpg', 41292.41, 'EXCHANGE', 590, 833);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_837.jpg', 63831.25, 'EXCHANGE', 603, 71);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_608.jpg', 22647.43, 'EXCHANGE', 240, 651);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_976.jpg', 48090.06, 'EXCHANGE', 615, 210);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_614.jpg', 12015.3, 'EXCHANGE', 386, 735);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_700.jpg', 47364.46, 'PURCHASE', 495, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_939.jpg', 52499.62, 'EXCHANGE', 404, 589);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_603.jpg', 46702.63, 'EXCHANGE', 623, 132);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_326.jpg', 67636.28, 'PURCHASE', 406, 380);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_19.jpg', 56572.6, 'PURCHASE', 327, 878);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_189.jpg', 49597.35, 'PURCHASE', 210, 791);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_150.jpg', 73789.81, 'EXCHANGE', 37, 591);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_189.jpg', 54743.33, 'EXCHANGE', 23, 134);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_637.jpg', 58609.75, 'PURCHASE', 414, 846);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_742.jpg', 16420.59, 'PURCHASE', 164, 764);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_103.jpg', 57257.01, 'PURCHASE', 458, 310);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_895.jpg', 70023.28, 'EXCHANGE', 593, 488);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_204.jpg', 17950.99, 'PURCHASE', 145, 98);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_791.jpg', 68604.93, 'PURCHASE', 30, 152);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_716.jpg', 57767.79, 'EXCHANGE', 546, 624);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_604.jpg', 8728.32, 'EXCHANGE', 90, 538);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_897.jpg', 48160.64, 'EXCHANGE', 577, 137);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_476.jpg', 44946.87, 'PURCHASE', 299, 915);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_29.jpg', 82184.9, 'EXCHANGE', 497, 856);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_686.jpg', 83618.84, 'PURCHASE', 656, 896);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_339.jpg', 37009.0, 'EXCHANGE', 337, 558);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_754.jpg', 72186.8, 'PURCHASE', 163, 314);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_865.jpg', 52001.11, 'EXCHANGE', 289, 420);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_503.jpg', 83892.46, 'PURCHASE', 19, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_542.jpg', 80576.73, 'EXCHANGE', 292, 189);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_101.jpg', 61736.35, 'EXCHANGE', 344, 191);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_925.jpg', 8490.14, 'PURCHASE', 326, 258);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_638.jpg', 30265.61, 'EXCHANGE', 718, 367);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_584.jpg', 20697.94, 'EXCHANGE', 442, 162);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_119.jpg', 6393.62, 'PURCHASE', 714, 866);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_925.jpg', 35955.51, 'PURCHASE', 548, 718);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_465.jpg', 80836.27, 'PURCHASE', 618, 44);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_591.jpg', 5681.98, 'EXCHANGE', 607, 818);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_40.jpg', 71967.33, 'PURCHASE', 435, 958);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_313.jpg', 71280.37, 'EXCHANGE', 467, 155);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_880.jpg', 73672.8, 'EXCHANGE', 218, 540);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_91.jpg', 82352.67, 'PURCHASE', 130, 693);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_815.jpg', 15407.01, 'EXCHANGE', 205, 692);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_467.jpg', 43904.91, 'PURCHASE', 8, 99);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_996.jpg', 37067.7, 'PURCHASE', 527, 436);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_192.jpg', 26002.55, 'EXCHANGE', 581, 87);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_341.jpg', 82278.09, 'PURCHASE', 624, 957);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_899.jpg', 47341.32, 'EXCHANGE', 295, 774);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_710.jpg', 61566.97, 'EXCHANGE', 363, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_860.jpg', 37957.98, 'EXCHANGE', 670, 903);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_845.jpg', 62205.19, 'EXCHANGE', 328, 166);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_361.jpg', 43154.59, 'PURCHASE', 47, 37);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_322.jpg', 14985.64, 'EXCHANGE', 697, 565);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_563.jpg', 86101.24, 'PURCHASE', 513, 764);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_287.jpg', 28134.35, 'PURCHASE', 409, 690);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_220.jpg', 73826.54, 'EXCHANGE', 13, 743);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_769.jpg', 76567.17, 'EXCHANGE', 583, 598);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_808.jpg', 64545.06, 'PURCHASE', 672, 536);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_144.jpg', 45780.76, 'PURCHASE', 103, 646);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_641.jpg', 55754.23, 'EXCHANGE', 339, 161);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_37.jpg', 87458.71, 'EXCHANGE', 452, 338);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_580.jpg', 38275.68, 'EXCHANGE', 349, 888);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_105.jpg', 89109.54, 'EXCHANGE', 365, 855);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_411.jpg', 48662.69, 'PURCHASE', 375, 700);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_758.jpg', 47957.15, 'EXCHANGE', 603, 309);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_782.jpg', 73042.84, 'EXCHANGE', 541, 552);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_784.jpg', 43407.71, 'PURCHASE', 290, 736);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_994.jpg', 14594.89, 'EXCHANGE', 377, 301);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_331.jpg', 11604.75, 'PURCHASE', 476, 109);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_133.jpg', 82357.69, 'PURCHASE', 161, 916);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_631.jpg', 31809.76, 'PURCHASE', 393, 185);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_120.jpg', 86728.59, 'PURCHASE', 443, 541);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_675.jpg', 79866.42, 'PURCHASE', 707, 70);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_671.jpg', 46011.78, 'EXCHANGE', 45, 591);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_512.jpg', 14801.67, 'EXCHANGE', 194, 872);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_266.jpg', 80785.18, 'EXCHANGE', 501, 143);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_164.jpg', 30740.11, 'PURCHASE', 284, 345);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_672.jpg', 6189.31, 'EXCHANGE', 708, 383);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_46.jpg', 55992.67, 'EXCHANGE', 603, 324);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_207.jpg', 82142.27, 'PURCHASE', 660, 204);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_692.jpg', 73613.78, 'EXCHANGE', 25, 469);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_835.jpg', 7457.48, 'PURCHASE', 184, 838);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_623.jpg', 69584.78, 'EXCHANGE', 332, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_882.jpg', 53072.44, 'PURCHASE', 486, 321);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_619.jpg', 68108.65, 'EXCHANGE', 100, 941);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_221.jpg', 48733.18, 'EXCHANGE', 488, 921);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_390.jpg', 77531.34, 'PURCHASE', 403, 837);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_408.jpg', 25472.99, 'PURCHASE', 8, 164);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_861.jpg', 28394.41, 'EXCHANGE', 108, 348);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_67.jpg', 72203.42, 'EXCHANGE', 62, 182);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_667.jpg', 84999.64, 'PURCHASE', 467, 156);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_152.jpg', 6645.82, 'EXCHANGE', 305, 97);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_182.jpg', 23650.8, 'EXCHANGE', 450, 246);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_174.jpg', 48554.21, 'EXCHANGE', 225, 73);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_130.jpg', 72016.56, 'EXCHANGE', 298, 714);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_476.jpg', 62333.51, 'EXCHANGE', 74, 866);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_964.jpg', 40553.18, 'PURCHASE', 186, 565);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_869.jpg', 49363.63, 'EXCHANGE', 590, 469);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_903.jpg', 9442.72, 'PURCHASE', 241, 798);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_604.jpg', 75897.66, 'PURCHASE', 413, 550);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_255.jpg', 10990.33, 'EXCHANGE', 50, 691);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_383.jpg', 88510.64, 'PURCHASE', 24, 669);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_963.jpg', 36530.49, 'PURCHASE', 347, 324);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_546.jpg', 24235.25, 'PURCHASE', 514, 428);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_995.jpg', 53015.81, 'PURCHASE', 576, 577);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_601.jpg', 29760.92, 'EXCHANGE', 364, 990);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_763.jpg', 14175.86, 'EXCHANGE', 362, 419);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_544.jpg', 9720.9, 'PURCHASE', 713, 19);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_995.jpg', 76945.88, 'PURCHASE', 514, 624);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_888.jpg', 32400.88, 'EXCHANGE', 384, 264);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_103.jpg', 31593.36, 'PURCHASE', 592, 352);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_577.jpg', 51458.27, 'PURCHASE', 534, 219);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_238.jpg', 33347.61, 'PURCHASE', 689, 816);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_921.jpg', 82790.16, 'EXCHANGE', 190, 192);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_655.jpg', 53482.25, 'EXCHANGE', 643, 972);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_856.jpg', 69170.05, 'PURCHASE', 500, 714);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_217.jpg', 77741.08, 'EXCHANGE', 14, 338);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_355.jpg', 48566.32, 'EXCHANGE', 135, 489);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_448.jpg', 38140.62, 'EXCHANGE', 245, 403);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_789.jpg', 18052.41, 'EXCHANGE', 41, 409);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_822.jpg', 55548.79, 'EXCHANGE', 636, 399);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_777.jpg', 60052.57, 'PURCHASE', 18, 264);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_728.jpg', 21913.55, 'EXCHANGE', 109, 859);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_935.jpg', 8744.75, 'PURCHASE', 702, 577);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_197.jpg', 72578.57, 'EXCHANGE', 525, 237);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_787.jpg', 14791.74, 'PURCHASE', 606, 719);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_415.jpg', 14828.2, 'EXCHANGE', 655, 750);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_74.jpg', 36702.61, 'PURCHASE', 242, 189);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_364.jpg', 49184.15, 'PURCHASE', 624, 74);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_349.jpg', 6377.68, 'EXCHANGE', 371, 696);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_121.jpg', 87301.51, 'EXCHANGE', 647, 316);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_903.jpg', 87782.96, 'EXCHANGE', 109, 525);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_175.jpg', 51786.37, 'PURCHASE', 607, 786);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_103.jpg', 70750.08, 'EXCHANGE', 664, 387);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_484.jpg', 73908.55, 'PURCHASE', 643, 643);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_673.jpg', 20374.33, 'EXCHANGE', 498, 611);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_314.jpg', 37332.68, 'EXCHANGE', 457, 1000);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_989.jpg', 47374.35, 'EXCHANGE', 26, 806);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_102.jpg', 27298.26, 'PURCHASE', 688, 470);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_587.jpg', 54986.57, 'EXCHANGE', 300, 873);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_686.jpg', 25072.85, 'EXCHANGE', 15, 882);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_346.jpg', 83665.98, 'EXCHANGE', 282, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_143.jpg', 65060.51, 'PURCHASE', 231, 108);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_617.jpg', 67966.89, 'PURCHASE', 430, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_156.jpg', 56433.88, 'EXCHANGE', 301, 995);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_826.jpg', 72596.74, 'PURCHASE', 522, 202);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_302.jpg', 28569.15, 'EXCHANGE', 46, 271);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_648.jpg', 89009.98, 'PURCHASE', 222, 38);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_796.jpg', 74950.69, 'PURCHASE', 484, 40);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_373.jpg', 72473.42, 'PURCHASE', 546, 844);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_337.jpg', 12637.21, 'EXCHANGE', 298, 112);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_364.jpg', 11313.11, 'PURCHASE', 497, 966);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_773.jpg', 30333.26, 'EXCHANGE', 75, 962);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_418.jpg', 26894.03, 'PURCHASE', 38, 884);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_372.jpg', 55678.78, 'EXCHANGE', 17, 55);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_470.jpg', 52818.32, 'PURCHASE', 688, 931);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_27.jpg', 74707.19, 'EXCHANGE', 604, 505);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_661.jpg', 39482.13, 'PURCHASE', 274, 876);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_284.jpg', 27518.66, 'PURCHASE', 601, 956);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_393.jpg', 77140.4, 'PURCHASE', 166, 436);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_876.jpg', 20146.74, 'EXCHANGE', 131, 710);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_457.jpg', 59707.03, 'EXCHANGE', 696, 41);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_31.jpg', 12246.36, 'EXCHANGE', 643, 513);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_543.jpg', 58580.85, 'EXCHANGE', 659, 635);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_593.jpg', 78241.95, 'PURCHASE', 669, 26);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_170.jpg', 16942.06, 'PURCHASE', 538, 714);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_334.jpg', 11911.97, 'EXCHANGE', 39, 52);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_929.jpg', 64189.36, 'PURCHASE', 691, 428);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_544.jpg', 87107.39, 'EXCHANGE', 687, 76);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_734.jpg', 66893.66, 'PURCHASE', 594, 42);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_107.jpg', 13909.56, 'EXCHANGE', 609, 340);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_558.jpg', 15971.97, 'PURCHASE', 176, 787);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_209.jpg', 13094.31, 'EXCHANGE', 207, 686);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_612.jpg', 8095.68, 'EXCHANGE', 162, 296);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_482.jpg', 66328.78, 'PURCHASE', 563, 19);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_664.jpg', 68372.83, 'EXCHANGE', 574, 236);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_693.jpg', 60796.78, 'EXCHANGE', 56, 904);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_812.jpg', 10874.56, 'EXCHANGE', 289, 609);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_179.jpg', 88066.45, 'EXCHANGE', 450, 817);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_567.jpg', 9077.57, 'EXCHANGE', 573, 283);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_986.jpg', 86514.69, 'PURCHASE', 417, 608);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_53.jpg', 55862.04, 'PURCHASE', 368, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_267.jpg', 34310.69, 'PURCHASE', 403, 633);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_318.jpg', 18790.85, 'EXCHANGE', 40, 511);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_192.jpg', 67565.17, 'PURCHASE', 480, 367);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_973.jpg', 62201.32, 'EXCHANGE', 657, 142);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_343.jpg', 45393.11, 'EXCHANGE', 578, 366);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_616.jpg', 49137.97, 'EXCHANGE', 471, 253);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_963.jpg', 78426.27, 'PURCHASE', 50, 266);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_287.jpg', 42580.46, 'EXCHANGE', 39, 115);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_695.jpg', 23219.14, 'EXCHANGE', 355, 680);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_29.jpg', 61266.06, 'EXCHANGE', 330, 533);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_591.jpg', 6560.64, 'PURCHASE', 631, 170);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_119.jpg', 6021.43, 'EXCHANGE', 220, 6);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_390.jpg', 11102.77, 'PURCHASE', 31, 908);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_784.jpg', 12659.27, 'EXCHANGE', 382, 805);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_72.jpg', 62050.92, 'PURCHASE', 640, 602);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_156.jpg', 85629.12, 'PURCHASE', 425, 581);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_368.jpg', 5307.46, 'PURCHASE', 571, 488);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_764.jpg', 20395.2, 'PURCHASE', 50, 353);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_377.jpg', 13928.08, 'PURCHASE', 379, 856);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_978.jpg', 43528.61, 'PURCHASE', 465, 532);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_920.jpg', 33776.44, 'PURCHASE', 371, 765);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_274.jpg', 34953.63, 'EXCHANGE', 365, 729);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_435.jpg', 67355.9, 'EXCHANGE', 472, 429);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_791.jpg', 41141.6, 'PURCHASE', 263, 947);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_399.jpg', 62212.19, 'PURCHASE', 202, 320);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_97.jpg', 42917.78, 'EXCHANGE', 330, 692);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_210.jpg', 28581.75, 'PURCHASE', 687, 678);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_936.jpg', 19506.92, 'PURCHASE', 512, 352);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_282.jpg', 7093.54, 'PURCHASE', 141, 522);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_955.jpg', 20541.35, 'PURCHASE', 647, 182);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_64.jpg', 43252.81, 'EXCHANGE', 610, 666);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_162.jpg', 64526.36, 'EXCHANGE', 262, 192);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_28.jpg', 30617.57, 'EXCHANGE', 513, 638);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_245.jpg', 70788.38, 'EXCHANGE', 237, 678);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_783.jpg', 33504.96, 'EXCHANGE', 456, 180);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_271.jpg', 39018.62, 'EXCHANGE', 458, 493);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_497.jpg', 55074.69, 'PURCHASE', 327, 422);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_197.jpg', 47155.77, 'PURCHASE', 516, 67);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_615.jpg', 43201.14, 'EXCHANGE', 52, 285);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_320.jpg', 48856.14, 'PURCHASE', 253, 840);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_767.jpg', 63120.58, 'PURCHASE', 40, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_893.jpg', 85463.39, 'PURCHASE', 177, 116);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_532.jpg', 5992.26, 'EXCHANGE', 310, 374);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_322.jpg', 23609.68, 'PURCHASE', 597, 781);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_203.jpg', 58533.02, 'PURCHASE', 306, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_790.jpg', 82595.38, 'PURCHASE', 450, 445);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_81.jpg', 11739.68, 'PURCHASE', 451, 452);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_716.jpg', 73844.88, 'PURCHASE', 147, 691);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_781.jpg', 20611.76, 'EXCHANGE', 433, 966);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_864.jpg', 66012.69, 'EXCHANGE', 463, 826);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_655.jpg', 67174.14, 'PURCHASE', 667, 686);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_499.jpg', 22389.42, 'PURCHASE', 177, 38);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_773.jpg', 65538.81, 'PURCHASE', 409, 796);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_267.jpg', 38266.82, 'EXCHANGE', 509, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_878.jpg', 79274.33, 'EXCHANGE', 572, 68);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_688.jpg', 14028.65, 'PURCHASE', 168, 408);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_888.jpg', 53960.7, 'PURCHASE', 94, 349);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_990.jpg', 29914.21, 'PURCHASE', 189, 396);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_925.jpg', 70513.61, 'EXCHANGE', 553, 716);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_424.jpg', 13723.47, 'PURCHASE', 330, 100);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_632.jpg', 73311.88, 'PURCHASE', 202, 729);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_582.jpg', 67929.04, 'PURCHASE', 374, 937);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_11.jpg', 66258.85, 'EXCHANGE', 558, 335);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_737.jpg', 89155.49, 'PURCHASE', 103, 639);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_755.jpg', 12481.96, 'EXCHANGE', 286, 990);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_119.jpg', 8669.86, 'EXCHANGE', 35, 938);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_223.jpg', 61729.14, 'PURCHASE', 688, 821);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_459.jpg', 54152.45, 'EXCHANGE', 18, 114);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_510.jpg', 63151.81, 'PURCHASE', 165, 295);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_682.jpg', 83390.94, 'PURCHASE', 705, 363);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_553.jpg', 27799.25, 'EXCHANGE', 443, 900);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_137.jpg', 31911.67, 'PURCHASE', 52, 825);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_832.jpg', 53699.0, 'EXCHANGE', 468, 139);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_874.jpg', 80909.68, 'PURCHASE', 339, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_889.jpg', 83456.66, 'EXCHANGE', 142, 547);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_452.jpg', 5106.45, 'EXCHANGE', 176, 163);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_864.jpg', 57708.21, 'EXCHANGE', 166, 664);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_947.jpg', 23365.25, 'PURCHASE', 2, 643);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_176.jpg', 84909.69, 'PURCHASE', 252, 421);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_928.jpg', 63546.5, 'PURCHASE', 229, 905);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_534.jpg', 59174.66, 'EXCHANGE', 129, 390);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_579.jpg', 9686.05, 'PURCHASE', 647, 608);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_748.jpg', 10321.14, 'EXCHANGE', 323, 504);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_570.jpg', 61460.8, 'EXCHANGE', 538, 127);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_425.jpg', 73506.24, 'PURCHASE', 125, 27);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_921.jpg', 82029.96, 'PURCHASE', 32, 740);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_940.jpg', 59234.63, 'EXCHANGE', 203, 338);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_284.jpg', 33295.41, 'PURCHASE', 718, 779);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_399.jpg', 53485.13, 'EXCHANGE', 178, 920);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_297.jpg', 29409.44, 'EXCHANGE', 510, 586);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_51.jpg', 26929.31, 'PURCHASE', 471, 882);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_746.jpg', 89389.3, 'EXCHANGE', 488, 239);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_233.jpg', 30901.51, 'PURCHASE', 32, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_144.jpg', 68085.2, 'PURCHASE', 263, 225);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_40.jpg', 24302.59, 'PURCHASE', 55, 774);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_950.jpg', 53984.93, 'PURCHASE', 276, 72);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_438.jpg', 28540.28, 'EXCHANGE', 258, 257);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_147.jpg', 40526.57, 'PURCHASE', 54, 645);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_327.jpg', 60343.99, 'EXCHANGE', 560, 842);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_841.jpg', 28970.1, 'PURCHASE', 106, 559);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_320.jpg', 35532.79, 'PURCHASE', 48, 498);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_706.jpg', 35948.52, 'PURCHASE', 101, 935);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_30.jpg', 79644.96, 'EXCHANGE', 194, 131);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_506.jpg', 37770.51, 'EXCHANGE', 417, 606);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_516.jpg', 41099.4, 'EXCHANGE', 373, 875);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_138.jpg', 10516.15, 'EXCHANGE', 630, 246);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_913.jpg', 77271.91, 'PURCHASE', 395, 851);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_76.jpg', 54490.15, 'PURCHASE', 59, 983);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_604.jpg', 74735.93, 'PURCHASE', 218, 732);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_550.jpg', 39399.58, 'EXCHANGE', 92, 304);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_586.jpg', 17522.49, 'PURCHASE', 131, 983);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_227.jpg', 80670.17, 'PURCHASE', 207, 580);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_14.jpg', 24389.35, 'EXCHANGE', 374, 301);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_777.jpg', 8248.35, 'EXCHANGE', 546, 790);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_230.jpg', 42753.3, 'EXCHANGE', 417, 742);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_922.jpg', 84860.06, 'PURCHASE', 47, 760);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_821.jpg', 30772.11, 'EXCHANGE', 92, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_844.jpg', 73679.12, 'EXCHANGE', 547, 187);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_521.jpg', 21887.43, 'EXCHANGE', 716, 349);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_602.jpg', 36770.24, 'EXCHANGE', 456, 331);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_531.jpg', 45283.51, 'PURCHASE', 689, 869);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_794.jpg', 66975.15, 'EXCHANGE', 101, 136);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_589.jpg', 66113.03, 'EXCHANGE', 611, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_771.jpg', 25364.9, 'PURCHASE', 706, 104);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_679.jpg', 35590.43, 'EXCHANGE', 620, 566);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_892.jpg', 89947.24, 'EXCHANGE', 369, 540);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_613.jpg', 11055.4, 'EXCHANGE', 352, 966);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_595.jpg', 44027.93, 'PURCHASE', 618, 261);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_922.jpg', 33820.73, 'PURCHASE', 298, 351);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_345.jpg', 8185.08, 'EXCHANGE', 475, 176);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_296.jpg', 69807.69, 'PURCHASE', 553, 42);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_9.jpg', 11252.96, 'PURCHASE', 707, 237);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_102.jpg', 23331.02, 'EXCHANGE', 221, 128);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_390.jpg', 29648.29, 'EXCHANGE', 74, 970);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_211.jpg', 58860.57, 'PURCHASE', 640, 223);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_784.jpg', 31491.52, 'PURCHASE', 151, 573);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_518.jpg', 39880.64, 'PURCHASE', 719, 452);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_947.jpg', 40388.87, 'EXCHANGE', 648, 976);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_952.jpg', 34035.68, 'PURCHASE', 549, 776);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_981.jpg', 43351.2, 'EXCHANGE', 219, 334);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_620.jpg', 67466.57, 'EXCHANGE', 304, 561);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_1.jpg', 66369.33, 'PURCHASE', 611, 111);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_16.jpg', 87111.9, 'PURCHASE', 511, 730);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_499.jpg', 87977.92, 'PURCHASE', 243, 36);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_663.jpg', 22562.93, 'EXCHANGE', 671, 517);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_34.jpg', 55113.42, 'PURCHASE', 110, 122);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_91.jpg', 77326.44, 'PURCHASE', 532, 88);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_709.jpg', 51313.09, 'EXCHANGE', 33, 888);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_840.jpg', 50672.42, 'EXCHANGE', 183, 955);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_187.jpg', 34631.69, 'EXCHANGE', 579, 354);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_372.jpg', 37234.72, 'PURCHASE', 203, 337);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_801.jpg', 67572.03, 'EXCHANGE', 194, 456);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_277.jpg', 51882.05, 'PURCHASE', 365, 378);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_389.jpg', 80539.85, 'EXCHANGE', 636, 342);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_77.jpg', 51282.79, 'PURCHASE', 347, 995);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_144.jpg', 14154.08, 'PURCHASE', 243, 634);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_347.jpg', 16780.02, 'PURCHASE', 535, 880);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_511.jpg', 58260.89, 'EXCHANGE', 24, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_344.jpg', 73272.01, 'EXCHANGE', 180, 387);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_597.jpg', 84322.43, 'EXCHANGE', 175, 876);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_512.jpg', 30236.01, 'EXCHANGE', 643, 674);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_102.jpg', 12137.63, 'EXCHANGE', 693, 394);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_323.jpg', 14388.52, 'PURCHASE', 441, 95);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_965.jpg', 19459.74, 'EXCHANGE', 358, 831);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_631.jpg', 41734.54, 'PURCHASE', 90, 300);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_982.jpg', 25657.0, 'EXCHANGE', 544, 753);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_329.jpg', 86922.41, 'PURCHASE', 430, 450);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_252.jpg', 72635.15, 'EXCHANGE', 545, 18);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_630.jpg', 55102.2, 'EXCHANGE', 197, 356);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_765.jpg', 39700.86, 'PURCHASE', 493, 670);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_135.jpg', 76233.77, 'EXCHANGE', 25, 144);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_442.jpg', 28354.64, 'EXCHANGE', 587, 706);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_761.jpg', 62550.91, 'EXCHANGE', 177, 41);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_744.jpg', 30563.72, 'EXCHANGE', 204, 979);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_665.jpg', 37055.04, 'PURCHASE', 419, 989);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_85.jpg', 33857.88, 'PURCHASE', 246, 392);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_569.jpg', 14114.49, 'PURCHASE', 576, 340);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_191.jpg', 51376.94, 'PURCHASE', 442, 498);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_280.jpg', 62974.28, 'EXCHANGE', 127, 360);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_35.jpg', 18703.15, 'PURCHASE', 644, 542);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_284.jpg', 5235.85, 'PURCHASE', 1, 280);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_626.jpg', 89613.89, 'EXCHANGE', 479, 116);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_365.jpg', 66506.8, 'PURCHASE', 215, 801);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_668.jpg', 50899.75, 'PURCHASE', 129, 425);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_544.jpg', 69945.95, 'EXCHANGE', 463, 32);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_945.jpg', 12676.29, 'PURCHASE', 155, 298);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_430.jpg', 38368.81, 'PURCHASE', 327, 762);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_777.jpg', 48813.7, 'PURCHASE', 595, 832);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_203.jpg', 73483.51, 'PURCHASE', 399, 363);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_39.jpg', 15378.27, 'PURCHASE', 202, 733);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_713.jpg', 44012.52, 'PURCHASE', 121, 426);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_527.jpg', 18258.14, 'EXCHANGE', 392, 779);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_518.jpg', 44797.6, 'PURCHASE', 248, 681);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_666.jpg', 56048.1, 'PURCHASE', 334, 284);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_174.jpg', 77174.59, 'PURCHASE', 232, 244);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_1000.jpg', 22796.94, 'PURCHASE', 715, 403);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_520.jpg', 45170.65, 'PURCHASE', 413, 125);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_460.jpg', 48323.99, 'PURCHASE', 418, 506);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_121.jpg', 56424.11, 'EXCHANGE', 684, 296);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_356.jpg', 45674.41, 'PURCHASE', 46, 391);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_44.jpg', 22000.87, 'PURCHASE', 154, 176);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_292.jpg', 83126.2, 'PURCHASE', 582, 699);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_363.jpg', 20109.35, 'EXCHANGE', 630, 788);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_30.jpg', 35043.69, 'EXCHANGE', 324, 726);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_455.jpg', 20270.09, 'PURCHASE', 296, 15);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_377.jpg', 82209.45, 'PURCHASE', 643, 710);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_295.jpg', 46587.97, 'PURCHASE', 640, 289);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_799.jpg', 42661.64, 'PURCHASE', 346, 761);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_163.jpg', 32771.97, 'PURCHASE', 238, 232);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_96.jpg', 55184.65, 'PURCHASE', 656, 106);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_264.jpg', 76762.43, 'PURCHASE', 361, 319);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_812.jpg', 43501.02, 'EXCHANGE', 575, 860);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_573.jpg', 20544.8, 'PURCHASE', 222, 94);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_811.jpg', 23628.47, 'EXCHANGE', 529, 881);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_671.jpg', 48700.23, 'EXCHANGE', 263, 180);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_709.jpg', 24629.58, 'EXCHANGE', 265, 780);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_566.jpg', 81158.65, 'PURCHASE', 503, 621);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_374.jpg', 38768.15, 'EXCHANGE', 466, 793);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_721.jpg', 43676.13, 'EXCHANGE', 609, 874);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_324.jpg', 76259.8, 'PURCHASE', 567, 877);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_473.jpg', 44816.76, 'PURCHASE', 375, 485);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_376.jpg', 6768.16, 'EXCHANGE', 138, 65);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_930.jpg', 29518.59, 'EXCHANGE', 7, 14);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_103.jpg', 77471.46, 'EXCHANGE', 446, 162);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_853.jpg', 5564.68, 'PURCHASE', 168, 745);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_276.jpg', 34030.81, 'EXCHANGE', 259, 485);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_485.jpg', 53236.76, 'PURCHASE', 704, 311);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_907.jpg', 67679.11, 'PURCHASE', 665, 190);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_857.jpg', 12316.78, 'PURCHASE', 586, 66);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_361.jpg', 27465.23, 'EXCHANGE', 425, 909);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_777.jpg', 79787.03, 'PURCHASE', 158, 13);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_903.jpg', 42149.06, 'PURCHASE', 15, 224);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_179.jpg', 6506.47, 'PURCHASE', 380, 590);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_927.jpg', 29753.04, 'PURCHASE', 5, 793);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_831.jpg', 80028.51, 'PURCHASE', 617, 198);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_224.jpg', 64264.62, 'EXCHANGE', 173, 567);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_434.jpg', 82705.13, 'EXCHANGE', 680, 434);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_53.jpg', 18551.8, 'EXCHANGE', 362, 524);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_589.jpg', 20297.81, 'EXCHANGE', 479, 212);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_207.jpg', 18083.4, 'EXCHANGE', 40, 330);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_144.jpg', 20194.82, 'PURCHASE', 590, 68);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_535.jpg', 85435.67, 'EXCHANGE', 144, 701);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_855.jpg', 73307.61, 'PURCHASE', 582, 771);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_722.jpg', 61748.99, 'PURCHASE', 443, 606);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_489.jpg', 13693.34, 'EXCHANGE', 591, 970);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_754.jpg', 79311.67, 'PURCHASE', 148, 92);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_177.jpg', 21184.19, 'PURCHASE', 141, 484);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_158.jpg', 87403.77, 'EXCHANGE', 614, 463);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_675.jpg', 67468.12, 'PURCHASE', 630, 591);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_397.jpg', 41436.1, 'PURCHASE', 660, 279);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_372.jpg', 36667.82, 'PURCHASE', 357, 56);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_873.jpg', 72975.95, 'PURCHASE', 239, 861);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_522.jpg', 71006.38, 'EXCHANGE', 239, 905);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_303.jpg', 71663.27, 'EXCHANGE', 716, 503);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_693.jpg', 44885.08, 'EXCHANGE', 405, 465);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_168.jpg', 64898.6, 'PURCHASE', 201, 215);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_774.jpg', 41541.13, 'EXCHANGE', 413, 969);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_35.jpg', 18897.55, 'EXCHANGE', 457, 691);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_886.jpg', 46709.98, 'PURCHASE', 225, 63);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_391.jpg', 74409.11, 'PURCHASE', 290, 276);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_851.jpg', 76784.01, 'PURCHASE', 362, 472);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_874.jpg', 66899.84, 'PURCHASE', 389, 248);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_521.jpg', 61186.72, 'EXCHANGE', 430, 820);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_105.jpg', 49678.7, 'PURCHASE', 302, 82);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_35.jpg', 31590.13, 'EXCHANGE', 644, 77);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_827.jpg', 71177.79, 'EXCHANGE', 48, 828);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_476.jpg', 79680.07, 'PURCHASE', 194, 204);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_211.jpg', 80494.29, 'EXCHANGE', 427, 254);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_49.jpg', 39162.77, 'PURCHASE', 336, 933);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_348.jpg', 66183.63, 'EXCHANGE', 684, 959);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_452.jpg', 22751.47, 'EXCHANGE', 82, 981);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_459.jpg', 25855.68, 'PURCHASE', 516, 380);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_745.jpg', 33556.28, 'PURCHASE', 610, 914);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_177.jpg', 43139.85, 'PURCHASE', 688, 712);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_1000.jpg', 62385.58, 'PURCHASE', 500, 733);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_334.jpg', 14317.25, 'EXCHANGE', 138, 12);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_35.jpg', 43320.32, 'EXCHANGE', 519, 816);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_822.jpg', 11120.06, 'EXCHANGE', 264, 481);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_342.jpg', 47359.86, 'EXCHANGE', 463, 977);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_865.jpg', 82111.19, 'PURCHASE', 359, 285);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_549.jpg', 84618.57, 'EXCHANGE', 26, 559);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_4.jpg', 66901.27, 'PURCHASE', 618, 761);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_887.jpg', 84622.49, 'EXCHANGE', 67, 735);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_545.jpg', 45394.76, 'PURCHASE', 693, 625);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_938.jpg', 82375.25, 'EXCHANGE', 656, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_489.jpg', 14537.24, 'PURCHASE', 364, 127);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_303.jpg', 60653.76, 'EXCHANGE', 19, 669);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_492.jpg', 89524.6, 'EXCHANGE', 545, 586);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_180.jpg', 42298.98, 'PURCHASE', 88, 326);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_805.jpg', 71587.02, 'PURCHASE', 668, 772);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_522.jpg', 65682.81, 'EXCHANGE', 699, 140);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_775.jpg', 10067.66, 'PURCHASE', 528, 107);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_550.jpg', 9335.34, 'PURCHASE', 475, 572);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_89.jpg', 35348.85, 'PURCHASE', 601, 259);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_766.jpg', 75667.29, 'PURCHASE', 326, 281);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_857.jpg', 25269.55, 'EXCHANGE', 599, 66);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_95.jpg', 10442.94, 'EXCHANGE', 508, 776);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_357.jpg', 68446.46, 'PURCHASE', 492, 842);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_602.jpg', 19287.44, 'EXCHANGE', 40, 533);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_440.jpg', 30391.39, 'PURCHASE', 254, 65);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_446.jpg', 56581.18, 'EXCHANGE', 431, 62);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_2.jpg', 66716.75, 'PURCHASE', 49, 346);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_947.jpg', 85770.62, 'PURCHASE', 273, 991);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_809.jpg', 88789.16, 'PURCHASE', 524, 104);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_147.jpg', 51186.32, 'PURCHASE', 173, 226);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_558.jpg', 87960.44, 'PURCHASE', 657, 991);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_933.jpg', 8675.57, 'EXCHANGE', 274, 453);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_87.jpg', 76991.61, 'EXCHANGE', 669, 87);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_510.jpg', 33180.43, 'EXCHANGE', 208, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_591.jpg', 80344.99, 'PURCHASE', 577, 656);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_135.jpg', 12285.04, 'PURCHASE', 716, 227);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_479.jpg', 72882.97, 'PURCHASE', 60, 178);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_359.jpg', 52490.87, 'PURCHASE', 342, 933);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_281.jpg', 76693.88, 'PURCHASE', 29, 66);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_668.jpg', 58392.85, 'EXCHANGE', 90, 804);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_780.jpg', 48302.06, 'EXCHANGE', 345, 806);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_200.jpg', 39946.44, 'PURCHASE', 75, 355);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_491.jpg', 42707.86, 'PURCHASE', 372, 416);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_908.jpg', 22146.44, 'PURCHASE', 43, 181);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_503.jpg', 14167.06, 'PURCHASE', 85, 787);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_394.jpg', 20334.26, 'PURCHASE', 152, 652);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_716.jpg', 35042.39, 'PURCHASE', 289, 922);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_466.jpg', 16906.11, 'PURCHASE', 622, 40);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_880.jpg', 70886.54, 'PURCHASE', 627, 552);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_67.jpg', 80432.14, 'PURCHASE', 495, 903);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_333.jpg', 55434.95, 'PURCHASE', 479, 311);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_910.jpg', 61814.04, 'PURCHASE', 423, 961);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_194.jpg', 26568.42, 'EXCHANGE', 506, 972);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_892.jpg', 81772.26, 'EXCHANGE', 712, 730);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_904.jpg', 58056.78, 'PURCHASE', 41, 432);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_116.jpg', 10012.93, 'EXCHANGE', 669, 697);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_11.jpg', 61537.2, 'PURCHASE', 433, 408);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_202.jpg', 27399.92, 'EXCHANGE', 527, 48);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_733.jpg', 61281.7, 'PURCHASE', 203, 52);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_556.jpg', 85002.43, 'PURCHASE', 482, 526);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_439.jpg', 84158.28, 'PURCHASE', 396, 36);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_79.jpg', 22920.71, 'EXCHANGE', 221, 75);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_692.jpg', 32315.56, 'PURCHASE', 411, 440);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_698.jpg', 45611.61, 'EXCHANGE', 703, 425);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_734.jpg', 10361.35, 'EXCHANGE', 12, 341);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_977.jpg', 71908.69, 'EXCHANGE', 586, 919);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_362.jpg', 49152.58, 'PURCHASE', 56, 38);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_159.jpg', 76094.33, 'PURCHASE', 408, 801);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_412.jpg', 6425.29, 'PURCHASE', 544, 920);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_942.jpg', 46562.07, 'EXCHANGE', 507, 392);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_292.jpg', 86027.34, 'EXCHANGE', 181, 866);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_852.jpg', 31823.27, 'PURCHASE', 390, 915);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_267.jpg', 71229.44, 'EXCHANGE', 257, 217);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_103.jpg', 17153.35, 'PURCHASE', 713, 640);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_826.jpg', 24211.16, 'PURCHASE', 85, 958);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_7.jpg', 6430.9, 'EXCHANGE', 493, 447);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_451.jpg', 81157.64, 'PURCHASE', 151, 845);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_112.jpg', 24761.99, 'EXCHANGE', 458, 388);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_483.jpg', 24399.07, 'EXCHANGE', 525, 516);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_780.jpg', 66714.26, 'EXCHANGE', 437, 433);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_688.jpg', 83688.93, 'PURCHASE', 8, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_414.jpg', 35023.3, 'PURCHASE', 66, 643);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_780.jpg', 48998.12, 'EXCHANGE', 46, 544);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_896.jpg', 41236.03, 'PURCHASE', 177, 719);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_115.jpg', 33177.45, 'PURCHASE', 693, 507);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_759.jpg', 61882.61, 'EXCHANGE', 517, 753);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_839.jpg', 35127.41, 'EXCHANGE', 299, 729);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_266.jpg', 78814.67, 'PURCHASE', 322, 236);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_186.jpg', 51776.86, 'EXCHANGE', 24, 643);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_485.jpg', 52074.76, 'EXCHANGE', 476, 123);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_655.jpg', 63729.02, 'PURCHASE', 631, 841);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_414.jpg', 45989.15, 'PURCHASE', 622, 236);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_151.jpg', 86558.76, 'PURCHASE', 411, 862);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_739.jpg', 41454.98, 'EXCHANGE', 500, 935);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_29.jpg', 22448.49, 'EXCHANGE', 184, 538);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_795.jpg', 50562.06, 'PURCHASE', 659, 409);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_865.jpg', 63663.87, 'EXCHANGE', 563, 540);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nunca usado, en empaque original', 'image_127.jpg', 9236.92, 'PURCHASE', 717, 700);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_311.jpg', 5564.12, 'EXCHANGE', 452, 674);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_339.jpg', 11531.52, 'PURCHASE', 249, 87);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_734.jpg', 31197.67, 'EXCHANGE', 87, 134);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_411.jpg', 20457.07, 'EXCHANGE', 640, 845);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_581.jpg', 71964.3, 'PURCHASE', 334, 585);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_103.jpg', 20106.29, 'EXCHANGE', 191, 34);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_501.jpg', 37177.85, 'EXCHANGE', 236, 858);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_230.jpg', 89125.3, 'EXCHANGE', 597, 307);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_722.jpg', 43720.04, 'PURCHASE', 302, 230);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_420.jpg', 47389.23, 'EXCHANGE', 670, 682);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_662.jpg', 84533.12, 'PURCHASE', 288, 17);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_197.jpg', 45603.67, 'PURCHASE', 352, 257);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_393.jpg', 12200.26, 'PURCHASE', 649, 381);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_607.jpg', 23650.19, 'EXCHANGE', 476, 127);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_981.jpg', 69891.81, 'EXCHANGE', 645, 693);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_530.jpg', 31911.27, 'EXCHANGE', 186, 909);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_426.jpg', 41382.5, 'EXCHANGE', 522, 599);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_641.jpg', 25323.97, 'PURCHASE', 114, 725);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_88.jpg', 66040.53, 'EXCHANGE', 383, 176);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_963.jpg', 7199.05, 'PURCHASE', 235, 332);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_906.jpg', 49446.79, 'EXCHANGE', 711, 17);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_882.jpg', 63530.9, 'EXCHANGE', 609, 372);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_65.jpg', 13740.55, 'PURCHASE', 268, 462);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_95.jpg', 36919.16, 'PURCHASE', 321, 396);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_335.jpg', 82743.73, 'EXCHANGE', 672, 8);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_403.jpg', 24759.04, 'PURCHASE', 543, 644);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_257.jpg', 39476.28, 'EXCHANGE', 373, 329);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_197.jpg', 49722.17, 'EXCHANGE', 147, 991);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_489.jpg', 50969.11, 'PURCHASE', 238, 812);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_571.jpg', 73791.32, 'PURCHASE', 637, 545);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_25.jpg', 24799.49, 'EXCHANGE', 365, 597);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_96.jpg', 71820.47, 'PURCHASE', 380, 47);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_800.jpg', 30250.56, 'PURCHASE', 661, 350);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_645.jpg', 11376.94, 'PURCHASE', 342, 357);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_20.jpg', 50399.79, 'EXCHANGE', 494, 69);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_633.jpg', 70837.36, 'EXCHANGE', 569, 239);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_652.jpg', 36320.51, 'PURCHASE', 568, 79);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_954.jpg', 61784.66, 'EXCHANGE', 493, 662);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_715.jpg', 64931.19, 'PURCHASE', 159, 331);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_394.jpg', 47032.01, 'EXCHANGE', 671, 51);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_364.jpg', 14370.91, 'EXCHANGE', 476, 527);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_521.jpg', 76765.68, 'EXCHANGE', 165, 272);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_439.jpg', 79094.97, 'EXCHANGE', 663, 951);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_136.jpg', 21808.56, 'EXCHANGE', 487, 835);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_256.jpg', 87579.13, 'PURCHASE', 563, 347);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_651.jpg', 41709.87, 'EXCHANGE', 95, 940);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_589.jpg', 75047.8, 'PURCHASE', 329, 396);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_969.jpg', 84385.25, 'PURCHASE', 7, 797);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_301.jpg', 19715.02, 'PURCHASE', 124, 285);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_822.jpg', 46419.33, 'EXCHANGE', 93, 731);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_935.jpg', 57862.32, 'EXCHANGE', 531, 717);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_425.jpg', 37754.56, 'EXCHANGE', 536, 281);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_345.jpg', 13044.66, 'PURCHASE', 365, 145);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_98.jpg', 71563.69, 'PURCHASE', 512, 755);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_439.jpg', 56578.17, 'PURCHASE', 238, 775);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_527.jpg', 77529.15, 'PURCHASE', 251, 808);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_649.jpg', 76258.92, 'PURCHASE', 591, 620);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_590.jpg', 86962.71, 'EXCHANGE', 339, 294);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_604.jpg', 26273.13, 'EXCHANGE', 687, 660);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_324.jpg', 31284.35, 'EXCHANGE', 308, 486);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_22.jpg', 46168.15, 'EXCHANGE', 43, 155);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_687.jpg', 53264.47, 'EXCHANGE', 514, 153);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_407.jpg', 22017.07, 'EXCHANGE', 104, 339);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_394.jpg', 25033.89, 'PURCHASE', 196, 617);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_231.jpg', 6280.74, 'EXCHANGE', 695, 415);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_186.jpg', 84494.52, 'PURCHASE', 431, 725);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_945.jpg', 6199.73, 'PURCHASE', 357, 326);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_805.jpg', 6060.21, 'PURCHASE', 389, 448);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_193.jpg', 58465.34, 'PURCHASE', 5, 95);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_777.jpg', 69252.18, 'PURCHASE', 229, 621);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_112.jpg', 33019.99, 'EXCHANGE', 432, 771);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_226.jpg', 72798.75, 'PURCHASE', 473, 494);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_755.jpg', 86050.8, 'EXCHANGE', 526, 94);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_335.jpg', 82971.53, 'PURCHASE', 136, 230);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_841.jpg', 56017.37, 'PURCHASE', 496, 424);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_798.jpg', 38060.03, 'EXCHANGE', 114, 395);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_994.jpg', 16693.03, 'EXCHANGE', 138, 480);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_133.jpg', 6281.07, 'EXCHANGE', 193, 191);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_50.jpg', 49050.21, 'PURCHASE', 71, 175);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_104.jpg', 81748.15, 'PURCHASE', 8, 357);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_1000.jpg', 60649.5, 'PURCHASE', 280, 819);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_583.jpg', 69548.66, 'EXCHANGE', 587, 372);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_382.jpg', 61522.26, 'PURCHASE', 509, 402);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_319.jpg', 25472.97, 'PURCHASE', 703, 902);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_346.jpg', 44623.18, 'EXCHANGE', 379, 286);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_88.jpg', 89041.71, 'PURCHASE', 400, 320);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_29.jpg', 76766.96, 'EXCHANGE', 473, 742);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_501.jpg', 43665.83, 'PURCHASE', 278, 728);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en buen estado', 'image_87.jpg', 28076.86, 'PURCHASE', 527, 100);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_964.jpg', 37830.75, 'PURCHASE', 399, 941);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_299.jpg', 50807.75, 'EXCHANGE', 28, 559);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_820.jpg', 56992.24, 'EXCHANGE', 155, 144);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_122.jpg', 11853.35, 'EXCHANGE', 415, 746);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_568.jpg', 76510.88, 'PURCHASE', 620, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_849.jpg', 49417.09, 'PURCHASE', 73, 209);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_202.jpg', 24380.77, 'EXCHANGE', 574, 350);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_39.jpg', 56881.23, 'PURCHASE', 176, 535);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_519.jpg', 41358.49, 'EXCHANGE', 643, 262);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_476.jpg', 65491.38, 'PURCHASE', 277, 17);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_622.jpg', 80427.66, 'PURCHASE', 4, 300);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Con algunas marcas de uso', 'image_895.jpg', 52703.2, 'EXCHANGE', 508, 277);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_534.jpg', 17339.74, 'PURCHASE', 585, 795);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_577.jpg', 52932.48, 'PURCHASE', 543, 60);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_700.jpg', 31055.72, 'EXCHANGE', 324, 171);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_391.jpg', 35561.67, 'EXCHANGE', 426, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nuevo', 'image_434.jpg', 76662.16, 'EXCHANGE', 325, 751);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_336.jpg', 86993.22, 'PURCHASE', 545, 438);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_920.jpg', 9811.25, 'PURCHASE', 524, 762);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_280.jpg', 47015.43, 'EXCHANGE', 190, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_419.jpg', 29653.93, 'PURCHASE', 589, 964);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_514.jpg', 5147.22, 'EXCHANGE', 643, 697);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_878.jpg', 10491.39, 'EXCHANGE', 274, 952);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_229.jpg', 75111.55, 'PURCHASE', 604, 981);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_353.jpg', 67687.23, 'EXCHANGE', 356, 734);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_682.jpg', 40471.51, 'PURCHASE', 484, 798);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_961.jpg', 88153.36, 'PURCHASE', 253, 787);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_265.jpg', 57936.1, 'PURCHASE', 285, 149);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_84.jpg', 20634.21, 'EXCHANGE', 382, 232);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_398.jpg', 27097.17, 'PURCHASE', 108, 879);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_171.jpg', 5909.27, 'EXCHANGE', 123, 405);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_909.jpg', 33994.39, 'PURCHASE', 480, 794);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_686.jpg', 9560.72, 'EXCHANGE', 672, 299);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_601.jpg', 60914.16, 'PURCHASE', 167, 60);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_533.jpg', 87299.08, 'EXCHANGE', 372, 646);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_590.jpg', 63737.08, 'EXCHANGE', 259, 847);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_194.jpg', 55266.02, 'EXCHANGE', 309, 331);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_673.jpg', 8153.91, 'PURCHASE', 464, 68);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_963.jpg', 61510.34, 'PURCHASE', 348, 494);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_382.jpg', 46782.96, 'PURCHASE', 136, 937);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado', 'image_782.jpg', 39044.45, 'PURCHASE', 65, 608);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_607.jpg', 7347.15, 'PURCHASE', 344, 895);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_171.jpg', 41371.38, 'PURCHASE', 153, 544);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_836.jpg', 56844.29, 'EXCHANGE', 424, 603);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_273.jpg', 70072.74, 'PURCHASE', 430, 51);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_563.jpg', 57256.05, 'PURCHASE', 687, 384);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_90.jpg', 38936.16, 'EXCHANGE', 216, 46);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_19.jpg', 40590.82, 'PURCHASE', 375, 985);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_548.jpg', 28119.36, 'PURCHASE', 311, 908);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_793.jpg', 72078.14, 'EXCHANGE', 703, 218);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_496.jpg', 15928.87, 'PURCHASE', 93, 311);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_471.jpg', 82348.3, 'PURCHASE', 267, 113);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_723.jpg', 67304.05, 'PURCHASE', 548, 447);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en buen estado', 'image_300.jpg', 87956.87, 'PURCHASE', 309, 395);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_986.jpg', 60202.44, 'PURCHASE', 579, 679);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en buen estado', 'image_92.jpg', 49263.41, 'EXCHANGE', 22, 423);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_888.jpg', 26243.84, 'PURCHASE', 104, 369);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_866.jpg', 42861.07, 'PURCHASE', 582, 635);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_625.jpg', 54960.92, 'EXCHANGE', 532, 742);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_600.jpg', 55288.66, 'PURCHASE', 260, 264);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_438.jpg', 19241.78, 'PURCHASE', 552, 600);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_549.jpg', 62199.53, 'PURCHASE', 670, 222);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_407.jpg', 76546.17, 'EXCHANGE', 161, 364);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_449.jpg', 40177.7, 'PURCHASE', 204, 979);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Excelente estado', 'image_854.jpg', 50142.89, 'PURCHASE', 559, 739);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_579.jpg', 10326.75, 'EXCHANGE', 213, 486);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_413.jpg', 64109.76, 'PURCHASE', 82, 673);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado, pero en buen estado', 'image_759.jpg', 37411.26, 'PURCHASE', 485, 795);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Libro en perfecto estado', 'image_958.jpg', 78993.09, 'PURCHASE', 719, 865);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_834.jpg', 15720.52, 'EXCHANGE', 243, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_23.jpg', 78121.43, 'EXCHANGE', 67, 229);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado', 'image_618.jpg', 12471.54, 'EXCHANGE', 545, 849);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_669.jpg', 29876.83, 'PURCHASE', 402, 757);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_191.jpg', 29826.42, 'EXCHANGE', 476, 872);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_689.jpg', 68483.25, 'PURCHASE', 286, 625);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Excelente estado', 'image_105.jpg', 59872.17, 'PURCHASE', 4, 184);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_197.jpg', 52588.29, 'PURCHASE', 617, 102);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_855.jpg', 55418.03, 'EXCHANGE', 69, 212);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Muy buen estado', 'image_717.jpg', 30685.45, 'PURCHASE', 19, 55);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_955.jpg', 26300.37, 'EXCHANGE', 195, 468);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_8.jpg', 73211.85, 'PURCHASE', 223, 326);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_895.jpg', 9072.85, 'PURCHASE', 363, 716);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_177.jpg', 18480.16, 'PURCHASE', 365, 475);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_835.jpg', 53438.06, 'PURCHASE', 388, 716);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_20.jpg', 33414.29, 'PURCHASE', 406, 875);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_96.jpg', 48020.22, 'EXCHANGE', 201, 831);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_658.jpg', 60582.08, 'PURCHASE', 474, 333);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_947.jpg', 44884.96, 'EXCHANGE', 49, 869);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_511.jpg', 82155.43, 'EXCHANGE', 615, 147);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Con algunas marcas de uso', 'image_454.jpg', 19840.12, 'EXCHANGE', 250, 873);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Buen estado', 'image_35.jpg', 27480.88, 'EXCHANGE', 329, 429);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_608.jpg', 77027.12, 'EXCHANGE', 475, 645);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_136.jpg', 16530.69, 'EXCHANGE', 61, 357);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_559.jpg', 68939.53, 'PURCHASE', 306, 257);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_72.jpg', 11157.44, 'EXCHANGE', 704, 478);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_245.jpg', 15061.37, 'EXCHANGE', 176, 444);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_234.jpg', 36416.64, 'EXCHANGE', 98, 687);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Usado, pero en buen estado', 'image_740.jpg', 37190.35, 'EXCHANGE', 226, 923);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_226.jpg', 46942.44, 'PURCHASE', 594, 992);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_816.jpg', 39813.01, 'EXCHANGE', 199, 637);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Buen estado', 'image_972.jpg', 82305.65, 'PURCHASE', 605, 528);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Con algunas marcas de uso', 'image_351.jpg', 18833.05, 'PURCHASE', 177, 409);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_657.jpg', 79505.84, 'EXCHANGE', 259, 518);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_468.jpg', 13842.06, 'EXCHANGE', 129, 557);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Buen estado', 'image_545.jpg', 83697.62, 'EXCHANGE', 665, 261);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_369.jpg', 82156.92, 'PURCHASE', 698, 990);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nunca usado, en empaque original', 'image_547.jpg', 55035.5, 'PURCHASE', 556, 740);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_993.jpg', 55415.12, 'EXCHANGE', 666, 352);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_441.jpg', 27365.36, 'PURCHASE', 534, 139);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_622.jpg', 77072.09, 'PURCHASE', 49, 272);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_542.jpg', 23969.51, 'PURCHASE', 572, 389);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_71.jpg', 44965.06, 'EXCHANGE', 518, 793);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado, pero en buen estado', 'image_407.jpg', 50919.53, 'EXCHANGE', 672, 593);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_61.jpg', 39968.97, 'EXCHANGE', 103, 220);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_728.jpg', 9293.42, 'PURCHASE', 467, 127);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_463.jpg', 69022.64, 'EXCHANGE', 662, 458);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_337.jpg', 16835.15, 'PURCHASE', 589, 814);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Muy buen estado', 'image_882.jpg', 15902.75, 'PURCHASE', 329, 120);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Muy buen estado', 'image_428.jpg', 64936.62, 'EXCHANGE', 52, 790);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_762.jpg', 74880.01, 'PURCHASE', 710, 832);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_445.jpg', 65118.62, 'EXCHANGE', 598, 502);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_290.jpg', 17967.81, 'PURCHASE', 589, 53);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_443.jpg', 9165.4, 'EXCHANGE', 148, 225);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_502.jpg', 19050.35, 'PURCHASE', 584, 822);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Con algunas marcas de uso', 'image_942.jpg', 24380.69, 'PURCHASE', 53, 658);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nunca usado, en empaque original', 'image_401.jpg', 55063.87, 'EXCHANGE', 86, 649);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_277.jpg', 5557.72, 'EXCHANGE', 467, 86);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_764.jpg', 39560.81, 'PURCHASE', 24, 496);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Nuevo', 'image_938.jpg', 43595.71, 'PURCHASE', 479, 967);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en buen estado', 'image_230.jpg', 8027.28, 'EXCHANGE', 135, 669);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado', 'image_337.jpg', 27678.12, 'PURCHASE', 63, 188);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_135.jpg', 34446.37, 'EXCHANGE', 176, 133);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Buen estado', 'image_662.jpg', 22236.8, 'EXCHANGE', 300, 118);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_658.jpg', 11402.6, 'EXCHANGE', 237, 220);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_156.jpg', 25694.72, 'PURCHASE', 197, 686);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Nunca usado, en empaque original', 'image_389.jpg', 8987.39, 'PURCHASE', 135, 839);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_662.jpg', 31823.61, 'PURCHASE', 538, 816);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nuevo', 'image_366.jpg', 76105.08, 'EXCHANGE', 68, 332);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_831.jpg', 42761.25, 'PURCHASE', 258, 976);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en perfecto estado', 'image_18.jpg', 75844.8, 'PURCHASE', 107, 900);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Excelente estado', 'image_839.jpg', 67472.35, 'PURCHASE', 567, 24);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Nuevo', 'image_431.jpg', 60386.12, 'EXCHANGE', 592, 917);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Libro en perfecto estado', 'image_131.jpg', 35245.66, 'PURCHASE', 291, 714);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_523.jpg', 83598.17, 'PURCHASE', 648, 112);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Libro en perfecto estado', 'image_886.jpg', 39098.75, 'PURCHASE', 313, 549);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Usado', 'image_441.jpg', 60875.05, 'PURCHASE', 619, 307);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_557.jpg', 80336.82, 'EXCHANGE', 244, 265);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_518.jpg', 45071.99, 'EXCHANGE', 177, 88);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Usado, pero en buen estado', 'image_626.jpg', 15663.41, 'EXCHANGE', 207, 437);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Con algunas marcas de uso', 'image_649.jpg', 23899.03, 'PURCHASE', 591, 81);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Excelente estado', 'image_483.jpg', 62598.15, 'PURCHASE', 658, 14);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'MUY_BUENO', 'Usado, pero en buen estado', 'image_712.jpg', 80677.37, 'EXCHANGE', 442, 970);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_279.jpg', 16720.53, 'PURCHASE', 237, 336);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Excelente estado', 'image_617.jpg', 72440.26, 'PURCHASE', 570, 336);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Usado', 'image_715.jpg', 64158.54, 'PURCHASE', 706, 566);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Muy buen estado', 'image_494.jpg', 45469.99, 'PURCHASE', 599, 823);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'BUENO', 'Nunca usado, en empaque original', 'image_519.jpg', 77753.74, 'EXCHANGE', 321, 687);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Buen estado', 'image_906.jpg', 16521.87, 'PURCHASE', 577, 549);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'ACEPTABLE', 'Libro en buen estado', 'image_475.jpg', 51326.84, 'PURCHASE', 295, 843);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Nuevo', 'image_78.jpg', 35714.17, 'PURCHASE', 341, 863);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'COMO_NUEVO', 'Libro en perfecto estado', 'image_889.jpg', 67239.07, 'EXCHANGE', 412, 654);
-INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user) VALUES (NOW(), NOW(), 'NUEVO', 'Muy buen estado', 'image_904.jpg', 73033.23, 'PURCHASE', 684, 51);
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 16:54:11', '2024-12-28 16:54:11', 'NUEVO', 'Bueno', 'NULL', 91758.29, 'EXCHANGE', 519, 75, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-26 16:54:11', '2024-12-26 16:54:11', 'COMO_NUEVO', 'Usado', 'NULL', 101556.16, 'PURCHASE', 230, 75, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 17:38:32', '2024-10-29 17:38:32', 'MUY_BUENO', 'Excelente estado', 'NULL', 102003.95, 'PURCHASE', 687, 883, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 12:40:12', '2024-11-02 12:40:12', 'ACEPTABLE', 'Usado', 'NULL', 5453.9, 'PURCHASE', 147, 635, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 14:20:22', '2024-10-19 14:20:22', 'NUEVO', 'Excelente estado', 'NULL', 84814.61, 'PURCHASE', 160, 941, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 14:20:22', '2024-10-20 14:20:22', 'NUEVO', 'Bueno', 'NULL', 72738.28, 'PURCHASE', 510, 941, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 13:34:10', '2024-10-30 13:34:10', 'NUEVO', 'Aceptable', 'NULL', 9268.05, 'EXCHANGE', 87, 775, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 13:34:10', '2024-11-03 13:34:10', 'ACEPTABLE', 'Usado', 'NULL', 49899.94, 'EXCHANGE', 499, 775, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 18:45:31', '2024-10-30 18:45:31', 'NUEVO', 'Usado', 'NULL', 118761.56, 'PURCHASE', 528, 726, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 18:05:00', '2024-10-27 18:05:00', 'MUY_BUENO', 'Excelente estado', 'NULL', 84485.43, 'PURCHASE', 598, 951, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 15:20:34', '2024-09-11 15:20:34', 'ACEPTABLE', 'Usado', 'NULL', 117869.72, 'EXCHANGE', 627, 566, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 14:33:48', '2024-09-23 14:33:48', 'COMO_NUEVO', 'Bueno', 'NULL', 73143.24, 'EXCHANGE', 512, 646, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-16 16:09:41', '2024-12-16 16:09:41', 'MUY_BUENO', 'Usado', 'NULL', 86290.16, 'PURCHASE', 663, 290, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-16 16:09:41', '2024-12-16 16:09:41', 'BUENO', 'Aceptable', 'NULL', 52874.05, 'PURCHASE', 375, 290, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-21 11:19:14', '2024-11-21 11:19:14', 'NUEVO', 'Nuevo', 'NULL', 12724.73, 'PURCHASE', 548, 313, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-24 11:19:14', '2024-11-24 11:19:14', 'ACEPTABLE', 'Excelente estado', 'NULL', 27604.99, 'EXCHANGE', 261, 313, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-05 16:45:20', '2024-08-05 16:45:20', 'NUEVO', 'Nuevo', 'NULL', 95283.02, 'PURCHASE', 638, 7, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-06 16:45:20', '2024-08-06 16:45:20', 'ACEPTABLE', 'Aceptable', 'NULL', 78427.47, 'PURCHASE', 130, 7, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 10:43:19', '2024-10-28 10:43:19', 'COMO_NUEVO', 'Nuevo', 'NULL', 55562.56, 'EXCHANGE', 357, 699, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 10:43:19', '2024-10-27 10:43:19', 'MUY_BUENO', 'Excelente estado', 'NULL', 67481.09, 'PURCHASE', 678, 699, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 12:13:48', '2024-09-15 12:13:48', 'ACEPTABLE', 'Excelente estado', 'NULL', 86165.04, 'PURCHASE', 57, 93, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 12:13:48', '2024-09-15 12:13:48', 'MUY_BUENO', 'Nuevo', 'NULL', 9808.63, 'EXCHANGE', 386, 93, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 14:59:25', '2024-11-02 14:59:25', 'BUENO', 'Aceptable', 'NULL', 94480.56, 'EXCHANGE', 481, 507, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 15:19:43', '2024-09-22 15:19:43', 'NUEVO', 'Nuevo', 'NULL', 88547.35, 'EXCHANGE', 691, 47, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 15:19:43', '2024-09-20 15:19:43', 'ACEPTABLE', 'Bueno', 'NULL', 72928.68, 'EXCHANGE', 299, 47, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-01 16:47:22', '2024-12-01 16:47:22', 'NUEVO', 'Bueno', 'NULL', 107537.75, 'EXCHANGE', 152, 766, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 16:40:48', '2024-10-31 16:40:48', 'NUEVO', 'Nuevo', 'NULL', 19104.68, 'EXCHANGE', 651, 544, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 16:40:48', '2024-11-01 16:40:48', 'BUENO', 'Excelente estado', 'NULL', 34836.87, 'PURCHASE', 646, 544, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 12:04:02', '2024-10-20 12:04:02', 'BUENO', 'Excelente estado', 'NULL', 111568.22, 'PURCHASE', 492, 327, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 12:04:02', '2024-10-19 12:04:02', 'NUEVO', 'Bueno', 'NULL', 29475.42, 'PURCHASE', 536, 327, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 12:22:23', '2024-10-21 12:22:23', 'ACEPTABLE', 'Nuevo', 'NULL', 94968.4, 'PURCHASE', 456, 447, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 12:44:20', '2024-10-02 12:44:20', 'MUY_BUENO', 'Nuevo', 'NULL', 37283.62, 'PURCHASE', 132, 577, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 12:44:20', '2024-10-02 12:44:20', 'BUENO', 'Excelente estado', 'NULL', 17915.74, 'EXCHANGE', 615, 577, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 15:14:54', '2024-10-20 15:14:54', 'COMO_NUEVO', 'Nuevo', 'NULL', 24268.15, 'PURCHASE', 446, 936, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 14:18:38', '2024-08-22 14:18:38', 'NUEVO', 'Excelente estado', 'NULL', 43571.18, 'EXCHANGE', 157, 377, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 14:18:38', '2024-08-22 14:18:38', 'BUENO', 'Excelente estado', 'NULL', 56967.56, 'EXCHANGE', 315, 377, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-07 15:14:59', '2024-08-07 15:14:59', 'BUENO', 'Bueno', 'NULL', 70821.23, 'EXCHANGE', 606, 446, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-11 15:14:59', '2024-08-11 15:14:59', 'NUEVO', 'Excelente estado', 'NULL', 54055.73, 'EXCHANGE', 374, 446, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 10:29:34', '2024-09-22 10:29:34', 'MUY_BUENO', 'Bueno', 'NULL', 65494.04, 'PURCHASE', 147, 413, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 13:51:38', '2024-11-02 13:51:38', 'NUEVO', 'Excelente estado', 'NULL', 29619.89, 'EXCHANGE', 637, 315, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 13:51:38', '2024-11-01 13:51:38', 'COMO_NUEVO', 'Bueno', 'NULL', 11485.57, 'EXCHANGE', 11, 315, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-02 16:54:42', '2025-01-02 16:54:42', 'ACEPTABLE', 'Nuevo', 'NULL', 21870.26, 'EXCHANGE', 317, 739, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-29 15:14:21', '2024-12-29 15:14:21', 'BUENO', 'Nuevo', 'NULL', 10430.61, 'PURCHASE', 102, 712, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-30 15:14:21', '2024-12-30 15:14:21', 'COMO_NUEVO', 'Nuevo', 'NULL', 80538.62, 'PURCHASE', 570, 712, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 10:30:46', '2024-09-29 10:30:46', 'BUENO', 'Aceptable', 'NULL', 118693.2, 'EXCHANGE', 311, 787, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 10:30:46', '2024-09-28 10:30:46', 'MUY_BUENO', 'Nuevo', 'NULL', 21248.61, 'PURCHASE', 146, 787, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-01 13:10:57', '2024-10-01 13:10:57', 'ACEPTABLE', 'Aceptable', 'NULL', 34594.02, 'PURCHASE', 499, 49, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 13:10:57', '2024-10-04 13:10:57', 'NUEVO', 'Usado', 'NULL', 78901.38, 'PURCHASE', 135, 49, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-13 08:41:02', '2024-11-13 08:41:02', 'NUEVO', 'Aceptable', 'NULL', 107609.52, 'EXCHANGE', 500, 111, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-11 08:41:02', '2024-11-11 08:41:02', 'NUEVO', 'Bueno', 'NULL', 6071.64, 'EXCHANGE', 205, 111, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 14:59:56', '2024-10-27 14:59:56', 'COMO_NUEVO', 'Bueno', 'NULL', 28737.87, 'EXCHANGE', 669, 675, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 14:59:56', '2024-10-30 14:59:56', 'COMO_NUEVO', 'Bueno', 'NULL', 96872.27, 'PURCHASE', 79, 675, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:40:22', '2024-10-18 12:40:22', 'ACEPTABLE', 'Aceptable', 'NULL', 80355.53, 'PURCHASE', 443, 461, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 12:40:22', '2024-10-17 12:40:22', 'BUENO', 'Aceptable', 'NULL', 43456.94, 'EXCHANGE', 225, 461, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-26 12:18:35', '2024-12-26 12:18:35', 'BUENO', 'Aceptable', 'NULL', 112422.85, 'PURCHASE', 53, 791, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 16:04:10', '2024-10-20 16:04:10', 'COMO_NUEVO', 'Aceptable', 'NULL', 97956.89, 'EXCHANGE', 9, 275, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 11:26:36', '2024-09-23 11:26:36', 'ACEPTABLE', 'Aceptable', 'NULL', 26097.11, 'EXCHANGE', 591, 803, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 12:32:10', '2024-10-11 12:32:10', 'NUEVO', 'Nuevo', 'NULL', 33148.83, 'PURCHASE', 4, 28, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 14:45:27', '2024-10-15 14:45:27', 'MUY_BUENO', 'Usado', 'NULL', 56010.71, 'EXCHANGE', 647, 373, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 14:45:27', '2024-10-15 14:45:27', 'NUEVO', 'Aceptable', 'NULL', 88169.45, 'EXCHANGE', 656, 373, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 17:27:51', '2024-10-11 17:27:51', 'MUY_BUENO', 'Usado', 'NULL', 20730.02, 'PURCHASE', 643, 721, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 17:27:51', '2024-10-09 17:27:51', 'COMO_NUEVO', 'Aceptable', 'NULL', 25188.11, 'PURCHASE', 710, 721, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 11:48:12', '2024-10-11 11:48:12', 'NUEVO', 'Bueno', 'NULL', 105741.72, 'PURCHASE', 88, 948, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 11:48:12', '2024-10-11 11:48:12', 'MUY_BUENO', 'Bueno', 'NULL', 92753.38, 'EXCHANGE', 529, 948, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 17:23:52', '2024-09-11 17:23:52', 'COMO_NUEVO', 'Aceptable', 'NULL', 42838.92, 'PURCHASE', 367, 274, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 13:18:37', '2024-09-26 13:18:37', 'ACEPTABLE', 'Nuevo', 'NULL', 114696.46, 'EXCHANGE', 84, 981, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 13:34:24', '2024-09-06 13:34:24', 'BUENO', 'Excelente estado', 'NULL', 83054.85, 'PURCHASE', 536, 536, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-10 17:39:42', '2024-08-10 17:39:42', 'NUEVO', 'Nuevo', 'NULL', 59524.44, 'PURCHASE', 630, 914, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-22 13:37:34', '2024-11-22 13:37:34', 'MUY_BUENO', 'Bueno', 'NULL', 28281.45, 'EXCHANGE', 369, 383, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 13:37:34', '2024-11-23 13:37:34', 'ACEPTABLE', 'Bueno', 'NULL', 20143.28, 'PURCHASE', 209, 383, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 18:19:29', '2024-10-26 18:19:29', 'ACEPTABLE', 'Aceptable', 'NULL', 30048.68, 'EXCHANGE', 712, 430, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 18:19:29', '2024-10-28 18:19:29', 'NUEVO', 'Bueno', 'NULL', 95394.02, 'PURCHASE', 124, 430, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 14:01:58', '2024-09-21 14:01:58', 'MUY_BUENO', 'Aceptable', 'NULL', 74464.03, 'EXCHANGE', 302, 228, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:21:51', '2024-11-01 14:21:51', 'MUY_BUENO', 'Nuevo', 'NULL', 88412.98, 'PURCHASE', 256, 786, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 09:03:15', '2024-10-28 09:03:15', 'BUENO', 'Bueno', 'NULL', 53353.66, 'PURCHASE', 212, 219, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 14:43:17', '2024-09-12 14:43:17', 'COMO_NUEVO', 'Excelente estado', 'NULL', 48292.62, 'EXCHANGE', 275, 223, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 16:07:12', '2024-10-13 16:07:12', 'NUEVO', 'Aceptable', 'NULL', 26703.43, 'PURCHASE', 708, 234, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 08:21:17', '2024-10-15 08:21:17', 'ACEPTABLE', 'Bueno', 'NULL', 74365.85, 'PURCHASE', 219, 20, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 08:21:17', '2024-10-15 08:21:17', 'COMO_NUEVO', 'Bueno', 'NULL', 54344.72, 'EXCHANGE', 625, 20, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 12:37:42', '2024-10-08 12:37:42', 'MUY_BUENO', 'Aceptable', 'NULL', 105443.88, 'EXCHANGE', 677, 445, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 18:49:25', '2024-10-05 18:49:25', 'BUENO', 'Usado', 'NULL', 35474.96, 'EXCHANGE', 91, 734, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 09:13:41', '2024-10-05 09:13:41', 'COMO_NUEVO', 'Nuevo', 'NULL', 105655.69, 'EXCHANGE', 194, 139, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 11:48:22', '2024-10-22 11:48:22', 'COMO_NUEVO', 'Nuevo', 'NULL', 75814.16, 'EXCHANGE', 521, 108, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 16:57:56', '2024-09-29 16:57:56', 'COMO_NUEVO', 'Bueno', 'NULL', 56315.16, 'EXCHANGE', 164, 96, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 09:07:38', '2024-10-06 09:07:38', 'MUY_BUENO', 'Nuevo', 'NULL', 106782.72, 'EXCHANGE', 678, 910, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 09:07:38', '2024-10-06 09:07:38', 'BUENO', 'Excelente estado', 'NULL', 100368.18, 'PURCHASE', 94, 910, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 18:43:07', '2024-11-02 18:43:07', 'MUY_BUENO', 'Excelente estado', 'NULL', 108878.42, 'PURCHASE', 230, 440, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 15:15:39', '2024-10-21 15:15:39', 'ACEPTABLE', 'Excelente estado', 'NULL', 55976.2, 'EXCHANGE', 297, 684, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 15:15:39', '2024-10-18 15:15:39', 'NUEVO', 'Usado', 'NULL', 37295.89, 'PURCHASE', 454, 684, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 08:25:48', '2024-09-08 08:25:48', 'ACEPTABLE', 'Excelente estado', 'NULL', 23205.02, 'PURCHASE', 625, 595, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 08:25:48', '2024-09-07 08:25:48', 'ACEPTABLE', 'Excelente estado', 'NULL', 59149.88, 'PURCHASE', 526, 595, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 18:29:45', '2024-10-18 18:29:45', 'COMO_NUEVO', 'Excelente estado', 'NULL', 47305.26, 'PURCHASE', 487, 302, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 18:29:45', '2024-10-17 18:29:45', 'BUENO', 'Aceptable', 'NULL', 94509.26, 'EXCHANGE', 486, 302, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 14:42:38', '2024-11-02 14:42:38', 'COMO_NUEVO', 'Usado', 'NULL', 19626.16, 'PURCHASE', 628, 233, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:42:38', '2024-11-01 14:42:38', 'ACEPTABLE', 'Excelente estado', 'NULL', 75915.33, 'PURCHASE', 296, 233, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 13:50:04', '2024-10-06 13:50:04', 'ACEPTABLE', 'Usado', 'NULL', 81064.03, 'PURCHASE', 379, 502, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 13:50:04', '2024-10-05 13:50:04', 'NUEVO', 'Usado', 'NULL', 64037.01, 'EXCHANGE', 176, 502, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 17:01:56', '2024-10-19 17:01:56', 'BUENO', 'Usado', 'NULL', 81944.15, 'EXCHANGE', 486, 503, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 17:01:56', '2024-10-19 17:01:56', 'ACEPTABLE', 'Bueno', 'NULL', 24618.52, 'PURCHASE', 126, 503, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-16 17:02:25', '2024-11-16 17:02:25', 'ACEPTABLE', 'Bueno', 'NULL', 66263.45, 'PURCHASE', 382, 912, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-14 17:02:25', '2024-11-14 17:02:25', 'ACEPTABLE', 'Bueno', 'NULL', 21735.24, 'PURCHASE', 556, 912, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-29 16:09:13', '2024-12-29 16:09:13', 'NUEVO', 'Usado', 'NULL', 76236.2, 'EXCHANGE', 654, 464, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 16:09:13', '2024-12-28 16:09:13', 'COMO_NUEVO', 'Excelente estado', 'NULL', 7183.23, 'EXCHANGE', 596, 464, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 11:40:17', '2024-10-21 11:40:17', 'ACEPTABLE', 'Bueno', 'NULL', 10894.16, 'PURCHASE', 415, 687, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 18:08:51', '2024-10-12 18:08:51', 'COMO_NUEVO', 'Usado', 'NULL', 83387.38, 'EXCHANGE', 341, 526, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 18:08:51', '2024-10-14 18:08:51', 'MUY_BUENO', 'Usado', 'NULL', 37254.0, 'EXCHANGE', 279, 526, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-18 11:50:25', '2024-08-18 11:50:25', 'ACEPTABLE', 'Usado', 'NULL', 68570.99, 'EXCHANGE', 680, 403, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 10:01:16', '2024-09-28 10:01:16', 'NUEVO', 'Bueno', 'NULL', 19213.39, 'EXCHANGE', 10, 820, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 10:01:16', '2024-09-29 10:01:16', 'ACEPTABLE', 'Aceptable', 'NULL', 25918.0, 'EXCHANGE', 704, 820, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 12:55:34', '2024-10-16 12:55:34', 'BUENO', 'Bueno', 'NULL', 61261.84, 'EXCHANGE', 577, 76, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 12:55:34', '2024-10-20 12:55:34', 'ACEPTABLE', 'Excelente estado', 'NULL', 74587.42, 'EXCHANGE', 635, 76, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 15:54:05', '2024-11-02 15:54:05', 'MUY_BUENO', 'Bueno', 'NULL', 70924.29, 'EXCHANGE', 701, 873, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 15:54:05', '2024-10-30 15:54:05', 'BUENO', 'Bueno', 'NULL', 34972.62, 'EXCHANGE', 703, 873, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 09:23:10', '2024-11-23 09:23:10', 'NUEVO', 'Aceptable', 'NULL', 52190.57, 'PURCHASE', 202, 630, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 15:10:42', '2024-08-31 15:10:42', 'ACEPTABLE', 'Nuevo', 'NULL', 37174.16, 'PURCHASE', 113, 994, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-21 13:58:42', '2024-12-21 13:58:42', 'MUY_BUENO', 'Bueno', 'NULL', 85939.45, 'PURCHASE', 602, 147, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-22 13:58:42', '2024-12-22 13:58:42', 'ACEPTABLE', 'Bueno', 'NULL', 62567.58, 'PURCHASE', 535, 147, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 13:11:39', '2024-10-27 13:11:39', 'NUEVO', 'Excelente estado', 'NULL', 39685.0, 'PURCHASE', 183, 906, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 13:11:39', '2024-10-26 13:11:39', 'ACEPTABLE', 'Nuevo', 'NULL', 114244.65, 'PURCHASE', 491, 906, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 14:07:49', '2024-10-05 14:07:49', 'MUY_BUENO', 'Usado', 'NULL', 46013.79, 'PURCHASE', 116, 620, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:07:49', '2024-10-04 14:07:49', 'NUEVO', 'Aceptable', 'NULL', 44061.94, 'EXCHANGE', 570, 620, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 10:10:59', '2024-10-07 10:10:59', 'MUY_BUENO', 'Nuevo', 'NULL', 71127.93, 'PURCHASE', 446, 91, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 13:04:38', '2024-10-20 13:04:38', 'ACEPTABLE', 'Aceptable', 'NULL', 90841.92, 'PURCHASE', 426, 703, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 13:04:38', '2024-10-20 13:04:38', 'BUENO', 'Aceptable', 'NULL', 55896.93, 'EXCHANGE', 604, 703, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 12:52:15', '2024-09-21 12:52:15', 'NUEVO', 'Bueno', 'NULL', 29766.06, 'EXCHANGE', 593, 692, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 08:58:59', '2024-11-03 08:58:59', 'COMO_NUEVO', 'Excelente estado', 'NULL', 11704.11, 'PURCHASE', 180, 586, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 08:58:59', '2024-10-30 08:58:59', 'COMO_NUEVO', 'Aceptable', 'NULL', 50910.79, 'EXCHANGE', 76, 586, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-09 16:35:19', '2024-11-09 16:35:19', 'BUENO', 'Aceptable', 'NULL', 60827.13, 'EXCHANGE', 246, 611, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 16:10:35', '2024-10-28 16:10:35', 'NUEVO', 'Aceptable', 'NULL', 48294.8, 'EXCHANGE', 230, 612, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 14:05:09', '2024-10-29 14:05:09', 'ACEPTABLE', 'Bueno', 'NULL', 60275.6, 'PURCHASE', 288, 402, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 14:05:09', '2024-10-30 14:05:09', 'COMO_NUEVO', 'Nuevo', 'NULL', 88293.94, 'PURCHASE', 38, 402, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 09:50:29', '2024-10-04 09:50:29', 'MUY_BUENO', 'Nuevo', 'NULL', 28232.57, 'PURCHASE', 702, 492, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 15:57:30', '2024-10-17 15:57:30', 'MUY_BUENO', 'Aceptable', 'NULL', 118606.51, 'PURCHASE', 608, 723, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 15:57:30', '2024-10-19 15:57:30', 'MUY_BUENO', 'Aceptable', 'NULL', 32317.1, 'EXCHANGE', 397, 723, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 17:00:08', '2024-10-27 17:00:08', 'MUY_BUENO', 'Aceptable', 'NULL', 8167.39, 'EXCHANGE', 478, 267, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 17:00:08', '2024-10-28 17:00:08', 'NUEVO', 'Excelente estado', 'NULL', 28714.63, 'PURCHASE', 574, 267, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 17:28:29', '2024-10-25 17:28:29', 'ACEPTABLE', 'Excelente estado', 'NULL', 100479.77, 'EXCHANGE', 180, 834, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 10:15:45', '2024-10-14 10:15:45', 'COMO_NUEVO', 'Aceptable', 'NULL', 112888.42, 'EXCHANGE', 354, 184, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 10:15:45', '2024-10-12 10:15:45', 'ACEPTABLE', 'Bueno', 'NULL', 87231.28, 'PURCHASE', 568, 184, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 09:41:11', '2024-12-13 09:41:11', 'BUENO', 'Bueno', 'NULL', 102646.83, 'EXCHANGE', 331, 285, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 09:41:11', '2024-12-13 09:41:11', 'MUY_BUENO', 'Usado', 'NULL', 16333.72, 'PURCHASE', 165, 285, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 18:53:25', '2024-10-04 18:53:25', 'ACEPTABLE', 'Usado', 'NULL', 73637.96, 'PURCHASE', 124, 621, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 09:54:53', '2024-09-06 09:54:53', 'MUY_BUENO', 'Aceptable', 'NULL', 91706.51, 'PURCHASE', 596, 281, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 09:54:53', '2024-09-07 09:54:53', 'COMO_NUEVO', 'Excelente estado', 'NULL', 36563.27, 'EXCHANGE', 606, 281, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 17:26:14', '2024-09-01 17:26:14', 'MUY_BUENO', 'Bueno', 'NULL', 85992.58, 'EXCHANGE', 57, 715, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 17:26:14', '2024-09-01 17:26:14', 'MUY_BUENO', 'Nuevo', 'NULL', 109619.21, 'PURCHASE', 322, 715, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 10:01:36', '2024-10-26 10:01:36', 'MUY_BUENO', 'Aceptable', 'NULL', 87044.41, 'EXCHANGE', 51, 953, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 10:01:36', '2024-10-24 10:01:36', 'ACEPTABLE', 'Nuevo', 'NULL', 72594.4, 'PURCHASE', 239, 953, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 15:40:54', '2024-10-26 15:40:54', 'MUY_BUENO', 'Excelente estado', 'NULL', 109146.62, 'EXCHANGE', 85, 419, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 15:40:54', '2024-10-22 15:40:54', 'BUENO', 'Excelente estado', 'NULL', 38657.33, 'PURCHASE', 86, 419, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-09 09:18:14', '2024-08-09 09:18:14', 'ACEPTABLE', 'Aceptable', 'NULL', 109036.43, 'EXCHANGE', 457, 98, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:31:51', '2024-10-12 09:31:51', 'BUENO', 'Aceptable', 'NULL', 39632.41, 'EXCHANGE', 33, 628, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 09:56:07', '2024-12-07 09:56:07', 'NUEVO', 'Usado', 'NULL', 117568.53, 'EXCHANGE', 242, 555, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 13:31:09', '2024-10-08 13:31:09', 'ACEPTABLE', 'Nuevo', 'NULL', 23202.67, 'EXCHANGE', 712, 58, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 13:31:09', '2024-10-08 13:31:09', 'NUEVO', 'Nuevo', 'NULL', 79498.49, 'PURCHASE', 256, 58, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 08:28:05', '2024-10-16 08:28:05', 'COMO_NUEVO', 'Bueno', 'NULL', 5231.4, 'EXCHANGE', 710, 432, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 08:28:05', '2024-10-15 08:28:05', 'BUENO', 'Aceptable', 'NULL', 38217.73, 'EXCHANGE', 467, 432, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 13:57:50', '2024-10-24 13:57:50', 'BUENO', 'Nuevo', 'NULL', 54887.34, 'EXCHANGE', 315, 116, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 13:57:50', '2024-10-26 13:57:50', 'NUEVO', 'Nuevo', 'NULL', 6749.42, 'EXCHANGE', 642, 116, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 18:40:57', '2024-10-05 18:40:57', 'MUY_BUENO', 'Usado', 'NULL', 51882.46, 'PURCHASE', 164, 541, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 18:40:57', '2024-10-06 18:40:57', 'MUY_BUENO', 'Usado', 'NULL', 110049.65, 'PURCHASE', 163, 541, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 13:33:44', '2024-10-02 13:33:44', 'MUY_BUENO', 'Nuevo', 'NULL', 117845.6, 'EXCHANGE', 536, 291, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 13:33:44', '2024-10-04 13:33:44', 'BUENO', 'Usado', 'NULL', 18358.81, 'EXCHANGE', 5, 291, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 18:11:25', '2024-09-17 18:11:25', 'ACEPTABLE', 'Nuevo', 'NULL', 111399.39, 'PURCHASE', 215, 619, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 18:11:25', '2024-09-17 18:11:25', 'COMO_NUEVO', 'Aceptable', 'NULL', 105230.6, 'EXCHANGE', 231, 619, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 08:11:50', '2024-10-11 08:11:50', 'ACEPTABLE', 'Nuevo', 'NULL', 114307.04, 'PURCHASE', 390, 660, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 12:39:50', '2024-10-10 12:39:50', 'BUENO', 'Bueno', 'NULL', 73661.61, 'EXCHANGE', 691, 878, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 12:39:50', '2024-10-09 12:39:50', 'NUEVO', 'Aceptable', 'NULL', 65695.78, 'EXCHANGE', 362, 878, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-09 17:25:13', '2024-11-09 17:25:13', 'ACEPTABLE', 'Aceptable', 'NULL', 71668.77, 'EXCHANGE', 682, 608, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-06 16:27:36', '2024-08-06 16:27:36', 'MUY_BUENO', 'Nuevo', 'NULL', 14126.31, 'PURCHASE', 313, 828, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-05 16:27:36', '2024-08-05 16:27:36', 'BUENO', 'Excelente estado', 'NULL', 50309.06, 'EXCHANGE', 3, 828, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 13:58:51', '2024-10-23 13:58:51', 'MUY_BUENO', 'Nuevo', 'NULL', 77177.09, 'PURCHASE', 307, 332, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 11:04:11', '2024-09-01 11:04:11', 'NUEVO', 'Aceptable', 'NULL', 46273.11, 'EXCHANGE', 190, 150, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 11:04:11', '2024-08-31 11:04:11', 'NUEVO', 'Aceptable', 'NULL', 77392.12, 'PURCHASE', 203, 150, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 09:28:00', '2024-09-22 09:28:00', 'ACEPTABLE', 'Bueno', 'NULL', 111369.98, 'EXCHANGE', 53, 428, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 09:31:14', '2024-09-29 09:31:14', 'BUENO', 'Usado', 'NULL', 85370.12, 'PURCHASE', 67, 115, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 13:18:36', '2024-09-14 13:18:36', 'COMO_NUEVO', 'Usado', 'NULL', 86290.93, 'PURCHASE', 251, 404, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-13 13:18:36', '2024-09-13 13:18:36', 'NUEVO', 'Usado', 'NULL', 45028.37, 'EXCHANGE', 655, 404, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-20 18:38:21', '2024-12-20 18:38:21', 'ACEPTABLE', 'Nuevo', 'NULL', 61048.24, 'EXCHANGE', 281, 410, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-20 18:38:21', '2024-12-20 18:38:21', 'MUY_BUENO', 'Usado', 'NULL', 113146.37, 'EXCHANGE', 453, 410, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 14:29:23', '2024-09-29 14:29:23', 'MUY_BUENO', 'Excelente estado', 'NULL', 39966.0, 'PURCHASE', 574, 356, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 14:29:23', '2024-09-28 14:29:23', 'ACEPTABLE', 'Excelente estado', 'NULL', 54165.3, 'PURCHASE', 143, 356, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-09 18:06:15', '2024-08-09 18:06:15', 'MUY_BUENO', 'Bueno', 'NULL', 50424.21, 'PURCHASE', 241, 793, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-09 18:06:15', '2024-08-09 18:06:15', 'NUEVO', 'Bueno', 'NULL', 90407.03, 'EXCHANGE', 421, 793, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 18:56:42', '2024-10-12 18:56:42', 'MUY_BUENO', 'Excelente estado', 'NULL', 47245.47, 'PURCHASE', 233, 854, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 18:56:42', '2024-10-14 18:56:42', 'NUEVO', 'Bueno', 'NULL', 37567.52, 'EXCHANGE', 316, 854, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 10:03:10', '2024-10-07 10:03:10', 'COMO_NUEVO', 'Excelente estado', 'NULL', 18633.78, 'PURCHASE', 2, 399, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 15:10:50', '2024-10-10 15:10:50', 'NUEVO', 'Bueno', 'NULL', 26345.58, 'EXCHANGE', 551, 443, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-24 15:06:09', '2024-08-24 15:06:09', 'NUEVO', 'Aceptable', 'NULL', 90327.14, 'PURCHASE', 96, 238, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-21 15:06:09', '2024-08-21 15:06:09', 'MUY_BUENO', 'Bueno', 'NULL', 16712.18, 'PURCHASE', 437, 238, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 13:24:54', '2024-10-27 13:24:54', 'COMO_NUEVO', 'Nuevo', 'NULL', 117431.19, 'EXCHANGE', 474, 364, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 08:49:08', '2024-08-23 08:49:08', 'ACEPTABLE', 'Usado', 'NULL', 99285.19, 'PURCHASE', 202, 450, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 08:49:08', '2024-08-23 08:49:08', 'ACEPTABLE', 'Aceptable', 'NULL', 38385.28, 'PURCHASE', 26, 450, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 08:39:14', '2024-10-15 08:39:14', 'COMO_NUEVO', 'Excelente estado', 'NULL', 24270.04, 'EXCHANGE', 415, 221, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-29 14:56:03', '2024-12-29 14:56:03', 'ACEPTABLE', 'Usado', 'NULL', 103970.77, 'EXCHANGE', 480, 457, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 18:53:18', '2024-10-16 18:53:18', 'BUENO', 'Usado', 'NULL', 72115.72, 'EXCHANGE', 716, 514, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 18:53:18', '2024-10-15 18:53:18', 'MUY_BUENO', 'Bueno', 'NULL', 83626.36, 'EXCHANGE', 637, 514, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 11:07:16', '2024-09-19 11:07:16', 'NUEVO', 'Aceptable', 'NULL', 6120.28, 'EXCHANGE', 13, 915, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 15:44:01', '2024-11-03 15:44:01', 'BUENO', 'Usado', 'NULL', 96263.66, 'EXCHANGE', 251, 378, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-10 08:19:23', '2024-09-10 08:19:23', 'MUY_BUENO', 'Aceptable', 'NULL', 54674.51, 'EXCHANGE', 433, 36, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 08:19:23', '2024-09-07 08:19:23', 'NUEVO', 'Bueno', 'NULL', 21339.88, 'EXCHANGE', 681, 36, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-25 11:23:05', '2024-09-25 11:23:05', 'ACEPTABLE', 'Usado', 'NULL', 63494.48, 'PURCHASE', 234, 370, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-24 10:39:17', '2024-09-24 10:39:17', 'NUEVO', 'Usado', 'NULL', 72754.09, 'PURCHASE', 362, 711, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 17:03:59', '2024-09-15 17:03:59', 'ACEPTABLE', 'Bueno', 'NULL', 6988.98, 'EXCHANGE', 551, 998, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 08:17:13', '2024-09-28 08:17:13', 'MUY_BUENO', 'Excelente estado', 'NULL', 93902.23, 'PURCHASE', 341, 769, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 08:17:13', '2024-09-28 08:17:13', 'BUENO', 'Excelente estado', 'NULL', 84930.11, 'EXCHANGE', 397, 769, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-24 14:44:54', '2024-09-24 14:44:54', 'COMO_NUEVO', 'Nuevo', 'NULL', 35071.87, 'PURCHASE', 68, 421, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 09:20:43', '2024-10-26 09:20:43', 'MUY_BUENO', 'Aceptable', 'NULL', 99732.44, 'EXCHANGE', 257, 105, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 09:20:43', '2024-10-29 09:20:43', 'COMO_NUEVO', 'Nuevo', 'NULL', 29260.22, 'PURCHASE', 103, 105, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-22 11:08:16', '2024-12-22 11:08:16', 'NUEVO', 'Bueno', 'NULL', 40867.37, 'PURCHASE', 296, 738, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-24 11:08:16', '2024-12-24 11:08:16', 'COMO_NUEVO', 'Nuevo', 'NULL', 49460.75, 'EXCHANGE', 622, 738, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 08:17:58', '2024-10-10 08:17:58', 'BUENO', 'Excelente estado', 'NULL', 105230.42, 'EXCHANGE', 592, 12, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 18:52:51', '2024-10-26 18:52:51', 'ACEPTABLE', 'Usado', 'NULL', 75303.83, 'PURCHASE', 561, 946, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-10 13:34:17', '2024-12-10 13:34:17', 'NUEVO', 'Bueno', 'NULL', 112725.95, 'EXCHANGE', 620, 329, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 13:34:17', '2024-12-07 13:34:17', 'COMO_NUEVO', 'Aceptable', 'NULL', 108136.68, 'PURCHASE', 323, 329, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 10:46:30', '2024-09-20 10:46:30', 'NUEVO', 'Aceptable', 'NULL', 6308.14, 'EXCHANGE', 53, 678, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 15:36:33', '2024-09-08 15:36:33', 'ACEPTABLE', 'Bueno', 'NULL', 22144.72, 'EXCHANGE', 552, 783, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 15:36:33', '2024-09-07 15:36:33', 'COMO_NUEVO', 'Nuevo', 'NULL', 75104.36, 'EXCHANGE', 247, 783, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 08:14:31', '2024-10-16 08:14:31', 'MUY_BUENO', 'Usado', 'NULL', 48368.78, 'PURCHASE', 287, 860, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 09:21:55', '2024-10-18 09:21:55', 'COMO_NUEVO', 'Usado', 'NULL', 70542.23, 'PURCHASE', 697, 652, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 12:47:34', '2024-10-07 12:47:34', 'NUEVO', 'Bueno', 'NULL', 35705.71, 'EXCHANGE', 604, 591, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 12:47:34', '2024-10-05 12:47:34', 'BUENO', 'Excelente estado', 'NULL', 6441.88, 'PURCHASE', 498, 591, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-30 11:05:56', '2024-08-30 11:05:56', 'COMO_NUEVO', 'Bueno', 'NULL', 96725.58, 'EXCHANGE', 185, 535, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-02 11:05:56', '2024-09-02 11:05:56', 'NUEVO', 'Bueno', 'NULL', 73469.56, 'PURCHASE', 619, 535, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 12:29:05', '2024-10-16 12:29:05', 'BUENO', 'Bueno', 'NULL', 117977.81, 'PURCHASE', 676, 459, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:29:05', '2024-10-18 12:29:05', 'MUY_BUENO', 'Usado', 'NULL', 36504.21, 'PURCHASE', 378, 459, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 17:39:11', '2024-12-28 17:39:11', 'COMO_NUEVO', 'Aceptable', 'NULL', 11459.12, 'EXCHANGE', 90, 508, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-12 11:32:11', '2024-11-12 11:32:11', 'MUY_BUENO', 'Aceptable', 'NULL', 43701.14, 'PURCHASE', 347, 97, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-12 11:32:11', '2024-11-12 11:32:11', 'ACEPTABLE', 'Aceptable', 'NULL', 89026.07, 'EXCHANGE', 395, 97, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-09 11:18:34', '2024-08-09 11:18:34', 'ACEPTABLE', 'Excelente estado', 'NULL', 90206.67, 'PURCHASE', 628, 357, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-24 14:05:43', '2024-09-24 14:05:43', 'COMO_NUEVO', 'Aceptable', 'NULL', 49667.82, 'EXCHANGE', 391, 959, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-30 14:46:30', '2024-11-30 14:46:30', 'NUEVO', 'Usado', 'NULL', 49434.87, 'PURCHASE', 88, 162, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 16:53:55', '2024-10-23 16:53:55', 'MUY_BUENO', 'Bueno', 'NULL', 37237.74, 'PURCHASE', 622, 799, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 09:35:55', '2024-10-16 09:35:55', 'BUENO', 'Bueno', 'NULL', 61308.85, 'EXCHANGE', 56, 202, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 09:56:09', '2024-10-30 09:56:09', 'MUY_BUENO', 'Bueno', 'NULL', 6665.43, 'PURCHASE', 343, 835, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 08:41:45', '2024-11-01 08:41:45', 'MUY_BUENO', 'Bueno', 'NULL', 47197.14, 'EXCHANGE', 348, 110, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 18:55:45', '2024-10-06 18:55:45', 'COMO_NUEVO', 'Excelente estado', 'NULL', 118420.96, 'PURCHASE', 329, 212, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 14:36:24', '2024-09-07 14:36:24', 'COMO_NUEVO', 'Aceptable', 'NULL', 83014.49, 'EXCHANGE', 284, 149, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-03 14:36:24', '2024-09-03 14:36:24', 'BUENO', 'Usado', 'NULL', 89934.65, 'PURCHASE', 560, 149, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 14:04:24', '2024-10-03 14:04:24', 'MUY_BUENO', 'Excelente estado', 'NULL', 112074.55, 'EXCHANGE', 64, 885, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 14:04:24', '2024-10-06 14:04:24', 'ACEPTABLE', 'Nuevo', 'NULL', 42808.62, 'PURCHASE', 376, 885, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 17:38:13', '2024-11-23 17:38:13', 'MUY_BUENO', 'Nuevo', 'NULL', 101681.7, 'PURCHASE', 312, 210, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 17:38:13', '2024-11-25 17:38:13', 'ACEPTABLE', 'Bueno', 'NULL', 50510.99, 'PURCHASE', 221, 210, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 11:00:51', '2024-10-18 11:00:51', 'NUEVO', 'Bueno', 'NULL', 98148.26, 'EXCHANGE', 32, 553, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 12:10:55', '2024-10-31 12:10:55', 'ACEPTABLE', 'Excelente estado', 'NULL', 8139.36, 'EXCHANGE', 226, 118, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 12:10:55', '2024-10-31 12:10:55', 'BUENO', 'Nuevo', 'NULL', 74490.13, 'EXCHANGE', 124, 118, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 14:10:07', '2024-10-05 14:10:07', 'MUY_BUENO', 'Excelente estado', 'NULL', 50419.01, 'EXCHANGE', 89, 481, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 14:10:07', '2024-10-06 14:10:07', 'COMO_NUEVO', 'Bueno', 'NULL', 28527.13, 'EXCHANGE', 621, 481, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 14:04:25', '2024-10-10 14:04:25', 'BUENO', 'Aceptable', 'NULL', 60637.02, 'EXCHANGE', 149, 397, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 16:51:43', '2024-10-16 16:51:43', 'NUEVO', 'Bueno', 'NULL', 79929.65, 'EXCHANGE', 177, 676, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 16:51:43', '2024-10-17 16:51:43', 'MUY_BUENO', 'Nuevo', 'NULL', 114435.65, 'PURCHASE', 603, 676, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-06 18:03:37', '2024-08-06 18:03:37', 'NUEVO', 'Bueno', 'NULL', 16850.26, 'EXCHANGE', 488, 844, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-05 18:03:37', '2024-08-05 18:03:37', 'NUEVO', 'Usado', 'NULL', 47075.14, 'PURCHASE', 235, 844, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 08:42:16', '2024-10-17 08:42:16', 'MUY_BUENO', 'Excelente estado', 'NULL', 61821.22, 'PURCHASE', 445, 350, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 11:19:19', '2024-09-12 11:19:19', 'NUEVO', 'Excelente estado', 'NULL', 30573.47, 'PURCHASE', 47, 735, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 16:17:36', '2024-10-08 16:17:36', 'NUEVO', 'Excelente estado', 'NULL', 17222.51, 'EXCHANGE', 343, 804, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 16:17:36', '2024-10-11 16:17:36', 'COMO_NUEVO', 'Aceptable', 'NULL', 60431.54, 'PURCHASE', 231, 804, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 12:26:50', '2024-09-27 12:26:50', 'BUENO', 'Nuevo', 'NULL', 41999.14, 'PURCHASE', 74, 355, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 08:56:49', '2024-12-13 08:56:49', 'MUY_BUENO', 'Nuevo', 'NULL', 17413.16, 'PURCHASE', 103, 152, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 08:56:49', '2024-12-13 08:56:49', 'MUY_BUENO', 'Usado', 'NULL', 17594.05, 'EXCHANGE', 489, 152, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-04 16:21:19', '2024-08-04 16:21:19', 'BUENO', 'Excelente estado', 'NULL', 54031.67, 'EXCHANGE', 516, 168, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-03 16:21:19', '2024-08-03 16:21:19', 'NUEVO', 'Excelente estado', 'NULL', 69890.72, 'PURCHASE', 490, 168, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 16:28:22', '2024-10-09 16:28:22', 'NUEVO', 'Bueno', 'NULL', 115214.14, 'EXCHANGE', 547, 714, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 16:28:22', '2024-10-07 16:28:22', 'MUY_BUENO', 'Aceptable', 'NULL', 41959.51, 'PURCHASE', 618, 714, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 14:25:51', '2024-11-02 14:25:51', 'MUY_BUENO', 'Aceptable', 'NULL', 97602.36, 'PURCHASE', 439, 519, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 15:54:41', '2024-10-04 15:54:41', 'COMO_NUEVO', 'Excelente estado', 'NULL', 80367.0, 'EXCHANGE', 37, 408, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 15:54:41', '2024-10-06 15:54:41', 'COMO_NUEVO', 'Aceptable', 'NULL', 76609.82, 'EXCHANGE', 180, 408, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 11:39:40', '2024-09-16 11:39:40', 'BUENO', 'Nuevo', 'NULL', 51487.24, 'PURCHASE', 185, 158, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 17:08:42', '2024-09-06 17:08:42', 'COMO_NUEVO', 'Excelente estado', 'NULL', 117401.48, 'PURCHASE', 647, 809, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 17:08:42', '2024-09-05 17:08:42', 'BUENO', 'Bueno', 'NULL', 6498.43, 'EXCHANGE', 701, 809, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 09:25:02', '2024-09-08 09:25:02', 'ACEPTABLE', 'Excelente estado', 'NULL', 89256.01, 'EXCHANGE', 321, 339, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 09:25:02', '2024-09-06 09:25:02', 'ACEPTABLE', 'Usado', 'NULL', 44161.43, 'PURCHASE', 601, 339, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 17:06:10', '2024-10-22 17:06:10', 'NUEVO', 'Bueno', 'NULL', 23733.22, 'PURCHASE', 502, 298, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 17:06:10', '2024-10-22 17:06:10', 'NUEVO', 'Aceptable', 'NULL', 88000.78, 'EXCHANGE', 317, 298, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:05:55', '2024-10-12 09:05:55', 'COMO_NUEVO', 'Bueno', 'NULL', 95777.24, 'EXCHANGE', 658, 510, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:05:55', '2024-10-12 09:05:55', 'BUENO', 'Nuevo', 'NULL', 75953.54, 'PURCHASE', 255, 510, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 18:22:40', '2024-10-05 18:22:40', 'BUENO', 'Aceptable', 'NULL', 84114.75, 'EXCHANGE', 367, 572, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 08:12:02', '2024-11-02 08:12:02', 'MUY_BUENO', 'Bueno', 'NULL', 42689.33, 'EXCHANGE', 100, 273, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 11:13:09', '2024-10-20 11:13:09', 'BUENO', 'Aceptable', 'NULL', 34557.22, 'PURCHASE', 165, 788, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 11:13:09', '2024-10-20 11:13:09', 'NUEVO', 'Aceptable', 'NULL', 48543.15, 'PURCHASE', 319, 788, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-05 11:35:30', '2024-11-05 11:35:30', 'MUY_BUENO', 'Excelente estado', 'NULL', 118482.47, 'EXCHANGE', 473, 911, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 11:35:30', '2024-11-01 11:35:30', 'ACEPTABLE', 'Aceptable', 'NULL', 103371.51, 'EXCHANGE', 156, 911, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 08:42:01', '2024-12-13 08:42:01', 'MUY_BUENO', 'Bueno', 'NULL', 89530.63, 'PURCHASE', 423, 552, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 09:14:09', '2024-09-27 09:14:09', 'COMO_NUEVO', 'Aceptable', 'NULL', 35239.99, 'PURCHASE', 267, 37, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 11:32:26', '2024-09-30 11:32:26', 'BUENO', 'Aceptable', 'NULL', 98537.34, 'EXCHANGE', 446, 391, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 11:32:26', '2024-09-29 11:32:26', 'BUENO', 'Excelente estado', 'NULL', 34868.87, 'PURCHASE', 236, 391, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 15:21:44', '2024-10-29 15:21:44', 'NUEVO', 'Aceptable', 'NULL', 19786.22, 'EXCHANGE', 319, 288, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-16 13:02:42', '2024-12-16 13:02:42', 'ACEPTABLE', 'Excelente estado', 'NULL', 65433.47, 'EXCHANGE', 658, 232, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 13:02:42', '2024-12-13 13:02:42', 'BUENO', 'Aceptable', 'NULL', 75966.37, 'PURCHASE', 1, 232, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 18:56:15', '2024-10-26 18:56:15', 'MUY_BUENO', 'Nuevo', 'NULL', 91767.54, 'EXCHANGE', 30, 476, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 10:36:59', '2024-12-13 10:36:59', 'COMO_NUEVO', 'Excelente estado', 'NULL', 72632.84, 'EXCHANGE', 159, 240, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 12:15:19', '2024-12-07 12:15:19', 'NUEVO', 'Aceptable', 'NULL', 68963.28, 'EXCHANGE', 467, 874, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 15:00:21', '2024-10-19 15:00:21', 'NUEVO', 'Bueno', 'NULL', 55292.2, 'PURCHASE', 200, 295, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-24 08:20:48', '2024-09-24 08:20:48', 'ACEPTABLE', 'Excelente estado', 'NULL', 60723.14, 'PURCHASE', 461, 622, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 15:18:07', '2024-10-16 15:18:07', 'NUEVO', 'Usado', 'NULL', 112950.21, 'PURCHASE', 379, 813, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 15:18:07', '2024-10-19 15:18:07', 'COMO_NUEVO', 'Excelente estado', 'NULL', 39532.77, 'EXCHANGE', 448, 813, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 14:28:31', '2024-10-14 14:28:31', 'MUY_BUENO', 'Excelente estado', 'NULL', 66135.28, 'PURCHASE', 630, 466, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 12:03:17', '2024-09-07 12:03:17', 'ACEPTABLE', 'Bueno', 'NULL', 78131.72, 'EXCHANGE', 589, 989, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 12:03:17', '2024-09-05 12:03:17', 'MUY_BUENO', 'Aceptable', 'NULL', 55794.51, 'EXCHANGE', 70, 989, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-05 13:43:19', '2024-11-05 13:43:19', 'ACEPTABLE', 'Excelente estado', 'NULL', 40616.85, 'PURCHASE', 627, 24, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 08:49:22', '2024-10-12 08:49:22', 'MUY_BUENO', 'Nuevo', 'NULL', 34268.77, 'EXCHANGE', 148, 587, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 08:49:22', '2024-10-13 08:49:22', 'MUY_BUENO', 'Excelente estado', 'NULL', 63929.24, 'EXCHANGE', 650, 587, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 08:49:08', '2024-10-31 08:49:08', 'ACEPTABLE', 'Nuevo', 'NULL', 107512.78, 'PURCHASE', 507, 335, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:22:46', '2024-10-18 12:22:46', 'MUY_BUENO', 'Usado', 'NULL', 24801.41, 'PURCHASE', 95, 551, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:22:46', '2024-10-18 12:22:46', 'COMO_NUEVO', 'Aceptable', 'NULL', 98824.89, 'PURCHASE', 537, 551, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 14:54:53', '2024-09-06 14:54:53', 'COMO_NUEVO', 'Excelente estado', 'NULL', 84596.64, 'EXCHANGE', 616, 187, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-18 11:10:24', '2024-09-18 11:10:24', 'MUY_BUENO', 'Bueno', 'NULL', 110964.54, 'EXCHANGE', 606, 439, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 09:29:57', '2024-09-26 09:29:57', 'ACEPTABLE', 'Excelente estado', 'NULL', 15458.98, 'PURCHASE', 392, 867, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 09:29:57', '2024-09-29 09:29:57', 'NUEVO', 'Usado', 'NULL', 76869.92, 'PURCHASE', 390, 867, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 10:38:02', '2024-10-09 10:38:02', 'COMO_NUEVO', 'Usado', 'NULL', 8272.33, 'PURCHASE', 86, 624, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 10:38:02', '2024-10-12 10:38:02', 'ACEPTABLE', 'Usado', 'NULL', 59959.16, 'EXCHANGE', 232, 624, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 18:22:34', '2024-10-10 18:22:34', 'COMO_NUEVO', 'Aceptable', 'NULL', 100743.52, 'EXCHANGE', 599, 527, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 18:22:34', '2024-10-13 18:22:34', 'COMO_NUEVO', 'Aceptable', 'NULL', 99222.56, 'EXCHANGE', 240, 527, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 11:40:00', '2024-10-15 11:40:00', 'MUY_BUENO', 'Usado', 'NULL', 40243.67, 'EXCHANGE', 350, 474, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 11:40:00', '2024-10-13 11:40:00', 'ACEPTABLE', 'Usado', 'NULL', 61907.09, 'PURCHASE', 137, 474, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 17:45:10', '2024-11-03 17:45:10', 'ACEPTABLE', 'Usado', 'NULL', 115352.25, 'PURCHASE', 205, 528, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-16 16:17:18', '2024-11-16 16:17:18', 'BUENO', 'Usado', 'NULL', 34227.19, 'EXCHANGE', 199, 294, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-18 16:17:18', '2024-11-18 16:17:18', 'BUENO', 'Usado', 'NULL', 69707.9, 'EXCHANGE', 578, 294, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-13 13:34:00', '2024-09-13 13:34:00', 'ACEPTABLE', 'Excelente estado', 'NULL', 26450.72, 'PURCHASE', 287, 661, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-13 13:34:00', '2024-09-13 13:34:00', 'BUENO', 'Usado', 'NULL', 69824.5, 'EXCHANGE', 385, 661, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-03 17:00:45', '2025-01-03 17:00:45', 'COMO_NUEVO', 'Usado', 'NULL', 34010.65, 'EXCHANGE', 312, 905, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 09:01:29', '2024-12-07 09:01:29', 'ACEPTABLE', 'Excelente estado', 'NULL', 50429.27, 'PURCHASE', 584, 14, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-04 09:01:29', '2024-12-04 09:01:29', 'NUEVO', 'Nuevo', 'NULL', 31710.59, 'PURCHASE', 59, 14, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 08:30:34', '2024-10-16 08:30:34', 'MUY_BUENO', 'Excelente estado', 'NULL', 13379.5, 'EXCHANGE', 122, 862, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 08:30:34', '2024-10-19 08:30:34', 'COMO_NUEVO', 'Aceptable', 'NULL', 104742.8, 'PURCHASE', 591, 862, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 15:42:07', '2024-10-05 15:42:07', 'ACEPTABLE', 'Aceptable', 'NULL', 86210.06, 'PURCHASE', 209, 858, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 12:02:56', '2024-09-21 12:02:56', 'COMO_NUEVO', 'Nuevo', 'NULL', 87608.45, 'PURCHASE', 410, 255, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 12:02:56', '2024-09-23 12:02:56', 'ACEPTABLE', 'Aceptable', 'NULL', 61098.01, 'PURCHASE', 555, 255, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-15 17:44:17', '2024-08-15 17:44:17', 'ACEPTABLE', 'Nuevo', 'NULL', 37662.85, 'PURCHASE', 188, 561, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-12 09:36:04', '2024-12-12 09:36:04', 'BUENO', 'Bueno', 'NULL', 68987.0, 'EXCHANGE', 469, 584, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 13:17:56', '2024-10-18 13:17:56', 'MUY_BUENO', 'Excelente estado', 'NULL', 84875.27, 'PURCHASE', 596, 702, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 10:32:57', '2024-09-05 10:32:57', 'COMO_NUEVO', 'Nuevo', 'NULL', 71712.34, 'EXCHANGE', 44, 283, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 10:32:57', '2024-09-07 10:32:57', 'NUEVO', 'Nuevo', 'NULL', 99476.48, 'EXCHANGE', 69, 283, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-22 16:31:16', '2024-12-22 16:31:16', 'ACEPTABLE', 'Nuevo', 'NULL', 107974.77, 'EXCHANGE', 247, 570, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 17:06:47', '2024-10-12 17:06:47', 'ACEPTABLE', 'Aceptable', 'NULL', 53760.28, 'PURCHASE', 34, 641, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 17:06:47', '2024-10-14 17:06:47', 'BUENO', 'Bueno', 'NULL', 28625.43, 'PURCHASE', 685, 641, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 09:08:56', '2024-10-13 09:08:56', 'ACEPTABLE', 'Aceptable', 'NULL', 101728.93, 'EXCHANGE', 576, 359, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 09:08:56', '2024-10-11 09:08:56', 'NUEVO', 'Bueno', 'NULL', 117122.07, 'EXCHANGE', 522, 359, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 18:59:42', '2024-09-04 18:59:42', 'MUY_BUENO', 'Excelente estado', 'NULL', 22468.44, 'PURCHASE', 22, 904, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 18:59:42', '2024-09-05 18:59:42', 'NUEVO', 'Aceptable', 'NULL', 24207.74, 'EXCHANGE', 110, 904, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:04:49', '2024-09-27 10:04:49', 'NUEVO', 'Aceptable', 'NULL', 14595.73, 'EXCHANGE', 145, 968, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-27 13:07:01', '2024-11-27 13:07:01', 'NUEVO', 'Nuevo', 'NULL', 95213.78, 'PURCHASE', 253, 497, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-27 13:07:01', '2024-11-27 13:07:01', 'COMO_NUEVO', 'Excelente estado', 'NULL', 33652.69, 'PURCHASE', 531, 497, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 14:45:39', '2024-10-05 14:45:39', 'COMO_NUEVO', 'Bueno', 'NULL', 68457.44, 'EXCHANGE', 162, 493, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:45:39', '2024-10-04 14:45:39', 'NUEVO', 'Excelente estado', 'NULL', 40306.67, 'EXCHANGE', 433, 493, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 11:36:30', '2024-09-17 11:36:30', 'BUENO', 'Usado', 'NULL', 117109.55, 'EXCHANGE', 39, 825, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-18 11:36:30', '2024-09-18 11:36:30', 'MUY_BUENO', 'Excelente estado', 'NULL', 67347.18, 'PURCHASE', 679, 825, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 08:22:44', '2024-09-26 08:22:44', 'MUY_BUENO', 'Excelente estado', 'NULL', 73662.49, 'EXCHANGE', 275, 613, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 10:14:45', '2024-10-22 10:14:45', 'MUY_BUENO', 'Usado', 'NULL', 44532.89, 'PURCHASE', 538, 757, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 12:43:55', '2024-10-27 12:43:55', 'ACEPTABLE', 'Bueno', 'NULL', 46073.77, 'EXCHANGE', 393, 548, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 12:43:55', '2024-10-26 12:43:55', 'COMO_NUEVO', 'Usado', 'NULL', 44535.51, 'PURCHASE', 188, 548, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 12:44:14', '2024-11-04 12:44:14', 'MUY_BUENO', 'Usado', 'NULL', 115747.09, 'PURCHASE', 317, 761, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 12:44:14', '2024-11-02 12:44:14', 'ACEPTABLE', 'Nuevo', 'NULL', 53480.01, 'EXCHANGE', 7, 761, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-05 10:47:27', '2025-01-05 10:47:27', 'NUEVO', 'Aceptable', 'NULL', 6247.12, 'EXCHANGE', 273, 261, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 17:18:11', '2024-10-12 17:18:11', 'COMO_NUEVO', 'Bueno', 'NULL', 99160.36, 'EXCHANGE', 336, 697, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 17:18:11', '2024-10-12 17:18:11', 'NUEVO', 'Aceptable', 'NULL', 15778.87, 'PURCHASE', 588, 697, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 13:57:41', '2024-09-22 13:57:41', 'COMO_NUEVO', 'Excelente estado', 'NULL', 25194.45, 'PURCHASE', 383, 247, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 13:57:41', '2024-09-19 13:57:41', 'MUY_BUENO', 'Nuevo', 'NULL', 19656.62, 'EXCHANGE', 712, 247, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-05 15:49:34', '2024-08-05 15:49:34', 'BUENO', 'Bueno', 'NULL', 76476.06, 'PURCHASE', 509, 626, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-24 13:37:06', '2024-08-24 13:37:06', 'ACEPTABLE', 'Usado', 'NULL', 26706.25, 'PURCHASE', 378, 348, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 13:37:06', '2024-08-23 13:37:06', 'MUY_BUENO', 'Usado', 'NULL', 103997.81, 'PURCHASE', 364, 348, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-15 11:43:02', '2024-12-15 11:43:02', 'BUENO', 'Excelente estado', 'NULL', 109490.25, 'EXCHANGE', 605, 218, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 17:46:45', '2024-10-16 17:46:45', 'MUY_BUENO', 'Bueno', 'NULL', 102537.37, 'PURCHASE', 207, 160, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 17:46:45', '2024-10-20 17:46:45', 'MUY_BUENO', 'Bueno', 'NULL', 99707.68, 'PURCHASE', 381, 160, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-20 18:44:49', '2024-08-20 18:44:49', 'COMO_NUEVO', 'Usado', 'NULL', 54573.67, 'PURCHASE', 674, 92, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-15 16:17:25', '2024-11-15 16:17:25', 'ACEPTABLE', 'Excelente estado', 'NULL', 26662.39, 'PURCHASE', 643, 330, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-13 16:17:25', '2024-11-13 16:17:25', 'ACEPTABLE', 'Bueno', 'NULL', 22740.09, 'EXCHANGE', 79, 330, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 14:57:04', '2024-09-14 14:57:04', 'NUEVO', 'Usado', 'NULL', 17274.62, 'EXCHANGE', 190, 178, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 14:57:04', '2024-09-17 14:57:04', 'COMO_NUEVO', 'Aceptable', 'NULL', 88084.16, 'EXCHANGE', 316, 178, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 08:00:02', '2024-10-11 08:00:02', 'ACEPTABLE', 'Bueno', 'NULL', 57696.55, 'EXCHANGE', 263, 531, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 08:00:02', '2024-10-12 08:00:02', 'NUEVO', 'Usado', 'NULL', 42425.75, 'PURCHASE', 73, 531, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 16:49:06', '2024-10-03 16:49:06', 'BUENO', 'Aceptable', 'NULL', 119879.01, 'PURCHASE', 167, 517, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 16:49:06', '2024-10-03 16:49:06', 'MUY_BUENO', 'Usado', 'NULL', 20512.67, 'PURCHASE', 181, 517, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 15:40:45', '2024-09-27 15:40:45', 'MUY_BUENO', 'Excelente estado', 'NULL', 68435.88, 'EXCHANGE', 359, 567, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-03 11:43:20', '2024-12-03 11:43:20', 'ACEPTABLE', 'Aceptable', 'NULL', 109230.9, 'EXCHANGE', 218, 425, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-01 11:43:20', '2024-12-01 11:43:20', 'MUY_BUENO', 'Bueno', 'NULL', 60728.86, 'PURCHASE', 26, 425, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 17:53:36', '2024-10-05 17:53:36', 'COMO_NUEVO', 'Nuevo', 'NULL', 81620.65, 'PURCHASE', 130, 77, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 17:53:36', '2024-10-07 17:53:36', 'NUEVO', 'Bueno', 'NULL', 5503.47, 'PURCHASE', 460, 77, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-06 08:17:33', '2024-11-06 08:17:33', 'BUENO', 'Aceptable', 'NULL', 67296.15, 'EXCHANGE', 456, 382, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 18:41:20', '2024-11-01 18:41:20', 'COMO_NUEVO', 'Usado', 'NULL', 105857.57, 'PURCHASE', 684, 688, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 18:41:20', '2024-10-30 18:41:20', 'ACEPTABLE', 'Aceptable', 'NULL', 76884.34, 'EXCHANGE', 263, 688, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 16:15:56', '2024-09-26 16:15:56', 'COMO_NUEVO', 'Usado', 'NULL', 14219.07, 'EXCHANGE', 124, 530, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 18:02:27', '2024-10-23 18:02:27', 'COMO_NUEVO', 'Usado', 'NULL', 5793.4, 'PURCHASE', 480, 900, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 18:02:27', '2024-10-25 18:02:27', 'NUEVO', 'Nuevo', 'NULL', 44456.41, 'EXCHANGE', 475, 900, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 10:53:34', '2024-11-01 10:53:34', 'BUENO', 'Nuevo', 'NULL', 79134.79, 'PURCHASE', 436, 244, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-01 14:18:50', '2025-01-01 14:18:50', 'MUY_BUENO', 'Aceptable', 'NULL', 61138.32, 'PURCHASE', 373, 695, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-01 14:18:50', '2025-01-01 14:18:50', 'BUENO', 'Excelente estado', 'NULL', 75430.17, 'PURCHASE', 67, 695, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 10:00:15', '2024-10-26 10:00:15', 'BUENO', 'Bueno', 'NULL', 35224.54, 'PURCHASE', 621, 590, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 10:00:15', '2024-10-26 10:00:15', 'MUY_BUENO', 'Usado', 'NULL', 90845.68, 'PURCHASE', 328, 590, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-07 16:08:05', '2024-08-07 16:08:05', 'ACEPTABLE', 'Bueno', 'NULL', 66174.5, 'PURCHASE', 348, 845, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 15:32:40', '2024-10-21 15:32:40', 'MUY_BUENO', 'Nuevo', 'NULL', 116813.98, 'PURCHASE', 289, 30, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 09:15:55', '2024-10-23 09:15:55', 'MUY_BUENO', 'Excelente estado', 'NULL', 44451.55, 'PURCHASE', 333, 449, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 11:42:18', '2024-11-02 11:42:18', 'MUY_BUENO', 'Excelente estado', 'NULL', 92899.51, 'EXCHANGE', 340, 360, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 11:42:18', '2024-11-03 11:42:18', 'BUENO', 'Usado', 'NULL', 74700.88, 'EXCHANGE', 428, 360, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-10 08:04:50', '2024-12-10 08:04:50', 'NUEVO', 'Bueno', 'NULL', 42670.46, 'PURCHASE', 268, 354, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-10 08:04:50', '2024-12-10 08:04:50', 'MUY_BUENO', 'Aceptable', 'NULL', 68222.15, 'PURCHASE', 175, 354, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 17:10:51', '2024-11-03 17:10:51', 'BUENO', 'Usado', 'NULL', 15231.17, 'EXCHANGE', 611, 654, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 14:51:13', '2024-10-06 14:51:13', 'BUENO', 'Aceptable', 'NULL', 82820.57, 'EXCHANGE', 641, 148, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-26 10:28:06', '2024-11-26 10:28:06', 'COMO_NUEVO', 'Aceptable', 'NULL', 10848.14, 'PURCHASE', 189, 920, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 10:28:06', '2024-11-23 10:28:06', 'BUENO', 'Aceptable', 'NULL', 85537.04, 'EXCHANGE', 696, 920, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 09:02:34', '2024-10-25 09:02:34', 'BUENO', 'Usado', 'NULL', 113951.34, 'PURCHASE', 182, 437, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 18:54:08', '2024-10-11 18:54:08', 'NUEVO', 'Usado', 'NULL', 7026.81, 'PURCHASE', 27, 797, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 09:51:52', '2024-10-25 09:51:52', 'COMO_NUEVO', 'Usado', 'NULL', 53674.37, 'EXCHANGE', 435, 924, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 09:51:52', '2024-10-25 09:51:52', 'COMO_NUEVO', 'Usado', 'NULL', 13433.76, 'PURCHASE', 596, 924, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 18:06:28', '2024-10-18 18:06:28', 'BUENO', 'Bueno', 'NULL', 57970.3, 'EXCHANGE', 238, 504, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 12:22:59', '2024-09-21 12:22:59', 'NUEVO', 'Aceptable', 'NULL', 101134.69, 'PURCHASE', 214, 865, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 14:17:27', '2024-09-22 14:17:27', 'ACEPTABLE', 'Usado', 'NULL', 116379.98, 'EXCHANGE', 347, 762, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 14:17:27', '2024-09-21 14:17:27', 'BUENO', 'Nuevo', 'NULL', 60088.34, 'PURCHASE', 136, 762, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 16:08:51', '2024-10-08 16:08:51', 'COMO_NUEVO', 'Excelente estado', 'NULL', 15673.04, 'EXCHANGE', 107, 310, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 12:51:31', '2024-09-04 12:51:31', 'BUENO', 'Bueno', 'NULL', 31785.64, 'PURCHASE', 110, 328, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 15:43:48', '2024-10-27 15:43:48', 'BUENO', 'Nuevo', 'NULL', 93322.57, 'EXCHANGE', 571, 491, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 11:43:37', '2024-10-20 11:43:37', 'MUY_BUENO', 'Bueno', 'NULL', 50762.3, 'PURCHASE', 224, 987, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-15 09:40:30', '2024-11-15 09:40:30', 'COMO_NUEVO', 'Nuevo', 'NULL', 93032.91, 'PURCHASE', 671, 543, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 17:19:17', '2024-10-15 17:19:17', 'MUY_BUENO', 'Aceptable', 'NULL', 44011.7, 'EXCHANGE', 523, 83, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 10:19:22', '2024-10-13 10:19:22', 'NUEVO', 'Usado', 'NULL', 64131.45, 'PURCHASE', 582, 27, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 08:25:33', '2024-10-15 08:25:33', 'ACEPTABLE', 'Usado', 'NULL', 102831.83, 'EXCHANGE', 675, 90, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-18 18:57:17', '2024-08-18 18:57:17', 'NUEVO', 'Aceptable', 'NULL', 23075.28, 'PURCHASE', 604, 353, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 09:34:50', '2024-10-18 09:34:50', 'COMO_NUEVO', 'Bueno', 'NULL', 100094.28, 'PURCHASE', 506, 287, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 09:34:50', '2024-10-20 09:34:50', 'NUEVO', 'Excelente estado', 'NULL', 39560.55, 'PURCHASE', 613, 287, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-21 12:40:50', '2024-11-21 12:40:50', 'NUEVO', 'Aceptable', 'NULL', 41757.65, 'PURCHASE', 355, 316, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 12:40:50', '2024-11-25 12:40:50', 'NUEVO', 'Nuevo', 'NULL', 16448.19, 'EXCHANGE', 5, 316, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 09:19:09', '2024-09-01 09:19:09', 'BUENO', 'Excelente estado', 'NULL', 57804.02, 'EXCHANGE', 213, 784, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:44:10', '2024-09-27 10:44:10', 'ACEPTABLE', 'Usado', 'NULL', 50220.93, 'PURCHASE', 686, 495, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:44:10', '2024-09-27 10:44:10', 'MUY_BUENO', 'Nuevo', 'NULL', 92850.12, 'PURCHASE', 232, 495, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 13:27:07', '2024-10-26 13:27:07', 'ACEPTABLE', 'Nuevo', 'NULL', 21593.38, 'PURCHASE', 130, 40, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 13:27:07', '2024-10-27 13:27:07', 'BUENO', 'Usado', 'NULL', 78063.98, 'PURCHASE', 445, 40, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-05 12:15:23', '2024-11-05 12:15:23', 'COMO_NUEVO', 'Bueno', 'NULL', 74838.84, 'EXCHANGE', 528, 392, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 12:28:09', '2024-10-06 12:28:09', 'ACEPTABLE', 'Bueno', 'NULL', 47798.08, 'PURCHASE', 267, 933, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 16:29:54', '2024-10-26 16:29:54', 'NUEVO', 'Bueno', 'NULL', 27039.14, 'EXCHANGE', 363, 753, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 16:29:54', '2024-10-26 16:29:54', 'MUY_BUENO', 'Bueno', 'NULL', 100440.99, 'PURCHASE', 397, 753, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-27 15:10:56', '2024-11-27 15:10:56', 'BUENO', 'Excelente estado', 'NULL', 80628.57, 'PURCHASE', 360, 337, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-01 15:10:56', '2024-12-01 15:10:56', 'ACEPTABLE', 'Excelente estado', 'NULL', 80612.87, 'EXCHANGE', 612, 337, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:27:53', '2024-09-27 10:27:53', 'COMO_NUEVO', 'Usado', 'NULL', 114526.89, 'PURCHASE', 523, 593, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 09:20:49', '2024-10-14 09:20:49', 'NUEVO', 'Usado', 'NULL', 110430.84, 'PURCHASE', 180, 109, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 09:20:49', '2024-10-14 09:20:49', 'ACEPTABLE', 'Excelente estado', 'NULL', 32774.52, 'PURCHASE', 497, 109, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 11:25:49', '2024-09-17 11:25:49', 'COMO_NUEVO', 'Usado', 'NULL', 89926.79, 'EXCHANGE', 391, 172, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-18 11:25:49', '2024-09-18 11:25:49', 'BUENO', 'Bueno', 'NULL', 13284.47, 'EXCHANGE', 386, 172, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 10:36:02', '2024-10-02 10:36:02', 'COMO_NUEVO', 'Nuevo', 'NULL', 42117.83, 'EXCHANGE', 707, 63, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 10:36:02', '2024-10-06 10:36:02', 'BUENO', 'Aceptable', 'NULL', 13850.55, 'PURCHASE', 561, 63, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 14:59:44', '2024-10-09 14:59:44', 'ACEPTABLE', 'Usado', 'NULL', 80403.59, 'PURCHASE', 126, 988, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 18:02:39', '2024-09-08 18:02:39', 'COMO_NUEVO', 'Usado', 'NULL', 13099.76, 'EXCHANGE', 395, 376, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 11:01:31', '2024-10-17 11:01:31', 'NUEVO', 'Nuevo', 'NULL', 109585.92, 'EXCHANGE', 282, 824, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 11:01:31', '2024-10-17 11:01:31', 'COMO_NUEVO', 'Excelente estado', 'NULL', 109950.24, 'EXCHANGE', 618, 824, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:09:08', '2024-10-18 12:09:08', 'BUENO', 'Usado', 'NULL', 78714.0, 'EXCHANGE', 414, 434, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 12:09:08', '2024-10-19 12:09:08', 'COMO_NUEVO', 'Bueno', 'NULL', 64347.78, 'EXCHANGE', 352, 434, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 17:17:21', '2024-10-29 17:17:21', 'COMO_NUEVO', 'Nuevo', 'NULL', 40853.66, 'PURCHASE', 388, 368, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 17:17:21', '2024-10-30 17:17:21', 'MUY_BUENO', 'Usado', 'NULL', 68519.52, 'PURCHASE', 672, 368, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 13:49:26', '2024-11-02 13:49:26', 'ACEPTABLE', 'Bueno', 'NULL', 51321.98, 'PURCHASE', 416, 752, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 13:49:26', '2024-10-30 13:49:26', 'BUENO', 'Nuevo', 'NULL', 107738.19, 'PURCHASE', 8, 752, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 18:07:50', '2024-09-17 18:07:50', 'ACEPTABLE', 'Bueno', 'NULL', 20426.31, 'EXCHANGE', 32, 146, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 18:07:50', '2024-09-15 18:07:50', 'ACEPTABLE', 'Excelente estado', 'NULL', 103634.99, 'PURCHASE', 16, 146, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-06 17:00:36', '2024-12-06 17:00:36', 'COMO_NUEVO', 'Bueno', 'NULL', 55679.34, 'PURCHASE', 132, 367, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-06 17:00:36', '2024-12-06 17:00:36', 'MUY_BUENO', 'Usado', 'NULL', 100806.99, 'PURCHASE', 350, 367, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-29 08:14:02', '2024-11-29 08:14:02', 'NUEVO', 'Bueno', 'NULL', 114296.49, 'PURCHASE', 551, 602, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-27 08:14:02', '2024-11-27 08:14:02', 'MUY_BUENO', 'Excelente estado', 'NULL', 23431.83, 'PURCHASE', 682, 602, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 14:23:08', '2024-11-02 14:23:08', 'NUEVO', 'Nuevo', 'NULL', 24661.42, 'PURCHASE', 435, 524, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:23:08', '2024-11-01 14:23:08', 'MUY_BUENO', 'Aceptable', 'NULL', 33795.25, 'PURCHASE', 491, 524, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-04 09:32:11', '2025-01-04 09:32:11', 'NUEVO', 'Bueno', 'NULL', 19572.69, 'EXCHANGE', 167, 645, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 15:08:00', '2024-09-01 15:08:00', 'MUY_BUENO', 'Usado', 'NULL', 47155.58, 'EXCHANGE', 350, 127, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 16:13:01', '2024-10-16 16:13:01', 'NUEVO', 'Usado', 'NULL', 21762.7, 'PURCHASE', 88, 532, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 16:13:01', '2024-10-18 16:13:01', 'MUY_BUENO', 'Bueno', 'NULL', 116766.8, 'PURCHASE', 645, 532, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 10:05:47', '2024-10-06 10:05:47', 'MUY_BUENO', 'Nuevo', 'NULL', 83828.02, 'EXCHANGE', 502, 708, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 10:05:47', '2024-10-05 10:05:47', 'BUENO', 'Bueno', 'NULL', 92597.07, 'PURCHASE', 387, 708, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 17:13:30', '2024-10-21 17:13:30', 'MUY_BUENO', 'Usado', 'NULL', 15475.67, 'PURCHASE', 49, 742, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 17:13:30', '2024-10-17 17:13:30', 'NUEVO', 'Nuevo', 'NULL', 75214.79, 'PURCHASE', 7, 742, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-27 18:34:25', '2024-12-27 18:34:25', 'MUY_BUENO', 'Usado', 'NULL', 54172.24, 'EXCHANGE', 375, 136, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-27 18:34:25', '2024-12-27 18:34:25', 'ACEPTABLE', 'Bueno', 'NULL', 31225.56, 'PURCHASE', 308, 136, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-16 16:57:09', '2024-11-16 16:57:09', 'BUENO', 'Nuevo', 'NULL', 16363.35, 'PURCHASE', 439, 482, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-18 16:57:09', '2024-11-18 16:57:09', 'BUENO', 'Bueno', 'NULL', 24714.43, 'PURCHASE', 129, 482, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-07 15:27:59', '2024-08-07 15:27:59', 'ACEPTABLE', 'Usado', 'NULL', 8723.56, 'PURCHASE', 663, 66, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-28 12:10:45', '2024-08-28 12:10:45', 'BUENO', 'Excelente estado', 'NULL', 22648.41, 'PURCHASE', 364, 35, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-26 12:10:45', '2024-08-26 12:10:45', 'ACEPTABLE', 'Excelente estado', 'NULL', 105864.4, 'EXCHANGE', 98, 35, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-16 11:16:40', '2024-12-16 11:16:40', 'COMO_NUEVO', 'Usado', 'NULL', 22976.64, 'PURCHASE', 49, 731, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-18 11:16:40', '2024-12-18 11:16:40', 'MUY_BUENO', 'Usado', 'NULL', 12555.2, 'EXCHANGE', 26, 731, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-15 18:00:39', '2024-11-15 18:00:39', 'MUY_BUENO', 'Aceptable', 'NULL', 52477.54, 'EXCHANGE', 669, 141, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-12 18:00:39', '2024-11-12 18:00:39', 'MUY_BUENO', 'Usado', 'NULL', 117384.41, 'PURCHASE', 151, 141, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-13 12:03:52', '2024-09-13 12:03:52', 'MUY_BUENO', 'Aceptable', 'NULL', 66194.94, 'EXCHANGE', 250, 554, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-21 17:58:35', '2024-11-21 17:58:35', 'BUENO', 'Nuevo', 'NULL', 97719.08, 'EXCHANGE', 251, 253, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 17:58:35', '2024-11-23 17:58:35', 'NUEVO', 'Bueno', 'NULL', 22215.4, 'PURCHASE', 548, 253, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-14 18:56:51', '2024-11-14 18:56:51', 'MUY_BUENO', 'Aceptable', 'NULL', 35187.88, 'EXCHANGE', 549, 448, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-07 13:46:21', '2024-11-07 13:46:21', 'ACEPTABLE', 'Nuevo', 'NULL', 47861.23, 'PURCHASE', 424, 429, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 13:15:57', '2024-11-02 13:15:57', 'COMO_NUEVO', 'Usado', 'NULL', 82004.62, 'EXCHANGE', 398, 782, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 13:15:57', '2024-11-01 13:15:57', 'MUY_BUENO', 'Aceptable', 'NULL', 60706.59, 'EXCHANGE', 587, 782, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 15:13:20', '2024-08-23 15:13:20', 'ACEPTABLE', 'Excelente estado', 'NULL', 102743.91, 'EXCHANGE', 20, 982, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 15:13:20', '2024-08-22 15:13:20', 'MUY_BUENO', 'Excelente estado', 'NULL', 46312.76, 'PURCHASE', 558, 982, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 18:10:16', '2024-10-21 18:10:16', 'ACEPTABLE', 'Bueno', 'NULL', 60814.29, 'EXCHANGE', 353, 521, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 08:26:06', '2024-11-02 08:26:06', 'ACEPTABLE', 'Excelente estado', 'NULL', 55214.65, 'EXCHANGE', 104, 467, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-13 15:29:57', '2024-12-13 15:29:57', 'ACEPTABLE', 'Nuevo', 'NULL', 72381.01, 'EXCHANGE', 231, 70, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 09:59:59', '2024-10-14 09:59:59', 'ACEPTABLE', 'Usado', 'NULL', 18092.16, 'PURCHASE', 332, 296, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 09:59:59', '2024-10-15 09:59:59', 'NUEVO', 'Bueno', 'NULL', 51584.24, 'PURCHASE', 146, 296, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-01 12:55:52', '2025-01-01 12:55:52', 'NUEVO', 'Aceptable', 'NULL', 107430.5, 'EXCHANGE', 606, 129, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-29 14:04:13', '2024-11-29 14:04:13', 'NUEVO', 'Usado', 'NULL', 111117.81, 'EXCHANGE', 157, 932, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 12:07:13', '2024-10-05 12:07:13', 'ACEPTABLE', 'Bueno', 'NULL', 26064.28, 'EXCHANGE', 71, 319, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 15:00:11', '2024-10-31 15:00:11', 'ACEPTABLE', 'Bueno', 'NULL', 103114.75, 'EXCHANGE', 464, 435, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 15:00:11', '2024-11-02 15:00:11', 'BUENO', 'Nuevo', 'NULL', 84019.22, 'PURCHASE', 216, 435, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 16:22:31', '2024-10-05 16:22:31', 'BUENO', 'Aceptable', 'NULL', 30959.54, 'PURCHASE', 327, 972, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 12:05:12', '2024-10-27 12:05:12', 'ACEPTABLE', 'Nuevo', 'NULL', 34976.26, 'PURCHASE', 325, 831, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 12:05:12', '2024-10-28 12:05:12', 'BUENO', 'Nuevo', 'NULL', 91332.72, 'PURCHASE', 479, 831, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-04 18:23:29', '2024-08-04 18:23:29', 'NUEVO', 'Bueno', 'NULL', 28861.34, 'EXCHANGE', 508, 600, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-07 18:23:29', '2024-08-07 18:23:29', 'COMO_NUEVO', 'Nuevo', 'NULL', 70600.97, 'EXCHANGE', 48, 600, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 08:45:25', '2024-10-03 08:45:25', 'BUENO', 'Aceptable', 'NULL', 17190.73, 'PURCHASE', 680, 470, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-27 18:42:33', '2024-12-27 18:42:33', 'BUENO', 'Nuevo', 'NULL', 63829.01, 'EXCHANGE', 137, 256, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 13:57:59', '2024-12-28 13:57:59', 'NUEVO', 'Nuevo', 'NULL', 42192.54, 'PURCHASE', 319, 260, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-27 15:57:24', '2024-08-27 15:57:24', 'BUENO', 'Bueno', 'NULL', 113241.95, 'PURCHASE', 161, 427, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-26 15:57:24', '2024-08-26 15:57:24', 'COMO_NUEVO', 'Usado', 'NULL', 56622.7, 'PURCHASE', 444, 427, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 13:43:09', '2024-11-03 13:43:09', 'BUENO', 'Excelente estado', 'NULL', 29738.11, 'PURCHASE', 59, 334, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 11:00:54', '2024-09-06 11:00:54', 'NUEVO', 'Bueno', 'NULL', 32340.49, 'PURCHASE', 672, 539, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 18:33:45', '2024-10-05 18:33:45', 'COMO_NUEVO', 'Excelente estado', 'NULL', 117615.1, 'PURCHASE', 39, 929, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 18:33:45', '2024-10-04 18:33:45', 'BUENO', 'Excelente estado', 'NULL', 11688.63, 'EXCHANGE', 99, 929, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 10:07:25', '2024-09-26 10:07:25', 'NUEVO', 'Bueno', 'NULL', 114887.76, 'EXCHANGE', 284, 13, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 11:08:24', '2024-10-11 11:08:24', 'COMO_NUEVO', 'Bueno', 'NULL', 85105.02, 'EXCHANGE', 619, 663, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 11:08:24', '2024-10-10 11:08:24', 'MUY_BUENO', 'Nuevo', 'NULL', 92400.77, 'PURCHASE', 714, 663, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 16:25:55', '2024-10-04 16:25:55', 'COMO_NUEVO', 'Excelente estado', 'NULL', 33977.66, 'EXCHANGE', 586, 84, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 15:47:17', '2024-10-04 15:47:17', 'ACEPTABLE', 'Nuevo', 'NULL', 108324.25, 'PURCHASE', 4, 964, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 15:47:17', '2024-10-05 15:47:17', 'NUEVO', 'Bueno', 'NULL', 6436.15, 'EXCHANGE', 369, 964, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 12:50:17', '2024-10-09 12:50:17', 'MUY_BUENO', 'Nuevo', 'NULL', 82644.12, 'EXCHANGE', 624, 292, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 12:50:17', '2024-10-12 12:50:17', 'MUY_BUENO', 'Bueno', 'NULL', 92483.37, 'PURCHASE', 290, 292, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-19 11:24:54', '2024-11-19 11:24:54', 'COMO_NUEVO', 'Nuevo', 'NULL', 85196.53, 'PURCHASE', 137, 683, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 11:15:34', '2024-10-12 11:15:34', 'MUY_BUENO', 'Aceptable', 'NULL', 7632.41, 'EXCHANGE', 254, 832, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 10:31:28', '2024-10-15 10:31:28', 'MUY_BUENO', 'Bueno', 'NULL', 8122.32, 'PURCHASE', 360, 754, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 10:31:28', '2024-10-17 10:31:28', 'NUEVO', 'Excelente estado', 'NULL', 37819.34, 'PURCHASE', 164, 754, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 18:36:10', '2024-09-19 18:36:10', 'BUENO', 'Aceptable', 'NULL', 75496.5, 'PURCHASE', 41, 749, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 09:06:46', '2024-09-20 09:06:46', 'MUY_BUENO', 'Bueno', 'NULL', 42808.28, 'PURCHASE', 71, 112, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 09:06:46', '2024-09-21 09:06:46', 'ACEPTABLE', 'Excelente estado', 'NULL', 42192.09, 'EXCHANGE', 284, 112, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 11:26:49', '2024-09-19 11:26:49', 'MUY_BUENO', 'Bueno', 'NULL', 59456.18, 'EXCHANGE', 714, 993, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 11:26:49', '2024-09-21 11:26:49', 'BUENO', 'Excelente estado', 'NULL', 48455.13, 'EXCHANGE', 533, 993, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 16:37:42', '2024-09-27 16:37:42', 'MUY_BUENO', 'Excelente estado', 'NULL', 42722.63, 'PURCHASE', 94, 960, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:44:29', '2024-10-18 12:44:29', 'MUY_BUENO', 'Nuevo', 'NULL', 5026.74, 'EXCHANGE', 697, 458, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 12:44:29', '2024-10-16 12:44:29', 'MUY_BUENO', 'Nuevo', 'NULL', 38575.35, 'EXCHANGE', 343, 458, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-05 14:45:38', '2024-12-05 14:45:38', 'NUEVO', 'Aceptable', 'NULL', 96946.76, 'EXCHANGE', 628, 780, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 08:59:02', '2024-10-27 08:59:02', 'ACEPTABLE', 'Aceptable', 'NULL', 70496.08, 'PURCHASE', 383, 693, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-30 13:23:04', '2024-12-30 13:23:04', 'NUEVO', 'Nuevo', 'NULL', 102308.99, 'EXCHANGE', 118, 487, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 13:23:04', '2024-12-28 13:23:04', 'ACEPTABLE', 'Aceptable', 'NULL', 28569.58, 'EXCHANGE', 595, 487, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 11:23:01', '2024-10-29 11:23:01', 'BUENO', 'Aceptable', 'NULL', 49409.46, 'EXCHANGE', 576, 529, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 08:59:46', '2024-10-08 08:59:46', 'ACEPTABLE', 'Bueno', 'NULL', 81020.71, 'EXCHANGE', 331, 336, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 08:59:46', '2024-10-11 08:59:46', 'NUEVO', 'Bueno', 'NULL', 14990.08, 'PURCHASE', 200, 336, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 16:03:06', '2024-10-04 16:03:06', 'MUY_BUENO', 'Bueno', 'NULL', 9153.14, 'EXCHANGE', 356, 173, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 16:56:07', '2024-10-26 16:56:07', 'ACEPTABLE', 'Usado', 'NULL', 95690.93, 'EXCHANGE', 366, 205, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 10:24:37', '2024-10-23 10:24:37', 'MUY_BUENO', 'Aceptable', 'NULL', 36546.72, 'EXCHANGE', 339, 137, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 10:24:37', '2024-10-24 10:24:37', 'ACEPTABLE', 'Excelente estado', 'NULL', 20594.8, 'PURCHASE', 321, 137, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 08:39:47', '2024-10-13 08:39:47', 'MUY_BUENO', 'Bueno', 'NULL', 66914.96, 'PURCHASE', 493, 277, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-02 10:48:31', '2024-09-02 10:48:31', 'COMO_NUEVO', 'Bueno', 'NULL', 75785.26, 'PURCHASE', 252, 222, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 10:48:31', '2024-09-01 10:48:31', 'BUENO', 'Bueno', 'NULL', 78987.12, 'EXCHANGE', 197, 222, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 15:13:05', '2024-11-02 15:13:05', 'BUENO', 'Excelente estado', 'NULL', 25947.09, 'PURCHASE', 631, 565, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 11:43:46', '2024-11-03 11:43:46', 'MUY_BUENO', 'Nuevo', 'NULL', 62888.89, 'EXCHANGE', 353, 623, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 11:43:46', '2024-11-03 11:43:46', 'BUENO', 'Nuevo', 'NULL', 52278.12, 'PURCHASE', 480, 623, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 16:55:05', '2024-10-28 16:55:05', 'MUY_BUENO', 'Usado', 'NULL', 44076.25, 'EXCHANGE', 241, 836, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 16:55:05', '2024-10-28 16:55:05', 'BUENO', 'Excelente estado', 'NULL', 113636.35, 'PURCHASE', 169, 836, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-24 17:23:04', '2024-11-24 17:23:04', 'COMO_NUEVO', 'Bueno', 'NULL', 91139.02, 'PURCHASE', 518, 589, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 15:24:12', '2024-10-10 15:24:12', 'BUENO', 'Excelente estado', 'NULL', 110982.16, 'PURCHASE', 648, 606, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 09:51:16', '2024-10-06 09:51:16', 'COMO_NUEVO', 'Bueno', 'NULL', 42502.08, 'PURCHASE', 295, 662, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 08:54:33', '2024-10-18 08:54:33', 'NUEVO', 'Excelente estado', 'NULL', 73526.51, 'EXCHANGE', 124, 976, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-21 09:44:06', '2024-11-21 09:44:06', 'COMO_NUEVO', 'Usado', 'NULL', 9052.77, 'EXCHANGE', 336, 216, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 09:44:06', '2024-11-23 09:44:06', 'COMO_NUEVO', 'Nuevo', 'NULL', 72204.98, 'PURCHASE', 612, 216, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-19 13:42:53', '2024-12-19 13:42:53', 'NUEVO', 'Usado', 'NULL', 9908.74, 'PURCHASE', 601, 156, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:09:17', '2024-11-01 14:09:17', 'NUEVO', 'Excelente estado', 'NULL', 55178.41, 'PURCHASE', 551, 615, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 17:23:41', '2024-11-02 17:23:41', 'NUEVO', 'Aceptable', 'NULL', 11605.46, 'EXCHANGE', 491, 224, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-15 15:41:18', '2024-11-15 15:41:18', 'MUY_BUENO', 'Nuevo', 'NULL', 42178.43, 'EXCHANGE', 299, 839, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-14 15:41:18', '2024-11-14 15:41:18', 'ACEPTABLE', 'Aceptable', 'NULL', 66395.76, 'PURCHASE', 642, 839, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 11:44:20', '2024-10-07 11:44:20', 'NUEVO', 'Nuevo', 'NULL', 67725.33, 'EXCHANGE', 519, 263, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 11:44:20', '2024-10-07 11:44:20', 'COMO_NUEVO', 'Excelente estado', 'NULL', 17232.44, 'PURCHASE', 236, 263, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 17:39:07', '2024-11-17 17:39:07', 'COMO_NUEVO', 'Usado', 'NULL', 24804.62, 'EXCHANGE', 108, 144, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 18:19:10', '2024-10-09 18:19:10', 'COMO_NUEVO', 'Usado', 'NULL', 9882.7, 'EXCHANGE', 707, 901, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 08:46:27', '2024-10-19 08:46:27', 'COMO_NUEVO', 'Excelente estado', 'NULL', 78240.74, 'PURCHASE', 115, 41, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 17:21:04', '2024-11-02 17:21:04', 'COMO_NUEVO', 'Usado', 'NULL', 97350.22, 'PURCHASE', 697, 183, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 17:21:04', '2024-11-01 17:21:04', 'COMO_NUEVO', 'Bueno', 'NULL', 50740.53, 'PURCHASE', 156, 183, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 15:36:03', '2024-09-21 15:36:03', 'NUEVO', 'Excelente estado', 'NULL', 115859.09, 'PURCHASE', 334, 671, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 14:46:51', '2024-12-28 14:46:51', 'BUENO', 'Aceptable', 'NULL', 106759.65, 'EXCHANGE', 201, 705, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 18:25:54', '2024-11-03 18:25:54', 'MUY_BUENO', 'Nuevo', 'NULL', 9822.37, 'PURCHASE', 568, 400, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 18:25:54', '2024-11-03 18:25:54', 'COMO_NUEVO', 'Usado', 'NULL', 94405.67, 'EXCHANGE', 347, 400, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 16:26:40', '2024-09-08 16:26:40', 'MUY_BUENO', 'Nuevo', 'NULL', 33939.2, 'EXCHANGE', 538, 957, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 16:26:40', '2024-09-07 16:26:40', 'BUENO', 'Bueno', 'NULL', 27740.82, 'PURCHASE', 425, 957, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 17:03:01', '2024-10-08 17:03:01', 'MUY_BUENO', 'Nuevo', 'NULL', 119743.88, 'PURCHASE', 540, 733, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-25 16:45:06', '2024-08-25 16:45:06', 'ACEPTABLE', 'Excelente estado', 'NULL', 37622.87, 'EXCHANGE', 319, 237, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-11 16:54:23', '2024-08-11 16:54:23', 'BUENO', 'Aceptable', 'NULL', 68655.06, 'PURCHASE', 657, 286, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-08 16:54:23', '2024-08-08 16:54:23', 'BUENO', 'Nuevo', 'NULL', 69736.35, 'PURCHASE', 224, 286, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 16:03:24', '2024-09-16 16:03:24', 'MUY_BUENO', 'Usado', 'NULL', 46312.79, 'PURCHASE', 284, 644, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 16:03:24', '2024-09-17 16:03:24', 'COMO_NUEVO', 'Bueno', 'NULL', 53103.32, 'EXCHANGE', 531, 644, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 10:41:46', '2024-10-05 10:41:46', 'BUENO', 'Aceptable', 'NULL', 27196.88, 'EXCHANGE', 482, 763, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-14 10:39:19', '2024-12-14 10:39:19', 'MUY_BUENO', 'Aceptable', 'NULL', 10848.57, 'PURCHASE', 321, 1, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-14 10:39:19', '2024-12-14 10:39:19', 'ACEPTABLE', 'Bueno', 'NULL', 51557.01, 'EXCHANGE', 336, 1, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 15:42:24', '2024-09-26 15:42:24', 'COMO_NUEVO', 'Aceptable', 'NULL', 34658.99, 'PURCHASE', 159, 576, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-20 18:05:32', '2024-11-20 18:05:32', 'COMO_NUEVO', 'Excelente estado', 'NULL', 50901.43, 'EXCHANGE', 518, 351, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-16 18:05:32', '2024-11-16 18:05:32', 'MUY_BUENO', 'Nuevo', 'NULL', 54358.28, 'EXCHANGE', 124, 351, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 15:04:05', '2024-09-30 15:04:05', 'COMO_NUEVO', 'Nuevo', 'NULL', 53238.68, 'PURCHASE', 177, 278, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-21 15:58:37', '2024-12-21 15:58:37', 'ACEPTABLE', 'Bueno', 'NULL', 59744.33, 'PURCHASE', 118, 827, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-21 15:58:37', '2024-12-21 15:58:37', 'NUEVO', 'Excelente estado', 'NULL', 65075.18, 'EXCHANGE', 252, 827, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 12:33:16', '2024-08-31 12:33:16', 'MUY_BUENO', 'Bueno', 'NULL', 96392.04, 'EXCHANGE', 260, 582, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 12:33:16', '2024-08-31 12:33:16', 'NUEVO', 'Bueno', 'NULL', 32638.44, 'EXCHANGE', 257, 582, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 15:41:37', '2024-12-07 15:41:37', 'COMO_NUEVO', 'Excelente estado', 'NULL', 72946.47, 'PURCHASE', 207, 617, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 12:05:47', '2024-11-23 12:05:47', 'COMO_NUEVO', 'Excelente estado', 'NULL', 55628.46, 'PURCHASE', 405, 196, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 11:23:20', '2024-09-20 11:23:20', 'COMO_NUEVO', 'Excelente estado', 'NULL', 62793.3, 'PURCHASE', 194, 3, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 11:23:20', '2024-09-22 11:23:20', 'NUEVO', 'Usado', 'NULL', 47509.9, 'EXCHANGE', 406, 3, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-26 18:47:51', '2024-12-26 18:47:51', 'NUEVO', 'Bueno', 'NULL', 100434.4, 'PURCHASE', 320, 151, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-29 18:47:51', '2024-12-29 18:47:51', 'ACEPTABLE', 'Excelente estado', 'NULL', 19366.38, 'EXCHANGE', 354, 151, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 16:03:07', '2024-10-06 16:03:07', 'ACEPTABLE', 'Usado', 'NULL', 44061.93, 'PURCHASE', 532, 227, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 16:03:07', '2024-10-07 16:03:07', 'ACEPTABLE', 'Excelente estado', 'NULL', 46725.86, 'PURCHASE', 718, 227, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 12:30:54', '2024-10-27 12:30:54', 'MUY_BUENO', 'Aceptable', 'NULL', 115070.45, 'EXCHANGE', 320, 818, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 12:30:54', '2024-10-25 12:30:54', 'ACEPTABLE', 'Bueno', 'NULL', 6201.29, 'EXCHANGE', 289, 818, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-01 11:24:41', '2024-12-01 11:24:41', 'BUENO', 'Usado', 'NULL', 72075.71, 'PURCHASE', 661, 954, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-29 11:24:41', '2024-11-29 11:24:41', 'NUEVO', 'Aceptable', 'NULL', 41903.75, 'EXCHANGE', 126, 954, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 17:10:46', '2024-08-23 17:10:46', 'ACEPTABLE', 'Aceptable', 'NULL', 52493.06, 'PURCHASE', 11, 632, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 17:10:46', '2024-08-23 17:10:46', 'ACEPTABLE', 'Bueno', 'NULL', 100348.74, 'EXCHANGE', 246, 632, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 12:04:41', '2024-10-29 12:04:41', 'NUEVO', 'Bueno', 'NULL', 65017.87, 'PURCHASE', 493, 142, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 12:04:41', '2024-10-27 12:04:41', 'MUY_BUENO', 'Aceptable', 'NULL', 44734.08, 'EXCHANGE', 433, 142, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 08:09:42', '2024-09-21 08:09:42', 'BUENO', 'Aceptable', 'NULL', 90510.9, 'PURCHASE', 74, 454, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 08:09:42', '2024-09-23 08:09:42', 'BUENO', 'Nuevo', 'NULL', 32043.19, 'EXCHANGE', 67, 454, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 13:32:06', '2024-10-05 13:32:06', 'MUY_BUENO', 'Usado', 'NULL', 17939.93, 'EXCHANGE', 374, 235, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 13:32:06', '2024-10-04 13:32:06', 'BUENO', 'Aceptable', 'NULL', 20378.87, 'EXCHANGE', 10, 235, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-16 10:26:52', '2024-08-16 10:26:52', 'COMO_NUEVO', 'Excelente estado', 'NULL', 111423.4, 'EXCHANGE', 544, 843, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-17 10:26:52', '2024-08-17 10:26:52', 'NUEVO', 'Usado', 'NULL', 8470.7, 'EXCHANGE', 20, 843, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 11:39:57', '2024-10-12 11:39:57', 'COMO_NUEVO', 'Nuevo', 'NULL', 42279.93, 'PURCHASE', 673, 414, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 11:39:57', '2024-10-10 11:39:57', 'ACEPTABLE', 'Nuevo', 'NULL', 18837.91, 'PURCHASE', 421, 414, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 15:37:22', '2024-09-29 15:37:22', 'ACEPTABLE', 'Nuevo', 'NULL', 54264.18, 'EXCHANGE', 113, 317, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 15:37:22', '2024-09-27 15:37:22', 'ACEPTABLE', 'Excelente estado', 'NULL', 53448.44, 'PURCHASE', 526, 317, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 18:40:17', '2024-10-14 18:40:17', 'ACEPTABLE', 'Nuevo', 'NULL', 42612.07, 'PURCHASE', 190, 420, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 18:40:17', '2024-10-13 18:40:17', 'COMO_NUEVO', 'Bueno', 'NULL', 95653.01, 'PURCHASE', 22, 420, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-02 14:08:58', '2025-01-02 14:08:58', 'NUEVO', 'Usado', 'NULL', 61478.25, 'PURCHASE', 277, 665, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-03 15:44:07', '2024-12-03 15:44:07', 'MUY_BUENO', 'Usado', 'NULL', 5638.17, 'EXCHANGE', 616, 304, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 12:54:50', '2024-11-01 12:54:50', 'NUEVO', 'Aceptable', 'NULL', 48346.69, 'PURCHASE', 17, 816, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 12:54:50', '2024-11-02 12:54:50', 'NUEVO', 'Nuevo', 'NULL', 42680.58, 'EXCHANGE', 188, 816, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-09 17:10:07', '2024-11-09 17:10:07', 'COMO_NUEVO', 'Excelente estado', 'NULL', 24379.56, 'PURCHASE', 288, 537, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-06 17:10:07', '2024-11-06 17:10:07', 'BUENO', 'Excelente estado', 'NULL', 21260.12, 'EXCHANGE', 568, 537, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 09:37:58', '2024-09-05 09:37:58', 'COMO_NUEVO', 'Aceptable', 'NULL', 28459.59, 'EXCHANGE', 359, 140, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 09:37:58', '2024-09-07 09:37:58', 'BUENO', 'Bueno', 'NULL', 44286.5, 'PURCHASE', 572, 140, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 10:00:16', '2024-10-09 10:00:16', 'ACEPTABLE', 'Bueno', 'NULL', 34987.49, 'PURCHASE', 137, 842, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 13:36:34', '2024-10-12 13:36:34', 'MUY_BUENO', 'Usado', 'NULL', 39205.22, 'EXCHANGE', 607, 991, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-03 16:15:45', '2024-12-03 16:15:45', 'COMO_NUEVO', 'Aceptable', 'NULL', 39024.99, 'PURCHASE', 682, 691, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 17:24:18', '2024-10-09 17:24:18', 'BUENO', 'Nuevo', 'NULL', 110660.23, 'EXCHANGE', 192, 633, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 17:24:18', '2024-10-05 17:24:18', 'COMO_NUEVO', 'Excelente estado', 'NULL', 52702.64, 'EXCHANGE', 311, 633, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 11:19:37', '2024-11-03 11:19:37', 'BUENO', 'Excelente estado', 'NULL', 52522.57, 'PURCHASE', 654, 322, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 17:33:22', '2024-09-01 17:33:22', 'NUEVO', 'Aceptable', 'NULL', 57955.66, 'PURCHASE', 104, 371, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 16:30:28', '2024-10-26 16:30:28', 'ACEPTABLE', 'Usado', 'NULL', 46034.98, 'PURCHASE', 162, 214, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 16:30:28', '2024-10-26 16:30:28', 'COMO_NUEVO', 'Excelente estado', 'NULL', 37957.94, 'EXCHANGE', 399, 214, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 10:09:16', '2024-09-14 10:09:16', 'NUEVO', 'Aceptable', 'NULL', 41038.92, 'PURCHASE', 180, 764, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 10:09:16', '2024-09-16 10:09:16', 'NUEVO', 'Nuevo', 'NULL', 103526.71, 'PURCHASE', 235, 764, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 09:19:15', '2024-10-14 09:19:15', 'BUENO', 'Nuevo', 'NULL', 64908.52, 'EXCHANGE', 647, 864, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 12:37:44', '2024-09-08 12:37:44', 'NUEVO', 'Usado', 'NULL', 41619.62, 'PURCHASE', 375, 846, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 16:06:43', '2024-09-28 16:06:43', 'COMO_NUEVO', 'Aceptable', 'NULL', 84925.47, 'EXCHANGE', 140, 453, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 16:06:43', '2024-09-28 16:06:43', 'BUENO', 'Aceptable', 'NULL', 81899.89, 'EXCHANGE', 102, 453, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-19 15:04:10', '2024-11-19 15:04:10', 'BUENO', 'Nuevo', 'NULL', 45007.12, 'EXCHANGE', 217, 271, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 15:04:10', '2024-11-17 15:04:10', 'COMO_NUEVO', 'Nuevo', 'NULL', 18616.99, 'PURCHASE', 58, 271, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 14:32:49', '2024-10-31 14:32:49', 'NUEVO', 'Bueno', 'NULL', 8366.21, 'EXCHANGE', 214, 884, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 14:32:49', '2024-11-02 14:32:49', 'MUY_BUENO', 'Nuevo', 'NULL', 114571.05, 'PURCHASE', 155, 884, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 10:27:49', '2024-10-05 10:27:49', 'NUEVO', 'Usado', 'NULL', 36144.18, 'EXCHANGE', 533, 81, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 10:27:49', '2024-10-06 10:27:49', 'MUY_BUENO', 'Usado', 'NULL', 54538.1, 'EXCHANGE', 343, 81, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 14:25:15', '2024-10-16 14:25:15', 'MUY_BUENO', 'Excelente estado', 'NULL', 72208.53, 'EXCHANGE', 510, 852, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 14:25:15', '2024-10-16 14:25:15', 'COMO_NUEVO', 'Aceptable', 'NULL', 81798.6, 'PURCHASE', 139, 852, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 16:38:54', '2024-10-25 16:38:54', 'ACEPTABLE', 'Excelente estado', 'NULL', 118106.14, 'PURCHASE', 552, 307, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 09:10:56', '2024-08-22 09:10:56', 'NUEVO', 'Aceptable', 'NULL', 61082.61, 'PURCHASE', 254, 494, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 14:16:53', '2024-10-06 14:16:53', 'BUENO', 'Aceptable', 'NULL', 66613.48, 'EXCHANGE', 697, 814, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 14:16:53', '2024-10-05 14:16:53', 'MUY_BUENO', 'Bueno', 'NULL', 9914.04, 'PURCHASE', 674, 814, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 14:53:33', '2024-10-22 14:53:33', 'COMO_NUEVO', 'Aceptable', 'NULL', 103283.63, 'EXCHANGE', 589, 79, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 14:53:33', '2024-10-21 14:53:33', 'MUY_BUENO', 'Aceptable', 'NULL', 77113.77, 'EXCHANGE', 304, 79, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 10:48:57', '2024-11-04 10:48:57', 'NUEVO', 'Aceptable', 'NULL', 60473.78, 'PURCHASE', 230, 848, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 17:20:56', '2024-10-07 17:20:56', 'COMO_NUEVO', 'Excelente estado', 'NULL', 19519.06, 'EXCHANGE', 574, 32, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 16:36:05', '2024-10-19 16:36:05', 'NUEVO', 'Excelente estado', 'NULL', 89321.19, 'EXCHANGE', 637, 833, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-01 09:29:09', '2024-10-01 09:29:09', 'NUEVO', 'Aceptable', 'NULL', 45818.17, 'PURCHASE', 174, 668, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-01 09:29:09', '2024-10-01 09:29:09', 'MUY_BUENO', 'Bueno', 'NULL', 64230.39, 'PURCHASE', 366, 668, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-18 12:16:51', '2024-09-18 12:16:51', 'ACEPTABLE', 'Aceptable', 'NULL', 105001.18, 'PURCHASE', 358, 301, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 12:16:51', '2024-09-17 12:16:51', 'ACEPTABLE', 'Excelente estado', 'NULL', 88589.54, 'PURCHASE', 470, 301, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 15:34:07', '2024-11-03 15:34:07', 'NUEVO', 'Bueno', 'NULL', 11082.8, 'EXCHANGE', 407, 863, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 12:34:39', '2024-10-22 12:34:39', 'NUEVO', 'Aceptable', 'NULL', 49721.17, 'EXCHANGE', 622, 42, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 12:34:39', '2024-10-19 12:34:39', 'ACEPTABLE', 'Excelente estado', 'NULL', 19716.62, 'PURCHASE', 595, 42, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-14 15:56:54', '2024-08-14 15:56:54', 'BUENO', 'Excelente estado', 'NULL', 47543.27, 'EXCHANGE', 47, 798, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-11 15:56:54', '2024-08-11 15:56:54', 'BUENO', 'Aceptable', 'NULL', 39571.83, 'EXCHANGE', 66, 798, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 18:08:37', '2024-09-30 18:08:37', 'ACEPTABLE', 'Usado', 'NULL', 69559.53, 'PURCHASE', 546, 57, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 18:08:37', '2024-09-28 18:08:37', 'ACEPTABLE', 'Aceptable', 'NULL', 107111.55, 'EXCHANGE', 136, 57, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 08:36:19', '2024-10-06 08:36:19', 'ACEPTABLE', 'Aceptable', 'NULL', 73498.29, 'EXCHANGE', 418, 246, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 08:36:19', '2024-10-05 08:36:19', 'BUENO', 'Excelente estado', 'NULL', 118703.23, 'EXCHANGE', 177, 246, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 13:10:49', '2024-10-04 13:10:49', 'BUENO', 'Aceptable', 'NULL', 76901.03, 'EXCHANGE', 685, 666, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 10:13:33', '2024-10-08 10:13:33', 'NUEVO', 'Usado', 'NULL', 73566.11, 'EXCHANGE', 133, 808, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 18:38:33', '2024-10-05 18:38:33', 'NUEVO', 'Excelente estado', 'NULL', 46035.62, 'EXCHANGE', 223, 442, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 18:38:33', '2024-10-06 18:38:33', 'NUEVO', 'Nuevo', 'NULL', 100266.15, 'PURCHASE', 279, 442, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 08:45:55', '2024-09-29 08:45:55', 'ACEPTABLE', 'Excelente estado', 'NULL', 101654.18, 'PURCHASE', 564, 796, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 12:31:20', '2024-10-09 12:31:20', 'MUY_BUENO', 'Aceptable', 'NULL', 23386.39, 'EXCHANGE', 139, 25, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 12:31:20', '2024-10-11 12:31:20', 'ACEPTABLE', 'Bueno', 'NULL', 118038.26, 'EXCHANGE', 30, 25, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-21 09:56:49', '2024-12-21 09:56:49', 'BUENO', 'Excelente estado', 'NULL', 38295.15, 'PURCHASE', 652, 45, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-18 08:36:33', '2024-11-18 08:36:33', 'COMO_NUEVO', 'Aceptable', 'NULL', 102583.05, 'EXCHANGE', 195, 866, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 11:08:09', '2024-10-24 11:08:09', 'COMO_NUEVO', 'Excelente estado', 'NULL', 22698.74, 'EXCHANGE', 651, 629, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-03 15:05:14', '2025-01-03 15:05:14', 'ACEPTABLE', 'Nuevo', 'NULL', 47384.54, 'PURCHASE', 355, 729, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 12:17:51', '2024-10-28 12:17:51', 'BUENO', 'Usado', 'NULL', 65758.31, 'EXCHANGE', 198, 451, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 12:17:51', '2024-10-26 12:17:51', 'COMO_NUEVO', 'Excelente estado', 'NULL', 87776.16, 'PURCHASE', 548, 451, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 16:28:52', '2024-09-11 16:28:52', 'COMO_NUEVO', 'Aceptable', 'NULL', 82251.51, 'PURCHASE', 525, 899, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 13:44:05', '2024-09-22 13:44:05', 'COMO_NUEVO', 'Aceptable', 'NULL', 34968.87, 'PURCHASE', 592, 86, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 18:03:18', '2024-10-16 18:03:18', 'NUEVO', 'Aceptable', 'NULL', 52773.35, 'PURCHASE', 159, 122, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 18:03:18', '2024-10-18 18:03:18', 'BUENO', 'Nuevo', 'NULL', 76984.82, 'PURCHASE', 6, 122, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 11:17:52', '2024-09-29 11:17:52', 'COMO_NUEVO', 'Aceptable', 'NULL', 38890.84, 'EXCHANGE', 318, 942, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-28 16:50:13', '2024-11-28 16:50:13', 'MUY_BUENO', 'Usado', 'NULL', 108519.62, 'PURCHASE', 631, 174, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 12:29:57', '2024-11-01 12:29:57', 'NUEVO', 'Nuevo', 'NULL', 82395.49, 'EXCHANGE', 230, 53, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 12:29:57', '2024-11-01 12:29:57', 'MUY_BUENO', 'Bueno', 'NULL', 93938.23, 'EXCHANGE', 496, 53, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 08:24:04', '2024-09-06 08:24:04', 'BUENO', 'Usado', 'NULL', 51301.84, 'EXCHANGE', 98, 60, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 08:24:04', '2024-09-04 08:24:04', 'MUY_BUENO', 'Nuevo', 'NULL', 43732.61, 'PURCHASE', 530, 60, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 17:51:04', '2024-09-26 17:51:04', 'NUEVO', 'Nuevo', 'NULL', 62642.13, 'PURCHASE', 455, 945, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 16:50:12', '2024-10-17 16:50:12', 'NUEVO', 'Aceptable', 'NULL', 110699.35, 'EXCHANGE', 156, 345, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 16:50:12', '2024-10-20 16:50:12', 'ACEPTABLE', 'Bueno', 'NULL', 54125.44, 'EXCHANGE', 327, 345, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 18:09:37', '2024-10-20 18:09:37', 'MUY_BUENO', 'Nuevo', 'NULL', 68159.4, 'PURCHASE', 471, 175, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 18:09:37', '2024-10-18 18:09:37', 'NUEVO', 'Aceptable', 'NULL', 117457.67, 'EXCHANGE', 476, 175, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 14:25:46', '2024-11-17 14:25:46', 'MUY_BUENO', 'Usado', 'NULL', 20022.26, 'EXCHANGE', 424, 276, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 10:16:10', '2024-10-14 10:16:10', 'MUY_BUENO', 'Nuevo', 'NULL', 25945.02, 'PURCHASE', 259, 955, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 10:16:10', '2024-10-11 10:16:10', 'COMO_NUEVO', 'Nuevo', 'NULL', 69660.78, 'EXCHANGE', 128, 955, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-19 10:32:59', '2024-11-19 10:32:59', 'NUEVO', 'Nuevo', 'NULL', 26033.43, 'EXCHANGE', 316, 132, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-04 16:43:41', '2025-01-04 16:43:41', 'BUENO', 'Aceptable', 'NULL', 38883.64, 'PURCHASE', 156, 636, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-03 16:43:41', '2025-01-03 16:43:41', 'NUEVO', 'Bueno', 'NULL', 84401.18, 'EXCHANGE', 280, 636, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-15 09:06:37', '2024-12-15 09:06:37', 'BUENO', 'Nuevo', 'NULL', 21710.13, 'PURCHASE', 212, 943, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 18:16:16', '2024-10-10 18:16:16', 'ACEPTABLE', 'Aceptable', 'NULL', 116643.74, 'EXCHANGE', 390, 135, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 15:52:14', '2024-10-08 15:52:14', 'MUY_BUENO', 'Aceptable', 'NULL', 98547.11, 'EXCHANGE', 513, 269, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 16:09:09', '2024-10-14 16:09:09', 'COMO_NUEVO', 'Excelente estado', 'NULL', 34999.95, 'PURCHASE', 326, 250, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 16:09:09', '2024-10-12 16:09:09', 'MUY_BUENO', 'Nuevo', 'NULL', 21165.83, 'PURCHASE', 666, 250, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-27 18:52:41', '2024-08-27 18:52:41', 'ACEPTABLE', 'Bueno', 'NULL', 56725.06, 'EXCHANGE', 450, 810, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-25 18:52:41', '2024-08-25 18:52:41', 'ACEPTABLE', 'Excelente estado', 'NULL', 65648.53, 'EXCHANGE', 321, 810, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 08:17:25', '2024-10-26 08:17:25', 'MUY_BUENO', 'Aceptable', 'NULL', 8225.0, 'EXCHANGE', 120, 849, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 08:17:25', '2024-10-28 08:17:25', 'COMO_NUEVO', 'Excelente estado', 'NULL', 33853.33, 'PURCHASE', 103, 849, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 17:54:03', '2024-09-20 17:54:03', 'COMO_NUEVO', 'Bueno', 'NULL', 23485.6, 'PURCHASE', 465, 155, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 14:31:04', '2024-10-18 14:31:04', 'MUY_BUENO', 'Nuevo', 'NULL', 95150.3, 'PURCHASE', 307, 653, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 14:31:04', '2024-10-18 14:31:04', 'MUY_BUENO', 'Bueno', 'NULL', 116338.61, 'EXCHANGE', 68, 653, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 16:18:50', '2024-10-17 16:18:50', 'COMO_NUEVO', 'Excelente estado', 'NULL', 92380.44, 'EXCHANGE', 258, 801, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 16:18:50', '2024-10-19 16:18:50', 'ACEPTABLE', 'Excelente estado', 'NULL', 22653.65, 'EXCHANGE', 177, 801, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 09:08:33', '2024-09-16 09:08:33', 'COMO_NUEVO', 'Bueno', 'NULL', 106338.37, 'EXCHANGE', 602, 340, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 09:08:33', '2024-09-16 09:08:33', 'MUY_BUENO', 'Aceptable', 'NULL', 96709.16, 'EXCHANGE', 202, 340, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 15:45:53', '2024-10-10 15:45:53', 'COMO_NUEVO', 'Excelente estado', 'NULL', 115647.23, 'PURCHASE', 374, 318, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-14 14:18:04', '2024-12-14 14:18:04', 'ACEPTABLE', 'Bueno', 'NULL', 106438.12, 'EXCHANGE', 9, 78, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-14 14:18:04', '2024-12-14 14:18:04', 'COMO_NUEVO', 'Nuevo', 'NULL', 88979.53, 'EXCHANGE', 289, 78, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 18:48:20', '2024-11-17 18:48:20', 'MUY_BUENO', 'Usado', 'NULL', 72895.91, 'PURCHASE', 106, 594, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 10:10:21', '2024-11-23 10:10:21', 'BUENO', 'Bueno', 'NULL', 78996.53, 'EXCHANGE', 587, 789, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-21 10:10:21', '2024-11-21 10:10:21', 'NUEVO', 'Usado', 'NULL', 28388.29, 'EXCHANGE', 429, 789, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 15:49:54', '2024-10-12 15:49:54', 'NUEVO', 'Excelente estado', 'NULL', 46775.37, 'PURCHASE', 206, 559, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 15:49:54', '2024-10-12 15:49:54', 'ACEPTABLE', 'Usado', 'NULL', 28447.82, 'PURCHASE', 184, 559, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 13:00:23', '2024-09-20 13:00:23', 'ACEPTABLE', 'Aceptable', 'NULL', 82893.34, 'PURCHASE', 288, 616, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 13:00:23', '2024-09-22 13:00:23', 'ACEPTABLE', 'Aceptable', 'NULL', 82159.09, 'PURCHASE', 217, 616, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:29:04', '2024-09-27 10:29:04', 'NUEVO', 'Nuevo', 'NULL', 48666.22, 'EXCHANGE', 82, 341, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 18:02:01', '2024-10-24 18:02:01', 'COMO_NUEVO', 'Usado', 'NULL', 49603.16, 'PURCHASE', 46, 926, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 18:02:01', '2024-10-25 18:02:01', 'ACEPTABLE', 'Bueno', 'NULL', 16799.4, 'PURCHASE', 482, 926, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-24 10:01:24', '2024-09-24 10:01:24', 'MUY_BUENO', 'Usado', 'NULL', 91259.49, 'PURCHASE', 386, 609, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 10:01:24', '2024-09-20 10:01:24', 'BUENO', 'Usado', 'NULL', 40526.06, 'EXCHANGE', 637, 609, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 08:40:35', '2024-09-08 08:40:35', 'ACEPTABLE', 'Nuevo', 'NULL', 77927.49, 'EXCHANGE', 605, 101, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 08:40:35', '2024-09-05 08:40:35', 'ACEPTABLE', 'Excelente estado', 'NULL', 81546.13, 'PURCHASE', 294, 101, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-01 15:25:04', '2025-01-01 15:25:04', 'BUENO', 'Usado', 'NULL', 119978.35, 'EXCHANGE', 12, 718, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-04 15:25:04', '2025-01-04 15:25:04', 'MUY_BUENO', 'Bueno', 'NULL', 101075.41, 'EXCHANGE', 6, 718, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-04 17:59:30', '2024-08-04 17:59:30', 'ACEPTABLE', 'Bueno', 'NULL', 40225.26, 'PURCHASE', 233, 664, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:56:20', '2024-11-01 14:56:20', 'BUENO', 'Excelente estado', 'NULL', 13326.38, 'PURCHASE', 366, 226, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 11:39:17', '2024-09-17 11:39:17', 'COMO_NUEVO', 'Excelente estado', 'NULL', 30199.04, 'PURCHASE', 295, 893, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 11:12:56', '2024-10-02 11:12:56', 'ACEPTABLE', 'Aceptable', 'NULL', 67597.64, 'EXCHANGE', 461, 242, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-09 14:33:14', '2024-08-09 14:33:14', 'COMO_NUEVO', 'Nuevo', 'NULL', 8448.57, 'EXCHANGE', 411, 463, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-12 14:33:14', '2024-08-12 14:33:14', 'NUEVO', 'Usado', 'NULL', 113651.51, 'EXCHANGE', 188, 463, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 17:06:31', '2024-10-15 17:06:31', 'ACEPTABLE', 'Aceptable', 'NULL', 7123.46, 'EXCHANGE', 291, 179, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 17:06:31', '2024-10-12 17:06:31', 'NUEVO', 'Usado', 'NULL', 29504.89, 'PURCHASE', 55, 179, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-22 09:55:47', '2024-11-22 09:55:47', 'BUENO', 'Excelente estado', 'NULL', 58032.29, 'PURCHASE', 473, 31, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-22 09:55:47', '2024-11-22 09:55:47', 'BUENO', 'Bueno', 'NULL', 69264.68, 'EXCHANGE', 248, 31, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 16:38:47', '2024-10-07 16:38:47', 'MUY_BUENO', 'Nuevo', 'NULL', 80644.8, 'PURCHASE', 281, 744, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 16:38:47', '2024-10-08 16:38:47', 'BUENO', 'Usado', 'NULL', 54836.77, 'EXCHANGE', 639, 744, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 18:05:47', '2024-09-21 18:05:47', 'MUY_BUENO', 'Aceptable', 'NULL', 77604.29, 'PURCHASE', 146, 61, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 13:12:57', '2024-10-19 13:12:57', 'NUEVO', 'Usado', 'NULL', 17630.52, 'EXCHANGE', 413, 550, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-03 08:02:15', '2024-09-03 08:02:15', 'MUY_BUENO', 'Aceptable', 'NULL', 54280.74, 'PURCHASE', 156, 171, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 08:02:15', '2024-09-01 08:02:15', 'NUEVO', 'Aceptable', 'NULL', 55576.03, 'EXCHANGE', 658, 171, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-24 08:56:36', '2024-08-24 08:56:36', 'BUENO', 'Excelente estado', 'NULL', 32882.24, 'PURCHASE', 23, 598, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 08:56:36', '2024-08-22 08:56:36', 'NUEVO', 'Usado', 'NULL', 117485.99, 'PURCHASE', 122, 598, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 11:08:13', '2024-09-19 11:08:13', 'COMO_NUEVO', 'Nuevo', 'NULL', 29441.1, 'EXCHANGE', 185, 785, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 11:08:13', '2024-09-19 11:08:13', 'BUENO', 'Excelente estado', 'NULL', 19017.4, 'EXCHANGE', 661, 785, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-27 09:29:28', '2024-08-27 09:29:28', 'BUENO', 'Usado', 'NULL', 100077.13, 'PURCHASE', 690, 300, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-25 09:29:28', '2024-08-25 09:29:28', 'NUEVO', 'Aceptable', 'NULL', 101659.34, 'PURCHASE', 656, 300, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 10:31:56', '2024-09-22 10:31:56', 'BUENO', 'Excelente estado', 'NULL', 24103.83, 'PURCHASE', 361, 94, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 15:33:12', '2024-10-13 15:33:12', 'ACEPTABLE', 'Usado', 'NULL', 10095.22, 'PURCHASE', 248, 855, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-06 18:13:10', '2024-12-06 18:13:10', 'BUENO', 'Usado', 'NULL', 116129.95, 'PURCHASE', 392, 411, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:04:19', '2024-10-04 14:04:19', 'MUY_BUENO', 'Bueno', 'NULL', 16114.97, 'PURCHASE', 152, 746, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:04:19', '2024-10-04 14:04:19', 'BUENO', 'Excelente estado', 'NULL', 76016.24, 'EXCHANGE', 575, 746, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 17:23:24', '2024-10-04 17:23:24', 'MUY_BUENO', 'Nuevo', 'NULL', 22034.05, 'PURCHASE', 129, 997, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 17:23:24', '2024-10-06 17:23:24', 'MUY_BUENO', 'Nuevo', 'NULL', 71118.96, 'EXCHANGE', 390, 997, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 15:52:27', '2024-09-28 15:52:27', 'BUENO', 'Aceptable', 'NULL', 9953.06, 'PURCHASE', 706, 279, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 08:21:39', '2024-10-20 08:21:39', 'BUENO', 'Excelente estado', 'NULL', 35731.05, 'PURCHASE', 632, 262, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-29 11:39:21', '2024-11-29 11:39:21', 'ACEPTABLE', 'Nuevo', 'NULL', 79063.91, 'PURCHASE', 141, 343, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-29 11:39:21', '2024-11-29 11:39:21', 'BUENO', 'Aceptable', 'NULL', 13595.76, 'EXCHANGE', 547, 343, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 09:35:05', '2024-10-15 09:35:05', 'ACEPTABLE', 'Usado', 'NULL', 66055.55, 'PURCHASE', 123, 937, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-01 15:46:09', '2024-10-01 15:46:09', 'NUEVO', 'Nuevo', 'NULL', 108704.06, 'PURCHASE', 292, 760, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 13:47:01', '2024-09-29 13:47:01', 'COMO_NUEVO', 'Nuevo', 'NULL', 106566.98, 'PURCHASE', 289, 607, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 13:47:01', '2024-09-29 13:47:01', 'ACEPTABLE', 'Aceptable', 'NULL', 77228.13, 'EXCHANGE', 599, 607, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:49:36', '2024-11-01 14:49:36', 'COMO_NUEVO', 'Excelente estado', 'NULL', 56099.92, 'PURCHASE', 392, 928, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-18 08:24:35', '2024-11-18 08:24:35', 'COMO_NUEVO', 'Excelente estado', 'NULL', 12218.14, 'EXCHANGE', 491, 995, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-18 08:24:35', '2024-11-18 08:24:35', 'BUENO', 'Aceptable', 'NULL', 66480.06, 'PURCHASE', 134, 995, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 13:42:31', '2024-10-26 13:42:31', 'MUY_BUENO', 'Usado', 'NULL', 73995.74, 'EXCHANGE', 122, 892, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 12:44:11', '2024-10-13 12:44:11', 'NUEVO', 'Bueno', 'NULL', 25073.75, 'EXCHANGE', 666, 880, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 12:44:11', '2024-10-11 12:44:11', 'COMO_NUEVO', 'Bueno', 'NULL', 112366.26, 'EXCHANGE', 64, 880, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-08 11:56:44', '2024-11-08 11:56:44', 'MUY_BUENO', 'Usado', 'NULL', 33761.41, 'EXCHANGE', 313, 197, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-11 11:56:44', '2024-11-11 11:56:44', 'NUEVO', 'Bueno', 'NULL', 61801.59, 'PURCHASE', 52, 197, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 16:29:52', '2024-09-29 16:29:52', 'MUY_BUENO', 'Usado', 'NULL', 77928.91, 'PURCHASE', 404, 887, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 16:29:52', '2024-10-02 16:29:52', 'BUENO', 'Excelente estado', 'NULL', 61897.31, 'PURCHASE', 593, 887, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 09:15:12', '2024-10-15 09:15:12', 'ACEPTABLE', 'Bueno', 'NULL', 96619.52, 'PURCHASE', 478, 506, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:15:12', '2024-10-12 09:15:12', 'BUENO', 'Aceptable', 'NULL', 63325.75, 'EXCHANGE', 523, 506, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 13:41:21', '2024-10-09 13:41:21', 'NUEVO', 'Bueno', 'NULL', 63893.22, 'EXCHANGE', 551, 898, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 13:41:21', '2024-10-10 13:41:21', 'NUEVO', 'Nuevo', 'NULL', 109590.34, 'EXCHANGE', 63, 898, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 12:58:10', '2024-10-12 12:58:10', 'BUENO', 'Nuevo', 'NULL', 50741.51, 'EXCHANGE', 307, 284, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 13:21:05', '2024-09-22 13:21:05', 'BUENO', 'Bueno', 'NULL', 32787.52, 'PURCHASE', 624, 829, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-01 11:32:09', '2024-10-01 11:32:09', 'COMO_NUEVO', 'Bueno', 'NULL', 60564.56, 'PURCHASE', 701, 85, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-01 11:32:09', '2024-10-01 11:32:09', 'NUEVO', 'Excelente estado', 'NULL', 79684.41, 'PURCHASE', 40, 85, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 10:21:41', '2024-10-26 10:21:41', 'BUENO', 'Aceptable', 'NULL', 64150.95, 'PURCHASE', 96, 217, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 10:21:41', '2024-10-28 10:21:41', 'BUENO', 'Aceptable', 'NULL', 110719.18, 'EXCHANGE', 234, 217, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-18 08:17:20', '2024-12-18 08:17:20', 'COMO_NUEVO', 'Excelente estado', 'NULL', 32216.95, 'PURCHASE', 619, 826, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-17 08:17:20', '2024-12-17 08:17:20', 'BUENO', 'Nuevo', 'NULL', 111786.44, 'PURCHASE', 511, 826, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 08:58:03', '2024-10-28 08:58:03', 'BUENO', 'Usado', 'NULL', 21535.13, 'PURCHASE', 473, 369, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 08:58:03', '2024-10-30 08:58:03', 'MUY_BUENO', 'Excelente estado', 'NULL', 52598.71, 'PURCHASE', 711, 369, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 17:09:39', '2024-10-12 17:09:39', 'BUENO', 'Aceptable', 'NULL', 93173.81, 'EXCHANGE', 522, 426, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 15:00:47', '2024-11-01 15:00:47', 'ACEPTABLE', 'Bueno', 'NULL', 37699.81, 'EXCHANGE', 461, 969, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 15:00:47', '2024-11-04 15:00:47', 'MUY_BUENO', 'Bueno', 'NULL', 35838.34, 'PURCHASE', 445, 969, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-27 17:08:02', '2024-08-27 17:08:02', 'COMO_NUEVO', 'Bueno', 'NULL', 41767.24, 'PURCHASE', 26, 161, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 18:45:46', '2024-10-25 18:45:46', 'COMO_NUEVO', 'Excelente estado', 'NULL', 13545.33, 'PURCHASE', 391, 143, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-01 15:07:24', '2024-12-01 15:07:24', 'BUENO', 'Excelente estado', 'NULL', 39242.11, 'PURCHASE', 438, 980, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 12:54:23', '2024-09-21 12:54:23', 'BUENO', 'Aceptable', 'NULL', 23786.02, 'PURCHASE', 341, 22, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-17 12:54:23', '2024-09-17 12:54:23', 'BUENO', 'Nuevo', 'NULL', 38669.37, 'PURCHASE', 53, 22, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 15:50:37', '2024-10-12 15:50:37', 'COMO_NUEVO', 'Usado', 'NULL', 8372.47, 'EXCHANGE', 332, 311, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:05:52', '2024-09-27 10:05:52', 'BUENO', 'Aceptable', 'NULL', 95585.37, 'PURCHASE', 297, 100, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:05:52', '2024-09-27 10:05:52', 'COMO_NUEVO', 'Bueno', 'NULL', 58293.85, 'EXCHANGE', 425, 100, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 09:20:40', '2024-10-29 09:20:40', 'MUY_BUENO', 'Bueno', 'NULL', 53221.06, 'PURCHASE', 74, 580, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 15:27:04', '2024-10-12 15:27:04', 'NUEVO', 'Aceptable', 'NULL', 107821.11, 'PURCHASE', 71, 642, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-13 10:56:14', '2024-09-13 10:56:14', 'BUENO', 'Usado', 'NULL', 100206.06, 'PURCHASE', 286, 236, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 10:56:14', '2024-09-12 10:56:14', 'BUENO', 'Excelente estado', 'NULL', 32345.02, 'PURCHASE', 318, 236, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 12:42:02', '2024-10-18 12:42:02', 'COMO_NUEVO', 'Aceptable', 'NULL', 58101.48, 'PURCHASE', 524, 859, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-25 08:04:40', '2024-08-25 08:04:40', 'BUENO', 'Excelente estado', 'NULL', 96543.51, 'PURCHASE', 708, 794, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 11:01:02', '2024-10-18 11:01:02', 'COMO_NUEVO', 'Excelente estado', 'NULL', 77980.36, 'EXCHANGE', 7, 199, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 14:40:41', '2024-10-19 14:40:41', 'NUEVO', 'Excelente estado', 'NULL', 99260.07, 'EXCHANGE', 17, 850, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 16:26:41', '2024-10-31 16:26:41', 'ACEPTABLE', 'Nuevo', 'NULL', 54796.24, 'EXCHANGE', 127, 694, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 16:26:41', '2024-11-03 16:26:41', 'ACEPTABLE', 'Aceptable', 'NULL', 58504.14, 'PURCHASE', 550, 694, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 10:10:33', '2024-10-12 10:10:33', 'NUEVO', 'Bueno', 'NULL', 72393.56, 'EXCHANGE', 25, 362, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 10:10:33', '2024-10-12 10:10:33', 'ACEPTABLE', 'Excelente estado', 'NULL', 65230.71, 'EXCHANGE', 51, 362, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 17:30:13', '2024-10-31 17:30:13', 'MUY_BUENO', 'Nuevo', 'NULL', 65881.57, 'EXCHANGE', 572, 333, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 17:30:13', '2024-11-03 17:30:13', 'COMO_NUEVO', 'Nuevo', 'NULL', 10997.21, 'PURCHASE', 270, 333, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 14:27:34', '2024-10-12 14:27:34', 'COMO_NUEVO', 'Usado', 'NULL', 43189.92, 'EXCHANGE', 498, 890, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 18:54:15', '2024-09-07 18:54:15', 'MUY_BUENO', 'Nuevo', 'NULL', 27736.15, 'PURCHASE', 113, 963, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-03 13:52:03', '2024-09-03 13:52:03', 'ACEPTABLE', 'Excelente estado', 'NULL', 22844.2, 'EXCHANGE', 26, 634, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 12:04:39', '2024-10-26 12:04:39', 'ACEPTABLE', 'Bueno', 'NULL', 13323.46, 'EXCHANGE', 264, 857, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-05 18:52:25', '2024-11-05 18:52:25', 'BUENO', 'Excelente estado', 'NULL', 27364.41, 'PURCHASE', 581, 243, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 18:52:25', '2024-11-02 18:52:25', 'COMO_NUEVO', 'Nuevo', 'NULL', 102352.66, 'EXCHANGE', 697, 243, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 10:09:38', '2024-10-15 10:09:38', 'ACEPTABLE', 'Excelente estado', 'NULL', 69250.39, 'PURCHASE', 427, 518, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 10:09:38', '2024-10-15 10:09:38', 'COMO_NUEVO', 'Usado', 'NULL', 21853.45, 'PURCHASE', 691, 518, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 09:25:57', '2024-10-27 09:25:57', 'MUY_BUENO', 'Bueno', 'NULL', 45372.51, 'PURCHASE', 106, 724, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 09:25:57', '2024-10-27 09:25:57', 'COMO_NUEVO', 'Excelente estado', 'NULL', 8852.46, 'EXCHANGE', 345, 724, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 17:29:56', '2024-10-21 17:29:56', 'COMO_NUEVO', 'Usado', 'NULL', 51471.6, 'EXCHANGE', 695, 460, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 16:14:17', '2024-10-20 16:14:17', 'MUY_BUENO', 'Bueno', 'NULL', 66572.31, 'PURCHASE', 167, 73, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 13:45:06', '2024-10-26 13:45:06', 'COMO_NUEVO', 'Bueno', 'NULL', 111766.52, 'PURCHASE', 388, 39, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 10:35:08', '2024-11-02 10:35:08', 'BUENO', 'Usado', 'NULL', 48897.44, 'EXCHANGE', 445, 637, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 10:35:08', '2024-10-31 10:35:08', 'BUENO', 'Excelente estado', 'NULL', 94723.22, 'PURCHASE', 616, 637, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 08:04:59', '2024-10-29 08:04:59', 'COMO_NUEVO', 'Excelente estado', 'NULL', 83261.36, 'PURCHASE', 474, 119, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 09:58:15', '2024-10-10 09:58:15', 'NUEVO', 'Nuevo', 'NULL', 84840.3, 'PURCHASE', 40, 496, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-05 11:42:10', '2024-12-05 11:42:10', 'NUEVO', 'Excelente estado', 'NULL', 39118.12, 'PURCHASE', 683, 325, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-08 11:42:10', '2024-12-08 11:42:10', 'NUEVO', 'Usado', 'NULL', 61662.83, 'PURCHASE', 442, 325, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-16 09:00:12', '2024-11-16 09:00:12', 'NUEVO', 'Excelente estado', 'NULL', 76201.93, 'EXCHANGE', 156, 956, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 17:49:43', '2024-10-09 17:49:43', 'ACEPTABLE', 'Aceptable', 'NULL', 71593.09, 'EXCHANGE', 670, 38, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 17:49:43', '2024-10-10 17:49:43', 'BUENO', 'Bueno', 'NULL', 36588.49, 'EXCHANGE', 319, 38, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 09:42:31', '2024-10-29 09:42:31', 'COMO_NUEVO', 'Bueno', 'NULL', 88243.39, 'PURCHASE', 539, 967, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 09:42:31', '2024-10-29 09:42:31', 'COMO_NUEVO', 'Nuevo', 'NULL', 45499.43, 'EXCHANGE', 428, 967, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-22 13:41:42', '2024-12-22 13:41:42', 'NUEVO', 'Excelente estado', 'NULL', 106933.49, 'PURCHASE', 255, 765, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-20 13:41:42', '2024-12-20 13:41:42', 'BUENO', 'Bueno', 'NULL', 82020.91, 'PURCHASE', 17, 765, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 14:05:03', '2024-08-22 14:05:03', 'COMO_NUEVO', 'Usado', 'NULL', 13044.91, 'PURCHASE', 14, 213, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-21 14:05:03', '2024-08-21 14:05:03', 'BUENO', 'Bueno', 'NULL', 19246.58, 'EXCHANGE', 335, 213, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 12:29:46', '2024-09-30 12:29:46', 'ACEPTABLE', 'Nuevo', 'NULL', 79417.92, 'EXCHANGE', 635, 648, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 10:08:06', '2024-10-31 10:08:06', 'ACEPTABLE', 'Usado', 'NULL', 67394.02, 'EXCHANGE', 668, 372, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 10:08:06', '2024-10-31 10:08:06', 'BUENO', 'Aceptable', 'NULL', 70660.67, 'PURCHASE', 451, 372, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 17:50:31', '2024-10-03 17:50:31', 'MUY_BUENO', 'Bueno', 'NULL', 37144.77, 'PURCHASE', 1, 124, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 17:50:31', '2024-10-04 17:50:31', 'NUEVO', 'Usado', 'NULL', 58522.3, 'PURCHASE', 647, 124, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 08:22:39', '2024-10-22 08:22:39', 'COMO_NUEVO', 'Excelente estado', 'NULL', 56279.98, 'EXCHANGE', 497, 700, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 08:22:39', '2024-10-20 08:22:39', 'MUY_BUENO', 'Usado', 'NULL', 74035.34, 'PURCHASE', 368, 700, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 11:55:59', '2024-10-07 11:55:59', 'MUY_BUENO', 'Bueno', 'NULL', 116526.63, 'PURCHASE', 230, 918, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 11:55:59', '2024-10-05 11:55:59', 'MUY_BUENO', 'Usado', 'NULL', 115518.78, 'EXCHANGE', 557, 918, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 15:05:53', '2024-10-17 15:05:53', 'NUEVO', 'Excelente estado', 'NULL', 69857.71, 'EXCHANGE', 665, 422, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 15:05:53', '2024-10-16 15:05:53', 'BUENO', 'Nuevo', 'NULL', 36540.3, 'EXCHANGE', 569, 422, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 10:04:59', '2024-10-30 10:04:59', 'BUENO', 'Usado', 'NULL', 58694.18, 'PURCHASE', 435, 17, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 10:04:59', '2024-10-30 10:04:59', 'NUEVO', 'Aceptable', 'NULL', 111441.45, 'EXCHANGE', 683, 17, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 18:32:15', '2024-10-10 18:32:15', 'ACEPTABLE', 'Excelente estado', 'NULL', 16786.3, 'PURCHASE', 592, 177, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 10:03:55', '2024-10-07 10:03:55', 'BUENO', 'Bueno', 'NULL', 58232.73, 'PURCHASE', 173, 944, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 11:16:55', '2024-12-28 11:16:55', 'ACEPTABLE', 'Aceptable', 'NULL', 76260.5, 'EXCHANGE', 521, 483, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 18:23:25', '2024-10-24 18:23:25', 'NUEVO', 'Bueno', 'NULL', 13903.92, 'PURCHASE', 639, 776, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-02 08:57:37', '2025-01-02 08:57:37', 'MUY_BUENO', 'Nuevo', 'NULL', 24336.52, 'PURCHASE', 436, 409, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:27:55', '2024-10-12 09:27:55', 'ACEPTABLE', 'Nuevo', 'NULL', 17924.87, 'EXCHANGE', 626, 952, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 09:27:55', '2024-10-13 09:27:55', 'ACEPTABLE', 'Aceptable', 'NULL', 54666.26, 'PURCHASE', 345, 952, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 16:48:55', '2024-10-15 16:48:55', 'BUENO', 'Bueno', 'NULL', 76278.79, 'EXCHANGE', 167, 264, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 16:48:55', '2024-10-11 16:48:55', 'NUEVO', 'Aceptable', 'NULL', 101299.08, 'EXCHANGE', 671, 264, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 12:35:58', '2024-10-06 12:35:58', 'COMO_NUEVO', 'Usado', 'NULL', 90965.07, 'EXCHANGE', 542, 19, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-15 08:55:22', '2024-11-15 08:55:22', 'NUEVO', 'Nuevo', 'NULL', 13070.94, 'EXCHANGE', 654, 207, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 16:23:46', '2024-10-24 16:23:46', 'MUY_BUENO', 'Usado', 'NULL', 7820.65, 'PURCHASE', 47, 992, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 16:23:46', '2024-10-25 16:23:46', 'COMO_NUEVO', 'Bueno', 'NULL', 52097.38, 'PURCHASE', 345, 992, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 11:12:35', '2024-10-31 11:12:35', 'COMO_NUEVO', 'Aceptable', 'NULL', 119980.9, 'EXCHANGE', 686, 44, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 11:12:35', '2024-11-04 11:12:35', 'NUEVO', 'Bueno', 'NULL', 98612.22, 'PURCHASE', 190, 44, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-15 08:26:43', '2024-08-15 08:26:43', 'ACEPTABLE', 'Usado', 'NULL', 23026.7, 'EXCHANGE', 215, 819, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:45:54', '2024-10-04 14:45:54', 'NUEVO', 'Aceptable', 'NULL', 22564.54, 'EXCHANGE', 660, 229, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 18:16:09', '2024-09-27 18:16:09', 'BUENO', 'Aceptable', 'NULL', 41278.54, 'EXCHANGE', 314, 716, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 18:16:09', '2024-09-29 18:16:09', 'ACEPTABLE', 'Excelente estado', 'NULL', 103307.83, 'EXCHANGE', 25, 716, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 08:13:31', '2024-10-19 08:13:31', 'BUENO', 'Usado', 'NULL', 60822.84, 'PURCHASE', 568, 574, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 08:13:31', '2024-10-22 08:13:31', 'NUEVO', 'Aceptable', 'NULL', 11665.81, 'EXCHANGE', 210, 574, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 08:44:52', '2024-11-02 08:44:52', 'BUENO', 'Usado', 'NULL', 95362.59, 'EXCHANGE', 536, 737, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 08:44:52', '2024-11-01 08:44:52', 'NUEVO', 'Usado', 'NULL', 42597.53, 'PURCHASE', 449, 737, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-11 17:21:53', '2024-11-11 17:21:53', 'NUEVO', 'Usado', 'NULL', 74362.3, 'EXCHANGE', 187, 194, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-10 17:21:53', '2024-11-10 17:21:53', 'MUY_BUENO', 'Aceptable', 'NULL', 117229.8, 'EXCHANGE', 24, 194, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 12:23:34', '2024-10-24 12:23:34', 'COMO_NUEVO', 'Nuevo', 'NULL', 109579.77, 'EXCHANGE', 373, 879, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 12:23:34', '2024-10-28 12:23:34', 'NUEVO', 'Usado', 'NULL', 110268.79, 'EXCHANGE', 463, 879, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 17:56:47', '2024-10-24 17:56:47', 'MUY_BUENO', 'Excelente estado', 'NULL', 16676.94, 'PURCHASE', 519, 188, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-27 11:10:44', '2024-12-27 11:10:44', 'MUY_BUENO', 'Aceptable', 'NULL', 87494.91, 'EXCHANGE', 112, 921, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-30 11:10:44', '2024-12-30 11:10:44', 'ACEPTABLE', 'Usado', 'NULL', 116964.58, 'EXCHANGE', 43, 921, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 08:29:45', '2024-10-20 08:29:45', 'COMO_NUEVO', 'Bueno', 'NULL', 117967.75, 'EXCHANGE', 53, 838, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 08:29:45', '2024-10-20 08:29:45', 'COMO_NUEVO', 'Excelente estado', 'NULL', 69076.68, 'EXCHANGE', 318, 838, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 10:29:05', '2024-10-08 10:29:05', 'ACEPTABLE', 'Nuevo', 'NULL', 85659.22, 'EXCHANGE', 546, 211, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 10:29:05', '2024-10-07 10:29:05', 'NUEVO', 'Aceptable', 'NULL', 28045.1, 'PURCHASE', 41, 211, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 13:15:43', '2024-09-26 13:15:43', 'BUENO', 'Nuevo', 'NULL', 97763.4, 'PURCHASE', 493, 755, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 13:15:43', '2024-09-28 13:15:43', 'MUY_BUENO', 'Excelente estado', 'NULL', 37105.46, 'PURCHASE', 712, 755, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 12:46:13', '2024-10-07 12:46:13', 'NUEVO', 'Aceptable', 'NULL', 103802.97, 'PURCHASE', 478, 639, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-27 13:54:39', '2024-08-27 13:54:39', 'MUY_BUENO', 'Excelente estado', 'NULL', 55617.47, 'PURCHASE', 390, 805, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-21 17:24:28', '2024-12-21 17:24:28', 'MUY_BUENO', 'Aceptable', 'NULL', 54961.13, 'PURCHASE', 349, 473, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 14:57:07', '2024-10-19 14:57:07', 'ACEPTABLE', 'Usado', 'NULL', 113844.05, 'EXCHANGE', 181, 293, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 09:51:36', '2024-10-23 09:51:36', 'BUENO', 'Usado', 'NULL', 37529.1, 'PURCHASE', 198, 868, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 09:51:36', '2024-10-22 09:51:36', 'NUEVO', 'Usado', 'NULL', 82028.22, 'PURCHASE', 630, 868, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-05 08:43:09', '2024-11-05 08:43:09', 'BUENO', 'Nuevo', 'NULL', 90362.02, 'EXCHANGE', 37, 888, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 18:45:47', '2024-10-15 18:45:47', 'ACEPTABLE', 'Nuevo', 'NULL', 69575.66, 'EXCHANGE', 200, 431, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 13:12:23', '2024-09-15 13:12:23', 'NUEVO', 'Nuevo', 'NULL', 67431.58, 'EXCHANGE', 167, 169, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 13:12:23', '2024-09-14 13:12:23', 'NUEVO', 'Aceptable', 'NULL', 69890.02, 'PURCHASE', 258, 169, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 17:15:09', '2024-10-08 17:15:09', 'ACEPTABLE', 'Usado', 'NULL', 52511.39, 'EXCHANGE', 382, 983, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 17:15:09', '2024-10-09 17:15:09', 'ACEPTABLE', 'Excelente estado', 'NULL', 46954.16, 'EXCHANGE', 333, 983, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 17:45:43', '2024-09-21 17:45:43', 'BUENO', 'Nuevo', 'NULL', 37732.44, 'EXCHANGE', 697, 549, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 14:12:43', '2024-10-13 14:12:43', 'BUENO', 'Aceptable', 'NULL', 100882.29, 'EXCHANGE', 114, 821, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-19 12:18:42', '2024-12-19 12:18:42', 'NUEVO', 'Excelente estado', 'NULL', 100365.42, 'PURCHASE', 467, 163, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-17 12:18:42', '2024-12-17 12:18:42', 'COMO_NUEVO', 'Nuevo', 'NULL', 60182.37, 'EXCHANGE', 30, 163, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-28 13:15:56', '2024-10-28 13:15:56', 'MUY_BUENO', 'Bueno', 'NULL', 26177.11, 'PURCHASE', 186, 618, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-24 11:51:30', '2024-09-24 11:51:30', 'ACEPTABLE', 'Nuevo', 'NULL', 55057.24, 'EXCHANGE', 63, 913, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 11:51:30', '2024-09-23 11:51:30', 'MUY_BUENO', 'Aceptable', 'NULL', 100829.55, 'PURCHASE', 685, 913, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-18 09:51:27', '2024-09-18 09:51:27', 'MUY_BUENO', 'Excelente estado', 'NULL', 89888.18, 'PURCHASE', 621, 46, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 10:10:00', '2024-10-20 10:10:00', 'ACEPTABLE', 'Excelente estado', 'NULL', 18602.74, 'PURCHASE', 480, 979, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 10:10:00', '2024-10-19 10:10:00', 'BUENO', 'Excelente estado', 'NULL', 76735.38, 'EXCHANGE', 121, 979, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 15:56:57', '2024-11-03 15:56:57', 'COMO_NUEVO', 'Excelente estado', 'NULL', 112538.97, 'PURCHASE', 697, 182, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-29 12:27:08', '2024-08-29 12:27:08', 'MUY_BUENO', 'Usado', 'NULL', 87767.87, 'EXCHANGE', 253, 230, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-22 15:18:37', '2024-11-22 15:18:37', 'COMO_NUEVO', 'Nuevo', 'NULL', 71013.06, 'EXCHANGE', 664, 891, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 15:18:37', '2024-11-25 15:18:37', 'MUY_BUENO', 'Usado', 'NULL', 6487.62, 'EXCHANGE', 45, 891, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 14:55:39', '2024-10-31 14:55:39', 'NUEVO', 'Bueno', 'NULL', 18366.23, 'PURCHASE', 347, 344, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 14:55:39', '2024-11-01 14:55:39', 'BUENO', 'Nuevo', 'NULL', 59174.38, 'EXCHANGE', 616, 344, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-03 16:27:34', '2025-01-03 16:27:34', 'COMO_NUEVO', 'Aceptable', 'NULL', 110636.4, 'EXCHANGE', 423, 986, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 12:26:50', '2024-10-02 12:26:50', 'COMO_NUEVO', 'Usado', 'NULL', 24663.09, 'PURCHASE', 268, 655, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-11 17:03:55', '2024-12-11 17:03:55', 'BUENO', 'Bueno', 'NULL', 15114.95, 'PURCHASE', 96, 11, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-16 17:46:02', '2024-12-16 17:46:02', 'NUEVO', 'Aceptable', 'NULL', 12459.53, 'EXCHANGE', 509, 165, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-20 12:16:23', '2024-11-20 12:16:23', 'BUENO', 'Excelente estado', 'NULL', 68766.83, 'PURCHASE', 401, 209, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 14:59:58', '2024-09-01 14:59:58', 'MUY_BUENO', 'Excelente estado', 'NULL', 54275.53, 'PURCHASE', 92, 973, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 12:50:58', '2024-10-12 12:50:58', 'MUY_BUENO', 'Excelente estado', 'NULL', 98481.33, 'EXCHANGE', 338, 747, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 15:25:05', '2024-10-13 15:25:05', 'BUENO', 'Nuevo', 'NULL', 85285.2, 'PURCHASE', 607, 215, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 15:25:05', '2024-10-12 15:25:05', 'COMO_NUEVO', 'Usado', 'NULL', 50480.33, 'EXCHANGE', 235, 215, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 12:10:20', '2024-10-12 12:10:20', 'MUY_BUENO', 'Excelente estado', 'NULL', 25801.37, 'PURCHASE', 203, 245, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 08:50:21', '2024-09-16 08:50:21', 'NUEVO', 'Nuevo', 'NULL', 15563.42, 'PURCHASE', 137, 670, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 08:50:21', '2024-09-15 08:50:21', 'BUENO', 'Excelente estado', 'NULL', 77231.26, 'EXCHANGE', 51, 670, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 13:33:58', '2024-10-11 13:33:58', 'BUENO', 'Excelente estado', 'NULL', 76101.14, 'PURCHASE', 105, 50, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 13:33:58', '2024-10-09 13:33:58', 'MUY_BUENO', 'Usado', 'NULL', 24788.72, 'PURCHASE', 137, 50, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 17:49:29', '2024-10-06 17:49:29', 'BUENO', 'Usado', 'NULL', 50456.38, 'EXCHANGE', 174, 861, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 17:49:29', '2024-10-03 17:49:29', 'BUENO', 'Aceptable', 'NULL', 25586.23, 'EXCHANGE', 86, 861, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 08:41:18', '2024-10-22 08:41:18', 'MUY_BUENO', 'Excelente estado', 'NULL', 102637.64, 'PURCHASE', 212, 781, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-14 08:55:57', '2024-08-14 08:55:57', 'ACEPTABLE', 'Aceptable', 'NULL', 73381.05, 'EXCHANGE', 11, 975, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 17:00:40', '2024-11-25 17:00:40', 'MUY_BUENO', 'Aceptable', 'NULL', 118390.81, 'EXCHANGE', 579, 540, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-25 09:54:55', '2024-09-25 09:54:55', 'ACEPTABLE', 'Aceptable', 'NULL', 51950.37, 'PURCHASE', 191, 268, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-25 09:54:55', '2024-09-25 09:54:55', 'ACEPTABLE', 'Aceptable', 'NULL', 52229.03, 'EXCHANGE', 590, 268, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 15:19:36', '2024-09-11 15:19:36', 'NUEVO', 'Excelente estado', 'NULL', 19836.94, 'PURCHASE', 529, 597, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-16 17:56:12', '2024-11-16 17:56:12', 'COMO_NUEVO', 'Aceptable', 'NULL', 38931.58, 'EXCHANGE', 308, 685, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-25 16:03:52', '2024-08-25 16:03:52', 'BUENO', 'Bueno', 'NULL', 51752.11, 'EXCHANGE', 89, 270, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-22 16:03:52', '2024-08-22 16:03:52', 'COMO_NUEVO', 'Usado', 'NULL', 92182.08, 'EXCHANGE', 146, 270, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 17:53:32', '2024-11-17 17:53:32', 'BUENO', 'Bueno', 'NULL', 64963.22, 'EXCHANGE', 637, 922, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-19 17:53:32', '2024-11-19 17:53:32', 'COMO_NUEVO', 'Nuevo', 'NULL', 95677.84, 'EXCHANGE', 642, 922, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 14:17:51', '2024-09-04 14:17:51', 'COMO_NUEVO', 'Excelente estado', 'NULL', 75794.61, 'PURCHASE', 459, 604, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-02 14:17:51', '2024-09-02 14:17:51', 'NUEVO', 'Nuevo', 'NULL', 92419.2, 'EXCHANGE', 608, 604, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 12:02:35', '2024-09-15 12:02:35', 'ACEPTABLE', 'Aceptable', 'NULL', 68686.43, 'PURCHASE', 163, 966, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 12:02:35', '2024-09-15 12:02:35', 'ACEPTABLE', 'Aceptable', 'NULL', 95762.6, 'EXCHANGE', 663, 966, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-29 16:50:06', '2024-12-29 16:50:06', 'ACEPTABLE', 'Usado', 'NULL', 27212.84, 'PURCHASE', 240, 387, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 11:42:34', '2024-10-27 11:42:34', 'ACEPTABLE', 'Bueno', 'NULL', 63651.63, 'PURCHASE', 296, 709, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 13:16:07', '2024-10-09 13:16:07', 'COMO_NUEVO', 'Bueno', 'NULL', 54822.28, 'PURCHASE', 150, 903, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 13:16:07', '2024-10-09 13:16:07', 'NUEVO', 'Excelente estado', 'NULL', 18894.99, 'EXCHANGE', 536, 903, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-17 18:57:55', '2024-12-17 18:57:55', 'BUENO', 'Nuevo', 'NULL', 91059.36, 'EXCHANGE', 421, 133, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-20 18:57:55', '2024-12-20 18:57:55', 'COMO_NUEVO', 'Aceptable', 'NULL', 58745.77, 'PURCHASE', 401, 133, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 17:08:05', '2024-10-10 17:08:05', 'NUEVO', 'Usado', 'NULL', 43574.5, 'EXCHANGE', 118, 117, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 18:54:09', '2024-09-12 18:54:09', 'BUENO', 'Aceptable', 'NULL', 32010.59, 'EXCHANGE', 711, 181, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 10:03:05', '2024-09-26 10:03:05', 'MUY_BUENO', 'Nuevo', 'NULL', 38489.71, 'EXCHANGE', 718, 102, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 15:23:34', '2024-10-21 15:23:34', 'NUEVO', 'Usado', 'NULL', 86395.3, 'EXCHANGE', 154, 312, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 15:23:34', '2024-10-19 15:23:34', 'BUENO', 'Nuevo', 'NULL', 31258.06, 'PURCHASE', 311, 312, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 09:25:10', '2024-10-27 09:25:10', 'ACEPTABLE', 'Bueno', 'NULL', 7934.16, 'PURCHASE', 9, 303, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 09:25:10', '2024-10-30 09:25:10', 'MUY_BUENO', 'Usado', 'NULL', 11805.78, 'PURCHASE', 413, 303, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-18 10:22:00', '2024-09-18 10:22:00', 'BUENO', 'Usado', 'NULL', 42213.18, 'EXCHANGE', 359, 191, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 14:37:52', '2024-11-02 14:37:52', 'COMO_NUEVO', 'Aceptable', 'NULL', 26036.53, 'PURCHASE', 54, 130, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 10:00:36', '2024-10-20 10:00:36', 'MUY_BUENO', 'Bueno', 'NULL', 81842.87, 'PURCHASE', 470, 280, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 10:00:36', '2024-10-20 10:00:36', 'BUENO', 'Excelente estado', 'NULL', 103688.58, 'EXCHANGE', 11, 280, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 18:14:17', '2024-10-13 18:14:17', 'NUEVO', 'Usado', 'NULL', 85185.08, 'PURCHASE', 216, 347, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 15:54:43', '2024-11-01 15:54:43', 'MUY_BUENO', 'Aceptable', 'NULL', 9841.23, 'PURCHASE', 590, 424, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 14:20:14', '2024-09-07 14:20:14', 'MUY_BUENO', 'Aceptable', 'NULL', 34693.09, 'EXCHANGE', 179, 438, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 14:20:14', '2024-09-08 14:20:14', 'ACEPTABLE', 'Bueno', 'NULL', 90972.2, 'EXCHANGE', 602, 438, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-20 17:29:52', '2024-12-20 17:29:52', 'MUY_BUENO', 'Bueno', 'NULL', 34374.83, 'PURCHASE', 526, 257, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-05 15:10:42', '2024-11-05 15:10:42', 'COMO_NUEVO', 'Aceptable', 'NULL', 14287.22, 'EXCHANGE', 267, 305, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 15:10:42', '2024-11-02 15:10:42', 'NUEVO', 'Nuevo', 'NULL', 75353.14, 'PURCHASE', 85, 305, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-25 10:12:37', '2024-09-25 10:12:37', 'MUY_BUENO', 'Nuevo', 'NULL', 63416.54, 'PURCHASE', 321, 82, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-08 13:32:26', '2024-11-08 13:32:26', 'ACEPTABLE', 'Nuevo', 'NULL', 6714.33, 'PURCHASE', 168, 394, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 17:01:56', '2024-10-19 17:01:56', 'NUEVO', 'Excelente estado', 'NULL', 50720.14, 'EXCHANGE', 160, 701, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 13:30:41', '2024-11-23 13:30:41', 'MUY_BUENO', 'Bueno', 'NULL', 62479.59, 'PURCHASE', 98, 851, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 13:30:41', '2024-11-25 13:30:41', 'MUY_BUENO', 'Aceptable', 'NULL', 75151.47, 'EXCHANGE', 521, 851, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-17 14:27:12', '2024-08-17 14:27:12', 'COMO_NUEVO', 'Aceptable', 'NULL', 5051.28, 'EXCHANGE', 57, 673, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-17 14:27:12', '2024-08-17 14:27:12', 'COMO_NUEVO', 'Excelente estado', 'NULL', 7291.83, 'EXCHANGE', 261, 673, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-05 10:19:29', '2024-12-05 10:19:29', 'NUEVO', 'Aceptable', 'NULL', 68493.3, 'EXCHANGE', 77, 138, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-30 14:51:23', '2024-11-30 14:51:23', 'BUENO', 'Usado', 'NULL', 108567.19, 'EXCHANGE', 696, 95, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 09:40:57', '2024-10-05 09:40:57', 'ACEPTABLE', 'Bueno', 'NULL', 49263.32, 'EXCHANGE', 520, 542, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-06 10:36:52', '2024-12-06 10:36:52', 'BUENO', 'Bueno', 'NULL', 93637.77, 'EXCHANGE', 567, 395, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-22 17:52:50', '2024-11-22 17:52:50', 'MUY_BUENO', 'Bueno', 'NULL', 25447.68, 'PURCHASE', 404, 170, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 17:52:50', '2024-11-23 17:52:50', 'NUEVO', 'Bueno', 'NULL', 7361.68, 'PURCHASE', 162, 170, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 17:20:14', '2024-09-30 17:20:14', 'ACEPTABLE', 'Nuevo', 'NULL', 89605.14, 'PURCHASE', 71, 579, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 08:59:45', '2024-10-22 08:59:45', 'MUY_BUENO', 'Usado', 'NULL', 85720.12, 'EXCHANGE', 327, 758, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 08:59:45', '2024-10-25 08:59:45', 'ACEPTABLE', 'Excelente estado', 'NULL', 99399.38, 'EXCHANGE', 689, 758, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-08 16:20:24', '2024-12-08 16:20:24', 'MUY_BUENO', 'Nuevo', 'NULL', 17051.92, 'PURCHASE', 279, 767, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 09:22:28', '2024-10-05 09:22:28', 'ACEPTABLE', 'Nuevo', 'NULL', 59463.64, 'EXCHANGE', 645, 134, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 10:27:27', '2024-09-04 10:27:27', 'ACEPTABLE', 'Aceptable', 'NULL', 92000.74, 'PURCHASE', 369, 546, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 10:27:27', '2024-09-06 10:27:27', 'NUEVO', 'Usado', 'NULL', 31336.2, 'PURCHASE', 682, 546, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 10:36:10', '2024-10-23 10:36:10', 'NUEVO', 'Bueno', 'NULL', 19326.79, 'PURCHASE', 588, 657, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 10:36:10', '2024-10-23 10:36:10', 'MUY_BUENO', 'Aceptable', 'NULL', 97649.79, 'PURCHASE', 456, 657, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-05 10:28:33', '2024-09-05 10:28:33', 'BUENO', 'Usado', 'NULL', 82630.05, 'PURCHASE', 44, 297, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 10:28:33', '2024-09-07 10:28:33', 'NUEVO', 'Nuevo', 'NULL', 50224.88, 'EXCHANGE', 698, 297, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-11 15:40:52', '2024-08-11 15:40:52', 'MUY_BUENO', 'Aceptable', 'NULL', 43946.15, 'PURCHASE', 35, 208, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-10 15:40:52', '2024-08-10 15:40:52', 'BUENO', 'Nuevo', 'NULL', 87867.14, 'EXCHANGE', 504, 208, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-11 13:43:13', '2024-08-11 13:43:13', 'MUY_BUENO', 'Excelente estado', 'NULL', 16334.37, 'EXCHANGE', 472, 557, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-10 13:43:13', '2024-08-10 13:43:13', 'COMO_NUEVO', 'Aceptable', 'NULL', 55131.09, 'PURCHASE', 149, 557, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-25 13:44:28', '2024-08-25 13:44:28', 'BUENO', 'Aceptable', 'NULL', 43838.38, 'EXCHANGE', 584, 830, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 14:19:47', '2024-11-04 14:19:47', 'BUENO', 'Usado', 'NULL', 54032.38, 'PURCHASE', 46, 651, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 14:19:47', '2024-11-04 14:19:47', 'COMO_NUEVO', 'Nuevo', 'NULL', 68563.88, 'EXCHANGE', 177, 651, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-30 11:21:08', '2024-12-30 11:21:08', 'ACEPTABLE', 'Usado', 'NULL', 106061.46, 'PURCHASE', 580, 917, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-31 11:21:08', '2024-12-31 11:21:08', 'COMO_NUEVO', 'Excelente estado', 'NULL', 78257.25, 'PURCHASE', 288, 917, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 10:32:46', '2024-11-17 10:32:46', 'COMO_NUEVO', 'Nuevo', 'NULL', 27612.28, 'EXCHANGE', 451, 656, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 14:06:22', '2024-09-16 14:06:22', 'MUY_BUENO', 'Nuevo', 'NULL', 118195.76, 'PURCHASE', 111, 971, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 14:06:22', '2024-09-15 14:06:22', 'ACEPTABLE', 'Excelente estado', 'NULL', 13062.43, 'PURCHASE', 312, 971, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-20 11:10:14', '2024-09-20 11:10:14', 'NUEVO', 'Excelente estado', 'NULL', 102340.92, 'EXCHANGE', 626, 465, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 11:10:14', '2024-09-22 11:10:14', 'NUEVO', 'Usado', 'NULL', 11148.07, 'EXCHANGE', 325, 465, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 09:52:40', '2024-09-16 09:52:40', 'ACEPTABLE', 'Excelente estado', 'NULL', 12267.36, 'EXCHANGE', 56, 756, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 09:58:56', '2024-10-07 09:58:56', 'BUENO', 'Excelente estado', 'NULL', 21374.15, 'PURCHASE', 148, 433, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 09:58:56', '2024-10-09 09:58:56', 'BUENO', 'Excelente estado', 'NULL', 42345.07, 'PURCHASE', 12, 433, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 15:20:37', '2024-10-27 15:20:37', 'ACEPTABLE', 'Usado', 'NULL', 66921.9, 'PURCHASE', 713, 72, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 15:20:37', '2024-10-25 15:20:37', 'MUY_BUENO', 'Nuevo', 'NULL', 118234.31, 'PURCHASE', 599, 72, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-03 11:07:25', '2024-08-03 11:07:25', 'MUY_BUENO', 'Aceptable', 'NULL', 117258.35, 'PURCHASE', 419, 326, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 18:21:01', '2024-10-14 18:21:01', 'MUY_BUENO', 'Nuevo', 'NULL', 75323.83, 'PURCHASE', 548, 571, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-22 09:41:38', '2024-12-22 09:41:38', 'COMO_NUEVO', 'Excelente estado', 'NULL', 57235.49, 'EXCHANGE', 669, 153, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-11 12:20:00', '2024-11-11 12:20:00', 'BUENO', 'Bueno', 'NULL', 70130.33, 'PURCHASE', 576, 935, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-07 12:20:00', '2024-11-07 12:20:00', 'ACEPTABLE', 'Nuevo', 'NULL', 50205.73, 'PURCHASE', 15, 935, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-30 15:26:45', '2024-11-30 15:26:45', 'BUENO', 'Nuevo', 'NULL', 106132.47, 'EXCHANGE', 158, 930, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-27 15:26:45', '2024-11-27 15:26:45', 'MUY_BUENO', 'Usado', 'NULL', 99273.66, 'EXCHANGE', 117, 930, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-05 13:50:20', '2025-01-05 13:50:20', 'COMO_NUEVO', 'Usado', 'NULL', 37278.68, 'EXCHANGE', 22, 811, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 16:05:19', '2024-10-19 16:05:19', 'NUEVO', 'Aceptable', 'NULL', 43281.43, 'EXCHANGE', 575, 889, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 16:05:19', '2024-10-18 16:05:19', 'BUENO', 'Bueno', 'NULL', 75145.08, 'PURCHASE', 521, 889, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 18:37:20', '2024-10-13 18:37:20', 'ACEPTABLE', 'Nuevo', 'NULL', 85256.99, 'PURCHASE', 440, 795, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 18:37:20', '2024-10-10 18:37:20', 'BUENO', 'Aceptable', 'NULL', 119412.46, 'PURCHASE', 683, 795, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 17:14:02', '2024-11-02 17:14:02', 'MUY_BUENO', 'Aceptable', 'NULL', 66076.83, 'EXCHANGE', 461, 123, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 14:15:16', '2024-10-06 14:15:16', 'BUENO', 'Excelente estado', 'NULL', 97350.59, 'EXCHANGE', 197, 770, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 14:43:34', '2024-10-26 14:43:34', 'BUENO', 'Usado', 'NULL', 90943.24, 'PURCHASE', 220, 713, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 14:43:34', '2024-10-26 14:43:34', 'NUEVO', 'Nuevo', 'NULL', 110890.25, 'EXCHANGE', 581, 713, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 08:28:05', '2024-10-05 08:28:05', 'COMO_NUEVO', 'Usado', 'NULL', 106889.89, 'EXCHANGE', 590, 54, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 14:27:28', '2024-10-02 14:27:28', 'BUENO', 'Excelente estado', 'NULL', 20468.57, 'PURCHASE', 215, 23, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 14:27:28', '2024-10-02 14:27:28', 'NUEVO', 'Nuevo', 'NULL', 84641.33, 'PURCHASE', 275, 23, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 15:28:10', '2024-10-05 15:28:10', 'NUEVO', 'Aceptable', 'NULL', 40160.62, 'PURCHASE', 47, 412, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 15:28:10', '2024-10-07 15:28:10', 'BUENO', 'Usado', 'NULL', 8231.65, 'EXCHANGE', 606, 412, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-15 10:56:24', '2024-11-15 10:56:24', 'NUEVO', 'Bueno', 'NULL', 45995.45, 'EXCHANGE', 198, 583, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-13 10:56:24', '2024-11-13 10:56:24', 'ACEPTABLE', 'Nuevo', 'NULL', 64132.46, 'EXCHANGE', 59, 583, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 10:16:33', '2024-10-16 10:16:33', 'COMO_NUEVO', 'Usado', 'NULL', 77088.54, 'PURCHASE', 283, 200, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-02 09:35:15', '2024-09-02 09:35:15', 'BUENO', 'Usado', 'NULL', 22653.59, 'PURCHASE', 690, 856, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 09:35:15', '2024-08-31 09:35:15', 'MUY_BUENO', 'Usado', 'NULL', 47216.61, 'PURCHASE', 227, 856, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 18:13:02', '2024-09-23 18:13:02', 'ACEPTABLE', 'Usado', 'NULL', 88252.5, 'PURCHASE', 625, 736, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 11:03:38', '2024-09-14 11:03:38', 'MUY_BUENO', 'Usado', 'NULL', 108443.28, 'PURCHASE', 499, 488, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-16 11:03:38', '2024-09-16 11:03:38', 'NUEVO', 'Aceptable', 'NULL', 81237.97, 'EXCHANGE', 293, 488, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-01 15:31:50', '2024-09-01 15:31:50', 'BUENO', 'Bueno', 'NULL', 44339.12, 'PURCHASE', 524, 748, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-03 15:31:50', '2024-09-03 15:31:50', 'BUENO', 'Excelente estado', 'NULL', 82521.27, 'EXCHANGE', 297, 748, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 16:18:25', '2024-10-16 16:18:25', 'NUEVO', 'Usado', 'NULL', 8065.39, 'PURCHASE', 67, 375, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 16:18:25', '2024-10-16 16:18:25', 'COMO_NUEVO', 'Bueno', 'NULL', 100189.98, 'EXCHANGE', 103, 375, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 13:41:45', '2024-09-15 13:41:45', 'NUEVO', 'Aceptable', 'NULL', 89502.49, 'EXCHANGE', 701, 792, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-26 08:25:27', '2024-08-26 08:25:27', 'COMO_NUEVO', 'Bueno', 'NULL', 5814.46, 'EXCHANGE', 574, 321, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 10:09:55', '2024-09-28 10:09:55', 'BUENO', 'Excelente estado', 'NULL', 73826.13, 'PURCHASE', 673, 563, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 10:09:55', '2024-09-27 10:09:55', 'MUY_BUENO', 'Excelente estado', 'NULL', 63197.53, 'PURCHASE', 376, 563, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 18:30:41', '2024-10-04 18:30:41', 'BUENO', 'Bueno', 'NULL', 61895.42, 'EXCHANGE', 325, 886, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 18:30:41', '2024-10-03 18:30:41', 'NUEVO', 'Nuevo', 'NULL', 101527.06, 'EXCHANGE', 413, 886, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 13:20:24', '2024-10-06 13:20:24', 'COMO_NUEVO', 'Excelente estado', 'NULL', 90624.08, 'PURCHASE', 587, 65, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 13:28:32', '2024-10-06 13:28:32', 'ACEPTABLE', 'Excelente estado', 'NULL', 20356.95, 'EXCHANGE', 714, 585, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 14:27:37', '2024-10-07 14:27:37', 'BUENO', 'Bueno', 'NULL', 61561.07, 'PURCHASE', 493, 751, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 13:15:45', '2024-09-11 13:15:45', 'ACEPTABLE', 'Excelente estado', 'NULL', 90597.71, 'PURCHASE', 86, 872, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 13:15:45', '2024-09-11 13:15:45', 'COMO_NUEVO', 'Usado', 'NULL', 30358.31, 'EXCHANGE', 638, 872, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 17:31:22', '2024-11-01 17:31:22', 'BUENO', 'Nuevo', 'NULL', 112404.13, 'PURCHASE', 376, 477, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 14:22:26', '2024-10-03 14:22:26', 'ACEPTABLE', 'Excelente estado', 'NULL', 65384.19, 'PURCHASE', 542, 365, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 14:22:26', '2024-10-02 14:22:26', 'MUY_BUENO', 'Excelente estado', 'NULL', 70960.48, 'EXCHANGE', 320, 365, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 13:39:14', '2024-09-06 13:39:14', 'MUY_BUENO', 'Bueno', 'NULL', 6747.71, 'EXCHANGE', 159, 128, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 13:39:14', '2024-09-08 13:39:14', 'MUY_BUENO', 'Usado', 'NULL', 113931.26, 'EXCHANGE', 540, 128, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-04 16:11:30', '2025-01-04 16:11:30', 'BUENO', 'Aceptable', 'NULL', 96768.62, 'EXCHANGE', 438, 239, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-30 09:51:39', '2024-08-30 09:51:39', 'BUENO', 'Bueno', 'NULL', 81717.67, 'PURCHASE', 671, 679, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-03 17:42:40', '2024-08-03 17:42:40', 'ACEPTABLE', 'Nuevo', 'NULL', 90395.11, 'PURCHASE', 524, 522, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-02 17:42:40', '2024-08-02 17:42:40', 'BUENO', 'Usado', 'NULL', 67275.63, 'EXCHANGE', 269, 522, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-19 18:37:55', '2024-08-19 18:37:55', 'MUY_BUENO', 'Nuevo', 'NULL', 9234.42, 'PURCHASE', 343, 88, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 16:50:11', '2024-09-22 16:50:11', 'BUENO', 'Bueno', 'NULL', 75950.36, 'EXCHANGE', 70, 342, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-25 16:50:11', '2024-09-25 16:50:11', 'ACEPTABLE', 'Excelente estado', 'NULL', 29272.16, 'EXCHANGE', 300, 342, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 15:29:50', '2024-10-24 15:29:50', 'COMO_NUEVO', 'Excelente estado', 'NULL', 41183.13, 'PURCHASE', 467, 779, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 15:29:50', '2024-10-24 15:29:50', 'NUEVO', 'Nuevo', 'NULL', 5304.57, 'EXCHANGE', 259, 779, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 13:26:12', '2024-09-11 13:26:12', 'ACEPTABLE', 'Aceptable', 'NULL', 68555.3, 'PURCHASE', 593, 707, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 16:22:48', '2024-10-19 16:22:48', 'BUENO', 'Excelente estado', 'NULL', 60645.81, 'EXCHANGE', 505, 55, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-09 13:37:56', '2024-11-09 13:37:56', 'MUY_BUENO', 'Bueno', 'NULL', 45037.21, 'EXCHANGE', 154, 386, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-08 13:37:56', '2024-11-08 13:37:56', 'BUENO', 'Aceptable', 'NULL', 17868.98, 'EXCHANGE', 619, 386, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 17:35:16', '2024-10-02 17:35:16', 'NUEVO', 'Excelente estado', 'NULL', 63866.54, 'EXCHANGE', 143, 18, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-02 17:35:16', '2024-10-02 17:35:16', 'ACEPTABLE', 'Excelente estado', 'NULL', 78169.42, 'EXCHANGE', 137, 18, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 15:22:29', '2024-09-28 15:22:29', 'COMO_NUEVO', 'Aceptable', 'NULL', 65560.65, 'PURCHASE', 485, 489, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-29 15:22:29', '2024-09-29 15:22:29', 'MUY_BUENO', 'Nuevo', 'NULL', 65001.52, 'EXCHANGE', 91, 489, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 18:14:36', '2024-08-31 18:14:36', 'NUEVO', 'Bueno', 'NULL', 102347.95, 'PURCHASE', 149, 677, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-05 15:58:12', '2024-12-05 15:58:12', 'COMO_NUEVO', 'Nuevo', 'NULL', 78958.38, 'EXCHANGE', 74, 575, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-08 15:58:12', '2024-12-08 15:58:12', 'COMO_NUEVO', 'Usado', 'NULL', 19066.5, 'PURCHASE', 503, 575, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 17:51:00', '2024-10-11 17:51:00', 'COMO_NUEVO', 'Usado', 'NULL', 23461.52, 'EXCHANGE', 653, 772, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-10 12:26:26', '2024-11-10 12:26:26', 'MUY_BUENO', 'Excelente estado', 'NULL', 29398.23, 'PURCHASE', 435, 104, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 12:07:28', '2024-10-12 12:07:28', 'NUEVO', 'Aceptable', 'NULL', 9313.72, 'PURCHASE', 612, 99, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 12:07:28', '2024-10-09 12:07:28', 'COMO_NUEVO', 'Usado', 'NULL', 87320.38, 'PURCHASE', 398, 99, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 10:57:05', '2024-09-21 10:57:05', 'COMO_NUEVO', 'Nuevo', 'NULL', 82482.93, 'PURCHASE', 196, 990, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-13 17:30:29', '2024-09-13 17:30:29', 'NUEVO', 'Aceptable', 'NULL', 92699.22, 'PURCHASE', 595, 965, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 17:30:29', '2024-09-14 17:30:29', 'MUY_BUENO', 'Usado', 'NULL', 64134.17, 'EXCHANGE', 269, 965, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 14:59:51', '2024-10-06 14:59:51', 'ACEPTABLE', 'Aceptable', 'NULL', 92328.44, 'EXCHANGE', 366, 299, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 10:24:36', '2024-09-08 10:24:36', 'MUY_BUENO', 'Bueno', 'NULL', 117245.99, 'PURCHASE', 131, 416, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-08 10:24:36', '2024-09-08 10:24:36', 'NUEVO', 'Excelente estado', 'NULL', 106494.33, 'EXCHANGE', 194, 416, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 09:03:02', '2024-09-12 09:03:02', 'COMO_NUEVO', 'Bueno', 'NULL', 87898.43, 'PURCHASE', 239, 545, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 09:03:02', '2024-09-12 09:03:02', 'NUEVO', 'Bueno', 'NULL', 21163.56, 'EXCHANGE', 522, 545, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-09 08:34:55', '2024-10-09 08:34:55', 'BUENO', 'Aceptable', 'NULL', 94199.05, 'EXCHANGE', 670, 190, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 14:31:59', '2024-11-04 14:31:59', 'ACEPTABLE', 'Bueno', 'NULL', 71177.78, 'PURCHASE', 42, 674, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-13 16:15:07', '2024-08-13 16:15:07', 'BUENO', 'Bueno', 'NULL', 92727.03, 'EXCHANGE', 492, 558, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 09:48:38', '2024-10-22 09:48:38', 'BUENO', 'Nuevo', 'NULL', 106078.07, 'EXCHANGE', 261, 939, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 09:26:42', '2024-10-17 09:26:42', 'COMO_NUEVO', 'Excelente estado', 'NULL', 58116.01, 'PURCHASE', 539, 106, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 09:26:42', '2024-10-19 09:26:42', 'NUEVO', 'Nuevo', 'NULL', 28005.37, 'EXCHANGE', 230, 106, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 18:50:16', '2024-10-17 18:50:16', 'COMO_NUEVO', 'Bueno', 'NULL', 74241.54, 'EXCHANGE', 602, 509, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 18:50:16', '2024-10-21 18:50:16', 'COMO_NUEVO', 'Usado', 'NULL', 42337.23, 'PURCHASE', 530, 509, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-14 14:06:58', '2024-11-14 14:06:58', 'COMO_NUEVO', 'Bueno', 'NULL', 63233.01, 'EXCHANGE', 662, 525, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-23 17:30:48', '2024-08-23 17:30:48', 'COMO_NUEVO', 'Usado', 'NULL', 67399.3, 'PURCHASE', 77, 306, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 18:48:18', '2024-10-06 18:48:18', 'MUY_BUENO', 'Aceptable', 'NULL', 73003.04, 'PURCHASE', 636, 667, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 18:48:18', '2024-10-03 18:48:18', 'MUY_BUENO', 'Usado', 'NULL', 82370.24, 'EXCHANGE', 296, 667, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-16 12:26:41', '2024-10-16 12:26:41', 'BUENO', 'Excelente estado', 'NULL', 72294.3, 'PURCHASE', 68, 875, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 12:26:41', '2024-10-15 12:26:41', 'NUEVO', 'Excelente estado', 'NULL', 37525.29, 'PURCHASE', 525, 875, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 15:37:42', '2024-10-31 15:37:42', 'NUEVO', 'Nuevo', 'NULL', 60437.69, 'EXCHANGE', 344, 52, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 15:37:42', '2024-11-02 15:37:42', 'MUY_BUENO', 'Excelente estado', 'NULL', 46082.11, 'PURCHASE', 551, 52, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 08:13:37', '2024-10-18 08:13:37', 'NUEVO', 'Usado', 'NULL', 5846.22, 'EXCHANGE', 54, 324, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 08:13:37', '2024-10-15 08:13:37', 'MUY_BUENO', 'Excelente estado', 'NULL', 28059.05, 'PURCHASE', 225, 324, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-25 16:29:56', '2024-12-25 16:29:56', 'NUEVO', 'Nuevo', 'NULL', 50836.37, 'EXCHANGE', 268, 659, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-13 12:41:43', '2024-11-13 12:41:43', 'NUEVO', 'Excelente estado', 'NULL', 107017.44, 'EXCHANGE', 291, 266, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-10 12:41:43', '2024-11-10 12:41:43', 'MUY_BUENO', 'Usado', 'NULL', 117121.11, 'PURCHASE', 215, 266, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 12:26:55', '2024-10-26 12:26:55', 'ACEPTABLE', 'Nuevo', 'NULL', 110374.07, 'PURCHASE', 614, 363, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 09:17:02', '2024-10-21 09:17:02', 'NUEVO', 'Aceptable', 'NULL', 78680.21, 'EXCHANGE', 406, 121, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 09:17:02', '2024-10-19 09:17:02', 'NUEVO', 'Nuevo', 'NULL', 87700.83, 'EXCHANGE', 354, 121, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 15:15:46', '2024-09-14 15:15:46', 'COMO_NUEVO', 'Aceptable', 'NULL', 63871.28, 'EXCHANGE', 369, 603, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-12 15:15:46', '2024-09-12 15:15:46', 'NUEVO', 'Excelente estado', 'NULL', 96001.05, 'EXCHANGE', 57, 603, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-06 10:30:47', '2024-08-06 10:30:47', 'NUEVO', 'Excelente estado', 'NULL', 63079.84, 'EXCHANGE', 257, 790, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-08 10:30:47', '2024-08-08 10:30:47', 'COMO_NUEVO', 'Aceptable', 'NULL', 111525.83, 'EXCHANGE', 433, 790, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 17:56:40', '2024-10-29 17:56:40', 'NUEVO', 'Usado', 'NULL', 19906.46, 'PURCHASE', 168, 728, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 17:56:40', '2024-10-30 17:56:40', 'ACEPTABLE', 'Aceptable', 'NULL', 69476.38, 'PURCHASE', 324, 728, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 18:08:16', '2024-09-11 18:08:16', 'BUENO', 'Bueno', 'NULL', 14685.7, 'PURCHASE', 234, 877, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-07 18:08:16', '2024-09-07 18:08:16', 'BUENO', 'Excelente estado', 'NULL', 69471.92, 'EXCHANGE', 69, 877, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-14 09:24:14', '2024-09-14 09:24:14', 'ACEPTABLE', 'Aceptable', 'NULL', 61981.45, 'PURCHASE', 360, 484, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-15 09:24:14', '2024-09-15 09:24:14', 'ACEPTABLE', 'Excelente estado', 'NULL', 46218.56, 'PURCHASE', 395, 484, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-03 08:30:43', '2024-12-03 08:30:43', 'BUENO', 'Usado', 'NULL', 117221.53, 'EXCHANGE', 509, 441, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 08:52:43', '2024-10-08 08:52:43', 'BUENO', 'Usado', 'NULL', 101438.15, 'PURCHASE', 200, 520, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 08:52:43', '2024-10-08 08:52:43', 'MUY_BUENO', 'Usado', 'NULL', 73635.31, 'EXCHANGE', 50, 520, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-31 16:35:22', '2024-12-31 16:35:22', 'COMO_NUEVO', 'Aceptable', 'NULL', 25185.41, 'PURCHASE', 574, 193, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-02 16:35:22', '2025-01-02 16:35:22', 'COMO_NUEVO', 'Aceptable', 'NULL', 19320.53, 'PURCHASE', 505, 193, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 08:20:10', '2024-10-14 08:20:10', 'ACEPTABLE', 'Aceptable', 'NULL', 107776.31, 'PURCHASE', 68, 940, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 08:20:10', '2024-10-14 08:20:10', 'NUEVO', 'Excelente estado', 'NULL', 104259.43, 'EXCHANGE', 448, 940, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-22 14:58:38', '2024-11-22 14:58:38', 'NUEVO', 'Usado', 'NULL', 69607.63, 'PURCHASE', 426, 638, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-23 14:58:38', '2024-11-23 14:58:38', 'BUENO', 'Aceptable', 'NULL', 59256.82, 'EXCHANGE', 216, 638, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 13:22:24', '2024-10-10 13:22:24', 'MUY_BUENO', 'Bueno', 'NULL', 110051.63, 'EXCHANGE', 652, 871, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-12 10:11:29', '2024-08-12 10:11:29', 'ACEPTABLE', 'Bueno', 'NULL', 112485.66, 'PURCHASE', 711, 640, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 10:14:56', '2024-09-22 10:14:56', 'MUY_BUENO', 'Bueno', 'NULL', 5308.68, 'EXCHANGE', 704, 938, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 10:14:56', '2024-09-19 10:14:56', 'BUENO', 'Excelente estado', 'NULL', 48128.35, 'PURCHASE', 249, 938, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 09:59:37', '2024-10-26 09:59:37', 'COMO_NUEVO', 'Aceptable', 'NULL', 34378.14, 'EXCHANGE', 595, 338, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-23 15:18:44', '2024-12-23 15:18:44', 'BUENO', 'Aceptable', 'NULL', 27396.35, 'EXCHANGE', 718, 882, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 09:14:03', '2024-09-04 09:14:03', 'MUY_BUENO', 'Excelente estado', 'NULL', 118966.24, 'PURCHASE', 564, 164, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-04 09:14:03', '2024-09-04 09:14:03', 'COMO_NUEVO', 'Nuevo', 'NULL', 85292.84, 'PURCHASE', 332, 164, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 10:35:13', '2024-11-03 10:35:13', 'BUENO', 'Usado', 'NULL', 17666.68, 'EXCHANGE', 125, 686, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-20 17:36:45', '2024-11-20 17:36:45', 'ACEPTABLE', 'Nuevo', 'NULL', 31032.77, 'PURCHASE', 580, 689, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-28 14:56:03', '2024-12-28 14:56:03', 'MUY_BUENO', 'Nuevo', 'NULL', 67695.52, 'EXCHANGE', 65, 131, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-30 14:56:03', '2024-12-30 14:56:03', 'MUY_BUENO', 'Bueno', 'NULL', 91791.35, 'PURCHASE', 53, 131, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-26 09:06:14', '2024-10-26 09:06:14', 'ACEPTABLE', 'Bueno', 'NULL', 57743.88, 'PURCHASE', 253, 706, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 10:35:02', '2024-11-01 10:35:02', 'MUY_BUENO', 'Bueno', 'NULL', 49275.15, 'PURCHASE', 256, 68, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 10:35:02', '2024-11-01 10:35:02', 'MUY_BUENO', 'Excelente estado', 'NULL', 72653.29, 'EXCHANGE', 261, 68, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 17:47:54', '2024-09-30 17:47:54', 'COMO_NUEVO', 'Aceptable', 'NULL', 31753.56, 'EXCHANGE', 329, 4, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 17:47:54', '2024-09-27 17:47:54', 'ACEPTABLE', 'Usado', 'NULL', 91269.28, 'PURCHASE', 279, 4, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 17:25:47', '2024-09-19 17:25:47', 'COMO_NUEVO', 'Nuevo', 'NULL', 23617.15, 'EXCHANGE', 234, 384, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-31 18:51:17', '2024-08-31 18:51:17', 'NUEVO', 'Aceptable', 'NULL', 34717.29, 'PURCHASE', 379, 314, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-23 08:41:49', '2024-09-23 08:41:49', 'ACEPTABLE', 'Aceptable', 'NULL', 8273.36, 'EXCHANGE', 533, 468, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 08:41:49', '2024-09-19 08:41:49', 'BUENO', 'Aceptable', 'NULL', 10677.87, 'EXCHANGE', 318, 468, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:24:25', '2024-10-12 09:24:25', 'MUY_BUENO', 'Usado', 'NULL', 80097.79, 'EXCHANGE', 66, 358, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 09:24:25', '2024-10-08 09:24:25', 'BUENO', 'Excelente estado', 'NULL', 97289.97, 'EXCHANGE', 235, 358, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-07 08:32:35', '2024-10-07 08:32:35', 'NUEVO', 'Usado', 'NULL', 79493.93, 'EXCHANGE', 326, 562, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 08:32:35', '2024-10-05 08:32:35', 'MUY_BUENO', 'Usado', 'NULL', 96310.33, 'PURCHASE', 658, 562, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 18:52:53', '2024-10-29 18:52:53', 'BUENO', 'Usado', 'NULL', 81242.77, 'EXCHANGE', 76, 114, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 18:52:53', '2024-10-29 18:52:53', 'MUY_BUENO', 'Excelente estado', 'NULL', 70454.8, 'PURCHASE', 484, 114, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 15:56:50', '2024-11-01 15:56:50', 'NUEVO', 'Aceptable', 'NULL', 27466.25, 'PURCHASE', 181, 947, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-04 15:56:50', '2024-11-04 15:56:50', 'BUENO', 'Excelente estado', 'NULL', 42767.58, 'EXCHANGE', 572, 947, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-03 10:34:36', '2024-10-03 10:34:36', 'COMO_NUEVO', 'Excelente estado', 'NULL', 84435.29, 'PURCHASE', 289, 516, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 10:34:36', '2024-10-06 10:34:36', 'BUENO', 'Nuevo', 'NULL', 32348.31, 'PURCHASE', 234, 516, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-06 12:09:07', '2024-10-06 12:09:07', 'MUY_BUENO', 'Nuevo', 'NULL', 80134.85, 'EXCHANGE', 264, 56, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 09:06:24', '2024-11-02 09:06:24', 'ACEPTABLE', 'Bueno', 'NULL', 94072.1, 'EXCHANGE', 437, 923, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 09:06:24', '2024-11-02 09:06:24', 'ACEPTABLE', 'Excelente estado', 'NULL', 80582.66, 'PURCHASE', 649, 923, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-17 12:33:18', '2024-12-17 12:33:18', 'BUENO', 'Nuevo', 'NULL', 106945.58, 'PURCHASE', 618, 680, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 12:04:34', '2024-10-11 12:04:34', 'ACEPTABLE', 'Nuevo', 'NULL', 18795.62, 'PURCHASE', 126, 727, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 12:04:34', '2024-10-13 12:04:34', 'NUEVO', 'Bueno', 'NULL', 16689.28, 'EXCHANGE', 50, 727, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-14 17:30:34', '2024-10-14 17:30:34', 'COMO_NUEVO', 'Usado', 'NULL', 74191.99, 'EXCHANGE', 662, 405, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 17:30:34', '2024-10-15 17:30:34', 'NUEVO', 'Usado', 'NULL', 60275.51, 'EXCHANGE', 50, 405, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-13 09:57:46', '2024-08-13 09:57:46', 'BUENO', 'Excelente estado', 'NULL', 79738.39, 'PURCHASE', 206, 374, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 11:40:41', '2024-10-30 11:40:41', 'NUEVO', 'Bueno', 'NULL', 60787.14, 'EXCHANGE', 454, 352, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 11:40:41', '2024-10-29 11:40:41', 'NUEVO', 'Aceptable', 'NULL', 97221.99, 'EXCHANGE', 655, 352, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 16:23:28', '2024-09-22 16:23:28', 'MUY_BUENO', 'Aceptable', 'NULL', 100455.28, 'PURCHASE', 325, 308, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 09:25:29', '2024-10-23 09:25:29', 'COMO_NUEVO', 'Usado', 'NULL', 94734.03, 'PURCHASE', 610, 1000, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 16:27:08', '2024-11-03 16:27:08', 'MUY_BUENO', 'Aceptable', 'NULL', 20822.67, 'EXCHANGE', 281, 840, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-30 16:27:08', '2024-10-30 16:27:08', 'NUEVO', 'Bueno', 'NULL', 22716.8, 'EXCHANGE', 458, 840, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-04 11:24:57', '2025-01-04 11:24:57', 'MUY_BUENO', 'Nuevo', 'NULL', 12383.18, 'EXCHANGE', 439, 881, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 17:58:43', '2024-09-21 17:58:43', 'NUEVO', 'Aceptable', 'NULL', 113999.02, 'EXCHANGE', 479, 999, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-21 17:58:43', '2024-09-21 17:58:43', 'BUENO', 'Usado', 'NULL', 100342.07, 'PURCHASE', 383, 999, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 11:38:10', '2024-10-05 11:38:10', 'NUEVO', 'Nuevo', 'NULL', 54348.66, 'EXCHANGE', 145, 732, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 11:17:12', '2024-10-13 11:17:12', 'BUENO', 'Nuevo', 'NULL', 32276.13, 'EXCHANGE', 515, 719, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-15 11:17:12', '2024-10-15 11:17:12', 'ACEPTABLE', 'Excelente estado', 'NULL', 54337.59, 'PURCHASE', 660, 719, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-08 13:42:44', '2024-10-08 13:42:44', 'NUEVO', 'Nuevo', 'NULL', 5677.55, 'PURCHASE', 494, 950, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 11:01:02', '2024-10-31 11:01:02', 'ACEPTABLE', 'Bueno', 'NULL', 25670.25, 'EXCHANGE', 593, 996, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-03 11:01:02', '2024-11-03 11:01:02', 'ACEPTABLE', 'Aceptable', 'NULL', 97775.79, 'PURCHASE', 555, 996, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2025-01-03 13:25:13', '2025-01-03 13:25:13', 'MUY_BUENO', 'Usado', 'NULL', 26855.92, 'EXCHANGE', 102, 157, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-25 14:57:09', '2024-09-25 14:57:09', 'NUEVO', 'Usado', 'NULL', 76548.91, 'PURCHASE', 403, 498, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-27 14:57:09', '2024-09-27 14:57:09', 'MUY_BUENO', 'Nuevo', 'NULL', 82519.0, 'EXCHANGE', 685, 498, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 10:41:56', '2024-10-21 10:41:56', 'MUY_BUENO', 'Nuevo', 'NULL', 118236.89, 'EXCHANGE', 456, 475, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 10:41:56', '2024-10-19 10:41:56', 'ACEPTABLE', 'Nuevo', 'NULL', 86402.53, 'EXCHANGE', 318, 475, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 18:49:21', '2024-10-27 18:49:21', 'COMO_NUEVO', 'Aceptable', 'NULL', 110499.0, 'EXCHANGE', 475, 500, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 18:49:21', '2024-10-27 18:49:21', 'COMO_NUEVO', 'Aceptable', 'NULL', 79580.82, 'PURCHASE', 46, 500, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 10:03:59', '2024-10-12 10:03:59', 'NUEVO', 'Usado', 'NULL', 36074.89, 'PURCHASE', 157, 203, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-05 15:28:55', '2024-12-05 15:28:55', 'BUENO', 'Excelente estado', 'NULL', 40577.46, 'PURCHASE', 185, 185, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-09 15:28:55', '2024-12-09 15:28:55', 'NUEVO', 'Bueno', 'NULL', 16094.27, 'EXCHANGE', 554, 185, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-03 08:00:50', '2024-09-03 08:00:50', 'ACEPTABLE', 'Nuevo', 'NULL', 11626.56, 'PURCHASE', 518, 841, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 12:52:04', '2024-11-01 12:52:04', 'ACEPTABLE', 'Usado', 'NULL', 60064.86, 'EXCHANGE', 446, 681, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 13:37:13', '2024-09-22 13:37:13', 'ACEPTABLE', 'Bueno', 'NULL', 38741.26, 'EXCHANGE', 444, 778, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-22 13:37:13', '2024-09-22 13:37:13', 'COMO_NUEVO', 'Bueno', 'NULL', 83673.48, 'EXCHANGE', 8, 778, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-24 09:09:41', '2024-10-24 09:09:41', 'NUEVO', 'Usado', 'NULL', 13554.36, 'EXCHANGE', 461, 71, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 09:09:41', '2024-10-23 09:09:41', 'COMO_NUEVO', 'Aceptable', 'NULL', 26094.32, 'EXCHANGE', 133, 71, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-10 16:12:08', '2024-08-10 16:12:08', 'COMO_NUEVO', 'Nuevo', 'NULL', 117860.54, 'EXCHANGE', 465, 87, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-09 16:03:03', '2024-09-09 16:03:03', 'BUENO', 'Aceptable', 'NULL', 30375.83, 'EXCHANGE', 141, 192, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-06 16:03:03', '2024-09-06 16:03:03', 'BUENO', 'Nuevo', 'NULL', 106659.39, 'PURCHASE', 636, 192, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-19 18:04:40', '2024-08-19 18:04:40', 'NUEVO', 'Usado', 'NULL', 33984.43, 'PURCHASE', 28, 672, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-16 18:04:40', '2024-08-16 18:04:40', 'BUENO', 'Bueno', 'NULL', 59355.32, 'EXCHANGE', 581, 672, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 17:22:42', '2024-10-12 17:22:42', 'ACEPTABLE', 'Nuevo', 'NULL', 77400.28, 'PURCHASE', 128, 961, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 10:38:59', '2024-10-18 10:38:59', 'ACEPTABLE', 'Aceptable', 'NULL', 118047.92, 'EXCHANGE', 49, 934, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 10:38:59', '2024-10-17 10:38:59', 'ACEPTABLE', 'Aceptable', 'NULL', 41335.8, 'PURCHASE', 132, 934, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:56:19', '2024-10-04 14:56:19', 'COMO_NUEVO', 'Bueno', 'NULL', 53560.9, 'PURCHASE', 455, 486, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-04 14:56:19', '2024-10-04 14:56:19', 'NUEVO', 'Usado', 'NULL', 39027.43, 'PURCHASE', 305, 486, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 11:26:58', '2024-10-22 11:26:58', 'COMO_NUEVO', 'Bueno', 'NULL', 22223.72, 'EXCHANGE', 233, 627, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 11:26:58', '2024-10-22 11:26:58', 'COMO_NUEVO', 'Excelente estado', 'NULL', 73192.32, 'EXCHANGE', 160, 627, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 11:18:21', '2024-11-02 11:18:21', 'BUENO', 'Excelente estado', 'NULL', 106573.89, 'PURCHASE', 670, 925, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 11:18:21', '2024-11-02 11:18:21', 'COMO_NUEVO', 'Nuevo', 'NULL', 39052.06, 'EXCHANGE', 107, 925, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-27 08:16:54', '2024-08-27 08:16:54', 'ACEPTABLE', 'Usado', 'NULL', 75860.52, 'EXCHANGE', 402, 401, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-28 08:16:54', '2024-08-28 08:16:54', 'ACEPTABLE', 'Aceptable', 'NULL', 12092.46, 'EXCHANGE', 213, 401, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 16:23:18', '2024-10-23 16:23:18', 'COMO_NUEVO', 'Aceptable', 'NULL', 40048.75, 'EXCHANGE', 138, 773, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 16:23:18', '2024-10-25 16:23:18', 'COMO_NUEVO', 'Bueno', 'NULL', 58205.19, 'PURCHASE', 374, 773, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-27 13:50:52', '2024-10-27 13:50:52', 'MUY_BUENO', 'Usado', 'NULL', 14240.01, 'EXCHANGE', 523, 120, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 13:50:52', '2024-10-25 13:50:52', 'MUY_BUENO', 'Bueno', 'NULL', 115214.69, 'PURCHASE', 597, 120, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-01 16:51:18', '2024-11-01 16:51:18', 'BUENO', 'Nuevo', 'NULL', 57669.64, 'EXCHANGE', 156, 647, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 16:51:18', '2024-11-02 16:51:18', 'NUEVO', 'Bueno', 'NULL', 89738.98, 'PURCHASE', 176, 647, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 10:18:45', '2024-10-10 10:18:45', 'BUENO', 'Usado', 'NULL', 25545.35, 'EXCHANGE', 439, 389, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-10 10:18:45', '2024-10-10 10:18:45', 'ACEPTABLE', 'Bueno', 'NULL', 57113.62, 'EXCHANGE', 87, 389, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-11 14:35:23', '2024-09-11 14:35:23', 'COMO_NUEVO', 'Bueno', 'NULL', 111245.03, 'PURCHASE', 497, 817, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-29 18:11:42', '2024-10-29 18:11:42', 'MUY_BUENO', 'Aceptable', 'NULL', 26760.92, 'EXCHANGE', 663, 588, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-25 09:55:43', '2024-10-25 09:55:43', 'ACEPTABLE', 'Bueno', 'NULL', 68675.16, 'PURCHASE', 102, 669, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-21 08:33:40', '2024-10-21 08:33:40', 'NUEVO', 'Nuevo', 'NULL', 55478.51, 'EXCHANGE', 395, 8, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-20 08:33:40', '2024-10-20 08:33:40', 'BUENO', 'Aceptable', 'NULL', 41743.85, 'EXCHANGE', 653, 8, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 13:05:45', '2024-10-19 13:05:45', 'BUENO', 'Nuevo', 'NULL', 97404.19, 'EXCHANGE', 493, 696, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-17 13:05:45', '2024-10-17 13:05:45', 'ACEPTABLE', 'Aceptable', 'NULL', 85702.67, 'PURCHASE', 411, 696, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-18 17:43:34', '2024-10-18 17:43:34', 'ACEPTABLE', 'Excelente estado', 'NULL', 77092.35, 'EXCHANGE', 629, 10, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 17:43:34', '2024-10-19 17:43:34', 'ACEPTABLE', 'Aceptable', 'NULL', 72795.01, 'PURCHASE', 385, 10, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-12 09:49:15', '2024-10-12 09:49:15', 'BUENO', 'Excelente estado', 'NULL', 75465.86, 'PURCHASE', 26, 346, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-11 09:49:15', '2024-10-11 09:49:15', 'COMO_NUEVO', 'Aceptable', 'NULL', 76248.59, 'PURCHASE', 116, 346, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 18:00:27', '2024-12-07 18:00:27', 'NUEVO', 'Nuevo', 'NULL', 15075.61, 'PURCHASE', 163, 390, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-07 18:00:27', '2024-12-07 18:00:27', 'MUY_BUENO', 'Usado', 'NULL', 86018.09, 'PURCHASE', 625, 390, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 12:49:22', '2024-09-30 12:49:22', 'NUEVO', 'Bueno', 'NULL', 111465.73, 'EXCHANGE', 219, 837, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-30 12:49:22', '2024-09-30 12:49:22', 'NUEVO', 'Aceptable', 'NULL', 81993.47, 'EXCHANGE', 275, 837, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-19 14:37:02', '2024-10-19 14:37:02', 'NUEVO', 'Excelente estado', 'NULL', 104236.85, 'EXCHANGE', 507, 415, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-24 14:26:22', '2024-08-24 14:26:22', 'ACEPTABLE', 'Excelente estado', 'NULL', 110857.59, 'PURCHASE', 267, 823, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 11:30:37', '2024-11-25 11:30:37', 'BUENO', 'Usado', 'NULL', 27212.01, 'PURCHASE', 104, 407, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-25 11:30:37', '2024-11-25 11:30:37', 'BUENO', 'Usado', 'NULL', 101310.06, 'PURCHASE', 598, 407, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-23 09:21:32', '2024-10-23 09:21:32', 'NUEVO', 'Aceptable', 'NULL', 108129.9, 'EXCHANGE', 378, 241, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-12-08 09:08:38', '2024-12-08 09:08:38', 'NUEVO', 'Aceptable', 'NULL', 38893.91, 'PURCHASE', 619, 902, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-02 09:46:52', '2024-11-02 09:46:52', 'NUEVO', 'Excelente estado', 'NULL', 60548.53, 'PURCHASE', 388, 538, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-31 09:46:52', '2024-10-31 09:46:52', 'COMO_NUEVO', 'Bueno', 'NULL', 15527.31, 'EXCHANGE', 596, 538, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-13 08:43:15', '2024-10-13 08:43:15', 'COMO_NUEVO', 'Nuevo', 'NULL', 84755.99, 'PURCHASE', 556, 658, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-26 16:15:52', '2024-09-26 16:15:52', 'COMO_NUEVO', 'Aceptable', 'NULL', 53430.31, 'EXCHANGE', 215, 730, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-28 16:15:52', '2024-09-28 16:15:52', 'NUEVO', 'Bueno', 'NULL', 93230.2, 'PURCHASE', 293, 730, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-07-21 16:16:48', '2024-07-21 16:16:48', 'MUY_BUENO', 'Excelente estado', 'NULL', 65246.3, 'EXCHANGE', 503, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-07-10 19:57:50', '2024-07-10 19:57:50', 'NUEVO', 'Excelente estado', 'NULL', 36930.47, 'EXCHANGE', 229, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-08-21 23:45:08', '2024-08-21 23:45:08', 'BUENO', 'Bueno', 'NULL', 11165.43, 'EXCHANGE', 549, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-09 14:31:18', '2024-11-09 14:31:18', 'BUENO', 'Excelente estado', 'NULL', 22105.97, 'EXCHANGE', 604, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-22 11:42:46', '2024-10-22 11:42:46', 'COMO_NUEVO', 'Aceptable', 'NULL', 24421.3, 'EXCHANGE', 157, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-06-09 10:38:18', '2024-06-09 10:38:18', 'MUY_BUENO', 'Usado', 'NULL', 89520.01, 'EXCHANGE', 3, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-07-11 02:09:33', '2024-07-11 02:09:33', 'MUY_BUENO', 'Usado', 'NULL', 48355.49, 'EXCHANGE', 242, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-10-05 01:16:30', '2024-10-05 01:16:30', 'ACEPTABLE', 'Bueno', 'NULL', 29324.66, 'EXCHANGE', 536, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-06-08 06:49:45', '2024-06-08 06:49:45', 'MUY_BUENO', 'Usado', 'NULL', 37320.24, 'EXCHANGE', 33, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-01-04 17:10:54', '2024-01-04 17:10:54', 'BUENO', 'Bueno', 'NULL', 101289.37, 'EXCHANGE', 328, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-05-15 02:50:02', '2024-05-15 02:50:02', 'BUENO', 'Nuevo', 'NULL', 101641.0, 'EXCHANGE', 346, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-09-19 13:48:04', '2024-09-19 13:48:04', 'COMO_NUEVO', 'Aceptable', 'NULL', 90534.08, 'EXCHANGE', 619, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-05-01 15:23:09', '2024-05-01 15:23:09', 'COMO_NUEVO', 'Nuevo', 'NULL', 55981.36, 'EXCHANGE', 120, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-11-17 10:01:04', '2024-11-17 10:01:04', 'ACEPTABLE', 'Bueno', 'NULL', 5489.51, 'EXCHANGE', 584, 1001, False, NULL); 
+
+INSERT INTO public.post (created_at, updated_at, book_state, description, image, price, type, id_book, id_user, book_send, book_received)  
+VALUES ('2024-01-28 07:05:06', '2024-01-28 07:05:06', 'BUENO', 'Usado', 'NULL', 89511.66, 'EXCHANGE', 187, 1001, False, NULL); 
+
