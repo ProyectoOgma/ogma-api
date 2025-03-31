@@ -50,7 +50,7 @@ public class Seeder implements CommandLineRunner {
                 .name("Julian")
                 .lastName("Bollatti")
                 .userSiteName("julianbollatti")
-                .email("jbollati.ogma@gmail.com")
+                .email("jbollatti.ogma@gmail.com")
                 .hashedPassword(passwordEncoder.encode("password"))
                 .role(Role.ADMIN)
                 .build();
