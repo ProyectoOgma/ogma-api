@@ -34,8 +34,6 @@ services:
       - ./local_postgres/21_exchange_users.sql:/docker-entrypoint-initdb.d/21_exchange_users.sql
       - ./local_postgres/22_reviews.sql:/docker-entrypoint-initdb.d/22_reviews.sql
       - ./local_postgres/23_surveys.sql:/docker-entrypoint-initdb.d/23_surveys.sql
-      - ./local_postgres/24_literary_routes.sql:/docker-entrypoint-initdb.d/24_literary_routes.sql
-      - ./local_postgres/25_literary_routes_books.sql:/docker-entrypoint-initdb.d/25_literary_routes_books.sql
       - postgres_data:/var/lib/postgresql/data
     networks:
       - ogma_network

@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 
 @Profile({"local", "dev", "test"})
 @Component
@@ -31,6 +33,12 @@ public class Seeder implements CommandLineRunner {
     }
 
     private void seedUsers() {
+        User updateAylenUser = userRepository.findByEmail("jbollatti.ogma@gmail.com").orElse(null);
+        assert updateAylenUser != null;
+        updateAylenUser.setHashedPassword(passwordEncoder.encode("password"));
+        userRepository.save(updateAylenUser);
+        System.out.println("User seeded: " + updateAylenUser);
+
         if (alreadySeeded()) {
             System.out.println("Users already seeded");
             return;
