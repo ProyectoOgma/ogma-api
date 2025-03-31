@@ -1,300 +1,300 @@
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (90, 'Ruta Literaria 1', 'Descripción de la ruta literaria 1', 1, '2024-10-13 08:25:33'); 
+VALUES (269, 'Ruta Literaria 1', 'Descripción de la ruta literaria 1', 4, '2024-11-04 16:03:57'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (259, 'Ruta Literaria 2', 'Descripción de la ruta literaria 2', 4, '2024-12-20 13:31:37'); 
+VALUES (334, 'Ruta Literaria 2', 'Descripción de la ruta literaria 2', 5, '2024-08-18 16:20:32'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (497, 'Ruta Literaria 3', 'Descripción de la ruta literaria 3', 5, '2024-11-26 13:07:01'); 
+VALUES (560, 'Ruta Literaria 3', 'Descripción de la ruta literaria 3', 3, '2024-10-02 18:15:41'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (761, 'Ruta Literaria 4', 'Descripción de la ruta literaria 4', 1, '2024-11-05 12:44:14'); 
+VALUES (42, 'Ruta Literaria 4', 'Descripción de la ruta literaria 4', 4, '2024-11-10 08:41:32'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (152, 'Ruta Literaria 5', 'Descripción de la ruta literaria 5', 2, '2024-12-11 08:56:49'); 
+VALUES (920, 'Ruta Literaria 5', 'Descripción de la ruta literaria 5', 2, '2024-10-25 08:02:16'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (690, 'Ruta Literaria 6', 'Descripción de la ruta literaria 6', 2, '2024-11-12 12:25:06'); 
+VALUES (155, 'Ruta Literaria 6', 'Descripción de la ruta literaria 6', 5, '2024-10-13 12:05:31'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (654, 'Ruta Literaria 7', 'Descripción de la ruta literaria 7', 3, '2024-11-03 17:10:51'); 
+VALUES (348, 'Ruta Literaria 7', 'Descripción de la ruta literaria 7', 2, '2024-11-01 08:32:24'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (612, 'Ruta Literaria 8', 'Descripción de la ruta literaria 8', 2, '2024-10-30 16:10:35'); 
+VALUES (361, 'Ruta Literaria 8', 'Descripción de la ruta literaria 8', 1, '2024-10-16 16:11:23'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (681, 'Ruta Literaria 9', 'Descripción de la ruta literaria 9', 2, '2024-11-02 12:52:04'); 
+VALUES (139, 'Ruta Literaria 9', 'Descripción de la ruta literaria 9', 5, '2024-09-16 08:07:28'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (525, 'Ruta Literaria 10', 'Descripción de la ruta literaria 10', 5, '2024-11-16 14:06:58'); 
+VALUES (656, 'Ruta Literaria 10', 'Descripción de la ruta literaria 10', 5, '2024-11-03 12:45:43'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (212, 'Ruta Literaria 11', 'Descripción de la ruta literaria 11', 5, '2024-10-07 18:55:45'); 
+VALUES (17, 'Ruta Literaria 11', 'Descripción de la ruta literaria 11', 5, '2024-10-11 09:56:30'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (229, 'Ruta Literaria 12', 'Descripción de la ruta literaria 12', 5, '2024-10-05 14:45:54'); 
+VALUES (2, 'Ruta Literaria 12', 'Descripción de la ruta literaria 12', 1, '2024-10-18 18:00:12'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (174, 'Ruta Literaria 13', 'Descripción de la ruta literaria 13', 2, '2024-11-29 16:50:13'); 
+VALUES (416, 'Ruta Literaria 13', 'Descripción de la ruta literaria 13', 1, '2024-10-24 13:22:49'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (964, 'Ruta Literaria 14', 'Descripción de la ruta literaria 14', 2, '2024-10-08 15:47:17'); 
+VALUES (805, 'Ruta Literaria 14', 'Descripción de la ruta literaria 14', 3, '2024-10-13 09:27:34'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (297, 'Ruta Literaria 15', 'Descripción de la ruta literaria 15', 4, '2024-09-06 10:28:33'); 
+VALUES (696, 'Ruta Literaria 15', 'Descripción de la ruta literaria 15', 5, '2024-10-31 09:25:28'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (713, 'Ruta Literaria 16', 'Descripción de la ruta literaria 16', 2, '2024-10-28 14:43:34'); 
+VALUES (479, 'Ruta Literaria 16', 'Descripción de la ruta literaria 16', 3, '2024-10-19 10:55:53'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (594, 'Ruta Literaria 17', 'Descripción de la ruta literaria 17', 3, '2024-11-14 18:48:20'); 
+VALUES (432, 'Ruta Literaria 17', 'Descripción de la ruta literaria 17', 1, '2024-09-16 12:18:25'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (599, 'Ruta Literaria 18', 'Descripción de la ruta literaria 18', 2, '2024-09-22 10:54:54'); 
+VALUES (676, 'Ruta Literaria 18', 'Descripción de la ruta literaria 18', 4, '2024-09-03 15:53:56'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (667, 'Ruta Literaria 19', 'Descripción de la ruta literaria 19', 3, '2024-10-06 18:48:18'); 
+VALUES (363, 'Ruta Literaria 19', 'Descripción de la ruta literaria 19', 2, '2024-09-27 13:21:48'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (822, 'Ruta Literaria 20', 'Descripción de la ruta literaria 20', 1, '2024-10-06 16:06:23'); 
+VALUES (964, 'Ruta Literaria 20', 'Descripción de la ruta literaria 20', 2, '2024-10-05 18:17:47'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (394, 'Ruta Literaria 21', 'Descripción de la ruta literaria 21', 3, '2024-11-07 13:32:26'); 
+VALUES (823, 'Ruta Literaria 21', 'Descripción de la ruta literaria 21', 3, '2024-08-30 15:42:57'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (448, 'Ruta Literaria 22', 'Descripción de la ruta literaria 22', 3, '2024-11-16 18:56:51'); 
+VALUES (309, 'Ruta Literaria 22', 'Descripción de la ruta literaria 22', 1, '2024-09-23 18:40:58'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (747, 'Ruta Literaria 23', 'Descripción de la ruta literaria 23', 4, '2024-10-12 12:50:58'); 
+VALUES (237, 'Ruta Literaria 23', 'Descripción de la ruta literaria 23', 5, '2024-09-18 14:14:30'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (537, 'Ruta Literaria 24', 'Descripción de la ruta literaria 24', 3, '2024-11-05 17:10:07'); 
+VALUES (362, 'Ruta Literaria 24', 'Descripción de la ruta literaria 24', 3, '2024-10-09 12:43:38'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (363, 'Ruta Literaria 25', 'Descripción de la ruta literaria 25', 5, '2024-10-25 12:26:55'); 
+VALUES (620, 'Ruta Literaria 25', 'Descripción de la ruta literaria 25', 1, '2024-09-10 15:03:54'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (403, 'Ruta Literaria 26', 'Descripción de la ruta literaria 26', 1, '2024-08-16 11:50:25'); 
+VALUES (768, 'Ruta Literaria 26', 'Descripción de la ruta literaria 26', 2, '2024-10-20 18:06:45'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (140, 'Ruta Literaria 27', 'Descripción de la ruta literaria 27', 2, '2024-09-08 09:37:58'); 
+VALUES (997, 'Ruta Literaria 27', 'Descripción de la ruta literaria 27', 1, '2024-10-15 13:45:38'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (683, 'Ruta Literaria 28', 'Descripción de la ruta literaria 28', 1, '2024-11-18 11:24:54'); 
+VALUES (166, 'Ruta Literaria 28', 'Descripción de la ruta literaria 28', 3, '2024-11-14 15:25:15'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (7, 'Ruta Literaria 29', 'Descripción de la ruta literaria 29', 1, '2024-08-03 16:45:20'); 
+VALUES (862, 'Ruta Literaria 29', 'Descripción de la ruta literaria 29', 4, '2024-10-26 11:07:51'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (175, 'Ruta Literaria 30', 'Descripción de la ruta literaria 30', 1, '2024-10-17 18:09:37'); 
+VALUES (248, 'Ruta Literaria 30', 'Descripción de la ruta literaria 30', 4, '2024-11-22 08:47:32'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (201, 'Ruta Literaria 31', 'Descripción de la ruta literaria 31', 3, '2025-01-02 10:32:55'); 
+VALUES (557, 'Ruta Literaria 31', 'Descripción de la ruta literaria 31', 1, '2024-12-29 16:58:50'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (259, 'Ruta Literaria 32', 'Descripción de la ruta literaria 32', 5, '2024-12-22 13:31:37'); 
+VALUES (534, 'Ruta Literaria 32', 'Descripción de la ruta literaria 32', 2, '2024-08-18 15:18:02'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (110, 'Ruta Literaria 33', 'Descripción de la ruta literaria 33', 3, '2024-11-04 08:41:45'); 
+VALUES (504, 'Ruta Literaria 33', 'Descripción de la ruta literaria 33', 3, '2024-10-15 11:17:37'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (571, 'Ruta Literaria 34', 'Descripción de la ruta literaria 34', 3, '2024-10-16 18:21:01'); 
+VALUES (457, 'Ruta Literaria 34', 'Descripción de la ruta literaria 34', 2, '2024-10-27 15:13:25'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (742, 'Ruta Literaria 35', 'Descripción de la ruta literaria 35', 3, '2024-10-18 17:13:30'); 
+VALUES (953, 'Ruta Literaria 35', 'Descripción de la ruta literaria 35', 1, '2024-10-19 14:13:55'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (75, 'Ruta Literaria 36', 'Descripción de la ruta literaria 36', 1, '2024-12-27 16:54:11'); 
+VALUES (552, 'Ruta Literaria 36', 'Descripción de la ruta literaria 36', 3, '2024-11-10 09:07:38'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (708, 'Ruta Literaria 37', 'Descripción de la ruta literaria 37', 5, '2024-10-06 10:05:47'); 
+VALUES (770, 'Ruta Literaria 37', 'Descripción de la ruta literaria 37', 4, '2024-09-22 16:59:10'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (939, 'Ruta Literaria 38', 'Descripción de la ruta literaria 38', 3, '2024-10-23 09:48:38'); 
+VALUES (281, 'Ruta Literaria 38', 'Descripción de la ruta literaria 38', 3, '2024-09-07 08:03:35'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (898, 'Ruta Literaria 39', 'Descripción de la ruta literaria 39', 5, '2024-10-09 13:41:21'); 
+VALUES (858, 'Ruta Literaria 39', 'Descripción de la ruta literaria 39', 2, '2024-12-05 18:00:34'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (1, 'Ruta Literaria 40', 'Descripción de la ruta literaria 40', 2, '2024-12-13 10:39:19'); 
+VALUES (819, 'Ruta Literaria 40', 'Descripción de la ruta literaria 40', 1, '2024-09-25 18:53:04'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (698, 'Ruta Literaria 41', 'Descripción de la ruta literaria 41', 4, '2024-10-17 18:09:08'); 
+VALUES (651, 'Ruta Literaria 41', 'Descripción de la ruta literaria 41', 1, '2024-10-18 13:30:17'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (293, 'Ruta Literaria 42', 'Descripción de la ruta literaria 42', 4, '2024-10-18 14:57:07'); 
+VALUES (414, 'Ruta Literaria 42', 'Descripción de la ruta literaria 42', 4, '2024-10-20 13:09:57'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (55, 'Ruta Literaria 43', 'Descripción de la ruta literaria 43', 3, '2024-10-21 16:22:48'); 
+VALUES (182, 'Ruta Literaria 43', 'Descripción de la ruta literaria 43', 2, '2024-12-04 16:38:56'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (632, 'Ruta Literaria 44', 'Descripción de la ruta literaria 44', 5, '2024-08-22 17:10:46'); 
+VALUES (412, 'Ruta Literaria 44', 'Descripción de la ruta literaria 44', 3, '2024-11-24 11:49:49'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (194, 'Ruta Literaria 45', 'Descripción de la ruta literaria 45', 4, '2024-11-10 17:21:53'); 
+VALUES (848, 'Ruta Literaria 45', 'Descripción de la ruta literaria 45', 5, '2024-09-14 12:30:17'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (600, 'Ruta Literaria 46', 'Descripción de la ruta literaria 46', 3, '2024-08-05 18:23:29'); 
+VALUES (69, 'Ruta Literaria 46', 'Descripción de la ruta literaria 46', 4, '2024-10-01 16:25:41'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (821, 'Ruta Literaria 47', 'Descripción de la ruta literaria 47', 2, '2024-10-14 14:12:43'); 
+VALUES (923, 'Ruta Literaria 47', 'Descripción de la ruta literaria 47', 4, '2024-09-05 15:40:09'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (877, 'Ruta Literaria 48', 'Descripción de la ruta literaria 48', 3, '2024-09-10 18:08:16'); 
+VALUES (57, 'Ruta Literaria 48', 'Descripción de la ruta literaria 48', 2, '2024-08-04 09:24:12'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (629, 'Ruta Literaria 49', 'Descripción de la ruta literaria 49', 4, '2024-10-25 11:08:09'); 
+VALUES (52, 'Ruta Literaria 49', 'Descripción de la ruta literaria 49', 1, '2024-09-29 16:28:03'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (809, 'Ruta Literaria 50', 'Descripción de la ruta literaria 50', 1, '2024-09-06 17:08:42'); 
+VALUES (137, 'Ruta Literaria 50', 'Descripción de la ruta literaria 50', 4, '2024-10-19 18:37:07'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (216, 'Ruta Literaria 51', 'Descripción de la ruta literaria 51', 1, '2024-11-21 09:44:06'); 
+VALUES (992, 'Ruta Literaria 51', 'Descripción de la ruta literaria 51', 2, '2024-10-08 15:29:49'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (214, 'Ruta Literaria 52', 'Descripción de la ruta literaria 52', 4, '2024-10-30 16:30:28'); 
+VALUES (835, 'Ruta Literaria 52', 'Descripción de la ruta literaria 52', 5, '2024-11-24 17:35:06'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (87, 'Ruta Literaria 53', 'Descripción de la ruta literaria 53', 5, '2024-08-14 16:12:08'); 
+VALUES (405, 'Ruta Literaria 53', 'Descripción de la ruta literaria 53', 2, '2024-08-03 13:33:32'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (908, 'Ruta Literaria 54', 'Descripción de la ruta literaria 54', 3, '2024-10-25 13:15:16'); 
+VALUES (990, 'Ruta Literaria 54', 'Descripción de la ruta literaria 54', 3, '2024-09-23 12:07:45'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (550, 'Ruta Literaria 55', 'Descripción de la ruta literaria 55', 1, '2024-10-17 13:12:57'); 
+VALUES (320, 'Ruta Literaria 55', 'Descripción de la ruta literaria 55', 1, '2024-10-08 09:43:33'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (108, 'Ruta Literaria 56', 'Descripción de la ruta literaria 56', 5, '2024-10-21 11:48:22'); 
+VALUES (106, 'Ruta Literaria 56', 'Descripción de la ruta literaria 56', 2, '2024-09-22 15:14:01'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (213, 'Ruta Literaria 57', 'Descripción de la ruta literaria 57', 3, '2024-08-24 14:05:03'); 
+VALUES (725, 'Ruta Literaria 57', 'Descripción de la ruta literaria 57', 5, '2024-11-02 16:25:48'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (673, 'Ruta Literaria 58', 'Descripción de la ruta literaria 58', 3, '2024-08-18 14:27:12'); 
+VALUES (385, 'Ruta Literaria 58', 'Descripción de la ruta literaria 58', 4, '2024-10-21 11:04:43'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (443, 'Ruta Literaria 59', 'Descripción de la ruta literaria 59', 2, '2024-10-11 15:10:50'); 
+VALUES (122, 'Ruta Literaria 59', 'Descripción de la ruta literaria 59', 5, '2024-11-30 13:20:40'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (843, 'Ruta Literaria 60', 'Descripción de la ruta literaria 60', 1, '2024-08-13 10:26:52'); 
+VALUES (931, 'Ruta Literaria 60', 'Descripción de la ruta literaria 60', 2, '2024-10-18 13:22:53'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (592, 'Ruta Literaria 61', 'Descripción de la ruta literaria 61', 5, '2024-10-20 12:49:51'); 
+VALUES (334, 'Ruta Literaria 61', 'Descripción de la ruta literaria 61', 4, '2024-08-19 16:20:32'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (540, 'Ruta Literaria 62', 'Descripción de la ruta literaria 62', 3, '2024-11-21 17:00:40'); 
+VALUES (779, 'Ruta Literaria 62', 'Descripción de la ruta literaria 62', 3, '2024-10-09 17:24:19'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (540, 'Ruta Literaria 63', 'Descripción de la ruta literaria 63', 2, '2024-11-24 17:00:40'); 
+VALUES (720, 'Ruta Literaria 63', 'Descripción de la ruta literaria 63', 5, '2024-12-20 08:29:25'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (876, 'Ruta Literaria 64', 'Descripción de la ruta literaria 64', 1, '2024-09-21 09:19:16'); 
+VALUES (316, 'Ruta Literaria 64', 'Descripción de la ruta literaria 64', 5, '2024-10-18 10:43:14'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (485, 'Ruta Literaria 65', 'Descripción de la ruta literaria 65', 2, '2024-09-14 11:16:23'); 
+VALUES (515, 'Ruta Literaria 65', 'Descripción de la ruta literaria 65', 5, '2024-09-12 18:07:41'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (763, 'Ruta Literaria 66', 'Descripción de la ruta literaria 66', 5, '2024-10-04 10:41:46'); 
+VALUES (678, 'Ruta Literaria 66', 'Descripción de la ruta literaria 66', 2, '2024-10-23 17:03:02'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (662, 'Ruta Literaria 67', 'Descripción de la ruta literaria 67', 5, '2024-10-07 09:51:16'); 
+VALUES (816, 'Ruta Literaria 67', 'Descripción de la ruta literaria 67', 4, '2024-10-30 13:09:28'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (762, 'Ruta Literaria 68', 'Descripción de la ruta literaria 68', 2, '2024-09-23 14:17:27'); 
+VALUES (323, 'Ruta Literaria 68', 'Descripción de la ruta literaria 68', 4, '2024-10-24 17:57:17'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (574, 'Ruta Literaria 69', 'Descripción de la ruta literaria 69', 3, '2024-10-20 08:13:31'); 
+VALUES (541, 'Ruta Literaria 69', 'Descripción de la ruta literaria 69', 2, '2024-10-24 09:33:19'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (527, 'Ruta Literaria 70', 'Descripción de la ruta literaria 70', 3, '2024-10-10 18:22:34'); 
+VALUES (973, 'Ruta Literaria 70', 'Descripción de la ruta literaria 70', 5, '2024-11-22 12:39:03'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (135, 'Ruta Literaria 71', 'Descripción de la ruta literaria 71', 5, '2024-10-14 18:16:16'); 
+VALUES (117, 'Ruta Literaria 71', 'Descripción de la ruta literaria 71', 2, '2024-10-07 14:00:21'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (892, 'Ruta Literaria 72', 'Descripción de la ruta literaria 72', 1, '2024-10-28 13:42:31'); 
+VALUES (944, 'Ruta Literaria 72', 'Descripción de la ruta literaria 72', 5, '2024-11-04 15:21:56'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (836, 'Ruta Literaria 73', 'Descripción de la ruta literaria 73', 4, '2024-10-25 16:55:05'); 
+VALUES (172, 'Ruta Literaria 73', 'Descripción de la ruta literaria 73', 2, '2024-09-29 14:39:35'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (347, 'Ruta Literaria 74', 'Descripción de la ruta literaria 74', 5, '2024-10-13 18:14:17'); 
+VALUES (342, 'Ruta Literaria 74', 'Descripción de la ruta literaria 74', 3, '2024-10-09 18:16:11'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (732, 'Ruta Literaria 75', 'Descripción de la ruta literaria 75', 5, '2024-10-03 11:38:10'); 
+VALUES (278, 'Ruta Literaria 75', 'Descripción de la ruta literaria 75', 2, '2024-08-16 18:21:20'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (395, 'Ruta Literaria 76', 'Descripción de la ruta literaria 76', 5, '2024-12-10 10:36:52'); 
+VALUES (433, 'Ruta Literaria 76', 'Descripción de la ruta literaria 76', 5, '2024-09-15 09:25:09'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (781, 'Ruta Literaria 77', 'Descripción de la ruta literaria 77', 2, '2024-10-19 08:41:18'); 
+VALUES (495, 'Ruta Literaria 77', 'Descripción de la ruta literaria 77', 3, '2024-09-15 08:10:54'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (565, 'Ruta Literaria 78', 'Descripción de la ruta literaria 78', 1, '2024-10-31 15:13:05'); 
+VALUES (772, 'Ruta Literaria 78', 'Descripción de la ruta literaria 78', 2, '2024-10-06 17:58:53'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (496, 'Ruta Literaria 79', 'Descripción de la ruta literaria 79', 4, '2024-10-11 09:58:15'); 
+VALUES (329, 'Ruta Literaria 79', 'Descripción de la ruta literaria 79', 2, '2024-09-12 18:38:27'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (507, 'Ruta Literaria 80', 'Descripción de la ruta literaria 80', 3, '2024-11-04 14:59:25'); 
+VALUES (920, 'Ruta Literaria 80', 'Descripción de la ruta literaria 80', 5, '2024-10-25 08:02:16'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (510, 'Ruta Literaria 81', 'Descripción de la ruta literaria 81', 2, '2024-10-11 09:05:55'); 
+VALUES (633, 'Ruta Literaria 81', 'Descripción de la ruta literaria 81', 2, '2024-11-03 08:17:45'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (234, 'Ruta Literaria 82', 'Descripción de la ruta literaria 82', 3, '2024-10-11 16:07:12'); 
+VALUES (450, 'Ruta Literaria 82', 'Descripción de la ruta literaria 82', 3, '2024-08-10 11:08:23'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (536, 'Ruta Literaria 83', 'Descripción de la ruta literaria 83', 3, '2024-09-05 13:34:24'); 
+VALUES (483, 'Ruta Literaria 83', 'Descripción de la ruta literaria 83', 2, '2024-08-23 11:50:31'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (834, 'Ruta Literaria 84', 'Descripción de la ruta literaria 84', 5, '2024-10-24 17:28:29'); 
+VALUES (152, 'Ruta Literaria 84', 'Descripción de la ruta literaria 84', 3, '2024-09-04 12:14:15'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (893, 'Ruta Literaria 85', 'Descripción de la ruta literaria 85', 2, '2024-09-16 11:39:17'); 
+VALUES (740, 'Ruta Literaria 85', 'Descripción de la ruta literaria 85', 1, '2024-10-02 08:33:49'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (578, 'Ruta Literaria 86', 'Descripción de la ruta literaria 86', 4, '2024-11-29 17:13:01'); 
+VALUES (721, 'Ruta Literaria 86', 'Descripción de la ruta literaria 86', 3, '2024-08-15 16:42:10'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (520, 'Ruta Literaria 87', 'Descripción de la ruta literaria 87', 3, '2024-10-05 08:52:43'); 
+VALUES (184, 'Ruta Literaria 87', 'Descripción de la ruta literaria 87', 3, '2024-11-20 14:19:19'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (961, 'Ruta Literaria 88', 'Descripción de la ruta literaria 88', 2, '2024-10-13 17:22:42'); 
+VALUES (190, 'Ruta Literaria 88', 'Descripción de la ruta literaria 88', 1, '2024-11-26 12:47:23'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (659, 'Ruta Literaria 89', 'Descripción de la ruta literaria 89', 4, '2024-12-27 16:29:56'); 
+VALUES (979, 'Ruta Literaria 89', 'Descripción de la ruta literaria 89', 5, '2024-10-26 18:34:47'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (403, 'Ruta Literaria 90', 'Descripción de la ruta literaria 90', 1, '2024-08-14 11:50:25'); 
+VALUES (240, 'Ruta Literaria 90', 'Descripción de la ruta literaria 90', 1, '2024-09-06 16:35:26'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (810, 'Ruta Literaria 91', 'Descripción de la ruta literaria 91', 4, '2024-08-25 18:52:41'); 
+VALUES (882, 'Ruta Literaria 91', 'Descripción de la ruta literaria 91', 5, '2024-09-26 16:44:47'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (957, 'Ruta Literaria 92', 'Descripción de la ruta literaria 92', 3, '2024-09-06 16:26:40'); 
+VALUES (733, 'Ruta Literaria 92', 'Descripción de la ruta literaria 92', 4, '2024-10-19 11:18:45'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (474, 'Ruta Literaria 93', 'Descripción de la ruta literaria 93', 3, '2024-10-12 11:40:00'); 
+VALUES (56, 'Ruta Literaria 93', 'Descripción de la ruta literaria 93', 2, '2024-10-11 18:31:22'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (439, 'Ruta Literaria 94', 'Descripción de la ruta literaria 94', 5, '2024-09-21 11:10:24'); 
+VALUES (783, 'Ruta Literaria 94', 'Descripción de la ruta literaria 94', 5, '2024-10-05 18:49:06'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (214, 'Ruta Literaria 95', 'Descripción de la ruta literaria 95', 5, '2024-10-27 16:30:28'); 
+VALUES (951, 'Ruta Literaria 95', 'Descripción de la ruta literaria 95', 1, '2024-10-15 13:10:23'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (200, 'Ruta Literaria 96', 'Descripción de la ruta literaria 96', 2, '2024-10-18 10:16:33'); 
+VALUES (844, 'Ruta Literaria 96', 'Descripción de la ruta literaria 96', 1, '2024-10-20 18:38:17'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (2, 'Ruta Literaria 97', 'Descripción de la ruta literaria 97', 5, '2024-12-14 11:23:02'); 
+VALUES (160, 'Ruta Literaria 97', 'Descripción de la ruta literaria 97', 1, '2024-12-08 11:07:05'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (710, 'Ruta Literaria 98', 'Descripción de la ruta literaria 98', 5, '2024-10-29 14:08:01'); 
+VALUES (398, 'Ruta Literaria 98', 'Descripción de la ruta literaria 98', 3, '2024-09-21 12:13:34'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (154, 'Ruta Literaria 99', 'Descripción de la ruta literaria 99', 2, '2024-09-06 12:57:53'); 
+VALUES (579, 'Ruta Literaria 99', 'Descripción de la ruta literaria 99', 3, '2024-10-31 16:36:48'); 
 
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
-VALUES (625, 'Ruta Literaria 100', 'Descripción de la ruta literaria 100', 2, '2024-11-04 14:10:12'); 
+VALUES (600, 'Ruta Literaria 100', 'Descripción de la ruta literaria 100', 4, '2024-10-02 10:50:46'); 
 

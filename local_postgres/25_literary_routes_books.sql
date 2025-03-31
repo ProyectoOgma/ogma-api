@@ -1,1002 +1,982 @@
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (1, 178); 
+VALUES (1, 363); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (1, 58); 
+VALUES (1, 100); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (1, 45); 
+VALUES (1, 483); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (1, 609); 
+VALUES (1, 184); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (1, 452); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (2, 25); 
+VALUES (2, 415); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (2, 211); 
+VALUES (2, 562); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (2, 364); 
+VALUES (2, 30); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (2, 282); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (2, 394); 
+VALUES (2, 691); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (3, 306); 
+VALUES (3, 527); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (3, 626); 
+VALUES (3, 556); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (3, 61); 
+VALUES (3, 359); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (3, 679); 
+VALUES (3, 606); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (3, 554); 
+VALUES (3, 689); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (4, 462); 
+VALUES (4, 692); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (4, 366); 
+VALUES (4, 288); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (4, 492); 
+VALUES (4, 697); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (4, 157); 
+VALUES (4, 122); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (5, 158); 
+VALUES (5, 32); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (5, 253); 
+VALUES (5, 604); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (5, 41); 
+VALUES (5, 509); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (5, 108); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (5, 481); 
+VALUES (5, 277); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (6, 381); 
+VALUES (6, 179); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (6, 176); 
+VALUES (6, 583); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (6, 190); 
+VALUES (6, 587); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (6, 452); 
+VALUES (6, 530); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (6, 628); 
+VALUES (6, 428); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (7, 91); 
+VALUES (7, 567); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (7, 362); 
+VALUES (7, 284); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (7, 173); 
+VALUES (7, 342); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (7, 70); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (7, 599); 
+VALUES (7, 512); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (8, 560); 
+VALUES (8, 27); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (8, 402); 
+VALUES (8, 548); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (8, 330); 
+VALUES (8, 272); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (8, 211); 
+VALUES (8, 137); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (9, 226); 
+VALUES (9, 385); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (9, 24); 
+VALUES (9, 79); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (9, 390); 
+VALUES (9, 537); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (9, 635); 
+VALUES (9, 438); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (9, 576); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (10, 618); 
+VALUES (10, 352); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (10, 161); 
+VALUES (10, 532); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (10, 206); 
+VALUES (10, 589); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (10, 243); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (10, 590); 
+VALUES (10, 70); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (11, 627); 
+VALUES (11, 324); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (11, 8); 
+VALUES (11, 451); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (11, 303); 
+VALUES (11, 587); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (11, 407); 
+VALUES (11, 218); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (11, 133); 
+VALUES (11, 535); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (12, 461); 
+VALUES (12, 513); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (12, 597); 
+VALUES (12, 100); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (12, 66); 
+VALUES (12, 277); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (12, 590); 
+VALUES (12, 213); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (12, 302); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (13, 533); 
+VALUES (13, 455); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (13, 568); 
+VALUES (13, 65); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (13, 207); 
+VALUES (13, 294); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (13, 413); 
+VALUES (13, 658); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (13, 44); 
+VALUES (13, 169); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (14, 512); 
+VALUES (14, 82); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (14, 612); 
+VALUES (14, 602); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (14, 587); 
+VALUES (14, 310); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (14, 60); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (14, 536); 
+VALUES (14, 416); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (15, 595); 
+VALUES (15, 147); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (15, 211); 
+VALUES (15, 123); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (15, 247); 
+VALUES (15, 500); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (15, 346); 
+VALUES (15, 312); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (16, 6); 
+VALUES (16, 579); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (16, 643); 
+VALUES (16, 328); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (16, 637); 
+VALUES (16, 700); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (16, 462); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (16, 206); 
+VALUES (16, 260); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (17, 465); 
+VALUES (17, 686); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (17, 79); 
+VALUES (17, 151); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (17, 232); 
+VALUES (17, 479); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (17, 592); 
+VALUES (17, 709); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (18, 370); 
+VALUES (18, 315); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (18, 287); 
+VALUES (18, 247); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (18, 248); 
+VALUES (18, 37); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (18, 343); 
+VALUES (18, 95); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (18, 459); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (19, 688); 
+VALUES (19, 716); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (19, 142); 
+VALUES (19, 562); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (19, 671); 
+VALUES (19, 477); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (19, 180); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (19, 611); 
+VALUES (19, 202); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (20, 344); 
+VALUES (20, 351); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (20, 74); 
+VALUES (20, 562); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (20, 299); 
+VALUES (20, 314); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (20, 358); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (20, 483); 
+VALUES (20, 604); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (21, 625); 
+VALUES (21, 424); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (21, 582); 
+VALUES (21, 640); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (21, 136); 
+VALUES (21, 85); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (21, 76); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (21, 16); 
+VALUES (21, 686); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (22, 445); 
+VALUES (22, 451); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (22, 102); 
+VALUES (22, 121); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (22, 472); 
+VALUES (22, 32); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (22, 430); 
+VALUES (22, 378); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (23, 654); 
+VALUES (23, 357); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (23, 447); 
+VALUES (23, 78); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (23, 256); 
+VALUES (23, 684); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (23, 576); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (23, 242); 
+VALUES (23, 99); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (24, 608); 
+VALUES (24, 438); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (24, 111); 
+VALUES (24, 409); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (24, 15); 
+VALUES (24, 47); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (24, 43); 
+VALUES (24, 625); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (24, 48); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (25, 337); 
+VALUES (25, 202); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (25, 193); 
+VALUES (25, 113); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (25, 188); 
+VALUES (25, 291); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (25, 432); 
+VALUES (25, 75); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (25, 575); 
+VALUES (25, 546); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (26, 700); 
+VALUES (26, 643); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (26, 163); 
+VALUES (26, 587); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (26, 626); 
+VALUES (26, 38); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (26, 491); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (26, 44); 
+VALUES (26, 514); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (27, 719); 
+VALUES (27, 503); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (27, 301); 
+VALUES (27, 462); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (27, 62); 
+VALUES (27, 259); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (27, 465); 
+VALUES (27, 597); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (28, 246); 
+VALUES (28, 627); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (28, 455); 
+VALUES (28, 83); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (28, 200); 
+VALUES (28, 199); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (28, 274); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (28, 669); 
+VALUES (28, 552); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (29, 618); 
+VALUES (29, 403); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (29, 629); 
+VALUES (29, 647); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (29, 277); 
+VALUES (29, 684); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (29, 686); 
+VALUES (29, 152); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (29, 104); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (30, 341); 
+VALUES (30, 700); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (30, 506); 
+VALUES (30, 338); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (30, 207); 
+VALUES (30, 379); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (30, 66); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (30, 595); 
+VALUES (30, 440); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (31, 413); 
+VALUES (31, 230); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (31, 383); 
+VALUES (31, 434); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (31, 573); 
+VALUES (31, 544); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (31, 446); 
+VALUES (31, 594); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (32, 471); 
+VALUES (32, 312); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (32, 75); 
+VALUES (32, 220); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (32, 421); 
+VALUES (32, 444); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (32, 581); 
+VALUES (32, 569); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (32, 335); 
+VALUES (32, 608); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (33, 304); 
+VALUES (33, 553); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (33, 163); 
+VALUES (33, 105); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (33, 213); 
+VALUES (33, 22); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (33, 507); 
+VALUES (33, 421); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (33, 647); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (34, 617); 
+VALUES (34, 443); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (34, 175); 
+VALUES (34, 192); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (34, 551); 
+VALUES (34, 475); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (34, 163); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (34, 494); 
+VALUES (34, 519); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (35, 533); 
+VALUES (35, 149); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (35, 45); 
+VALUES (35, 513); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (35, 717); 
+VALUES (35, 15); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (35, 400); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (35, 505); 
+VALUES (35, 248); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (36, 631); 
+VALUES (36, 399); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (36, 542); 
+VALUES (36, 17); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (36, 626); 
+VALUES (36, 121); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (36, 215); 
+VALUES (36, 389); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (37, 65); 
+VALUES (37, 582); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (37, 495); 
+VALUES (37, 300); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (37, 642); 
+VALUES (37, 588); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (37, 279); 
+VALUES (37, 105); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (38, 675); 
+VALUES (38, 480); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (38, 156); 
+VALUES (38, 570); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (38, 189); 
+VALUES (38, 42); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (38, 173); 
+VALUES (38, 628); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (38, 369); 
+VALUES (38, 288); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (39, 495); 
+VALUES (39, 682); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (39, 533); 
+VALUES (39, 494); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (39, 372); 
+VALUES (39, 681); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (39, 283); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (39, 346); 
+VALUES (39, 368); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (40, 494); 
+VALUES (40, 312); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (40, 242); 
+VALUES (40, 337); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (40, 540); 
+VALUES (40, 652); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (40, 252); 
+VALUES (40, 570); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (41, 279); 
+VALUES (41, 610); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (41, 299); 
+VALUES (41, 92); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (41, 359); 
+VALUES (41, 91); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (41, 682); 
+VALUES (41, 605); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (42, 209); 
+VALUES (42, 21); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (42, 289); 
+VALUES (42, 248); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (42, 587); 
+VALUES (42, 109); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (42, 290); 
+VALUES (42, 215); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (42, 145); 
+VALUES (42, 655); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (43, 551); 
+VALUES (43, 685); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (43, 266); 
+VALUES (43, 150); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (43, 212); 
+VALUES (43, 457); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (43, 609); 
+VALUES (43, 317); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (43, 159); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (44, 294); 
+VALUES (44, 3); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (44, 625); 
+VALUES (44, 87); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (44, 346); 
+VALUES (44, 690); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (44, 175); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (44, 661); 
+VALUES (44, 123); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (45, 171); 
+VALUES (45, 30); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
 VALUES (45, 52); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (45, 697); 
+VALUES (45, 336); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (45, 198); 
+VALUES (45, 620); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (45, 78); 
+VALUES (45, 657); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (46, 332); 
+VALUES (46, 357); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (46, 451); 
+VALUES (46, 315); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (46, 300); 
+VALUES (46, 162); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (46, 616); 
+VALUES (46, 301); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (46, 411); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (47, 635); 
+VALUES (47, 162); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (47, 484); 
+VALUES (47, 290); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (47, 257); 
+VALUES (47, 28); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (47, 605); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (47, 616); 
+VALUES (47, 618); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (48, 307); 
+VALUES (48, 163); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (48, 648); 
+VALUES (48, 4); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (48, 19); 
+VALUES (48, 219); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (48, 271); 
+VALUES (48, 446); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (49, 282); 
+VALUES (49, 438); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (49, 233); 
+VALUES (49, 156); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (49, 345); 
+VALUES (49, 705); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (49, 200); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (49, 348); 
+VALUES (49, 543); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (50, 607); 
+VALUES (50, 176); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (50, 148); 
+VALUES (50, 524); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (50, 675); 
+VALUES (50, 579); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (50, 460); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (50, 658); 
+VALUES (50, 633); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (51, 210); 
+VALUES (51, 635); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (51, 620); 
+VALUES (51, 648); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (51, 321); 
+VALUES (51, 110); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (51, 460); 
+VALUES (51, 158); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (51, 627); 
+VALUES (51, 461); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (52, 157); 
+VALUES (52, 578); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (52, 207); 
+VALUES (52, 389); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (52, 318); 
+VALUES (52, 349); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (52, 236); 
+VALUES (52, 621); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (52, 663); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (53, 719); 
+VALUES (53, 71); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (53, 573); 
+VALUES (53, 650); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (53, 241); 
+VALUES (53, 648); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (53, 85); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (53, 359); 
+VALUES (53, 394); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (54, 315); 
+VALUES (54, 625); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (54, 416); 
+VALUES (54, 659); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (54, 275); 
+VALUES (54, 140); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (54, 154); 
+VALUES (54, 273); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (55, 527); 
+VALUES (55, 353); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (55, 69); 
+VALUES (55, 270); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (55, 582); 
+VALUES (55, 414); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (55, 210); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (55, 626); 
+VALUES (55, 88); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (56, 250); 
+VALUES (56, 107); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (56, 475); 
+VALUES (56, 700); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (56, 335); 
+VALUES (56, 48); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (56, 436); 
+VALUES (56, 576); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (57, 155); 
+VALUES (57, 204); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (57, 30); 
+VALUES (57, 324); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (57, 148); 
+VALUES (57, 234); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (57, 25); 
+VALUES (57, 110); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (58, 8); 
+VALUES (58, 478); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (58, 80); 
+VALUES (58, 490); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (58, 267); 
+VALUES (58, 681); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (58, 257); 
+VALUES (58, 387); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (59, 387); 
+VALUES (59, 115); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (59, 322); 
+VALUES (59, 497); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (59, 682); 
+VALUES (59, 417); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (59, 93); 
+VALUES (59, 362); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (59, 582); 
+VALUES (59, 258); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (60, 263); 
+VALUES (60, 53); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (60, 589); 
+VALUES (60, 711); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (60, 87); 
+VALUES (60, 605); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (60, 353); 
+VALUES (60, 580); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (60, 388); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (61, 480); 
+VALUES (61, 427); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (61, 183); 
+VALUES (61, 136); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (61, 604); 
+VALUES (61, 467); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (61, 368); 
+VALUES (61, 491); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (61, 304); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (62, 73); 
+VALUES (62, 334); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (62, 384); 
+VALUES (62, 67); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (62, 293); 
+VALUES (62, 177); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (62, 105); 
+VALUES (62, 30); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (62, 137); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (63, 648); 
+VALUES (63, 621); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (63, 365); 
+VALUES (63, 14); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (63, 116); 
+VALUES (63, 224); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (63, 270); 
+VALUES (63, 3); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (63, 462); 
+VALUES (63, 174); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (64, 583); 
+VALUES (64, 270); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (64, 634); 
+VALUES (64, 676); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (64, 623); 
+VALUES (64, 662); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (64, 143); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (64, 529); 
+VALUES (64, 417); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (65, 306); 
+VALUES (65, 315); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (65, 93); 
+VALUES (65, 500); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (65, 390); 
+VALUES (65, 568); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (65, 590); 
+VALUES (65, 276); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (65, 465); 
+VALUES (65, 222); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (66, 501); 
+VALUES (66, 512); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (66, 485); 
+VALUES (66, 237); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (66, 604); 
+VALUES (66, 384); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (66, 265); 
+VALUES (66, 141); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (66, 424); 
+VALUES (66, 43); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (67, 421); 
+VALUES (67, 103); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (67, 564); 
+VALUES (67, 480); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (67, 595); 
+VALUES (67, 501); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (67, 67); 
+VALUES (67, 481); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (68, 123); 
+VALUES (68, 706); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (68, 425); 
+VALUES (68, 81); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (68, 36); 
+VALUES (68, 203); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (68, 632); 
+VALUES (68, 431); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (69, 400); 
+VALUES (69, 420); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (69, 530); 
+VALUES (69, 351); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (69, 9); 
+VALUES (69, 41); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (69, 205); 
+VALUES (69, 336); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (70, 407); 
+VALUES (70, 139); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (70, 121); 
+VALUES (70, 375); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (70, 556); 
+VALUES (70, 593); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (70, 134); 
+VALUES (70, 591); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (71, 128); 
+VALUES (71, 568); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (71, 276); 
+VALUES (71, 319); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (71, 173); 
+VALUES (71, 279); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (71, 233); 
+VALUES (71, 74); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (72, 655); 
+VALUES (72, 566); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (72, 519); 
+VALUES (72, 106); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (72, 140); 
+VALUES (72, 645); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (72, 210); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (72, 278); 
+VALUES (72, 547); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (73, 614); 
+VALUES (73, 351); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (73, 585); 
+VALUES (73, 491); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (73, 648); 
+VALUES (73, 269); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (73, 37); 
+VALUES (73, 633); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (73, 202); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (74, 265); 
+VALUES (74, 661); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (74, 480); 
+VALUES (74, 581); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (74, 679); 
+VALUES (74, 115); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (74, 108); 
+VALUES (74, 37); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (74, 533); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (75, 696); 
+VALUES (75, 201); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (75, 547); 
+VALUES (75, 15); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (75, 65); 
+VALUES (75, 401); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (75, 599); 
+VALUES (75, 264); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (76, 391); 
+VALUES (76, 682); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (76, 101); 
+VALUES (76, 524); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (76, 107); 
+VALUES (76, 423); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (76, 238); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (76, 671); 
+VALUES (76, 647); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (77, 193); 
+VALUES (77, 272); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (77, 79); 
+VALUES (77, 107); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (77, 662); 
+VALUES (77, 76); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (77, 202); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (77, 333); 
+VALUES (77, 59); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (78, 135); 
+VALUES (78, 244); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (78, 280); 
+VALUES (78, 482); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (78, 345); 
+VALUES (78, 680); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (78, 32); 
+VALUES (78, 490); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (78, 352); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (79, 156); 
+VALUES (79, 174); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (79, 150); 
+VALUES (79, 583); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (79, 649); 
+VALUES (79, 74); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (79, 297); 
+VALUES (79, 197); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (79, 271); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (80, 422); 
+VALUES (80, 372); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (80, 444); 
+VALUES (80, 588); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (80, 715); 
+VALUES (80, 263); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (80, 352); 
+VALUES (80, 182); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (81, 206); 
+VALUES (81, 63); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (81, 580); 
+VALUES (81, 160); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (81, 464); 
+VALUES (81, 606); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (81, 228); 
+VALUES (81, 427); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (81, 102); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (82, 505); 
+VALUES (82, 138); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (82, 566); 
+VALUES (82, 301); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (82, 509); 
+VALUES (82, 610); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (82, 100); 
+VALUES (82, 144); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (83, 695); 
+VALUES (83, 416); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (83, 303); 
+VALUES (83, 367); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (83, 340); 
+VALUES (83, 686); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (83, 660); 
+VALUES (83, 447); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (83, 599); 
+VALUES (83, 519); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (84, 56); 
+VALUES (84, 560); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (84, 232); 
+VALUES (84, 360); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (84, 512); 
+VALUES (84, 394); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (84, 472); 
+VALUES (84, 562); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (84, 631); 
+VALUES (84, 155); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (85, 375); 
+VALUES (85, 338); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (85, 378); 
+VALUES (85, 81); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (85, 88); 
+VALUES (85, 300); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (85, 205); 
+VALUES (85, 436); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (86, 583); 
+VALUES (86, 108); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (86, 168); 
+VALUES (86, 235); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (86, 341); 
+VALUES (86, 282); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (86, 594); 
+VALUES (86, 158); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (86, 532); 
+VALUES (86, 470); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (87, 326); 
+VALUES (87, 407); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (87, 698); 
+VALUES (87, 307); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (87, 19); 
+VALUES (87, 62); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (87, 567); 
+VALUES (87, 336); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (88, 101); 
+VALUES (88, 34); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (88, 385); 
+VALUES (88, 254); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (88, 707); 
+VALUES (88, 351); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (88, 468); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (88, 276); 
+VALUES (88, 364); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (89, 36); 
+VALUES (89, 514); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (89, 4); 
+VALUES (89, 431); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (89, 237); 
+VALUES (89, 710); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (89, 456); 
+VALUES (89, 93); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (90, 303); 
+VALUES (90, 667); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (90, 623); 
+VALUES (90, 490); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (90, 189); 
+VALUES (90, 433); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (90, 458); 
+VALUES (90, 223); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (90, 399); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (91, 3); 
+VALUES (91, 459); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (91, 89); 
+VALUES (91, 596); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (91, 398); 
+VALUES (91, 592); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (91, 565); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (91, 330); 
+VALUES (91, 202); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (92, 256); 
+VALUES (92, 314); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (92, 483); 
+VALUES (92, 9); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (92, 582); 
+VALUES (92, 185); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (92, 682); 
+VALUES (92, 87); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (92, 127); 
+VALUES (92, 124); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (93, 495); 
+VALUES (93, 273); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (93, 577); 
+VALUES (93, 541); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (93, 552); 
+VALUES (93, 155); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (93, 637); 
+VALUES (93, 429); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (93, 266); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (94, 367); 
+VALUES (94, 588); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (94, 670); 
+VALUES (94, 601); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (94, 218); 
+VALUES (94, 499); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (94, 296); 
+VALUES (94, 1); 
+INSERT INTO public.literary_route_book (id_literary_route, id_book) 
+VALUES (94, 92); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (95, 567); 
+VALUES (95, 449); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (95, 554); 
+VALUES (95, 269); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (95, 653); 
+VALUES (95, 700); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (95, 537); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (95, 229); 
+VALUES (95, 412); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (96, 278); 
+VALUES (96, 26); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (96, 678); 
+VALUES (96, 72); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (96, 507); 
+VALUES (96, 243); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (96, 375); 
+VALUES (96, 97); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (96, 424); 
+VALUES (96, 134); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (97, 546); 
+VALUES (97, 183); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (97, 280); 
+VALUES (97, 160); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (97, 392); 
+VALUES (97, 534); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (97, 279); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (97, 421); 
+VALUES (97, 301); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (98, 350); 
+VALUES (98, 153); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (98, 177); 
+VALUES (98, 422); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (98, 379); 
+VALUES (98, 654); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (98, 427); 
-INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (98, 20); 
+VALUES (98, 109); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (99, 140); 
+VALUES (99, 64); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (99, 346); 
+VALUES (99, 212); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (99, 624); 
+VALUES (99, 99); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (99, 125); 
+VALUES (99, 58); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (99, 177); 
+VALUES (99, 360); 
 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (100, 247); 
+VALUES (100, 643); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (100, 419); 
+VALUES (100, 264); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (100, 304); 
+VALUES (100, 281); 
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
-VALUES (100, 552); 
+VALUES (100, 416); 
 
