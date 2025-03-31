@@ -51,10 +51,12 @@ public class User extends Auditable implements UserDetails {
 
     @ManyToOne
     @JoinColumn(name = "id_province")
+    @JsonBackReference
     private Province province;
 
     @ManyToOne
     @JoinColumn(name = "id_municipality")
+    @JsonBackReference
     private Municipality municipality;
 
     @Column(name = "address", nullable = true)
@@ -70,7 +72,7 @@ public class User extends Auditable implements UserDetails {
     private List<Comment> comments;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
-    @JsonBackReference
+    @JsonManagedReference
     private List<Review> reviews;
 
     @OneToMany(mappedBy = "user")

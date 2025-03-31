@@ -31,7 +31,7 @@ public class Review extends Auditable{
 
     @ManyToOne
     @JoinColumn(name = "id_user")
-    @JsonManagedReference
+    @JsonBackReference
     private User user;
 
     @Column(name = "rating", nullable = false)

@@ -80,6 +80,7 @@ public class Book extends Auditable{
             joinColumns = @JoinColumn(name = "id_book"),
             inverseJoinColumns = @JoinColumn(name = "id_literary_route")
     )
+    @JsonManagedReference
     private Set<LiteraryRoute> literaryRoutes;
 
     @ManyToOne
