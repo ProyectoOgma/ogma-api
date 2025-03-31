@@ -1,7 +1,6 @@
 package com.api.ogma.books.ogmaapi.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -31,7 +30,7 @@ public class Municipality extends Auditable{
     private Province province;
 
     @OneToMany(mappedBy = "municipality", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JsonManagedReference
+    @JsonBackReference
     private List<User> users;
 
 

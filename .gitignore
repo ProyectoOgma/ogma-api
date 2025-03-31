@@ -37,6 +37,7 @@ build/
 .env.prod
 .env.dev
 .env.test
+.env
 
 ### seed
 /init-db/**
