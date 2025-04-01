@@ -1,5829 +1,5661 @@
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 24, 37, '2024-11-10 14:19:14', NULL, NULL); 
+VALUES ('Bueno', 4, 523, 664, '2024-09-14 11:06:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 84, 29, '2024-12-19 01:48:58', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 523, 579, '2024-11-20 20:50:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 84, 108, '2024-09-20 05:07:09', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 523, 491, '2024-09-14 00:36:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 84, 274, '2024-01-05 21:39:41', NULL, NULL); 
+VALUES ('Nada especial', 3, 81, 695, '2024-07-20 04:23:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 84, 578, '2024-12-20 17:04:17', NULL, NULL); 
+VALUES ('Excelente', 5, 623, 659, '2024-07-15 13:06:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 84, 554, '2024-06-13 13:04:30', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 623, 824, '2024-04-05 14:01:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 87, 366, '2024-04-20 03:40:30', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 623, 83, '2024-02-11 10:34:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 87, 493, '2024-02-16 08:02:00', NULL, NULL); 
+VALUES ('Normal', 3, 108, 89, '2024-02-23 09:03:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 87, 273, '2024-02-18 20:19:05', NULL, NULL); 
+VALUES ('No lo compren', 1, 108, 889, '2024-06-01 02:34:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 87, 924, '2024-01-27 21:21:42', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 108, 935, '2024-02-13 10:44:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 87, 390, '2024-07-12 00:40:30', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 108, 917, '2024-08-13 16:26:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 648, 274, '2024-12-02 02:53:07', NULL, NULL); 
+VALUES ('Me gustó', 4, 108, 826, '2024-06-18 12:55:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 648, 168, '2024-10-28 08:03:41', NULL, NULL); 
+VALUES ('No está mal', 3, 404, 427, '2024-01-24 08:40:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 648, 742, '2024-01-12 18:52:49', NULL, NULL); 
+VALUES ('No me gustó', 1, 404, 938, '2024-03-24 02:19:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 648, 565, '2024-07-02 10:35:26', NULL, NULL); 
+VALUES ('Muy bueno', 5, 404, 981, '2024-02-17 00:40:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 557, 895, '2024-12-01 10:08:45', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 674, 913, '2024-01-28 16:47:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 557, 540, '2024-10-13 13:22:07', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 674, 529, '2024-04-19 03:42:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 557, 327, '2024-08-24 13:41:08', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 674, 5, '2024-04-16 22:08:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 557, 937, '2024-06-05 22:07:27', NULL, NULL); 
+VALUES ('Lo amé', 5, 39, 370, '2024-10-11 23:19:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 557, 61, '2024-01-26 03:22:25', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 39, 77, '2024-04-16 21:01:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 466, 106, '2024-08-26 05:53:36', NULL, NULL); 
+VALUES ('No está mal', 3, 39, 9, '2024-09-19 03:31:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 466, 448, '2024-07-06 16:27:07', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 39, 76, '2024-12-23 12:44:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 466, 71, '2024-11-15 09:39:39', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 39, 880, '2024-10-10 21:56:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 466, 386, '2024-09-06 11:07:53', NULL, NULL); 
+VALUES ('Maravilloso', 5, 171, 729, '2024-07-19 11:01:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 466, 608, '2024-08-11 16:47:19', NULL, NULL); 
+VALUES ('Normal', 3, 171, 132, '2024-10-02 05:22:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 618, 684, '2024-07-21 07:36:39', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 171, 396, '2024-12-24 07:06:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 618, 690, '2024-03-15 17:16:57', NULL, NULL); 
+VALUES ('Normal', 3, 171, 548, '2024-09-13 01:10:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 618, 8, '2024-07-17 11:14:34', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 171, 112, '2024-08-06 16:59:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 618, 371, '2024-07-25 09:55:09', NULL, NULL); 
+VALUES ('Me gustó', 4, 142, 798, '2024-03-27 21:54:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 618, 66, '2024-10-21 04:14:44', NULL, NULL); 
+VALUES ('No lo compren', 1, 142, 92, '2024-03-11 23:58:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 110, 70, '2024-02-17 17:58:44', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 237, 294, '2024-12-09 03:08:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 110, 835, '2024-08-05 08:24:01', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 612, 965, '2024-08-11 13:57:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 110, 135, '2024-06-06 05:10:19', NULL, NULL); 
+VALUES ('Bueno', 4, 612, 521, '2024-03-13 02:38:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 110, 356, '2024-04-25 00:43:46', NULL, NULL); 
+VALUES ('No está mal', 3, 612, 280, '2024-07-01 05:12:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 425, 291, '2024-08-24 21:29:10', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 612, 430, '2024-05-07 16:07:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 425, 188, '2024-06-09 16:44:27', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 612, 74, '2024-07-17 23:36:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 425, 959, '2024-03-19 00:23:45', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 648, 424, '2024-07-16 05:58:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 347, 792, '2024-12-22 23:43:25', NULL, NULL); 
+VALUES ('Increíble', 5, 648, 464, '2024-02-07 06:39:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 559, 880, '2024-12-21 14:40:43', NULL, NULL); 
+VALUES ('Está bien', 3, 648, 763, '2024-10-27 10:51:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 559, 718, '2024-05-05 04:01:09', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 648, 578, '2024-10-12 20:39:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 559, 977, '2024-08-05 12:07:03', NULL, NULL); 
+VALUES ('Bueno', 4, 505, 932, '2024-12-05 22:25:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 559, 262, '2024-11-22 21:04:56', NULL, NULL); 
+VALUES ('Me encantó', 5, 505, 152, '2024-03-07 14:51:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 559, 460, '2024-08-07 23:07:29', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 505, 245, '2024-07-07 05:15:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 196, 964, '2024-11-25 02:45:41', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 505, 861, '2024-10-07 03:23:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 196, 80, '2024-11-23 11:15:07', NULL, NULL); 
+VALUES ('Pésimo', 1, 286, 851, '2024-02-15 22:15:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 171, 19, '2024-07-03 09:17:29', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 286, 813, '2024-03-25 06:04:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 171, 860, '2024-10-27 14:17:40', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 286, 960, '2024-09-02 08:23:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 171, 980, '2024-06-05 10:20:21', NULL, NULL); 
+VALUES ('Aceptable', 3, 286, 347, '2024-03-19 11:37:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 685, 793, '2024-10-16 15:01:26', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 286, 298, '2024-04-15 23:05:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 400, 113, '2024-06-04 08:27:52', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 433, 605, '2024-02-22 08:13:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 400, 403, '2024-12-04 02:11:10', NULL, NULL); 
+VALUES ('Muy bueno', 5, 433, 181, '2024-08-04 13:35:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 400, 657, '2024-07-18 06:16:12', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 433, 335, '2024-07-19 05:40:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 400, 772, '2024-02-19 05:26:52', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 433, 593, '2024-07-15 21:07:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 697, 624, '2024-04-09 10:34:23', NULL, NULL); 
+VALUES ('Malo', 2, 433, 429, '2024-08-25 10:36:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 697, 4, '2024-03-17 02:24:19', NULL, NULL); 
+VALUES ('Lo amé', 5, 198, 316, '2024-06-02 16:54:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 697, 537, '2024-12-25 18:54:49', NULL, NULL); 
+VALUES ('Me encantó', 5, 198, 378, '2024-11-14 14:27:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 697, 20, '2024-07-12 06:48:29', NULL, NULL); 
+VALUES ('Normal', 3, 198, 834, '2024-06-20 13:29:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 697, 57, '2024-12-01 19:39:37', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 514, 448, '2024-08-19 18:36:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 669, 772, '2024-11-03 16:02:51', NULL, NULL); 
+VALUES ('Excelente', 5, 514, 162, '2024-12-24 07:28:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 669, 193, '2024-02-20 03:08:41', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 514, 948, '2024-03-20 16:19:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 669, 899, '2024-05-28 13:32:54', NULL, NULL); 
+VALUES ('Nada especial', 3, 514, 922, '2024-07-06 13:29:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 669, 911, '2024-02-03 19:34:42', NULL, NULL); 
+VALUES ('Aceptable', 3, 514, 601, '2024-07-28 17:59:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 669, 851, '2024-12-10 21:05:48', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 152, 146, '2024-10-24 21:13:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 2, 927, '2024-06-15 20:59:42', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 152, 524, '2024-02-21 09:33:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 2, 349, '2024-04-24 10:48:35', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 152, 529, '2024-08-06 14:23:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 96, 924, '2024-02-01 09:14:38', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 152, 883, '2024-11-07 01:52:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 96, 534, '2024-02-27 22:01:02', NULL, NULL); 
+VALUES ('Pésimo', 1, 152, 600, '2024-11-08 22:40:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 96, 506, '2024-05-08 09:53:45', NULL, NULL); 
+VALUES ('No lo compren', 1, 37, 672, '2024-09-27 15:39:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 96, 390, '2024-05-21 23:42:25', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 37, 305, '2024-01-06 17:06:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 7, 618, '2024-11-17 05:25:33', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 634, 938, '2024-08-13 22:33:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 7, 977, '2024-01-21 10:42:57', NULL, NULL); 
+VALUES ('Aceptable', 3, 634, 301, '2024-11-27 11:43:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 7, 642, '2024-09-22 07:37:22', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 634, 628, '2024-12-24 10:53:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 7, 884, '2024-10-08 03:01:04', NULL, NULL); 
+VALUES ('Me encantó', 5, 634, 949, '2024-11-19 04:15:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 7, 995, '2024-07-23 14:38:48', NULL, NULL); 
+VALUES ('No lo compren', 1, 376, 613, '2024-06-12 05:19:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 690, 935, '2024-05-28 04:30:31', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 376, 899, '2024-04-19 11:46:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 690, 1000, '2024-02-16 21:23:36', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 664, 380, '2024-04-19 10:20:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 690, 1001, '2024-05-15 15:13:47', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 664, 599, '2024-08-06 04:19:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 690, 421, '2024-01-19 03:20:36', NULL, NULL); 
+VALUES ('Lo amé', 5, 664, 466, '2024-11-08 07:49:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 690, 990, '2024-09-22 20:10:01', NULL, NULL); 
+VALUES ('No está mal', 3, 664, 788, '2024-11-06 05:09:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 696, 468, '2024-01-14 02:38:52', NULL, NULL); 
+VALUES ('Recomendable', 4, 664, 405, '2024-12-22 12:12:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 696, 554, '2024-01-13 01:34:10', NULL, NULL); 
+VALUES ('Recomendable', 4, 54, 204, '2024-11-22 08:51:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 353, 953, '2024-05-05 04:35:27', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 54, 148, '2024-10-14 11:36:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 82, 637, '2024-04-11 02:43:58', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 54, 385, '2024-03-23 17:43:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 82, 285, '2024-08-23 07:13:16', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 54, 819, '2024-03-16 04:14:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 82, 80, '2024-07-12 10:46:42', NULL, NULL); 
+VALUES ('Decepcionante', 1, 639, 598, '2024-09-06 13:24:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 82, 445, '2024-03-06 14:38:08', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 639, 780, '2024-12-05 21:44:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 161, 758, '2024-04-15 04:03:56', NULL, NULL); 
+VALUES ('Lo amé', 5, 639, 21, '2024-08-02 13:31:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 343, 715, '2024-06-27 23:54:36', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 342, 83, '2024-02-11 05:01:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 343, 832, '2024-09-27 12:56:08', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 342, 507, '2024-06-01 17:15:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 343, 672, '2024-02-13 14:39:52', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 342, 21, '2024-09-20 11:53:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 343, 928, '2024-05-03 14:46:24', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 342, 601, '2024-01-17 13:48:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 549, 613, '2024-06-17 04:11:50', NULL, NULL); 
+VALUES ('Maravilloso', 5, 342, 982, '2024-02-09 15:00:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 549, 727, '2024-01-07 18:50:52', NULL, NULL); 
+VALUES ('Muy bueno', 5, 600, 516, '2024-01-06 22:28:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 549, 811, '2024-10-21 01:13:50', NULL, NULL); 
+VALUES ('Muy bueno', 5, 600, 468, '2024-04-07 14:53:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 549, 981, '2024-03-11 14:02:51', NULL, NULL); 
+VALUES ('Muy malo', 1, 127, 395, '2024-12-19 05:53:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 549, 549, '2024-08-17 19:02:48', NULL, NULL); 
+VALUES ('Nada especial', 3, 127, 946, '2024-09-04 12:46:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 169, 639, '2024-09-27 15:11:17', NULL, NULL); 
+VALUES ('Normal', 3, 661, 208, '2024-08-11 02:24:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 169, 409, '2024-03-23 10:49:32', NULL, NULL); 
+VALUES ('Decepcionante', 1, 661, 285, '2024-05-08 11:34:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 169, 226, '2024-09-15 04:30:53', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 393, 987, '2024-04-08 00:43:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 169, 387, '2024-04-23 04:12:31', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 393, 471, '2024-02-13 07:44:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 487, 92, '2024-05-26 06:24:20', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 393, 363, '2024-05-09 00:15:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 306, 503, '2024-04-28 08:28:56', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 393, 816, '2024-12-20 14:55:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 306, 709, '2024-06-27 19:20:24', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 67, 700, '2024-05-06 00:17:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 540, 170, '2024-08-21 16:06:23', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 67, 788, '2024-01-27 12:06:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 540, 61, '2024-10-17 05:09:55', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 566, 86, '2024-12-03 19:11:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 346, 603, '2024-05-03 11:27:43', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 566, 787, '2024-04-24 01:32:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 346, 685, '2024-11-15 12:29:33', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 566, 527, '2024-06-07 16:09:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 346, 440, '2024-08-13 08:13:13', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 566, 462, '2024-10-14 13:57:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 346, 966, '2024-08-14 14:53:06', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 174, 154, '2024-08-04 22:12:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 346, 436, '2024-11-27 03:20:11', NULL, NULL); 
+VALUES ('Bueno', 4, 174, 200, '2024-11-26 07:44:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 146, 485, '2024-05-20 20:00:05', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 174, 306, '2024-07-01 10:19:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 146, 742, '2024-08-15 05:39:03', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 174, 825, '2024-01-13 21:56:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 146, 772, '2024-06-04 05:43:38', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 174, 860, '2024-05-23 06:46:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 710, 184, '2024-03-04 21:59:51', NULL, NULL); 
+VALUES ('Muy malo', 1, 238, 754, '2024-04-14 14:08:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 108, 843, '2024-12-13 02:47:52', NULL, NULL); 
+VALUES ('Me encantó', 5, 657, 156, '2024-09-11 00:30:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 108, 698, '2024-07-09 23:09:26', NULL, NULL); 
+VALUES ('Nada especial', 3, 657, 402, '2024-07-17 06:30:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 108, 527, '2024-04-12 01:14:24', NULL, NULL); 
+VALUES ('Me encantó', 5, 657, 472, '2024-01-19 14:56:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 548, 77, '2024-11-14 12:03:09', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 657, 991, '2024-09-12 04:10:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 548, 339, '2024-06-22 07:57:01', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 657, 115, '2024-10-04 05:54:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 548, 930, '2024-11-23 15:00:49', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 496, 632, '2024-11-07 10:19:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 548, 314, '2024-03-26 05:08:05', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 496, 675, '2024-09-25 05:57:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 548, 861, '2024-10-23 12:32:10', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 496, 132, '2024-04-17 09:09:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 432, 902, '2024-01-28 01:38:56', NULL, NULL); 
+VALUES ('Bueno', 4, 90, 12, '2024-11-28 07:48:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 432, 940, '2024-08-14 00:53:03', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 90, 50, '2024-02-04 08:22:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 432, 706, '2024-01-26 15:56:48', NULL, NULL); 
+VALUES ('Me gustó', 4, 90, 816, '2024-05-17 04:29:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 432, 407, '2024-11-02 00:39:08', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 121, 83, '2024-07-23 02:34:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 278, 501, '2024-01-13 21:47:56', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 647, 319, '2024-12-10 12:18:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 278, 109, '2024-11-24 10:04:10', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 647, 678, '2024-02-18 20:20:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 89, 288, '2024-09-21 23:45:23', NULL, NULL); 
+VALUES ('Muy bueno', 5, 647, 232, '2024-05-21 10:07:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 89, 486, '2024-08-08 13:26:53', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 499, 169, '2024-02-04 02:36:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 56, 621, '2024-09-19 00:19:50', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 499, 154, '2024-07-15 20:51:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 458, 334, '2024-07-09 12:40:22', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 499, 182, '2024-03-02 00:20:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 458, 400, '2024-04-11 05:30:41', NULL, NULL); 
+VALUES ('Pésimo', 1, 394, 158, '2024-01-09 19:36:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 458, 816, '2024-12-07 23:23:38', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 394, 659, '2024-01-15 01:06:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 458, 167, '2024-08-18 18:45:32', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 394, 131, '2024-12-10 04:12:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 340, 377, '2024-06-01 10:01:42', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 496, 689, '2024-07-06 15:55:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 436, 38, '2024-09-02 18:18:50', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 496, 808, '2024-06-25 01:24:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 436, 772, '2024-12-18 23:45:16', NULL, NULL); 
+VALUES ('Me gustó', 4, 496, 106, '2024-10-03 17:56:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 436, 130, '2024-11-10 19:01:46', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 496, 518, '2024-07-25 04:02:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 436, 954, '2024-11-09 06:24:41', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 367, 268, '2024-02-27 06:27:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 436, 234, '2024-08-22 07:27:56', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 367, 402, '2024-07-16 01:28:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 162, 439, '2024-10-15 11:27:24', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 673, 227, '2024-07-26 19:43:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 166, 498, '2024-01-20 10:19:45', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 673, 837, '2024-11-15 17:18:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 166, 244, '2024-02-08 01:55:07', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 673, 244, '2024-04-07 20:11:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 437, 254, '2024-09-14 03:04:12', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 62, 399, '2024-06-21 23:11:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 597, 684, '2024-08-12 06:14:38', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 62, 911, '2024-11-18 06:28:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 597, 246, '2024-06-25 07:41:41', NULL, NULL); 
+VALUES ('Me encantó', 5, 62, 536, '2024-01-05 17:46:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 597, 390, '2024-05-26 10:44:28', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 62, 395, '2024-09-26 20:20:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 597, 794, '2024-07-10 09:11:40', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 224, 494, '2024-10-28 06:42:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 597, 890, '2024-11-04 15:37:26', NULL, NULL); 
+VALUES ('No lo compren', 1, 245, 4, '2024-07-16 23:26:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 548, 14, '2024-11-17 02:54:34', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 245, 271, '2024-09-05 10:59:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 442, 242, '2024-12-23 06:09:26', NULL, NULL); 
+VALUES ('Pésimo', 1, 108, 441, '2024-03-23 12:45:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 295, 874, '2024-09-28 19:09:27', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 108, 155, '2024-06-07 11:57:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 295, 625, '2024-11-14 03:15:19', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 108, 151, '2024-12-20 21:11:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 295, 545, '2024-10-24 16:53:22', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 108, 879, '2024-03-28 20:52:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 295, 218, '2024-10-20 05:45:47', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 108, 927, '2024-01-18 17:01:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 148, 612, '2024-12-27 02:24:52', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 88, 844, '2024-08-13 01:29:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 148, 521, '2024-05-24 02:22:55', NULL, NULL); 
+VALUES ('Increíble', 5, 88, 371, '2024-01-09 05:03:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 148, 373, '2024-02-19 06:59:41', NULL, NULL); 
+VALUES ('No lo vale', 1, 436, 773, '2024-02-20 04:29:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 148, 91, '2024-12-22 14:04:43', NULL, NULL); 
+VALUES ('Buena calidad', 4, 436, 400, '2024-07-24 06:06:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 148, 986, '2024-03-25 14:44:56', NULL, NULL); 
+VALUES ('Está bien', 3, 436, 682, '2024-03-26 20:30:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 287, 824, '2024-12-20 22:40:33', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 436, 45, '2024-03-06 20:43:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 287, 532, '2024-09-11 10:24:23', NULL, NULL); 
+VALUES ('Me gustó', 4, 112, 812, '2024-09-21 05:07:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 287, 39, '2024-08-17 11:55:14', NULL, NULL); 
+VALUES ('Malo', 2, 112, 213, '2024-09-22 02:21:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 121, 134, '2024-02-06 01:45:08', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 112, 400, '2024-08-23 11:30:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 121, 638, '2024-12-07 01:25:32', NULL, NULL); 
+VALUES ('Excelente', 5, 112, 440, '2024-09-15 09:47:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 316, 543, '2024-09-18 17:58:16', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 706, 290, '2024-07-21 03:23:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 316, 474, '2024-12-04 12:27:06', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 706, 68, '2024-04-24 11:26:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 316, 749, '2024-07-14 17:34:19', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 706, 981, '2024-02-02 02:47:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 316, 69, '2024-11-08 05:49:40', NULL, NULL); 
+VALUES ('Me gustó', 4, 611, 244, '2024-08-23 21:29:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 316, 554, '2024-08-28 09:07:56', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 611, 673, '2024-06-21 11:08:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 216, 954, '2024-03-09 01:06:28', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 498, 578, '2024-06-05 22:11:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 182, 935, '2024-03-25 21:12:19', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 498, 523, '2024-03-25 05:36:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 472, 884, '2024-09-25 02:10:47', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 498, 989, '2024-09-18 04:13:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 472, 892, '2024-04-27 01:37:45', NULL, NULL); 
+VALUES ('Increíble', 5, 516, 607, '2024-03-22 22:06:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 472, 119, '2024-11-18 23:46:55', NULL, NULL); 
+VALUES ('Normal', 3, 516, 432, '2024-11-14 06:57:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 472, 231, '2024-10-02 04:14:20', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 164, 299, '2024-11-19 06:32:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 472, 104, '2024-08-04 14:28:19', NULL, NULL); 
+VALUES ('Me encantó', 5, 611, 33, '2024-07-28 13:42:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 244, 715, '2024-04-25 20:41:10', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 611, 682, '2024-06-14 08:59:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 244, 977, '2024-01-01 03:57:50', NULL, NULL); 
+VALUES ('Está bien', 3, 611, 354, '2024-04-25 19:23:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 244, 450, '2024-09-16 16:39:55', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 611, 540, '2024-05-12 06:19:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 244, 395, '2024-06-02 02:21:54', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 611, 994, '2024-09-11 23:50:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 634, 130, '2024-04-22 13:13:44', NULL, NULL); 
+VALUES ('No lo vale', 1, 611, 902, '2024-09-25 22:34:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 634, 27, '2024-11-25 11:11:55', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 611, 562, '2024-06-07 21:26:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 634, 296, '2024-01-09 15:00:43', NULL, NULL); 
+VALUES ('Pésimo', 1, 650, 840, '2024-01-18 12:52:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 314, 850, '2024-03-07 19:46:20', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 650, 818, '2024-03-05 16:07:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 314, 222, '2024-10-19 09:52:51', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 616, 599, '2024-02-15 17:16:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 314, 412, '2024-08-28 14:27:06', NULL, NULL); 
+VALUES ('No lo vale', 1, 616, 596, '2024-02-06 08:37:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 314, 92, '2024-12-26 14:04:00', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 177, 196, '2024-05-18 20:12:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 472, 615, '2024-05-08 03:28:44', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 33, 232, '2024-05-25 07:53:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 472, 529, '2024-11-09 18:15:48', NULL, NULL); 
+VALUES ('No lo vale', 1, 33, 896, '2024-06-27 12:04:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 472, 707, '2024-06-17 17:46:44', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 408, 966, '2024-09-16 03:06:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 461, 555, '2024-05-04 19:16:38', NULL, NULL); 
+VALUES ('No me gustó', 1, 408, 260, '2024-06-16 22:07:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 461, 918, '2024-03-25 16:28:47', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 481, 872, '2024-01-14 13:05:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 229, 312, '2024-05-23 20:31:01', NULL, NULL); 
+VALUES ('Lo amé', 5, 481, 153, '2024-09-02 09:01:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 229, 267, '2024-03-02 18:58:31', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 481, 875, '2024-03-13 06:40:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 654, 947, '2024-11-20 23:22:15', NULL, NULL); 
+VALUES ('Decepcionante', 1, 481, 710, '2024-11-21 18:30:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 654, 812, '2024-01-09 23:15:28', NULL, NULL); 
+VALUES ('Normal', 3, 481, 326, '2024-05-28 12:46:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 654, 65, '2024-04-11 00:33:38', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 378, 367, '2024-12-11 05:34:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 654, 817, '2024-12-03 02:33:19', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 378, 41, '2024-04-21 04:49:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 621, 274, '2024-10-27 20:01:00', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 542, 27, '2024-12-09 00:53:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 621, 857, '2024-11-25 05:56:46', NULL, NULL); 
+VALUES ('Nada especial', 3, 542, 244, '2024-02-18 00:20:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 680, 843, '2024-09-20 22:26:53', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 188, 796, '2024-08-16 20:56:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 680, 815, '2024-05-18 09:49:14', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 249, 84, '2024-08-16 12:49:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 680, 629, '2024-05-03 17:56:23', NULL, NULL); 
+VALUES ('No está mal', 3, 147, 802, '2024-01-05 22:49:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 680, 992, '2024-01-08 03:18:28', NULL, NULL); 
+VALUES ('Aceptable', 3, 147, 864, '2024-11-04 02:01:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 680, 12, '2024-04-04 16:42:49', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 147, 527, '2024-06-02 00:54:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 536, 373, '2024-08-23 17:08:29', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 147, 663, '2024-12-05 21:27:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 536, 886, '2024-12-20 22:59:44', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 581, 810, '2024-06-14 08:03:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 536, 265, '2024-05-05 06:07:38', NULL, NULL); 
+VALUES ('Decepcionante', 1, 581, 222, '2024-06-21 17:17:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 536, 843, '2024-01-25 13:03:41', NULL, NULL); 
+VALUES ('Aceptable', 3, 581, 492, '2024-01-01 07:01:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 126, 312, '2024-02-01 20:35:54', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 581, 499, '2024-01-25 00:05:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 126, 478, '2024-07-13 12:58:12', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 175, 279, '2024-03-04 09:36:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 82, 801, '2024-03-14 15:02:06', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 565, 962, '2024-01-20 14:09:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 82, 911, '2024-09-17 18:56:44', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 565, 179, '2024-08-26 10:10:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 82, 729, '2024-03-06 20:05:56', NULL, NULL); 
+VALUES ('Recomendable', 4, 565, 680, '2024-08-18 22:30:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 82, 422, '2024-08-14 17:49:19', NULL, NULL); 
+VALUES ('Lo amé', 5, 565, 151, '2024-09-17 15:41:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 82, 772, '2024-07-28 00:37:10', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 651, 290, '2024-03-19 10:01:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 582, 715, '2024-07-20 18:31:31', NULL, NULL); 
+VALUES ('Bueno', 4, 651, 758, '2024-04-07 17:29:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 582, 751, '2024-11-16 17:31:16', NULL, NULL); 
+VALUES ('Me gustó', 4, 422, 803, '2024-05-25 01:29:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 53, 423, '2024-11-09 19:21:00', NULL, NULL); 
+VALUES ('Decepcionante', 1, 422, 647, '2024-01-06 07:03:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 53, 599, '2024-12-28 14:57:31', NULL, NULL); 
+VALUES ('Me gustó', 4, 673, 492, '2024-05-01 10:05:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 53, 109, '2024-04-14 23:05:21', NULL, NULL); 
+VALUES ('Me gustó', 4, 673, 990, '2024-04-05 08:49:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 53, 642, '2024-11-02 17:26:58', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 368, 136, '2024-09-19 21:07:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 53, 285, '2024-07-03 11:48:10', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 368, 295, '2024-12-01 05:05:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 514, 742, '2024-12-02 04:02:13', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 368, 38, '2024-01-23 22:11:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 514, 353, '2024-05-15 21:00:51', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 534, 594, '2024-08-23 13:35:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 114, 375, '2024-01-17 15:03:08', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 534, 398, '2024-04-05 03:39:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 114, 717, '2024-11-10 16:29:01', NULL, NULL); 
+VALUES ('Muy bueno', 5, 534, 797, '2024-02-02 02:26:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 114, 987, '2024-07-22 19:30:45', NULL, NULL); 
+VALUES ('Regular', 2, 534, 901, '2024-04-09 03:37:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 114, 538, '2024-11-04 08:11:26', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 534, 501, '2024-04-26 14:08:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 114, 500, '2024-06-20 19:00:00', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 514, 490, '2024-05-11 13:33:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 537, 64, '2024-11-05 10:26:41', NULL, NULL); 
+VALUES ('Nada especial', 3, 514, 178, '2024-09-22 12:23:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 537, 715, '2024-12-01 23:50:45', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 514, 37, '2024-05-07 15:04:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 537, 180, '2024-07-28 14:02:08', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 514, 769, '2024-03-24 22:00:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 537, 21, '2024-10-24 08:17:44', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 514, 30, '2024-01-27 19:08:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 449, 760, '2024-05-16 15:47:36', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 690, 74, '2024-02-06 01:42:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 449, 582, '2024-01-08 15:40:54', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 690, 40, '2024-03-25 20:46:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 449, 303, '2024-01-28 02:55:21', NULL, NULL); 
+VALUES ('Muy bueno', 5, 690, 457, '2024-11-24 01:08:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 449, 291, '2024-01-25 09:43:54', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 690, 860, '2024-07-28 11:09:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 578, 945, '2024-01-24 14:09:20', NULL, NULL); 
+VALUES ('Es pasable', 3, 45, 291, '2024-10-22 00:36:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 578, 505, '2024-12-10 01:55:26', NULL, NULL); 
+VALUES ('Buena calidad', 4, 45, 716, '2024-09-22 03:17:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 578, 270, '2024-02-21 03:16:28', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 45, 504, '2024-05-24 01:58:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 578, 604, '2024-09-23 00:19:01', NULL, NULL); 
+VALUES ('Buena calidad', 4, 45, 832, '2024-03-21 10:06:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 578, 753, '2024-08-09 19:32:29', NULL, NULL); 
+VALUES ('Lo amé', 5, 435, 71, '2024-04-11 14:42:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 148, 631, '2024-07-27 16:00:29', NULL, NULL); 
+VALUES ('Bueno', 4, 435, 64, '2024-09-05 06:20:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 148, 377, '2024-01-07 11:42:23', NULL, NULL); 
+VALUES ('Increíble', 5, 435, 534, '2024-07-14 11:12:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 148, 781, '2024-08-13 05:55:53', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 435, 579, '2024-06-15 08:14:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 148, 903, '2024-12-06 08:49:55', NULL, NULL); 
+VALUES ('Excelente', 5, 455, 453, '2024-07-04 11:27:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 148, 187, '2024-09-22 11:00:53', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 455, 324, '2024-12-10 09:54:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 17, 936, '2024-11-15 09:16:10', NULL, NULL); 
+VALUES ('Me encantó', 5, 455, 741, '2024-07-19 19:51:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 17, 511, '2024-05-19 12:56:31', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 200, 30, '2024-05-22 01:27:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 17, 229, '2024-03-14 00:12:48', NULL, NULL); 
+VALUES ('Malo', 2, 200, 588, '2024-04-05 15:53:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 17, 639, '2024-01-13 05:30:24', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 200, 972, '2024-01-06 23:24:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 17, 803, '2024-10-04 16:25:30', NULL, NULL); 
+VALUES ('Increíble', 5, 148, 406, '2024-03-12 16:25:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 19, 685, '2024-08-14 00:27:56', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 148, 107, '2024-06-09 02:14:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 19, 682, '2024-10-17 07:08:47', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 352, 896, '2024-11-21 06:52:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 19, 107, '2024-09-05 00:30:55', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 352, 812, '2024-06-06 14:55:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 625, 410, '2024-02-02 19:27:41', NULL, NULL); 
+VALUES ('Nada especial', 3, 352, 621, '2024-08-20 23:38:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 625, 467, '2024-10-04 19:48:42', NULL, NULL); 
+VALUES ('Malo', 2, 619, 449, '2024-11-04 03:22:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 625, 83, '2024-08-21 10:41:07', NULL, NULL); 
+VALUES ('Maravilloso', 5, 619, 694, '2024-10-18 16:02:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 625, 915, '2024-12-21 16:20:10', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 619, 497, '2024-07-17 13:05:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 625, 370, '2024-03-01 12:49:35', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 619, 790, '2024-08-02 17:09:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 366, 153, '2024-05-21 04:20:17', NULL, NULL); 
+VALUES ('Nada especial', 3, 619, 517, '2024-09-04 19:38:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 366, 598, '2024-08-01 16:19:36', NULL, NULL); 
+VALUES ('Nada especial', 3, 109, 929, '2024-07-18 21:20:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 366, 83, '2024-12-12 08:04:18', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 109, 170, '2024-12-25 15:02:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 109, 395, '2024-06-18 18:22:16', NULL, NULL); 
+VALUES ('Decepcionante', 1, 109, 516, '2024-02-16 08:03:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 109, 578, '2024-07-15 22:13:05', NULL, NULL); 
+VALUES ('Regular', 2, 109, 411, '2024-09-10 00:25:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 109, 713, '2024-02-23 13:21:01', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 109, 538, '2024-02-26 04:38:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 411, 922, '2024-10-25 01:12:27', NULL, NULL); 
+VALUES ('Buena calidad', 4, 525, 367, '2024-04-17 23:58:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 411, 816, '2024-05-24 08:29:14', NULL, NULL); 
+VALUES ('Es pasable', 3, 525, 887, '2024-04-25 19:12:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 100, 582, '2024-07-25 08:08:37', NULL, NULL); 
+VALUES ('Pésimo', 1, 525, 280, '2024-04-08 22:50:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 100, 428, '2024-02-11 06:47:17', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 525, 226, '2024-02-27 05:00:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 100, 218, '2024-04-15 02:20:47', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 43, 881, '2024-09-16 12:21:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 418, 86, '2024-12-14 16:43:12', NULL, NULL); 
+VALUES ('Increíble', 5, 43, 160, '2024-09-16 18:34:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 418, 924, '2024-01-01 01:04:44', NULL, NULL); 
+VALUES ('Decepcionante', 1, 43, 199, '2024-01-26 15:25:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 418, 18, '2024-11-21 04:36:11', NULL, NULL); 
+VALUES ('Excelente', 5, 238, 812, '2024-04-03 15:41:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 418, 549, '2024-11-20 07:18:07', NULL, NULL); 
+VALUES ('Bueno', 4, 238, 557, '2024-06-18 20:09:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 418, 859, '2024-02-15 16:36:45', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 238, 345, '2024-06-11 16:33:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 283, 636, '2024-02-28 11:07:21', NULL, NULL); 
+VALUES ('No está mal', 3, 238, 841, '2024-05-17 04:13:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 283, 819, '2024-12-26 10:57:11', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 238, 46, '2024-10-18 06:41:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 283, 795, '2024-02-19 23:35:33', NULL, NULL); 
+VALUES ('Me encantó', 5, 289, 42, '2024-09-08 20:10:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 283, 837, '2024-10-17 16:21:15', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 593, 104, '2024-04-05 05:52:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 283, 338, '2024-03-23 21:02:00', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 593, 296, '2024-04-11 02:01:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 415, 369, '2024-06-03 00:29:04', NULL, NULL); 
+VALUES ('Normal', 3, 593, 956, '2024-04-12 01:58:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 415, 708, '2024-07-12 16:26:21', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 478, 47, '2024-04-09 07:01:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 415, 193, '2024-01-28 01:53:13', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 478, 901, '2024-04-06 22:23:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 415, 51, '2024-09-01 02:42:16', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 478, 685, '2024-06-10 17:00:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 662, 227, '2024-01-24 15:57:03', NULL, NULL); 
+VALUES ('Aceptable', 3, 96, 514, '2024-09-01 03:35:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 183, 731, '2024-10-28 03:49:49', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 96, 13, '2024-10-21 16:59:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 183, 931, '2024-01-01 19:32:02', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 96, 228, '2024-04-22 15:26:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 183, 480, '2024-03-22 23:21:20', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 96, 264, '2024-09-25 10:00:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 381, 904, '2024-02-25 13:36:22', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 96, 869, '2024-08-20 17:17:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 381, 271, '2024-06-28 23:42:27', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 304, 218, '2024-06-07 07:06:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 381, 294, '2024-07-11 04:14:13', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 304, 426, '2024-02-06 02:31:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 381, 523, '2024-05-06 20:54:48', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 112, 70, '2024-01-28 05:10:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 381, 839, '2024-11-06 18:17:18', NULL, NULL); 
+VALUES ('Es pasable', 3, 112, 199, '2024-07-11 15:35:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 570, 638, '2024-02-03 14:59:59', NULL, NULL); 
+VALUES ('No está mal', 3, 112, 721, '2024-09-04 02:58:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 570, 455, '2024-03-02 13:14:47', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 112, 496, '2024-02-24 20:06:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 570, 408, '2024-10-24 01:46:10', NULL, NULL); 
+VALUES ('Regular', 2, 34, 864, '2024-10-23 04:40:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 570, 421, '2024-03-11 03:13:32', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 424, 123, '2024-12-28 05:09:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 493, 394, '2024-03-25 08:17:49', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 424, 233, '2024-05-16 16:27:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 493, 656, '2024-11-04 11:31:01', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 424, 532, '2024-05-22 09:18:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 493, 309, '2024-12-23 01:50:25', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 424, 911, '2024-06-01 20:28:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 493, 268, '2024-08-17 18:41:58', NULL, NULL); 
+VALUES ('Regular', 2, 424, 203, '2024-03-04 13:22:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 342, 313, '2024-04-17 02:42:34', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 12, 207, '2024-02-27 04:42:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 719, 62, '2024-09-03 02:50:06', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 12, 397, '2024-06-15 01:02:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 719, 522, '2024-01-13 22:43:07', NULL, NULL); 
+VALUES ('Está bien', 3, 89, 801, '2024-05-15 23:02:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 135, 530, '2024-04-17 13:47:09', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 109, 849, '2024-12-03 09:03:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 135, 622, '2024-08-13 02:12:59', NULL, NULL); 
+VALUES ('Increíble', 5, 109, 371, '2024-07-27 09:59:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 135, 186, '2024-05-08 11:19:17', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 109, 844, '2024-09-07 16:10:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 135, 195, '2024-08-06 12:10:23', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 1, 208, '2024-07-11 13:48:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 135, 92, '2024-02-02 22:53:13', NULL, NULL); 
+VALUES ('No lo compren', 1, 1, 945, '2024-08-08 04:25:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 359, 616, '2024-05-03 13:08:40', NULL, NULL); 
+VALUES ('Es pasable', 3, 1, 893, '2024-08-02 08:29:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 359, 560, '2024-04-16 13:39:59', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 27, 969, '2024-08-27 22:38:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 359, 521, '2024-02-23 13:43:17', NULL, NULL); 
+VALUES ('Regular', 2, 27, 67, '2024-10-08 08:35:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 359, 741, '2024-11-23 04:47:08', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 27, 236, '2024-04-28 19:52:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 359, 650, '2024-10-27 09:20:42', NULL, NULL); 
+VALUES ('Es pasable', 3, 27, 925, '2024-08-22 15:27:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 362, 403, '2024-03-20 12:59:40', NULL, NULL); 
+VALUES ('Lo amé', 5, 27, 390, '2024-09-02 17:37:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 362, 879, '2024-03-19 02:55:06', NULL, NULL); 
+VALUES ('Regular', 2, 443, 22, '2024-10-27 16:25:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 362, 494, '2024-11-21 14:01:32', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 270, 125, '2024-09-17 22:56:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 362, 983, '2024-01-10 16:46:39', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 270, 249, '2024-03-25 05:02:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 286, 990, '2024-11-09 18:04:06', NULL, NULL); 
+VALUES ('Malo', 2, 113, 450, '2024-10-24 09:57:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 286, 89, '2024-08-04 23:39:33', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 113, 995, '2024-12-02 01:58:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 13, 990, '2024-05-26 08:18:00', NULL, NULL); 
+VALUES ('Regular', 2, 113, 5, '2024-07-28 16:22:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 171, 950, '2024-04-15 16:32:15', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 113, 572, '2024-07-14 02:10:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 171, 511, '2024-12-26 10:41:37', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 113, 979, '2024-05-03 09:07:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 444, 409, '2024-09-24 19:51:47', NULL, NULL); 
+VALUES ('No lo vale', 1, 511, 768, '2024-01-28 16:06:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 444, 538, '2024-11-05 15:04:16', NULL, NULL); 
+VALUES ('Buena calidad', 4, 511, 918, '2024-04-27 18:02:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 562, 586, '2024-12-23 17:15:02', NULL, NULL); 
+VALUES ('Me gustó', 4, 511, 782, '2024-04-07 19:57:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 562, 156, '2024-01-28 17:27:31', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 170, 590, '2024-11-23 17:50:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 562, 219, '2024-06-07 01:00:57', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 170, 74, '2024-12-10 10:30:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 562, 202, '2024-03-05 09:54:56', NULL, NULL); 
+VALUES ('Nada especial', 3, 170, 133, '2024-03-09 20:53:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 290, 905, '2024-11-06 04:25:10', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 170, 741, '2024-11-01 14:24:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 494, 225, '2024-09-09 06:13:28', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 102, 992, '2024-08-15 03:49:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 529, 378, '2024-03-23 01:48:44', NULL, NULL); 
+VALUES ('Decepcionante', 1, 102, 818, '2024-03-10 04:02:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 529, 125, '2024-05-05 12:22:41', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 102, 162, '2024-05-04 20:22:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 529, 155, '2024-06-22 23:32:53', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 102, 591, '2024-06-07 19:14:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 529, 953, '2024-06-20 12:36:13', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 102, 652, '2024-07-22 13:34:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 582, 336, '2024-08-07 19:22:21', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 7, 937, '2024-03-15 14:06:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 582, 849, '2024-12-04 16:28:32', NULL, NULL); 
+VALUES ('Nada especial', 3, 7, 45, '2024-09-21 13:35:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 337, 374, '2024-06-01 17:30:58', NULL, NULL); 
+VALUES ('Muy bueno', 5, 7, 326, '2024-06-13 09:52:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 337, 751, '2024-11-22 00:59:50', NULL, NULL); 
+VALUES ('No está mal', 3, 243, 414, '2024-07-22 00:25:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 81, 692, '2024-10-20 07:59:43', NULL, NULL); 
+VALUES ('Increíble', 5, 243, 444, '2024-06-20 22:09:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 81, 758, '2024-02-05 01:43:49', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 243, 16, '2024-06-22 09:59:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 81, 334, '2024-02-14 02:13:38', NULL, NULL); 
+VALUES ('No lo vale', 1, 575, 453, '2024-06-16 23:38:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 81, 415, '2024-11-08 00:11:07', NULL, NULL); 
+VALUES ('Me encantó', 5, 356, 211, '2024-03-04 22:40:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 81, 652, '2024-08-04 20:40:28', NULL, NULL); 
+VALUES ('Aceptable', 3, 356, 147, '2024-04-15 00:21:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 705, 320, '2024-11-21 08:50:57', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 356, 319, '2024-06-16 22:01:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 705, 755, '2024-11-20 07:39:33', NULL, NULL); 
+VALUES ('Normal', 3, 356, 990, '2024-01-27 22:11:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 705, 236, '2024-03-12 01:56:05', NULL, NULL); 
+VALUES ('Bueno', 4, 356, 308, '2024-10-26 21:39:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 705, 429, '2024-11-23 00:15:51', NULL, NULL); 
+VALUES ('Increíble', 5, 526, 672, '2024-12-21 17:56:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 534, 191, '2024-11-18 16:19:45', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 485, 690, '2024-03-27 11:31:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 534, 738, '2024-11-15 03:15:35', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 256, 832, '2024-04-05 01:33:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 664, 103, '2024-09-05 15:21:45', NULL, NULL); 
+VALUES ('Pésimo', 1, 256, 641, '2024-04-10 10:01:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 664, 596, '2024-02-15 00:44:53', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 256, 755, '2024-08-05 17:03:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 664, 748, '2024-09-16 13:41:22', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 256, 761, '2024-11-24 01:22:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 512, 135, '2024-09-01 00:22:05', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 166, 394, '2024-03-02 06:43:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 512, 765, '2024-07-20 20:28:00', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 166, 160, '2024-04-27 05:05:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 512, 970, '2024-09-26 13:53:35', NULL, NULL); 
+VALUES ('Pésimo', 1, 40, 535, '2024-01-19 02:58:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 512, 868, '2024-09-07 04:12:15', NULL, NULL); 
+VALUES ('Me gustó', 4, 40, 455, '2024-04-18 19:58:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 285, 959, '2024-12-19 06:54:12', NULL, NULL); 
+VALUES ('Increíble', 5, 40, 517, '2024-11-15 07:20:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 285, 353, '2024-11-24 14:48:21', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 673, 953, '2024-11-12 01:41:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 8, 651, '2024-03-25 16:38:24', NULL, NULL); 
+VALUES ('Aceptable', 3, 673, 494, '2024-01-23 04:26:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 8, 640, '2024-06-13 10:10:29', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 673, 509, '2024-03-07 02:44:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 8, 343, '2024-03-07 04:32:33', NULL, NULL); 
+VALUES ('Me gustó', 4, 111, 391, '2024-04-13 00:39:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 8, 221, '2024-06-08 17:59:15', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 111, 500, '2024-12-01 03:22:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 8, 391, '2024-07-16 15:14:49', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 329, 565, '2024-10-22 19:49:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 328, 420, '2024-12-02 19:00:50', NULL, NULL); 
+VALUES ('Recomendable', 4, 329, 555, '2024-05-04 15:40:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 621, 834, '2024-09-01 23:48:39', NULL, NULL); 
+VALUES ('Malo', 2, 329, 441, '2024-11-23 06:31:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 621, 223, '2024-12-03 16:42:52', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 392, 693, '2024-02-12 05:26:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 621, 132, '2024-09-20 08:19:26', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 392, 23, '2024-01-12 07:07:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 621, 3, '2024-10-11 15:44:55', NULL, NULL); 
+VALUES ('No está mal', 3, 392, 664, '2024-05-14 09:22:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 621, 188, '2024-05-15 11:42:22', NULL, NULL); 
+VALUES ('Bueno', 4, 392, 148, '2024-04-22 14:59:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 573, 372, '2024-06-02 10:36:10', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 392, 507, '2024-07-08 22:21:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 246, 720, '2024-02-01 12:32:52', NULL, NULL); 
+VALUES ('Recomendable', 4, 406, 792, '2024-11-02 03:23:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 246, 394, '2024-10-09 15:53:11', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 406, 71, '2024-03-03 18:34:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 246, 673, '2024-07-11 19:10:45', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 406, 288, '2024-10-01 14:00:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 246, 865, '2024-02-06 10:19:00', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 406, 897, '2024-11-23 15:14:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 246, 36, '2024-02-06 11:28:04', NULL, NULL); 
+VALUES ('Buena calidad', 4, 406, 988, '2024-09-17 05:52:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 133, 910, '2024-05-23 23:16:01', NULL, NULL); 
+VALUES ('Lo amé', 5, 512, 355, '2024-10-17 14:36:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 133, 921, '2024-09-01 09:55:36', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 394, 296, '2024-07-24 20:23:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 133, 289, '2024-01-01 10:35:36', NULL, NULL); 
+VALUES ('Decepcionante', 1, 394, 412, '2024-04-17 14:53:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 133, 481, '2024-08-14 02:15:43', NULL, NULL); 
+VALUES ('Decepcionante', 1, 394, 824, '2024-06-23 07:55:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 133, 928, '2024-10-27 23:34:45', NULL, NULL); 
+VALUES ('Nada especial', 3, 394, 502, '2024-06-21 06:07:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 295, 914, '2024-09-12 14:17:20', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 394, 964, '2024-04-04 14:55:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 295, 316, '2024-04-09 04:47:26', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 166, 437, '2024-05-14 06:23:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 295, 43, '2024-08-03 11:00:41', NULL, NULL); 
+VALUES ('Buena calidad', 4, 166, 438, '2024-07-02 03:53:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 295, 812, '2024-09-13 08:41:42', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 224, 158, '2024-09-21 03:25:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 575, 174, '2024-10-26 01:25:10', NULL, NULL); 
+VALUES ('Excelente', 5, 224, 975, '2024-10-13 21:32:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 575, 612, '2024-12-15 12:22:22', NULL, NULL); 
+VALUES ('Normal', 3, 291, 852, '2024-04-25 03:59:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 575, 250, '2024-10-02 19:44:57', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 291, 368, '2024-11-27 18:32:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 575, 894, '2024-06-10 21:19:10', NULL, NULL); 
+VALUES ('No lo vale', 1, 291, 147, '2024-10-19 13:35:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 575, 129, '2024-01-24 02:22:04', NULL, NULL); 
+VALUES ('Excelente', 5, 291, 648, '2024-02-03 08:47:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 531, 120, '2024-02-13 20:53:21', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 291, 777, '2024-01-19 08:30:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 531, 164, '2024-05-10 03:54:51', NULL, NULL); 
+VALUES ('Nada especial', 3, 671, 360, '2024-10-13 22:37:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 151, 20, '2024-08-17 07:25:17', NULL, NULL); 
+VALUES ('Es pasable', 3, 671, 933, '2024-08-26 03:31:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 151, 896, '2024-07-26 01:19:38', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 671, 101, '2024-10-14 04:54:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 288, 358, '2024-03-27 23:37:20', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 671, 32, '2024-08-05 10:29:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 288, 428, '2024-09-01 11:55:15', NULL, NULL); 
+VALUES ('Pésimo', 1, 22, 845, '2024-05-27 12:28:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 288, 432, '2024-01-20 23:24:10', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 22, 188, '2024-09-05 05:44:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 288, 330, '2024-06-28 20:58:43', NULL, NULL); 
+VALUES ('Malo', 2, 525, 353, '2024-08-05 02:18:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 592, 313, '2024-11-10 14:03:06', NULL, NULL); 
+VALUES ('Recomendable', 4, 525, 105, '2024-11-07 18:20:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 592, 559, '2024-12-19 09:49:56', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 436, 996, '2024-02-10 06:20:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 592, 834, '2024-04-28 04:31:14', NULL, NULL); 
+VALUES ('Normal', 3, 436, 397, '2024-01-02 20:46:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 592, 531, '2024-11-09 17:52:58', NULL, NULL); 
+VALUES ('Está bien', 3, 436, 129, '2024-06-02 06:45:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 592, 809, '2024-05-15 17:31:44', NULL, NULL); 
+VALUES ('Aceptable', 3, 436, 727, '2024-05-13 07:58:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 34, 562, '2024-06-03 23:40:18', NULL, NULL); 
+VALUES ('Buena calidad', 4, 436, 215, '2024-04-18 14:47:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 34, 279, '2024-08-06 03:04:29', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 634, 161, '2024-01-12 19:52:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 34, 941, '2024-01-18 16:34:56', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 634, 137, '2024-11-06 08:04:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 34, 173, '2024-05-10 14:33:28', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 634, 317, '2024-10-11 18:10:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 119, 225, '2024-06-06 19:56:37', NULL, NULL); 
+VALUES ('Recomendable', 4, 324, 945, '2024-07-08 08:42:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 119, 836, '2024-05-23 00:33:27', NULL, NULL); 
+VALUES ('Aceptable', 3, 324, 454, '2024-01-22 08:50:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 119, 555, '2024-08-06 10:46:08', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 624, 625, '2024-02-26 07:38:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 119, 670, '2024-10-10 22:51:04', NULL, NULL); 
+VALUES ('Regular', 2, 519, 23, '2024-04-06 12:03:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 609, 178, '2024-09-19 15:43:21', NULL, NULL); 
+VALUES ('Es pasable', 3, 519, 97, '2024-07-18 05:14:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 609, 535, '2024-12-07 02:10:29', NULL, NULL); 
+VALUES ('Bueno', 4, 519, 685, '2024-01-10 14:36:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 609, 969, '2024-03-03 21:57:37', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 519, 39, '2024-10-26 15:11:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 609, 168, '2024-09-23 01:31:42', NULL, NULL); 
+VALUES ('No lo vale', 1, 352, 801, '2024-11-23 06:09:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 609, 902, '2024-09-05 22:01:25', NULL, NULL); 
+VALUES ('Me encantó', 5, 352, 789, '2024-02-05 04:04:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 668, 780, '2024-10-21 09:48:41', NULL, NULL); 
+VALUES ('Me gustó', 4, 352, 849, '2024-12-07 10:56:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 668, 405, '2024-10-15 07:41:01', NULL, NULL); 
+VALUES ('Bueno', 4, 352, 926, '2024-07-26 22:10:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 668, 938, '2024-07-13 18:11:50', NULL, NULL); 
+VALUES ('Increíble', 5, 329, 907, '2024-10-07 01:13:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 385, 365, '2024-06-03 17:07:08', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 329, 251, '2024-01-16 22:11:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 385, 432, '2024-04-11 04:53:38', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 329, 725, '2024-01-22 16:12:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 385, 48, '2024-05-21 08:34:58', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 38, 996, '2024-05-16 18:59:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 385, 423, '2024-11-25 03:20:57', NULL, NULL); 
+VALUES ('Excelente', 5, 38, 433, '2024-11-13 00:43:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 385, 757, '2024-11-27 14:00:01', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 408, 491, '2024-07-09 19:12:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 133, 121, '2024-09-05 04:46:28', NULL, NULL); 
+VALUES ('No lo compren', 1, 408, 605, '2024-03-10 21:12:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 133, 909, '2024-04-05 04:25:24', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 408, 65, '2024-10-27 20:24:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 133, 531, '2024-09-07 06:25:30', NULL, NULL); 
+VALUES ('Buena calidad', 4, 408, 452, '2024-01-08 21:43:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 468, 939, '2024-08-03 12:13:43', NULL, NULL); 
+VALUES ('Excelente', 5, 408, 372, '2024-10-17 19:36:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 468, 122, '2024-09-01 06:01:43', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 349, 62, '2024-03-11 08:29:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 123, 576, '2024-01-14 05:03:54', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 349, 286, '2024-09-14 11:30:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 123, 75, '2024-06-27 21:31:47', NULL, NULL); 
+VALUES ('Regular', 2, 274, 961, '2024-08-03 09:35:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 403, 474, '2024-06-28 13:54:20', NULL, NULL); 
+VALUES ('Recomendable', 4, 274, 396, '2024-05-26 14:26:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 403, 430, '2024-12-28 07:41:49', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 550, 754, '2024-07-09 15:33:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 403, 958, '2024-08-02 23:18:09', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 550, 898, '2024-03-08 23:56:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 403, 608, '2024-11-15 16:38:56', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 550, 297, '2024-02-10 04:16:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 403, 386, '2024-01-09 06:31:10', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 550, 191, '2024-11-10 02:51:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 613, 753, '2024-03-03 12:23:08', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 75, 858, '2024-07-24 20:32:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 613, 792, '2024-04-21 03:30:35', NULL, NULL); 
+VALUES ('No me gustó', 1, 75, 558, '2024-08-28 20:24:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 10, 279, '2024-05-15 07:48:25', NULL, NULL); 
+VALUES ('Normal', 3, 75, 124, '2024-12-24 06:48:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 714, 317, '2024-02-11 16:31:22', NULL, NULL); 
+VALUES ('Está bien', 3, 70, 367, '2024-11-19 15:13:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 372, 284, '2024-12-10 21:14:47', NULL, NULL); 
+VALUES ('Nada especial', 3, 70, 78, '2024-03-20 15:48:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 372, 548, '2024-01-25 15:46:02', NULL, NULL); 
+VALUES ('Muy malo', 1, 70, 685, '2024-07-02 00:41:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 372, 170, '2024-04-27 14:18:36', NULL, NULL); 
+VALUES ('Lo amé', 5, 70, 552, '2024-09-20 00:16:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 372, 647, '2024-06-11 09:06:38', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 592, 860, '2024-10-05 08:02:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 668, 753, '2024-03-15 10:18:39', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 592, 627, '2024-12-14 18:21:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 192, 347, '2024-08-27 16:22:15', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 127, 912, '2024-10-28 05:31:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 13, 814, '2024-04-03 01:20:58', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 127, 345, '2024-09-07 09:19:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 13, 361, '2024-02-05 21:32:21', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 511, 488, '2024-02-17 03:04:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 13, 940, '2024-02-19 19:04:36', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 511, 900, '2024-08-06 02:36:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 453, 828, '2024-02-18 05:50:41', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 511, 200, '2024-05-24 19:44:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 453, 35, '2024-02-21 15:30:11', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 511, 441, '2024-11-14 07:36:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 516, 923, '2024-09-11 09:42:00', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 422, 304, '2024-12-12 07:37:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 516, 448, '2024-01-20 09:03:12', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 44, 591, '2024-02-24 10:21:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 204, 269, '2024-08-02 01:32:05', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 44, 192, '2024-10-18 05:01:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 245, 845, '2024-06-18 10:50:41', NULL, NULL); 
+VALUES ('Decepcionante', 1, 44, 640, '2024-03-06 10:02:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 713, 445, '2024-06-25 17:48:29', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 44, 831, '2024-06-26 03:53:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 713, 784, '2024-06-26 17:59:31', NULL, NULL); 
+VALUES ('Excelente', 5, 44, 263, '2024-01-24 00:05:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 713, 1, '2024-05-21 07:54:10', NULL, NULL); 
+VALUES ('Malo', 2, 196, 701, '2024-11-06 03:40:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 713, 382, '2024-06-09 09:30:52', NULL, NULL); 
+VALUES ('Buena calidad', 4, 196, 243, '2024-09-03 17:58:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 536, 504, '2024-06-10 00:41:34', NULL, NULL); 
+VALUES ('Está bien', 3, 450, 178, '2024-06-18 02:36:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 536, 747, '2024-10-13 10:45:33', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 450, 618, '2024-12-13 22:11:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 536, 865, '2024-02-19 01:22:14', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 450, 989, '2024-01-15 21:05:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 536, 888, '2024-02-13 00:11:20', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 385, 755, '2024-10-24 10:08:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 152, 650, '2024-05-11 03:20:20', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 385, 856, '2024-09-21 20:12:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 152, 114, '2024-08-13 19:25:46', NULL, NULL); 
+VALUES ('Increíble', 5, 385, 745, '2024-04-22 19:45:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 152, 685, '2024-01-22 15:58:01', NULL, NULL); 
+VALUES ('Increíble', 5, 385, 343, '2024-03-25 00:24:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 152, 856, '2024-11-06 10:40:26', NULL, NULL); 
+VALUES ('No lo vale', 1, 415, 604, '2024-11-21 04:02:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 294, 149, '2024-03-07 08:38:24', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 415, 551, '2024-10-03 09:21:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 294, 562, '2024-09-27 19:57:36', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 415, 487, '2024-03-24 10:05:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 294, 733, '2024-04-13 05:21:22', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 415, 559, '2024-11-02 11:55:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 294, 79, '2024-03-08 11:29:52', NULL, NULL); 
+VALUES ('Nada especial', 3, 158, 338, '2024-02-20 11:37:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 96, 693, '2024-03-11 06:13:26', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 707, 731, '2024-08-16 21:10:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 96, 744, '2024-06-14 11:20:27', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 707, 145, '2024-10-22 00:38:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 96, 124, '2024-10-15 20:58:53', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 707, 969, '2024-11-07 21:13:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 96, 558, '2024-08-05 21:38:25', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 490, 672, '2024-06-27 10:36:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 341, 434, '2024-09-17 06:41:03', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 490, 51, '2024-01-19 04:46:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 341, 685, '2024-11-23 05:30:21', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 490, 132, '2024-09-24 18:45:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 223, 146, '2024-03-01 12:47:55', NULL, NULL); 
+VALUES ('Increíble', 5, 477, 499, '2024-10-14 02:45:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 223, 394, '2024-10-04 11:09:32', NULL, NULL); 
+VALUES ('Lo amé', 5, 477, 111, '2024-04-26 01:09:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 434, 934, '2024-11-15 21:56:25', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 553, 463, '2024-10-20 18:35:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 434, 559, '2024-03-18 15:47:33', NULL, NULL); 
+VALUES ('No me gustó', 1, 553, 301, '2024-12-21 20:10:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 434, 933, '2024-02-28 21:05:10', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 553, 355, '2024-08-16 16:58:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 55, 240, '2024-09-11 08:08:25', NULL, NULL); 
+VALUES ('Decepcionante', 1, 553, 820, '2024-12-08 04:37:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 55, 930, '2024-05-10 19:25:23', NULL, NULL); 
+VALUES ('Está bien', 3, 553, 414, '2024-11-14 03:40:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 530, 509, '2024-03-03 04:09:40', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 314, 731, '2024-11-01 20:30:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 530, 168, '2024-10-26 19:13:19', NULL, NULL); 
+VALUES ('No me gustó', 1, 314, 544, '2024-03-06 01:54:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 591, 569, '2024-01-22 01:15:30', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 452, 434, '2024-03-17 19:31:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 133, 808, '2024-05-15 11:08:12', NULL, NULL); 
+VALUES ('No lo compren', 1, 452, 503, '2024-11-01 13:39:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 478, 571, '2024-01-25 01:23:05', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 260, 413, '2024-05-02 16:30:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 478, 735, '2024-11-02 21:46:31', NULL, NULL); 
+VALUES ('No lo vale', 1, 260, 672, '2024-07-11 08:08:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 368, 171, '2024-02-22 16:00:07', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 260, 846, '2024-06-18 14:29:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 368, 325, '2024-12-09 02:04:39', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 260, 428, '2024-10-06 14:38:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 368, 274, '2024-11-25 05:58:11', NULL, NULL); 
+VALUES ('Recomendable', 4, 597, 183, '2024-08-12 12:37:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 433, 406, '2024-01-24 20:58:40', NULL, NULL); 
+VALUES ('Bueno', 4, 597, 110, '2024-09-16 00:35:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 433, 980, '2024-09-15 03:51:00', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 597, 524, '2024-04-16 17:20:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 433, 516, '2024-11-07 03:56:45', NULL, NULL); 
+VALUES ('Buena calidad', 4, 597, 98, '2024-09-23 23:37:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 433, 8, '2024-03-19 09:03:19', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 651, 326, '2024-07-11 20:36:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 461, 192, '2024-01-18 06:02:04', NULL, NULL); 
+VALUES ('Muy bueno', 5, 651, 145, '2024-03-16 04:09:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 633, 202, '2024-10-25 13:52:19', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 195, 71, '2024-08-13 05:15:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 633, 584, '2024-03-22 07:37:30', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 195, 936, '2024-05-26 06:39:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 633, 854, '2024-10-04 16:53:08', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 195, 607, '2024-01-01 14:57:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 633, 434, '2024-02-20 03:02:49', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 374, 8, '2024-11-22 09:07:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 633, 19, '2024-06-24 11:54:33', NULL, NULL); 
+VALUES ('Lo amé', 5, 374, 434, '2024-06-09 05:04:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 274, 783, '2024-03-12 14:35:05', NULL, NULL); 
+VALUES ('Muy bueno', 5, 374, 887, '2024-06-26 03:48:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 152, 253, '2024-05-11 00:06:16', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 374, 516, '2024-07-02 23:30:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 179, 569, '2024-06-12 14:10:21', NULL, NULL); 
+VALUES ('No me gustó', 1, 80, 112, '2024-12-22 00:17:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 179, 577, '2024-11-25 01:14:00', NULL, NULL); 
+VALUES ('Excelente', 5, 80, 263, '2024-12-24 02:31:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 179, 308, '2024-10-16 02:44:16', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 666, 953, '2024-02-15 16:49:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 657, 997, '2024-04-22 10:46:26', NULL, NULL); 
+VALUES ('Me gustó', 4, 666, 964, '2024-06-07 18:50:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 657, 21, '2024-10-15 21:44:46', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 666, 436, '2024-11-27 16:54:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 61, 450, '2024-03-08 11:33:55', NULL, NULL); 
+VALUES ('Decepcionante', 1, 666, 785, '2024-12-03 03:53:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 387, 685, '2024-05-25 20:24:28', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 200, 65, '2024-07-17 09:13:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 387, 896, '2024-01-28 15:43:16', NULL, NULL); 
+VALUES ('Regular', 2, 200, 573, '2024-06-06 22:34:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 387, 818, '2024-04-13 05:01:14', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 200, 582, '2024-10-22 08:20:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 430, 433, '2024-07-10 15:10:11', NULL, NULL); 
+VALUES ('No lo compren', 1, 200, 785, '2024-08-16 13:39:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 430, 770, '2024-05-04 12:32:10', NULL, NULL); 
+VALUES ('Me encantó', 5, 200, 682, '2024-03-23 22:38:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 524, 157, '2024-12-03 12:05:16', NULL, NULL); 
+VALUES ('Pésimo', 1, 656, 982, '2024-10-09 09:03:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 524, 639, '2024-11-14 09:42:09', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 656, 387, '2024-06-20 03:15:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 524, 656, '2024-11-04 16:22:50', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 657, 196, '2024-06-08 05:14:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 524, 235, '2024-11-20 06:18:25', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 375, 15, '2024-10-05 10:59:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 514, 675, '2024-08-22 21:43:36', NULL, NULL); 
+VALUES ('Excelente', 5, 375, 386, '2024-02-24 06:00:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 514, 826, '2024-09-04 07:28:20', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 375, 544, '2024-10-05 10:37:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 514, 926, '2024-10-25 19:31:15', NULL, NULL); 
+VALUES ('Me encantó', 5, 375, 701, '2024-10-21 08:51:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 448, 215, '2024-02-09 11:21:37', NULL, NULL); 
+VALUES ('Muy bueno', 5, 375, 144, '2024-12-24 01:18:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 88, 761, '2024-10-19 09:48:09', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 242, 271, '2024-09-19 20:18:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 88, 351, '2024-08-17 14:15:08', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 242, 538, '2024-01-26 19:32:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 453, 966, '2024-01-08 20:03:04', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 242, 214, '2024-07-05 00:50:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 453, 132, '2024-06-27 01:53:43', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 108, 960, '2024-11-25 19:29:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 224, 163, '2024-04-17 22:34:11', NULL, NULL); 
+VALUES ('Nada especial', 3, 108, 842, '2024-08-14 15:23:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 224, 45, '2024-05-11 05:52:34', NULL, NULL); 
+VALUES ('No está mal', 3, 108, 54, '2024-12-15 06:17:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 269, 975, '2024-11-11 20:02:46', NULL, NULL); 
+VALUES ('Muy bueno', 5, 108, 930, '2024-02-21 13:03:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 639, 654, '2024-03-13 19:46:16', NULL, NULL); 
+VALUES ('Muy bueno', 5, 108, 904, '2024-01-16 13:53:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 639, 594, '2024-08-25 06:19:53', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 183, 366, '2024-08-20 21:32:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 266, 956, '2024-07-08 16:51:02', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 183, 322, '2024-03-12 06:43:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 266, 901, '2024-11-03 13:04:07', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 183, 217, '2024-08-23 07:37:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 266, 977, '2024-06-26 01:24:12', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 283, 532, '2024-06-22 15:18:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 539, 59, '2024-10-01 04:41:53', NULL, NULL); 
+VALUES ('Buena calidad', 4, 525, 73, '2024-11-01 13:54:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 539, 53, '2024-04-11 14:53:07', NULL, NULL); 
+VALUES ('Está bien', 3, 525, 587, '2024-05-15 23:35:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 539, 546, '2024-07-16 00:16:57', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 525, 972, '2024-11-17 01:06:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 539, 489, '2024-12-20 22:44:13', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 517, 331, '2024-02-07 08:57:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 539, 670, '2024-02-04 17:55:36', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 517, 367, '2024-06-28 06:07:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 359, 13, '2024-08-16 07:59:30', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 517, 333, '2024-10-12 08:23:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 359, 806, '2024-05-14 09:48:42', NULL, NULL); 
+VALUES ('Me gustó', 4, 517, 567, '2024-11-10 13:37:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 359, 826, '2024-01-17 12:26:55', NULL, NULL); 
+VALUES ('Regular', 2, 711, 856, '2024-11-13 02:20:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 359, 203, '2024-04-23 14:06:07', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 46, 510, '2024-09-07 17:46:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 323, 556, '2024-01-27 03:04:52', NULL, NULL); 
+VALUES ('Recomendable', 4, 46, 727, '2024-06-05 14:24:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 116, 9, '2024-07-02 19:51:45', NULL, NULL); 
+VALUES ('Muy bueno', 5, 46, 66, '2024-12-13 09:24:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 116, 725, '2024-09-23 01:08:22', NULL, NULL); 
+VALUES ('Bueno', 4, 46, 246, '2024-01-06 04:21:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 116, 653, '2024-09-26 04:50:53', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 46, 790, '2024-03-01 07:13:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 116, 411, '2024-12-04 12:30:41', NULL, NULL); 
+VALUES ('No lo vale', 1, 237, 890, '2024-10-09 16:42:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 455, 518, '2024-02-28 06:13:26', NULL, NULL); 
+VALUES ('Es pasable', 3, 237, 266, '2024-10-25 00:04:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 455, 851, '2024-07-09 06:29:21', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 237, 865, '2024-01-04 06:28:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 455, 741, '2024-06-06 02:31:17', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 237, 953, '2024-05-03 15:47:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 455, 465, '2024-12-22 15:15:11', NULL, NULL); 
+VALUES ('Me gustó', 4, 237, 213, '2024-07-18 10:56:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 221, 144, '2024-03-28 22:51:07', NULL, NULL); 
+VALUES ('Muy malo', 1, 332, 47, '2024-10-24 16:45:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 221, 739, '2024-06-03 14:43:58', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 332, 190, '2024-12-06 06:11:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 221, 346, '2024-11-08 20:57:35', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 332, 449, '2024-05-14 03:52:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 221, 518, '2024-05-23 12:55:00', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 332, 551, '2024-03-06 14:38:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 571, 339, '2024-12-22 14:55:34', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 565, 497, '2024-11-24 22:34:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 571, 83, '2024-11-21 22:47:46', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 5, 115, '2024-07-16 09:59:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 571, 156, '2024-05-05 20:13:27', NULL, NULL); 
+VALUES ('Pésimo', 1, 299, 389, '2024-07-19 12:06:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 571, 430, '2024-08-16 10:34:53', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 299, 518, '2024-02-13 20:41:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 514, 238, '2024-10-03 05:13:39', NULL, NULL); 
+VALUES ('Malo', 2, 678, 935, '2024-09-25 03:31:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 514, 873, '2024-11-16 10:54:52', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 678, 2, '2024-03-05 01:17:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 514, 799, '2024-06-04 14:34:31', NULL, NULL); 
+VALUES ('Increíble', 5, 678, 728, '2024-08-09 06:50:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 697, 73, '2024-01-24 08:23:56', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 678, 846, '2024-11-25 03:24:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 697, 826, '2024-04-16 08:07:11', NULL, NULL); 
+VALUES ('Aceptable', 3, 587, 589, '2024-05-13 02:44:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 697, 789, '2024-12-05 22:58:17', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 587, 435, '2024-07-02 22:11:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 516, 81, '2024-07-07 23:58:06', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 587, 928, '2024-12-24 18:51:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 516, 798, '2024-05-05 19:43:57', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 587, 949, '2024-05-16 11:36:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 516, 268, '2024-04-19 23:39:14', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 662, 750, '2024-04-08 21:45:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 516, 108, '2024-06-28 22:42:29', NULL, NULL); 
+VALUES ('Nada especial', 3, 662, 513, '2024-10-25 10:11:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 516, 649, '2024-12-16 05:11:32', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 662, 802, '2024-07-06 06:27:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 454, 463, '2024-08-27 18:16:18', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 94, 441, '2024-03-15 12:11:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 454, 554, '2024-05-10 13:23:43', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 102, 109, '2024-03-17 04:00:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 454, 271, '2024-11-15 23:16:53', NULL, NULL); 
+VALUES ('Recomendable', 4, 102, 979, '2024-10-24 00:07:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 454, 585, '2024-07-15 12:19:12', NULL, NULL); 
+VALUES ('Está bien', 3, 102, 659, '2024-09-11 14:10:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 454, 823, '2024-09-12 22:42:48', NULL, NULL); 
+VALUES ('Excelente', 5, 102, 823, '2024-08-14 11:35:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 38, 289, '2024-04-27 06:52:54', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 102, 369, '2024-05-24 01:07:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 38, 365, '2024-05-22 17:23:20', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 690, 989, '2024-05-24 20:32:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 456, 961, '2024-02-23 07:05:07', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 690, 827, '2024-10-19 19:10:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 456, 796, '2024-07-06 15:06:54', NULL, NULL); 
+VALUES ('Nada especial', 3, 146, 641, '2024-03-24 08:45:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 6, 259, '2024-10-06 13:05:25', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 146, 761, '2024-12-20 10:24:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 6, 522, '2024-06-23 02:22:12', NULL, NULL); 
+VALUES ('No lo compren', 1, 146, 969, '2024-05-17 05:21:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 67, 125, '2024-09-10 02:27:09', NULL, NULL); 
+VALUES ('Nada especial', 3, 437, 922, '2024-02-08 11:47:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 67, 857, '2024-08-23 13:55:42', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 437, 644, '2024-11-08 02:29:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 67, 612, '2024-02-13 03:06:39', NULL, NULL); 
+VALUES ('Recomendable', 4, 437, 776, '2024-06-02 22:59:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 67, 364, '2024-04-13 05:49:16', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 111, 1001, '2024-08-18 20:42:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 711, 198, '2024-06-15 20:46:30', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 449, 481, '2024-02-25 14:43:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 711, 317, '2024-10-19 21:00:45', NULL, NULL); 
+VALUES ('No lo compren', 1, 449, 721, '2024-11-18 06:15:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 711, 344, '2024-09-01 03:22:03', NULL, NULL); 
+VALUES ('Normal', 3, 484, 914, '2024-04-09 07:14:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 711, 672, '2024-04-15 02:29:31', NULL, NULL); 
+VALUES ('Increíble', 5, 484, 521, '2024-06-20 03:05:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 711, 776, '2024-03-10 13:25:02', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 484, 550, '2024-11-25 22:07:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 494, 974, '2024-02-22 23:13:08', NULL, NULL); 
+VALUES ('Recomendable', 4, 484, 396, '2024-04-14 03:43:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 494, 446, '2024-10-24 20:48:20', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 484, 901, '2024-08-10 00:50:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 494, 389, '2024-10-20 21:00:02', NULL, NULL); 
+VALUES ('Decepcionante', 1, 17, 891, '2024-01-06 11:52:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 20, 263, '2024-08-21 10:56:54', NULL, NULL); 
+VALUES ('Está bien', 3, 17, 298, '2024-09-16 08:24:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 20, 393, '2024-01-21 23:47:10', NULL, NULL); 
+VALUES ('Lo amé', 5, 17, 330, '2024-07-23 23:07:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 20, 867, '2024-12-04 05:35:46', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 17, 671, '2024-08-19 10:01:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 20, 440, '2024-06-27 09:21:49', NULL, NULL); 
+VALUES ('No lo compren', 1, 41, 929, '2024-09-01 08:27:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 20, 925, '2024-04-24 10:58:36', NULL, NULL); 
+VALUES ('Bueno', 4, 41, 908, '2024-08-19 12:44:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 76, 311, '2024-10-20 12:24:49', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 41, 823, '2024-02-28 18:53:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 314, 506, '2024-04-15 08:31:28', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 41, 905, '2024-08-08 04:57:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 314, 299, '2024-02-09 10:15:47', NULL, NULL); 
+VALUES ('Excelente', 5, 184, 681, '2024-11-07 13:35:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 314, 574, '2024-08-14 17:11:04', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 184, 621, '2024-12-25 17:15:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 314, 569, '2024-06-09 01:11:10', NULL, NULL); 
+VALUES ('Increíble', 5, 184, 149, '2024-03-07 09:08:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 314, 98, '2024-02-21 19:40:07', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 550, 95, '2024-10-12 18:34:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 286, 736, '2024-01-09 13:53:57', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 462, 463, '2024-05-27 22:21:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 286, 783, '2024-02-13 02:16:12', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 701, 794, '2024-02-20 04:34:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 286, 752, '2024-10-03 06:29:43', NULL, NULL); 
+VALUES ('No lo compren', 1, 165, 383, '2024-08-08 09:24:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 286, 169, '2024-12-18 10:16:16', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 165, 694, '2024-03-10 04:56:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 559, 600, '2024-05-19 19:09:35', NULL, NULL); 
+VALUES ('No está mal', 3, 165, 56, '2024-06-05 16:32:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 559, 479, '2024-06-08 16:24:33', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 637, 414, '2024-12-13 01:39:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 342, 401, '2024-06-25 10:24:42', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 637, 885, '2024-01-07 02:19:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 379, 750, '2024-01-19 05:16:55', NULL, NULL); 
+VALUES ('Me gustó', 4, 637, 432, '2024-02-22 06:45:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 379, 46, '2024-04-11 03:03:39', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 462, 785, '2024-10-13 07:34:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 379, 206, '2024-03-18 02:10:18', NULL, NULL); 
+VALUES ('Decepcionante', 1, 462, 30, '2024-08-12 14:13:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 209, 708, '2024-12-23 04:27:55', NULL, NULL); 
+VALUES ('Lo amé', 5, 496, 656, '2024-06-08 13:08:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 209, 190, '2024-01-11 12:46:32', NULL, NULL); 
+VALUES ('Excelente', 5, 496, 869, '2024-10-02 11:00:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 209, 508, '2024-09-25 14:31:48', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 310, 241, '2024-06-13 16:52:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 480, 980, '2024-11-01 01:53:55', NULL, NULL); 
+VALUES ('Me gustó', 4, 310, 131, '2024-03-15 02:28:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 480, 830, '2024-11-10 08:48:28', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 175, 86, '2024-07-26 20:32:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 480, 860, '2024-11-03 02:49:33', NULL, NULL); 
+VALUES ('Aceptable', 3, 271, 451, '2024-09-09 09:44:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 480, 284, '2024-11-18 06:17:04', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 271, 725, '2024-07-13 03:20:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 480, 240, '2024-03-21 03:09:25', NULL, NULL); 
+VALUES ('Aceptable', 3, 271, 462, '2024-09-10 20:34:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 232, 228, '2024-01-03 20:50:24', NULL, NULL); 
+VALUES ('Muy malo', 1, 271, 148, '2024-07-23 00:14:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 231, 371, '2024-07-02 22:25:27', NULL, NULL); 
+VALUES ('Pésimo', 1, 271, 615, '2024-04-28 09:18:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 231, 961, '2024-10-04 22:26:56', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 300, 853, '2024-04-10 06:09:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 231, 62, '2024-06-23 22:22:10', NULL, NULL); 
+VALUES ('Decepcionante', 1, 300, 422, '2024-09-15 11:31:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 507, 740, '2024-11-04 00:30:26', NULL, NULL); 
+VALUES ('Buena calidad', 4, 667, 422, '2024-04-21 12:32:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 507, 194, '2024-06-03 13:05:23', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 667, 106, '2024-12-13 21:26:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 507, 36, '2024-02-14 16:05:40', NULL, NULL); 
+VALUES ('Me encantó', 5, 367, 983, '2024-10-05 06:24:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 507, 81, '2024-12-13 19:04:53', NULL, NULL); 
+VALUES ('Aceptable', 3, 367, 797, '2024-11-16 14:13:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 507, 28, '2024-08-26 05:01:59', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 367, 892, '2024-10-03 11:54:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 219, 777, '2024-11-12 01:48:50', NULL, NULL); 
+VALUES ('Está bien', 3, 531, 398, '2024-09-08 12:32:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 219, 267, '2024-01-02 23:57:12', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 531, 55, '2024-01-06 06:33:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 219, 677, '2024-09-19 01:10:30', NULL, NULL); 
+VALUES ('Bueno', 4, 531, 511, '2024-07-21 11:07:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 219, 295, '2024-02-24 13:43:04', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 531, 705, '2024-10-20 13:34:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 219, 650, '2024-12-28 08:31:48', NULL, NULL); 
+VALUES ('Pésimo', 1, 260, 763, '2024-02-07 15:08:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 685, 774, '2024-01-28 23:27:48', NULL, NULL); 
+VALUES ('Excelente', 5, 378, 380, '2024-07-25 21:42:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 316, 719, '2024-05-20 07:31:07', NULL, NULL); 
+VALUES ('Decepcionante', 1, 378, 128, '2024-05-27 06:55:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 316, 612, '2024-11-26 21:42:33', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 378, 260, '2024-02-12 21:10:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 316, 287, '2024-05-07 09:23:18', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 378, 489, '2024-01-08 21:56:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 316, 482, '2024-05-17 05:56:05', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 378, 125, '2024-07-16 14:30:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 260, 323, '2024-11-03 13:59:57', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 104, 273, '2024-08-22 07:04:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 260, 186, '2024-03-03 01:30:24', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 104, 638, '2024-07-20 10:40:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 260, 880, '2024-12-08 23:19:26', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 104, 463, '2024-03-22 07:40:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 260, 354, '2024-01-09 22:47:58', NULL, NULL); 
+VALUES ('Muy bueno', 5, 104, 729, '2024-11-08 11:50:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 260, 246, '2024-01-11 09:05:57', NULL, NULL); 
+VALUES ('Excelente', 5, 104, 528, '2024-03-27 07:27:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 278, 201, '2024-03-10 11:29:37', NULL, NULL); 
+VALUES ('Decepcionante', 1, 90, 807, '2024-06-16 14:42:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 278, 324, '2024-03-03 03:56:45', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 90, 927, '2024-11-22 14:40:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 278, 454, '2024-11-19 02:24:47', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 90, 591, '2024-01-09 17:04:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 278, 984, '2024-11-18 05:35:33', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 90, 139, '2024-04-21 17:41:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 278, 149, '2024-08-20 12:55:33', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 90, 540, '2024-10-21 04:35:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 578, 625, '2024-03-19 01:44:30', NULL, NULL); 
+VALUES ('Pésimo', 1, 379, 949, '2024-01-25 22:54:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 578, 517, '2024-01-19 23:19:54', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 379, 145, '2024-07-01 21:02:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 578, 157, '2024-07-05 16:31:58', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 86, 197, '2024-05-20 21:22:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 578, 68, '2024-09-26 00:33:17', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 86, 553, '2024-02-04 18:35:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 578, 654, '2024-08-20 18:19:11', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 86, 720, '2024-10-02 20:00:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 288, 99, '2024-02-01 18:23:34', NULL, NULL); 
+VALUES ('Está bien', 3, 86, 787, '2024-09-11 15:41:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 288, 640, '2024-07-11 20:39:21', NULL, NULL); 
+VALUES ('Me encantó', 5, 86, 948, '2024-09-23 16:37:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 67, 641, '2024-01-24 15:23:30', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 66, 625, '2024-10-11 01:36:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 67, 725, '2024-12-01 18:07:40', NULL, NULL); 
+VALUES ('No está mal', 3, 66, 961, '2024-03-07 01:14:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 67, 228, '2024-07-22 17:30:53', NULL, NULL); 
+VALUES ('Muy malo', 1, 66, 48, '2024-11-25 18:08:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 449, 416, '2024-06-20 11:49:54', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 270, 718, '2024-12-11 13:03:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 449, 89, '2024-02-20 08:30:37', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 270, 577, '2024-06-14 06:16:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 449, 265, '2024-07-06 12:30:59', NULL, NULL); 
+VALUES ('Decepcionante', 1, 270, 177, '2024-12-28 16:40:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 486, 393, '2024-12-24 06:38:29', NULL, NULL); 
+VALUES ('Pésimo', 1, 270, 382, '2024-04-19 03:29:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 486, 908, '2024-08-13 05:55:13', NULL, NULL); 
+VALUES ('Bueno', 4, 270, 572, '2024-10-22 22:45:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 486, 563, '2024-08-11 07:40:56', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 613, 304, '2024-12-20 01:19:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 486, 117, '2024-11-16 07:37:03', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 613, 36, '2024-10-15 11:46:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 486, 394, '2024-10-21 17:14:05', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 560, 790, '2024-08-13 19:21:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 690, 708, '2024-12-17 00:22:38', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 560, 401, '2024-12-05 06:55:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 690, 860, '2024-08-24 12:07:55', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 53, 103, '2024-05-12 18:30:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 690, 784, '2024-09-21 05:25:22', NULL, NULL); 
+VALUES ('Maravilloso', 5, 53, 378, '2024-09-14 22:48:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 690, 558, '2024-03-10 11:22:48', NULL, NULL); 
+VALUES ('Me encantó', 5, 53, 202, '2024-01-07 12:14:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 690, 290, '2024-04-06 14:33:09', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 53, 886, '2024-03-24 05:18:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 172, 767, '2024-10-07 07:51:14', NULL, NULL); 
+VALUES ('Está bien', 3, 117, 409, '2024-01-03 23:34:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 172, 866, '2024-02-22 08:33:26', NULL, NULL); 
+VALUES ('Me gustó', 4, 117, 610, '2024-10-23 14:47:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 172, 43, '2024-02-19 05:34:40', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 117, 312, '2024-03-18 19:10:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 684, 32, '2024-10-11 02:46:33', NULL, NULL); 
+VALUES ('Regular', 2, 117, 694, '2024-05-28 08:46:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 684, 735, '2024-05-22 08:38:45', NULL, NULL); 
+VALUES ('Pésimo', 1, 641, 439, '2024-04-19 08:31:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 31, 91, '2024-11-14 06:12:29', NULL, NULL); 
+VALUES ('Está bien', 3, 641, 713, '2024-12-25 05:15:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 31, 769, '2024-10-10 12:39:29', NULL, NULL); 
+VALUES ('Pésimo', 1, 641, 630, '2024-11-17 03:38:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 620, 90, '2024-04-05 22:43:22', NULL, NULL); 
+VALUES ('No está mal', 3, 641, 317, '2024-05-25 18:29:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 620, 872, '2024-10-17 08:38:47', NULL, NULL); 
+VALUES ('Regular', 2, 641, 486, '2024-03-02 17:13:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 620, 58, '2024-11-06 09:39:55', NULL, NULL); 
+VALUES ('Muy malo', 1, 525, 988, '2024-03-24 17:32:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 148, 892, '2024-12-02 05:29:09', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 211, 720, '2024-09-28 04:18:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 516, 543, '2024-09-22 15:30:12', NULL, NULL); 
+VALUES ('Excelente', 5, 211, 22, '2024-10-18 20:18:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 516, 651, '2024-10-22 07:48:31', NULL, NULL); 
+VALUES ('No lo vale', 1, 144, 459, '2024-08-21 19:54:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 516, 893, '2024-02-01 15:10:23', NULL, NULL); 
+VALUES ('No me gustó', 1, 144, 314, '2024-12-28 09:07:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 516, 634, '2024-10-01 08:09:52', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 144, 827, '2024-02-17 18:23:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 516, 159, '2024-04-07 07:45:26', NULL, NULL); 
+VALUES ('Buena calidad', 4, 524, 871, '2024-08-26 12:58:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 34, 925, '2024-05-24 14:52:16', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 158, 127, '2024-06-08 05:06:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 34, 891, '2024-09-12 01:07:56', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 158, 613, '2024-01-23 10:13:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 34, 819, '2024-07-13 14:21:17', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 524, 527, '2024-03-14 05:58:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 34, 75, '2024-04-06 07:21:19', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 524, 314, '2024-10-19 22:44:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 34, 43, '2024-01-13 00:54:33', NULL, NULL); 
+VALUES ('Increíble', 5, 524, 451, '2024-06-28 04:49:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 527, 275, '2024-03-16 18:50:20', NULL, NULL); 
+VALUES ('Buena calidad', 4, 200, 729, '2024-03-11 01:55:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 596, 529, '2024-01-14 18:50:31', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 200, 197, '2024-11-21 20:40:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 596, 881, '2024-04-08 17:55:02', NULL, NULL); 
+VALUES ('Muy bueno', 5, 30, 823, '2024-11-04 13:50:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 596, 688, '2024-10-15 18:29:18', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 30, 974, '2024-06-14 04:35:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 317, 324, '2024-11-27 22:34:07', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 506, 727, '2024-07-14 00:21:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 317, 335, '2024-05-25 17:59:18', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 506, 188, '2024-05-01 07:35:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 317, 694, '2024-09-06 20:53:09', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 506, 903, '2024-03-02 06:52:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 12, 80, '2024-11-04 10:57:54', NULL, NULL); 
+VALUES ('Decepcionante', 1, 286, 581, '2024-10-14 07:57:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 12, 690, '2024-12-09 19:48:51', NULL, NULL); 
+VALUES ('Excelente', 5, 286, 983, '2024-04-20 18:53:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 12, 143, '2024-07-22 22:25:24', NULL, NULL); 
+VALUES ('No me gustó', 1, 286, 394, '2024-02-13 19:36:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 12, 629, '2024-11-16 20:05:20', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 286, 616, '2024-07-25 02:13:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 201, 771, '2024-04-15 08:03:03', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 94, 546, '2024-08-01 10:54:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 201, 8, '2024-02-02 23:15:00', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 346, 371, '2024-02-13 19:09:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 595, 687, '2024-05-15 19:45:05', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 164, 928, '2024-06-24 02:26:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 213, 476, '2024-06-16 04:24:44', NULL, NULL); 
+VALUES ('Pésimo', 1, 164, 895, '2024-11-12 18:32:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 213, 50, '2024-11-03 00:31:16', NULL, NULL); 
+VALUES ('Increíble', 5, 164, 748, '2024-02-19 11:01:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 213, 486, '2024-06-22 11:58:48', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 164, 492, '2024-04-15 12:15:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 213, 31, '2024-01-13 09:04:32', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 164, 252, '2024-07-15 20:54:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 213, 951, '2024-08-13 07:07:01', NULL, NULL); 
+VALUES ('Muy malo', 1, 263, 273, '2024-09-27 03:03:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 239, 165, '2024-02-15 23:44:44', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 232, 116, '2024-08-03 01:17:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 239, 248, '2024-05-14 03:35:27', NULL, NULL); 
+VALUES ('Es pasable', 3, 232, 723, '2024-05-11 19:10:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 239, 804, '2024-07-09 18:25:27', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 232, 261, '2024-02-25 03:27:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 239, 832, '2024-04-26 06:23:21', NULL, NULL); 
+VALUES ('Normal', 3, 232, 847, '2024-05-18 16:19:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 239, 8, '2024-10-27 15:37:18', NULL, NULL); 
+VALUES ('Decepcionante', 1, 290, 950, '2024-10-17 22:00:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 451, 721, '2024-04-01 23:24:26', NULL, NULL); 
+VALUES ('Regular', 2, 328, 583, '2024-05-12 16:53:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 451, 567, '2024-08-19 20:29:58', NULL, NULL); 
+VALUES ('Nada especial', 3, 328, 833, '2024-07-25 13:19:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 451, 381, '2024-06-09 19:56:52', NULL, NULL); 
+VALUES ('Me encantó', 5, 328, 510, '2024-09-25 01:59:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 451, 49, '2024-11-18 15:56:39', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 266, 730, '2024-09-22 07:14:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 451, 711, '2024-01-12 17:06:16', NULL, NULL); 
+VALUES ('Decepcionante', 1, 81, 334, '2024-11-22 11:48:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 470, 209, '2024-08-09 03:47:59', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 81, 647, '2024-01-06 12:32:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 470, 359, '2024-01-11 14:29:34', NULL, NULL); 
+VALUES ('Nada especial', 3, 81, 503, '2024-02-22 11:27:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 81, 87, '2024-11-13 04:19:26', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 81, 771, '2024-06-25 11:08:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 81, 650, '2024-05-18 11:11:54', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 476, 919, '2024-09-12 07:37:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 115, 606, '2024-02-07 06:50:03', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 476, 793, '2024-06-25 12:05:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 115, 663, '2024-07-14 22:51:04', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 476, 591, '2024-11-23 22:12:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 115, 558, '2024-10-15 18:27:19', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 476, 879, '2024-06-07 18:34:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 115, 555, '2024-03-04 17:01:39', NULL, NULL); 
+VALUES ('Lo amé', 5, 476, 704, '2024-12-05 19:32:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 195, 944, '2024-12-07 10:34:59', NULL, NULL); 
+VALUES ('Nada especial', 3, 615, 502, '2024-03-25 08:41:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 195, 515, '2024-12-21 22:39:38', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 615, 660, '2024-12-11 06:52:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 195, 201, '2024-04-28 22:25:33', NULL, NULL); 
+VALUES ('Regular', 2, 615, 451, '2024-11-04 02:27:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 195, 276, '2024-09-16 22:17:38', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 338, 985, '2024-11-01 08:21:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 195, 757, '2024-06-09 22:53:09', NULL, NULL); 
+VALUES ('No está mal', 3, 338, 889, '2024-01-19 03:47:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 473, 846, '2024-10-21 20:48:18', NULL, NULL); 
+VALUES ('No me gustó', 1, 338, 892, '2024-07-25 01:37:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 473, 694, '2024-11-02 22:28:30', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 639, 251, '2024-01-20 20:52:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 473, 577, '2024-10-13 08:37:50', NULL, NULL); 
+VALUES ('Aceptable', 3, 639, 723, '2024-02-28 03:21:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 667, 869, '2024-04-15 08:11:15', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 639, 666, '2024-02-02 21:38:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 667, 267, '2024-02-28 19:15:07', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 639, 947, '2024-10-28 23:23:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 667, 277, '2024-01-12 12:29:39', NULL, NULL); 
+VALUES ('Bueno', 4, 639, 130, '2024-07-23 16:21:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 307, 717, '2024-02-08 08:17:38', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 108, 24, '2024-02-05 01:29:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 307, 753, '2024-12-28 06:21:38', NULL, NULL); 
+VALUES ('Es pasable', 3, 108, 213, '2024-05-09 07:08:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 259, 123, '2024-11-05 09:09:45', NULL, NULL); 
+VALUES ('Buena calidad', 4, 108, 241, '2024-07-25 10:53:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 259, 629, '2024-04-18 06:16:44', NULL, NULL); 
+VALUES ('No está mal', 3, 108, 205, '2024-07-20 02:53:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 259, 499, '2024-12-24 01:27:02', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 108, 900, '2024-09-08 23:20:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 259, 375, '2024-07-01 03:00:19', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 96, 36, '2024-01-03 19:03:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 619, 92, '2024-02-14 10:12:24', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 96, 333, '2024-09-09 18:22:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 619, 810, '2024-02-19 01:42:41', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 623, 301, '2024-01-20 15:05:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 619, 144, '2024-04-12 05:21:32', NULL, NULL); 
+VALUES ('Me gustó', 4, 623, 398, '2024-09-02 21:40:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 619, 829, '2024-04-16 01:36:22', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 623, 825, '2024-12-26 17:48:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 619, 693, '2024-12-24 02:45:58', NULL, NULL); 
+VALUES ('Muy bueno', 5, 545, 790, '2024-03-10 20:55:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 464, 707, '2024-09-22 22:30:49', NULL, NULL); 
+VALUES ('Está bien', 3, 545, 819, '2024-06-26 18:00:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 464, 405, '2024-03-26 18:45:39', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 545, 782, '2024-12-23 16:28:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 464, 888, '2024-08-03 17:08:37', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 545, 194, '2024-01-12 14:22:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 464, 589, '2024-10-27 06:36:50', NULL, NULL); 
+VALUES ('Aceptable', 3, 545, 51, '2024-12-21 10:30:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 464, 359, '2024-02-23 19:21:22', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 496, 3, '2024-08-24 20:47:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 104, 253, '2024-06-17 16:52:02', NULL, NULL); 
+VALUES ('No me gustó', 1, 496, 14, '2024-05-10 22:39:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 104, 201, '2024-11-19 20:27:38', NULL, NULL); 
+VALUES ('No lo compren', 1, 496, 209, '2024-06-21 00:41:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 104, 3, '2024-03-28 16:30:34', NULL, NULL); 
+VALUES ('Increíble', 5, 496, 599, '2024-08-04 00:22:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 538, 972, '2024-02-25 03:21:18', NULL, NULL); 
+VALUES ('Me encantó', 5, 446, 844, '2024-03-04 04:51:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 538, 913, '2024-11-13 13:43:39', NULL, NULL); 
+VALUES ('Excelente', 5, 446, 417, '2024-04-12 11:47:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 538, 742, '2024-08-20 23:28:56', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 446, 466, '2024-07-08 07:52:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 227, 280, '2024-11-11 08:44:51', NULL, NULL); 
+VALUES ('Decepcionante', 1, 446, 54, '2024-08-03 08:36:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 227, 890, '2024-05-01 08:28:57', NULL, NULL); 
+VALUES ('Pésimo', 1, 213, 325, '2024-12-27 21:26:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 227, 106, '2024-08-19 11:14:27', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 213, 549, '2024-03-04 21:38:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 227, 652, '2024-10-14 00:34:55', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 429, 974, '2024-10-24 15:32:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 227, 75, '2024-08-08 13:45:18', NULL, NULL); 
+VALUES ('No lo vale', 1, 429, 789, '2024-01-16 01:22:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 301, 536, '2024-04-09 16:27:23', NULL, NULL); 
+VALUES ('Me encantó', 5, 429, 345, '2024-09-26 09:19:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 664, 223, '2024-11-24 04:52:26', NULL, NULL); 
+VALUES ('Bueno', 4, 429, 121, '2024-03-12 06:59:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 664, 890, '2024-01-11 02:32:01', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 233, 897, '2024-07-25 08:04:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 664, 655, '2024-02-06 03:41:21', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 233, 307, '2024-01-23 00:11:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 664, 622, '2024-04-24 06:38:41', NULL, NULL); 
+VALUES ('Increíble', 5, 233, 957, '2024-01-07 14:35:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 267, 274, '2024-07-21 04:06:31', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 233, 890, '2024-09-16 14:41:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 267, 405, '2024-10-05 12:01:38', NULL, NULL); 
+VALUES ('Regular', 2, 111, 561, '2024-08-26 13:12:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 267, 351, '2024-04-23 19:31:09', NULL, NULL); 
+VALUES ('Buena calidad', 4, 111, 868, '2024-12-07 13:02:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 267, 964, '2024-12-25 20:39:06', NULL, NULL); 
+VALUES ('Me encantó', 5, 111, 696, '2024-09-24 19:25:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 267, 484, '2024-06-12 20:03:02', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 371, 742, '2024-06-19 16:01:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 66, 396, '2024-03-21 02:00:55', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 371, 782, '2024-05-12 22:53:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 66, 467, '2024-07-10 18:58:58', NULL, NULL); 
+VALUES ('Increíble', 5, 337, 839, '2024-10-08 17:27:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 186, 681, '2024-12-10 08:50:57', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 337, 522, '2024-03-07 20:28:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 186, 484, '2024-07-26 12:54:04', NULL, NULL); 
+VALUES ('Increíble', 5, 337, 461, '2024-11-16 16:56:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 186, 423, '2024-01-07 07:00:35', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 337, 917, '2024-12-22 11:27:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 186, 896, '2024-12-11 14:18:04', NULL, NULL); 
+VALUES ('Increíble', 5, 41, 446, '2024-09-15 15:34:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 244, 262, '2024-11-28 13:49:31', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 705, 285, '2024-06-14 11:01:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 244, 545, '2024-05-23 19:47:18', NULL, NULL); 
+VALUES ('No me gustó', 1, 705, 774, '2024-06-06 00:31:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 244, 759, '2024-01-11 08:22:02', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 705, 329, '2024-04-17 09:56:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 244, 887, '2024-12-22 08:20:41', NULL, NULL); 
+VALUES ('Malo', 2, 705, 543, '2024-03-12 08:53:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 378, 577, '2024-09-03 20:40:54', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 705, 608, '2024-01-11 18:51:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 378, 34, '2024-06-13 09:20:18', NULL, NULL); 
+VALUES ('Muy bueno', 5, 351, 505, '2024-04-05 10:56:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 378, 691, '2024-05-28 19:33:17', NULL, NULL); 
+VALUES ('Muy bueno', 5, 351, 641, '2024-12-26 04:24:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 715, 991, '2024-12-26 07:54:50', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 351, 596, '2024-11-12 23:06:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 715, 305, '2024-06-13 03:15:05', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 408, 824, '2024-02-28 07:05:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 715, 544, '2024-03-19 18:41:26', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 496, 442, '2024-05-17 00:48:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 715, 157, '2024-07-16 13:57:20', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 496, 152, '2024-06-27 15:06:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 715, 682, '2024-10-19 23:10:32', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 680, 498, '2024-04-05 05:55:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 107, 357, '2024-10-07 07:58:53', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 680, 141, '2024-12-27 03:04:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 343, 789, '2024-06-19 08:25:34', NULL, NULL); 
+VALUES ('Muy malo', 1, 680, 869, '2024-06-10 18:51:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 343, 602, '2024-02-04 23:58:56', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 680, 399, '2024-06-26 03:41:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 343, 236, '2024-12-20 23:08:10', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 465, 428, '2024-05-20 07:34:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 343, 857, '2024-05-20 20:03:44', NULL, NULL); 
+VALUES ('Está bien', 3, 465, 158, '2024-04-20 20:57:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 343, 962, '2024-12-07 23:04:44', NULL, NULL); 
+VALUES ('Recomendable', 4, 465, 917, '2024-07-07 05:26:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 215, 612, '2024-09-28 09:15:52', NULL, NULL); 
+VALUES ('Lo amé', 5, 465, 121, '2024-11-24 04:10:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 215, 749, '2024-10-11 23:04:00', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 212, 981, '2024-08-05 23:22:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 215, 761, '2024-07-21 23:12:13', NULL, NULL); 
+VALUES ('Muy bueno', 5, 212, 775, '2024-05-14 18:45:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 342, 23, '2024-03-18 21:51:48', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 212, 597, '2024-08-18 18:19:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 342, 506, '2024-04-12 16:55:43', NULL, NULL); 
+VALUES ('Pésimo', 1, 212, 266, '2024-12-15 01:02:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 342, 141, '2024-03-08 16:13:40', NULL, NULL); 
+VALUES ('Aceptable', 3, 212, 823, '2024-10-10 00:50:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 378, 286, '2024-07-07 23:36:34', NULL, NULL); 
+VALUES ('Pésimo', 1, 141, 703, '2024-11-11 01:55:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 153, 37, '2024-09-20 16:19:15', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 301, 779, '2024-07-20 07:41:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 153, 779, '2024-10-12 07:32:54', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 301, 13, '2024-05-18 09:24:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 153, 912, '2024-09-16 14:32:02', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 301, 257, '2024-07-21 07:00:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 103, 883, '2024-01-24 15:04:21', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 301, 657, '2024-05-12 18:33:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 103, 837, '2024-05-08 02:02:16', NULL, NULL); 
+VALUES ('Decepcionante', 1, 301, 196, '2024-08-22 10:06:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 103, 537, '2024-10-07 06:33:25', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 568, 925, '2024-06-10 16:59:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 103, 957, '2024-02-15 00:41:55', NULL, NULL); 
+VALUES ('Recomendable', 4, 568, 984, '2024-09-04 13:06:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 103, 269, '2024-04-06 08:08:05', NULL, NULL); 
+VALUES ('Bueno', 4, 118, 290, '2024-02-06 16:30:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 150, 1, '2024-11-24 03:12:03', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 118, 400, '2024-04-28 01:30:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 150, 790, '2024-05-26 19:34:02', NULL, NULL); 
+VALUES ('Buena calidad', 4, 118, 411, '2024-08-11 00:32:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 150, 57, '2024-04-09 16:41:41', NULL, NULL); 
+VALUES ('Muy bueno', 5, 118, 679, '2024-08-28 16:46:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 150, 953, '2024-10-17 05:17:15', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 92, 750, '2024-03-08 19:15:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 445, 326, '2024-01-17 22:06:42', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 92, 671, '2024-07-22 22:41:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 445, 574, '2024-01-24 18:47:15', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 92, 30, '2024-10-05 20:02:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 445, 159, '2024-09-13 07:55:21', NULL, NULL); 
+VALUES ('No me gustó', 1, 316, 264, '2024-09-24 15:05:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 345, 491, '2024-08-20 21:11:43', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 362, 150, '2024-12-19 08:42:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 117, 896, '2024-03-08 09:46:15', NULL, NULL); 
+VALUES ('Me encantó', 5, 362, 589, '2024-04-08 23:47:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 117, 123, '2024-06-14 01:42:46', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 362, 921, '2024-06-13 19:58:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 117, 42, '2024-10-09 08:50:02', NULL, NULL); 
+VALUES ('No lo compren', 1, 362, 845, '2024-08-28 21:20:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 117, 264, '2024-07-16 23:07:30', NULL, NULL); 
+VALUES ('No me gustó', 1, 646, 688, '2024-01-06 01:00:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 117, 468, '2024-06-11 11:03:33', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 646, 85, '2024-07-11 21:12:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 466, 115, '2024-10-10 10:38:59', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 646, 405, '2024-07-03 19:53:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 466, 489, '2024-04-13 19:55:11', NULL, NULL); 
+VALUES ('Nada especial', 3, 646, 492, '2024-01-25 00:44:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 368, 317, '2024-01-26 22:03:43', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 702, 460, '2024-12-16 21:08:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 368, 626, '2024-02-15 10:00:10', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 371, 142, '2024-12-16 02:40:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 73, 703, '2024-07-06 16:01:50', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 562, 962, '2024-06-24 19:35:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 73, 409, '2024-06-22 13:09:45', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 562, 663, '2024-09-25 09:01:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 73, 892, '2024-08-09 08:26:12', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 497, 924, '2024-02-09 19:20:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 73, 335, '2024-11-20 18:06:26', NULL, NULL); 
+VALUES ('Maravilloso', 5, 553, 843, '2024-10-17 03:18:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 73, 510, '2024-09-12 10:43:53', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 553, 596, '2024-12-20 03:52:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 174, 604, '2024-11-23 00:32:55', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 553, 877, '2024-12-20 07:04:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 174, 540, '2024-01-19 10:11:53', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 553, 386, '2024-06-22 20:20:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 174, 339, '2024-04-16 21:16:10', NULL, NULL); 
+VALUES ('Lo amé', 5, 553, 698, '2024-10-03 16:36:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 174, 660, '2024-11-17 14:58:17', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 48, 905, '2024-11-09 18:20:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 174, 677, '2024-04-04 22:17:56', NULL, NULL); 
+VALUES ('Normal', 3, 511, 795, '2024-02-25 14:28:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 82, 604, '2024-02-07 14:00:03', NULL, NULL); 
+VALUES ('Bueno', 4, 511, 169, '2024-01-14 11:59:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 82, 379, '2024-07-01 13:26:53', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 511, 871, '2024-09-06 00:55:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 82, 741, '2024-06-15 08:06:15', NULL, NULL); 
+VALUES ('Está bien', 3, 511, 799, '2024-03-03 21:07:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 312, 302, '2024-06-22 04:46:57', NULL, NULL); 
+VALUES ('Recomendable', 4, 511, 928, '2024-10-22 10:59:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 387, 883, '2024-02-19 07:34:15', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 173, 861, '2024-09-19 10:28:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 373, 309, '2024-12-16 06:59:07', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 218, 733, '2024-09-05 01:46:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 373, 617, '2024-06-03 01:00:08', NULL, NULL); 
+VALUES ('Nada especial', 3, 218, 172, '2024-06-03 18:28:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 222, 381, '2024-03-08 15:35:51', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 218, 362, '2024-09-16 03:20:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 222, 818, '2024-06-12 10:53:25', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 218, 798, '2024-01-17 18:10:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 222, 603, '2024-05-15 14:51:05', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 218, 60, '2024-11-28 02:04:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 222, 507, '2024-07-12 23:25:45', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 543, 327, '2024-07-22 23:12:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 222, 252, '2024-05-02 04:01:33', NULL, NULL); 
+VALUES ('Normal', 3, 543, 277, '2024-08-08 19:37:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 568, 920, '2024-09-10 06:47:18', NULL, NULL); 
+VALUES ('Pésimo', 1, 543, 602, '2024-10-27 20:12:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 568, 150, '2024-03-17 17:25:08', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 543, 385, '2024-03-23 18:32:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 568, 573, '2024-05-20 22:08:04', NULL, NULL); 
+VALUES ('No lo vale', 1, 543, 419, '2024-01-16 01:29:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 568, 582, '2024-10-25 13:03:47', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 510, 97, '2024-12-15 04:35:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 568, 846, '2024-10-15 20:05:53', NULL, NULL); 
+VALUES ('No me gustó', 1, 400, 308, '2024-11-08 00:35:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 341, 317, '2024-07-09 12:58:07', NULL, NULL); 
+VALUES ('Me gustó', 4, 400, 816, '2024-07-18 01:33:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 341, 670, '2024-03-11 04:09:19', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 400, 255, '2024-02-01 12:33:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 341, 590, '2024-12-26 03:21:04', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 368, 420, '2024-04-12 14:41:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 341, 955, '2024-11-18 04:51:27', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 368, 558, '2024-06-28 14:50:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 265, 838, '2024-03-18 06:24:18', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 404, 990, '2024-11-23 19:41:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 265, 135, '2024-02-06 17:14:13', NULL, NULL); 
+VALUES ('Excelente', 5, 404, 225, '2024-07-06 14:36:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 265, 774, '2024-08-25 12:08:07', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 404, 39, '2024-11-12 01:31:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 365, 541, '2024-11-15 17:09:36', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 404, 654, '2024-01-23 09:12:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 365, 194, '2024-09-21 19:06:18', NULL, NULL); 
+VALUES ('Malo', 2, 510, 463, '2024-05-10 12:53:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 365, 974, '2024-05-06 19:28:40', NULL, NULL); 
+VALUES ('Buena calidad', 4, 510, 561, '2024-01-24 17:25:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 365, 517, '2024-02-02 03:59:15', NULL, NULL); 
+VALUES ('Decepcionante', 1, 510, 648, '2024-04-22 08:31:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 40, 851, '2024-03-27 00:57:22', NULL, NULL); 
+VALUES ('No lo vale', 1, 510, 48, '2024-09-17 16:34:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 40, 738, '2024-12-05 09:43:56', NULL, NULL); 
+VALUES ('Nada especial', 3, 510, 219, '2024-04-07 07:23:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 40, 643, '2024-04-12 00:02:53', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 142, 92, '2024-01-14 06:30:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 91, 426, '2024-11-20 14:15:34', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 104, 104, '2024-11-03 21:40:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 91, 394, '2024-03-01 16:16:48', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 104, 614, '2024-10-14 04:20:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 91, 305, '2024-08-12 01:25:47', NULL, NULL); 
+VALUES ('Regular', 2, 530, 93, '2024-03-07 05:36:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 101, 613, '2024-09-21 09:10:21', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 530, 412, '2024-06-16 10:56:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 169, 913, '2024-01-12 00:11:23', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 480, 368, '2024-12-09 03:04:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 169, 163, '2024-04-12 01:06:56', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 480, 604, '2024-10-07 20:10:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 590, 720, '2024-06-09 14:11:17', NULL, NULL); 
+VALUES ('Muy bueno', 5, 480, 381, '2024-02-23 13:28:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 590, 128, '2024-09-13 10:09:19', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 378, 631, '2024-12-05 12:03:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 590, 846, '2024-01-13 18:47:53', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 378, 76, '2024-11-25 08:07:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 590, 546, '2024-03-14 20:27:36', NULL, NULL); 
+VALUES ('Muy bueno', 5, 378, 821, '2024-06-18 11:57:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 590, 519, '2024-04-05 09:45:55', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 431, 288, '2024-08-27 03:55:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 717, 807, '2024-09-11 02:42:41', NULL, NULL); 
+VALUES ('Me encantó', 5, 431, 46, '2024-07-08 11:52:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 717, 152, '2024-04-05 04:44:38', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 431, 693, '2024-12-24 08:07:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 717, 701, '2024-01-25 05:42:34', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 431, 398, '2024-03-15 05:14:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 717, 90, '2024-08-06 10:46:38', NULL, NULL); 
+VALUES ('Normal', 3, 431, 409, '2024-07-03 17:10:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 717, 325, '2024-07-04 03:44:50', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 625, 516, '2024-06-28 12:26:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 400, 716, '2024-02-10 05:34:44', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 625, 189, '2024-09-17 22:02:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 400, 761, '2024-04-26 17:38:47', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 625, 742, '2024-07-28 01:36:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 8, 474, '2024-10-06 08:20:13', NULL, NULL); 
+VALUES ('No me gustó', 1, 625, 741, '2024-01-04 22:26:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 8, 2, '2024-09-03 04:11:24', NULL, NULL); 
+VALUES ('No lo vale', 1, 625, 906, '2024-06-14 03:30:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 8, 316, '2024-01-10 16:57:32', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 649, 210, '2024-02-22 05:19:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 8, 509, '2024-09-06 01:41:35', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 649, 965, '2024-02-12 18:16:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 251, 867, '2024-06-22 04:36:19', NULL, NULL); 
+VALUES ('Nada especial', 3, 517, 40, '2024-12-07 17:58:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 251, 130, '2024-11-15 21:42:50', NULL, NULL); 
+VALUES ('Nada especial', 3, 517, 733, '2024-04-09 22:25:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 251, 91, '2024-05-27 14:55:02', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 150, 877, '2024-10-13 22:12:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 639, 839, '2024-09-07 15:11:44', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 150, 168, '2024-07-16 19:24:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 55, 267, '2024-08-26 13:15:33', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 575, 219, '2024-06-11 13:45:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 55, 659, '2024-06-17 05:46:56', NULL, NULL); 
+VALUES ('Buena calidad', 4, 86, 122, '2024-10-07 18:37:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 459, 517, '2024-04-02 11:20:57', NULL, NULL); 
+VALUES ('Nada especial', 3, 86, 578, '2024-07-02 21:19:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 459, 199, '2024-10-21 20:51:47', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 86, 649, '2024-03-20 04:09:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 459, 948, '2024-01-12 13:09:42', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 86, 661, '2024-03-12 21:51:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 459, 560, '2024-06-07 21:28:53', NULL, NULL); 
+VALUES ('Lo amé', 5, 687, 227, '2024-03-12 08:52:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 110, 106, '2024-05-05 06:22:53', NULL, NULL); 
+VALUES ('Malo', 2, 687, 811, '2024-12-11 04:39:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 110, 582, '2024-03-06 21:27:09', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 86, 93, '2024-11-18 21:38:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 214, 773, '2024-08-11 21:22:01', NULL, NULL); 
+VALUES ('Muy bueno', 5, 86, 224, '2024-11-18 19:58:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 214, 613, '2024-04-20 05:30:47', NULL, NULL); 
+VALUES ('Maravilloso', 5, 86, 535, '2024-12-03 21:03:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 214, 299, '2024-12-13 05:28:54', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 86, 955, '2024-07-24 23:24:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 214, 685, '2024-09-22 10:21:28', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 86, 333, '2024-04-10 11:13:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 214, 963, '2024-09-24 21:55:38', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 277, 597, '2024-12-17 21:43:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 690, 760, '2024-04-14 08:35:33', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 277, 991, '2024-04-17 01:18:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 690, 610, '2024-02-04 23:18:51', NULL, NULL); 
+VALUES ('Pésimo', 1, 629, 372, '2024-07-15 02:05:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 690, 761, '2024-12-20 05:02:02', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 629, 758, '2024-11-07 18:37:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 690, 336, '2024-06-16 15:00:40', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 629, 668, '2024-11-01 18:38:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 328, 876, '2024-04-18 11:32:16', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 629, 490, '2024-06-25 05:11:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 328, 295, '2024-04-26 23:53:40', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 327, 514, '2024-05-11 21:33:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 328, 479, '2024-05-03 12:13:29', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 327, 559, '2024-07-05 12:30:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 328, 358, '2024-03-15 19:56:06', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 85, 567, '2024-12-04 14:59:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 328, 631, '2024-03-01 08:33:53', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 85, 444, '2024-08-24 18:41:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 131, 376, '2024-12-25 18:51:57', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 85, 89, '2024-06-27 05:09:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 131, 169, '2024-12-20 09:32:24', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 467, 973, '2024-12-26 14:01:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 508, 12, '2024-02-04 14:33:25', NULL, NULL); 
+VALUES ('Increíble', 5, 467, 792, '2024-05-18 14:47:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 508, 425, '2024-08-19 12:55:38', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 467, 696, '2024-07-14 08:17:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 508, 589, '2024-04-04 18:54:09', NULL, NULL); 
+VALUES ('Increíble', 5, 536, 394, '2024-04-11 12:24:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 508, 667, '2024-01-01 03:49:24', NULL, NULL); 
+VALUES ('Nada especial', 3, 536, 657, '2024-04-28 18:09:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 97, 421, '2024-07-21 00:43:35', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 536, 752, '2024-07-15 05:37:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 97, 521, '2024-11-07 08:47:15', NULL, NULL); 
+VALUES ('Nada especial', 3, 414, 722, '2024-11-02 09:44:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 97, 257, '2024-02-05 23:12:25', NULL, NULL); 
+VALUES ('Malo', 2, 414, 248, '2024-09-17 15:28:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 97, 514, '2024-09-11 01:55:54', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 119, 813, '2024-05-17 17:05:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 486, 440, '2024-06-05 03:32:13', NULL, NULL); 
+VALUES ('Excelente', 5, 119, 573, '2024-01-25 21:00:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 486, 126, '2024-08-28 06:51:10', NULL, NULL); 
+VALUES ('Malo', 2, 119, 387, '2024-05-17 18:18:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 486, 669, '2024-11-13 10:45:22', NULL, NULL); 
+VALUES ('Normal', 3, 119, 878, '2024-06-02 03:32:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 486, 389, '2024-04-05 01:52:29', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 62, 156, '2024-05-01 11:22:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 486, 698, '2024-05-13 12:17:20', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 126, 581, '2024-01-28 22:18:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 712, 694, '2024-03-19 22:35:15', NULL, NULL); 
+VALUES ('No está mal', 3, 126, 898, '2024-12-02 18:59:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 712, 486, '2024-05-03 20:58:39', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 126, 161, '2024-03-12 02:02:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 712, 415, '2024-03-18 00:34:00', NULL, NULL); 
+VALUES ('Pésimo', 1, 126, 14, '2024-07-06 05:49:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 712, 298, '2024-03-09 19:05:41', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 368, 582, '2024-10-23 08:35:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 517, 322, '2024-11-10 18:01:12', NULL, NULL); 
+VALUES ('Bueno', 4, 368, 241, '2024-05-13 01:47:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 517, 934, '2024-03-13 07:01:59', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 543, 757, '2024-12-11 20:39:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 517, 236, '2024-10-16 06:23:02', NULL, NULL); 
+VALUES ('Maravilloso', 5, 543, 865, '2024-04-01 07:03:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 517, 862, '2024-08-05 10:34:13', NULL, NULL); 
+VALUES ('Increíble', 5, 655, 954, '2024-03-28 18:20:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 445, 879, '2024-07-09 16:36:25', NULL, NULL); 
+VALUES ('No está mal', 3, 655, 309, '2024-09-18 11:11:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 445, 821, '2024-03-19 17:14:48', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 655, 642, '2024-04-23 19:33:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 445, 34, '2024-02-03 13:35:10', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 1, 622, '2024-12-23 16:40:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 445, 682, '2024-10-23 19:30:02', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 259, 229, '2024-10-16 05:40:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 251, 526, '2024-06-15 17:04:13', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 259, 13, '2024-03-18 16:59:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 251, 556, '2024-02-21 02:26:18', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 259, 926, '2024-10-23 10:32:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 251, 276, '2024-12-06 02:55:05', NULL, NULL); 
+VALUES ('Nada especial', 3, 259, 528, '2024-11-02 09:11:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 251, 256, '2024-09-02 08:17:37', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 24, 707, '2024-06-13 22:46:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 363, 71, '2024-12-25 19:12:41', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 24, 53, '2024-03-08 03:42:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 594, 83, '2024-08-18 11:14:29', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 24, 44, '2024-05-13 20:06:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 594, 411, '2024-12-09 15:49:50', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 644, 427, '2024-11-18 12:33:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 594, 856, '2024-06-12 07:49:32', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 644, 165, '2024-02-25 05:42:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 594, 550, '2024-07-27 10:03:21', NULL, NULL); 
+VALUES ('Lo amé', 5, 644, 787, '2024-02-04 10:14:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 426, 488, '2024-07-13 14:13:15', NULL, NULL); 
+VALUES ('Increíble', 5, 644, 673, '2024-12-02 12:01:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 426, 637, '2024-06-23 21:01:19', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 438, 709, '2024-02-13 13:55:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 426, 783, '2024-06-16 22:46:23', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 438, 857, '2024-05-06 17:57:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 426, 542, '2024-08-17 03:34:19', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 438, 924, '2024-04-18 12:15:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 618, 618, '2024-11-16 09:40:03', NULL, NULL); 
+VALUES ('Está bien', 3, 438, 471, '2024-08-11 14:29:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 618, 305, '2024-03-25 07:20:57', NULL, NULL); 
+VALUES ('Nada especial', 3, 149, 898, '2024-04-06 23:41:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 618, 807, '2024-03-18 19:19:28', NULL, NULL); 
+VALUES ('Buena calidad', 4, 149, 11, '2024-12-03 09:49:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 618, 28, '2024-10-24 15:47:49', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 149, 946, '2024-04-06 09:45:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 576, 966, '2024-08-22 04:31:10', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 149, 581, '2024-01-01 20:40:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 576, 203, '2024-06-15 01:14:21', NULL, NULL); 
+VALUES ('Maravilloso', 5, 329, 837, '2024-07-15 11:09:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 576, 364, '2024-03-13 06:02:09', NULL, NULL); 
+VALUES ('Maravilloso', 5, 489, 195, '2024-10-25 17:27:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 385, 301, '2024-11-26 16:26:21', NULL, NULL); 
+VALUES ('No lo compren', 1, 489, 571, '2024-01-27 17:42:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 385, 463, '2024-10-10 01:15:09', NULL, NULL); 
+VALUES ('Maravilloso', 5, 489, 168, '2024-10-14 22:15:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 385, 291, '2024-05-17 18:19:39', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 489, 222, '2024-05-21 08:55:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 360, 277, '2024-01-01 00:18:25', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 489, 374, '2024-07-08 20:11:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 360, 367, '2024-04-12 11:02:29', NULL, NULL); 
+VALUES ('Malo', 2, 680, 710, '2024-06-12 13:06:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 360, 110, '2024-12-18 22:06:45', NULL, NULL); 
+VALUES ('Maravilloso', 5, 254, 550, '2024-08-12 12:19:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 360, 168, '2024-06-09 13:39:36', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 254, 577, '2024-05-14 20:43:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 360, 336, '2024-04-18 19:47:55', NULL, NULL); 
+VALUES ('Maravilloso', 5, 254, 935, '2024-05-25 08:10:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 270, 446, '2024-08-24 10:57:20', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 254, 107, '2024-09-04 22:36:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 632, 58, '2024-09-08 11:16:52', NULL, NULL); 
+VALUES ('Regular', 2, 536, 541, '2024-05-02 01:03:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 632, 215, '2024-06-08 19:17:59', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 536, 22, '2024-08-06 04:38:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 632, 786, '2024-01-19 18:56:52', NULL, NULL); 
+VALUES ('Lo amé', 5, 536, 235, '2024-06-20 04:45:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 632, 563, '2024-11-04 06:37:54', NULL, NULL); 
+VALUES ('Bueno', 4, 536, 370, '2024-10-06 09:34:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 513, 49, '2024-09-06 15:00:38', NULL, NULL); 
+VALUES ('Bueno', 4, 601, 615, '2024-03-11 22:06:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 648, 282, '2024-11-09 22:14:01', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 601, 257, '2024-06-10 01:42:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 648, 427, '2024-12-18 13:34:24', NULL, NULL); 
+VALUES ('Muy bueno', 5, 601, 491, '2024-04-05 12:08:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 648, 316, '2024-09-22 18:40:17', NULL, NULL); 
+VALUES ('Maravilloso', 5, 601, 987, '2024-03-26 15:04:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 648, 153, '2024-03-03 05:32:52', NULL, NULL); 
+VALUES ('No está mal', 3, 212, 79, '2024-06-07 11:55:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 603, 321, '2024-02-24 19:36:09', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 212, 597, '2024-02-16 06:29:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 603, 427, '2024-06-22 07:58:56', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 212, 965, '2024-07-10 02:18:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 186, 39, '2024-09-03 11:50:13', NULL, NULL); 
+VALUES ('Lo amé', 5, 212, 511, '2024-12-16 10:35:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 186, 902, '2024-11-22 05:04:17', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 438, 195, '2024-10-11 13:46:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 545, 553, '2024-08-02 12:45:08', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 438, 65, '2024-12-08 08:22:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 519, 24, '2024-06-14 15:26:08', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 438, 997, '2024-01-12 10:34:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 519, 201, '2024-01-02 01:47:07', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 31, 916, '2024-12-25 00:56:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 519, 626, '2024-06-18 20:24:17', NULL, NULL); 
+VALUES ('No me gustó', 1, 674, 804, '2024-07-22 08:23:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 519, 556, '2024-02-06 12:10:54', NULL, NULL); 
+VALUES ('Lo amé', 5, 674, 767, '2024-08-24 11:18:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 673, 435, '2024-05-02 01:31:43', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 53, 452, '2024-12-11 23:07:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 673, 323, '2024-08-10 05:33:38', NULL, NULL); 
+VALUES ('Normal', 3, 53, 54, '2024-01-27 19:39:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 673, 793, '2024-12-14 00:41:07', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 53, 132, '2024-07-21 07:59:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 50, 328, '2024-02-14 19:50:18', NULL, NULL); 
+VALUES ('Aceptable', 3, 53, 176, '2024-05-02 18:40:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 396, 60, '2024-07-17 16:13:48', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 455, 395, '2024-05-27 00:39:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 396, 745, '2024-04-02 22:00:05', NULL, NULL); 
+VALUES ('No lo vale', 1, 455, 571, '2024-08-01 11:22:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 57, 698, '2024-02-09 06:46:29', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 455, 334, '2024-07-16 12:26:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 312, 354, '2024-07-17 14:09:54', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 455, 347, '2024-12-22 07:15:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 312, 304, '2024-08-15 08:42:31', NULL, NULL); 
+VALUES ('Aceptable', 3, 455, 494, '2024-11-02 02:06:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 187, 185, '2024-06-20 16:24:32', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 597, 572, '2024-12-18 12:43:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 187, 53, '2024-12-01 15:26:44', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 597, 626, '2024-08-18 12:27:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 187, 143, '2024-05-16 02:22:17', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 6, 298, '2024-06-17 11:32:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 381, 277, '2024-11-06 03:07:32', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 618, 86, '2024-06-22 20:42:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 381, 621, '2024-10-06 11:14:50', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 123, 430, '2024-01-27 12:04:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 381, 539, '2024-07-16 14:45:19', NULL, NULL); 
+VALUES ('Malo', 2, 123, 676, '2024-01-06 18:50:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 381, 6, '2024-07-02 01:27:16', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 123, 717, '2024-12-19 14:19:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 170, 762, '2024-12-25 14:16:22', NULL, NULL); 
+VALUES ('Decepcionante', 1, 123, 504, '2024-10-10 03:48:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 43, 848, '2024-09-06 06:35:35', NULL, NULL); 
+VALUES ('Regular', 2, 123, 290, '2024-07-20 23:03:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 43, 254, '2024-07-10 03:50:03', NULL, NULL); 
+VALUES ('Lo amé', 5, 456, 296, '2024-11-09 16:55:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 43, 940, '2024-07-04 19:24:02', NULL, NULL); 
+VALUES ('Increíble', 5, 456, 938, '2024-10-01 03:19:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 323, 163, '2024-01-19 21:55:14', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 456, 191, '2024-01-22 23:13:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 323, 585, '2024-07-27 13:15:47', NULL, NULL); 
+VALUES ('Malo', 2, 456, 757, '2024-11-11 03:17:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 323, 351, '2024-06-18 06:07:28', NULL, NULL); 
+VALUES ('Aceptable', 3, 456, 219, '2024-10-08 11:44:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 691, 686, '2024-08-26 13:08:11', NULL, NULL); 
+VALUES ('No lo vale', 1, 375, 738, '2024-04-22 20:33:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 242, 198, '2024-01-15 05:31:55', NULL, NULL); 
+VALUES ('Maravilloso', 5, 375, 633, '2024-04-26 22:07:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 554, 525, '2024-08-10 02:02:56', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 375, 336, '2024-07-20 09:10:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 554, 642, '2024-09-09 22:08:50', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 375, 147, '2024-11-27 22:57:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 554, 18, '2024-12-01 05:32:56', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 375, 474, '2024-07-07 17:04:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 554, 555, '2024-10-05 11:46:08', NULL, NULL); 
+VALUES ('No está mal', 3, 145, 553, '2024-08-18 23:09:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 554, 688, '2024-12-26 06:25:51', NULL, NULL); 
+VALUES ('Nada especial', 3, 145, 739, '2024-02-04 00:01:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 457, 11, '2024-05-01 13:29:14', NULL, NULL); 
+VALUES ('Regular', 2, 145, 892, '2024-06-25 06:01:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 457, 567, '2024-02-15 15:12:36', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 145, 167, '2024-02-26 13:11:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 457, 470, '2024-02-19 17:54:42', NULL, NULL); 
+VALUES ('Decepcionante', 1, 145, 71, '2024-01-11 10:45:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 457, 197, '2024-07-02 23:09:05', NULL, NULL); 
+VALUES ('No está mal', 3, 330, 91, '2024-06-07 07:44:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 117, 985, '2024-03-23 16:21:49', NULL, NULL); 
+VALUES ('Aceptable', 3, 330, 649, '2024-07-10 16:30:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 117, 869, '2024-03-23 02:41:17', NULL, NULL); 
+VALUES ('Nada especial', 3, 330, 632, '2024-12-12 13:48:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 588, 960, '2024-07-03 21:40:01', NULL, NULL); 
+VALUES ('Es pasable', 3, 330, 299, '2024-06-11 07:39:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 588, 72, '2024-04-05 15:17:51', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 329, 790, '2024-02-12 09:09:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 588, 581, '2024-07-11 02:56:41', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 329, 576, '2024-04-21 22:25:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 588, 277, '2024-05-16 09:51:49', NULL, NULL); 
+VALUES ('No me gustó', 1, 329, 497, '2024-01-04 22:57:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 588, 959, '2024-02-20 08:11:16', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 396, 763, '2024-09-24 07:42:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 515, 328, '2024-11-01 16:42:16', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 396, 750, '2024-03-22 00:14:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 515, 653, '2024-09-07 06:51:06', NULL, NULL); 
+VALUES ('Aceptable', 3, 15, 326, '2024-06-18 15:09:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 9, 772, '2024-11-18 00:29:52', NULL, NULL); 
+VALUES ('Me gustó', 4, 15, 249, '2024-11-13 02:00:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 9, 647, '2024-11-16 12:08:06', NULL, NULL); 
+VALUES ('Muy malo', 1, 15, 73, '2024-12-09 20:22:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 574, 644, '2024-05-18 00:55:15', NULL, NULL); 
+VALUES ('Recomendable', 4, 346, 9, '2024-05-01 19:15:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 202, 784, '2024-11-03 22:52:25', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 591, 130, '2024-04-08 02:28:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 202, 362, '2024-10-17 10:28:35', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 287, 31, '2024-04-28 09:04:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 203, 120, '2024-06-08 10:48:28', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 287, 543, '2024-05-04 15:08:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 203, 724, '2024-10-24 19:35:59', NULL, NULL); 
+VALUES ('Bueno', 4, 287, 619, '2024-05-12 10:50:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 203, 52, '2024-02-05 17:45:37', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 287, 242, '2024-05-17 02:48:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 203, 615, '2024-05-26 17:13:43', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 362, 734, '2024-05-13 02:00:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 203, 110, '2024-12-26 10:38:47', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 362, 883, '2024-03-23 19:18:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 654, 259, '2024-05-07 14:28:50', NULL, NULL); 
+VALUES ('Decepcionante', 1, 362, 971, '2024-02-12 19:48:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 654, 35, '2024-02-25 23:30:55', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 362, 321, '2024-01-24 00:28:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 654, 557, '2024-06-22 13:48:41', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 562, 238, '2024-11-17 03:52:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 654, 974, '2024-09-05 18:08:40', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 562, 756, '2024-12-18 08:54:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 681, 703, '2024-04-07 07:39:33', NULL, NULL); 
+VALUES ('No está mal', 3, 610, 729, '2024-02-06 00:12:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 681, 127, '2024-09-07 11:31:30', NULL, NULL); 
+VALUES ('Me gustó', 4, 610, 535, '2024-12-14 11:34:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 681, 472, '2024-12-11 02:42:47', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 610, 444, '2024-12-28 01:35:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 341, 919, '2024-04-09 01:41:06', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 610, 522, '2024-08-02 11:11:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 90, 711, '2024-10-23 08:25:48', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 383, 969, '2024-07-09 08:33:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 90, 426, '2024-12-16 02:24:34', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 383, 293, '2024-03-14 03:01:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 90, 117, '2024-05-18 03:44:25', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 383, 798, '2024-09-05 00:49:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 71, 80, '2024-03-21 08:06:56', NULL, NULL); 
+VALUES ('Maravilloso', 5, 383, 130, '2024-11-17 20:51:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 71, 249, '2024-09-19 07:58:00', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 2, 111, '2024-07-23 20:29:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 71, 896, '2024-01-17 11:52:23', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 2, 841, '2024-08-01 12:16:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 71, 77, '2024-04-17 13:59:40', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 2, 44, '2024-08-01 21:56:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 629, 762, '2024-12-09 16:46:36', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 75, 452, '2024-12-13 19:35:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 629, 479, '2024-06-12 17:56:02', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 75, 633, '2024-02-16 19:21:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 629, 661, '2024-10-08 22:03:05', NULL, NULL); 
+VALUES ('Excelente', 5, 130, 620, '2024-09-14 16:32:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 531, 858, '2024-06-05 11:03:40', NULL, NULL); 
+VALUES ('Muy bueno', 5, 130, 683, '2024-09-25 09:17:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 531, 465, '2024-04-14 10:39:26', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 625, 648, '2024-04-26 20:24:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 600, 763, '2024-11-26 19:37:34', NULL, NULL); 
+VALUES ('Recomendable', 4, 625, 155, '2024-03-01 17:51:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 600, 473, '2024-06-17 01:24:17', NULL, NULL); 
+VALUES ('Muy bueno', 5, 310, 476, '2024-01-28 17:00:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 210, 335, '2024-02-03 08:32:36', NULL, NULL); 
+VALUES ('Normal', 3, 631, 249, '2024-07-17 22:47:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 210, 176, '2024-04-23 09:23:41', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 631, 322, '2024-01-02 02:23:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 583, 784, '2024-01-19 16:46:34', NULL, NULL); 
+VALUES ('Normal', 3, 631, 17, '2024-05-10 16:18:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 583, 103, '2024-04-28 00:25:33', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 360, 696, '2024-08-18 04:12:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 658, 440, '2024-11-14 09:21:46', NULL, NULL); 
+VALUES ('Nada especial', 3, 360, 870, '2024-09-05 02:05:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 658, 251, '2024-01-09 12:52:54', NULL, NULL); 
+VALUES ('Pésimo', 1, 360, 334, '2024-01-21 15:39:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 658, 793, '2024-01-17 20:53:51', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 675, 12, '2024-08-22 22:29:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 658, 724, '2024-08-08 13:13:28', NULL, NULL); 
+VALUES ('No está mal', 3, 675, 404, '2024-09-16 19:13:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 658, 828, '2024-04-10 00:39:09', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 675, 26, '2024-02-19 23:51:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 596, 375, '2024-08-01 12:44:46', NULL, NULL); 
+VALUES ('Muy bueno', 5, 440, 169, '2024-07-08 17:57:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 596, 747, '2024-06-02 05:10:17', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 440, 609, '2024-10-21 07:29:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 596, 760, '2024-11-03 15:05:49', NULL, NULL); 
+VALUES ('Aceptable', 3, 440, 574, '2024-08-24 10:02:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 596, 162, '2024-09-06 01:59:30', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 440, 486, '2024-09-19 05:45:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 671, 536, '2024-06-12 08:58:04', NULL, NULL); 
+VALUES ('Nada especial', 3, 440, 200, '2024-05-14 18:19:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 671, 866, '2024-08-11 18:26:28', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 504, 709, '2024-05-09 14:14:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 356, 175, '2024-03-19 14:00:45', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 504, 344, '2024-12-11 03:21:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 356, 187, '2024-01-09 18:03:50', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 504, 383, '2024-03-10 18:54:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 356, 457, '2024-11-20 01:47:26', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 535, 423, '2024-12-24 18:09:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 356, 984, '2024-03-08 14:00:19', NULL, NULL); 
+VALUES ('Muy malo', 1, 535, 227, '2024-04-19 08:29:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 356, 263, '2024-07-16 15:44:35', NULL, NULL); 
+VALUES ('Excelente', 5, 535, 659, '2024-04-02 05:47:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 542, 860, '2024-05-25 06:13:09', NULL, NULL); 
+VALUES ('Decepcionante', 1, 535, 150, '2024-03-17 04:15:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 542, 532, '2024-09-15 12:29:44', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 535, 411, '2024-04-06 21:02:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 542, 250, '2024-11-07 18:02:06', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 409, 726, '2024-08-22 23:59:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 542, 594, '2024-11-18 20:56:01', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 409, 417, '2024-11-06 22:40:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 542, 3, '2024-05-24 21:02:51', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 669, 711, '2024-05-16 18:01:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 630, 605, '2024-02-21 18:46:34', NULL, NULL); 
+VALUES ('Muy malo', 1, 669, 350, '2024-08-05 02:12:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 630, 16, '2024-02-20 19:03:14', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 148, 635, '2024-05-10 03:08:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 630, 151, '2024-11-10 15:41:59', NULL, NULL); 
+VALUES ('Excelente', 5, 181, 581, '2024-08-07 12:15:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 630, 362, '2024-10-28 07:15:18', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 181, 330, '2024-09-25 19:40:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 335, 216, '2024-11-23 10:37:19', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 181, 362, '2024-01-01 10:27:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 335, 501, '2024-04-22 02:22:37', NULL, NULL); 
+VALUES ('Muy malo', 1, 181, 961, '2024-01-16 18:06:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 335, 786, '2024-09-20 23:44:38', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 181, 861, '2024-02-15 00:16:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 335, 977, '2024-09-16 12:39:27', NULL, NULL); 
+VALUES ('Buena calidad', 4, 377, 978, '2024-11-10 16:39:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 335, 97, '2024-01-18 04:28:40', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 377, 572, '2024-10-23 00:08:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 94, 358, '2024-03-04 07:59:33', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 377, 521, '2024-03-23 22:17:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 340, 730, '2024-02-10 05:38:12', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 377, 987, '2024-11-07 19:37:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 636, 483, '2024-05-26 16:29:08', NULL, NULL); 
+VALUES ('Increíble', 5, 377, 378, '2024-04-05 01:38:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 636, 355, '2024-09-16 18:47:13', NULL, NULL); 
+VALUES ('Lo amé', 5, 625, 782, '2024-10-14 03:31:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 636, 614, '2024-12-08 16:55:36', NULL, NULL); 
+VALUES ('Increíble', 5, 625, 671, '2024-09-26 05:34:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 636, 789, '2024-11-22 21:26:55', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 625, 496, '2024-04-12 18:35:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 215, 969, '2024-02-04 19:23:26', NULL, NULL); 
+VALUES ('Regular', 2, 625, 297, '2024-04-27 10:40:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 398, 203, '2024-09-01 01:39:40', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 487, 108, '2024-10-23 20:42:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 398, 755, '2024-09-06 02:09:16', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 436, 932, '2024-03-06 06:01:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 398, 535, '2024-01-10 12:45:55', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 436, 655, '2024-08-26 14:10:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 398, 264, '2024-10-11 06:25:07', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 436, 238, '2024-03-10 14:21:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 93, 280, '2024-02-21 20:29:50', NULL, NULL); 
+VALUES ('Recomendable', 4, 332, 168, '2024-02-18 09:10:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 93, 314, '2024-04-17 07:52:44', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 218, 214, '2024-10-08 10:41:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 93, 110, '2024-07-14 17:27:15', NULL, NULL); 
+VALUES ('Me encantó', 5, 218, 467, '2024-03-21 08:50:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 300, 802, '2024-01-02 01:54:36', NULL, NULL); 
+VALUES ('Aceptable', 3, 218, 772, '2024-10-25 11:23:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 300, 994, '2024-07-03 12:09:10', NULL, NULL); 
+VALUES ('Buena calidad', 4, 218, 141, '2024-03-20 16:54:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 300, 76, '2024-05-09 14:36:30', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 352, 189, '2024-03-22 08:09:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 300, 833, '2024-12-24 18:28:04', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 69, 32, '2024-02-11 16:00:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 492, 671, '2024-07-25 11:16:25', NULL, NULL); 
+VALUES ('Increíble', 5, 69, 730, '2024-02-01 21:57:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 492, 525, '2024-04-28 20:51:36', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 69, 938, '2024-04-17 13:16:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 492, 427, '2024-11-03 21:33:58', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 291, 143, '2024-11-27 17:23:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 492, 821, '2024-03-01 15:06:28', NULL, NULL); 
+VALUES ('Lo amé', 5, 291, 612, '2024-05-10 03:46:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 22, 996, '2024-01-09 12:58:18', NULL, NULL); 
+VALUES ('Maravilloso', 5, 291, 150, '2024-03-27 22:01:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 22, 742, '2024-10-14 06:07:31', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 291, 84, '2024-04-26 19:28:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 22, 421, '2024-06-28 03:04:33', NULL, NULL); 
+VALUES ('Excelente', 5, 312, 102, '2024-11-02 19:53:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 22, 48, '2024-05-07 05:45:41', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 312, 281, '2024-11-24 12:30:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 22, 316, '2024-04-25 00:28:57', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 312, 757, '2024-03-28 18:02:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 280, 328, '2024-07-24 16:37:44', NULL, NULL); 
+VALUES ('No está mal', 3, 312, 209, '2024-08-05 03:06:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 280, 322, '2024-01-22 20:07:16', NULL, NULL); 
+VALUES ('Recomendable', 4, 312, 704, '2024-08-01 01:12:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 280, 864, '2024-10-19 16:14:56', NULL, NULL); 
+VALUES ('Malo', 2, 526, 200, '2024-05-28 05:44:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 280, 534, '2024-07-07 17:36:34', NULL, NULL); 
+VALUES ('Aceptable', 3, 526, 196, '2024-07-02 02:41:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 280, 777, '2024-08-21 03:52:39', NULL, NULL); 
+VALUES ('Está bien', 3, 212, 466, '2024-06-18 22:06:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 68, 498, '2024-08-07 08:06:34', NULL, NULL); 
+VALUES ('Me encantó', 5, 212, 230, '2024-01-10 05:00:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 68, 956, '2024-01-21 14:35:54', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 212, 229, '2024-10-19 10:47:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 68, 163, '2024-03-10 01:28:28', NULL, NULL); 
+VALUES ('Regular', 2, 212, 355, '2024-05-26 23:43:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 68, 448, '2024-06-23 12:18:04', NULL, NULL); 
+VALUES ('Me gustó', 4, 212, 629, '2024-09-09 23:21:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 68, 672, '2024-05-04 22:33:24', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 676, 393, '2024-02-06 13:19:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 702, 940, '2024-02-12 16:58:08', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 676, 57, '2024-12-09 23:45:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 702, 318, '2024-02-21 18:54:01', NULL, NULL); 
+VALUES ('Recomendable', 4, 676, 996, '2024-04-19 14:10:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 444, 97, '2024-12-02 00:04:03', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 676, 28, '2024-11-07 01:17:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 444, 605, '2024-10-07 15:12:36', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 677, 558, '2024-04-15 16:39:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 444, 705, '2024-12-15 02:23:51', NULL, NULL); 
+VALUES ('No lo compren', 1, 461, 866, '2024-04-08 14:50:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 444, 728, '2024-03-04 09:48:45', NULL, NULL); 
+VALUES ('Excelente', 5, 461, 923, '2024-02-18 20:33:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 173, 833, '2024-01-03 02:49:56', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 461, 731, '2024-11-04 15:20:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 173, 646, '2024-12-18 01:10:46', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 461, 632, '2024-01-16 09:19:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 173, 362, '2024-05-15 03:08:01', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 461, 681, '2024-09-07 16:37:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 173, 213, '2024-07-08 16:02:49', NULL, NULL); 
+VALUES ('No lo vale', 1, 611, 734, '2024-04-17 22:09:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 211, 119, '2024-05-01 03:59:09', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 91, 204, '2024-01-21 04:11:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 211, 53, '2024-04-10 05:56:43', NULL, NULL); 
+VALUES ('Me encantó', 5, 91, 494, '2024-03-14 04:22:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 211, 849, '2024-01-11 02:08:30', NULL, NULL); 
+VALUES ('Excelente', 5, 91, 609, '2024-10-10 03:08:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 211, 654, '2024-04-22 16:26:55', NULL, NULL); 
+VALUES ('Recomendable', 4, 91, 383, '2024-07-21 04:48:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 211, 90, '2024-11-23 21:10:21', NULL, NULL); 
+VALUES ('No lo compren', 1, 51, 15, '2024-11-07 22:32:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 282, 581, '2024-03-26 04:38:03', NULL, NULL); 
+VALUES ('Me encantó', 5, 412, 213, '2024-09-16 18:04:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 282, 202, '2024-12-04 07:28:19', NULL, NULL); 
+VALUES ('No me gustó', 1, 412, 73, '2024-12-12 23:38:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 282, 744, '2024-09-19 13:03:20', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 412, 297, '2024-12-04 21:53:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 282, 746, '2024-09-15 10:32:44', NULL, NULL); 
+VALUES ('Malo', 2, 412, 82, '2024-11-20 00:46:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 282, 885, '2024-09-28 12:08:06', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 412, 462, '2024-12-15 23:13:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 572, 89, '2024-08-23 06:03:25', NULL, NULL); 
+VALUES ('Nada especial', 3, 237, 106, '2024-12-17 12:21:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 572, 963, '2024-04-08 19:35:34', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 237, 722, '2024-10-08 12:28:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 572, 255, '2024-04-24 15:59:09', NULL, NULL); 
+VALUES ('Está bien', 3, 237, 394, '2024-09-13 06:12:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 19, 641, '2024-06-07 05:35:21', NULL, NULL); 
+VALUES ('Malo', 2, 68, 699, '2024-01-22 21:01:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 19, 618, '2024-05-01 05:23:02', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 68, 491, '2024-11-18 04:47:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 208, 300, '2024-11-10 07:02:51', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 68, 511, '2024-05-27 16:16:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 208, 768, '2024-02-06 11:29:41', NULL, NULL); 
+VALUES ('Malo', 2, 68, 389, '2024-11-28 05:32:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 208, 25, '2024-07-12 14:49:47', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 68, 692, '2024-05-19 17:25:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 208, 788, '2024-06-06 03:14:44', NULL, NULL); 
+VALUES ('No está mal', 3, 269, 510, '2024-01-08 09:40:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 425, 349, '2024-11-28 09:21:23', NULL, NULL); 
+VALUES ('Está bien', 3, 269, 521, '2024-06-12 23:26:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 425, 269, '2024-04-28 05:10:28', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 330, 177, '2024-05-06 13:26:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 255, 488, '2024-10-21 10:26:44', NULL, NULL); 
+VALUES ('Aceptable', 3, 330, 233, '2024-12-15 15:15:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 255, 25, '2024-09-09 09:48:32', NULL, NULL); 
+VALUES ('Buena calidad', 4, 563, 514, '2024-06-04 14:22:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 255, 67, '2024-06-10 16:49:31', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 563, 868, '2024-06-27 14:26:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 255, 245, '2024-01-05 06:40:26', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 563, 246, '2024-11-12 15:24:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 255, 777, '2024-01-17 17:11:10', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 602, 793, '2024-03-21 08:42:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 5, 647, '2024-03-28 10:59:25', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 602, 948, '2024-04-04 13:33:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 5, 662, '2024-08-20 22:34:28', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 602, 624, '2024-09-02 19:27:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 5, 566, '2024-02-23 16:32:25', NULL, NULL); 
+VALUES ('Pésimo', 1, 602, 716, '2024-11-05 03:34:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 5, 241, '2024-09-13 09:18:14', NULL, NULL); 
+VALUES ('No me gustó', 1, 602, 379, '2024-10-18 09:11:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 468, 207, '2024-06-21 09:56:31', NULL, NULL); 
+VALUES ('No lo compren', 1, 61, 404, '2024-06-27 03:34:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 533, 740, '2024-01-02 15:12:09', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 179, 241, '2024-01-27 13:38:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 533, 760, '2024-06-01 05:53:14', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 179, 654, '2024-03-20 21:24:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 533, 947, '2024-02-24 06:32:28', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 179, 42, '2024-07-23 05:33:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 533, 14, '2024-05-12 08:08:15', NULL, NULL); 
+VALUES ('No me gustó', 1, 179, 927, '2024-01-03 15:42:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 533, 629, '2024-05-09 15:27:26', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 518, 118, '2024-12-07 16:38:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 664, 112, '2024-03-18 21:30:09', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 518, 303, '2024-01-27 03:54:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 605, 936, '2024-09-15 04:27:07', NULL, NULL); 
+VALUES ('Bueno', 4, 518, 627, '2024-06-22 20:51:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 605, 189, '2024-11-06 11:10:06', NULL, NULL); 
+VALUES ('Excelente', 5, 518, 191, '2024-03-27 07:30:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 605, 916, '2024-02-17 04:22:45', NULL, NULL); 
+VALUES ('Me encantó', 5, 371, 551, '2024-09-01 07:00:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 605, 450, '2024-06-15 20:04:04', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 335, 950, '2024-05-09 12:11:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 668, 161, '2024-05-18 17:03:23', NULL, NULL); 
+VALUES ('Me encantó', 5, 335, 658, '2024-09-03 07:39:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 668, 171, '2024-05-27 09:23:28', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 710, 569, '2024-08-05 05:26:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 194, 401, '2024-04-07 17:19:40', NULL, NULL); 
+VALUES ('Me encantó', 5, 710, 128, '2024-03-09 18:48:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 194, 381, '2024-05-10 04:16:40', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 501, 163, '2024-03-02 09:08:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 397, 703, '2024-04-13 02:47:43', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 53, 872, '2024-01-05 13:46:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 397, 958, '2024-04-27 00:35:28', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 53, 528, '2024-02-01 22:39:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 397, 712, '2024-02-09 21:06:27', NULL, NULL); 
+VALUES ('Increíble', 5, 477, 635, '2024-10-19 04:22:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 397, 899, '2024-06-10 09:11:25', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 477, 299, '2024-07-08 23:25:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 689, 136, '2024-10-03 18:20:10', NULL, NULL); 
+VALUES ('Me gustó', 4, 477, 665, '2024-02-07 19:56:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 689, 326, '2024-03-13 16:26:50', NULL, NULL); 
+VALUES ('Me gustó', 4, 477, 761, '2024-10-28 10:15:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 689, 313, '2024-03-06 22:22:10', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 477, 654, '2024-11-19 13:38:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 689, 248, '2024-11-18 07:18:28', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 654, 937, '2024-06-26 21:10:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 689, 348, '2024-07-05 13:24:35', NULL, NULL); 
+VALUES ('Decepcionante', 1, 654, 305, '2024-12-22 22:52:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 300, 71, '2024-07-27 20:47:09', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 654, 328, '2024-11-14 23:06:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 300, 263, '2024-01-07 08:49:51', NULL, NULL); 
+VALUES ('Excelente', 5, 107, 187, '2024-06-05 11:42:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 115, 808, '2024-06-10 10:47:47', NULL, NULL); 
+VALUES ('Regular', 2, 107, 897, '2024-09-11 19:46:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 115, 218, '2024-07-21 07:24:17', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 200, 787, '2024-04-05 06:20:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 115, 540, '2024-09-02 20:17:40', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 200, 39, '2024-11-28 23:45:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 115, 107, '2024-12-13 00:42:52', NULL, NULL); 
+VALUES ('Decepcionante', 1, 200, 423, '2024-02-08 02:11:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 80, 726, '2024-11-15 16:04:20', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 130, 115, '2024-01-22 01:02:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 522, 562, '2024-08-01 04:09:20', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 130, 88, '2024-07-04 13:27:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 100, 707, '2024-05-26 01:01:17', NULL, NULL); 
+VALUES ('Aceptable', 3, 130, 943, '2024-09-04 06:11:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 100, 633, '2024-07-11 16:35:02', NULL, NULL); 
+VALUES ('Decepcionante', 1, 431, 716, '2024-08-18 13:14:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 559, 315, '2024-10-05 19:41:27', NULL, NULL); 
+VALUES ('Pésimo', 1, 33, 250, '2024-06-25 22:18:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 488, 962, '2024-06-03 05:04:01', NULL, NULL); 
+VALUES ('No lo compren', 1, 33, 454, '2024-12-02 22:06:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 488, 776, '2024-03-07 20:02:46', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 33, 953, '2024-06-05 14:57:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 488, 224, '2024-04-14 14:09:18', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 690, 688, '2024-03-24 10:44:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 434, 185, '2024-05-16 11:01:52', NULL, NULL); 
+VALUES ('Me gustó', 4, 690, 686, '2024-07-01 12:25:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 434, 707, '2024-08-02 08:34:37', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 110, 660, '2024-08-13 13:21:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 33, 529, '2024-02-27 22:03:09', NULL, NULL); 
+VALUES ('No lo compren', 1, 110, 514, '2024-11-15 01:13:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 33, 491, '2024-09-09 02:01:53', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 110, 985, '2024-05-20 08:48:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 514, 231, '2024-10-17 13:43:04', NULL, NULL); 
+VALUES ('Muy bueno', 5, 110, 391, '2024-02-24 23:42:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 514, 224, '2024-07-07 16:18:22', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 567, 599, '2024-08-01 02:55:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 514, 459, '2024-04-06 23:45:56', NULL, NULL); 
+VALUES ('Muy bueno', 5, 567, 808, '2024-12-05 13:15:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 514, 350, '2024-11-27 18:11:07', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 567, 283, '2024-08-11 14:09:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 195, 692, '2024-06-01 03:34:04', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 567, 761, '2024-02-18 22:39:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 195, 914, '2024-12-14 09:15:21', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 567, 505, '2024-07-07 21:19:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 195, 241, '2024-12-09 07:02:26', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 602, 263, '2024-11-15 09:31:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 403, 227, '2024-06-19 18:49:51', NULL, NULL); 
+VALUES ('Aceptable', 3, 463, 312, '2024-03-04 02:13:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 403, 777, '2024-09-04 10:29:32', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 386, 838, '2024-07-26 06:47:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 348, 215, '2024-05-13 02:36:40', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 386, 997, '2024-03-24 06:25:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 348, 858, '2024-10-06 23:30:05', NULL, NULL); 
+VALUES ('Nada especial', 3, 386, 815, '2024-08-18 04:30:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 348, 746, '2024-08-02 14:24:47', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 386, 528, '2024-04-08 16:31:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 348, 820, '2024-09-28 07:27:28', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 445, 429, '2024-06-01 04:51:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 348, 68, '2024-04-25 03:11:06', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 445, 203, '2024-12-03 04:30:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 366, 912, '2024-03-23 09:43:48', NULL, NULL); 
+VALUES ('Muy malo', 1, 445, 665, '2024-10-09 10:13:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 366, 404, '2024-04-25 10:20:47', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 445, 815, '2024-06-13 07:55:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 176, 332, '2024-08-07 13:43:32', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 445, 530, '2024-11-14 19:26:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 176, 984, '2024-03-28 03:35:32', NULL, NULL); 
+VALUES ('No está mal', 3, 573, 713, '2024-11-21 00:45:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 176, 320, '2024-07-14 14:09:04', NULL, NULL); 
+VALUES ('Es pasable', 3, 573, 524, '2024-10-25 16:51:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 176, 201, '2024-09-23 15:44:08', NULL, NULL); 
+VALUES ('Buena calidad', 4, 197, 267, '2024-11-25 16:26:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 62, 520, '2024-12-01 21:47:55', NULL, NULL); 
+VALUES ('Decepcionante', 1, 197, 369, '2024-01-13 14:59:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 62, 832, '2024-01-20 02:00:12', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 448, 407, '2024-03-05 06:08:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 62, 621, '2024-05-24 04:01:54', NULL, NULL); 
+VALUES ('Excelente', 5, 495, 161, '2024-01-26 11:40:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 62, 459, '2024-10-07 13:48:42', NULL, NULL); 
+VALUES ('Normal', 3, 495, 374, '2024-08-26 09:09:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 427, 466, '2024-04-20 22:22:59', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 627, 405, '2024-06-08 07:08:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 427, 938, '2024-01-09 12:59:32', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 94, 318, '2024-08-12 23:03:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 427, 886, '2024-10-04 09:59:07', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 94, 788, '2024-02-14 19:21:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 427, 215, '2024-06-24 11:33:03', NULL, NULL); 
+VALUES ('Recomendable', 4, 94, 141, '2024-06-13 14:35:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 427, 85, '2024-02-22 04:18:13', NULL, NULL); 
+VALUES ('Increíble', 5, 94, 626, '2024-02-03 09:17:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 192, 535, '2024-02-22 11:26:09', NULL, NULL); 
+VALUES ('Decepcionante', 1, 665, 5, '2024-12-04 00:24:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 192, 367, '2024-04-18 02:30:12', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 665, 759, '2024-07-15 20:37:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 192, 518, '2024-08-22 18:25:23', NULL, NULL); 
+VALUES ('Muy malo', 1, 665, 689, '2024-11-28 13:38:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 192, 242, '2024-10-01 00:36:53', NULL, NULL); 
+VALUES ('Muy bueno', 5, 665, 126, '2024-06-18 05:30:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 211, 960, '2024-10-09 07:27:33', NULL, NULL); 
+VALUES ('Lo amé', 5, 679, 957, '2024-06-13 15:07:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 211, 465, '2024-07-01 08:55:26', NULL, NULL); 
+VALUES ('Está bien', 3, 679, 400, '2024-01-28 18:23:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 211, 510, '2024-01-21 13:00:45', NULL, NULL); 
+VALUES ('Me encantó', 5, 679, 413, '2024-07-26 13:17:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 211, 756, '2024-08-22 23:57:53', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 679, 829, '2024-11-07 10:52:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 211, 187, '2024-02-09 09:21:35', NULL, NULL); 
+VALUES ('Excelente', 5, 679, 888, '2024-06-26 20:34:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 24, 482, '2024-05-05 06:08:27', NULL, NULL); 
+VALUES ('Recomendable', 4, 41, 942, '2024-11-28 02:51:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 24, 486, '2024-07-08 01:44:59', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 41, 896, '2024-04-16 06:43:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 24, 990, '2024-08-06 07:44:28', NULL, NULL); 
+VALUES ('Malo', 2, 41, 578, '2024-01-09 05:30:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 448, 816, '2024-11-07 22:14:38', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 41, 389, '2024-06-17 22:45:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 448, 992, '2024-10-03 13:13:55', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 273, 329, '2024-08-11 13:42:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 448, 792, '2024-06-05 20:09:38', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 273, 704, '2024-05-23 08:10:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 265, 405, '2024-10-05 01:58:08', NULL, NULL); 
+VALUES ('Aceptable', 3, 273, 874, '2024-06-02 11:50:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 265, 5, '2024-03-12 22:21:39', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 642, 752, '2024-01-18 04:10:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 265, 12, '2024-03-19 18:57:32', NULL, NULL); 
+VALUES ('Normal', 3, 642, 235, '2024-04-13 20:56:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 265, 886, '2024-06-25 14:39:00', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 415, 251, '2024-11-10 13:00:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 265, 176, '2024-05-19 03:59:24', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 415, 727, '2024-05-06 10:00:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 197, 114, '2024-10-16 02:24:56', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 668, 764, '2024-01-09 12:48:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 197, 750, '2024-06-14 22:38:07', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 668, 42, '2024-10-08 15:19:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 106, 58, '2024-11-16 00:04:00', NULL, NULL); 
+VALUES ('Lo amé', 5, 668, 685, '2024-01-22 07:23:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 106, 409, '2024-10-01 03:20:20', NULL, NULL); 
+VALUES ('Está bien', 3, 668, 857, '2024-09-04 14:31:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 106, 322, '2024-06-06 18:18:54', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 668, 603, '2024-04-15 15:45:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 106, 194, '2024-12-01 03:14:07', NULL, NULL); 
+VALUES ('Bueno', 4, 25, 820, '2024-02-02 08:03:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 128, 322, '2024-07-04 20:11:21', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 25, 475, '2024-04-21 15:59:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 128, 299, '2024-03-24 21:29:07', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 25, 601, '2024-03-05 15:44:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 128, 653, '2024-11-26 05:32:12', NULL, NULL); 
+VALUES ('Nada especial', 3, 25, 753, '2024-08-20 15:38:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 128, 914, '2024-09-15 14:46:32', NULL, NULL); 
+VALUES ('Está bien', 3, 25, 757, '2024-02-03 01:23:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 128, 969, '2024-05-19 05:28:30', NULL, NULL); 
+VALUES ('No lo compren', 1, 23, 525, '2024-06-12 09:18:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 171, 483, '2024-12-04 19:48:18', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 264, 888, '2024-06-14 13:18:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 171, 956, '2024-06-19 01:08:43', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 264, 917, '2024-10-03 04:41:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 204, 489, '2024-04-14 00:12:15', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 264, 26, '2024-07-04 11:36:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 204, 476, '2024-11-24 13:43:58', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 264, 600, '2024-05-24 02:10:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 204, 615, '2024-04-08 19:19:58', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 261, 540, '2024-01-04 04:48:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 204, 688, '2024-01-05 22:13:02', NULL, NULL); 
+VALUES ('Muy bueno', 5, 261, 649, '2024-05-16 08:54:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 513, 472, '2024-01-15 14:37:23', NULL, NULL); 
+VALUES ('No lo compren', 1, 402, 93, '2024-09-17 14:39:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 513, 105, '2024-11-21 02:42:23', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 402, 282, '2024-01-01 11:25:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 641, 883, '2024-05-05 22:30:40', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 402, 392, '2024-06-15 17:19:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 641, 913, '2024-10-08 16:03:35', NULL, NULL); 
+VALUES ('Lo amé', 5, 306, 370, '2024-04-08 07:29:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 565, 790, '2024-03-25 18:16:22', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 25, 481, '2024-09-10 05:57:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 565, 509, '2024-07-07 01:29:53', NULL, NULL); 
+VALUES ('Bueno', 4, 25, 745, '2024-12-12 05:58:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 565, 877, '2024-04-25 10:51:16', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 25, 695, '2024-05-14 17:25:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 565, 961, '2024-02-07 03:22:07', NULL, NULL); 
+VALUES ('Normal', 3, 25, 518, '2024-02-10 05:42:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 663, 393, '2024-09-08 12:13:37', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 25, 322, '2024-09-19 09:29:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 663, 666, '2024-08-02 09:07:44', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 296, 227, '2024-02-05 08:51:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 663, 62, '2024-06-26 16:09:36', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 296, 403, '2024-09-28 12:14:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 663, 129, '2024-12-12 10:44:30', NULL, NULL); 
+VALUES ('Está bien', 3, 236, 680, '2024-06-26 14:20:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 663, 301, '2024-07-21 17:29:18', NULL, NULL); 
+VALUES ('Lo amé', 5, 134, 784, '2024-11-25 08:58:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 58, 316, '2024-02-12 19:21:31', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 134, 923, '2024-01-21 17:27:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 58, 496, '2024-09-10 14:11:29', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 134, 246, '2024-03-28 05:48:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 593, 919, '2024-10-01 11:38:42', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 134, 497, '2024-10-28 11:42:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 593, 881, '2024-01-14 13:03:16', NULL, NULL); 
+VALUES ('No me gustó', 1, 134, 145, '2024-09-19 10:08:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 593, 610, '2024-04-13 23:10:58', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 575, 30, '2024-02-09 02:40:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 593, 879, '2024-02-15 06:06:09', NULL, NULL); 
+VALUES ('Increíble', 5, 575, 870, '2024-01-03 17:16:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 593, 836, '2024-06-19 10:40:54', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 575, 343, '2024-08-16 20:46:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 343, 599, '2024-02-28 21:36:37', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 271, 145, '2024-04-06 04:17:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 343, 368, '2024-04-16 23:20:18', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 271, 964, '2024-08-07 12:10:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 343, 60, '2024-05-20 09:20:24', NULL, NULL); 
+VALUES ('Recomendable', 4, 271, 325, '2024-03-12 16:06:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 343, 214, '2024-10-14 11:35:24', NULL, NULL); 
+VALUES ('Maravilloso', 5, 563, 503, '2024-12-25 21:42:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 343, 286, '2024-01-06 08:40:55', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 563, 866, '2024-09-23 16:38:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 716, 401, '2024-02-16 17:08:43', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 392, 878, '2024-11-06 07:36:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 464, 524, '2024-03-15 00:45:47', NULL, NULL); 
+VALUES ('Maravilloso', 5, 392, 219, '2024-08-07 19:43:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 464, 757, '2024-07-05 18:03:12', NULL, NULL); 
+VALUES ('Muy malo', 1, 392, 694, '2024-12-15 01:51:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 562, 592, '2024-02-19 15:05:05', NULL, NULL); 
+VALUES ('Es pasable', 3, 267, 341, '2024-06-08 13:19:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 562, 530, '2024-01-20 17:15:39', NULL, NULL); 
+VALUES ('Lo amé', 5, 267, 129, '2024-03-18 00:21:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 562, 841, '2024-04-12 12:50:18', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 267, 282, '2024-06-08 03:24:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 65, 457, '2024-08-21 19:06:56', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 153, 130, '2024-03-06 23:29:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 65, 129, '2024-09-17 21:30:10', NULL, NULL); 
+VALUES ('No lo vale', 1, 153, 347, '2024-07-04 18:42:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 65, 603, '2024-04-19 14:49:39', NULL, NULL); 
+VALUES ('Increíble', 5, 488, 383, '2024-06-25 00:04:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 373, 698, '2024-05-21 02:54:03', NULL, NULL); 
+VALUES ('Excelente', 5, 488, 674, '2024-03-05 16:55:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 373, 221, '2024-08-02 17:46:40', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 191, 564, '2024-06-11 05:52:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 703, 523, '2024-01-13 04:57:55', NULL, NULL); 
+VALUES ('Me gustó', 4, 191, 743, '2024-01-22 14:16:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 703, 390, '2024-01-21 18:52:29', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 191, 789, '2024-12-06 13:47:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 703, 451, '2024-11-03 16:24:25', NULL, NULL); 
+VALUES ('Pésimo', 1, 556, 407, '2024-05-16 04:10:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 703, 214, '2024-02-03 05:55:46', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 556, 456, '2024-07-22 21:46:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 703, 705, '2024-05-06 21:29:54', NULL, NULL); 
+VALUES ('No lo compren', 1, 556, 271, '2024-10-09 00:47:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 489, 55, '2024-12-06 20:35:30', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 556, 804, '2024-08-10 11:19:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 221, 12, '2024-03-09 04:03:06', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 556, 141, '2024-01-23 20:17:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 221, 431, '2024-11-23 19:09:09', NULL, NULL); 
+VALUES ('No lo compren', 1, 136, 882, '2024-03-19 06:49:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 221, 266, '2024-12-05 22:09:39', NULL, NULL); 
+VALUES ('Maravilloso', 5, 136, 39, '2024-10-17 01:31:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 221, 218, '2024-11-03 23:43:43', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 136, 614, '2024-12-14 18:55:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 378, 512, '2024-12-19 03:58:10', NULL, NULL); 
+VALUES ('Maravilloso', 5, 136, 52, '2024-11-17 05:14:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 378, 835, '2024-08-07 19:13:47', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 136, 757, '2024-01-21 16:31:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 378, 770, '2024-11-08 19:51:17', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 172, 912, '2024-09-09 11:43:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 591, 246, '2024-12-22 13:08:51', NULL, NULL); 
+VALUES ('Malo', 2, 172, 823, '2024-02-02 02:13:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 591, 37, '2024-03-06 02:37:02', NULL, NULL); 
+VALUES ('Pésimo', 1, 172, 648, '2024-01-28 20:29:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 591, 645, '2024-09-20 06:13:52', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 172, 958, '2024-04-12 08:47:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 591, 596, '2024-09-22 02:10:46', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 576, 977, '2024-01-19 05:20:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 591, 694, '2024-10-16 19:42:59', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 576, 578, '2024-10-24 12:38:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 580, 313, '2024-07-27 07:59:34', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 576, 235, '2024-06-16 23:23:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 580, 602, '2024-08-08 23:28:11', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 359, 834, '2024-08-14 04:17:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 26, 229, '2024-04-09 22:54:08', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 359, 36, '2024-07-17 09:49:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 26, 893, '2024-08-13 22:06:40', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 566, 402, '2024-08-28 08:36:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 26, 882, '2024-04-28 18:34:23', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 566, 994, '2024-07-12 13:01:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 26, 520, '2024-01-22 16:20:05', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 566, 983, '2024-12-25 06:20:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 26, 796, '2024-09-12 04:43:45', NULL, NULL); 
+VALUES ('Me gustó', 4, 566, 86, '2024-07-07 00:38:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 376, 200, '2024-11-02 01:46:46', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 599, 282, '2024-03-19 04:35:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 376, 744, '2024-10-16 21:06:07', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 599, 117, '2024-09-08 03:11:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 376, 156, '2024-01-27 13:20:59', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 176, 196, '2024-04-22 04:31:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 376, 663, '2024-01-13 04:49:47', NULL, NULL); 
+VALUES ('Nada especial', 3, 176, 402, '2024-05-14 13:34:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 376, 42, '2024-05-20 05:04:15', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 176, 476, '2024-07-21 23:31:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 551, 345, '2024-01-22 09:24:28', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 176, 225, '2024-07-07 06:18:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 551, 649, '2024-10-24 05:56:59', NULL, NULL); 
+VALUES ('Lo amé', 5, 176, 160, '2024-03-20 18:02:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 551, 446, '2024-08-13 03:39:29', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 165, 344, '2024-11-01 06:47:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 551, 14, '2024-07-14 14:50:28', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 165, 134, '2024-04-21 18:02:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 551, 349, '2024-10-14 04:41:24', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 591, 665, '2024-02-15 04:44:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 264, 598, '2024-05-21 16:41:28', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 591, 627, '2024-12-28 05:04:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 605, 441, '2024-11-01 16:09:10', NULL, NULL); 
+VALUES ('Regular', 2, 535, 51, '2024-01-10 03:20:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 605, 916, '2024-06-08 02:07:26', NULL, NULL); 
+VALUES ('Pésimo', 1, 540, 699, '2024-08-19 03:58:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 356, 825, '2024-07-03 00:33:56', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 540, 680, '2024-07-01 17:31:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 356, 526, '2024-07-01 05:01:34', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 540, 228, '2024-03-12 03:00:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 356, 901, '2024-10-18 05:29:51', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 540, 102, '2024-07-01 16:38:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 548, 370, '2024-01-03 10:51:06', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 209, 311, '2024-05-17 10:07:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 548, 77, '2024-12-04 03:06:49', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 708, 2, '2024-09-26 09:53:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 548, 651, '2024-07-01 06:15:13', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 708, 406, '2024-11-06 05:10:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 548, 964, '2024-11-08 21:42:58', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 708, 640, '2024-05-18 22:13:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 548, 508, '2024-08-13 12:01:57', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 701, 407, '2024-02-01 04:31:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 528, 356, '2024-04-05 12:12:01', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 653, 676, '2024-11-08 05:26:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 528, 32, '2024-09-25 05:18:59', NULL, NULL); 
+VALUES ('Nada especial', 3, 653, 66, '2024-01-01 03:52:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 391, 135, '2024-08-19 19:09:23', NULL, NULL); 
+VALUES ('Buena calidad', 4, 653, 903, '2024-09-13 05:14:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 391, 661, '2024-12-11 04:09:34', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 458, 219, '2024-09-03 02:28:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 391, 614, '2024-01-17 14:29:46', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 65, 352, '2024-11-09 18:56:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 391, 482, '2024-09-03 20:35:10', NULL, NULL); 
+VALUES ('No lo compren', 1, 65, 428, '2024-03-01 16:10:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 391, 284, '2024-07-28 23:40:25', NULL, NULL); 
+VALUES ('Pésimo', 1, 65, 222, '2024-02-02 16:37:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 165, 180, '2024-05-06 06:51:46', NULL, NULL); 
+VALUES ('Recomendable', 4, 65, 138, '2024-06-23 07:31:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 165, 702, '2024-06-06 16:54:44', NULL, NULL); 
+VALUES ('Pésimo', 1, 65, 276, '2024-03-01 10:02:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 165, 189, '2024-01-25 18:59:56', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 480, 542, '2024-11-07 04:17:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 258, 359, '2024-04-01 22:22:25', NULL, NULL); 
+VALUES ('No está mal', 3, 480, 181, '2024-04-02 23:10:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 258, 899, '2024-09-19 12:58:41', NULL, NULL); 
+VALUES ('Increíble', 5, 480, 483, '2024-09-22 22:21:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 258, 412, '2024-02-08 06:44:50', NULL, NULL); 
+VALUES ('Excelente', 5, 178, 675, '2024-02-20 23:52:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 433, 257, '2024-08-03 01:40:06', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 178, 679, '2024-05-09 06:34:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 433, 267, '2024-09-20 18:14:37', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 178, 435, '2024-04-18 03:25:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 433, 943, '2024-09-16 11:36:35', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 178, 154, '2024-10-02 11:33:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 433, 893, '2024-03-16 07:21:53', NULL, NULL); 
+VALUES ('Maravilloso', 5, 178, 325, '2024-07-28 17:35:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 433, 579, '2024-06-05 09:03:50', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 538, 492, '2024-06-12 17:26:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 454, 71, '2024-01-16 06:51:59', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 538, 830, '2024-01-24 23:55:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 454, 1, '2024-08-14 19:35:39', NULL, NULL); 
+VALUES ('Maravilloso', 5, 538, 788, '2024-01-04 23:26:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 454, 62, '2024-04-07 20:25:48', NULL, NULL); 
+VALUES ('Muy bueno', 5, 538, 303, '2024-03-24 21:20:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 454, 618, '2024-10-13 00:12:29', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 73, 397, '2024-02-22 20:24:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 528, 597, '2024-03-17 10:18:44', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 614, 697, '2024-10-20 18:05:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 528, 386, '2024-03-16 23:20:44', NULL, NULL); 
+VALUES ('Excelente', 5, 614, 998, '2024-03-13 19:34:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 499, 961, '2024-05-27 20:16:00', NULL, NULL); 
+VALUES ('Lo amé', 5, 156, 830, '2024-02-19 02:24:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 136, 435, '2024-05-25 11:17:29', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 156, 22, '2024-04-25 00:22:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 136, 964, '2024-11-14 19:17:45', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 156, 952, '2024-10-01 20:11:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 136, 717, '2024-11-24 22:20:13', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 156, 213, '2024-07-06 12:44:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 136, 754, '2024-02-11 12:14:49', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 337, 668, '2024-07-09 19:42:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 689, 731, '2024-10-23 11:09:30', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 337, 198, '2024-04-01 23:11:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 99, 877, '2024-10-11 13:36:52', NULL, NULL); 
+VALUES ('Aceptable', 3, 337, 591, '2024-10-04 20:41:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 99, 779, '2024-11-19 23:06:21', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 337, 274, '2024-01-09 04:00:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 99, 924, '2024-09-16 11:30:34', NULL, NULL); 
+VALUES ('No me gustó', 1, 337, 951, '2024-12-09 08:06:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 99, 486, '2024-02-12 04:26:18', NULL, NULL); 
+VALUES ('Es pasable', 3, 494, 163, '2024-04-03 05:44:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 99, 995, '2024-01-14 20:26:49', NULL, NULL); 
+VALUES ('Normal', 3, 26, 659, '2024-06-11 01:51:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 360, 157, '2024-08-24 10:13:02', NULL, NULL); 
+VALUES ('Normal', 3, 711, 850, '2024-03-06 06:08:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 360, 227, '2024-12-26 05:30:10', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 711, 419, '2024-07-03 21:37:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 360, 451, '2024-08-26 04:26:59', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 233, 433, '2024-11-27 15:32:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 117, 578, '2024-03-06 11:42:27', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 233, 469, '2024-05-11 00:41:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 82, 446, '2024-06-26 15:23:26', NULL, NULL); 
+VALUES ('Buena calidad', 4, 233, 925, '2024-12-05 22:04:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 633, 746, '2024-04-23 15:56:04', NULL, NULL); 
+VALUES ('Es pasable', 3, 233, 394, '2024-09-23 07:41:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 633, 706, '2024-09-20 19:07:23', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 233, 44, '2024-01-25 09:16:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 625, 50, '2024-11-06 14:39:27', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 80, 775, '2024-04-11 17:22:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 625, 985, '2024-06-09 20:15:42', NULL, NULL); 
+VALUES ('Increíble', 5, 80, 332, '2024-09-23 20:14:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 679, 152, '2024-07-03 06:07:05', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 361, 749, '2024-08-14 11:33:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 679, 232, '2024-12-14 06:18:44', NULL, NULL); 
+VALUES ('Recomendable', 4, 361, 120, '2024-04-13 01:38:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 679, 462, '2024-11-05 07:19:07', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 361, 713, '2024-07-25 15:29:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 679, 882, '2024-08-10 21:36:34', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 190, 653, '2024-05-08 10:02:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 526, 363, '2024-04-08 06:04:17', NULL, NULL); 
+VALUES ('Me gustó', 4, 190, 188, '2024-12-08 10:55:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 526, 493, '2024-05-27 09:45:30', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 190, 898, '2024-10-17 03:20:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 526, 286, '2024-06-19 01:15:32', NULL, NULL); 
+VALUES ('Regular', 2, 190, 265, '2024-01-13 05:19:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 526, 397, '2024-01-11 05:19:42', NULL, NULL); 
+VALUES ('Regular', 2, 524, 662, '2024-11-22 09:38:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 271, 419, '2024-05-16 20:35:13', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 524, 911, '2024-04-28 02:10:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 271, 643, '2024-03-25 07:51:53', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 524, 183, '2024-09-27 01:54:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 271, 835, '2024-03-25 16:04:15', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 402, 496, '2024-09-25 14:13:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 52, 906, '2024-01-25 10:45:27', NULL, NULL); 
+VALUES ('Regular', 2, 402, 55, '2024-04-02 12:26:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 52, 83, '2024-06-06 20:46:16', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 49, 136, '2024-10-02 14:13:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 257, 630, '2024-11-27 23:15:27', NULL, NULL); 
+VALUES ('No lo vale', 1, 227, 287, '2024-02-25 06:39:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 257, 440, '2024-08-18 10:09:51', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 384, 835, '2024-09-27 14:16:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 257, 279, '2024-06-21 09:58:34', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 384, 370, '2024-02-09 23:56:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 435, 477, '2024-03-28 22:44:50', NULL, NULL); 
+VALUES ('Aceptable', 3, 384, 663, '2024-12-09 17:24:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 435, 123, '2024-04-26 00:39:42', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 384, 151, '2024-03-16 03:31:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 435, 314, '2024-10-06 20:48:36', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 384, 498, '2024-04-18 22:23:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 435, 897, '2024-10-22 16:41:40', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 622, 973, '2024-03-18 20:31:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 38, 848, '2024-07-26 00:29:10', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 156, 511, '2024-03-06 10:59:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 38, 505, '2024-03-24 16:58:05', NULL, NULL); 
+VALUES ('Malo', 2, 156, 427, '2024-11-20 13:53:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 567, 718, '2024-12-08 21:38:39', NULL, NULL); 
+VALUES ('Nada especial', 3, 156, 163, '2024-03-15 05:30:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 567, 993, '2024-01-27 20:44:30', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 156, 866, '2024-11-27 19:40:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 567, 445, '2024-09-21 08:12:49', NULL, NULL); 
+VALUES ('Nada especial', 3, 156, 29, '2024-07-03 22:01:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 567, 926, '2024-09-17 15:33:09', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 620, 570, '2024-01-11 16:37:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 320, 107, '2024-08-28 16:28:22', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 620, 738, '2024-02-10 13:19:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 320, 189, '2024-05-24 09:31:48', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 140, 254, '2024-04-26 20:59:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 320, 676, '2024-12-15 03:25:13', NULL, NULL); 
+VALUES ('Maravilloso', 5, 140, 197, '2024-04-04 21:54:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 320, 673, '2024-11-09 22:55:35', NULL, NULL); 
+VALUES ('Recomendable', 4, 140, 259, '2024-01-25 23:17:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 308, 17, '2024-04-17 20:09:52', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 140, 854, '2024-07-21 17:54:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 308, 128, '2024-12-22 07:29:18', NULL, NULL); 
+VALUES ('Nada especial', 3, 140, 400, '2024-07-15 21:16:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 432, 538, '2024-12-25 11:50:04', NULL, NULL); 
+VALUES ('No lo compren', 1, 326, 205, '2024-05-05 03:57:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 432, 34, '2024-05-05 13:18:57', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 326, 768, '2024-02-01 18:15:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 432, 906, '2024-01-28 16:49:57', NULL, NULL); 
+VALUES ('Pésimo', 1, 326, 464, '2024-12-15 22:52:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 432, 684, '2024-02-02 19:56:25', NULL, NULL); 
+VALUES ('Muy malo', 1, 326, 498, '2024-01-09 22:21:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 154, 756, '2024-11-13 10:28:14', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 193, 306, '2024-08-24 19:07:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 154, 529, '2024-11-27 11:50:06', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 193, 548, '2024-07-09 06:08:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 267, 996, '2024-09-06 08:45:27', NULL, NULL); 
+VALUES ('Malo', 2, 193, 429, '2024-01-16 18:35:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 267, 918, '2024-12-25 20:34:48', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 193, 839, '2024-01-26 15:49:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 267, 619, '2024-07-06 06:42:22', NULL, NULL); 
+VALUES ('Muy malo', 1, 370, 735, '2024-09-10 12:25:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 267, 158, '2024-06-22 09:32:37', NULL, NULL); 
+VALUES ('Buena calidad', 4, 370, 268, '2024-05-01 15:26:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 267, 856, '2024-01-12 16:38:04', NULL, NULL); 
+VALUES ('Buena calidad', 4, 370, 293, '2024-05-20 10:49:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 65, 328, '2024-09-07 03:28:03', NULL, NULL); 
+VALUES ('Es pasable', 3, 370, 470, '2024-11-03 02:36:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 102, 593, '2024-02-14 14:51:19', NULL, NULL); 
+VALUES ('Excelente', 5, 76, 302, '2024-09-27 16:27:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 102, 438, '2024-04-09 12:00:17', NULL, NULL); 
+VALUES ('Es pasable', 3, 76, 963, '2024-08-14 03:38:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 102, 881, '2024-04-06 00:25:12', NULL, NULL); 
+VALUES ('Nada especial', 3, 248, 514, '2024-11-01 23:10:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 386, 697, '2024-03-09 02:20:48', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 588, 811, '2024-04-21 19:19:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 310, 746, '2024-12-05 18:51:04', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 588, 75, '2024-11-16 22:46:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 310, 419, '2024-02-25 16:48:03', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 588, 623, '2024-02-23 02:33:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 310, 235, '2024-01-15 07:07:59', NULL, NULL); 
+VALUES ('Pésimo', 1, 588, 126, '2024-09-20 13:54:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 310, 253, '2024-04-08 23:25:36', NULL, NULL); 
+VALUES ('Excelente', 5, 543, 382, '2024-10-05 12:33:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 5, 718, '2024-06-02 03:27:25', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 543, 445, '2024-01-20 15:11:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 5, 163, '2024-03-03 03:04:20', NULL, NULL); 
+VALUES ('Excelente', 5, 543, 713, '2024-06-12 16:07:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 5, 230, '2024-10-03 22:54:58', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 543, 613, '2024-03-04 23:10:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 5, 434, '2024-05-15 23:45:26', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 543, 622, '2024-02-26 05:11:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 664, 44, '2024-07-10 23:52:11', NULL, NULL); 
+VALUES ('Regular', 2, 490, 140, '2024-02-05 11:15:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 664, 337, '2024-09-04 18:16:09', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 602, 487, '2024-02-22 06:45:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 664, 600, '2024-04-21 04:56:03', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 602, 617, '2024-06-23 05:08:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 664, 523, '2024-11-22 23:44:03', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 602, 62, '2024-04-11 17:21:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 331, 706, '2024-03-23 02:34:17', NULL, NULL); 
+VALUES ('Bueno', 4, 602, 489, '2024-02-03 17:16:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 331, 100, '2024-08-10 04:55:15', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 241, 504, '2024-11-25 05:37:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 209, 614, '2024-07-01 04:34:40', NULL, NULL); 
+VALUES ('Nada especial', 3, 241, 71, '2024-06-01 19:20:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 209, 489, '2024-03-09 14:53:27', NULL, NULL); 
+VALUES ('Buena calidad', 4, 241, 742, '2024-11-08 18:04:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 209, 445, '2024-11-05 22:47:41', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 420, 504, '2024-03-16 07:56:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 209, 74, '2024-08-04 14:54:42', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 420, 959, '2024-04-20 23:20:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 203, 38, '2024-12-02 12:56:28', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 93, 914, '2024-09-04 00:32:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 203, 569, '2024-02-02 00:55:36', NULL, NULL); 
+VALUES ('Recomendable', 4, 93, 643, '2024-07-15 09:18:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 203, 56, '2024-05-10 06:30:15', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 93, 525, '2024-11-22 16:46:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 580, 701, '2024-09-27 04:59:34', NULL, NULL); 
+VALUES ('Muy bueno', 5, 620, 447, '2024-05-24 18:51:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 580, 894, '2024-06-19 09:47:30', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 620, 691, '2024-11-22 11:51:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 270, 610, '2024-06-17 10:14:55', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 620, 43, '2024-01-11 13:03:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 451, 854, '2024-10-04 07:17:00', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 471, 527, '2024-03-11 20:10:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 716, 129, '2024-03-06 21:47:46', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 471, 675, '2024-02-25 19:52:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 716, 173, '2024-12-06 01:51:18', NULL, NULL); 
+VALUES ('Excelente', 5, 377, 973, '2024-02-03 01:37:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 716, 945, '2024-06-26 14:44:03', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 377, 451, '2024-05-20 16:51:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 716, 72, '2024-07-26 01:43:05', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 213, 636, '2024-12-09 15:28:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 672, 910, '2024-12-22 22:41:43', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 78, 78, '2024-12-04 01:56:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 672, 191, '2024-08-07 12:37:59', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 78, 540, '2024-08-11 10:09:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 672, 50, '2024-10-07 10:45:22', NULL, NULL); 
+VALUES ('Buena calidad', 4, 709, 990, '2024-11-25 00:17:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 672, 649, '2024-05-26 01:52:00', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 709, 402, '2024-02-12 01:36:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 672, 696, '2024-01-18 14:50:13', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 709, 94, '2024-12-03 03:06:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 426, 432, '2024-04-27 09:28:15', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 709, 646, '2024-06-06 14:18:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 426, 254, '2024-04-07 12:36:11', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 3, 533, '2024-09-21 05:38:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 426, 470, '2024-02-06 07:25:18', NULL, NULL); 
+VALUES ('Excelente', 5, 3, 966, '2024-04-09 01:25:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 507, 589, '2024-05-26 18:28:53', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 3, 781, '2024-04-25 15:32:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 215, 746, '2024-11-09 15:30:41', NULL, NULL); 
+VALUES ('Bueno', 4, 3, 467, '2024-10-03 18:09:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 215, 165, '2024-09-03 15:23:04', NULL, NULL); 
+VALUES ('Pésimo', 1, 173, 551, '2024-05-01 15:00:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 215, 224, '2024-03-05 03:32:32', NULL, NULL); 
+VALUES ('Está bien', 3, 173, 821, '2024-09-03 21:25:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 215, 326, '2024-10-02 21:51:14', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 173, 504, '2024-01-28 23:46:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 215, 21, '2024-03-03 11:14:51', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 173, 768, '2024-06-01 07:30:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 150, 1, '2024-10-15 03:41:08', NULL, NULL); 
+VALUES ('Buena calidad', 4, 86, 530, '2024-08-24 11:56:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 150, 37, '2024-11-14 20:42:25', NULL, NULL); 
+VALUES ('Maravilloso', 5, 646, 320, '2024-04-11 19:13:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 150, 569, '2024-07-23 17:03:20', NULL, NULL); 
+VALUES ('Maravilloso', 5, 272, 805, '2024-07-03 09:49:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 150, 584, '2024-04-14 14:32:50', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 278, 950, '2024-11-13 19:16:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 394, 591, '2024-11-14 12:00:14', NULL, NULL); 
+VALUES ('Malo', 2, 278, 275, '2024-10-20 15:45:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 394, 563, '2024-09-28 08:51:31', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 278, 480, '2024-02-05 19:27:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 394, 17, '2024-01-13 09:57:32', NULL, NULL); 
+VALUES ('Muy malo', 1, 278, 979, '2024-09-12 05:52:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 394, 284, '2024-09-18 06:24:36', NULL, NULL); 
+VALUES ('Excelente', 5, 278, 82, '2024-09-23 01:26:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 394, 204, '2024-02-18 14:49:49', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 243, 384, '2024-03-09 01:02:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 15, 324, '2024-11-09 20:38:03', NULL, NULL); 
+VALUES ('Maravilloso', 5, 243, 125, '2024-08-09 00:39:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 496, 470, '2024-03-10 11:31:30', NULL, NULL); 
+VALUES ('Recomendable', 4, 614, 896, '2024-04-22 14:36:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 496, 872, '2024-02-02 09:45:04', NULL, NULL); 
+VALUES ('Es pasable', 3, 614, 781, '2024-11-23 17:05:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 496, 53, '2024-09-09 02:40:46', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 614, 652, '2024-09-07 03:31:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 497, 476, '2024-01-18 18:57:06', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 614, 134, '2024-02-26 04:51:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 497, 538, '2024-11-06 23:51:15', NULL, NULL); 
+VALUES ('Muy malo', 1, 671, 104, '2024-08-17 22:53:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 497, 263, '2024-10-16 12:59:53', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 671, 1000, '2024-12-05 02:04:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 497, 459, '2024-12-16 21:47:56', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 671, 185, '2024-08-10 14:44:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 497, 736, '2024-12-25 20:43:39', NULL, NULL); 
+VALUES ('Nada especial', 3, 557, 42, '2024-06-27 23:08:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 215, 469, '2024-05-12 17:13:31', NULL, NULL); 
+VALUES ('No está mal', 3, 557, 885, '2024-12-15 11:54:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 215, 856, '2024-04-21 10:05:55', NULL, NULL); 
+VALUES ('Decepcionante', 1, 557, 408, '2024-08-04 02:29:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 537, 577, '2024-01-02 12:43:26', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 557, 582, '2024-12-26 17:05:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 537, 911, '2024-06-25 20:06:48', NULL, NULL); 
+VALUES ('Normal', 3, 279, 530, '2024-09-17 06:23:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 537, 237, '2024-01-18 03:49:50', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 279, 80, '2024-03-24 06:28:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 537, 544, '2024-07-03 12:15:14', NULL, NULL); 
+VALUES ('Me gustó', 4, 279, 778, '2024-06-23 12:01:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 537, 597, '2024-02-20 14:56:20', NULL, NULL); 
+VALUES ('Me encantó', 5, 279, 273, '2024-01-12 01:55:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 558, 778, '2024-07-02 01:35:18', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 200, 831, '2024-02-19 02:40:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 558, 842, '2024-05-18 07:25:32', NULL, NULL); 
+VALUES ('Maravilloso', 5, 205, 903, '2024-07-02 11:10:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 549, 718, '2024-05-21 15:23:30', NULL, NULL); 
+VALUES ('Nada especial', 3, 205, 907, '2024-04-11 01:27:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 549, 202, '2024-09-08 18:35:38', NULL, NULL); 
+VALUES ('No está mal', 3, 462, 529, '2024-06-13 01:41:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 549, 21, '2024-11-20 05:06:54', NULL, NULL); 
+VALUES ('Pésimo', 1, 462, 815, '2024-04-20 18:45:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 549, 436, '2024-05-06 06:21:34', NULL, NULL); 
+VALUES ('Regular', 2, 462, 237, '2024-08-04 02:36:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 549, 296, '2024-02-05 18:51:22', NULL, NULL); 
+VALUES ('Excelente', 5, 462, 570, '2024-07-21 03:00:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 342, 202, '2024-07-27 04:12:26', NULL, NULL); 
+VALUES ('Está bien', 3, 401, 788, '2024-12-21 20:53:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 262, 12, '2024-05-13 13:36:57', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 401, 628, '2024-12-27 06:28:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 244, 98, '2024-10-14 17:16:32', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 401, 212, '2024-01-25 11:12:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 244, 72, '2024-03-13 19:37:09', NULL, NULL); 
+VALUES ('Decepcionante', 1, 401, 375, '2024-02-16 20:16:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 244, 97, '2024-06-22 05:02:55', NULL, NULL); 
+VALUES ('No me gustó', 1, 695, 979, '2024-08-18 03:07:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 244, 635, '2024-09-27 23:34:51', NULL, NULL); 
+VALUES ('Me encantó', 5, 695, 666, '2024-07-15 11:04:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 633, 258, '2024-01-01 01:24:45', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 695, 273, '2024-03-09 01:29:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 633, 681, '2024-10-26 00:23:17', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 695, 186, '2024-06-28 00:41:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 633, 347, '2024-01-16 05:27:18', NULL, NULL); 
+VALUES ('Regular', 2, 695, 137, '2024-06-19 10:46:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 264, 419, '2024-09-06 11:17:04', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 432, 265, '2024-03-13 05:59:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 264, 113, '2024-10-13 23:30:24', NULL, NULL); 
+VALUES ('Me gustó', 4, 353, 288, '2024-04-15 09:50:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 264, 371, '2024-03-24 00:15:40', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 493, 212, '2024-04-17 13:26:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 264, 10, '2024-04-17 05:03:46', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 493, 457, '2024-12-16 10:46:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 264, 707, '2024-11-21 03:14:19', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 452, 149, '2024-04-26 13:39:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 82, 248, '2024-08-20 17:29:12', NULL, NULL); 
+VALUES ('No me gustó', 1, 191, 998, '2024-07-25 10:47:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 82, 679, '2024-05-19 12:13:09', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 191, 744, '2024-08-15 10:49:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 82, 249, '2024-05-14 22:41:49', NULL, NULL); 
+VALUES ('No me gustó', 1, 191, 459, '2024-06-02 14:46:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 82, 777, '2024-08-09 04:28:28', NULL, NULL); 
+VALUES ('Maravilloso', 5, 191, 734, '2024-01-09 05:03:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 82, 35, '2024-08-22 09:02:12', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 602, 400, '2024-04-06 09:36:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 347, 381, '2024-06-17 19:29:45', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 602, 391, '2024-01-05 17:02:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 347, 716, '2024-12-04 23:42:17', NULL, NULL); 
+VALUES ('Me encantó', 5, 602, 319, '2024-09-15 11:14:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 347, 523, '2024-02-18 14:13:53', NULL, NULL); 
+VALUES ('Está bien', 3, 602, 111, '2024-12-13 02:59:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 347, 895, '2024-08-11 23:24:37', NULL, NULL); 
+VALUES ('Malo', 2, 175, 149, '2024-04-02 05:53:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 7, 813, '2024-06-25 10:16:09', NULL, NULL); 
+VALUES ('No me gustó', 1, 348, 293, '2024-01-17 12:09:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 7, 281, '2024-08-04 20:40:26', NULL, NULL); 
+VALUES ('Aceptable', 3, 348, 906, '2024-02-25 23:39:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 7, 136, '2024-03-01 01:59:48', NULL, NULL); 
+VALUES ('Bueno', 4, 348, 292, '2024-06-03 09:30:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 7, 690, '2024-04-12 12:53:55', NULL, NULL); 
+VALUES ('Decepcionante', 1, 591, 402, '2024-05-28 02:35:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 7, 30, '2024-07-04 12:42:37', NULL, NULL); 
+VALUES ('Maravilloso', 5, 576, 928, '2024-01-17 14:50:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 544, 416, '2024-10-06 11:58:29', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 576, 830, '2024-04-20 14:08:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 544, 927, '2024-03-26 03:26:42', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 576, 22, '2024-10-10 06:59:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 444, 365, '2024-12-27 17:21:49', NULL, NULL); 
+VALUES ('No lo compren', 1, 576, 261, '2024-12-01 10:27:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 444, 5, '2024-10-28 02:59:00', NULL, NULL); 
+VALUES ('Muy malo', 1, 576, 523, '2024-07-24 21:07:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 444, 513, '2024-10-14 03:49:56', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 597, 4, '2024-11-01 03:43:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 444, 7, '2024-07-14 05:51:14', NULL, NULL); 
+VALUES ('Es pasable', 3, 20, 472, '2024-09-16 06:39:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 444, 831, '2024-09-24 12:52:03', NULL, NULL); 
+VALUES ('Pésimo', 1, 20, 836, '2024-06-22 11:55:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 298, 337, '2024-07-03 05:35:52', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 20, 919, '2024-01-28 03:20:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 298, 196, '2024-09-04 12:37:21', NULL, NULL); 
+VALUES ('Muy malo', 1, 20, 325, '2024-02-11 21:21:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 298, 613, '2024-04-25 00:04:20', NULL, NULL); 
+VALUES ('Es pasable', 3, 312, 508, '2024-12-02 09:55:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 298, 223, '2024-03-19 05:02:08', NULL, NULL); 
+VALUES ('Recomendable', 4, 312, 121, '2024-04-25 23:33:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 298, 405, '2024-08-16 22:01:59', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 341, 336, '2024-11-11 11:00:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 403, 97, '2024-08-11 11:59:41', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 341, 298, '2024-12-11 16:18:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 403, 409, '2024-07-09 21:19:04', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 341, 661, '2024-02-16 14:54:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 403, 973, '2024-01-13 20:11:19', NULL, NULL); 
+VALUES ('Pésimo', 1, 341, 249, '2024-04-04 01:35:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 403, 395, '2024-11-20 13:53:26', NULL, NULL); 
+VALUES ('Maravilloso', 5, 341, 656, '2024-06-01 23:33:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 351, 639, '2024-07-08 17:53:41', NULL, NULL); 
+VALUES ('Me encantó', 5, 616, 690, '2024-02-05 11:15:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 192, 440, '2024-07-25 01:08:14', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 616, 126, '2024-04-09 01:41:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 192, 74, '2024-04-14 05:42:53', NULL, NULL); 
+VALUES ('Aceptable', 3, 616, 561, '2024-06-14 19:53:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 192, 285, '2024-08-15 04:28:29', NULL, NULL); 
+VALUES ('Regular', 2, 616, 602, '2024-02-11 06:29:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 192, 524, '2024-11-27 09:13:43', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 298, 991, '2024-03-17 01:04:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 548, 140, '2024-01-15 21:39:43', NULL, NULL); 
+VALUES ('No lo compren', 1, 298, 103, '2024-04-09 02:33:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 548, 946, '2024-07-15 20:56:19', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 683, 91, '2024-08-13 22:28:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 72, 809, '2024-02-19 16:58:54', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 683, 589, '2024-12-22 18:32:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 72, 699, '2024-12-08 21:58:48', NULL, NULL); 
+VALUES ('No lo compren', 1, 477, 600, '2024-06-01 11:43:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 72, 340, '2024-01-05 01:02:54', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 477, 422, '2024-10-23 08:00:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 653, 738, '2024-07-27 13:46:18', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 477, 761, '2024-06-26 01:32:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 653, 317, '2024-01-06 13:44:33', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 477, 210, '2024-01-10 04:12:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 653, 838, '2024-03-28 17:51:26', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 477, 391, '2024-07-16 12:59:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 653, 164, '2024-02-04 20:26:16', NULL, NULL); 
+VALUES ('Recomendable', 4, 582, 298, '2024-01-09 05:26:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 713, 633, '2024-01-18 20:21:52', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 582, 680, '2024-03-09 19:00:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 3, 489, '2024-01-19 04:35:46', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 582, 323, '2024-10-06 07:06:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 3, 907, '2024-12-08 12:34:05', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 26, 282, '2024-09-01 09:14:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 3, 401, '2024-11-27 22:35:20', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 26, 816, '2024-01-19 09:23:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 3, 740, '2024-12-24 18:15:31', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 26, 28, '2024-02-19 07:15:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 716, 544, '2024-08-23 10:46:29', NULL, NULL); 
+VALUES ('Buena calidad', 4, 26, 140, '2024-04-25 08:41:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 716, 277, '2024-06-19 04:11:30', NULL, NULL); 
+VALUES ('Recomendable', 4, 26, 958, '2024-04-21 08:45:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 716, 757, '2024-07-10 11:00:55', NULL, NULL); 
+VALUES ('Normal', 3, 397, 942, '2024-11-26 10:32:18', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 716, 34, '2024-09-04 00:05:19', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 397, 332, '2024-07-24 13:09:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 585, 409, '2024-02-24 08:24:54', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 397, 940, '2024-08-24 21:45:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 585, 62, '2024-08-25 10:06:41', NULL, NULL); 
+VALUES ('Buena calidad', 4, 19, 278, '2024-09-13 22:34:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 585, 339, '2024-03-15 22:45:27', NULL, NULL); 
+VALUES ('Excelente', 5, 19, 607, '2024-03-17 21:31:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 585, 477, '2024-07-09 13:42:47', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 19, 397, '2024-07-20 03:53:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 585, 693, '2024-07-05 01:33:53', NULL, NULL); 
+VALUES ('Es pasable', 3, 630, 573, '2024-01-14 22:52:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 651, 346, '2024-12-16 17:17:09', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 630, 215, '2024-07-02 02:50:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 651, 207, '2024-04-17 22:36:02', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 630, 995, '2024-04-07 15:35:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 651, 202, '2024-10-23 16:02:14', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 630, 283, '2024-01-20 05:33:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 651, 667, '2024-09-24 16:37:05', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 630, 884, '2024-12-05 21:42:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 289, 577, '2024-11-04 12:23:23', NULL, NULL); 
+VALUES ('Recomendable', 4, 354, 68, '2024-10-18 07:12:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 289, 106, '2024-09-08 20:10:16', NULL, NULL); 
+VALUES ('Recomendable', 4, 354, 912, '2024-04-04 18:54:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 289, 798, '2024-02-09 06:59:15', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 354, 967, '2024-05-08 18:42:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 289, 95, '2024-04-04 09:25:55', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 354, 188, '2024-07-18 17:27:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 240, 72, '2024-08-25 14:59:01', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 354, 468, '2024-10-08 09:07:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 240, 885, '2024-10-11 10:38:07', NULL, NULL); 
+VALUES ('Regular', 2, 689, 521, '2024-06-20 13:30:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 271, 450, '2024-05-12 02:50:49', NULL, NULL); 
+VALUES ('No lo vale', 1, 316, 750, '2024-05-11 03:09:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 271, 553, '2024-08-18 02:55:23', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 316, 198, '2024-10-03 20:51:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 271, 140, '2024-11-13 00:53:08', NULL, NULL); 
+VALUES ('Normal', 3, 316, 143, '2024-05-05 15:53:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 9, 987, '2024-10-11 22:44:05', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 43, 857, '2024-10-20 23:23:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 9, 541, '2024-09-22 16:14:05', NULL, NULL); 
+VALUES ('Regular', 2, 43, 758, '2024-04-05 22:31:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 9, 205, '2024-11-22 01:45:06', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 43, 395, '2024-08-06 16:40:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 583, 660, '2024-10-17 09:49:32', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 43, 280, '2024-01-04 11:43:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 583, 724, '2024-01-19 03:09:37', NULL, NULL); 
+VALUES ('Muy malo', 1, 610, 936, '2024-12-18 16:03:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 583, 335, '2024-06-17 03:31:49', NULL, NULL); 
+VALUES ('Pésimo', 1, 610, 750, '2024-01-18 01:00:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 583, 61, '2024-09-06 02:04:43', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 513, 832, '2024-09-07 05:06:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 663, 921, '2024-01-14 11:27:00', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 513, 617, '2024-08-09 19:42:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 663, 855, '2024-09-09 03:18:32', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 719, 186, '2024-09-03 13:34:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 663, 523, '2024-01-23 02:36:25', NULL, NULL); 
+VALUES ('Me gustó', 4, 719, 737, '2024-04-28 06:42:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 663, 552, '2024-11-16 05:56:38', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 379, 422, '2024-12-02 08:46:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 663, 934, '2024-02-01 05:06:22', NULL, NULL); 
+VALUES ('Está bien', 3, 379, 150, '2024-08-10 10:21:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 439, 399, '2024-06-07 05:44:25', NULL, NULL); 
+VALUES ('Me encantó', 5, 379, 258, '2024-01-22 23:56:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 439, 642, '2024-10-01 04:59:38', NULL, NULL); 
+VALUES ('Lo amé', 5, 379, 96, '2024-04-13 09:15:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 439, 703, '2024-09-18 10:02:08', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 183, 379, '2024-10-17 16:44:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 113, 98, '2024-04-16 12:54:10', NULL, NULL); 
+VALUES ('No lo vale', 1, 183, 918, '2024-11-02 15:07:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 602, 858, '2024-10-03 23:55:23', NULL, NULL); 
+VALUES ('Increíble', 5, 183, 359, '2024-06-15 18:39:44', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 602, 954, '2024-10-12 14:49:07', NULL, NULL); 
+VALUES ('Normal', 3, 548, 315, '2024-06-20 14:15:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 362, 57, '2024-12-25 09:04:10', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 548, 638, '2024-03-19 17:43:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 362, 321, '2024-02-08 04:09:11', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 2, 378, '2024-03-04 16:38:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 362, 27, '2024-10-24 23:28:07', NULL, NULL); 
+VALUES ('Increíble', 5, 2, 410, '2024-01-15 22:57:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 82, 794, '2024-04-05 22:05:09', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 2, 214, '2024-11-18 03:19:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 82, 628, '2024-09-23 07:00:32', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 2, 655, '2024-09-02 15:16:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 82, 680, '2024-04-22 11:45:54', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 698, 578, '2024-06-26 02:01:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 536, 767, '2024-06-12 17:55:09', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 698, 843, '2024-12-02 11:12:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 536, 444, '2024-01-21 07:17:16', NULL, NULL); 
+VALUES ('Es pasable', 3, 268, 120, '2024-11-26 22:38:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 536, 783, '2024-07-10 06:02:14', NULL, NULL); 
+VALUES ('Me gustó', 4, 268, 255, '2024-07-15 23:52:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 122, 19, '2024-07-04 12:11:59', NULL, NULL); 
+VALUES ('Aceptable', 3, 268, 658, '2024-06-06 11:18:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 130, 278, '2024-11-19 02:43:40', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 268, 330, '2024-01-17 07:59:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 610, 638, '2024-01-25 15:41:58', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 268, 31, '2024-05-19 23:42:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 610, 338, '2024-12-13 13:09:25', NULL, NULL); 
+VALUES ('Pésimo', 1, 431, 153, '2024-10-22 17:03:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 406, 40, '2024-08-26 20:55:26', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 37, 712, '2024-03-24 13:06:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 560, 370, '2024-12-02 05:15:21', NULL, NULL); 
+VALUES ('Aceptable', 3, 37, 517, '2024-06-06 22:56:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 560, 843, '2024-04-12 23:01:19', NULL, NULL); 
+VALUES ('Recomendable', 4, 37, 785, '2024-04-13 20:56:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 560, 432, '2024-07-28 00:25:36', NULL, NULL); 
+VALUES ('Excelente', 5, 37, 407, '2024-05-19 18:53:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 188, 904, '2024-11-09 04:19:01', NULL, NULL); 
+VALUES ('Decepcionante', 1, 37, 627, '2024-07-22 00:19:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 188, 422, '2024-02-12 19:47:01', NULL, NULL); 
+VALUES ('Bueno', 4, 700, 487, '2024-03-17 11:14:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 188, 497, '2024-10-13 05:42:55', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 700, 423, '2024-02-09 01:58:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 474, 365, '2024-05-15 01:44:21', NULL, NULL); 
+VALUES ('Excelente', 5, 700, 335, '2024-01-13 09:12:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 474, 275, '2024-02-10 19:29:29', NULL, NULL); 
+VALUES ('Normal', 3, 85, 672, '2024-07-18 02:10:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 395, 601, '2024-08-11 11:33:14', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 85, 131, '2024-06-19 13:33:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 395, 52, '2024-06-23 10:38:45', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 85, 111, '2024-03-09 17:24:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 395, 229, '2024-12-03 14:22:27', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 85, 855, '2024-01-04 19:12:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 395, 531, '2024-11-28 02:26:23', NULL, NULL); 
+VALUES ('Excelente', 5, 85, 210, '2024-05-18 06:27:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 423, 310, '2024-09-15 14:17:57', NULL, NULL); 
+VALUES ('Me gustó', 4, 685, 87, '2024-06-05 15:17:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 423, 40, '2024-09-10 04:49:33', NULL, NULL); 
+VALUES ('Nada especial', 3, 685, 356, '2024-08-25 23:02:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 317, 338, '2024-09-26 07:22:17', NULL, NULL); 
+VALUES ('Excelente', 5, 685, 965, '2024-09-16 13:00:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 317, 955, '2024-05-23 00:46:04', NULL, NULL); 
+VALUES ('Aceptable', 3, 685, 782, '2024-07-14 16:18:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 317, 157, '2024-11-08 10:17:30', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 685, 33, '2024-08-19 01:33:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 480, 543, '2024-09-13 10:14:23', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 323, 298, '2024-01-11 22:01:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 480, 744, '2024-09-21 08:32:54', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 323, 695, '2024-07-14 04:43:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 570, 759, '2024-05-19 19:16:53', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 212, 604, '2024-03-01 01:07:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 570, 169, '2024-02-08 09:44:03', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 36, 785, '2024-09-16 10:12:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 570, 761, '2024-05-12 21:29:17', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 36, 194, '2024-09-25 18:50:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 570, 607, '2024-07-18 16:10:16', NULL, NULL); 
+VALUES ('Me gustó', 4, 36, 313, '2024-01-22 09:37:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 430, 546, '2024-01-02 09:23:34', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 36, 356, '2024-09-22 04:38:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 430, 199, '2024-01-12 11:20:14', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 41, 225, '2024-02-23 13:12:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 430, 417, '2024-02-08 09:15:16', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 647, 300, '2024-09-11 13:37:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 436, 473, '2024-03-02 20:56:11', NULL, NULL); 
+VALUES ('No está mal', 3, 647, 655, '2024-01-04 05:13:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 576, 282, '2024-07-28 15:46:23', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 647, 163, '2024-08-26 22:33:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 576, 971, '2024-06-26 04:03:12', NULL, NULL); 
+VALUES ('Muy bueno', 5, 629, 351, '2024-04-06 13:28:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 1, 554, '2024-02-10 03:45:18', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 104, 123, '2024-01-06 10:30:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 1, 445, '2024-08-02 13:14:25', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 104, 291, '2024-06-06 06:12:07', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría', 1, 1, 720, '2024-10-13 06:18:06', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 104, 896, '2024-12-18 02:25:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 1, 541, '2024-09-21 02:51:44', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 104, 332, '2024-08-08 02:51:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 1, 713, '2024-04-16 08:53:22', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 500, 176, '2024-11-12 13:38:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 706, 114, '2024-07-12 10:17:12', NULL, NULL); 
+VALUES ('Excelente', 5, 500, 758, '2024-05-23 17:30:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 706, 278, '2024-02-01 01:29:43', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 500, 558, '2024-08-23 09:05:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 448, 148, '2024-05-03 23:16:20', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 489, 21, '2024-03-17 23:53:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 145, 912, '2024-05-19 00:01:42', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 489, 953, '2024-04-20 22:20:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 145, 817, '2024-01-10 21:52:16', NULL, NULL); 
+VALUES ('Nada especial', 3, 520, 376, '2024-01-11 00:21:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 145, 769, '2024-07-28 17:43:50', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 520, 959, '2024-12-14 07:01:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 145, 498, '2024-02-14 00:54:44', NULL, NULL); 
+VALUES ('Increíble', 5, 520, 151, '2024-04-13 05:52:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 260, 819, '2024-05-09 06:28:22', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 110, 504, '2024-06-27 06:48:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 260, 353, '2024-06-17 14:46:10', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 310, 975, '2024-05-10 23:36:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 260, 343, '2024-03-06 17:01:49', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 310, 151, '2024-07-15 10:33:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 260, 832, '2024-01-06 23:35:21', NULL, NULL); 
+VALUES ('Malo', 2, 310, 321, '2024-06-09 00:57:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 237, 261, '2024-10-21 19:29:54', NULL, NULL); 
+VALUES ('Recomendable', 4, 219, 752, '2024-06-14 23:52:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 237, 742, '2024-01-01 04:00:55', NULL, NULL); 
+VALUES ('No lo compren', 1, 385, 890, '2024-04-21 18:52:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 237, 523, '2024-04-16 12:07:53', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 385, 241, '2024-07-24 16:02:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 237, 327, '2024-11-21 07:23:41', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 385, 319, '2024-01-03 04:33:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 457, 409, '2024-07-06 20:00:04', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 438, 987, '2024-06-28 03:06:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 457, 14, '2024-06-05 09:30:16', NULL, NULL); 
+VALUES ('Muy bueno', 5, 438, 494, '2024-11-24 04:58:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 457, 853, '2024-12-21 11:06:35', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 438, 417, '2024-08-28 01:35:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 114, 264, '2024-02-12 06:20:46', NULL, NULL); 
+VALUES ('Malo', 2, 449, 720, '2024-01-01 12:42:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 114, 390, '2024-10-27 11:16:00', NULL, NULL); 
+VALUES ('Muy bueno', 5, 449, 395, '2024-03-04 06:39:35', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 114, 787, '2024-10-09 09:04:15', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 449, 917, '2024-10-20 21:18:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 263, 46, '2024-03-27 04:37:56', NULL, NULL); 
+VALUES ('Malo', 2, 449, 353, '2024-01-21 01:42:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 263, 758, '2024-04-11 00:59:29', NULL, NULL); 
+VALUES ('Es pasable', 3, 399, 792, '2024-06-15 13:50:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 263, 341, '2024-06-24 08:26:48', NULL, NULL); 
+VALUES ('Buena calidad', 4, 399, 742, '2024-01-26 20:00:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 263, 399, '2024-04-22 15:51:20', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 399, 341, '2024-06-18 15:22:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 613, 714, '2024-12-15 02:27:02', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 399, 616, '2024-05-09 14:09:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 77, 73, '2024-11-14 17:02:17', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 101, 218, '2024-09-08 15:23:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 77, 844, '2024-04-19 09:38:05', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 101, 824, '2024-10-01 19:55:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 77, 471, '2024-06-22 21:01:04', NULL, NULL); 
+VALUES ('Malo', 2, 101, 227, '2024-11-19 12:23:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 361, 280, '2024-12-14 13:02:32', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 101, 997, '2024-11-13 05:03:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 361, 943, '2024-05-08 13:46:27', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 101, 913, '2024-02-12 20:45:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 361, 113, '2024-12-20 08:49:29', NULL, NULL); 
+VALUES ('Bueno', 4, 666, 791, '2024-04-05 18:42:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 361, 649, '2024-04-15 01:57:34', NULL, NULL); 
+VALUES ('Malo', 2, 666, 817, '2024-04-22 14:38:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 361, 975, '2024-11-03 22:10:03', NULL, NULL); 
+VALUES ('Normal', 3, 32, 200, '2024-06-17 08:36:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 496, 279, '2024-08-16 18:48:52', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 710, 227, '2024-05-17 20:16:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 496, 85, '2024-10-22 06:19:19', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 710, 622, '2024-03-27 15:00:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 496, 25, '2024-09-23 20:43:21', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 710, 771, '2024-10-21 06:39:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 496, 946, '2024-03-10 13:49:46', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 710, 825, '2024-04-19 14:50:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 496, 639, '2024-07-06 05:28:13', NULL, NULL); 
+VALUES ('Excelente', 5, 237, 994, '2024-06-18 03:11:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 601, 215, '2024-01-20 07:21:48', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 237, 678, '2024-08-16 04:30:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 601, 424, '2024-03-28 15:19:51', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 237, 139, '2024-07-10 23:07:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 146, 918, '2024-11-19 17:50:24', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 572, 458, '2024-07-10 03:18:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 146, 295, '2024-01-09 02:53:26', NULL, NULL); 
+VALUES ('Aceptable', 3, 409, 182, '2024-12-28 19:07:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 146, 253, '2024-12-14 11:45:03', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 409, 706, '2024-01-13 09:57:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 146, 390, '2024-02-15 20:06:34', NULL, NULL); 
+VALUES ('Me gustó', 4, 409, 607, '2024-03-20 09:25:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 370, 53, '2024-06-03 01:37:12', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 175, 487, '2024-08-03 09:15:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 370, 280, '2024-12-15 22:46:38', NULL, NULL); 
+VALUES ('Increíble', 5, 175, 982, '2024-09-01 12:28:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 370, 204, '2024-03-15 03:19:17', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 175, 911, '2024-05-09 12:00:26', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 370, 517, '2024-02-20 04:06:26', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 190, 858, '2024-06-26 01:44:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 370, 360, '2024-02-20 00:33:03', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 190, 878, '2024-03-02 21:08:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 355, 555, '2024-10-10 23:05:58', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 190, 44, '2024-04-28 20:16:28', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 355, 70, '2024-09-04 05:48:02', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 309, 677, '2024-10-28 10:45:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 355, 991, '2024-11-28 17:41:57', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 666, 887, '2024-06-21 00:43:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 425, 836, '2024-12-06 19:56:44', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 666, 792, '2024-03-09 18:20:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 425, 392, '2024-12-02 21:30:16', NULL, NULL); 
+VALUES ('Nada especial', 3, 666, 912, '2024-12-16 20:46:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 425, 723, '2024-04-06 23:31:23', NULL, NULL); 
+VALUES ('Es pasable', 3, 666, 576, '2024-04-19 01:11:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 425, 346, '2024-12-21 07:05:58', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 666, 754, '2024-08-18 08:49:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 425, 971, '2024-10-15 16:40:07', NULL, NULL); 
+VALUES ('Buena calidad', 4, 431, 626, '2024-12-20 04:38:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 228, 634, '2024-03-09 08:19:40', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 431, 918, '2024-04-20 07:49:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 228, 584, '2024-02-28 12:59:53', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 112, 112, '2024-08-28 10:07:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 228, 606, '2024-09-05 02:45:11', NULL, NULL); 
+VALUES ('Aceptable', 3, 340, 715, '2024-08-21 16:18:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 563, 764, '2024-07-18 21:24:44', NULL, NULL); 
+VALUES ('Maravilloso', 5, 340, 909, '2024-09-17 20:12:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 563, 94, '2024-01-14 21:47:55', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 4, 340, 482, '2024-02-01 08:36:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 563, 213, '2024-08-17 05:43:00', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 357, 116, '2024-10-19 22:05:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 563, 987, '2024-06-07 12:48:45', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 357, 299, '2024-10-08 16:51:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 563, 416, '2024-03-24 14:34:39', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 411, 853, '2024-01-06 10:36:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 531, 870, '2024-02-17 09:53:22', NULL, NULL); 
+VALUES ('Buena calidad', 4, 411, 635, '2024-03-04 02:07:53', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 531, 204, '2024-07-17 04:09:35', NULL, NULL); 
+VALUES ('Muy bueno', 5, 411, 155, '2024-04-20 17:27:48', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 531, 604, '2024-07-19 12:01:02', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 411, 80, '2024-07-23 02:10:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 531, 582, '2024-11-12 15:16:16', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 411, 773, '2024-10-27 14:40:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 713, 585, '2024-08-17 09:01:55', NULL, NULL); 
+VALUES ('Muy bueno', 5, 553, 821, '2024-03-09 18:48:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 713, 243, '2024-04-06 05:23:26', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 553, 442, '2024-10-19 20:23:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 713, 677, '2024-02-25 05:05:17', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 642, 260, '2024-01-09 05:21:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 713, 183, '2024-06-11 15:32:14', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 642, 382, '2024-07-11 00:08:59', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 713, 659, '2024-05-06 12:32:02', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 642, 521, '2024-04-14 08:55:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 573, 945, '2024-09-12 14:19:12', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 642, 637, '2024-12-06 04:35:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 468, 673, '2024-11-11 11:40:15', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 244, 749, '2024-05-05 13:39:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 468, 683, '2024-01-27 02:30:11', NULL, NULL); 
+VALUES ('Maravilloso', 5, 244, 417, '2024-11-01 20:56:06', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 281, 304, '2024-11-12 22:28:37', NULL, NULL); 
+VALUES ('Muy malo', 1, 244, 386, '2024-11-02 23:21:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 281, 178, '2024-07-06 02:48:30', NULL, NULL); 
+VALUES ('Recomendable', 4, 699, 21, '2024-06-07 11:34:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 308, 703, '2024-04-24 16:46:43', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 414, 509, '2024-08-15 03:10:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 308, 163, '2024-09-09 07:15:25', NULL, NULL); 
+VALUES ('Recomendable', 4, 414, 215, '2024-01-08 08:10:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 308, 645, '2024-12-06 12:00:46', NULL, NULL); 
+VALUES ('Muy malo', 1, 414, 959, '2024-10-11 02:14:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 308, 886, '2024-09-16 22:31:51', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 414, 909, '2024-05-01 16:17:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 41, 157, '2024-01-14 07:48:58', NULL, NULL); 
+VALUES ('Me encantó', 5, 414, 848, '2024-05-04 11:34:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 41, 581, '2024-06-15 04:36:34', NULL, NULL); 
+VALUES ('Muy bueno', 5, 535, 617, '2024-04-15 03:08:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 41, 988, '2024-08-25 23:56:38', NULL, NULL); 
+VALUES ('Pésimo', 1, 535, 984, '2024-07-25 04:07:14', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 41, 987, '2024-01-03 16:54:18', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 535, 944, '2024-04-07 22:35:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 41, 952, '2024-04-21 02:27:48', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 535, 955, '2024-05-05 12:38:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 453, 105, '2024-05-18 22:46:18', NULL, NULL); 
+VALUES ('Muy bueno', 5, 535, 778, '2024-11-08 03:26:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 453, 218, '2024-08-12 09:18:49', NULL, NULL); 
+VALUES ('No lo recomendaría', 1, 109, 728, '2024-11-26 01:09:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bastante bien', 4, 453, 25, '2024-08-14 20:40:33', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 109, 137, '2024-07-03 12:10:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 453, 714, '2024-04-01 23:16:40', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 109, 288, '2024-05-24 09:57:19', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 453, 246, '2024-01-13 06:59:21', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 109, 634, '2024-11-16 05:50:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No me gustó', 1, 402, 429, '2024-04-18 15:34:42', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 674, 981, '2024-09-23 12:59:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 402, 931, '2024-08-13 07:32:46', NULL, NULL); 
+VALUES ('No es lo mejor', 2, 674, 917, '2024-01-11 08:56:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 402, 614, '2024-09-27 17:03:01', NULL, NULL); 
+VALUES ('Me gustó', 4, 674, 407, '2024-04-09 12:57:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 402, 118, '2024-02-21 11:19:12', NULL, NULL); 
+VALUES ('Me encantó', 5, 674, 855, '2024-09-15 15:25:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 402, 905, '2024-02-17 02:11:46', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 674, 796, '2024-11-08 23:15:02', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 218, 524, '2024-11-17 00:55:50', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 353, 505, '2024-02-21 03:56:56', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 218, 640, '2024-07-12 07:35:08', NULL, NULL); 
+VALUES ('Pésimo', 1, 353, 525, '2024-02-21 17:41:03', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 49, 530, '2024-04-01 01:39:13', NULL, NULL); 
+VALUES ('Me gustó', 4, 353, 384, '2024-10-28 19:02:27', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 353, 563, '2024-01-02 04:04:32', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 353, 742, '2024-09-26 19:10:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 353, 750, '2024-10-21 07:25:12', NULL, NULL); 
+VALUES ('No está mal', 3, 353, 225, '2024-10-07 01:24:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 353, 340, '2024-05-26 00:05:51', NULL, NULL); 
+VALUES ('No lo vale', 1, 17, 30, '2024-03-03 21:39:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 353, 16, '2024-06-01 22:48:14', NULL, NULL); 
+VALUES ('Vale la pena leerlo', 4, 17, 835, '2024-02-15 22:09:24', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 551, 585, '2024-03-12 13:41:56', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 2, 658, 562, '2024-03-20 08:24:01', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 551, 590, '2024-04-12 02:12:11', NULL, NULL); 
+VALUES ('Normal', 3, 658, 958, '2024-02-10 02:22:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 551, 730, '2024-09-11 19:41:44', NULL, NULL); 
+VALUES ('Malo', 2, 658, 377, '2024-07-14 16:59:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 551, 103, '2024-07-20 07:49:55', NULL, NULL); 
+VALUES ('Lo volvería a leer', 4, 658, 326, '2024-06-25 14:14:39', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 551, 980, '2024-07-14 12:37:22', NULL, NULL); 
+VALUES ('No es tan recomendable', 3, 75, 894, '2024-03-04 06:00:22', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 444, 333, '2024-12-14 02:22:51', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 75, 44, '2024-10-24 10:28:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 444, 668, '2024-10-11 19:33:10', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 713, 951, '2024-05-12 23:53:32', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 444, 558, '2024-10-06 04:04:10', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 713, 382, '2024-04-11 03:20:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 494, 714, '2024-08-26 16:25:06', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 713, 665, '2024-12-10 22:04:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 432, 656, '2024-05-05 11:58:39', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 414, 16, '2024-06-13 22:28:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 432, 566, '2024-05-13 04:25:35', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 414, 731, '2024-02-09 04:16:58', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 432, 603, '2024-06-10 19:37:58', NULL, NULL); 
+VALUES ('Me gustó', 4, 600, 779, '2024-11-27 17:05:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 576, 568, '2024-11-03 11:30:13', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 600, 766, '2024-11-27 22:58:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 576, 443, '2024-03-20 15:48:43', NULL, NULL); 
+VALUES ('No me gustó', 1, 379, 347, '2024-03-25 08:05:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 576, 449, '2024-02-22 06:34:20', NULL, NULL); 
+VALUES ('No lo recomendaría mucho', 2, 379, 551, '2024-07-03 09:42:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 576, 557, '2024-06-01 10:25:48', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 379, 283, '2024-02-12 23:01:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 400, 503, '2024-11-18 15:39:53', NULL, NULL); 
+VALUES ('Recomendable', 4, 379, 587, '2024-09-24 19:11:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 400, 430, '2024-04-24 04:21:39', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 454, 630, '2024-01-16 14:35:31', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 400, 411, '2024-05-08 12:28:12', NULL, NULL); 
+VALUES ('No lo vale', 1, 454, 878, '2024-02-21 19:43:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 400, 623, '2024-05-23 14:38:46', NULL, NULL); 
+VALUES ('Nada especial', 3, 454, 621, '2024-07-15 01:07:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 400, 3, '2024-10-27 16:12:58', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 454, 420, '2024-05-28 12:23:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 693, 671, '2024-12-15 21:11:47', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 472, 390, '2024-12-10 19:16:42', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 693, 604, '2024-06-08 05:03:48', NULL, NULL); 
+VALUES ('No lo vale', 1, 472, 419, '2024-01-24 21:38:43', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 693, 458, '2024-05-15 12:28:56', NULL, NULL); 
+VALUES ('Lo recomendaría', 4, 49, 523, '2024-07-27 19:32:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 693, 589, '2024-10-08 23:28:39', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 382, 402, '2024-12-26 13:46:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 693, 945, '2024-01-24 14:50:40', NULL, NULL); 
+VALUES ('No lo vale', 1, 382, 977, '2024-07-01 11:41:09', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 205, 306, '2024-11-11 04:35:00', NULL, NULL); 
+VALUES ('Maravilloso', 5, 382, 312, '2024-10-07 11:35:34', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 205, 793, '2024-11-11 18:38:04', NULL, NULL); 
+VALUES ('No me gustó', 1, 382, 236, '2024-01-10 04:05:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 205, 496, '2024-11-16 23:55:21', NULL, NULL); 
+VALUES ('Bueno', 4, 382, 280, '2024-10-02 02:05:45', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Buena calidad', 4, 205, 76, '2024-04-17 22:08:46', NULL, NULL); 
+VALUES ('Me encantó', 5, 389, 435, '2024-10-07 20:06:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 176, 307, '2024-02-24 20:46:01', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 389, 907, '2024-12-19 21:08:38', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 176, 813, '2024-12-06 19:43:14', NULL, NULL); 
+VALUES ('Es pasable', 3, 389, 312, '2024-03-05 13:19:21', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 176, 565, '2024-06-05 20:37:58', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 389, 807, '2024-10-23 17:15:29', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 176, 894, '2024-05-18 23:30:28', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 716, 960, '2024-07-04 20:22:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan recomendable', 3, 176, 369, '2024-10-01 22:15:16', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 716, 767, '2024-04-27 02:10:10', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 268, 973, '2024-04-16 06:26:19', NULL, NULL); 
+VALUES ('No lo compren', 1, 716, 395, '2024-08-10 05:49:23', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 224, 566, '2024-11-23 23:52:36', NULL, NULL); 
+VALUES ('No lo recomiendo', 1, 716, 631, '2024-03-14 17:00:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Decepcionante', 1, 224, 86, '2024-12-21 17:49:49', NULL, NULL); 
+VALUES ('Aceptable', 3, 716, 958, '2024-03-19 15:54:17', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Increíble', 5, 224, 94, '2024-12-19 04:39:46', NULL, NULL); 
+VALUES ('No me gustó', 1, 432, 93, '2024-01-27 11:59:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 155, 712, '2024-03-26 13:17:25', NULL, NULL); 
+VALUES ('Cumple, pero no destaca', 3, 94, 387, '2024-10-07 13:53:46', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Podría mejorar', 2, 155, 314, '2024-03-28 07:26:45', NULL, NULL); 
+VALUES ('Regular', 2, 94, 79, '2024-07-21 07:32:57', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 133, 152, '2024-12-23 23:25:27', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 94, 305, '2024-09-27 22:03:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 133, 178, '2024-03-22 05:36:11', NULL, NULL); 
+VALUES ('Buena calidad', 4, 94, 326, '2024-08-22 23:06:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 133, 792, '2024-08-13 16:56:12', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 663, 398, '2024-11-16 03:17:51', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 133, 194, '2024-06-01 11:33:07', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 663, 830, '2024-07-03 12:25:52', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a leer', 2, 133, 71, '2024-09-08 05:27:05', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 663, 372, '2024-02-04 08:26:55', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 2, 459, '2024-10-08 18:24:37', NULL, NULL); 
+VALUES ('Maravilloso', 5, 663, 161, '2024-01-11 14:20:41', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomiendo mucho', 5, 2, 650, '2024-10-17 00:52:40', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 537, 881, '2024-03-06 01:23:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Bueno', 4, 2, 860, '2024-12-10 15:02:41', NULL, NULL); 
+VALUES ('No lo compraría de nuevo', 2, 537, 991, '2024-07-06 09:58:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 206, 236, '2024-01-01 17:39:13', NULL, NULL); 
+VALUES ('No es lo que esperaba', 2, 537, 765, '2024-03-12 12:56:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 206, 61, '2024-03-07 00:20:38', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 537, 442, '2024-03-16 07:15:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 206, 817, '2024-05-27 22:38:12', NULL, NULL); 
+VALUES ('Está bien', 3, 344, 977, '2024-02-12 16:49:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 206, 78, '2024-07-18 06:50:18', NULL, NULL); 
+VALUES ('Lo volvería a leer', 5, 344, 637, '2024-06-01 19:48:13', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 341, 208, '2024-11-05 02:43:07', NULL, NULL); 
+VALUES ('Recomendable', 4, 344, 393, '2024-03-12 18:30:05', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 1, 341, 946, '2024-03-27 08:19:38', NULL, NULL); 
+VALUES ('Está bien', 3, 344, 532, '2024-09-22 03:05:08', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compren', 1, 341, 812, '2024-02-19 15:35:43', NULL, NULL); 
+VALUES ('Aceptable', 3, 69, 165, '2024-04-15 21:10:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 341, 7, '2024-02-15 21:42:47', NULL, NULL); 
+VALUES ('Normal', 3, 69, 815, '2024-04-24 20:23:50', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 341, 930, '2024-10-24 16:16:16', NULL, NULL); 
+VALUES ('No lo compren', 1, 393, 974, '2024-11-16 17:55:33', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 657, 887, '2024-01-28 05:20:13', NULL, NULL); 
+VALUES ('Nada especial', 3, 393, 732, '2024-10-08 08:17:20', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 5, 657, 724, '2024-10-25 07:37:08', NULL, NULL); 
+VALUES ('Pésimo', 1, 447, 907, '2024-12-26 04:42:37', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 657, 698, '2024-01-05 21:39:41', NULL, NULL); 
+VALUES ('Decepcionante', 1, 146, 73, '2024-08-20 02:20:12', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 657, 428, '2024-04-01 07:51:56', NULL, NULL); 
+VALUES ('Lo recomiendo mucho', 5, 146, 847, '2024-06-11 13:20:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 657, 933, '2024-08-26 01:31:09', NULL, NULL); 
+VALUES ('Malo', 2, 146, 108, '2024-02-27 12:46:16', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 469, 790, '2024-05-08 01:04:54', NULL, NULL); 
+VALUES ('Normal', 3, 146, 197, '2024-11-06 22:38:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 469, 338, '2024-03-08 19:56:32', NULL, NULL); 
+VALUES ('No lo compren', 1, 146, 956, '2024-09-18 00:12:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo leería de nuevo', 1, 469, 120, '2024-10-03 04:24:50', NULL, NULL); 
+VALUES ('No lo volvería a comprar', 1, 695, 938, '2024-09-09 01:05:30', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 469, 682, '2024-01-06 00:28:24', NULL, NULL); 
+VALUES ('Lo amé', 5, 695, 273, '2024-07-09 06:03:00', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 97, 627, '2024-12-17 16:07:33', NULL, NULL); 
+VALUES ('Lo volvería a comprar', 5, 695, 981, '2024-08-17 05:49:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 587, 851, '2024-08-22 00:20:47', NULL, NULL); 
+VALUES ('Excelente', 5, 695, 290, '2024-02-10 21:18:40', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 587, 722, '2024-12-26 08:38:04', NULL, NULL); 
+VALUES ('Podría mejorar', 2, 380, 638, '2024-01-11 05:51:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 170, 367, '2024-11-18 12:51:46', NULL, NULL); 
+VALUES ('Está bastante bien', 4, 380, 6, '2024-12-07 05:54:25', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 170, 845, '2024-01-14 06:12:20', NULL, NULL); 
+VALUES ('No es tan bueno', 2, 669, 171, '2024-05-16 07:46:11', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 680, 415, '2024-11-07 20:29:50', NULL, NULL); 
+VALUES ('Muy bueno', 5, 669, 345, '2024-04-26 15:55:49', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 680, 314, '2024-03-04 14:12:06', NULL, NULL); 
+VALUES ('No lo volvería a leer', 2, 669, 932, '2024-01-10 21:34:36', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 680, 747, '2024-02-23 14:11:35', NULL, NULL); 
+VALUES ('No es tan bueno como esperaba', 3, 669, 119, '2024-11-05 23:50:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 680, 457, '2024-05-18 14:00:28', NULL, NULL); 
+VALUES ('Muy aburrido', 1, 669, 371, '2024-12-25 23:02:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Excelente', 5, 680, 823, '2024-12-02 08:24:51', NULL, NULL); 
+VALUES ('Malo', 2, 535, 542, '2024-09-23 21:10:47', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 470, 561, '2024-05-22 17:16:08', NULL, NULL); 
+VALUES ('No lo leería de nuevo', 1, 535, 529, '2024-08-06 05:15:04', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 470, 418, '2024-02-10 21:35:00', NULL, NULL); 
+VALUES ('Lo disfruté', 4, 535, 971, '2024-02-05 08:17:15', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 470, 661, '2024-11-14 19:09:19', NULL, NULL); 
+VALUES ('Lo mejor que he leído', 5, 124, 912, '2024-07-07 01:11:54', NULL, NULL); 
 
 INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 470, 776, '2024-07-02 21:53:36', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 279, 665, '2024-08-21 01:18:15', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 279, 157, '2024-10-20 09:03:20', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Normal', 3, 279, 669, '2024-09-24 16:50:33', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 507, 106, '2024-03-03 01:09:27', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 507, 126, '2024-05-18 20:18:25', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 507, 270, '2024-11-18 16:04:54', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 507, 133, '2024-07-03 18:44:13', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 627, 167, '2024-04-28 09:36:20', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Es pasable', 3, 627, 347, '2024-11-17 14:43:10', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 567, 428, '2024-04-24 16:44:30', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo vale', 1, 471, 853, '2024-01-04 22:51:46', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomiendo', 1, 471, 277, '2024-05-08 19:42:29', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 471, 207, '2024-11-10 08:24:13', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 471, 668, '2024-09-04 21:47:20', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 695, 409, '2024-09-22 14:02:50', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 695, 542, '2024-05-04 09:33:10', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 695, 304, '2024-10-19 22:31:08', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 695, 827, '2024-01-18 11:54:13', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo mejor que he leído', 5, 555, 73, '2024-02-15 05:56:38', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Regular', 2, 555, 642, '2024-07-13 02:45:25', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 4, 189, 589, '2024-01-01 17:01:17', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo mejor', 2, 189, 995, '2024-04-24 06:54:40', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está mal', 3, 586, 637, '2024-10-23 20:26:37', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno', 2, 586, 405, '2024-06-28 04:54:38', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Pésimo', 1, 411, 4, '2024-04-17 16:52:12', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 411, 448, '2024-07-14 17:43:29', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 411, 685, '2024-08-23 12:21:30', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo compraría de nuevo', 2, 22, 277, '2024-06-15 09:40:17', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Cumple, pero no destaca', 3, 22, 472, '2024-12-14 23:33:20', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo amé', 5, 22, 543, '2024-04-08 12:27:05', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es lo que esperaba', 2, 580, 80, '2024-11-09 15:11:50', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo disfruté', 4, 393, 352, '2024-06-14 18:26:01', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Aceptable', 3, 393, 983, '2024-07-08 18:59:10', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 393, 30, '2024-10-27 08:55:14', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 621, 71, '2024-05-01 14:30:34', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 103, 67, '2024-12-27 13:21:19', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo recomendaría', 4, 103, 230, '2024-04-27 21:49:01', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 103, 969, '2024-03-21 14:26:18', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a leer', 5, 103, 507, '2024-01-03 17:28:34', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Está bien', 3, 103, 286, '2024-01-17 21:13:11', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo recomendaría mucho', 2, 45, 129, '2024-11-25 12:02:14', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Vale la pena leerlo', 4, 45, 153, '2024-11-02 17:32:11', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Recomendable', 4, 99, 802, '2024-02-10 14:00:54', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No es tan bueno como esperaba', 3, 99, 636, '2024-05-19 11:55:31', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy aburrido', 1, 99, 514, '2024-02-21 19:02:27', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me gustó', 4, 99, 214, '2024-02-06 16:21:50', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 99, 222, '2024-05-27 08:39:53', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Me encantó', 5, 705, 403, '2024-07-23 00:30:25', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Maravilloso', 5, 705, 884, '2024-11-10 06:27:45', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Lo volvería a comprar', 4, 165, 60, '2024-09-27 20:16:04', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Nada especial', 3, 165, 229, '2024-06-25 23:25:25', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No lo volvería a comprar', 2, 165, 666, '2024-04-11 21:22:58', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('No está tan bueno', 3, 165, 876, '2024-08-11 02:12:27', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy bueno', 5, 222, 794, '2024-03-26 12:32:10', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Muy malo', 1, 222, 45, '2024-01-01 04:57:39', NULL, NULL); 
-
-INSERT INTO public.review (comment, rating, id_book, id_user, created_at, updated_at, deleted_at) 
-VALUES ('Malo', 2, 222, 174, '2024-03-11 22:29:39', NULL, NULL); 
+VALUES ('No está tan bueno', 3, 124, 365, '2024-11-23 17:13:10', NULL, NULL); 
 

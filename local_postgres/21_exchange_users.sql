@@ -1,228 +1,256 @@
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (5, 358); 
+VALUES (3, 822); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (5, 510);
+VALUES (3, 224);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (9, 602); 
+VALUES (4, 822); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (9, 516);
+VALUES (4, 125);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (16, 675); 
+VALUES (6, 437); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (16, 685);
+VALUES (6, 894);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (18, 498); 
+VALUES (7, 92); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (18, 377);
+VALUES (7, 178);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (20, 98); 
+VALUES (10, 352); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (20, 121);
+VALUES (10, 183);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (22, 853); 
+VALUES (18, 983); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (22, 315);
+VALUES (18, 178);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (27, 717); 
+VALUES (19, 258); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (27, 834);
+VALUES (19, 686);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (31, 164); 
+VALUES (24, 543); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (31, 233);
+VALUES (24, 212);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (34, 832); 
+VALUES (25, 769); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (34, 308);
+VALUES (25, 826);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (48, 58); 
+VALUES (29, 209); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (48, 589);
+VALUES (29, 683);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (49, 258); 
+VALUES (34, 554); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (49, 104);
+VALUES (34, 727);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (51, 662); 
+VALUES (36, 478); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (51, 790);
+VALUES (36, 924);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (56, 206); 
+VALUES (47, 857); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (56, 517);
+VALUES (47, 280);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (59, 659); 
+VALUES (52, 317); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (59, 177);
+VALUES (52, 537);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (62, 647); 
+VALUES (56, 657); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (62, 817);
+VALUES (56, 818);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (65, 308); 
+VALUES (59, 189); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (65, 395);
+VALUES (59, 987);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (67, 763); 
+VALUES (63, 211); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (67, 121);
+VALUES (63, 985);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (76, 3); 
+VALUES (70, 667); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (76, 72);
+VALUES (70, 940);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (82, 120); 
+VALUES (75, 870); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (82, 60);
+VALUES (75, 959);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (108, 573); 
+VALUES (78, 459); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (108, 288);
+VALUES (78, 763);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (109, 941); 
+VALUES (81, 547); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (109, 274);
+VALUES (81, 52);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (113, 222); 
+VALUES (86, 486); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (113, 242);
+VALUES (86, 772);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (122, 274); 
+VALUES (89, 754); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (122, 38);
+VALUES (89, 586);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (125, 910); 
+VALUES (91, 39); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (125, 700);
+VALUES (91, 381);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (126, 422); 
+VALUES (95, 35); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (126, 667);
+VALUES (95, 761);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (136, 454); 
+VALUES (98, 555); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (136, 126);
+VALUES (98, 318);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (138, 199); 
+VALUES (99, 710); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (138, 634);
+VALUES (99, 815);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (139, 484); 
+VALUES (107, 743); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (139, 325);
+VALUES (107, 476);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (142, 227); 
+VALUES (112, 217); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (142, 551);
+VALUES (112, 711);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (143, 916); 
+VALUES (115, 174); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (143, 365);
+VALUES (115, 715);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (147, 66); 
+VALUES (116, 505); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (147, 470);
+VALUES (116, 226);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (150, 994); 
+VALUES (117, 972); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (150, 327);
+VALUES (117, 335);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (154, 524); 
+VALUES (122, 58); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (154, 678);
+VALUES (122, 477);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (158, 895); 
+VALUES (124, 623); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (158, 759);
+VALUES (124, 798);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (161, 172); 
+VALUES (125, 811); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (161, 614);
+VALUES (125, 556);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (162, 363); 
+VALUES (140, 929); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (162, 625);
+VALUES (140, 845);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (181, 497); 
+VALUES (141, 296); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (181, 441);
+VALUES (141, 171);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (186, 259); 
+VALUES (142, 763); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (186, 676);
+VALUES (142, 388);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (188, 61); 
+VALUES (143, 61); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (188, 678);
+VALUES (143, 133);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (189, 754); 
+VALUES (148, 332); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (189, 186);
+VALUES (148, 964);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (191, 796); 
+VALUES (149, 53); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (191, 510);
+VALUES (149, 550);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (202, 261); 
+VALUES (159, 793); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (202, 573);
+VALUES (159, 800);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (208, 230); 
+VALUES (160, 497); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (208, 135);
+VALUES (160, 136);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (209, 435); 
+VALUES (161, 375); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (209, 66);
+VALUES (161, 145);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (216, 335); 
+VALUES (162, 381); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (216, 403);
+VALUES (162, 906);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (217, 335); 
+VALUES (163, 381); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (217, 287);
+VALUES (163, 255);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (220, 747); 
+VALUES (165, 904); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (220, 652);
+VALUES (165, 158);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (225, 418); 
+VALUES (169, 699); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (225, 655);
+VALUES (169, 207);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (227, 619); 
+VALUES (182, 428); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (227, 824);
+VALUES (182, 657);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (234, 742); 
+VALUES (190, 764); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (234, 427);
+VALUES (190, 725);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (237, 400); 
+VALUES (196, 278); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (237, 60);
+VALUES (196, 904);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (241, 170); 
+VALUES (198, 224); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (241, 749);
+VALUES (198, 349);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (199, 955); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (199, 903);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (202, 694); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (202, 461);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (209, 199); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (209, 777);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (212, 415); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (212, 299);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (220, 639); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (220, 84);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (224, 244); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (224, 857);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (235, 313); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (235, 743);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (236, 233); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (236, 504);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (239, 1001); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (239, 388);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (240, 1001); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (240, 766);
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (241, 1001); 
+INSERT INTO public.exchange_users (exchange_id, user_id) 
+VALUES (241, 451);
 INSERT INTO public.exchange_users (exchange_id, user_id) 
 VALUES (242, 1001); 
 INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (242, 691);
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (243, 1001); 
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (243, 760);
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (244, 1001); 
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (244, 744);
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (245, 1001); 
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (245, 91);
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (246, 1001); 
-INSERT INTO public.exchange_users (exchange_id, user_id) 
-VALUES (246, 109);
+VALUES (242, 342);

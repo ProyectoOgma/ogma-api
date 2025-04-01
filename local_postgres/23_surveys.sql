@@ -1,342 +1,384 @@
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 214, 510, 358, 5, True); 
+VALUES (1, 1, 'Pésimo intercambio', 'EXCHANGE', 118, 224, 822, 3, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 5, 'Excelente experiencia', 'EXCHANGE', 127, 358, 510, 5, True); 
+VALUES (4, 5, 'Muy satisfecho', 'EXCHANGE', 619, 822, 224, 3, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 2, 'No fue lo que esperaba', 'EXCHANGE', 279, 516, 602, 9, True); 
+VALUES (4, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 566, 125, 822, 4, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 2, 'Insatisfecho', 'EXCHANGE', 36, 602, 516, 9, True); 
+VALUES (4, 1, 'Pésimo intercambio', 'EXCHANGE', 636, 822, 125, 4, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 4, 'Satisfecho', 'EXCHANGE', 14, 685, 675, 16, True); 
+VALUES (3, 3, 'Aceptable', 'EXCHANGE', 270, 894, 437, 6, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 2, 'Regular experiencia', 'EXCHANGE', 341, 675, 685, 16, True); 
+VALUES (2, 3, 'No estuvo mal', 'EXCHANGE', 681, 437, 894, 6, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 131, 377, 498, 18, True); 
+VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 479, 178, 92, 7, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 1, 'Muy insatisfecho', 'EXCHANGE', 476, 498, 377, 18, True); 
+VALUES (3, 5, 'Lo recomendaría a otros', 'EXCHANGE', 713, 92, 178, 7, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 1, 'Muy insatisfecho', 'EXCHANGE', 712, 121, 98, 20, True); 
+VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 130, 183, 352, 10, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 178, 98, 121, 20, False); 
+VALUES (3, 5, 'Excelente experiencia', 'EXCHANGE', 97, 352, 183, 10, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Satisfecho', 'EXCHANGE', 507, 315, 853, 22, True); 
+VALUES (5, 1, 'Muy insatisfecho', 'EXCHANGE', 402, 178, 983, 18, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 2, 'Insatisfecho', 'EXCHANGE', 90, 853, 315, 22, True); 
+VALUES (5, 1, 'Muy insatisfecho', 'EXCHANGE', 250, 983, 178, 18, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 5, 'Muy satisfecho', 'EXCHANGE', 436, 834, 717, 27, True); 
+VALUES (4, 3, 'Intercambio promedio', 'EXCHANGE', 397, 686, 258, 19, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 2, 'No fue lo que esperaba', 'EXCHANGE', 294, 717, 834, 27, True); 
+VALUES (2, 1, 'Muy insatisfecho', 'EXCHANGE', 395, 258, 686, 19, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 3, 'No estuvo mal', 'EXCHANGE', 174, 233, 164, 31, True); 
+VALUES (2, 2, 'No fue lo que esperaba', 'EXCHANGE', 622, 212, 543, 24, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 3, 'Aceptable', 'EXCHANGE', 655, 164, 233, 31, False); 
+VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 97, 543, 212, 24, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 3, 'No estuvo mal', 'EXCHANGE', 648, 308, 832, 34, True); 
+VALUES (4, 1, 'Pésimo intercambio', 'EXCHANGE', 313, 826, 769, 25, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Intercambio exitoso', 'EXCHANGE', 269, 832, 308, 34, True); 
+VALUES (2, 5, 'Muy satisfecho', 'EXCHANGE', 550, 769, 826, 25, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 4, 'Intercambio exitoso', 'EXCHANGE', 32, 589, 58, 48, True); 
+VALUES (2, 4, 'Buena experiencia', 'EXCHANGE', 525, 683, 209, 29, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 3, 'Intercambio promedio', 'EXCHANGE', 404, 58, 589, 48, True); 
+VALUES (4, 2, 'No fue lo que esperaba', 'EXCHANGE', 118, 209, 683, 29, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 4, 'Buena experiencia', 'EXCHANGE', 580, 104, 258, 49, True); 
+VALUES (2, 3, 'Aceptable', 'EXCHANGE', 584, 727, 554, 34, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 3, 'Aceptable', 'EXCHANGE', 605, 258, 104, 49, True); 
+VALUES (4, 1, 'Muy insatisfecho', 'EXCHANGE', 702, 554, 727, 34, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 5, 'Excelente experiencia', 'EXCHANGE', 513, 790, 662, 51, True); 
+VALUES (3, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 104, 924, 478, 36, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 2, 'Regular experiencia', 'EXCHANGE', 662, 662, 790, 51, True); 
+VALUES (4, 2, 'No fue lo que esperaba', 'EXCHANGE', 492, 478, 924, 36, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 3, 'No estuvo mal', 'EXCHANGE', 381, 517, 206, 56, True); 
+VALUES (4, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 329, 280, 857, 47, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 5, 'Excelente experiencia', 'EXCHANGE', 411, 206, 517, 56, True); 
+VALUES (4, 4, 'Buena experiencia', 'EXCHANGE', 344, 857, 280, 47, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 3, 'Aceptable', 'EXCHANGE', 165, 177, 659, 59, True); 
+VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 164, 537, 317, 52, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 1, 'Muy insatisfecho', 'EXCHANGE', 29, 659, 177, 59, False); 
+VALUES (5, 5, 'Excelente experiencia', 'EXCHANGE', 147, 317, 537, 52, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 351, 817, 647, 62, True); 
+VALUES (2, 3, 'Intercambio promedio', 'EXCHANGE', 308, 818, 657, 56, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 5, 'Excelente experiencia', 'EXCHANGE', 480, 647, 817, 62, True); 
+VALUES (1, 2, 'Regular experiencia', 'EXCHANGE', 397, 657, 818, 56, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 5, 'Excelente experiencia', 'EXCHANGE', 99, 395, 308, 65, True); 
+VALUES (4, 5, 'Lo recomendaría a otros', 'EXCHANGE', 166, 987, 189, 59, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 648, 308, 395, 65, True); 
+VALUES (2, 1, 'Muy insatisfecho', 'EXCHANGE', 364, 189, 987, 59, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'Muy insatisfecho', 'EXCHANGE', 61, 121, 763, 67, True); 
+VALUES (4, 4, 'Intercambio exitoso', 'EXCHANGE', 387, 985, 211, 63, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 5, 'Muy satisfecho', 'EXCHANGE', 651, 763, 121, 67, True); 
+VALUES (3, 5, 'Lo recomendaría a otros', 'EXCHANGE', 532, 211, 985, 63, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 3, 'Intercambio promedio', 'EXCHANGE', 353, 72, 3, 76, True); 
+VALUES (4, 4, 'Buena experiencia', 'EXCHANGE', 86, 940, 667, 70, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 65, 3, 72, 76, True); 
+VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 599, 667, 940, 70, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'Pésimo intercambio', 'EXCHANGE', 215, 60, 120, 82, True); 
+VALUES (3, 3, 'Intercambio promedio', 'EXCHANGE', 276, 959, 870, 75, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 1, 'Pésimo intercambio', 'EXCHANGE', 68, 120, 60, 82, True); 
+VALUES (3, 1, 'Muy insatisfecho', 'EXCHANGE', 407, 870, 959, 75, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 5, 'Excelente experiencia', 'EXCHANGE', 332, 288, 573, 108, True); 
+VALUES (1, 5, 'Excelente experiencia', 'EXCHANGE', 612, 763, 459, 78, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 2, 'No fue lo que esperaba', 'EXCHANGE', 50, 573, 288, 108, True); 
+VALUES (1, 4, 'Intercambio exitoso', 'EXCHANGE', 533, 459, 763, 78, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 2, 'Insatisfecho', 'EXCHANGE', 85, 274, 941, 109, False); 
+VALUES (1, 4, 'Satisfecho', 'EXCHANGE', 711, 52, 547, 81, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 497, 941, 274, 109, True); 
+VALUES (1, 1, 'Muy insatisfecho', 'EXCHANGE', 229, 547, 52, 81, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 5, 'Lo recomendaría a otros', 'EXCHANGE', 82, 242, 222, 113, True); 
+VALUES (5, 2, 'No fue lo que esperaba', 'EXCHANGE', 94, 772, 486, 86, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'Pésimo intercambio', 'EXCHANGE', 205, 222, 242, 113, True); 
+VALUES (5, 4, 'Satisfecho', 'EXCHANGE', 649, 486, 772, 86, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'Pésimo intercambio', 'EXCHANGE', 207, 38, 274, 122, True); 
+VALUES (4, 1, 'Pésimo intercambio', 'EXCHANGE', 462, 586, 754, 89, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 5, 'Lo recomendaría a otros', 'EXCHANGE', 85, 274, 38, 122, True); 
+VALUES (5, 1, 'Pésimo intercambio', 'EXCHANGE', 454, 754, 586, 89, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 5, 'Muy satisfecho', 'EXCHANGE', 224, 700, 910, 125, True); 
+VALUES (1, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 199, 381, 39, 91, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 2, 'No fue lo que esperaba', 'EXCHANGE', 678, 910, 700, 125, True); 
+VALUES (4, 4, 'Intercambio exitoso', 'EXCHANGE', 480, 39, 381, 91, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 3, 'Intercambio promedio', 'EXCHANGE', 626, 667, 422, 126, False); 
+VALUES (2, 3, 'Aceptable', 'EXCHANGE', 614, 761, 35, 95, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 641, 422, 667, 126, True); 
+VALUES (3, 2, 'Insatisfecho', 'EXCHANGE', 451, 35, 761, 95, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 670, 126, 454, 136, True); 
+VALUES (1, 2, 'Insatisfecho', 'EXCHANGE', 477, 318, 555, 98, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 2, 'Regular experiencia', 'EXCHANGE', 620, 454, 126, 136, True); 
+VALUES (5, 2, 'Regular experiencia', 'EXCHANGE', 276, 555, 318, 98, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 547, 634, 199, 138, True); 
+VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 312, 815, 710, 99, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 71, 199, 634, 138, True); 
+VALUES (5, 2, 'No fue lo que esperaba', 'EXCHANGE', 32, 710, 815, 99, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Intercambio exitoso', 'EXCHANGE', 426, 325, 484, 139, True); 
+VALUES (3, 3, 'Aceptable', 'EXCHANGE', 634, 476, 743, 107, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 2, 'No fue lo que esperaba', 'EXCHANGE', 122, 484, 325, 139, True); 
+VALUES (4, 5, 'Lo recomendaría a otros', 'EXCHANGE', 137, 743, 476, 107, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 1, 'Muy insatisfecho', 'EXCHANGE', 195, 551, 227, 142, True); 
+VALUES (1, 3, 'Aceptable', 'EXCHANGE', 36, 711, 217, 112, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 483, 227, 551, 142, False); 
+VALUES (3, 3, 'Intercambio promedio', 'EXCHANGE', 255, 217, 711, 112, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 2, 'Insatisfecho', 'EXCHANGE', 435, 365, 916, 143, False); 
+VALUES (5, 3, 'Aceptable', 'EXCHANGE', 227, 715, 174, 115, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 2, 'No fue lo que esperaba', 'EXCHANGE', 206, 916, 365, 143, True); 
+VALUES (2, 3, 'Intercambio promedio', 'EXCHANGE', 125, 174, 715, 115, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 4, 'Satisfecho', 'EXCHANGE', 124, 470, 66, 147, True); 
+VALUES (5, 5, 'Muy satisfecho', 'EXCHANGE', 141, 226, 505, 116, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 2, 'Insatisfecho', 'EXCHANGE', 570, 66, 470, 147, True); 
+VALUES (1, 4, 'Buena experiencia', 'EXCHANGE', 657, 505, 226, 116, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'Muy insatisfecho', 'EXCHANGE', 107, 327, 994, 150, True); 
+VALUES (5, 1, 'Muy insatisfecho', 'EXCHANGE', 5, 335, 972, 117, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 5, 'Excelente experiencia', 'EXCHANGE', 83, 994, 327, 150, True); 
+VALUES (3, 1, 'Pésimo intercambio', 'EXCHANGE', 484, 972, 335, 117, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 3, 'Aceptable', 'EXCHANGE', 36, 678, 524, 154, True); 
+VALUES (2, 5, 'Lo recomendaría a otros', 'EXCHANGE', 263, 477, 58, 122, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 2, 'No fue lo que esperaba', 'EXCHANGE', 561, 524, 678, 154, True); 
+VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 611, 58, 477, 122, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 580, 759, 895, 158, True); 
+VALUES (1, 3, 'No estuvo mal', 'EXCHANGE', 165, 798, 623, 124, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Buena experiencia', 'EXCHANGE', 260, 895, 759, 158, True); 
+VALUES (1, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 201, 623, 798, 124, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 378, 614, 172, 161, True); 
+VALUES (1, 4, 'Intercambio exitoso', 'EXCHANGE', 485, 556, 811, 125, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 4, 'Buena experiencia', 'EXCHANGE', 300, 172, 614, 161, True); 
+VALUES (3, 3, 'No estuvo mal', 'EXCHANGE', 119, 811, 556, 125, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 432, 625, 363, 162, True); 
+VALUES (3, 3, 'Intercambio promedio', 'EXCHANGE', 94, 845, 929, 140, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 331, 363, 625, 162, True); 
+VALUES (3, 5, 'Muy satisfecho', 'EXCHANGE', 438, 929, 845, 140, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 2, 'Insatisfecho', 'EXCHANGE', 117, 441, 497, 181, True); 
+VALUES (2, 2, 'No fue lo que esperaba', 'EXCHANGE', 707, 171, 296, 141, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 602, 497, 441, 181, True); 
+VALUES (5, 3, 'No estuvo mal', 'EXCHANGE', 299, 296, 171, 141, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 5, 'Muy satisfecho', 'EXCHANGE', 10, 676, 259, 186, True); 
+VALUES (2, 5, 'Lo recomendaría a otros', 'EXCHANGE', 100, 388, 763, 142, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 5, 'Excelente experiencia', 'EXCHANGE', 464, 259, 676, 186, False); 
+VALUES (4, 1, 'Muy insatisfecho', 'EXCHANGE', 612, 763, 388, 142, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 697, 678, 61, 188, True); 
+VALUES (1, 5, 'Lo recomendaría a otros', 'EXCHANGE', 557, 133, 61, 143, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 5, 'Muy satisfecho', 'EXCHANGE', 452, 61, 678, 188, True); 
+VALUES (2, 1, 'Pésimo intercambio', 'EXCHANGE', 594, 61, 133, 143, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'Muy insatisfecho', 'EXCHANGE', 598, 186, 754, 189, True); 
+VALUES (2, 3, 'Intercambio promedio', 'EXCHANGE', 687, 964, 332, 148, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'Muy insatisfecho', 'EXCHANGE', 362, 754, 186, 189, True); 
+VALUES (1, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 188, 332, 964, 148, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 3, 'No estuvo mal', 'EXCHANGE', 705, 510, 796, 191, False); 
+VALUES (3, 3, 'Intercambio promedio', 'EXCHANGE', 324, 550, 53, 149, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 4, 'Satisfecho', 'EXCHANGE', 639, 796, 510, 191, True); 
+VALUES (2, 2, 'No fue lo que esperaba', 'EXCHANGE', 238, 53, 550, 149, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Buena experiencia', 'EXCHANGE', 50, 573, 261, 202, True); 
+VALUES (5, 5, 'Lo recomendaría a otros', 'EXCHANGE', 647, 800, 793, 159, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 516, 261, 573, 202, True); 
+VALUES (4, 2, 'Insatisfecho', 'EXCHANGE', 242, 793, 800, 159, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 3, 'Aceptable', 'EXCHANGE', 339, 135, 230, 208, True); 
+VALUES (5, 1, 'Pésimo intercambio', 'EXCHANGE', 716, 136, 497, 160, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 3, 'Aceptable', 'EXCHANGE', 410, 230, 135, 208, True); 
+VALUES (4, 2, 'No fue lo que esperaba', 'EXCHANGE', 585, 497, 136, 160, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 4, 'Buena experiencia', 'EXCHANGE', 570, 66, 435, 209, True); 
+VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 92, 145, 375, 161, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 3, 'No estuvo mal', 'EXCHANGE', 337, 435, 66, 209, True); 
+VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 609, 375, 145, 161, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 2, 'Regular experiencia', 'EXCHANGE', 573, 403, 335, 216, True); 
+VALUES (3, 4, 'Satisfecho', 'EXCHANGE', 276, 906, 381, 162, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 5, 'Muy satisfecho', 'EXCHANGE', 613, 335, 403, 216, True); 
+VALUES (1, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 405, 381, 906, 162, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 5, 'Excelente experiencia', 'EXCHANGE', 238, 287, 335, 217, True); 
+VALUES (3, 1, 'Muy insatisfecho', 'EXCHANGE', 589, 255, 381, 163, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 4, 'Buena experiencia', 'EXCHANGE', 64, 335, 287, 217, True); 
+VALUES (3, 2, 'No fue lo que esperaba', 'EXCHANGE', 199, 381, 255, 163, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Intercambio exitoso', 'EXCHANGE', 669, 652, 747, 220, True); 
+VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 303, 158, 904, 165, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 116, 747, 652, 220, True); 
+VALUES (1, 2, 'No fue lo que esperaba', 'EXCHANGE', 255, 904, 158, 165, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 1, 'Muy insatisfecho', 'EXCHANGE', 221, 655, 418, 225, True); 
+VALUES (3, 3, 'Aceptable', 'EXCHANGE', 212, 207, 699, 169, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 3, 'Intercambio promedio', 'EXCHANGE', 524, 418, 655, 225, False); 
+VALUES (4, 4, 'Buena experiencia', 'EXCHANGE', 483, 699, 207, 169, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 3, 'Intercambio promedio', 'EXCHANGE', 560, 824, 619, 227, True); 
+VALUES (5, 4, 'Satisfecho', 'EXCHANGE', 45, 657, 428, 182, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 2, 'Regular experiencia', 'EXCHANGE', 126, 619, 824, 227, True); 
+VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 531, 428, 657, 182, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 4, 'Intercambio exitoso', 'EXCHANGE', 321, 427, 742, 234, True); 
+VALUES (2, 3, 'Aceptable', 'EXCHANGE', 432, 725, 764, 190, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 4, 'Satisfecho', 'EXCHANGE', 697, 742, 427, 234, True); 
+VALUES (3, 2, 'Regular experiencia', 'EXCHANGE', 2, 764, 725, 190, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 3, 'Intercambio promedio', 'EXCHANGE', 215, 60, 400, 237, True); 
+VALUES (3, 5, 'Excelente experiencia', 'EXCHANGE', 290, 904, 278, 196, False); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 4, 'Satisfecho', 'EXCHANGE', 182, 400, 60, 237, True); 
+VALUES (5, 2, 'Insatisfecho', 'EXCHANGE', 363, 278, 904, 196, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 83, 749, 170, 241, True); 
+VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 183, 349, 224, 198, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 1, 'Pésimo intercambio', 'EXCHANGE', 713, 170, 749, 241, True); 
+VALUES (3, 4, 'Intercambio exitoso', 'EXCHANGE', 341, 224, 349, 198, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 4, 'Intercambio exitoso', 'EXCHANGE', 341, 691, 1001, 242, True); 
+VALUES (3, 2, 'Insatisfecho', 'EXCHANGE', 140, 903, 955, 199, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 4, 'Buena experiencia', 'EXCHANGE', 677, 1001, 691, 242, True); 
+VALUES (1, 4, 'Buena experiencia', 'EXCHANGE', 610, 955, 903, 199, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 2, 'Insatisfecho', 'EXCHANGE', 373, 760, 1001, 243, True); 
+VALUES (5, 2, 'No fue lo que esperaba', 'EXCHANGE', 510, 461, 694, 202, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (1, 3, 'Intercambio promedio', 'EXCHANGE', 701, 1001, 760, 243, True); 
+VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 338, 694, 461, 202, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 1, 'Pésimo intercambio', 'EXCHANGE', 312, 744, 1001, 244, True); 
+VALUES (3, 2, 'Regular experiencia', 'EXCHANGE', 81, 777, 199, 209, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (2, 3, 'Aceptable', 'EXCHANGE', 330, 1001, 744, 244, True); 
+VALUES (2, 3, 'Aceptable', 'EXCHANGE', 436, 199, 777, 209, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 5, 'Lo recomendaría a otros', 'EXCHANGE', 580, 91, 1001, 245, True); 
+VALUES (5, 1, 'Muy insatisfecho', 'EXCHANGE', 576, 299, 415, 212, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (3, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 571, 1001, 91, 245, True); 
+VALUES (4, 2, 'Insatisfecho', 'EXCHANGE', 655, 415, 299, 212, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (4, 1, 'Pésimo intercambio', 'EXCHANGE', 126, 109, 1001, 246, True); 
+VALUES (5, 2, 'Regular experiencia', 'EXCHANGE', 269, 84, 639, 220, True); 
 
 INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
-VALUES (5, 2, 'Insatisfecho', 'EXCHANGE', 260, 1001, 109, 246, True); 
+VALUES (1, 2, 'No fue lo que esperaba', 'EXCHANGE', 119, 639, 84, 220, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (4, 2, 'No fue lo que esperaba', 'EXCHANGE', 344, 857, 244, 224, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (1, 5, 'Excelente experiencia', 'EXCHANGE', 451, 244, 857, 224, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (2, 4, 'Intercambio exitoso', 'EXCHANGE', 137, 743, 313, 235, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (3, 2, 'Regular experiencia', 'EXCHANGE', 309, 313, 743, 235, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (1, 2, 'Insatisfecho', 'EXCHANGE', 414, 504, 233, 236, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (3, 1, 'No volvería a hacer un intercambio aquí', 'EXCHANGE', 298, 233, 504, 236, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (5, 3, 'No estuvo mal', 'EXCHANGE', 100, 388, 1001, 239, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (5, 4, 'Intercambio exitoso', 'EXCHANGE', 479, 1001, 388, 239, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (3, 1, 'Pésimo intercambio', 'EXCHANGE', 155, 766, 1001, 240, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (3, 2, 'Insatisfecho', 'EXCHANGE', 472, 1001, 766, 240, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (2, 3, 'No estuvo mal', 'EXCHANGE', 3, 451, 1001, 241, False); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (3, 1, 'Muy insatisfecho', 'EXCHANGE', 186, 1001, 451, 241, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (2, 1, 'Muy insatisfecho', 'EXCHANGE', 531, 342, 1001, 242, True); 
+
+INSERT INTO public.survey (book_rating, user_rating, comment, type, id_book, id_user_rated, id_user, id_exchange, recommendation) 
+VALUES (4, 5, 'Muy satisfecho', 'EXCHANGE', 719, 1001, 342, 242, False); 
 

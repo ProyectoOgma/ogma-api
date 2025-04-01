@@ -1,492 +1,484 @@
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-07 09:16:40', 'DELIVERY', 4, NULL);
+VALUES ('2024-12-22 10:24:25', 'DELIVERY', 1, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 17:13:00', 'DELIVERY', 5, NULL);
+VALUES ('2024-10-20 13:55:02', 'DELIVERY', 3, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-27 12:39:03', 'DELIVERY', 10, NULL);
+VALUES ('2024-10-09 14:17:26', 'DELIVERY', 6, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-25 12:39:03', 'DELIVERY', 12, NULL);
+VALUES ('2024-10-10 14:17:26', 'DELIVERY', 7, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-14 08:08:04', 'DELIVERY', 13, NULL);
+VALUES ('2024-10-13 11:07:10', 'DELIVERY', 9, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-05 14:31:20', 'DELIVERY', 15, NULL);
+VALUES ('2024-11-01 16:37:43', 'DELIVERY', 10, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-15 09:01:36', 'DELIVERY', 17, NULL);
+VALUES ('2024-10-21 11:50:21', 'DELIVERY', 17, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-17 08:30:06', 'DELIVERY', 22, NULL);
+VALUES ('2024-10-09 18:43:23', 'DELIVERY', 18, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-14 08:30:06', 'DELIVERY', 23, NULL);
+VALUES ('2024-11-12 08:20:06', 'DELIVERY', 20, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2025-01-07 10:42:14', 'DELIVERY', 25, NULL);
+VALUES ('2024-11-14 08:20:06', 'DELIVERY', 23, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-30 10:07:54', 'DELIVERY', 27, NULL);
+VALUES ('2024-12-19 18:15:55', 'DELIVERY', 25, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 09:30:57', 'DELIVERY', 29, NULL);
+VALUES ('2024-11-18 13:40:19', 'DELIVERY', 27, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-21 09:30:57', 'DELIVERY', 30, NULL);
+VALUES ('2024-11-17 13:40:19', 'DELIVERY', 30, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-27 17:51:12', 'DELIVERY', 32, NULL);
+VALUES ('2024-08-12 12:57:17', 'DELIVERY', 33, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-10 10:17:15', 'DELIVERY', 36, NULL);
+VALUES ('2024-10-16 12:36:00', 'DELIVERY', 37, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-08 10:17:15', 'DELIVERY', 38, NULL);
+VALUES ('2024-09-15 14:21:04', 'DELIVERY', 38, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-13 10:38:29', 'DELIVERY', 40, NULL);
+VALUES ('2024-11-02 16:28:15', 'DELIVERY', 41, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-16 10:38:29', 'DELIVERY', 42, NULL);
+VALUES ('2024-12-29 12:42:15', 'DELIVERY', 46, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-29 11:20:45', 'DELIVERY', 43, NULL);
+VALUES ('2024-10-24 15:44:20', 'DELIVERY', 47, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-28 13:52:40', 'DELIVERY', 46, NULL);
+VALUES ('2024-11-09 12:17:25', 'DELIVERY', 51, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-19 10:20:18', 'DELIVERY', 48, NULL);
+VALUES ('2024-11-10 12:17:25', 'DELIVERY', 52, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-05 11:08:52', 'DELIVERY', 50, NULL);
+VALUES ('2024-09-11 08:20:30', 'DELIVERY', 54, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-05 10:34:44', 'DELIVERY', 53, NULL);
+VALUES ('2024-09-10 08:20:30', 'DELIVERY', 57, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-14 11:14:44', 'DELIVERY', 55, NULL);
+VALUES ('2024-10-29 10:28:46', 'DELIVERY', 60, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-16 11:14:44', 'DELIVERY', 60, NULL);
+VALUES ('2024-10-28 13:11:13', 'DELIVERY', 62, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-11 13:03:28', 'DELIVERY', 63, NULL);
+VALUES ('2024-11-10 18:47:49', 'DELIVERY', 63, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 11:56:17', 'DELIVERY', 65, NULL);
+VALUES ('2024-10-19 17:15:18', 'DELIVERY', 66, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-20 16:44:00', 'DELIVERY', 68, NULL);
+VALUES ('2024-10-18 17:15:18', 'DELIVERY', 69, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 18:50:58', 'DELIVERY', 72, NULL);
+VALUES ('2024-11-11 17:21:28', 'DELIVERY', 73, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 18:50:58', 'DELIVERY', 74, NULL);
+VALUES ('2024-12-05 15:08:32', 'DELIVERY', 75, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-25 15:30:11', 'DELIVERY', 75, NULL);
+VALUES ('2024-10-09 17:33:04', 'DELIVERY', 80, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 10:38:30', 'DELIVERY', 79, NULL);
+VALUES ('2024-10-27 08:00:38', 'DELIVERY', 83, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 10:21:16', 'DELIVERY', 81, NULL);
+VALUES ('2024-10-23 12:28:34', 'DELIVERY', 84, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-08 11:09:04', 'DELIVERY', 86, NULL);
+VALUES ('2024-11-02 13:16:28', 'DELIVERY', 86, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-09 16:45:01', 'DELIVERY', 89, NULL);
+VALUES ('2024-10-05 18:33:37', 'DELIVERY', 90, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-09 16:45:01', 'DELIVERY', 91, NULL);
+VALUES ('2024-11-03 14:53:48', 'DELIVERY', 92, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-09 14:54:37', 'DELIVERY', 92, NULL);
+VALUES ('2024-09-10 18:55:16', 'DELIVERY', 95, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-02 18:17:13', 'DELIVERY', 94, NULL);
+VALUES ('2024-10-10 13:06:41', 'DELIVERY', 102, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-25 11:40:18', 'DELIVERY', 95, NULL);
+VALUES ('2024-10-12 13:49:22', 'DELIVERY', 109, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-02 10:07:00', 'DELIVERY', 97, NULL);
+VALUES ('2024-10-17 14:37:28', 'DELIVERY', 110, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-19 15:18:21', 'DELIVERY', 100, NULL);
+VALUES ('2024-10-21 18:47:56', 'DELIVERY', 111, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 15:21:56', 'DELIVERY', 102, NULL);
+VALUES ('2024-11-09 09:19:53', 'DELIVERY', 112, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-11 13:47:11', 'DELIVERY', 104, NULL);
+VALUES ('2024-11-03 16:58:02', 'DELIVERY', 114, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 13:22:53', 'DELIVERY', 105, NULL);
+VALUES ('2024-10-08 18:33:50', 'DELIVERY', 117, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-07 17:30:22', 'DELIVERY', 106, NULL);
+VALUES ('2024-11-30 08:34:46', 'DELIVERY', 120, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 17:30:22', 'DELIVERY', 107, NULL);
+VALUES ('2024-11-30 08:34:46', 'DELIVERY', 124, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 14:11:19', 'DELIVERY', 109, NULL);
+VALUES ('2024-10-30 12:17:23', 'DELIVERY', 125, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-25 14:11:19', 'DELIVERY', 111, NULL);
+VALUES ('2024-10-17 11:03:10', 'DELIVERY', 128, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 18:53:29', 'DELIVERY', 114, NULL);
+VALUES ('2024-10-16 11:03:10', 'DELIVERY', 131, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-10 15:52:28', 'DELIVERY', 120, NULL);
+VALUES ('2024-10-04 16:37:36', 'DELIVERY', 132, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 14:52:38', 'DELIVERY', 121, NULL);
+VALUES ('2024-10-04 17:03:29', 'DELIVERY', 139, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-13 15:03:54', 'DELIVERY', 123, NULL);
+VALUES ('2024-11-18 08:41:12', 'DELIVERY', 141, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-07 14:13:58', 'DELIVERY', 126, NULL);
+VALUES ('2024-10-01 08:10:23', 'DELIVERY', 144, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 11:21:22', 'DELIVERY', 127, NULL);
+VALUES ('2024-09-11 10:41:00', 'DELIVERY', 145, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 13:41:27', 'DELIVERY', 132, NULL);
+VALUES ('2024-10-04 11:33:11', 'DELIVERY', 146, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-30 08:23:08', 'DELIVERY', 133, NULL);
+VALUES ('2024-10-10 09:44:03', 'DELIVERY', 149, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-06 09:39:28', 'DELIVERY', 135, NULL);
+VALUES ('2024-12-10 12:52:19', 'DELIVERY', 152, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-08 08:03:35', 'DELIVERY', 137, NULL);
+VALUES ('2024-10-16 11:38:16', 'DELIVERY', 154, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-01 12:48:22', 'DELIVERY', 141, NULL);
+VALUES ('2024-10-19 08:40:06', 'DELIVERY', 155, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 16:20:23', 'DELIVERY', 143, NULL);
+VALUES ('2024-12-25 15:23:19', 'DELIVERY', 158, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 16:20:23', 'DELIVERY', 144, NULL);
+VALUES ('2024-09-17 10:40:55', 'DELIVERY', 160, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 16:07:21', 'DELIVERY', 147, NULL);
+VALUES ('2024-10-25 13:42:24', 'DELIVERY', 161, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2025-01-08 13:54:04', 'DELIVERY', 150, NULL);
+VALUES ('2024-10-28 12:46:12', 'DELIVERY', 164, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-16 08:53:10', 'DELIVERY', 153, NULL);
+VALUES ('2024-10-06 09:22:52', 'DELIVERY', 169, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-29 17:32:33', 'DELIVERY', 154, NULL);
+VALUES ('2024-10-21 15:27:17', 'DELIVERY', 171, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 10:01:41', 'DELIVERY', 155, NULL);
+VALUES ('2024-11-30 11:44:59', 'DELIVERY', 175, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-10 15:06:48', 'DELIVERY', 157, NULL);
+VALUES ('2024-12-28 15:56:47', 'DELIVERY', 180, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-27 12:40:48', 'DELIVERY', 159, NULL);
+VALUES ('2024-10-17 09:26:26', 'DELIVERY', 183, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-16 08:30:00', 'DELIVERY', 160, NULL);
+VALUES ('2024-12-07 18:16:22', 'DELIVERY', 187, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-16 15:34:56', 'DELIVERY', 162, NULL);
+VALUES ('2024-10-09 16:30:07', 'DELIVERY', 189, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-10 13:55:31', 'DELIVERY', 166, NULL);
+VALUES ('2024-09-08 12:16:45', 'DELIVERY', 192, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-17 10:22:19', 'DELIVERY', 169, NULL);
+VALUES ('2024-09-17 13:00:47', 'DELIVERY', 194, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-25 09:05:43', 'DELIVERY', 171, NULL);
+VALUES ('2024-10-19 10:08:32', 'DELIVERY', 197, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-08 17:02:01', 'DELIVERY', 172, NULL);
+VALUES ('2024-11-13 13:56:10', 'DELIVERY', 198, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-24 15:13:21', 'DELIVERY', 175, NULL);
+VALUES ('2024-10-30 11:04:02', 'DELIVERY', 200, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-27 15:13:21', 'DELIVERY', 178, NULL);
+VALUES ('2024-10-23 11:26:43', 'DELIVERY', 201, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-08 11:34:28', 'DELIVERY', 182, NULL);
+VALUES ('2024-12-12 10:49:29', 'DELIVERY', 204, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-13 15:08:51', 'DELIVERY', 186, NULL);
+VALUES ('2024-10-15 11:15:14', 'DELIVERY', 206, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-29 18:38:14', 'DELIVERY', 189, NULL);
+VALUES ('2024-11-20 13:19:19', 'DELIVERY', 208, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-31 13:09:21', 'DELIVERY', 191, NULL);
+VALUES ('2024-08-28 13:33:30', 'DELIVERY', 210, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-31 13:09:21', 'DELIVERY', 192, NULL);
+VALUES ('2024-12-24 08:02:56', 'DELIVERY', 214, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-19 17:09:49', 'DELIVERY', 195, NULL);
+VALUES ('2024-11-03 12:51:26', 'DELIVERY', 217, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-07 09:11:01', 'DELIVERY', 200, NULL);
+VALUES ('2024-11-08 08:27:59', 'DELIVERY', 219, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2025-01-09 09:34:14', 'DELIVERY', 202, NULL);
+VALUES ('2024-09-12 13:50:02', 'DELIVERY', 224, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2025-01-02 15:08:43', 'DELIVERY', 208, NULL);
+VALUES ('2024-10-07 11:28:00', 'DELIVERY', 225, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-03 17:42:00', 'DELIVERY', 209, NULL);
+VALUES ('2024-10-15 09:21:56', 'DELIVERY', 226, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-20 13:17:49', 'DELIVERY', 211, NULL);
+VALUES ('2024-09-06 10:02:28', 'DELIVERY', 227, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-02 17:12:48', 'DELIVERY', 214, NULL);
+VALUES ('2024-10-29 18:36:52', 'DELIVERY', 228, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-02 17:12:48', 'DELIVERY', 215, NULL);
+VALUES ('2024-12-28 16:59:34', 'DELIVERY', 230, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 12:46:05', 'DELIVERY', 227, NULL);
+VALUES ('2024-08-08 13:25:48', 'DELIVERY', 238, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-13 17:42:22', 'DELIVERY', 229, NULL);
+VALUES ('2024-10-28 12:13:02', 'DELIVERY', 242, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-13 18:37:37', 'DELIVERY', 230, NULL);
+VALUES ('2024-09-22 13:35:57', 'DELIVERY', 243, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-01 18:12:31', 'DELIVERY', 232, NULL);
+VALUES ('2024-10-30 12:05:26', 'DELIVERY', 248, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-08 16:18:21', 'DELIVERY', 234, NULL);
+VALUES ('2024-09-07 12:17:46', 'DELIVERY', 251, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-01 09:46:47', 'DELIVERY', 237, NULL);
+VALUES ('2024-09-10 12:17:46', 'DELIVERY', 252, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 08:43:31', 'DELIVERY', 240, NULL);
+VALUES ('2024-10-15 11:29:38', 'DELIVERY', 255, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-20 08:55:43', 'DELIVERY', 242, NULL);
+VALUES ('2024-10-06 14:41:11', 'DELIVERY', 256, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-30 11:24:42', 'DELIVERY', 244, NULL);
+VALUES ('2024-10-08 14:41:11', 'DELIVERY', 257, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-06 09:48:03', 'DELIVERY', 246, NULL);
+VALUES ('2024-10-22 17:10:26', 'DELIVERY', 258, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-12 14:08:22', 'DELIVERY', 247, NULL);
+VALUES ('2024-11-06 08:46:53', 'DELIVERY', 259, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-23 16:27:15', 'DELIVERY', 248, NULL);
+VALUES ('2024-09-08 10:10:38', 'DELIVERY', 261, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 13:10:23', 'DELIVERY', 251, NULL);
+VALUES ('2024-11-25 08:52:10', 'DELIVERY', 265, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-26 13:40:07', 'DELIVERY', 256, NULL);
+VALUES ('2024-08-10 18:29:47', 'DELIVERY', 266, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-16 13:45:42', 'DELIVERY', 260, NULL);
+VALUES ('2024-08-08 14:00:55', 'DELIVERY', 268, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-17 12:43:50', 'DELIVERY', 263, NULL);
+VALUES ('2024-08-08 14:00:55', 'DELIVERY', 271, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-21 15:22:32', 'DELIVERY', 267, NULL);
+VALUES ('2024-11-05 10:28:34', 'DELIVERY', 273, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-19 11:18:33', 'DELIVERY', 270, NULL);
+VALUES ('2024-08-27 14:47:27', 'DELIVERY', 278, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-08 11:14:56', 'DELIVERY', 273, NULL);
+VALUES ('2024-10-21 09:46:39', 'DELIVERY', 279, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-11 13:33:21', 'DELIVERY', 275, NULL);
+VALUES ('2024-12-06 12:29:47', 'DELIVERY', 282, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-07 13:33:21', 'DELIVERY', 278, NULL);
+VALUES ('2024-10-24 10:18:21', 'DELIVERY', 285, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-02 14:16:19', 'DELIVERY', 282, NULL);
+VALUES ('2024-11-13 14:36:12', 'DELIVERY', 288, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-28 11:59:51', 'DELIVERY', 285, NULL);
+VALUES ('2024-10-08 15:32:22', 'DELIVERY', 289, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-03 09:09:04', 'DELIVERY', 286, NULL);
+VALUES ('2024-10-09 10:38:18', 'DELIVERY', 292, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-15 09:29:34', 'DELIVERY', 292, NULL);
+VALUES ('2024-09-27 14:38:53', 'DELIVERY', 296, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-16 16:19:02', 'DELIVERY', 297, NULL);
+VALUES ('2024-10-22 13:02:08', 'DELIVERY', 300, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 14:51:33', 'DELIVERY', 298, NULL);
+VALUES ('2024-08-28 14:00:15', 'DELIVERY', 302, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 09:29:54', 'DELIVERY', 300, NULL);
+VALUES ('2024-12-20 16:45:40', 'DELIVERY', 303, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-25 09:29:44', 'DELIVERY', 304, NULL);
+VALUES ('2024-10-19 16:20:13', 'DELIVERY', 306, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-20 09:45:13', 'DELIVERY', 306, NULL);
+VALUES ('2024-10-19 16:20:13', 'DELIVERY', 307, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-07 17:46:10', 'DELIVERY', 307, NULL);
+VALUES ('2024-10-22 12:21:30', 'DELIVERY', 311, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 08:16:08', 'DELIVERY', 309, NULL);
+VALUES ('2024-10-20 08:09:49', 'DELIVERY', 317, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-18 08:41:06', 'DELIVERY', 312, NULL);
+VALUES ('2024-10-09 12:07:14', 'DELIVERY', 319, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-13 12:41:58', 'DELIVERY', 316, NULL);
+VALUES ('2024-11-25 14:19:10', 'DELIVERY', 320, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 12:41:58', 'DELIVERY', 318, NULL);
+VALUES ('2024-11-26 14:19:10', 'DELIVERY', 323, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-19 16:41:58', 'DELIVERY', 321, NULL);
+VALUES ('2024-09-29 15:39:46', 'DELIVERY', 325, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-05 09:26:50', 'DELIVERY', 322, NULL);
+VALUES ('2024-11-08 08:26:57', 'DELIVERY', 327, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-06 16:35:26', 'DELIVERY', 323, NULL);
+VALUES ('2024-10-28 17:04:01', 'DELIVERY', 329, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-29 11:07:23', 'DELIVERY', 326, NULL);
+VALUES ('2024-12-19 08:24:30', 'DELIVERY', 332, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-21 11:26:58', 'DELIVERY', 329, NULL);
+VALUES ('2024-12-11 16:03:07', 'DELIVERY', 333, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-18 13:45:38', 'DELIVERY', 330, NULL);
+VALUES ('2024-12-05 15:42:38', 'DELIVERY', 338, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-24 18:56:01', 'DELIVERY', 331, NULL);
+VALUES ('2024-11-17 14:14:17', 'DELIVERY', 341, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-23 14:11:02', 'DELIVERY', 334, NULL);
+VALUES ('2024-10-21 17:42:35', 'DELIVERY', 342, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-20 13:18:27', 'DELIVERY', 338, NULL);
+VALUES ('2024-08-19 10:19:06', 'DELIVERY', 345, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-07 08:54:19', 'DELIVERY', 339, NULL);
+VALUES ('2024-12-05 11:32:53', 'DELIVERY', 346, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-17 15:36:42', 'DELIVERY', 340, NULL);
+VALUES ('2024-11-05 08:26:18', 'DELIVERY', 347, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-20 15:33:22', 'DELIVERY', 342, NULL);
+VALUES ('2024-11-02 16:05:37', 'DELIVERY', 352, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-31 17:23:11', 'DELIVERY', 343, NULL);
+VALUES ('2024-10-21 16:19:15', 'DELIVERY', 355, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 12:44:57', 'DELIVERY', 347, NULL);
+VALUES ('2024-10-17 14:18:36', 'DELIVERY', 356, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-16 14:06:39', 'DELIVERY', 351, NULL);
+VALUES ('2024-10-05 08:35:57', 'DELIVERY', 357, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 13:19:22', 'DELIVERY', 354, NULL);
+VALUES ('2024-10-04 08:35:57', 'DELIVERY', 359, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 13:19:22', 'DELIVERY', 356, NULL);
+VALUES ('2024-10-20 11:37:05', 'DELIVERY', 362, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-30 10:15:41', 'DELIVERY', 358, NULL);
+VALUES ('2024-11-25 18:34:54', 'DELIVERY', 364, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 10:40:45', 'DELIVERY', 364, NULL);
+VALUES ('2024-12-12 10:25:47', 'DELIVERY', 367, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-16 15:37:31', 'DELIVERY', 366, NULL);
+VALUES ('2024-11-06 18:38:21', 'DELIVERY', 370, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-14 15:37:31', 'DELIVERY', 370, NULL);
+VALUES ('2024-11-19 10:45:36', 'DELIVERY', 372, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 14:17:18', 'DELIVERY', 371, NULL);
+VALUES ('2024-11-20 10:45:36', 'DELIVERY', 373, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-04 13:50:45', 'DELIVERY', 381, NULL);
+VALUES ('2024-10-07 14:23:11', 'DELIVERY', 374, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-06 13:50:45', 'DELIVERY', 382, NULL);
+VALUES ('2024-10-05 14:23:11', 'DELIVERY', 376, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-13 14:01:44', 'DELIVERY', 383, NULL);
+VALUES ('2024-11-04 09:32:30', 'DELIVERY', 382, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-13 14:01:44', 'DELIVERY', 384, NULL);
+VALUES ('2024-10-18 11:54:46', 'DELIVERY', 383, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-21 16:28:56', 'DELIVERY', 385, NULL);
+VALUES ('2024-10-22 12:42:38', 'DELIVERY', 386, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 16:30:29', 'DELIVERY', 387, NULL);
+VALUES ('2024-10-22 11:38:18', 'DELIVERY', 388, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-28 17:17:32', 'DELIVERY', 390, NULL);
+VALUES ('2024-09-07 13:22:39', 'DELIVERY', 390, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-30 14:52:11', 'DELIVERY', 393, NULL);
+VALUES ('2024-11-04 16:05:43', 'DELIVERY', 392, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-08 10:55:37', 'DELIVERY', 396, NULL);
+VALUES ('2025-01-03 17:51:00', 'DELIVERY', 397, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-30 18:34:47', 'DELIVERY', 398, NULL);
+VALUES ('2024-10-22 17:53:21', 'DELIVERY', 399, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-13 08:22:33', 'DELIVERY', 400, NULL);
+VALUES ('2024-08-22 08:07:48', 'DELIVERY', 402, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-15 10:32:31', 'DELIVERY', 403, NULL);
+VALUES ('2024-11-05 14:32:46', 'DELIVERY', 404, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 13:09:55', 'DELIVERY', 406, NULL);
+VALUES ('2024-11-05 15:03:42', 'DELIVERY', 406, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-12 09:47:02', 'DELIVERY', 407, NULL);
+VALUES ('2024-10-17 08:28:25', 'DELIVERY', 408, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-03 14:39:35', 'DELIVERY', 410, NULL);
+VALUES ('2024-10-01 14:21:36', 'DELIVERY', 412, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-29 13:21:48', 'DELIVERY', 411, NULL);
+VALUES ('2024-10-29 18:57:49', 'DELIVERY', 414, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-18 16:30:03', 'DELIVERY', 414, NULL);
+VALUES ('2024-10-29 18:57:49', 'DELIVERY', 418, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 18:46:10', 'DELIVERY', 415, NULL);
+VALUES ('2024-10-10 17:59:20', 'DELIVERY', 419, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-16 09:05:42', 'DELIVERY', 416, NULL);
+VALUES ('2024-09-06 15:44:48', 'DELIVERY', 421, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-02 11:30:35', 'DELIVERY', 419, NULL);
+VALUES ('2024-11-13 09:06:05', 'DELIVERY', 426, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-24 12:54:44', 'DELIVERY', 421, NULL);
+VALUES ('2024-10-06 10:11:16', 'DELIVERY', 428, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-08 09:59:47', 'DELIVERY', 426, NULL);
+VALUES ('2024-10-05 10:11:16', 'DELIVERY', 429, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-13 09:40:56', 'DELIVERY', 428, NULL);
+VALUES ('2024-10-05 18:43:37', 'DELIVERY', 431, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-17 18:38:27', 'DELIVERY', 433, NULL);
+VALUES ('2024-08-13 17:40:29', 'DELIVERY', 432, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-20 18:38:27', 'DELIVERY', 434, NULL);
+VALUES ('2024-08-13 17:40:29', 'DELIVERY', 433, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-09 08:33:24', 'DELIVERY', 435, NULL);
+VALUES ('2024-10-06 13:01:58', 'DELIVERY', 437, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 17:03:02', 'DELIVERY', 436, NULL);
+VALUES ('2024-11-05 16:54:52', 'DELIVERY', 440, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-21 15:10:17', 'DELIVERY', 440, NULL);
+VALUES ('2024-09-27 14:33:02', 'DELIVERY', 442, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-25 12:29:47', 'DELIVERY', 442, NULL);
+VALUES ('2024-09-15 16:54:45', 'DELIVERY', 445, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-19 14:28:57', 'DELIVERY', 445, NULL);
+VALUES ('2024-09-15 16:54:45', 'DELIVERY', 446, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-31 11:32:31', 'DELIVERY', 447, NULL);
+VALUES ('2024-10-19 16:05:03', 'DELIVERY', 448, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-29 18:20:29', 'DELIVERY', 451, NULL);
+VALUES ('2024-10-24 18:10:04', 'DELIVERY', 449, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-15 15:25:15', 'DELIVERY', 454, NULL);
+VALUES ('2024-09-20 11:07:12', 'DELIVERY', 452, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-17 15:25:15', 'DELIVERY', 456, NULL);
+VALUES ('2024-09-17 15:31:29', 'DELIVERY', 455, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 13:19:01', 'DELIVERY', 457, NULL);
+VALUES ('2024-09-20 15:31:29', 'DELIVERY', 456, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 16:45:29', 'DELIVERY', 458, NULL);
+VALUES ('2024-10-09 16:52:01', 'DELIVERY', 459, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-15 08:07:28', 'DELIVERY', 460, NULL);
+VALUES ('2024-10-10 16:52:01', 'DELIVERY', 462, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-29 15:47:35', 'DELIVERY', 461, NULL);
+VALUES ('2024-10-16 09:49:08', 'DELIVERY', 465, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 15:18:55', 'DELIVERY', 465, NULL);
+VALUES ('2024-12-26 12:06:43', 'DELIVERY', 466, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-22 12:26:33', 'DELIVERY', 468, NULL);
+VALUES ('2024-12-25 12:06:43', 'DELIVERY', 471, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-01 15:34:00', 'DELIVERY', 474, NULL);
+VALUES ('2024-12-16 08:59:58', 'DELIVERY', 474, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-10 08:34:54', 'DELIVERY', 477, NULL);
+VALUES ('2024-09-19 18:53:37', 'DELIVERY', 475, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-02 09:17:35', 'DELIVERY', 478, NULL);
+VALUES ('2024-10-23 13:25:02', 'DELIVERY', 478, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-20 17:17:59', 'DELIVERY', 480, NULL);
+VALUES ('2024-11-16 18:07:40', 'DELIVERY', 479, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 09:44:26', 'DELIVERY', 483, NULL);
+VALUES ('2024-12-31 09:40:57', 'DELIVERY', 481, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 17:49:01', 'DELIVERY', 485, NULL);
+VALUES ('2024-08-16 11:43:28', 'DELIVERY', 483, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-25 17:49:01', 'DELIVERY', 488, NULL);
+VALUES ('2024-10-10 15:49:57', 'DELIVERY', 487, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-07 12:34:15', 'DELIVERY', 489, NULL);
+VALUES ('2024-12-16 12:16:50', 'DELIVERY', 489, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-13 14:00:42', 'DELIVERY', 495, NULL);
+VALUES ('2024-12-05 09:16:54', 'DELIVERY', 491, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-09 18:15:29', 'DELIVERY', 496, NULL);
+VALUES ('2024-10-12 15:28:56', 'DELIVERY', 498, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-04 10:09:22', 'DELIVERY', 497, NULL);
+VALUES ('2024-08-18 11:09:54', 'DELIVERY', 500, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-27 12:09:14', 'DELIVERY', 500, NULL);
+VALUES ('2024-10-14 18:44:12', 'DELIVERY', 502, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-08 13:57:03', 'DELIVERY', 501, NULL);
+VALUES ('2024-11-03 13:17:49', 'DELIVERY', 508, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-25 11:03:57', 'DELIVERY', 507, NULL);
+VALUES ('2024-10-24 17:55:16', 'DELIVERY', 509, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-14 09:07:38', 'DELIVERY', 510, NULL);
+VALUES ('2024-12-28 09:56:43', 'DELIVERY', 510, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 18:44:32', 'DELIVERY', 512, NULL);
+VALUES ('2024-11-17 14:37:20', 'DELIVERY', 511, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-03 08:06:25', 'DELIVERY', 513, NULL);
+VALUES ('2024-11-10 18:08:00', 'DELIVERY', 512, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 11:49:28', 'DELIVERY', 516, NULL);
+VALUES ('2024-10-15 13:22:20', 'DELIVERY', 517, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-17 09:40:59', 'DELIVERY', 522, NULL);
+VALUES ('2024-11-06 16:52:32', 'DELIVERY', 518, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 09:40:59', 'DELIVERY', 523, NULL);
+VALUES ('2024-11-05 16:52:32', 'DELIVERY', 520, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 10:59:57', 'DELIVERY', 525, NULL);
+VALUES ('2024-09-14 12:18:48', 'DELIVERY', 522, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-27 16:06:12', 'DELIVERY', 528, NULL);
+VALUES ('2024-09-13 12:18:48', 'DELIVERY', 524, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 11:07:19', 'DELIVERY', 531, NULL);
+VALUES ('2024-09-26 11:38:58', 'DELIVERY', 526, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-27 08:27:27', 'DELIVERY', 535, NULL);
+VALUES ('2024-10-15 15:51:14', 'DELIVERY', 530, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-18 12:05:44', 'DELIVERY', 537, NULL);
+VALUES ('2024-12-30 11:46:10', 'DELIVERY', 532, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-15 12:05:44', 'DELIVERY', 538, NULL);
+VALUES ('2024-10-13 10:58:59', 'DELIVERY', 534, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-05 10:51:07', 'DELIVERY', 543, NULL);
+VALUES ('2024-10-14 10:58:59', 'DELIVERY', 535, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-15 09:04:34', 'DELIVERY', 544, NULL);
+VALUES ('2024-09-28 13:48:59', 'DELIVERY', 536, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-28 17:18:46', 'DELIVERY', 545, NULL);
+VALUES ('2024-10-19 10:56:10', 'DELIVERY', 537, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-23 13:31:06', 'DELIVERY', 547, NULL);
+VALUES ('2024-10-03 12:28:16', 'DELIVERY', 543, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-23 13:31:06', 'DELIVERY', 548, NULL);
+VALUES ('2024-12-08 17:52:51', 'DELIVERY', 545, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-09 18:50:24', 'DELIVERY', 549, NULL);
+VALUES ('2024-10-17 17:57:27', 'DELIVERY', 551, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-07 18:50:24', 'DELIVERY', 552, NULL);
+VALUES ('2024-10-16 13:34:28', 'DELIVERY', 555, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-09 18:47:25', 'DELIVERY', 555, NULL);
+VALUES ('2024-09-16 18:16:00', 'DELIVERY', 557, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-08 18:47:25', 'DELIVERY', 556, NULL);
+VALUES ('2024-08-28 08:41:12', 'DELIVERY', 559, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-19 13:20:39', 'DELIVERY', 558, NULL);
+VALUES ('2024-10-03 08:34:54', 'DELIVERY', 561, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2025-01-02 14:09:37', 'DELIVERY', 561, NULL);
+VALUES ('2024-11-25 16:57:55', 'DELIVERY', 562, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-26 17:59:23', 'DELIVERY', 562, NULL);
+VALUES ('2024-10-23 18:43:08', 'DELIVERY', 563, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-06 17:13:59', 'DELIVERY', 564, NULL);
+VALUES ('2024-10-11 12:05:05', 'DELIVERY', 568, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-14 17:24:59', 'DELIVERY', 565, NULL);
+VALUES ('2024-11-07 18:15:12', 'DELIVERY', 570, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-18 08:17:28', 'DELIVERY', 567, NULL);
+VALUES ('2024-11-05 09:04:02', 'DELIVERY', 572, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-17 08:17:28', 'DELIVERY', 570, NULL);
+VALUES ('2024-11-04 15:03:40', 'DELIVERY', 575, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-12-31 14:59:12', 'DELIVERY', 575, NULL);
+VALUES ('2024-09-09 18:41:44', 'DELIVERY', 577, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-02 12:33:33', 'DELIVERY', 576, NULL);
+VALUES ('2024-12-10 15:07:16', 'DELIVERY', 578, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-13 08:02:09', 'DELIVERY', 579, NULL);
+VALUES ('2024-10-28 13:00:39', 'DELIVERY', 583, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-18 15:12:43', 'DELIVERY', 583, NULL);
+VALUES ('2024-10-29 13:00:39', 'DELIVERY', 587, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-26 09:35:27', 'DELIVERY', 584, NULL);
+VALUES ('2024-12-26 12:58:40', 'DELIVERY', 589, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-25 14:14:43', 'DELIVERY', 590, NULL);
+VALUES ('2024-10-17 15:12:24', 'DELIVERY', 590, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-15 08:44:30', 'DELIVERY', 597, NULL);
+VALUES ('2024-11-07 11:10:00', 'DELIVERY', 596, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-08-14 08:44:30', 'DELIVERY', 599, NULL);
+VALUES ('2024-09-06 16:23:31', 'DELIVERY', 598, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-01 14:43:24', 'DELIVERY', 602, NULL);
+VALUES ('2024-09-06 16:23:31', 'DELIVERY', 600, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-09-03 14:43:24', 'DELIVERY', 603, NULL);
+VALUES ('2024-09-16 15:19:48', 'DELIVERY', 602, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-19 11:16:53', 'DELIVERY', 607, NULL);
+VALUES ('2024-05-22 23:53:39', 'DELIVERY', 1204, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-30 15:04:30', 'DELIVERY', 608, NULL);
+VALUES ('2024-03-04 13:50:47', 'DELIVERY', 1209, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-28 08:30:53', 'DELIVERY', 611, NULL);
+VALUES ('2024-12-06 08:30:32', 'DELIVERY', 1216, NULL);
 INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-05-15 00:51:57', 'DELIVERY', 1306, NULL);
-INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-03-07 20:04:25', 'DELIVERY', 1314, NULL);
-INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-03-08 07:28:13', 'DELIVERY', 1316, NULL);
-INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-10-11 19:49:23', 'DELIVERY', 1320, NULL);
-INSERT INTO public.exchange (exchange_date, shipping_type, exchange_offer_id, send_book_date) 
-VALUES ('2024-11-09 08:37:43', 'DELIVERY', 1325, NULL);
+VALUES ('2024-09-07 06:58:53', 'DELIVERY', 1240, NULL);
