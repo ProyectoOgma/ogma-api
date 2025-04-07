@@ -9,6 +9,7 @@ import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.model.LiteraryRoute;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
+import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -49,8 +50,14 @@ public class LiteraryRouteMapper {
         Map<Long, Book> bookMap = desiredBooks.stream()
                 .collect(Collectors.toMap(Book::getId, book -> book));
 
+        // Determine the order of book IDs to use
+        List<Long> order = ObjectUtils.isEmpty(bookIdsOrder)
+                ? desiredBooks.stream().map(Book::getId).toList()
+                : bookIdsOrder;
+
+
         // Use the bookIdsOrder to retrieve and map the books in the correct order
-        return bookIdsOrder.stream()
+        return order.stream()
                 .map(bookMap::get)
                 .filter(Objects::nonNull)
                 .map(book -> objectMapper.convertValue(book, BookDTO.class))

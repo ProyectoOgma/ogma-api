@@ -82,7 +82,7 @@ public class Book extends Auditable{
             joinColumns = @JoinColumn(name = "id_book"),
             inverseJoinColumns = @JoinColumn(name = "id_literary_route")
     )
-    @JsonManagedReference
+    @JsonBackReference
     private Set<LiteraryRoute> literaryRoutes;
 
     @ManyToOne
@@ -107,6 +107,7 @@ public class Book extends Auditable{
     private List<StateHistory> stateHistory;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Survey> surveys;
 
 }

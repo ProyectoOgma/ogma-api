@@ -39,7 +39,7 @@ public class Survey {
 
     @ManyToOne
     @JoinColumn(name = "id_user_rated")
-    @JsonManagedReference
+    @JsonBackReference
     private User userRated;
 
     @Column(name = "user_rating", nullable = true)

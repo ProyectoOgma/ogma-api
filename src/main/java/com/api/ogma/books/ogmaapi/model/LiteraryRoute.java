@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.model;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.AbstractAuditable;
@@ -41,6 +42,7 @@ public class LiteraryRoute extends Auditable {
             joinColumns = @JoinColumn(name = "id_literary_route"),
             inverseJoinColumns = @JoinColumn(name = "id_book")
     )
+    @JsonManagedReference
     private List<Book> books;
 
     @ElementCollection
