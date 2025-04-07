@@ -59,6 +59,8 @@ public class LiteraryRouteHandler {
      */
     public List<LiteraryRouteResponse> getAllLiteraryRoutes() {
         List<LiteraryRoute> literaryRoutes = literaryRouteService.getAllLiteraryRoutes();
+        //Order literary routes by id descending (newer first)
+        literaryRoutes.sort((o1, o2) -> Long.compare(o2.getId(), o1.getId()));
         return literaryRoutes.stream()
                 .map(literaryRouteMapper::fromLiteraryRouteToResponse)
                 .peek(literaryRoute ->
