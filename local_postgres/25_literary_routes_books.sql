@@ -296,3 +296,34 @@ VALUES (30, 655);
 INSERT INTO public.literary_route_book (id_literary_route, id_book) 
 VALUES (30, 370); 
 
+-- Relaciones entre las nuevas rutas literarias y los libros
+-- Ruta 31: "Lecturas que te van a quitar el sueño" (Terror)
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (31, 1276); -- Coraline
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (31, 1277); -- La maldición de Hill House
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (31, 1278); -- El resplandor
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (31, 1279); -- El ritual
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (31, 1280); -- La casa de hojas
+
+-- Ruta 32: "Viajes a mundos imposibles" (Fantasía)
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (32, 1281); -- El castillo ambulante
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (32, 1282); -- El nombre del viento
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (32, 1283); -- Mestiza
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (32, 1284); -- Nacidos de la bruma
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (32, 1285); -- El archivo de las tormentas
+
+-- Ruta 33: "Amores para leer con el corazón en la mano" (Romance)
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (33, 1286); -- A todos los chicos de los que me enamoré
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (33, 1287); -- Yo antes de ti
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (33, 1288); -- El día que dejó de nevar en Alaska
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (33, 1289); -- It Ends With Us
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (33, 1290); -- Orgullo y prejuicio
+
+-- Ruta 34: "Donde la magia y el amor chocan" (Romantasy)
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1291); -- Una corte de rosas y espinas
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1292); -- De sangre y cenizas
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1293); -- Trono de cristal
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1294); -- Caraval
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1295); -- El príncipe cruel
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1296); -- La bruja blanca
+INSERT INTO public.literary_route_book (id_literary_route, id_book) VALUES (34, 1297); -- El priorato del naranjo
+

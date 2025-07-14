@@ -98,6 +98,17 @@ INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('New World L
 INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Lyons Press', NOW(), NOW());
 INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('VIA Folios', NOW(), NOW());
 INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Arc Manor LLC', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Bloomsbury', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Penguin Random House', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Doubleday', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Pan Macmillan', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('DAW Books', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Simon & Schuster', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Atria Books', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Planeta', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Alfaguara', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Scholastic', NOW(), NOW());
+INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Little, Brown and Company', NOW(), NOW());
 INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Serenity Publishers', NOW(), NOW());
 INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('Cosimo, Inc.', NOW(), NOW());
 INSERT INTO public.publisher (name, created_at, updated_at) VALUES ('IGI Global Snippet', NOW(), NOW());

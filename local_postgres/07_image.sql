@@ -1597,6 +1597,37 @@ INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl8.casadell
 INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl5.casadellibro.com/a/l/t5/75/9788445007075.jpg', 'El camino de dagas', 763);
 INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl2.casadellibro.com/a/l/t5/82/9788445007082.jpg', 'El corazón del invierno', 764);
 INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl9.casadellibro.com/a/l/t5/99/9788445007099.jpg', 'La rueda del tiempo', 765);
+
+-- Imágenes para los nuevos libros de las rutas literarias
+-- Ruta de Terror
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872220i/17061.jpg', 'Coraline', 1276);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'La maldición de Hill House', 1277);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353277730i/11588.jpg', 'El resplandor', 1278);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El ritual', 1279);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'La casa de hojas', 1280);
+
+-- Ruta de Fantasía
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El castillo ambulante', 1281);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El nombre del viento', 1282);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Mestiza', 1283);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Nacidos de la bruma', 1284);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El archivo de las tormentas', 1285);
+
+-- Ruta de Romance
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'A todos los chicos de los que me enamoré', 1286);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Yo antes de ti', 1287);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El día que dejó de nevar en Alaska', 1288);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'It Ends With Us', 1289);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Orgullo y prejuicio', 1290);
+
+-- Ruta de Romantasy
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Una corte de rosas y espinas', 1291);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'De sangre y cenizas', 1292);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Trono de cristal', 1293);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'Caraval', 1294);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El príncipe cruel', 1295);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'La bruja blanca', 1296);
+INSERT INTO public.image (url, alt, id_book) VALUES ('https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872634i/89717.jpg', 'El priorato del naranjo', 1296);
 INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl9.casadellibro.com/a/l/t5/29/9788445007129.jpg', 'Torres de medianoche', 766);
 INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl9.casadellibro.com/a/l/t5/39/9788445007839.jpg', 'Sombras verdes, ballena blanca', 767);
 INSERT INTO public.image (url, alt, id_book) VALUES ('https://imagessl3.casadellibro.com/a/l/t5/63/9788445008263.jpg', 'Revelations', 768);

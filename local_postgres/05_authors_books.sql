@@ -1409,3 +1409,26 @@ INSERT INTO public.book_author (id_author, id_book) VALUES (1041, 1271);
 INSERT INTO public.book_author (id_author, id_book) VALUES (1042, 1272);
 INSERT INTO public.book_author (id_author, id_book) VALUES (1043, 1273);
 INSERT INTO public.book_author (id_author, id_book) VALUES (1044, 1274);
+
+-- Relaciones entre autores y libros para las rutas literarias
+INSERT INTO public.book_author (id_author, id_book) VALUES (100, 1276);
+INSERT INTO public.book_author (id_author, id_book) VALUES (101, 1277);
+INSERT INTO public.book_author (id_author, id_book) VALUES (102, 1278);
+INSERT INTO public.book_author (id_author, id_book) VALUES (103, 1279);
+INSERT INTO public.book_author (id_author, id_book) VALUES (104, 1280);
+INSERT INTO public.book_author (id_author, id_book) VALUES (105, 1281);
+INSERT INTO public.book_author (id_author, id_book) VALUES (106, 1282);
+INSERT INTO public.book_author (id_author, id_book) VALUES (107, 1283);
+INSERT INTO public.book_author (id_author, id_book) VALUES (108, 1284);
+INSERT INTO public.book_author (id_author, id_book) VALUES (108, 1285);
+INSERT INTO public.book_author (id_author, id_book) VALUES (109, 1286);
+INSERT INTO public.book_author (id_author, id_book) VALUES (110, 1287);
+INSERT INTO public.book_author (id_author, id_book) VALUES (111, 1288);
+INSERT INTO public.book_author (id_author, id_book) VALUES (112, 1289);
+INSERT INTO public.book_author (id_author, id_book) VALUES (113, 1290);
+INSERT INTO public.book_author (id_author, id_book) VALUES (114, 1291);
+INSERT INTO public.book_author (id_author, id_book) VALUES (115, 1292);
+INSERT INTO public.book_author (id_author, id_book) VALUES (116, 1293);
+INSERT INTO public.book_author (id_author, id_book) VALUES (117, 1294);
+INSERT INTO public.book_author (id_author, id_book) VALUES (118, 1295);
+INSERT INTO public.book_author (id_author, id_book) VALUES (119, 1296);

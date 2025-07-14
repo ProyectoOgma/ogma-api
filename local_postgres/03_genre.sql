@@ -98,6 +98,13 @@ INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Mountaineering'
 INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Discoveries in geography', NOW(), NOW());
 INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Rock climbing', NOW(), NOW());
 INSERT INTO public.genre (name, created_at, updated_at) VALUES ('China', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Terror', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Horror psicológico', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Fantasía', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Fantasía épica', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Romance', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Romantasy', NOW(), NOW());
+INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Fantasía romántica', NOW(), NOW());
 INSERT INTO public.genre (name, created_at, updated_at) VALUES ('New Zealand', NOW(), NOW());
 INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Prague (Czech Republic)', NOW(), NOW());
 INSERT INTO public.genre (name, created_at, updated_at) VALUES ('Cypher, Richard (Fictitious character)', NOW(), NOW());

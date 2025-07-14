@@ -1272,3 +1272,33 @@ INSERT INTO public.book_genre (id_genre, id_book) VALUES (18, 1271);
 INSERT INTO public.book_genre (id_genre, id_book) VALUES (7, 1272);
 INSERT INTO public.book_genre (id_genre, id_book) VALUES (32, 1273);
 INSERT INTO public.book_genre (id_genre, id_book) VALUES (32, 1274);
+
+-- Relaciones entre géneros y libros para las rutas literarias
+-- Ruta de Terror
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (100, 1276);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (101, 1277);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (102, 1278);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (103, 1279);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (104, 1280);
+
+-- Ruta de Fantasía
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (102, 1281);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (102, 1282);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (107, 1283);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (102, 1284);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (102, 1285);
+
+-- Ruta de Romance
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (105, 1286);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (105, 1287);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (105, 1288);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (105, 1289);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (105, 1290);
+
+-- Ruta de Romantasy
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (106, 1291);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (106, 1292);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (106, 1293);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (106, 1294);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (106, 1295);
+INSERT INTO public.book_genre (id_genre, id_book) VALUES (106, 1296);

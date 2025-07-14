@@ -88,3 +88,16 @@ VALUES (2237, 'Derrotero de la Literatura LGBTQ+', 'Explorá obras representativ
 INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
 VALUES (1213, 'Recorrido de la Novela Gráfica y Comic', 'Explorá obras representativas y autores clave en la ruta: Recorrido de la Novela Gráfica y Comic. Una selección curada para sumergirte en este universo literario.', 5, '2025-03-24 14:20:57'); 
 
+-- Nuevas rutas literarias para las colecciones de libros
+INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
+VALUES (7354, 'Lecturas que te van a quitar el sueño', '📚 Ruta literaria de terror – del escalofrío suave al horror psicológico. Una selección curada de obras que te mantendrán despierto por las noches.', 5, '2025-12-31 23:59:59'); 
+
+INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
+VALUES (7354, 'Viajes a mundos imposibles', '🧙‍♂️ Ruta literaria de fantasía – de los cuentos mágicos a las sagas épicas. Una selección curada para transportarte a universos fantásticos.', 5, '2025-12-31 23:59:59'); 
+
+INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
+VALUES (1000, 'Amores para leer con el corazón en la mano', '💌 Ruta literaria de romance – del amor dulce al que te rompe por dentro. Una selección curada de historias de amor que te harán sentir.', 5, '2025-12-31 23:59:59'); 
+
+INSERT INTO public.literary_route (id_user, name, description, rating, created_at) 
+VALUES (2000, 'Donde la magia y el amor chocan', '🌹 Ruta literaria de romantasy – romances épicos en mundos fantásticos. Una selección curada donde el amor y la magia se encuentran.', 5, '2025-12-31 23:59:59'); 
+
