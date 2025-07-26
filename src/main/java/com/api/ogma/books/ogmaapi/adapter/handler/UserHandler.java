@@ -3,6 +3,7 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 import com.api.ogma.books.ogmaapi.adapter.mapper.UserDTOMapper;
 import com.api.ogma.books.ogmaapi.dto.domain.MunicipalityDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.ProvinceDTO;
+import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.dto.response.UserLocationResponse;
 import com.api.ogma.books.ogmaapi.dto.response.UserMetricResponse;
@@ -24,6 +25,7 @@ public class UserHandler {
     private final UserService userService;
     private final UserDTOMapper userDTOMapper;
     private final MetricService metricService;
+    private final NotificationHandler notificationHandler;
 
     public UserResponse getUser(Long id) {
         User user = userService.getUser(id);
@@ -48,6 +50,9 @@ public class UserHandler {
 
     public void updateUser(Long id, UserRequest userRequest) {
         UserDTOMapper userDTOMapper = new UserDTOMapper();
-        userService.updateUser(id, userDTOMapper.fromRequestToUserDTO(userRequest));
+        UserDTO userDTO = userDTOMapper.fromRequestToUserDTO(userRequest);
+        userDTO.setId(id); // Establecer el ID del usuario en el DTO
+        userService.updateUser(id, userDTO);
+        notificationHandler.sendAuthenticateMailNotification(userDTO);
     }
 }

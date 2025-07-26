@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>¡Verificá tu correo y comenzá tu viaje literario!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 25px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            color: #4CAF50;
+            margin: 0;
+        }
+
+        .header p {
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .content {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .content p {
+            margin: 12px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>¡Bienvenido a Ogma!</h1>
+        <p>La comunidad donde los libros encuentran nuevos hogares 📚</p>
+    </div>
+    <div class="content">
+        <p>Hola, <strong th:text="${userName}">Usuario</strong> 👋,</p>
+        <p>¡Estamos felices de tenerte en Ogma! Para comenzar a explorar, intercambiar y disfrutar de libros con otras personas amantes de la lectura como vos, primero necesitamos verificar tu dirección de correo electrónico.</p>
+        <p th:text="${message}">Por favor hacé clic en el botón de abajo para confirmar tu email.</p>
+        <div style="text-align: center;">
+            <a class="cta-button" th:href="${link}">Verificar mi correo</a>
+        </div>
+        <p style="margin-top: 30px;">Una vez verificado, vas a poder acceder a la plataforma, completar tu perfil y empezar a compartir lecturas.</p>
+    </div>
+    <div class="footer">
+        <p>Si no creaste una cuenta en Ogma, simplemente ignorá este mensaje.</p>
+    </div>
+</div>
+</body>
+</html>

@@ -4,6 +4,7 @@ package com.api.ogma.books.ogmaapi.adapter.handler;
 import com.api.ogma.books.ogmaapi.common.factory.EmailTemplateFactory;
 import com.api.ogma.books.ogmaapi.common.factory.NotificationFactory;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
+import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
@@ -75,6 +76,19 @@ public class NotificationHandler {
         }catch (Exception e) {
             log.error("Error sending new offer notification: {}", e.getMessage());
             throw new UnableToSendNotificationException("Error sending new offer notification");
+        }
+    }
+
+    public void sendAuthenticateMailNotification(UserDTO user) {
+        try {
+            NotificationDTO notification = NotificationFactory.createAuthenticateEmailNotification(user);
+            notification.setTemplateModel(EmailTemplateFactory.createAuthenticationEmailTemplate(user.getName()));
+            notification.setSubject(AUTHENTICATE_EMAIL_SUBJECT);
+            notification.setTemplatePath(AUTHENTICATE_EMAIL_TEMPLATE_PATH);
+            sendNotification(notification);
+        } catch (Exception e) {
+            log.error("Error sending authenticate mail notification: {}", e.getMessage());
+            throw new UnableToSendNotificationException("Error sending authenticate mail notification");
         }
     }
 

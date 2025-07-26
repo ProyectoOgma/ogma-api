@@ -2,6 +2,7 @@ package com.api.ogma.books.ogmaapi.common.factory;
 
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationDTO;
 import com.api.ogma.books.ogmaapi.dto.domain.NotificationType;
+import com.api.ogma.books.ogmaapi.dto.domain.UserDTO;
 import com.api.ogma.books.ogmaapi.model.Exchange;
 import com.api.ogma.books.ogmaapi.dto.response.ReceivedOfferResponse;
 import com.api.ogma.books.ogmaapi.model.ExchangeOffer;
@@ -42,6 +43,20 @@ public class NotificationFactory {
     public static NotificationDTO createExchangeAcceptedNotification(User user) {
         return NotificationDTO.builder()
                 .user(user)
+                .message("")
+                .mailable(true)
+                .type(NotificationType.INFO)
+                .build();
+    }
+
+    public static NotificationDTO createAuthenticateEmailNotification(UserDTO user) {
+        // Crear un User temporal solo con el ID para que NotificationService lo busque en la BD
+        User userEntity = User.builder()
+                .id(user.getId())
+                .email(user.getEmail())
+                .build();
+        return NotificationDTO.builder()
+                .user(userEntity)
                 .message("")
                 .mailable(true)
                 .type(NotificationType.INFO)
