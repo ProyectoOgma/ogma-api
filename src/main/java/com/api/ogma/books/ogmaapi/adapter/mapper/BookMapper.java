@@ -6,9 +6,11 @@ import com.api.ogma.books.ogmaapi.dto.response.BookResponse;
 import com.api.ogma.books.ogmaapi.model.Author;
 import com.api.ogma.books.ogmaapi.model.Image;
 import com.api.ogma.books.ogmaapi.model.Book;
+import com.api.ogma.books.ogmaapi.model.Review;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -89,6 +91,30 @@ public class BookMapper {
                 .price(bookDTO.getPrice())
                 .rating(bookDTO.getRating())
                 .reviews(bookDTO.getReviews())
+                .releaseDate(bookDTO.getReleaseDate())
+                .build();
+    }
+
+    public BookResponse fromBookDTOToResponse(BookDTO bookDTO, Collection<ReviewDTO> reviewDTOS) {
+        return BookResponse.builder()
+                .id(bookDTO.getId())
+                .title(bookDTO.getTitle())
+                .authors(bookDTO.getAuthors())
+                .publisher(bookDTO.getPublisher())
+                .genres(bookDTO.getGenres())
+                .langs(bookDTO.getLangs())
+                .synopsis(bookDTO.getSynopsis())
+                .cover(bookDTO.getCover())
+                .images(ImageDTO.from(bookDTO.getImages()))
+                .isbn(mapIsbn(bookDTO))
+                .depth(bookDTO.getDepth())
+                .height(bookDTO.getHeight())
+                .width(bookDTO.getWidth())
+                .weight(bookDTO.getWeight())
+                .pages(bookDTO.getPages())
+                .price(bookDTO.getPrice())
+                .rating(bookDTO.getRating())
+                .reviews(reviewDTOS)
                 .releaseDate(bookDTO.getReleaseDate())
                 .build();
     }
