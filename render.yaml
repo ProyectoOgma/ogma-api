@@ -1,0 +1,59 @@
+services:
+  # Tu aplicación Spring Boot
+  - type: web
+    name: ogma-api
+    env: java
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/ogma-api-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ogma-postgres
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MAIL_HOST
+        value: smtp.gmail.com
+      - key: MAIL_PORT
+        value: 587
+      - key: MAIL_USERNAME
+        sync: false
+      - key: MAIL_PASSWORD
+        sync: false
+
+  # Base de datos principal para tu aplicación
+  - type: pserv
+    name: ogma-postgres
+    env: postgresql
+    plan: free
+
+  # Base de datos para Metabase
+  - type: pserv
+    name: metabase-postgres
+    env: postgresql
+    plan: free
+
+  # Metabase
+  - type: web
+    name: metabase
+    env: docker
+    dockerfilePath: ./Dockerfile.metabase
+    envVars:
+      - key: MB_DB_TYPE
+        value: postgres
+      - key: MB_DB_DBNAME
+        value: metabase
+      - key: MB_DB_PORT
+        value: 5432
+      - key: MB_DB_USER
+        value: metabase
+      - key: MB_DB_PASS
+        fromDatabase:
+          name: metabase-postgres
+          property: password
+      - key: MB_DB_HOST
+        fromDatabase:
+          name: metabase-postgres
+          property: host 

@@ -1,0 +1,7 @@
+FROM metabase/metabase:latest
+
+# Exponer el puerto de Metabase
+EXPOSE 3000
+
+# Comando por defecto
+CMD ["/app/run_metabase.sh"] 
