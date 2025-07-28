@@ -38,5 +38,13 @@ public class EmailTemplateFactory {
         return templateModel;
     }
 
+    public static Map<String, Object> createAuthenticationEmailTemplate(String userName) {
+        Map<String, Object> templateModel = new HashMap<>();
+        templateModel.put("userName", StringUtils.capitalize(userName));
+        templateModel.put("message", "Por favor, hacé click en el link que está debajo para corroborar tu dirección de mail.");
+        templateModel.put("link", "http://localhost:3000/account-setup/complete");
+        return templateModel;
+    }
+
 
 }
