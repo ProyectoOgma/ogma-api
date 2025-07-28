@@ -14,14 +14,6 @@ services:
           property: connectionString
       - key: JWT_SECRET
         generateValue: true
-      - key: MAIL_HOST
-        value: smtp.gmail.com
-      - key: MAIL_PORT
-        value: 587
-      - key: MAIL_USERNAME
-        sync: false
-      - key: MAIL_PASSWORD
-        sync: false
 
   # Base de datos principal para tu aplicación
   - type: pserv
