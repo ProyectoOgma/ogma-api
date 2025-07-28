@@ -42,7 +42,7 @@ public class EmailTemplateFactory {
         Map<String, Object> templateModel = new HashMap<>();
         templateModel.put("userName", StringUtils.capitalize(userName));
         templateModel.put("message", "Por favor, hacé click en el link que está debajo para corroborar tu dirección de mail.");
-        templateModel.put("link", "https://example.com/authenticate"); // Replace with actual link
+        templateModel.put("link", "http://localhost:3000/account-setup/complete");
         return templateModel;
     }
 
