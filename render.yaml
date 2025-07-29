@@ -1,7 +1,7 @@
 services:
   # Tu aplicación Spring Boot
-  - type: web
-    name: ogma-api
+  - name: ogma-api
+    type: web
     env: java
     buildCommand: mvn clean package -DskipTests
     startCommand: java -jar target/ogma-api-0.0.1-SNAPSHOT.jar
@@ -16,20 +16,20 @@ services:
         generateValue: true
 
   # Base de datos principal para tu aplicación
-  - type: pserv
-    name: ogma-postgres
+  - name: ogma-postgres
+    type: pserv
     env: postgresql
     plan: free
 
   # Base de datos para Metabase
-  - type: pserv
-    name: metabase-postgres
+  - name: metabase-postgres
+    type: pserv
     env: postgresql
     plan: free
 
   # Metabase
-  - type: web
-    name: metabase
+  - name: metabase
+    type: web
     env: docker
     dockerfilePath: ./Dockerfile.metabase
     envVars:
