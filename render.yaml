@@ -2,7 +2,6 @@ services:
   # Tu aplicación Spring Boot
   - name: ogma-api
     type: web
-    runtime: java
     buildCommand: mvn clean package -DskipTests
     startCommand: java -jar target/ogma-api-0.0.1-SNAPSHOT.jar
     envVars:
