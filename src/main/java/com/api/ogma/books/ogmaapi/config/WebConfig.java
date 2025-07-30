@@ -12,7 +12,13 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Aplica a todos los endpoints
-                .allowedOriginPatterns("*","http://181.93.93.222:[*]", "181.93.93.222", "http://localhost:[*]")
+                .allowedOriginPatterns("*",
+                        "http://181.93.93.222:[*]",
+                        "181.93.93.222",
+                        "http://localhost:[*]",
+                        "https://main.d34n0i2687403.amplifyapp.com",
+                        "http://www.ogma.com.ar",
+                        "https://www.ogma.com.ar")
                 .allowedMethods("*") // Métodos permitidos
                 .allowedHeaders("*") // Permite todos los headers
                 .allowCredentials(true) // Habilita el envío de credenciales (cookies, headers autorizados, etc.)
