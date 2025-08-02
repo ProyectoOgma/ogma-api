@@ -42,7 +42,7 @@ public class EmailTemplateFactory {
         Map<String, Object> templateModel = new HashMap<>();
         templateModel.put("userName", StringUtils.capitalize(userName));
         templateModel.put("message", "Por favor, hacé click en el link que está debajo para corroborar tu dirección de mail.");
-        templateModel.put("link", "http://localhost:3000/account-setup/complete");
+        templateModel.put("link", "https://www.ogma.com.ar/account-setup/complete?auth_token_v2=5rlmjkWUZQTCZeomt80qUhLvvqAKpFGkeETSiqXteHR83qklZzJ9JjlUFS4zehl2");
         return templateModel;
     }
 
