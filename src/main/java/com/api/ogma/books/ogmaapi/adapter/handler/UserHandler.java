@@ -48,11 +48,13 @@ public class UserHandler {
         return UserResponse.from(users);
     }
 
-    public void updateUser(Long id, UserRequest userRequest) {
+    public void updateUser(Long id, UserRequest userRequest, Boolean sendMail) {
         UserDTOMapper userDTOMapper = new UserDTOMapper();
         UserDTO userDTO = userDTOMapper.fromRequestToUserDTO(userRequest);
         userDTO.setId(id); // Establecer el ID del usuario en el DTO
         userService.updateUser(id, userDTO);
-        notificationHandler.sendAuthenticateMailNotification(userDTO);
+        if (sendMail != null && sendMail) {
+            notificationHandler.sendAuthenticateMailNotification(userDTO);
+        }
     }
 }

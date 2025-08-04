@@ -4,6 +4,7 @@ import com.api.ogma.books.ogmaapi.adapter.handler.UserHandler;
 import com.api.ogma.books.ogmaapi.dto.response.UserResponse;
 import com.api.ogma.books.ogmaapi.dto.request.UserRequest;
 import com.api.ogma.books.ogmaapi.exception.UserNotValidException;
+import com.api.ogma.books.ogmaapi.model.Book;
 import com.api.ogma.books.ogmaapi.service.ValidationService;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import io.swagger.v3.oas.annotations.Operation;
@@ -59,8 +60,9 @@ public class UserController {
     })
     @PatchMapping("/{id}")
     public ResponseEntity<String> updateUser(@PathVariable Long id,
-                                             @RequestBody UserRequest userRequest)  {
-        userHandler.updateUser(id, userRequest);
+                                             @RequestBody UserRequest userRequest,
+                                             @RequestParam(defaultValue = "false", name = "send_mail") Boolean sendMail)  {
+        userHandler.updateUser(id, userRequest, sendMail);
         return new ResponseEntity<>("Usuario actualizado correctamente", HttpStatus.OK);
     }
 
